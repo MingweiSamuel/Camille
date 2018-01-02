@@ -1,17 +1,15 @@
 ﻿using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace MingweiSamuel.Camille
 {
-    public class Class1
+    public struct Class1
     {
-        void test()
-        {
-            using (var httpClient = new HttpClient())
-            {
-                var json = httpClient.GetStringAsync("url").Result;
+        public int Asdf;
+    }
 
-                // Now parse with JSON.Net
-            }
-        }
+    public struct Class2
+    {
+        public Class1 Qwer;
     }
 }

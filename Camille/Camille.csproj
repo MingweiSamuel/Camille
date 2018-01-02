@@ -5,19 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="DataObjects.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>DataObjects.tt</DependentUpon>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="DataObjects.tt">
+    <None Update="gen\DataObjects.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DataObjects.cs</LastGenOutput>
     </None>
@@ -28,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="DataObjects.cs">
+    <Compile Update="gen\DataObjects.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>DataObjects.tt</DependentUpon>
@@ -51,6 +43,6 @@
   </UsingTask>
   <Target Name="DownloadSpec" BeforeTargets="Build">
     <Message Text="Downloading openapi spec." />
-    <DownloadFile Address="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json" FileName=".spec.json" />
+    <DownloadFile Address="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json" FileName="gen\.spec.json" />
   </Target>
 </Project>
