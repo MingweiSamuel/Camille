@@ -4,6 +4,7 @@
 // Version 8d39db9a064557788d3d967fab2237638af4ee43
 
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 #region data objects
 
@@ -13,14 +14,39 @@ namespace MingweiSamuel.Camille.ChampionMastery
     /// This object contains single Champion Mastery information for player and champion combination.
     public struct ChampionMastery
     {
-        public bool ChestGranted;
-        public int ChampionLevel;
-        public int ChampionPoints;
-        public long ChampionId;
-        public long PlayerId;
-        public long ChampionPointsUntilNextLevel;
-        public long ChampionPointsSinceLastLevel;
-        public long LastPlayTime;
+        public ChampionMastery([JsonProperty("chestGranted")] bool chestGranted,
+                [JsonProperty("championLevel")] int championLevel,
+                [JsonProperty("championPoints")] int championPoints,
+                [JsonProperty("championId")] long championId,
+                [JsonProperty("playerId")] long playerId,
+                [JsonProperty("championPointsUntilNextLevel")] long championPointsUntilNextLevel,
+                [JsonProperty("championPointsSinceLastLevel")] long championPointsSinceLastLevel,
+                [JsonProperty("lastPlayTime")] long lastPlayTime) {
+            ChestGranted = chestGranted;
+            ChampionLevel = championLevel;
+            ChampionPoints = championPoints;
+            ChampionId = championId;
+            PlayerId = playerId;
+            ChampionPointsUntilNextLevel = championPointsUntilNextLevel;
+            ChampionPointsSinceLastLevel = championPointsSinceLastLevel;
+            LastPlayTime = lastPlayTime;
+        }
+        [JsonProperty("chestGranted")]
+        public readonly bool ChestGranted;
+        [JsonProperty("championLevel")]
+        public readonly int ChampionLevel;
+        [JsonProperty("championPoints")]
+        public readonly int ChampionPoints;
+        [JsonProperty("championId")]
+        public readonly long ChampionId;
+        [JsonProperty("playerId")]
+        public readonly long PlayerId;
+        [JsonProperty("championPointsUntilNextLevel")]
+        public readonly long ChampionPointsUntilNextLevel;
+        [JsonProperty("championPointsSinceLastLevel")]
+        public readonly long ChampionPointsSinceLastLevel;
+        [JsonProperty("lastPlayTime")]
+        public readonly long LastPlayTime;
     }
 }
 
@@ -28,9 +54,13 @@ namespace MingweiSamuel.Camille.ChampionMastery
 namespace MingweiSamuel.Camille.Champion
 {
     /// This object contains a collection of champion information.
-    public struct ChampionListDto
+    public struct ChampionList
     {
-        public ChampionDto[] Champions;
+        public ChampionList([JsonProperty("champions")] Champion[] champions) {
+            Champions = champions;
+        }
+        [JsonProperty("champions")]
+        public readonly Champion[] Champions;
     }
 }
 
@@ -38,14 +68,33 @@ namespace MingweiSamuel.Camille.Champion
 namespace MingweiSamuel.Camille.Champion
 {
     /// This object contains champion information.
-    public struct ChampionDto
+    public struct Champion
     {
-        public bool RankedPlayEnabled;
-        public bool BotEnabled;
-        public bool BotMmEnabled;
-        public bool Active;
-        public bool FreeToPlay;
-        public long Id;
+        public Champion([JsonProperty("rankedPlayEnabled")] bool rankedPlayEnabled,
+                [JsonProperty("botEnabled")] bool botEnabled,
+                [JsonProperty("botMmEnabled")] bool botMmEnabled,
+                [JsonProperty("active")] bool active,
+                [JsonProperty("freeToPlay")] bool freeToPlay,
+                [JsonProperty("id")] long id) {
+            RankedPlayEnabled = rankedPlayEnabled;
+            BotEnabled = botEnabled;
+            BotMmEnabled = botMmEnabled;
+            Active = active;
+            FreeToPlay = freeToPlay;
+            Id = id;
+        }
+        [JsonProperty("rankedPlayEnabled")]
+        public readonly bool RankedPlayEnabled;
+        [JsonProperty("botEnabled")]
+        public readonly bool BotEnabled;
+        [JsonProperty("botMmEnabled")]
+        public readonly bool BotMmEnabled;
+        [JsonProperty("active")]
+        public readonly bool Active;
+        [JsonProperty("freeToPlay")]
+        public readonly bool FreeToPlay;
+        [JsonProperty("id")]
+        public readonly long Id;
     }
 }
 
@@ -54,11 +103,27 @@ namespace MingweiSamuel.Camille.League
 {
     public struct LeagueList
     {
-        public string LeagueId;
-        public string Tier;
-        public LeaguePosition[] Entries;
-        public string Queue;
-        public string Name;
+        public LeagueList([JsonProperty("leagueId")] string leagueId,
+                [JsonProperty("tier")] string tier,
+                [JsonProperty("entries")] LeaguePosition[] entries,
+                [JsonProperty("queue")] string queue,
+                [JsonProperty("name")] string name) {
+            LeagueId = leagueId;
+            Tier = tier;
+            Entries = entries;
+            Queue = queue;
+            Name = name;
+        }
+        [JsonProperty("leagueId")]
+        public readonly string LeagueId;
+        [JsonProperty("tier")]
+        public readonly string Tier;
+        [JsonProperty("entries")]
+        public readonly LeaguePosition[] Entries;
+        [JsonProperty("queue")]
+        public readonly string Queue;
+        [JsonProperty("name")]
+        public readonly string Name;
     }
 }
 
@@ -67,10 +132,23 @@ namespace MingweiSamuel.Camille.League
 {
     public struct MiniSeries
     {
-        public int Wins;
-        public int Losses;
-        public int Target;
-        public string Progress;
+        public MiniSeries([JsonProperty("wins")] int wins,
+                [JsonProperty("losses")] int losses,
+                [JsonProperty("target")] int target,
+                [JsonProperty("progress")] string progress) {
+            Wins = wins;
+            Losses = losses;
+            Target = target;
+            Progress = progress;
+        }
+        [JsonProperty("wins")]
+        public readonly int Wins;
+        [JsonProperty("losses")]
+        public readonly int Losses;
+        [JsonProperty("target")]
+        public readonly int Target;
+        [JsonProperty("progress")]
+        public readonly string Progress;
     }
 }
 
@@ -79,21 +157,67 @@ namespace MingweiSamuel.Camille.League
 {
     public struct LeaguePosition
     {
-        public string Rank;
-        public string QueueType;
-        public bool HotStreak;
-        public MiniSeries MiniSeries;
-        public int Wins;
-        public bool Veteran;
-        public int Losses;
-        public bool FreshBlood;
-        public string LeagueId;
-        public string PlayerOrTeamName;
-        public bool Inactive;
-        public string PlayerOrTeamId;
-        public string LeagueName;
-        public string Tier;
-        public int LeaguePoints;
+        public LeaguePosition([JsonProperty("rank")] string rank,
+                [JsonProperty("queueType")] string queueType,
+                [JsonProperty("hotStreak")] bool hotStreak,
+                [JsonProperty("miniSeries")] MiniSeries miniSeries,
+                [JsonProperty("wins")] int wins,
+                [JsonProperty("veteran")] bool veteran,
+                [JsonProperty("losses")] int losses,
+                [JsonProperty("freshBlood")] bool freshBlood,
+                [JsonProperty("leagueId")] string leagueId,
+                [JsonProperty("playerOrTeamName")] string playerOrTeamName,
+                [JsonProperty("inactive")] bool inactive,
+                [JsonProperty("playerOrTeamId")] string playerOrTeamId,
+                [JsonProperty("leagueName")] string leagueName,
+                [JsonProperty("tier")] string tier,
+                [JsonProperty("leaguePoints")] int leaguePoints) {
+            Rank = rank;
+            QueueType = queueType;
+            HotStreak = hotStreak;
+            MiniSeries = miniSeries;
+            Wins = wins;
+            Veteran = veteran;
+            Losses = losses;
+            FreshBlood = freshBlood;
+            LeagueId = leagueId;
+            PlayerOrTeamName = playerOrTeamName;
+            Inactive = inactive;
+            PlayerOrTeamId = playerOrTeamId;
+            LeagueName = leagueName;
+            Tier = tier;
+            LeaguePoints = leaguePoints;
+        }
+        [JsonProperty("rank")]
+        public readonly string Rank;
+        [JsonProperty("queueType")]
+        public readonly string QueueType;
+        [JsonProperty("hotStreak")]
+        public readonly bool HotStreak;
+        [JsonProperty("miniSeries")]
+        public readonly MiniSeries MiniSeries;
+        [JsonProperty("wins")]
+        public readonly int Wins;
+        [JsonProperty("veteran")]
+        public readonly bool Veteran;
+        [JsonProperty("losses")]
+        public readonly int Losses;
+        [JsonProperty("freshBlood")]
+        public readonly bool FreshBlood;
+        [JsonProperty("leagueId")]
+        public readonly string LeagueId;
+        [JsonProperty("playerOrTeamName")]
+        public readonly string PlayerOrTeamName;
+        [JsonProperty("inactive")]
+        public readonly bool Inactive;
+        [JsonProperty("playerOrTeamId")]
+        public readonly string PlayerOrTeamId;
+        [JsonProperty("leagueName")]
+        public readonly string LeagueName;
+        [JsonProperty("tier")]
+        public readonly string Tier;
+        [JsonProperty("leaguePoints")]
+        public readonly int LeaguePoints;
     }
 }
 
@@ -101,13 +225,29 @@ namespace MingweiSamuel.Camille.League
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion list data.
-    public struct ChampionListDto
+    public struct ChampionList
     {
-        public IDictionary<string, string> Keys;
-        public IDictionary<string, ChampionDto> Data;
-        public string Version;
-        public string Type;
-        public string Format;
+        public ChampionList([JsonProperty("keys")] IDictionary<string, string> keys,
+                [JsonProperty("data")] IDictionary<string, Champion> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type,
+                [JsonProperty("format")] string format) {
+            Keys = keys;
+            Data = data;
+            Version = version;
+            Type = type;
+            Format = format;
+        }
+        [JsonProperty("keys")]
+        public readonly IDictionary<string, string> Keys;
+        [JsonProperty("data")]
+        public readonly IDictionary<string, Champion> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
+        [JsonProperty("format")]
+        public readonly string Format;
     }
 }
 
@@ -115,25 +255,77 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion data.
-    public struct ChampionDto
+    public struct Champion
     {
-        public InfoDto Info;
-        public string[] Enemytips;
-        public StatsDto Stats;
-        public string Name;
-        public string Title;
-        public ImageDto Image;
-        public string[] Tags;
-        public string Partype;
-        public SkinDto[] Skins;
-        public PassiveDto Passive;
-        public RecommendedDto[] Recommended;
-        public string[] Allytips;
-        public string Key;
-        public string Lore;
-        public int Id;
-        public string Blurb;
-        public ChampionSpellDto[] Spells;
+        public Champion([JsonProperty("info")] Info info,
+                [JsonProperty("enemytips")] string[] enemytips,
+                [JsonProperty("stats")] Stats stats,
+                [JsonProperty("name")] string name,
+                [JsonProperty("title")] string title,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("tags")] string[] tags,
+                [JsonProperty("partype")] string partype,
+                [JsonProperty("skins")] Skin[] skins,
+                [JsonProperty("passive")] Passive passive,
+                [JsonProperty("recommended")] Recommended[] recommended,
+                [JsonProperty("allytips")] string[] allytips,
+                [JsonProperty("key")] string key,
+                [JsonProperty("lore")] string lore,
+                [JsonProperty("id")] int id,
+                [JsonProperty("blurb")] string blurb,
+                [JsonProperty("spells")] ChampionSpell[] spells) {
+            Info = info;
+            Enemytips = enemytips;
+            Stats = stats;
+            Name = name;
+            Title = title;
+            Image = image;
+            Tags = tags;
+            Partype = partype;
+            Skins = skins;
+            Passive = passive;
+            Recommended = recommended;
+            Allytips = allytips;
+            Key = key;
+            Lore = lore;
+            Id = id;
+            Blurb = blurb;
+            Spells = spells;
+        }
+        [JsonProperty("info")]
+        public readonly Info Info;
+        [JsonProperty("enemytips")]
+        public readonly string[] Enemytips;
+        [JsonProperty("stats")]
+        public readonly Stats Stats;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("title")]
+        public readonly string Title;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("tags")]
+        public readonly string[] Tags;
+        [JsonProperty("partype")]
+        public readonly string Partype;
+        [JsonProperty("skins")]
+        public readonly Skin[] Skins;
+        [JsonProperty("passive")]
+        public readonly Passive Passive;
+        [JsonProperty("recommended")]
+        public readonly Recommended[] Recommended;
+        [JsonProperty("allytips")]
+        public readonly string[] Allytips;
+        [JsonProperty("key")]
+        public readonly string Key;
+        [JsonProperty("lore")]
+        public readonly string Lore;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("blurb")]
+        public readonly string Blurb;
+        [JsonProperty("spells")]
+        public readonly ChampionSpell[] Spells;
     }
 }
 
@@ -141,12 +333,25 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion information.
-    public struct InfoDto
+    public struct Info
     {
-        public int Difficulty;
-        public int Attack;
-        public int Defense;
-        public int Magic;
+        public Info([JsonProperty("difficulty")] int difficulty,
+                [JsonProperty("attack")] int attack,
+                [JsonProperty("defense")] int defense,
+                [JsonProperty("magic")] int magic) {
+            Difficulty = difficulty;
+            Attack = attack;
+            Defense = defense;
+            Magic = magic;
+        }
+        [JsonProperty("difficulty")]
+        public readonly int Difficulty;
+        [JsonProperty("attack")]
+        public readonly int Attack;
+        [JsonProperty("defense")]
+        public readonly int Defense;
+        [JsonProperty("magic")]
+        public readonly int Magic;
     }
 }
 
@@ -154,28 +359,89 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion stats data.
-    public struct StatsDto
+    public struct Stats
     {
-        public double Armorperlevel;
-        public double Hpperlevel;
-        public double Attackdamage;
-        public double Mpperlevel;
-        public double Attackspeedoffset;
-        public double Armor;
-        public double Hp;
-        public double Hpregenperlevel;
-        public double Spellblock;
-        public double Attackrange;
-        public double Movespeed;
-        public double Attackdamageperlevel;
-        public double Mpregenperlevel;
-        public double Mp;
-        public double Spellblockperlevel;
-        public double Crit;
-        public double Mpregen;
-        public double Attackspeedperlevel;
-        public double Hpregen;
-        public double Critperlevel;
+        public Stats([JsonProperty("armorperlevel")] double armorperlevel,
+                [JsonProperty("hpperlevel")] double hpperlevel,
+                [JsonProperty("attackdamage")] double attackdamage,
+                [JsonProperty("mpperlevel")] double mpperlevel,
+                [JsonProperty("attackspeedoffset")] double attackspeedoffset,
+                [JsonProperty("armor")] double armor,
+                [JsonProperty("hp")] double hp,
+                [JsonProperty("hpregenperlevel")] double hpregenperlevel,
+                [JsonProperty("spellblock")] double spellblock,
+                [JsonProperty("attackrange")] double attackrange,
+                [JsonProperty("movespeed")] double movespeed,
+                [JsonProperty("attackdamageperlevel")] double attackdamageperlevel,
+                [JsonProperty("mpregenperlevel")] double mpregenperlevel,
+                [JsonProperty("mp")] double mp,
+                [JsonProperty("spellblockperlevel")] double spellblockperlevel,
+                [JsonProperty("crit")] double crit,
+                [JsonProperty("mpregen")] double mpregen,
+                [JsonProperty("attackspeedperlevel")] double attackspeedperlevel,
+                [JsonProperty("hpregen")] double hpregen,
+                [JsonProperty("critperlevel")] double critperlevel) {
+            Armorperlevel = armorperlevel;
+            Hpperlevel = hpperlevel;
+            Attackdamage = attackdamage;
+            Mpperlevel = mpperlevel;
+            Attackspeedoffset = attackspeedoffset;
+            Armor = armor;
+            Hp = hp;
+            Hpregenperlevel = hpregenperlevel;
+            Spellblock = spellblock;
+            Attackrange = attackrange;
+            Movespeed = movespeed;
+            Attackdamageperlevel = attackdamageperlevel;
+            Mpregenperlevel = mpregenperlevel;
+            Mp = mp;
+            Spellblockperlevel = spellblockperlevel;
+            Crit = crit;
+            Mpregen = mpregen;
+            Attackspeedperlevel = attackspeedperlevel;
+            Hpregen = hpregen;
+            Critperlevel = critperlevel;
+        }
+        [JsonProperty("armorperlevel")]
+        public readonly double Armorperlevel;
+        [JsonProperty("hpperlevel")]
+        public readonly double Hpperlevel;
+        [JsonProperty("attackdamage")]
+        public readonly double Attackdamage;
+        [JsonProperty("mpperlevel")]
+        public readonly double Mpperlevel;
+        [JsonProperty("attackspeedoffset")]
+        public readonly double Attackspeedoffset;
+        [JsonProperty("armor")]
+        public readonly double Armor;
+        [JsonProperty("hp")]
+        public readonly double Hp;
+        [JsonProperty("hpregenperlevel")]
+        public readonly double Hpregenperlevel;
+        [JsonProperty("spellblock")]
+        public readonly double Spellblock;
+        [JsonProperty("attackrange")]
+        public readonly double Attackrange;
+        [JsonProperty("movespeed")]
+        public readonly double Movespeed;
+        [JsonProperty("attackdamageperlevel")]
+        public readonly double Attackdamageperlevel;
+        [JsonProperty("mpregenperlevel")]
+        public readonly double Mpregenperlevel;
+        [JsonProperty("mp")]
+        public readonly double Mp;
+        [JsonProperty("spellblockperlevel")]
+        public readonly double Spellblockperlevel;
+        [JsonProperty("crit")]
+        public readonly double Crit;
+        [JsonProperty("mpregen")]
+        public readonly double Mpregen;
+        [JsonProperty("attackspeedperlevel")]
+        public readonly double Attackspeedperlevel;
+        [JsonProperty("hpregen")]
+        public readonly double Hpregen;
+        [JsonProperty("critperlevel")]
+        public readonly double Critperlevel;
     }
 }
 
@@ -183,15 +449,37 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains image data.
-    public struct ImageDto
+    public struct Image
     {
-        public string Full;
-        public string Group;
-        public string Sprite;
-        public int H;
-        public int W;
-        public int Y;
-        public int X;
+        public Image([JsonProperty("full")] string full,
+                [JsonProperty("group")] string group,
+                [JsonProperty("sprite")] string sprite,
+                [JsonProperty("h")] int h,
+                [JsonProperty("w")] int w,
+                [JsonProperty("y")] int y,
+                [JsonProperty("x")] int x) {
+            Full = full;
+            Group = group;
+            Sprite = sprite;
+            H = h;
+            W = w;
+            Y = y;
+            X = x;
+        }
+        [JsonProperty("full")]
+        public readonly string Full;
+        [JsonProperty("group")]
+        public readonly string Group;
+        [JsonProperty("sprite")]
+        public readonly string Sprite;
+        [JsonProperty("h")]
+        public readonly int H;
+        [JsonProperty("w")]
+        public readonly int W;
+        [JsonProperty("y")]
+        public readonly int Y;
+        [JsonProperty("x")]
+        public readonly int X;
     }
 }
 
@@ -199,11 +487,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion skin data.
-    public struct SkinDto
+    public struct Skin
     {
-        public int Num;
-        public string Name;
-        public int Id;
+        public Skin([JsonProperty("num")] int num,
+                [JsonProperty("name")] string name,
+                [JsonProperty("id")] int id) {
+            Num = num;
+            Name = name;
+            Id = id;
+        }
+        [JsonProperty("num")]
+        public readonly int Num;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("id")]
+        public readonly int Id;
     }
 }
 
@@ -211,12 +509,25 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion passive data.
-    public struct PassiveDto
+    public struct Passive
     {
-        public ImageDto Image;
-        public string SanitizedDescription;
-        public string Name;
-        public string Description;
+        public Passive([JsonProperty("image")] Image image,
+                [JsonProperty("sanitizedDescription")] string sanitizedDescription,
+                [JsonProperty("name")] string name,
+                [JsonProperty("description")] string description) {
+            Image = image;
+            SanitizedDescription = sanitizedDescription;
+            Name = name;
+            Description = description;
+        }
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string SanitizedDescription;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("description")]
+        public readonly string Description;
     }
 }
 
@@ -224,15 +535,37 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion recommended data.
-    public struct RecommendedDto
+    public struct Recommended
     {
-        public string Map;
-        public BlockDto[] Blocks;
-        public string Champion;
-        public string Title;
-        public bool Priority;
-        public string Mode;
-        public string Type;
+        public Recommended([JsonProperty("map")] string map,
+                [JsonProperty("blocks")] Block[] blocks,
+                [JsonProperty("champion")] string champion,
+                [JsonProperty("title")] string title,
+                [JsonProperty("priority")] bool priority,
+                [JsonProperty("mode")] string mode,
+                [JsonProperty("type")] string type) {
+            Map = map;
+            Blocks = blocks;
+            Champion = champion;
+            Title = title;
+            Priority = priority;
+            Mode = mode;
+            Type = type;
+        }
+        [JsonProperty("map")]
+        public readonly string Map;
+        [JsonProperty("blocks")]
+        public readonly Block[] Blocks;
+        [JsonProperty("champion")]
+        public readonly string Champion;
+        [JsonProperty("title")]
+        public readonly string Title;
+        [JsonProperty("priority")]
+        public readonly bool Priority;
+        [JsonProperty("mode")]
+        public readonly string Mode;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -240,11 +573,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion recommended block data.
-    public struct BlockDto
+    public struct Block
     {
-        public BlockItemDto[] Items;
-        public bool RecMath;
-        public string Type;
+        public Block([JsonProperty("items")] BlockItem[] items,
+                [JsonProperty("recMath")] bool recMath,
+                [JsonProperty("type")] string type) {
+            Items = items;
+            RecMath = recMath;
+            Type = type;
+        }
+        [JsonProperty("items")]
+        public readonly BlockItem[] Items;
+        [JsonProperty("recMath")]
+        public readonly bool RecMath;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -252,10 +595,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion recommended block item data.
-    public struct BlockItemDto
+    public struct BlockItem
     {
-        public int Count;
-        public int Id;
+        public BlockItem([JsonProperty("count")] int count,
+                [JsonProperty("id")] int id) {
+            Count = count;
+            Id = id;
+        }
+        [JsonProperty("count")]
+        public readonly int Count;
+        [JsonProperty("id")]
+        public readonly int Id;
     }
 }
 
@@ -263,29 +613,93 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion spell data.
-    public struct ChampionSpellDto
+    public struct ChampionSpell
     {
-        public string CooldownBurn;
-        public string Resource;
-        public LevelTipDto Leveltip;
-        public SpellVarsDto[] Vars;
-        public string CostType;
-        public ImageDto Image;
-        public string SanitizedDescription;
-        public string SanitizedTooltip;
-        public double[][] Effect;
-        public string Tooltip;
-        public int Maxrank;
-        public string CostBurn;
-        public string RangeBurn;
-        public int[] Range;
-        public double[] Cooldown;
-        public int[] Cost;
-        public string Key;
-        public string Description;
-        public string[] EffectBurn;
-        public ImageDto[] Altimages;
-        public string Name;
+        public ChampionSpell([JsonProperty("cooldownBurn")] string cooldownBurn,
+                [JsonProperty("resource")] string resource,
+                [JsonProperty("leveltip")] LevelTip leveltip,
+                [JsonProperty("vars")] SpellVars[] vars,
+                [JsonProperty("costType")] string costType,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("sanitizedDescription")] string sanitizedDescription,
+                [JsonProperty("sanitizedTooltip")] string sanitizedTooltip,
+                [JsonProperty("effect")] double[][] effect,
+                [JsonProperty("tooltip")] string tooltip,
+                [JsonProperty("maxrank")] int maxrank,
+                [JsonProperty("costBurn")] string costBurn,
+                [JsonProperty("rangeBurn")] string rangeBurn,
+                [JsonProperty("range")] int[] range,
+                [JsonProperty("cooldown")] double[] cooldown,
+                [JsonProperty("cost")] int[] cost,
+                [JsonProperty("key")] string key,
+                [JsonProperty("description")] string description,
+                [JsonProperty("effectBurn")] string[] effectBurn,
+                [JsonProperty("altimages")] Image[] altimages,
+                [JsonProperty("name")] string name) {
+            CooldownBurn = cooldownBurn;
+            Resource = resource;
+            Leveltip = leveltip;
+            Vars = vars;
+            CostType = costType;
+            Image = image;
+            SanitizedDescription = sanitizedDescription;
+            SanitizedTooltip = sanitizedTooltip;
+            Effect = effect;
+            Tooltip = tooltip;
+            Maxrank = maxrank;
+            CostBurn = costBurn;
+            RangeBurn = rangeBurn;
+            Range = range;
+            Cooldown = cooldown;
+            Cost = cost;
+            Key = key;
+            Description = description;
+            EffectBurn = effectBurn;
+            Altimages = altimages;
+            Name = name;
+        }
+        [JsonProperty("cooldownBurn")]
+        public readonly string CooldownBurn;
+        [JsonProperty("resource")]
+        public readonly string Resource;
+        [JsonProperty("leveltip")]
+        public readonly LevelTip Leveltip;
+        [JsonProperty("vars")]
+        public readonly SpellVars[] Vars;
+        [JsonProperty("costType")]
+        public readonly string CostType;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string SanitizedDescription;
+        [JsonProperty("sanitizedTooltip")]
+        public readonly string SanitizedTooltip;
+        [JsonProperty("effect")]
+        public readonly double[][] Effect;
+        [JsonProperty("tooltip")]
+        public readonly string Tooltip;
+        [JsonProperty("maxrank")]
+        public readonly int Maxrank;
+        [JsonProperty("costBurn")]
+        public readonly string CostBurn;
+        [JsonProperty("rangeBurn")]
+        public readonly string RangeBurn;
+        [JsonProperty("range")]
+        public readonly int[] Range;
+        [JsonProperty("cooldown")]
+        public readonly double[] Cooldown;
+        [JsonProperty("cost")]
+        public readonly int[] Cost;
+        [JsonProperty("key")]
+        public readonly string Key;
+        [JsonProperty("description")]
+        public readonly string Description;
+        [JsonProperty("effectBurn")]
+        public readonly string[] EffectBurn;
+        [JsonProperty("altimages")]
+        public readonly Image[] Altimages;
+        [JsonProperty("name")]
+        public readonly string Name;
     }
 }
 
@@ -293,10 +707,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains champion level tip data.
-    public struct LevelTipDto
+    public struct LevelTip
     {
-        public string[] Effect;
-        public string[] Label;
+        public LevelTip([JsonProperty("effect")] string[] effect,
+                [JsonProperty("label")] string[] label) {
+            Effect = effect;
+            Label = label;
+        }
+        [JsonProperty("effect")]
+        public readonly string[] Effect;
+        [JsonProperty("label")]
+        public readonly string[] Label;
     }
 }
 
@@ -304,13 +725,29 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains spell vars data.
-    public struct SpellVarsDto
+    public struct SpellVars
     {
-        public string RanksWith;
-        public string Dyn;
-        public string Link;
-        public double[] Coeff;
-        public string Key;
+        public SpellVars([JsonProperty("ranksWith")] string ranksWith,
+                [JsonProperty("dyn")] string dyn,
+                [JsonProperty("link")] string link,
+                [JsonProperty("coeff")] double[] coeff,
+                [JsonProperty("key")] string key) {
+            RanksWith = ranksWith;
+            Dyn = dyn;
+            Link = link;
+            Coeff = coeff;
+            Key = key;
+        }
+        [JsonProperty("ranksWith")]
+        public readonly string RanksWith;
+        [JsonProperty("dyn")]
+        public readonly string Dyn;
+        [JsonProperty("link")]
+        public readonly string Link;
+        [JsonProperty("coeff")]
+        public readonly double[] Coeff;
+        [JsonProperty("key")]
+        public readonly string Key;
     }
 }
 
@@ -318,13 +755,29 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains item list data.
-    public struct ItemListDto
+    public struct ItemList
     {
-        public IDictionary<string, ItemDto> Data;
-        public string Version;
-        public ItemTreeDto[] Tree;
-        public GroupDto[] Groups;
-        public string Type;
+        public ItemList([JsonProperty("data")] IDictionary<string, Item> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("tree")] ItemTree[] tree,
+                [JsonProperty("groups")] Group[] groups,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Tree = tree;
+            Groups = groups;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, Item> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("tree")]
+        public readonly ItemTree[] Tree;
+        [JsonProperty("groups")]
+        public readonly Group[] Groups;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -332,10 +785,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains item tree data.
-    public struct ItemTreeDto
+    public struct ItemTree
     {
-        public string Header;
-        public string[] Tags;
+        public ItemTree([JsonProperty("header")] string header,
+                [JsonProperty("tags")] string[] tags) {
+            Header = header;
+            Tags = tags;
+        }
+        [JsonProperty("header")]
+        public readonly string Header;
+        [JsonProperty("tags")]
+        public readonly string[] Tags;
     }
 }
 
@@ -343,31 +803,101 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains item data.
-    public struct ItemDto
+    public struct Item
     {
-        public GoldDto Gold;
-        public string Plaintext;
-        public bool HideFromAll;
-        public bool InStore;
-        public string[] Into;
-        public int Id;
-        public InventoryDataStatsDto Stats;
-        public string Colloq;
-        public IDictionary<string, bool> Maps;
-        public int SpecialRecipe;
-        public ImageDto Image;
-        public string Description;
-        public string[] Tags;
-        public IDictionary<string, string> Effect;
-        public string RequiredChampion;
-        public string[] From;
-        public string Group;
-        public bool ConsumeOnFull;
-        public string Name;
-        public bool Consumed;
-        public string SanitizedDescription;
-        public int Depth;
-        public int Stacks;
+        public Item([JsonProperty("gold")] Gold gold,
+                [JsonProperty("plaintext")] string plaintext,
+                [JsonProperty("hideFromAll")] bool hideFromAll,
+                [JsonProperty("inStore")] bool inStore,
+                [JsonProperty("into")] string[] into,
+                [JsonProperty("id")] int id,
+                [JsonProperty("stats")] InventoryDataStats stats,
+                [JsonProperty("colloq")] string colloq,
+                [JsonProperty("maps")] IDictionary<string, bool> maps,
+                [JsonProperty("specialRecipe")] int specialRecipe,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("description")] string description,
+                [JsonProperty("tags")] string[] tags,
+                [JsonProperty("effect")] IDictionary<string, string> effect,
+                [JsonProperty("requiredChampion")] string requiredChampion,
+                [JsonProperty("from")] string[] from,
+                [JsonProperty("group")] string group,
+                [JsonProperty("consumeOnFull")] bool consumeOnFull,
+                [JsonProperty("name")] string name,
+                [JsonProperty("consumed")] bool consumed,
+                [JsonProperty("sanitizedDescription")] string sanitizedDescription,
+                [JsonProperty("depth")] int depth,
+                [JsonProperty("stacks")] int stacks) {
+            Gold = gold;
+            Plaintext = plaintext;
+            HideFromAll = hideFromAll;
+            InStore = inStore;
+            Into = into;
+            Id = id;
+            Stats = stats;
+            Colloq = colloq;
+            Maps = maps;
+            SpecialRecipe = specialRecipe;
+            Image = image;
+            Description = description;
+            Tags = tags;
+            Effect = effect;
+            RequiredChampion = requiredChampion;
+            From = from;
+            Group = group;
+            ConsumeOnFull = consumeOnFull;
+            Name = name;
+            Consumed = consumed;
+            SanitizedDescription = sanitizedDescription;
+            Depth = depth;
+            Stacks = stacks;
+        }
+        [JsonProperty("gold")]
+        public readonly Gold Gold;
+        [JsonProperty("plaintext")]
+        public readonly string Plaintext;
+        [JsonProperty("hideFromAll")]
+        public readonly bool HideFromAll;
+        [JsonProperty("inStore")]
+        public readonly bool InStore;
+        [JsonProperty("into")]
+        public readonly string[] Into;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("stats")]
+        public readonly InventoryDataStats Stats;
+        [JsonProperty("colloq")]
+        public readonly string Colloq;
+        [JsonProperty("maps")]
+        public readonly IDictionary<string, bool> Maps;
+        [JsonProperty("specialRecipe")]
+        public readonly int SpecialRecipe;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("description")]
+        public readonly string Description;
+        [JsonProperty("tags")]
+        public readonly string[] Tags;
+        [JsonProperty("effect")]
+        public readonly IDictionary<string, string> Effect;
+        [JsonProperty("requiredChampion")]
+        public readonly string RequiredChampion;
+        [JsonProperty("from")]
+        public readonly string[] From;
+        [JsonProperty("group")]
+        public readonly string Group;
+        [JsonProperty("consumeOnFull")]
+        public readonly bool ConsumeOnFull;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("consumed")]
+        public readonly bool Consumed;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string SanitizedDescription;
+        [JsonProperty("depth")]
+        public readonly int Depth;
+        [JsonProperty("stacks")]
+        public readonly int Stacks;
     }
 }
 
@@ -375,12 +905,25 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains item gold data.
-    public struct GoldDto
+    public struct Gold
     {
-        public int Sell;
-        public int Total;
-        public int Base;
-        public bool Purchasable;
+        public Gold([JsonProperty("sell")] int sell,
+                [JsonProperty("total")] int total,
+                [JsonProperty("base")] int Base,
+                [JsonProperty("purchasable")] bool purchasable) {
+            Sell = sell;
+            Total = total;
+            this.Base = Base;
+            Purchasable = purchasable;
+        }
+        [JsonProperty("sell")]
+        public readonly int Sell;
+        [JsonProperty("total")]
+        public readonly int Total;
+        [JsonProperty("base")]
+        public readonly int Base;
+        [JsonProperty("purchasable")]
+        public readonly bool Purchasable;
     }
 }
 
@@ -388,41 +931,141 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains stats for inventory (e.g., runes and items).
-    public struct InventoryDataStatsDto
+    public struct InventoryDataStats
     {
-        public double PercentCritDamageMod;
-        public double PercentSpellBlockMod;
-        public double PercentHPRegenMod;
-        public double PercentMovementSpeedMod;
-        public double FlatSpellBlockMod;
-        public double FlatCritDamageMod;
-        public double FlatEnergyPoolMod;
-        public double PercentLifeStealMod;
-        public double FlatMPPoolMod;
-        public double FlatMovementSpeedMod;
-        public double PercentAttackSpeedMod;
-        public double FlatBlockMod;
-        public double PercentBlockMod;
-        public double FlatEnergyRegenMod;
-        public double PercentSpellVampMod;
-        public double FlatMPRegenMod;
-        public double PercentDodgeMod;
-        public double FlatAttackSpeedMod;
-        public double FlatArmorMod;
-        public double FlatHPRegenMod;
-        public double PercentMagicDamageMod;
-        public double PercentMPPoolMod;
-        public double FlatMagicDamageMod;
-        public double PercentMPRegenMod;
-        public double PercentPhysicalDamageMod;
-        public double FlatPhysicalDamageMod;
-        public double PercentHPPoolMod;
-        public double PercentArmorMod;
-        public double PercentCritChanceMod;
-        public double PercentEXPBonus;
-        public double FlatHPPoolMod;
-        public double FlatCritChanceMod;
-        public double FlatEXPBonus;
+        public InventoryDataStats([JsonProperty("PercentCritDamageMod")] double percentCritDamageMod,
+                [JsonProperty("PercentSpellBlockMod")] double percentSpellBlockMod,
+                [JsonProperty("PercentHPRegenMod")] double percentHPRegenMod,
+                [JsonProperty("PercentMovementSpeedMod")] double percentMovementSpeedMod,
+                [JsonProperty("FlatSpellBlockMod")] double flatSpellBlockMod,
+                [JsonProperty("FlatCritDamageMod")] double flatCritDamageMod,
+                [JsonProperty("FlatEnergyPoolMod")] double flatEnergyPoolMod,
+                [JsonProperty("PercentLifeStealMod")] double percentLifeStealMod,
+                [JsonProperty("FlatMPPoolMod")] double flatMPPoolMod,
+                [JsonProperty("FlatMovementSpeedMod")] double flatMovementSpeedMod,
+                [JsonProperty("PercentAttackSpeedMod")] double percentAttackSpeedMod,
+                [JsonProperty("FlatBlockMod")] double flatBlockMod,
+                [JsonProperty("PercentBlockMod")] double percentBlockMod,
+                [JsonProperty("FlatEnergyRegenMod")] double flatEnergyRegenMod,
+                [JsonProperty("PercentSpellVampMod")] double percentSpellVampMod,
+                [JsonProperty("FlatMPRegenMod")] double flatMPRegenMod,
+                [JsonProperty("PercentDodgeMod")] double percentDodgeMod,
+                [JsonProperty("FlatAttackSpeedMod")] double flatAttackSpeedMod,
+                [JsonProperty("FlatArmorMod")] double flatArmorMod,
+                [JsonProperty("FlatHPRegenMod")] double flatHPRegenMod,
+                [JsonProperty("PercentMagicDamageMod")] double percentMagicDamageMod,
+                [JsonProperty("PercentMPPoolMod")] double percentMPPoolMod,
+                [JsonProperty("FlatMagicDamageMod")] double flatMagicDamageMod,
+                [JsonProperty("PercentMPRegenMod")] double percentMPRegenMod,
+                [JsonProperty("PercentPhysicalDamageMod")] double percentPhysicalDamageMod,
+                [JsonProperty("FlatPhysicalDamageMod")] double flatPhysicalDamageMod,
+                [JsonProperty("PercentHPPoolMod")] double percentHPPoolMod,
+                [JsonProperty("PercentArmorMod")] double percentArmorMod,
+                [JsonProperty("PercentCritChanceMod")] double percentCritChanceMod,
+                [JsonProperty("PercentEXPBonus")] double percentEXPBonus,
+                [JsonProperty("FlatHPPoolMod")] double flatHPPoolMod,
+                [JsonProperty("FlatCritChanceMod")] double flatCritChanceMod,
+                [JsonProperty("FlatEXPBonus")] double flatEXPBonus) {
+            PercentCritDamageMod = percentCritDamageMod;
+            PercentSpellBlockMod = percentSpellBlockMod;
+            PercentHPRegenMod = percentHPRegenMod;
+            PercentMovementSpeedMod = percentMovementSpeedMod;
+            FlatSpellBlockMod = flatSpellBlockMod;
+            FlatCritDamageMod = flatCritDamageMod;
+            FlatEnergyPoolMod = flatEnergyPoolMod;
+            PercentLifeStealMod = percentLifeStealMod;
+            FlatMPPoolMod = flatMPPoolMod;
+            FlatMovementSpeedMod = flatMovementSpeedMod;
+            PercentAttackSpeedMod = percentAttackSpeedMod;
+            FlatBlockMod = flatBlockMod;
+            PercentBlockMod = percentBlockMod;
+            FlatEnergyRegenMod = flatEnergyRegenMod;
+            PercentSpellVampMod = percentSpellVampMod;
+            FlatMPRegenMod = flatMPRegenMod;
+            PercentDodgeMod = percentDodgeMod;
+            FlatAttackSpeedMod = flatAttackSpeedMod;
+            FlatArmorMod = flatArmorMod;
+            FlatHPRegenMod = flatHPRegenMod;
+            PercentMagicDamageMod = percentMagicDamageMod;
+            PercentMPPoolMod = percentMPPoolMod;
+            FlatMagicDamageMod = flatMagicDamageMod;
+            PercentMPRegenMod = percentMPRegenMod;
+            PercentPhysicalDamageMod = percentPhysicalDamageMod;
+            FlatPhysicalDamageMod = flatPhysicalDamageMod;
+            PercentHPPoolMod = percentHPPoolMod;
+            PercentArmorMod = percentArmorMod;
+            PercentCritChanceMod = percentCritChanceMod;
+            PercentEXPBonus = percentEXPBonus;
+            FlatHPPoolMod = flatHPPoolMod;
+            FlatCritChanceMod = flatCritChanceMod;
+            FlatEXPBonus = flatEXPBonus;
+        }
+        [JsonProperty("PercentCritDamageMod")]
+        public readonly double PercentCritDamageMod;
+        [JsonProperty("PercentSpellBlockMod")]
+        public readonly double PercentSpellBlockMod;
+        [JsonProperty("PercentHPRegenMod")]
+        public readonly double PercentHPRegenMod;
+        [JsonProperty("PercentMovementSpeedMod")]
+        public readonly double PercentMovementSpeedMod;
+        [JsonProperty("FlatSpellBlockMod")]
+        public readonly double FlatSpellBlockMod;
+        [JsonProperty("FlatCritDamageMod")]
+        public readonly double FlatCritDamageMod;
+        [JsonProperty("FlatEnergyPoolMod")]
+        public readonly double FlatEnergyPoolMod;
+        [JsonProperty("PercentLifeStealMod")]
+        public readonly double PercentLifeStealMod;
+        [JsonProperty("FlatMPPoolMod")]
+        public readonly double FlatMPPoolMod;
+        [JsonProperty("FlatMovementSpeedMod")]
+        public readonly double FlatMovementSpeedMod;
+        [JsonProperty("PercentAttackSpeedMod")]
+        public readonly double PercentAttackSpeedMod;
+        [JsonProperty("FlatBlockMod")]
+        public readonly double FlatBlockMod;
+        [JsonProperty("PercentBlockMod")]
+        public readonly double PercentBlockMod;
+        [JsonProperty("FlatEnergyRegenMod")]
+        public readonly double FlatEnergyRegenMod;
+        [JsonProperty("PercentSpellVampMod")]
+        public readonly double PercentSpellVampMod;
+        [JsonProperty("FlatMPRegenMod")]
+        public readonly double FlatMPRegenMod;
+        [JsonProperty("PercentDodgeMod")]
+        public readonly double PercentDodgeMod;
+        [JsonProperty("FlatAttackSpeedMod")]
+        public readonly double FlatAttackSpeedMod;
+        [JsonProperty("FlatArmorMod")]
+        public readonly double FlatArmorMod;
+        [JsonProperty("FlatHPRegenMod")]
+        public readonly double FlatHPRegenMod;
+        [JsonProperty("PercentMagicDamageMod")]
+        public readonly double PercentMagicDamageMod;
+        [JsonProperty("PercentMPPoolMod")]
+        public readonly double PercentMPPoolMod;
+        [JsonProperty("FlatMagicDamageMod")]
+        public readonly double FlatMagicDamageMod;
+        [JsonProperty("PercentMPRegenMod")]
+        public readonly double PercentMPRegenMod;
+        [JsonProperty("PercentPhysicalDamageMod")]
+        public readonly double PercentPhysicalDamageMod;
+        [JsonProperty("FlatPhysicalDamageMod")]
+        public readonly double FlatPhysicalDamageMod;
+        [JsonProperty("PercentHPPoolMod")]
+        public readonly double PercentHPPoolMod;
+        [JsonProperty("PercentArmorMod")]
+        public readonly double PercentArmorMod;
+        [JsonProperty("PercentCritChanceMod")]
+        public readonly double PercentCritChanceMod;
+        [JsonProperty("PercentEXPBonus")]
+        public readonly double PercentEXPBonus;
+        [JsonProperty("FlatHPPoolMod")]
+        public readonly double FlatHPPoolMod;
+        [JsonProperty("FlatCritChanceMod")]
+        public readonly double FlatCritChanceMod;
+        [JsonProperty("FlatEXPBonus")]
+        public readonly double FlatEXPBonus;
     }
 }
 
@@ -430,10 +1073,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains item group data.
-    public struct GroupDto
+    public struct Group
     {
-        public string MaxGroupOwnable;
-        public string Key;
+        public Group([JsonProperty("MaxGroupOwnable")] string maxGroupOwnable,
+                [JsonProperty("key")] string key) {
+            MaxGroupOwnable = maxGroupOwnable;
+            Key = key;
+        }
+        [JsonProperty("MaxGroupOwnable")]
+        public readonly string MaxGroupOwnable;
+        [JsonProperty("key")]
+        public readonly string Key;
     }
 }
 
@@ -441,11 +1091,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains language strings data.
-    public struct LanguageStringsDto
+    public struct LanguageStrings
     {
-        public IDictionary<string, string> Data;
-        public string Version;
-        public string Type;
+        public LanguageStrings([JsonProperty("data")] IDictionary<string, string> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, string> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -453,11 +1113,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains map data.
-    public struct MapDataDto
+    public struct MapData
     {
-        public IDictionary<string, MapDetailsDto> Data;
-        public string Version;
-        public string Type;
+        public MapData([JsonProperty("data")] IDictionary<string, MapDetails> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, MapDetails> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -465,12 +1135,25 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains map details data.
-    public struct MapDetailsDto
+    public struct MapDetails
     {
-        public string MapName;
-        public ImageDto Image;
-        public long MapId;
-        public long[] UnpurchasableItemList;
+        public MapDetails([JsonProperty("mapName")] string mapName,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("mapId")] long mapId,
+                [JsonProperty("unpurchasableItemList")] long[] unpurchasableItemList) {
+            MapName = mapName;
+            Image = image;
+            MapId = mapId;
+            UnpurchasableItemList = unpurchasableItemList;
+        }
+        [JsonProperty("mapName")]
+        public readonly string MapName;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("mapId")]
+        public readonly long MapId;
+        [JsonProperty("unpurchasableItemList")]
+        public readonly long[] UnpurchasableItemList;
     }
 }
 
@@ -478,12 +1161,25 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains mastery list data.
-    public struct MasteryListDto
+    public struct MasteryList
     {
-        public IDictionary<string, MasteryDto> Data;
-        public string Version;
-        public MasteryTreeDto Tree;
-        public string Type;
+        public MasteryList([JsonProperty("data")] IDictionary<string, Mastery> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("tree")] MasteryTree tree,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Tree = tree;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, Mastery> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("tree")]
+        public readonly MasteryTree Tree;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -491,11 +1187,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains mastery tree data.
-    public struct MasteryTreeDto
+    public struct MasteryTree
     {
-        public MasteryTreeListDto[] Resolve;
-        public MasteryTreeListDto[] Ferocity;
-        public MasteryTreeListDto[] Cunning;
+        public MasteryTree([JsonProperty("Resolve")] MasteryTreeList[] resolve,
+                [JsonProperty("Ferocity")] MasteryTreeList[] ferocity,
+                [JsonProperty("Cunning")] MasteryTreeList[] cunning) {
+            Resolve = resolve;
+            Ferocity = ferocity;
+            Cunning = cunning;
+        }
+        [JsonProperty("Resolve")]
+        public readonly MasteryTreeList[] Resolve;
+        [JsonProperty("Ferocity")]
+        public readonly MasteryTreeList[] Ferocity;
+        [JsonProperty("Cunning")]
+        public readonly MasteryTreeList[] Cunning;
     }
 }
 
@@ -503,9 +1209,13 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains mastery tree list data.
-    public struct MasteryTreeListDto
+    public struct MasteryTreeList
     {
-        public MasteryTreeItemDto[] MasteryTreeItems;
+        public MasteryTreeList([JsonProperty("masteryTreeItems")] MasteryTreeItem[] masteryTreeItems) {
+            MasteryTreeItems = masteryTreeItems;
+        }
+        [JsonProperty("masteryTreeItems")]
+        public readonly MasteryTreeItem[] MasteryTreeItems;
     }
 }
 
@@ -513,10 +1223,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains mastery tree item data.
-    public struct MasteryTreeItemDto
+    public struct MasteryTreeItem
     {
-        public int MasteryId;
-        public string Prereq;
+        public MasteryTreeItem([JsonProperty("masteryId")] int masteryId,
+                [JsonProperty("prereq")] string prereq) {
+            MasteryId = masteryId;
+            Prereq = prereq;
+        }
+        [JsonProperty("masteryId")]
+        public readonly int MasteryId;
+        [JsonProperty("prereq")]
+        public readonly string Prereq;
     }
 }
 
@@ -524,16 +1241,41 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains mastery data.
-    public struct MasteryDto
+    public struct Mastery
     {
-        public string Prereq;
-        public string MasteryTree;
-        public string Name;
-        public int Ranks;
-        public ImageDto Image;
-        public string[] SanitizedDescription;
-        public int Id;
-        public string[] Description;
+        public Mastery([JsonProperty("prereq")] string prereq,
+                [JsonProperty("masteryTree")] string masteryTree,
+                [JsonProperty("name")] string name,
+                [JsonProperty("ranks")] int ranks,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("sanitizedDescription")] string[] sanitizedDescription,
+                [JsonProperty("id")] int id,
+                [JsonProperty("description")] string[] description) {
+            Prereq = prereq;
+            MasteryTree = masteryTree;
+            Name = name;
+            Ranks = ranks;
+            Image = image;
+            SanitizedDescription = sanitizedDescription;
+            Id = id;
+            Description = description;
+        }
+        [JsonProperty("prereq")]
+        public readonly string Prereq;
+        [JsonProperty("masteryTree")]
+        public readonly string MasteryTree;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("ranks")]
+        public readonly int Ranks;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string[] SanitizedDescription;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("description")]
+        public readonly string[] Description;
     }
 }
 
@@ -541,11 +1283,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains profile icon data.
-    public struct ProfileIconDataDto
+    public struct ProfileIconData
     {
-        public IDictionary<string, ProfileIconDetailsDto> Data;
-        public string Version;
-        public string Type;
+        public ProfileIconData([JsonProperty("data")] IDictionary<string, ProfileIconDetails> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, ProfileIconDetails> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -553,10 +1305,17 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains profile icon details data.
-    public struct ProfileIconDetailsDto
+    public struct ProfileIconDetails
     {
-        public ImageDto Image;
-        public long Id;
+        public ProfileIconDetails([JsonProperty("image")] Image image,
+                [JsonProperty("id")] long id) {
+            Image = image;
+            Id = id;
+        }
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("id")]
+        public readonly long Id;
     }
 }
 
@@ -564,17 +1323,45 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains realm data.
-    public struct RealmDto
+    public struct Realm
     {
-        public string Lg;
-        public string Dd;
-        public string L;
-        public IDictionary<string, string> N;
-        public int Profileiconmax;
-        public string Store;
-        public string V;
-        public string Cdn;
-        public string Css;
+        public Realm([JsonProperty("lg")] string lg,
+                [JsonProperty("dd")] string dd,
+                [JsonProperty("l")] string l,
+                [JsonProperty("n")] IDictionary<string, string> n,
+                [JsonProperty("profileiconmax")] int profileiconmax,
+                [JsonProperty("store")] string store,
+                [JsonProperty("v")] string v,
+                [JsonProperty("cdn")] string cdn,
+                [JsonProperty("css")] string css) {
+            Lg = lg;
+            Dd = dd;
+            L = l;
+            N = n;
+            Profileiconmax = profileiconmax;
+            Store = store;
+            V = v;
+            Cdn = cdn;
+            Css = css;
+        }
+        [JsonProperty("lg")]
+        public readonly string Lg;
+        [JsonProperty("dd")]
+        public readonly string Dd;
+        [JsonProperty("l")]
+        public readonly string L;
+        [JsonProperty("n")]
+        public readonly IDictionary<string, string> N;
+        [JsonProperty("profileiconmax")]
+        public readonly int Profileiconmax;
+        [JsonProperty("store")]
+        public readonly string Store;
+        [JsonProperty("v")]
+        public readonly string V;
+        [JsonProperty("cdn")]
+        public readonly string Cdn;
+        [JsonProperty("css")]
+        public readonly string Css;
     }
 }
 
@@ -582,11 +1369,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains rune list data.
-    public struct RuneListDto
+    public struct RuneList
     {
-        public IDictionary<string, RuneDto> Data;
-        public string Version;
-        public string Type;
+        public RuneList([JsonProperty("data")] IDictionary<string, Rune> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, Rune> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -594,16 +1391,41 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains rune data.
-    public struct RuneDto
+    public struct Rune
     {
-        public RuneStatsDto Stats;
-        public string Name;
-        public string[] Tags;
-        public ImageDto Image;
-        public string SanitizedDescription;
-        public MetaDataDto Rune;
-        public int Id;
-        public string Description;
+        public Rune([JsonProperty("stats")] RuneStats stats,
+                [JsonProperty("name")] string name,
+                [JsonProperty("tags")] string[] tags,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("sanitizedDescription")] string sanitizedDescription,
+                [JsonProperty("rune")] MetaData rune,
+                [JsonProperty("id")] int id,
+                [JsonProperty("description")] string description) {
+            Stats = stats;
+            Name = name;
+            Tags = tags;
+            Image = image;
+            SanitizedDescription = sanitizedDescription;
+            RuneMetaData = rune;
+            Id = id;
+            Description = description;
+        }
+        [JsonProperty("stats")]
+        public readonly RuneStats Stats;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("tags")]
+        public readonly string[] Tags;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string SanitizedDescription;
+        [JsonProperty("rune")]
+        public readonly MetaData RuneMetaData;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("description")]
+        public readonly string Description;
     }
 }
 
@@ -611,73 +1433,269 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains stats for runes.
-    public struct RuneStatsDto
+    public struct RuneStats
     {
-        public double PercentTimeDeadModPerLevel;
-        public double PercentArmorPenetrationModPerLevel;
-        public double PercentCritDamageMod;
-        public double PercentSpellBlockMod;
-        public double PercentHPRegenMod;
-        public double PercentMovementSpeedMod;
-        public double FlatSpellBlockMod;
-        public double FlatEnergyRegenModPerLevel;
-        public double FlatEnergyPoolMod;
-        public double FlatMagicPenetrationModPerLevel;
-        public double PercentLifeStealMod;
-        public double FlatMPPoolMod;
-        public double PercentCooldownMod;
-        public double PercentMagicPenetrationMod;
-        public double FlatArmorPenetrationModPerLevel;
-        public double FlatMovementSpeedMod;
-        public double FlatTimeDeadModPerLevel;
-        public double FlatArmorModPerLevel;
-        public double PercentAttackSpeedMod;
-        public double FlatDodgeModPerLevel;
-        public double PercentMagicDamageMod;
-        public double PercentBlockMod;
-        public double FlatDodgeMod;
-        public double FlatEnergyRegenMod;
-        public double FlatHPModPerLevel;
-        public double PercentAttackSpeedModPerLevel;
-        public double PercentSpellVampMod;
-        public double FlatMPRegenMod;
-        public double PercentHPPoolMod;
-        public double PercentDodgeMod;
-        public double FlatAttackSpeedMod;
-        public double FlatArmorMod;
-        public double FlatMagicDamageModPerLevel;
-        public double FlatHPRegenMod;
-        public double PercentPhysicalDamageMod;
-        public double FlatCritChanceModPerLevel;
-        public double FlatSpellBlockModPerLevel;
-        public double PercentTimeDeadMod;
-        public double FlatBlockMod;
-        public double PercentMPPoolMod;
-        public double FlatMagicDamageMod;
-        public double PercentMPRegenMod;
-        public double PercentMovementSpeedModPerLevel;
-        public double PercentCooldownModPerLevel;
-        public double FlatMPModPerLevel;
-        public double FlatEnergyModPerLevel;
-        public double FlatPhysicalDamageMod;
-        public double FlatHPRegenModPerLevel;
-        public double FlatCritDamageMod;
-        public double PercentArmorMod;
-        public double FlatMagicPenetrationMod;
-        public double PercentCritChanceMod;
-        public double FlatPhysicalDamageModPerLevel;
-        public double PercentArmorPenetrationMod;
-        public double PercentEXPBonus;
-        public double FlatMPRegenModPerLevel;
-        public double PercentMagicPenetrationModPerLevel;
-        public double FlatTimeDeadMod;
-        public double FlatMovementSpeedModPerLevel;
-        public double FlatGoldPer10Mod;
-        public double FlatArmorPenetrationMod;
-        public double FlatCritDamageModPerLevel;
-        public double FlatHPPoolMod;
-        public double FlatCritChanceMod;
-        public double FlatEXPBonus;
+        public RuneStats([JsonProperty("PercentTimeDeadModPerLevel")] double percentTimeDeadModPerLevel,
+                [JsonProperty("PercentArmorPenetrationModPerLevel")] double percentArmorPenetrationModPerLevel,
+                [JsonProperty("PercentCritDamageMod")] double percentCritDamageMod,
+                [JsonProperty("PercentSpellBlockMod")] double percentSpellBlockMod,
+                [JsonProperty("PercentHPRegenMod")] double percentHPRegenMod,
+                [JsonProperty("PercentMovementSpeedMod")] double percentMovementSpeedMod,
+                [JsonProperty("FlatSpellBlockMod")] double flatSpellBlockMod,
+                [JsonProperty("FlatEnergyRegenModPerLevel")] double flatEnergyRegenModPerLevel,
+                [JsonProperty("FlatEnergyPoolMod")] double flatEnergyPoolMod,
+                [JsonProperty("FlatMagicPenetrationModPerLevel")] double flatMagicPenetrationModPerLevel,
+                [JsonProperty("PercentLifeStealMod")] double percentLifeStealMod,
+                [JsonProperty("FlatMPPoolMod")] double flatMPPoolMod,
+                [JsonProperty("PercentCooldownMod")] double percentCooldownMod,
+                [JsonProperty("PercentMagicPenetrationMod")] double percentMagicPenetrationMod,
+                [JsonProperty("FlatArmorPenetrationModPerLevel")] double flatArmorPenetrationModPerLevel,
+                [JsonProperty("FlatMovementSpeedMod")] double flatMovementSpeedMod,
+                [JsonProperty("FlatTimeDeadModPerLevel")] double flatTimeDeadModPerLevel,
+                [JsonProperty("FlatArmorModPerLevel")] double flatArmorModPerLevel,
+                [JsonProperty("PercentAttackSpeedMod")] double percentAttackSpeedMod,
+                [JsonProperty("FlatDodgeModPerLevel")] double flatDodgeModPerLevel,
+                [JsonProperty("PercentMagicDamageMod")] double percentMagicDamageMod,
+                [JsonProperty("PercentBlockMod")] double percentBlockMod,
+                [JsonProperty("FlatDodgeMod")] double flatDodgeMod,
+                [JsonProperty("FlatEnergyRegenMod")] double flatEnergyRegenMod,
+                [JsonProperty("FlatHPModPerLevel")] double flatHPModPerLevel,
+                [JsonProperty("PercentAttackSpeedModPerLevel")] double percentAttackSpeedModPerLevel,
+                [JsonProperty("PercentSpellVampMod")] double percentSpellVampMod,
+                [JsonProperty("FlatMPRegenMod")] double flatMPRegenMod,
+                [JsonProperty("PercentHPPoolMod")] double percentHPPoolMod,
+                [JsonProperty("PercentDodgeMod")] double percentDodgeMod,
+                [JsonProperty("FlatAttackSpeedMod")] double flatAttackSpeedMod,
+                [JsonProperty("FlatArmorMod")] double flatArmorMod,
+                [JsonProperty("FlatMagicDamageModPerLevel")] double flatMagicDamageModPerLevel,
+                [JsonProperty("FlatHPRegenMod")] double flatHPRegenMod,
+                [JsonProperty("PercentPhysicalDamageMod")] double percentPhysicalDamageMod,
+                [JsonProperty("FlatCritChanceModPerLevel")] double flatCritChanceModPerLevel,
+                [JsonProperty("FlatSpellBlockModPerLevel")] double flatSpellBlockModPerLevel,
+                [JsonProperty("PercentTimeDeadMod")] double percentTimeDeadMod,
+                [JsonProperty("FlatBlockMod")] double flatBlockMod,
+                [JsonProperty("PercentMPPoolMod")] double percentMPPoolMod,
+                [JsonProperty("FlatMagicDamageMod")] double flatMagicDamageMod,
+                [JsonProperty("PercentMPRegenMod")] double percentMPRegenMod,
+                [JsonProperty("PercentMovementSpeedModPerLevel")] double percentMovementSpeedModPerLevel,
+                [JsonProperty("PercentCooldownModPerLevel")] double percentCooldownModPerLevel,
+                [JsonProperty("FlatMPModPerLevel")] double flatMPModPerLevel,
+                [JsonProperty("FlatEnergyModPerLevel")] double flatEnergyModPerLevel,
+                [JsonProperty("FlatPhysicalDamageMod")] double flatPhysicalDamageMod,
+                [JsonProperty("FlatHPRegenModPerLevel")] double flatHPRegenModPerLevel,
+                [JsonProperty("FlatCritDamageMod")] double flatCritDamageMod,
+                [JsonProperty("PercentArmorMod")] double percentArmorMod,
+                [JsonProperty("FlatMagicPenetrationMod")] double flatMagicPenetrationMod,
+                [JsonProperty("PercentCritChanceMod")] double percentCritChanceMod,
+                [JsonProperty("FlatPhysicalDamageModPerLevel")] double flatPhysicalDamageModPerLevel,
+                [JsonProperty("PercentArmorPenetrationMod")] double percentArmorPenetrationMod,
+                [JsonProperty("PercentEXPBonus")] double percentEXPBonus,
+                [JsonProperty("FlatMPRegenModPerLevel")] double flatMPRegenModPerLevel,
+                [JsonProperty("PercentMagicPenetrationModPerLevel")] double percentMagicPenetrationModPerLevel,
+                [JsonProperty("FlatTimeDeadMod")] double flatTimeDeadMod,
+                [JsonProperty("FlatMovementSpeedModPerLevel")] double flatMovementSpeedModPerLevel,
+                [JsonProperty("FlatGoldPer10Mod")] double flatGoldPer10Mod,
+                [JsonProperty("FlatArmorPenetrationMod")] double flatArmorPenetrationMod,
+                [JsonProperty("FlatCritDamageModPerLevel")] double flatCritDamageModPerLevel,
+                [JsonProperty("FlatHPPoolMod")] double flatHPPoolMod,
+                [JsonProperty("FlatCritChanceMod")] double flatCritChanceMod,
+                [JsonProperty("FlatEXPBonus")] double flatEXPBonus) {
+            PercentTimeDeadModPerLevel = percentTimeDeadModPerLevel;
+            PercentArmorPenetrationModPerLevel = percentArmorPenetrationModPerLevel;
+            PercentCritDamageMod = percentCritDamageMod;
+            PercentSpellBlockMod = percentSpellBlockMod;
+            PercentHPRegenMod = percentHPRegenMod;
+            PercentMovementSpeedMod = percentMovementSpeedMod;
+            FlatSpellBlockMod = flatSpellBlockMod;
+            FlatEnergyRegenModPerLevel = flatEnergyRegenModPerLevel;
+            FlatEnergyPoolMod = flatEnergyPoolMod;
+            FlatMagicPenetrationModPerLevel = flatMagicPenetrationModPerLevel;
+            PercentLifeStealMod = percentLifeStealMod;
+            FlatMPPoolMod = flatMPPoolMod;
+            PercentCooldownMod = percentCooldownMod;
+            PercentMagicPenetrationMod = percentMagicPenetrationMod;
+            FlatArmorPenetrationModPerLevel = flatArmorPenetrationModPerLevel;
+            FlatMovementSpeedMod = flatMovementSpeedMod;
+            FlatTimeDeadModPerLevel = flatTimeDeadModPerLevel;
+            FlatArmorModPerLevel = flatArmorModPerLevel;
+            PercentAttackSpeedMod = percentAttackSpeedMod;
+            FlatDodgeModPerLevel = flatDodgeModPerLevel;
+            PercentMagicDamageMod = percentMagicDamageMod;
+            PercentBlockMod = percentBlockMod;
+            FlatDodgeMod = flatDodgeMod;
+            FlatEnergyRegenMod = flatEnergyRegenMod;
+            FlatHPModPerLevel = flatHPModPerLevel;
+            PercentAttackSpeedModPerLevel = percentAttackSpeedModPerLevel;
+            PercentSpellVampMod = percentSpellVampMod;
+            FlatMPRegenMod = flatMPRegenMod;
+            PercentHPPoolMod = percentHPPoolMod;
+            PercentDodgeMod = percentDodgeMod;
+            FlatAttackSpeedMod = flatAttackSpeedMod;
+            FlatArmorMod = flatArmorMod;
+            FlatMagicDamageModPerLevel = flatMagicDamageModPerLevel;
+            FlatHPRegenMod = flatHPRegenMod;
+            PercentPhysicalDamageMod = percentPhysicalDamageMod;
+            FlatCritChanceModPerLevel = flatCritChanceModPerLevel;
+            FlatSpellBlockModPerLevel = flatSpellBlockModPerLevel;
+            PercentTimeDeadMod = percentTimeDeadMod;
+            FlatBlockMod = flatBlockMod;
+            PercentMPPoolMod = percentMPPoolMod;
+            FlatMagicDamageMod = flatMagicDamageMod;
+            PercentMPRegenMod = percentMPRegenMod;
+            PercentMovementSpeedModPerLevel = percentMovementSpeedModPerLevel;
+            PercentCooldownModPerLevel = percentCooldownModPerLevel;
+            FlatMPModPerLevel = flatMPModPerLevel;
+            FlatEnergyModPerLevel = flatEnergyModPerLevel;
+            FlatPhysicalDamageMod = flatPhysicalDamageMod;
+            FlatHPRegenModPerLevel = flatHPRegenModPerLevel;
+            FlatCritDamageMod = flatCritDamageMod;
+            PercentArmorMod = percentArmorMod;
+            FlatMagicPenetrationMod = flatMagicPenetrationMod;
+            PercentCritChanceMod = percentCritChanceMod;
+            FlatPhysicalDamageModPerLevel = flatPhysicalDamageModPerLevel;
+            PercentArmorPenetrationMod = percentArmorPenetrationMod;
+            PercentEXPBonus = percentEXPBonus;
+            FlatMPRegenModPerLevel = flatMPRegenModPerLevel;
+            PercentMagicPenetrationModPerLevel = percentMagicPenetrationModPerLevel;
+            FlatTimeDeadMod = flatTimeDeadMod;
+            FlatMovementSpeedModPerLevel = flatMovementSpeedModPerLevel;
+            FlatGoldPer10Mod = flatGoldPer10Mod;
+            FlatArmorPenetrationMod = flatArmorPenetrationMod;
+            FlatCritDamageModPerLevel = flatCritDamageModPerLevel;
+            FlatHPPoolMod = flatHPPoolMod;
+            FlatCritChanceMod = flatCritChanceMod;
+            FlatEXPBonus = flatEXPBonus;
+        }
+        [JsonProperty("PercentTimeDeadModPerLevel")]
+        public readonly double PercentTimeDeadModPerLevel;
+        [JsonProperty("PercentArmorPenetrationModPerLevel")]
+        public readonly double PercentArmorPenetrationModPerLevel;
+        [JsonProperty("PercentCritDamageMod")]
+        public readonly double PercentCritDamageMod;
+        [JsonProperty("PercentSpellBlockMod")]
+        public readonly double PercentSpellBlockMod;
+        [JsonProperty("PercentHPRegenMod")]
+        public readonly double PercentHPRegenMod;
+        [JsonProperty("PercentMovementSpeedMod")]
+        public readonly double PercentMovementSpeedMod;
+        [JsonProperty("FlatSpellBlockMod")]
+        public readonly double FlatSpellBlockMod;
+        [JsonProperty("FlatEnergyRegenModPerLevel")]
+        public readonly double FlatEnergyRegenModPerLevel;
+        [JsonProperty("FlatEnergyPoolMod")]
+        public readonly double FlatEnergyPoolMod;
+        [JsonProperty("FlatMagicPenetrationModPerLevel")]
+        public readonly double FlatMagicPenetrationModPerLevel;
+        [JsonProperty("PercentLifeStealMod")]
+        public readonly double PercentLifeStealMod;
+        [JsonProperty("FlatMPPoolMod")]
+        public readonly double FlatMPPoolMod;
+        [JsonProperty("PercentCooldownMod")]
+        public readonly double PercentCooldownMod;
+        [JsonProperty("PercentMagicPenetrationMod")]
+        public readonly double PercentMagicPenetrationMod;
+        [JsonProperty("FlatArmorPenetrationModPerLevel")]
+        public readonly double FlatArmorPenetrationModPerLevel;
+        [JsonProperty("FlatMovementSpeedMod")]
+        public readonly double FlatMovementSpeedMod;
+        [JsonProperty("FlatTimeDeadModPerLevel")]
+        public readonly double FlatTimeDeadModPerLevel;
+        [JsonProperty("FlatArmorModPerLevel")]
+        public readonly double FlatArmorModPerLevel;
+        [JsonProperty("PercentAttackSpeedMod")]
+        public readonly double PercentAttackSpeedMod;
+        [JsonProperty("FlatDodgeModPerLevel")]
+        public readonly double FlatDodgeModPerLevel;
+        [JsonProperty("PercentMagicDamageMod")]
+        public readonly double PercentMagicDamageMod;
+        [JsonProperty("PercentBlockMod")]
+        public readonly double PercentBlockMod;
+        [JsonProperty("FlatDodgeMod")]
+        public readonly double FlatDodgeMod;
+        [JsonProperty("FlatEnergyRegenMod")]
+        public readonly double FlatEnergyRegenMod;
+        [JsonProperty("FlatHPModPerLevel")]
+        public readonly double FlatHPModPerLevel;
+        [JsonProperty("PercentAttackSpeedModPerLevel")]
+        public readonly double PercentAttackSpeedModPerLevel;
+        [JsonProperty("PercentSpellVampMod")]
+        public readonly double PercentSpellVampMod;
+        [JsonProperty("FlatMPRegenMod")]
+        public readonly double FlatMPRegenMod;
+        [JsonProperty("PercentHPPoolMod")]
+        public readonly double PercentHPPoolMod;
+        [JsonProperty("PercentDodgeMod")]
+        public readonly double PercentDodgeMod;
+        [JsonProperty("FlatAttackSpeedMod")]
+        public readonly double FlatAttackSpeedMod;
+        [JsonProperty("FlatArmorMod")]
+        public readonly double FlatArmorMod;
+        [JsonProperty("FlatMagicDamageModPerLevel")]
+        public readonly double FlatMagicDamageModPerLevel;
+        [JsonProperty("FlatHPRegenMod")]
+        public readonly double FlatHPRegenMod;
+        [JsonProperty("PercentPhysicalDamageMod")]
+        public readonly double PercentPhysicalDamageMod;
+        [JsonProperty("FlatCritChanceModPerLevel")]
+        public readonly double FlatCritChanceModPerLevel;
+        [JsonProperty("FlatSpellBlockModPerLevel")]
+        public readonly double FlatSpellBlockModPerLevel;
+        [JsonProperty("PercentTimeDeadMod")]
+        public readonly double PercentTimeDeadMod;
+        [JsonProperty("FlatBlockMod")]
+        public readonly double FlatBlockMod;
+        [JsonProperty("PercentMPPoolMod")]
+        public readonly double PercentMPPoolMod;
+        [JsonProperty("FlatMagicDamageMod")]
+        public readonly double FlatMagicDamageMod;
+        [JsonProperty("PercentMPRegenMod")]
+        public readonly double PercentMPRegenMod;
+        [JsonProperty("PercentMovementSpeedModPerLevel")]
+        public readonly double PercentMovementSpeedModPerLevel;
+        [JsonProperty("PercentCooldownModPerLevel")]
+        public readonly double PercentCooldownModPerLevel;
+        [JsonProperty("FlatMPModPerLevel")]
+        public readonly double FlatMPModPerLevel;
+        [JsonProperty("FlatEnergyModPerLevel")]
+        public readonly double FlatEnergyModPerLevel;
+        [JsonProperty("FlatPhysicalDamageMod")]
+        public readonly double FlatPhysicalDamageMod;
+        [JsonProperty("FlatHPRegenModPerLevel")]
+        public readonly double FlatHPRegenModPerLevel;
+        [JsonProperty("FlatCritDamageMod")]
+        public readonly double FlatCritDamageMod;
+        [JsonProperty("PercentArmorMod")]
+        public readonly double PercentArmorMod;
+        [JsonProperty("FlatMagicPenetrationMod")]
+        public readonly double FlatMagicPenetrationMod;
+        [JsonProperty("PercentCritChanceMod")]
+        public readonly double PercentCritChanceMod;
+        [JsonProperty("FlatPhysicalDamageModPerLevel")]
+        public readonly double FlatPhysicalDamageModPerLevel;
+        [JsonProperty("PercentArmorPenetrationMod")]
+        public readonly double PercentArmorPenetrationMod;
+        [JsonProperty("PercentEXPBonus")]
+        public readonly double PercentEXPBonus;
+        [JsonProperty("FlatMPRegenModPerLevel")]
+        public readonly double FlatMPRegenModPerLevel;
+        [JsonProperty("PercentMagicPenetrationModPerLevel")]
+        public readonly double PercentMagicPenetrationModPerLevel;
+        [JsonProperty("FlatTimeDeadMod")]
+        public readonly double FlatTimeDeadMod;
+        [JsonProperty("FlatMovementSpeedModPerLevel")]
+        public readonly double FlatMovementSpeedModPerLevel;
+        [JsonProperty("FlatGoldPer10Mod")]
+        public readonly double FlatGoldPer10Mod;
+        [JsonProperty("FlatArmorPenetrationMod")]
+        public readonly double FlatArmorPenetrationMod;
+        [JsonProperty("FlatCritDamageModPerLevel")]
+        public readonly double FlatCritDamageModPerLevel;
+        [JsonProperty("FlatHPPoolMod")]
+        public readonly double FlatHPPoolMod;
+        [JsonProperty("FlatCritChanceMod")]
+        public readonly double FlatCritChanceMod;
+        [JsonProperty("FlatEXPBonus")]
+        public readonly double FlatEXPBonus;
     }
 }
 
@@ -685,11 +1703,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains meta data.
-    public struct MetaDataDto
+    public struct MetaData
     {
-        public string Tier;
-        public string Type;
-        public bool IsRune;
+        public MetaData([JsonProperty("tier")] string tier,
+                [JsonProperty("type")] string type,
+                [JsonProperty("isRune")] bool isRune) {
+            Tier = tier;
+            Type = type;
+            IsRune = isRune;
+        }
+        [JsonProperty("tier")]
+        public readonly string Tier;
+        [JsonProperty("type")]
+        public readonly string Type;
+        [JsonProperty("isRune")]
+        public readonly bool IsRune;
     }
 }
 
@@ -697,11 +1725,21 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains summoner spell list data.
-    public struct SummonerSpellListDto
+    public struct SummonerSpellList
     {
-        public IDictionary<string, SummonerSpellDto> Data;
-        public string Version;
-        public string Type;
+        public SummonerSpellList([JsonProperty("data")] IDictionary<string, SummonerSpell> data,
+                [JsonProperty("version")] string version,
+                [JsonProperty("type")] string type) {
+            Data = data;
+            Version = version;
+            Type = type;
+        }
+        [JsonProperty("data")]
+        public readonly IDictionary<string, SummonerSpell> Data;
+        [JsonProperty("version")]
+        public readonly string Version;
+        [JsonProperty("type")]
+        public readonly string Type;
     }
 }
 
@@ -709,31 +1747,101 @@ namespace MingweiSamuel.Camille.LolStaticData
 namespace MingweiSamuel.Camille.LolStaticData
 {
     /// This object contains summoner spell data.
-    public struct SummonerSpellDto
+    public struct SummonerSpell
     {
-        public SpellVarsDto[] Vars;
-        public ImageDto Image;
-        public string CostBurn;
-        public double[] Cooldown;
-        public string[] EffectBurn;
-        public int Id;
-        public string CooldownBurn;
-        public string Tooltip;
-        public int Maxrank;
-        public string RangeBurn;
-        public string Description;
-        public double[][] Effect;
-        public string Key;
-        public LevelTipDto Leveltip;
-        public string[] Modes;
-        public string Resource;
-        public string Name;
-        public string CostType;
-        public string SanitizedDescription;
-        public string SanitizedTooltip;
-        public int[] Range;
-        public int[] Cost;
-        public int SummonerLevel;
+        public SummonerSpell([JsonProperty("vars")] SpellVars[] vars,
+                [JsonProperty("image")] Image image,
+                [JsonProperty("costBurn")] string costBurn,
+                [JsonProperty("cooldown")] double[] cooldown,
+                [JsonProperty("effectBurn")] string[] effectBurn,
+                [JsonProperty("id")] int id,
+                [JsonProperty("cooldownBurn")] string cooldownBurn,
+                [JsonProperty("tooltip")] string tooltip,
+                [JsonProperty("maxrank")] int maxrank,
+                [JsonProperty("rangeBurn")] string rangeBurn,
+                [JsonProperty("description")] string description,
+                [JsonProperty("effect")] double[][] effect,
+                [JsonProperty("key")] string key,
+                [JsonProperty("leveltip")] LevelTip leveltip,
+                [JsonProperty("modes")] string[] modes,
+                [JsonProperty("resource")] string resource,
+                [JsonProperty("name")] string name,
+                [JsonProperty("costType")] string costType,
+                [JsonProperty("sanitizedDescription")] string sanitizedDescription,
+                [JsonProperty("sanitizedTooltip")] string sanitizedTooltip,
+                [JsonProperty("range")] int[] range,
+                [JsonProperty("cost")] int[] cost,
+                [JsonProperty("summonerLevel")] int summonerLevel) {
+            Vars = vars;
+            Image = image;
+            CostBurn = costBurn;
+            Cooldown = cooldown;
+            EffectBurn = effectBurn;
+            Id = id;
+            CooldownBurn = cooldownBurn;
+            Tooltip = tooltip;
+            Maxrank = maxrank;
+            RangeBurn = rangeBurn;
+            Description = description;
+            Effect = effect;
+            Key = key;
+            Leveltip = leveltip;
+            Modes = modes;
+            Resource = resource;
+            Name = name;
+            CostType = costType;
+            SanitizedDescription = sanitizedDescription;
+            SanitizedTooltip = sanitizedTooltip;
+            Range = range;
+            Cost = cost;
+            SummonerLevel = summonerLevel;
+        }
+        [JsonProperty("vars")]
+        public readonly SpellVars[] Vars;
+        [JsonProperty("image")]
+        public readonly Image Image;
+        [JsonProperty("costBurn")]
+        public readonly string CostBurn;
+        [JsonProperty("cooldown")]
+        public readonly double[] Cooldown;
+        [JsonProperty("effectBurn")]
+        public readonly string[] EffectBurn;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("cooldownBurn")]
+        public readonly string CooldownBurn;
+        [JsonProperty("tooltip")]
+        public readonly string Tooltip;
+        [JsonProperty("maxrank")]
+        public readonly int Maxrank;
+        [JsonProperty("rangeBurn")]
+        public readonly string RangeBurn;
+        [JsonProperty("description")]
+        public readonly string Description;
+        [JsonProperty("effect")]
+        public readonly double[][] Effect;
+        [JsonProperty("key")]
+        public readonly string Key;
+        [JsonProperty("leveltip")]
+        public readonly LevelTip Leveltip;
+        [JsonProperty("modes")]
+        public readonly string[] Modes;
+        [JsonProperty("resource")]
+        public readonly string Resource;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("costType")]
+        public readonly string CostType;
+        [JsonProperty("sanitizedDescription")]
+        public readonly string SanitizedDescription;
+        [JsonProperty("sanitizedTooltip")]
+        public readonly string SanitizedTooltip;
+        [JsonProperty("range")]
+        public readonly int[] Range;
+        [JsonProperty("cost")]
+        public readonly int[] Cost;
+        [JsonProperty("summonerLevel")]
+        public readonly int SummonerLevel;
     }
 }
 
@@ -742,12 +1850,31 @@ namespace MingweiSamuel.Camille.LolStatus
 {
     public struct ShardStatus
     {
-        public string Name;
-        public string RegionTag;
-        public string Hostname;
-        public Service[] Services;
-        public string Slug;
-        public string[] Locales;
+        public ShardStatus([JsonProperty("name")] string name,
+                [JsonProperty("region_tag")] string regionTag,
+                [JsonProperty("hostname")] string hostname,
+                [JsonProperty("services")] Service[] services,
+                [JsonProperty("slug")] string slug,
+                [JsonProperty("locales")] string[] locales) {
+            Name = name;
+            RegionTag = regionTag;
+            Hostname = hostname;
+            Services = services;
+            Slug = slug;
+            Locales = locales;
+        }
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("region_tag")]
+        public readonly string RegionTag;
+        [JsonProperty("hostname")]
+        public readonly string Hostname;
+        [JsonProperty("services")]
+        public readonly Service[] Services;
+        [JsonProperty("slug")]
+        public readonly string Slug;
+        [JsonProperty("locales")]
+        public readonly string[] Locales;
     }
 }
 
@@ -756,10 +1883,23 @@ namespace MingweiSamuel.Camille.LolStatus
 {
     public struct Service
     {
-        public string Status;
-        public Incident[] Incidents;
-        public string Name;
-        public string Slug;
+        public Service([JsonProperty("status")] string status,
+                [JsonProperty("incidents")] Incident[] incidents,
+                [JsonProperty("name")] string name,
+                [JsonProperty("slug")] string slug) {
+            Status = status;
+            Incidents = incidents;
+            Name = name;
+            Slug = slug;
+        }
+        [JsonProperty("status")]
+        public readonly string Status;
+        [JsonProperty("incidents")]
+        public readonly Incident[] Incidents;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("slug")]
+        public readonly string Slug;
     }
 }
 
@@ -768,10 +1908,23 @@ namespace MingweiSamuel.Camille.LolStatus
 {
     public struct Incident
     {
-        public bool Active;
-        public string CreatedAt;
-        public long Id;
-        public Message[] Updates;
+        public Incident([JsonProperty("active")] bool active,
+                [JsonProperty("created_at")] string createdAt,
+                [JsonProperty("id")] long id,
+                [JsonProperty("updates")] Message[] updates) {
+            Active = active;
+            CreatedAt = createdAt;
+            Id = id;
+            Updates = updates;
+        }
+        [JsonProperty("active")]
+        public readonly bool Active;
+        [JsonProperty("created_at")]
+        public readonly string CreatedAt;
+        [JsonProperty("id")]
+        public readonly long Id;
+        [JsonProperty("updates")]
+        public readonly Message[] Updates;
     }
 }
 
@@ -780,13 +1933,35 @@ namespace MingweiSamuel.Camille.LolStatus
 {
     public struct Message
     {
-        public string Severity;
-        public string Author;
-        public string CreatedAt;
-        public Translation[] Translations;
-        public string UpdatedAt;
-        public string Content;
-        public string Id;
+        public Message([JsonProperty("severity")] string severity,
+                [JsonProperty("author")] string author,
+                [JsonProperty("created_at")] string createdAt,
+                [JsonProperty("translations")] Translation[] translations,
+                [JsonProperty("updated_at")] string updatedAt,
+                [JsonProperty("content")] string content,
+                [JsonProperty("id")] string id) {
+            Severity = severity;
+            Author = author;
+            CreatedAt = createdAt;
+            Translations = translations;
+            UpdatedAt = updatedAt;
+            Content = content;
+            Id = id;
+        }
+        [JsonProperty("severity")]
+        public readonly string Severity;
+        [JsonProperty("author")]
+        public readonly string Author;
+        [JsonProperty("created_at")]
+        public readonly string CreatedAt;
+        [JsonProperty("translations")]
+        public readonly Translation[] Translations;
+        [JsonProperty("updated_at")]
+        public readonly string UpdatedAt;
+        [JsonProperty("content")]
+        public readonly string Content;
+        [JsonProperty("id")]
+        public readonly string Id;
     }
 }
 
@@ -795,334 +1970,928 @@ namespace MingweiSamuel.Camille.LolStatus
 {
     public struct Translation
     {
-        public string Locale;
-        public string Content;
-        public string UpdatedAt;
+        public Translation([JsonProperty("locale")] string locale,
+                [JsonProperty("content")] string content,
+                [JsonProperty("updated_at")] string updatedAt) {
+            Locale = locale;
+            Content = content;
+            UpdatedAt = updatedAt;
+        }
+        [JsonProperty("locale")]
+        public readonly string Locale;
+        [JsonProperty("content")]
+        public readonly string Content;
+        [JsonProperty("updated_at")]
+        public readonly string UpdatedAt;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchDto
+    public struct Match
     {
-        public int SeasonId;
-        public int QueueId;
-        public long GameId;
-        public ParticipantIdentityDto[] ParticipantIdentities;
-        public string GameVersion;
-        public string PlatformId;
-        public string GameMode;
-        public int MapId;
-        public string GameType;
-        public TeamStatsDto[] Teams;
-        public ParticipantDto[] Participants;
-        public long GameDuration;
-        public long GameCreation;
+        public Match([JsonProperty("seasonId")] int seasonId,
+                [JsonProperty("queueId")] int queueId,
+                [JsonProperty("gameId")] long gameId,
+                [JsonProperty("participantIdentities")] ParticipantIdentity[] participantIdentities,
+                [JsonProperty("gameVersion")] string gameVersion,
+                [JsonProperty("platformId")] string platformId,
+                [JsonProperty("gameMode")] string gameMode,
+                [JsonProperty("mapId")] int mapId,
+                [JsonProperty("gameType")] string gameType,
+                [JsonProperty("teams")] TeamStats[] teams,
+                [JsonProperty("participants")] Participant[] participants,
+                [JsonProperty("gameDuration")] long gameDuration,
+                [JsonProperty("gameCreation")] long gameCreation) {
+            SeasonId = seasonId;
+            QueueId = queueId;
+            GameId = gameId;
+            ParticipantIdentities = participantIdentities;
+            GameVersion = gameVersion;
+            PlatformId = platformId;
+            GameMode = gameMode;
+            MapId = mapId;
+            GameType = gameType;
+            Teams = teams;
+            Participants = participants;
+            GameDuration = gameDuration;
+            GameCreation = gameCreation;
+        }
+        [JsonProperty("seasonId")]
+        public readonly int SeasonId;
+        [JsonProperty("queueId")]
+        public readonly int QueueId;
+        [JsonProperty("gameId")]
+        public readonly long GameId;
+        [JsonProperty("participantIdentities")]
+        public readonly ParticipantIdentity[] ParticipantIdentities;
+        [JsonProperty("gameVersion")]
+        public readonly string GameVersion;
+        [JsonProperty("platformId")]
+        public readonly string PlatformId;
+        [JsonProperty("gameMode")]
+        public readonly string GameMode;
+        [JsonProperty("mapId")]
+        public readonly int MapId;
+        [JsonProperty("gameType")]
+        public readonly string GameType;
+        [JsonProperty("teams")]
+        public readonly TeamStats[] Teams;
+        [JsonProperty("participants")]
+        public readonly Participant[] Participants;
+        [JsonProperty("gameDuration")]
+        public readonly long GameDuration;
+        [JsonProperty("gameCreation")]
+        public readonly long GameCreation;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct ParticipantIdentityDto
+    public struct ParticipantIdentity
     {
-        public PlayerDto Player;
-        public int ParticipantId;
+        public ParticipantIdentity([JsonProperty("player")] Player player,
+                [JsonProperty("participantId")] int participantId) {
+            Player = player;
+            ParticipantId = participantId;
+        }
+        [JsonProperty("player")]
+        public readonly Player Player;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct PlayerDto
+    public struct Player
     {
-        public string CurrentPlatformId;
-        public string SummonerName;
-        public string MatchHistoryUri;
-        public string PlatformId;
-        public long CurrentAccountId;
-        public int ProfileIcon;
-        public long SummonerId;
-        public long AccountId;
+        public Player([JsonProperty("currentPlatformId")] string currentPlatformId,
+                [JsonProperty("summonerName")] string summonerName,
+                [JsonProperty("matchHistoryUri")] string matchHistoryUri,
+                [JsonProperty("platformId")] string platformId,
+                [JsonProperty("currentAccountId")] long currentAccountId,
+                [JsonProperty("profileIcon")] int profileIcon,
+                [JsonProperty("summonerId")] long summonerId,
+                [JsonProperty("accountId")] long accountId) {
+            CurrentPlatformId = currentPlatformId;
+            SummonerName = summonerName;
+            MatchHistoryUri = matchHistoryUri;
+            PlatformId = platformId;
+            CurrentAccountId = currentAccountId;
+            ProfileIcon = profileIcon;
+            SummonerId = summonerId;
+            AccountId = accountId;
+        }
+        [JsonProperty("currentPlatformId")]
+        public readonly string CurrentPlatformId;
+        [JsonProperty("summonerName")]
+        public readonly string SummonerName;
+        [JsonProperty("matchHistoryUri")]
+        public readonly string MatchHistoryUri;
+        [JsonProperty("platformId")]
+        public readonly string PlatformId;
+        [JsonProperty("currentAccountId")]
+        public readonly long CurrentAccountId;
+        [JsonProperty("profileIcon")]
+        public readonly int ProfileIcon;
+        [JsonProperty("summonerId")]
+        public readonly long SummonerId;
+        [JsonProperty("accountId")]
+        public readonly long AccountId;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct TeamStatsDto
+    public struct TeamStats
     {
-        public bool FirstDragon;
-        public bool FirstInhibitor;
-        public TeamBansDto[] Bans;
-        public int BaronKills;
-        public bool FirstRiftHerald;
-        public bool FirstBaron;
-        public int RiftHeraldKills;
-        public bool FirstBlood;
-        public int TeamId;
-        public bool FirstTower;
-        public int VilemawKills;
-        public int InhibitorKills;
-        public int TowerKills;
-        public int DominionVictoryScore;
-        public string Win;
-        public int DragonKills;
+        public TeamStats([JsonProperty("firstDragon")] bool firstDragon,
+                [JsonProperty("firstInhibitor")] bool firstInhibitor,
+                [JsonProperty("bans")] TeamBans[] bans,
+                [JsonProperty("baronKills")] int baronKills,
+                [JsonProperty("firstRiftHerald")] bool firstRiftHerald,
+                [JsonProperty("firstBaron")] bool firstBaron,
+                [JsonProperty("riftHeraldKills")] int riftHeraldKills,
+                [JsonProperty("firstBlood")] bool firstBlood,
+                [JsonProperty("teamId")] int teamId,
+                [JsonProperty("firstTower")] bool firstTower,
+                [JsonProperty("vilemawKills")] int vilemawKills,
+                [JsonProperty("inhibitorKills")] int inhibitorKills,
+                [JsonProperty("towerKills")] int towerKills,
+                [JsonProperty("dominionVictoryScore")] int dominionVictoryScore,
+                [JsonProperty("win")] string win,
+                [JsonProperty("dragonKills")] int dragonKills) {
+            FirstDragon = firstDragon;
+            FirstInhibitor = firstInhibitor;
+            Bans = bans;
+            BaronKills = baronKills;
+            FirstRiftHerald = firstRiftHerald;
+            FirstBaron = firstBaron;
+            RiftHeraldKills = riftHeraldKills;
+            FirstBlood = firstBlood;
+            TeamId = teamId;
+            FirstTower = firstTower;
+            VilemawKills = vilemawKills;
+            InhibitorKills = inhibitorKills;
+            TowerKills = towerKills;
+            DominionVictoryScore = dominionVictoryScore;
+            Win = win;
+            DragonKills = dragonKills;
+        }
+        [JsonProperty("firstDragon")]
+        public readonly bool FirstDragon;
+        [JsonProperty("firstInhibitor")]
+        public readonly bool FirstInhibitor;
+        [JsonProperty("bans")]
+        public readonly TeamBans[] Bans;
+        [JsonProperty("baronKills")]
+        public readonly int BaronKills;
+        [JsonProperty("firstRiftHerald")]
+        public readonly bool FirstRiftHerald;
+        [JsonProperty("firstBaron")]
+        public readonly bool FirstBaron;
+        [JsonProperty("riftHeraldKills")]
+        public readonly int RiftHeraldKills;
+        [JsonProperty("firstBlood")]
+        public readonly bool FirstBlood;
+        [JsonProperty("teamId")]
+        public readonly int TeamId;
+        [JsonProperty("firstTower")]
+        public readonly bool FirstTower;
+        [JsonProperty("vilemawKills")]
+        public readonly int VilemawKills;
+        [JsonProperty("inhibitorKills")]
+        public readonly int InhibitorKills;
+        [JsonProperty("towerKills")]
+        public readonly int TowerKills;
+        [JsonProperty("dominionVictoryScore")]
+        public readonly int DominionVictoryScore;
+        [JsonProperty("win")]
+        public readonly string Win;
+        [JsonProperty("dragonKills")]
+        public readonly int DragonKills;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct TeamBansDto
+    public struct TeamBans
     {
-        public int PickTurn;
-        public int ChampionId;
+        public TeamBans([JsonProperty("pickTurn")] int pickTurn,
+                [JsonProperty("championId")] int championId) {
+            PickTurn = pickTurn;
+            ChampionId = championId;
+        }
+        [JsonProperty("pickTurn")]
+        public readonly int PickTurn;
+        [JsonProperty("championId")]
+        public readonly int ChampionId;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct ParticipantDto
+    public struct Participant
     {
-        public ParticipantStatsDto Stats;
-        public int ParticipantId;
-        public RuneDto[] Runes;
-        public ParticipantTimelineDto Timeline;
-        public int TeamId;
-        public int Spell2Id;
-        public MasteryDto[] Masteries;
-        public string HighestAchievedSeasonTier;
-        public int Spell1Id;
-        public int ChampionId;
+        public Participant([JsonProperty("stats")] ParticipantStats stats,
+                [JsonProperty("participantId")] int participantId,
+                [JsonProperty("runes")] Rune[] runes,
+                [JsonProperty("timeline")] ParticipantTimeline timeline,
+                [JsonProperty("teamId")] int teamId,
+                [JsonProperty("spell2Id")] int spell2Id,
+                [JsonProperty("masteries")] Mastery[] masteries,
+                [JsonProperty("highestAchievedSeasonTier")] string highestAchievedSeasonTier,
+                [JsonProperty("spell1Id")] int spell1Id,
+                [JsonProperty("championId")] int championId) {
+            Stats = stats;
+            ParticipantId = participantId;
+            Runes = runes;
+            Timeline = timeline;
+            TeamId = teamId;
+            Spell2Id = spell2Id;
+            Masteries = masteries;
+            HighestAchievedSeasonTier = highestAchievedSeasonTier;
+            Spell1Id = spell1Id;
+            ChampionId = championId;
+        }
+        [JsonProperty("stats")]
+        public readonly ParticipantStats Stats;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
+        [JsonProperty("runes")]
+        public readonly Rune[] Runes;
+        [JsonProperty("timeline")]
+        public readonly ParticipantTimeline Timeline;
+        [JsonProperty("teamId")]
+        public readonly int TeamId;
+        [JsonProperty("spell2Id")]
+        public readonly int Spell2Id;
+        [JsonProperty("masteries")]
+        public readonly Mastery[] Masteries;
+        [JsonProperty("highestAchievedSeasonTier")]
+        public readonly string HighestAchievedSeasonTier;
+        [JsonProperty("spell1Id")]
+        public readonly int Spell1Id;
+        [JsonProperty("championId")]
+        public readonly int ChampionId;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct ParticipantStatsDto
+    public struct ParticipantStats
     {
-        public long PhysicalDamageDealt;
-        public int NeutralMinionsKilledTeamJungle;
-        public long MagicDamageDealt;
-        public int TotalPlayerScore;
-        public int Deaths;
-        public bool Win;
-        public int NeutralMinionsKilledEnemyJungle;
-        public int AltarsCaptured;
-        public int LargestCriticalStrike;
-        public long TotalDamageDealt;
-        public long MagicDamageDealtToChampions;
-        public int VisionWardsBoughtInGame;
-        public long DamageDealtToObjectives;
-        public int LargestKillingSpree;
-        public int Item1;
-        public int QuadraKills;
-        public int TeamObjective;
-        public int TotalTimeCrowdControlDealt;
-        public int LongestTimeSpentLiving;
-        public int WardsKilled;
-        public bool FirstTowerAssist;
-        public bool FirstTowerKill;
-        public int Item2;
-        public int Item3;
-        public int Item0;
-        public bool FirstBloodAssist;
-        public long VisionScore;
-        public int WardsPlaced;
-        public int Item4;
-        public int Item5;
-        public int Item6;
-        public int TurretKills;
-        public int TripleKills;
-        public long DamageSelfMitigated;
-        public int ChampLevel;
-        public int NodeNeutralizeAssist;
-        public bool FirstInhibitorKill;
-        public int GoldEarned;
-        public long MagicalDamageTaken;
-        public int Kills;
-        public int DoubleKills;
-        public int NodeCaptureAssist;
-        public long TrueDamageTaken;
-        public int NodeNeutralize;
-        public bool FirstInhibitorAssist;
-        public int Assists;
-        public int UnrealKills;
-        public int NeutralMinionsKilled;
-        public int ObjectivePlayerScore;
-        public int CombatPlayerScore;
-        public long DamageDealtToTurrets;
-        public int AltarsNeutralized;
-        public long PhysicalDamageDealtToChampions;
-        public int GoldSpent;
-        public long TrueDamageDealt;
-        public long TrueDamageDealtToChampions;
-        public int ParticipantId;
-        public int PentaKills;
-        public long TotalHeal;
-        public int TotalMinionsKilled;
-        public bool FirstBloodKill;
-        public int NodeCapture;
-        public int LargestMultiKill;
-        public int SightWardsBoughtInGame;
-        public long TotalDamageDealtToChampions;
-        public int TotalUnitsHealed;
-        public int InhibitorKills;
-        public int TotalScoreRank;
-        public long TotalDamageTaken;
-        public int KillingSprees;
-        public long TimeCCingOthers;
-        public long PhysicalDamageTaken;
+        public ParticipantStats([JsonProperty("physicalDamageDealt")] long physicalDamageDealt,
+                [JsonProperty("neutralMinionsKilledTeamJungle")] int neutralMinionsKilledTeamJungle,
+                [JsonProperty("magicDamageDealt")] long magicDamageDealt,
+                [JsonProperty("totalPlayerScore")] int totalPlayerScore,
+                [JsonProperty("deaths")] int deaths,
+                [JsonProperty("win")] bool win,
+                [JsonProperty("neutralMinionsKilledEnemyJungle")] int neutralMinionsKilledEnemyJungle,
+                [JsonProperty("altarsCaptured")] int altarsCaptured,
+                [JsonProperty("largestCriticalStrike")] int largestCriticalStrike,
+                [JsonProperty("totalDamageDealt")] long totalDamageDealt,
+                [JsonProperty("magicDamageDealtToChampions")] long magicDamageDealtToChampions,
+                [JsonProperty("visionWardsBoughtInGame")] int visionWardsBoughtInGame,
+                [JsonProperty("damageDealtToObjectives")] long damageDealtToObjectives,
+                [JsonProperty("largestKillingSpree")] int largestKillingSpree,
+                [JsonProperty("item1")] int item1,
+                [JsonProperty("quadraKills")] int quadraKills,
+                [JsonProperty("teamObjective")] int teamObjective,
+                [JsonProperty("totalTimeCrowdControlDealt")] int totalTimeCrowdControlDealt,
+                [JsonProperty("longestTimeSpentLiving")] int longestTimeSpentLiving,
+                [JsonProperty("wardsKilled")] int wardsKilled,
+                [JsonProperty("firstTowerAssist")] bool firstTowerAssist,
+                [JsonProperty("firstTowerKill")] bool firstTowerKill,
+                [JsonProperty("item2")] int item2,
+                [JsonProperty("item3")] int item3,
+                [JsonProperty("item0")] int item0,
+                [JsonProperty("firstBloodAssist")] bool firstBloodAssist,
+                [JsonProperty("visionScore")] long visionScore,
+                [JsonProperty("wardsPlaced")] int wardsPlaced,
+                [JsonProperty("item4")] int item4,
+                [JsonProperty("item5")] int item5,
+                [JsonProperty("item6")] int item6,
+                [JsonProperty("turretKills")] int turretKills,
+                [JsonProperty("tripleKills")] int tripleKills,
+                [JsonProperty("damageSelfMitigated")] long damageSelfMitigated,
+                [JsonProperty("champLevel")] int champLevel,
+                [JsonProperty("nodeNeutralizeAssist")] int nodeNeutralizeAssist,
+                [JsonProperty("firstInhibitorKill")] bool firstInhibitorKill,
+                [JsonProperty("goldEarned")] int goldEarned,
+                [JsonProperty("magicalDamageTaken")] long magicalDamageTaken,
+                [JsonProperty("kills")] int kills,
+                [JsonProperty("doubleKills")] int doubleKills,
+                [JsonProperty("nodeCaptureAssist")] int nodeCaptureAssist,
+                [JsonProperty("trueDamageTaken")] long trueDamageTaken,
+                [JsonProperty("nodeNeutralize")] int nodeNeutralize,
+                [JsonProperty("firstInhibitorAssist")] bool firstInhibitorAssist,
+                [JsonProperty("assists")] int assists,
+                [JsonProperty("unrealKills")] int unrealKills,
+                [JsonProperty("neutralMinionsKilled")] int neutralMinionsKilled,
+                [JsonProperty("objectivePlayerScore")] int objectivePlayerScore,
+                [JsonProperty("combatPlayerScore")] int combatPlayerScore,
+                [JsonProperty("damageDealtToTurrets")] long damageDealtToTurrets,
+                [JsonProperty("altarsNeutralized")] int altarsNeutralized,
+                [JsonProperty("physicalDamageDealtToChampions")] long physicalDamageDealtToChampions,
+                [JsonProperty("goldSpent")] int goldSpent,
+                [JsonProperty("trueDamageDealt")] long trueDamageDealt,
+                [JsonProperty("trueDamageDealtToChampions")] long trueDamageDealtToChampions,
+                [JsonProperty("participantId")] int participantId,
+                [JsonProperty("pentaKills")] int pentaKills,
+                [JsonProperty("totalHeal")] long totalHeal,
+                [JsonProperty("totalMinionsKilled")] int totalMinionsKilled,
+                [JsonProperty("firstBloodKill")] bool firstBloodKill,
+                [JsonProperty("nodeCapture")] int nodeCapture,
+                [JsonProperty("largestMultiKill")] int largestMultiKill,
+                [JsonProperty("sightWardsBoughtInGame")] int sightWardsBoughtInGame,
+                [JsonProperty("totalDamageDealtToChampions")] long totalDamageDealtToChampions,
+                [JsonProperty("totalUnitsHealed")] int totalUnitsHealed,
+                [JsonProperty("inhibitorKills")] int inhibitorKills,
+                [JsonProperty("totalScoreRank")] int totalScoreRank,
+                [JsonProperty("totalDamageTaken")] long totalDamageTaken,
+                [JsonProperty("killingSprees")] int killingSprees,
+                [JsonProperty("timeCCingOthers")] long timeCCingOthers,
+                [JsonProperty("physicalDamageTaken")] long physicalDamageTaken) {
+            PhysicalDamageDealt = physicalDamageDealt;
+            NeutralMinionsKilledTeamJungle = neutralMinionsKilledTeamJungle;
+            MagicDamageDealt = magicDamageDealt;
+            TotalPlayerScore = totalPlayerScore;
+            Deaths = deaths;
+            Win = win;
+            NeutralMinionsKilledEnemyJungle = neutralMinionsKilledEnemyJungle;
+            AltarsCaptured = altarsCaptured;
+            LargestCriticalStrike = largestCriticalStrike;
+            TotalDamageDealt = totalDamageDealt;
+            MagicDamageDealtToChampions = magicDamageDealtToChampions;
+            VisionWardsBoughtInGame = visionWardsBoughtInGame;
+            DamageDealtToObjectives = damageDealtToObjectives;
+            LargestKillingSpree = largestKillingSpree;
+            Item1 = item1;
+            QuadraKills = quadraKills;
+            TeamObjective = teamObjective;
+            TotalTimeCrowdControlDealt = totalTimeCrowdControlDealt;
+            LongestTimeSpentLiving = longestTimeSpentLiving;
+            WardsKilled = wardsKilled;
+            FirstTowerAssist = firstTowerAssist;
+            FirstTowerKill = firstTowerKill;
+            Item2 = item2;
+            Item3 = item3;
+            Item0 = item0;
+            FirstBloodAssist = firstBloodAssist;
+            VisionScore = visionScore;
+            WardsPlaced = wardsPlaced;
+            Item4 = item4;
+            Item5 = item5;
+            Item6 = item6;
+            TurretKills = turretKills;
+            TripleKills = tripleKills;
+            DamageSelfMitigated = damageSelfMitigated;
+            ChampLevel = champLevel;
+            NodeNeutralizeAssist = nodeNeutralizeAssist;
+            FirstInhibitorKill = firstInhibitorKill;
+            GoldEarned = goldEarned;
+            MagicalDamageTaken = magicalDamageTaken;
+            Kills = kills;
+            DoubleKills = doubleKills;
+            NodeCaptureAssist = nodeCaptureAssist;
+            TrueDamageTaken = trueDamageTaken;
+            NodeNeutralize = nodeNeutralize;
+            FirstInhibitorAssist = firstInhibitorAssist;
+            Assists = assists;
+            UnrealKills = unrealKills;
+            NeutralMinionsKilled = neutralMinionsKilled;
+            ObjectivePlayerScore = objectivePlayerScore;
+            CombatPlayerScore = combatPlayerScore;
+            DamageDealtToTurrets = damageDealtToTurrets;
+            AltarsNeutralized = altarsNeutralized;
+            PhysicalDamageDealtToChampions = physicalDamageDealtToChampions;
+            GoldSpent = goldSpent;
+            TrueDamageDealt = trueDamageDealt;
+            TrueDamageDealtToChampions = trueDamageDealtToChampions;
+            ParticipantId = participantId;
+            PentaKills = pentaKills;
+            TotalHeal = totalHeal;
+            TotalMinionsKilled = totalMinionsKilled;
+            FirstBloodKill = firstBloodKill;
+            NodeCapture = nodeCapture;
+            LargestMultiKill = largestMultiKill;
+            SightWardsBoughtInGame = sightWardsBoughtInGame;
+            TotalDamageDealtToChampions = totalDamageDealtToChampions;
+            TotalUnitsHealed = totalUnitsHealed;
+            InhibitorKills = inhibitorKills;
+            TotalScoreRank = totalScoreRank;
+            TotalDamageTaken = totalDamageTaken;
+            KillingSprees = killingSprees;
+            TimeCCingOthers = timeCCingOthers;
+            PhysicalDamageTaken = physicalDamageTaken;
+        }
+        [JsonProperty("physicalDamageDealt")]
+        public readonly long PhysicalDamageDealt;
+        [JsonProperty("neutralMinionsKilledTeamJungle")]
+        public readonly int NeutralMinionsKilledTeamJungle;
+        [JsonProperty("magicDamageDealt")]
+        public readonly long MagicDamageDealt;
+        [JsonProperty("totalPlayerScore")]
+        public readonly int TotalPlayerScore;
+        [JsonProperty("deaths")]
+        public readonly int Deaths;
+        [JsonProperty("win")]
+        public readonly bool Win;
+        [JsonProperty("neutralMinionsKilledEnemyJungle")]
+        public readonly int NeutralMinionsKilledEnemyJungle;
+        [JsonProperty("altarsCaptured")]
+        public readonly int AltarsCaptured;
+        [JsonProperty("largestCriticalStrike")]
+        public readonly int LargestCriticalStrike;
+        [JsonProperty("totalDamageDealt")]
+        public readonly long TotalDamageDealt;
+        [JsonProperty("magicDamageDealtToChampions")]
+        public readonly long MagicDamageDealtToChampions;
+        [JsonProperty("visionWardsBoughtInGame")]
+        public readonly int VisionWardsBoughtInGame;
+        [JsonProperty("damageDealtToObjectives")]
+        public readonly long DamageDealtToObjectives;
+        [JsonProperty("largestKillingSpree")]
+        public readonly int LargestKillingSpree;
+        [JsonProperty("item1")]
+        public readonly int Item1;
+        [JsonProperty("quadraKills")]
+        public readonly int QuadraKills;
+        [JsonProperty("teamObjective")]
+        public readonly int TeamObjective;
+        [JsonProperty("totalTimeCrowdControlDealt")]
+        public readonly int TotalTimeCrowdControlDealt;
+        [JsonProperty("longestTimeSpentLiving")]
+        public readonly int LongestTimeSpentLiving;
+        [JsonProperty("wardsKilled")]
+        public readonly int WardsKilled;
+        [JsonProperty("firstTowerAssist")]
+        public readonly bool FirstTowerAssist;
+        [JsonProperty("firstTowerKill")]
+        public readonly bool FirstTowerKill;
+        [JsonProperty("item2")]
+        public readonly int Item2;
+        [JsonProperty("item3")]
+        public readonly int Item3;
+        [JsonProperty("item0")]
+        public readonly int Item0;
+        [JsonProperty("firstBloodAssist")]
+        public readonly bool FirstBloodAssist;
+        [JsonProperty("visionScore")]
+        public readonly long VisionScore;
+        [JsonProperty("wardsPlaced")]
+        public readonly int WardsPlaced;
+        [JsonProperty("item4")]
+        public readonly int Item4;
+        [JsonProperty("item5")]
+        public readonly int Item5;
+        [JsonProperty("item6")]
+        public readonly int Item6;
+        [JsonProperty("turretKills")]
+        public readonly int TurretKills;
+        [JsonProperty("tripleKills")]
+        public readonly int TripleKills;
+        [JsonProperty("damageSelfMitigated")]
+        public readonly long DamageSelfMitigated;
+        [JsonProperty("champLevel")]
+        public readonly int ChampLevel;
+        [JsonProperty("nodeNeutralizeAssist")]
+        public readonly int NodeNeutralizeAssist;
+        [JsonProperty("firstInhibitorKill")]
+        public readonly bool FirstInhibitorKill;
+        [JsonProperty("goldEarned")]
+        public readonly int GoldEarned;
+        [JsonProperty("magicalDamageTaken")]
+        public readonly long MagicalDamageTaken;
+        [JsonProperty("kills")]
+        public readonly int Kills;
+        [JsonProperty("doubleKills")]
+        public readonly int DoubleKills;
+        [JsonProperty("nodeCaptureAssist")]
+        public readonly int NodeCaptureAssist;
+        [JsonProperty("trueDamageTaken")]
+        public readonly long TrueDamageTaken;
+        [JsonProperty("nodeNeutralize")]
+        public readonly int NodeNeutralize;
+        [JsonProperty("firstInhibitorAssist")]
+        public readonly bool FirstInhibitorAssist;
+        [JsonProperty("assists")]
+        public readonly int Assists;
+        [JsonProperty("unrealKills")]
+        public readonly int UnrealKills;
+        [JsonProperty("neutralMinionsKilled")]
+        public readonly int NeutralMinionsKilled;
+        [JsonProperty("objectivePlayerScore")]
+        public readonly int ObjectivePlayerScore;
+        [JsonProperty("combatPlayerScore")]
+        public readonly int CombatPlayerScore;
+        [JsonProperty("damageDealtToTurrets")]
+        public readonly long DamageDealtToTurrets;
+        [JsonProperty("altarsNeutralized")]
+        public readonly int AltarsNeutralized;
+        [JsonProperty("physicalDamageDealtToChampions")]
+        public readonly long PhysicalDamageDealtToChampions;
+        [JsonProperty("goldSpent")]
+        public readonly int GoldSpent;
+        [JsonProperty("trueDamageDealt")]
+        public readonly long TrueDamageDealt;
+        [JsonProperty("trueDamageDealtToChampions")]
+        public readonly long TrueDamageDealtToChampions;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
+        [JsonProperty("pentaKills")]
+        public readonly int PentaKills;
+        [JsonProperty("totalHeal")]
+        public readonly long TotalHeal;
+        [JsonProperty("totalMinionsKilled")]
+        public readonly int TotalMinionsKilled;
+        [JsonProperty("firstBloodKill")]
+        public readonly bool FirstBloodKill;
+        [JsonProperty("nodeCapture")]
+        public readonly int NodeCapture;
+        [JsonProperty("largestMultiKill")]
+        public readonly int LargestMultiKill;
+        [JsonProperty("sightWardsBoughtInGame")]
+        public readonly int SightWardsBoughtInGame;
+        [JsonProperty("totalDamageDealtToChampions")]
+        public readonly long TotalDamageDealtToChampions;
+        [JsonProperty("totalUnitsHealed")]
+        public readonly int TotalUnitsHealed;
+        [JsonProperty("inhibitorKills")]
+        public readonly int InhibitorKills;
+        [JsonProperty("totalScoreRank")]
+        public readonly int TotalScoreRank;
+        [JsonProperty("totalDamageTaken")]
+        public readonly long TotalDamageTaken;
+        [JsonProperty("killingSprees")]
+        public readonly int KillingSprees;
+        [JsonProperty("timeCCingOthers")]
+        public readonly long TimeCCingOthers;
+        [JsonProperty("physicalDamageTaken")]
+        public readonly long PhysicalDamageTaken;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct RuneDto
+    public struct Rune
     {
-        public int RuneId;
-        public int Rank;
+        public Rune([JsonProperty("runeId")] int runeId,
+                [JsonProperty("rank")] int rank) {
+            RuneId = runeId;
+            Rank = rank;
+        }
+        [JsonProperty("runeId")]
+        public readonly int RuneId;
+        [JsonProperty("rank")]
+        public readonly int Rank;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct ParticipantTimelineDto
+    public struct ParticipantTimeline
     {
-        public string Lane;
-        public int ParticipantId;
-        public IDictionary<string, double> CsDiffPerMinDeltas;
-        public IDictionary<string, double> GoldPerMinDeltas;
-        public IDictionary<string, double> XpDiffPerMinDeltas;
-        public IDictionary<string, double> CreepsPerMinDeltas;
-        public IDictionary<string, double> XpPerMinDeltas;
-        public string Role;
-        public IDictionary<string, double> DamageTakenDiffPerMinDeltas;
-        public IDictionary<string, double> DamageTakenPerMinDeltas;
+        public ParticipantTimeline([JsonProperty("lane")] string lane,
+                [JsonProperty("participantId")] int participantId,
+                [JsonProperty("csDiffPerMinDeltas")] IDictionary<string, double> csDiffPerMinDeltas,
+                [JsonProperty("goldPerMinDeltas")] IDictionary<string, double> goldPerMinDeltas,
+                [JsonProperty("xpDiffPerMinDeltas")] IDictionary<string, double> xpDiffPerMinDeltas,
+                [JsonProperty("creepsPerMinDeltas")] IDictionary<string, double> creepsPerMinDeltas,
+                [JsonProperty("xpPerMinDeltas")] IDictionary<string, double> xpPerMinDeltas,
+                [JsonProperty("role")] string role,
+                [JsonProperty("damageTakenDiffPerMinDeltas")] IDictionary<string, double> damageTakenDiffPerMinDeltas,
+                [JsonProperty("damageTakenPerMinDeltas")] IDictionary<string, double> damageTakenPerMinDeltas) {
+            Lane = lane;
+            ParticipantId = participantId;
+            CsDiffPerMinDeltas = csDiffPerMinDeltas;
+            GoldPerMinDeltas = goldPerMinDeltas;
+            XpDiffPerMinDeltas = xpDiffPerMinDeltas;
+            CreepsPerMinDeltas = creepsPerMinDeltas;
+            XpPerMinDeltas = xpPerMinDeltas;
+            Role = role;
+            DamageTakenDiffPerMinDeltas = damageTakenDiffPerMinDeltas;
+            DamageTakenPerMinDeltas = damageTakenPerMinDeltas;
+        }
+        [JsonProperty("lane")]
+        public readonly string Lane;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
+        [JsonProperty("csDiffPerMinDeltas")]
+        public readonly IDictionary<string, double> CsDiffPerMinDeltas;
+        [JsonProperty("goldPerMinDeltas")]
+        public readonly IDictionary<string, double> GoldPerMinDeltas;
+        [JsonProperty("xpDiffPerMinDeltas")]
+        public readonly IDictionary<string, double> XpDiffPerMinDeltas;
+        [JsonProperty("creepsPerMinDeltas")]
+        public readonly IDictionary<string, double> CreepsPerMinDeltas;
+        [JsonProperty("xpPerMinDeltas")]
+        public readonly IDictionary<string, double> XpPerMinDeltas;
+        [JsonProperty("role")]
+        public readonly string Role;
+        [JsonProperty("damageTakenDiffPerMinDeltas")]
+        public readonly IDictionary<string, double> DamageTakenDiffPerMinDeltas;
+        [JsonProperty("damageTakenPerMinDeltas")]
+        public readonly IDictionary<string, double> DamageTakenPerMinDeltas;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MasteryDto
+    public struct Mastery
     {
-        public int MasteryId;
-        public int Rank;
+        public Mastery([JsonProperty("masteryId")] int masteryId,
+                [JsonProperty("rank")] int rank) {
+            MasteryId = masteryId;
+            Rank = rank;
+        }
+        [JsonProperty("masteryId")]
+        public readonly int MasteryId;
+        [JsonProperty("rank")]
+        public readonly int Rank;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchlistDto
+    public struct Matchlist
     {
-        public MatchReferenceDto[] Matches;
-        public int TotalGames;
-        public int StartIndex;
-        public int EndIndex;
+        public Matchlist([JsonProperty("matches")] MatchReference[] matches,
+                [JsonProperty("totalGames")] int totalGames,
+                [JsonProperty("startIndex")] int startIndex,
+                [JsonProperty("endIndex")] int endIndex) {
+            Matches = matches;
+            TotalGames = totalGames;
+            StartIndex = startIndex;
+            EndIndex = endIndex;
+        }
+        [JsonProperty("matches")]
+        public readonly MatchReference[] Matches;
+        [JsonProperty("totalGames")]
+        public readonly int TotalGames;
+        [JsonProperty("startIndex")]
+        public readonly int StartIndex;
+        [JsonProperty("endIndex")]
+        public readonly int EndIndex;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchReferenceDto
+    public struct MatchReference
     {
-        public string Lane;
-        public long GameId;
-        public int Champion;
-        public string PlatformId;
-        public int Season;
-        public int Queue;
-        public string Role;
-        public long Timestamp;
+        public MatchReference([JsonProperty("lane")] string lane,
+                [JsonProperty("gameId")] long gameId,
+                [JsonProperty("champion")] int champion,
+                [JsonProperty("platformId")] string platformId,
+                [JsonProperty("season")] int season,
+                [JsonProperty("queue")] int queue,
+                [JsonProperty("role")] string role,
+                [JsonProperty("timestamp")] long timestamp) {
+            Lane = lane;
+            GameId = gameId;
+            Champion = champion;
+            PlatformId = platformId;
+            Season = season;
+            Queue = queue;
+            Role = role;
+            Timestamp = timestamp;
+        }
+        [JsonProperty("lane")]
+        public readonly string Lane;
+        [JsonProperty("gameId")]
+        public readonly long GameId;
+        [JsonProperty("champion")]
+        public readonly int Champion;
+        [JsonProperty("platformId")]
+        public readonly string PlatformId;
+        [JsonProperty("season")]
+        public readonly int Season;
+        [JsonProperty("queue")]
+        public readonly int Queue;
+        [JsonProperty("role")]
+        public readonly string Role;
+        [JsonProperty("timestamp")]
+        public readonly long Timestamp;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchTimelineDto
+    public struct MatchTimeline
     {
-        public MatchFrameDto[] Frames;
-        public long FrameInterval;
+        public MatchTimeline([JsonProperty("frames")] MatchFrame[] frames,
+                [JsonProperty("frameInterval")] long frameInterval) {
+            Frames = frames;
+            FrameInterval = frameInterval;
+        }
+        [JsonProperty("frames")]
+        public readonly MatchFrame[] Frames;
+        [JsonProperty("frameInterval")]
+        public readonly long FrameInterval;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchFrameDto
+    public struct MatchFrame
     {
-        public long Timestamp;
-        public IDictionary<int, MatchParticipantFrameDto> ParticipantFrames;
-        public MatchEventDto[] Events;
+        public MatchFrame([JsonProperty("timestamp")] long timestamp,
+                [JsonProperty("participantFrames")] IDictionary<int, MatchParticipantFrame> participantFrames,
+                [JsonProperty("events")] MatchEvent[] events) {
+            Timestamp = timestamp;
+            ParticipantFrames = participantFrames;
+            Events = events;
+        }
+        [JsonProperty("timestamp")]
+        public readonly long Timestamp;
+        [JsonProperty("participantFrames")]
+        public readonly IDictionary<int, MatchParticipantFrame> ParticipantFrames;
+        [JsonProperty("events")]
+        public readonly MatchEvent[] Events;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchParticipantFrameDto
+    public struct MatchParticipantFrame
     {
-        public int TotalGold;
-        public int TeamScore;
-        public int ParticipantId;
-        public int Level;
-        public int CurrentGold;
-        public int MinionsKilled;
-        public int DominionScore;
-        public MatchPositionDto Position;
-        public int Xp;
-        public int JungleMinionsKilled;
+        public MatchParticipantFrame([JsonProperty("totalGold")] int totalGold,
+                [JsonProperty("teamScore")] int teamScore,
+                [JsonProperty("participantId")] int participantId,
+                [JsonProperty("level")] int level,
+                [JsonProperty("currentGold")] int currentGold,
+                [JsonProperty("minionsKilled")] int minionsKilled,
+                [JsonProperty("dominionScore")] int dominionScore,
+                [JsonProperty("position")] MatchPosition position,
+                [JsonProperty("xp")] int xp,
+                [JsonProperty("jungleMinionsKilled")] int jungleMinionsKilled) {
+            TotalGold = totalGold;
+            TeamScore = teamScore;
+            ParticipantId = participantId;
+            Level = level;
+            CurrentGold = currentGold;
+            MinionsKilled = minionsKilled;
+            DominionScore = dominionScore;
+            Position = position;
+            Xp = xp;
+            JungleMinionsKilled = jungleMinionsKilled;
+        }
+        [JsonProperty("totalGold")]
+        public readonly int TotalGold;
+        [JsonProperty("teamScore")]
+        public readonly int TeamScore;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
+        [JsonProperty("level")]
+        public readonly int Level;
+        [JsonProperty("currentGold")]
+        public readonly int CurrentGold;
+        [JsonProperty("minionsKilled")]
+        public readonly int MinionsKilled;
+        [JsonProperty("dominionScore")]
+        public readonly int DominionScore;
+        [JsonProperty("position")]
+        public readonly MatchPosition Position;
+        [JsonProperty("xp")]
+        public readonly int Xp;
+        [JsonProperty("jungleMinionsKilled")]
+        public readonly int JungleMinionsKilled;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchPositionDto
+    public struct MatchPosition
     {
-        public int Y;
-        public int X;
+        public MatchPosition([JsonProperty("y")] int y,
+                [JsonProperty("x")] int x) {
+            Y = y;
+            X = x;
+        }
+        [JsonProperty("y")]
+        public readonly int Y;
+        [JsonProperty("x")]
+        public readonly int X;
     }
 }
 
 // match-v3
 namespace MingweiSamuel.Camille.Match
 {
-    public struct MatchEventDto
+    public struct MatchEvent
     {
-        public string EventType;
-        public string TowerType;
-        public int TeamId;
-        public string AscendedType;
-        public int KillerId;
-        public string LevelUpType;
-        public string PointCaptured;
-        public int[] AssistingParticipantIds;
-        public string WardType;
-        public string MonsterType;
-        public string Type;
-        public int SkillSlot;
-        public int VictimId;
-        public long Timestamp;
-        public int AfterId;
-        public string MonsterSubType;
-        public string LaneType;
-        public int ItemId;
-        public int ParticipantId;
-        public string BuildingType;
-        public int CreatorId;
-        public MatchPositionDto Position;
-        public int BeforeId;
+        public MatchEvent([JsonProperty("eventType")] string eventType,
+                [JsonProperty("towerType")] string towerType,
+                [JsonProperty("teamId")] int teamId,
+                [JsonProperty("ascendedType")] string ascendedType,
+                [JsonProperty("killerId")] int killerId,
+                [JsonProperty("levelUpType")] string levelUpType,
+                [JsonProperty("pointCaptured")] string pointCaptured,
+                [JsonProperty("assistingParticipantIds")] int[] assistingParticipantIds,
+                [JsonProperty("wardType")] string wardType,
+                [JsonProperty("monsterType")] string monsterType,
+                [JsonProperty("type")] string type,
+                [JsonProperty("skillSlot")] int skillSlot,
+                [JsonProperty("victimId")] int victimId,
+                [JsonProperty("timestamp")] long timestamp,
+                [JsonProperty("afterId")] int afterId,
+                [JsonProperty("monsterSubType")] string monsterSubType,
+                [JsonProperty("laneType")] string laneType,
+                [JsonProperty("itemId")] int itemId,
+                [JsonProperty("participantId")] int participantId,
+                [JsonProperty("buildingType")] string buildingType,
+                [JsonProperty("creatorId")] int creatorId,
+                [JsonProperty("position")] MatchPosition position,
+                [JsonProperty("beforeId")] int beforeId) {
+            EventType = eventType;
+            TowerType = towerType;
+            TeamId = teamId;
+            AscendedType = ascendedType;
+            KillerId = killerId;
+            LevelUpType = levelUpType;
+            PointCaptured = pointCaptured;
+            AssistingParticipantIds = assistingParticipantIds;
+            WardType = wardType;
+            MonsterType = monsterType;
+            Type = type;
+            SkillSlot = skillSlot;
+            VictimId = victimId;
+            Timestamp = timestamp;
+            AfterId = afterId;
+            MonsterSubType = monsterSubType;
+            LaneType = laneType;
+            ItemId = itemId;
+            ParticipantId = participantId;
+            BuildingType = buildingType;
+            CreatorId = creatorId;
+            Position = position;
+            BeforeId = beforeId;
+        }
+        [JsonProperty("eventType")]
+        public readonly string EventType;
+        [JsonProperty("towerType")]
+        public readonly string TowerType;
+        [JsonProperty("teamId")]
+        public readonly int TeamId;
+        [JsonProperty("ascendedType")]
+        public readonly string AscendedType;
+        [JsonProperty("killerId")]
+        public readonly int KillerId;
+        [JsonProperty("levelUpType")]
+        public readonly string LevelUpType;
+        [JsonProperty("pointCaptured")]
+        public readonly string PointCaptured;
+        [JsonProperty("assistingParticipantIds")]
+        public readonly int[] AssistingParticipantIds;
+        [JsonProperty("wardType")]
+        public readonly string WardType;
+        [JsonProperty("monsterType")]
+        public readonly string MonsterType;
+        [JsonProperty("type")]
+        public readonly string Type;
+        [JsonProperty("skillSlot")]
+        public readonly int SkillSlot;
+        [JsonProperty("victimId")]
+        public readonly int VictimId;
+        [JsonProperty("timestamp")]
+        public readonly long Timestamp;
+        [JsonProperty("afterId")]
+        public readonly int AfterId;
+        [JsonProperty("monsterSubType")]
+        public readonly string MonsterSubType;
+        [JsonProperty("laneType")]
+        public readonly string LaneType;
+        [JsonProperty("itemId")]
+        public readonly int ItemId;
+        [JsonProperty("participantId")]
+        public readonly int ParticipantId;
+        [JsonProperty("buildingType")]
+        public readonly string BuildingType;
+        [JsonProperty("creatorId")]
+        public readonly int CreatorId;
+        [JsonProperty("position")]
+        public readonly MatchPosition Position;
+        [JsonProperty("beforeId")]
+        public readonly int BeforeId;
     }
 }
 
@@ -1131,17 +2900,51 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct CurrentGameInfo
     {
-        public long GameId;
-        public long GameStartTime;
-        public string PlatformId;
-        public string GameMode;
-        public long MapId;
-        public string GameType;
-        public BannedChampion[] BannedChampions;
-        public Observer Observers;
-        public CurrentGameParticipant[] Participants;
-        public long GameLength;
-        public long GameQueueConfigId;
+        public CurrentGameInfo([JsonProperty("gameId")] long gameId,
+                [JsonProperty("gameStartTime")] long gameStartTime,
+                [JsonProperty("platformId")] string platformId,
+                [JsonProperty("gameMode")] string gameMode,
+                [JsonProperty("mapId")] long mapId,
+                [JsonProperty("gameType")] string gameType,
+                [JsonProperty("bannedChampions")] BannedChampion[] bannedChampions,
+                [JsonProperty("observers")] Observer observers,
+                [JsonProperty("participants")] CurrentGameParticipant[] participants,
+                [JsonProperty("gameLength")] long gameLength,
+                [JsonProperty("gameQueueConfigId")] long gameQueueConfigId) {
+            GameId = gameId;
+            GameStartTime = gameStartTime;
+            PlatformId = platformId;
+            GameMode = gameMode;
+            MapId = mapId;
+            GameType = gameType;
+            BannedChampions = bannedChampions;
+            Observers = observers;
+            Participants = participants;
+            GameLength = gameLength;
+            GameQueueConfigId = gameQueueConfigId;
+        }
+        [JsonProperty("gameId")]
+        public readonly long GameId;
+        [JsonProperty("gameStartTime")]
+        public readonly long GameStartTime;
+        [JsonProperty("platformId")]
+        public readonly string PlatformId;
+        [JsonProperty("gameMode")]
+        public readonly string GameMode;
+        [JsonProperty("mapId")]
+        public readonly long MapId;
+        [JsonProperty("gameType")]
+        public readonly string GameType;
+        [JsonProperty("bannedChampions")]
+        public readonly BannedChampion[] BannedChampions;
+        [JsonProperty("observers")]
+        public readonly Observer Observers;
+        [JsonProperty("participants")]
+        public readonly CurrentGameParticipant[] Participants;
+        [JsonProperty("gameLength")]
+        public readonly long GameLength;
+        [JsonProperty("gameQueueConfigId")]
+        public readonly long GameQueueConfigId;
     }
 }
 
@@ -1150,9 +2953,19 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct BannedChampion
     {
-        public int PickTurn;
-        public long ChampionId;
-        public long TeamId;
+        public BannedChampion([JsonProperty("pickTurn")] int pickTurn,
+                [JsonProperty("championId")] long championId,
+                [JsonProperty("teamId")] long teamId) {
+            PickTurn = pickTurn;
+            ChampionId = championId;
+            TeamId = teamId;
+        }
+        [JsonProperty("pickTurn")]
+        public readonly int PickTurn;
+        [JsonProperty("championId")]
+        public readonly long ChampionId;
+        [JsonProperty("teamId")]
+        public readonly long TeamId;
     }
 }
 
@@ -1161,7 +2974,11 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct Observer
     {
-        public string EncryptionKey;
+        public Observer([JsonProperty("encryptionKey")] string encryptionKey) {
+            EncryptionKey = encryptionKey;
+        }
+        [JsonProperty("encryptionKey")]
+        public readonly string EncryptionKey;
     }
 }
 
@@ -1170,16 +2987,47 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct CurrentGameParticipant
     {
-        public long ProfileIconId;
-        public long ChampionId;
-        public string SummonerName;
-        public GameCustomizationObject[] GameCustomizationObjects;
-        public bool Bot;
-        public Perks Perks;
-        public long Spell2Id;
-        public long TeamId;
-        public long Spell1Id;
-        public long SummonerId;
+        public CurrentGameParticipant([JsonProperty("profileIconId")] long profileIconId,
+                [JsonProperty("championId")] long championId,
+                [JsonProperty("summonerName")] string summonerName,
+                [JsonProperty("gameCustomizationObjects")] GameCustomizationObject[] gameCustomizationObjects,
+                [JsonProperty("bot")] bool bot,
+                [JsonProperty("perks")] Perks perks,
+                [JsonProperty("spell2Id")] long spell2Id,
+                [JsonProperty("teamId")] long teamId,
+                [JsonProperty("spell1Id")] long spell1Id,
+                [JsonProperty("summonerId")] long summonerId) {
+            ProfileIconId = profileIconId;
+            ChampionId = championId;
+            SummonerName = summonerName;
+            GameCustomizationObjects = gameCustomizationObjects;
+            Bot = bot;
+            Perks = perks;
+            Spell2Id = spell2Id;
+            TeamId = teamId;
+            Spell1Id = spell1Id;
+            SummonerId = summonerId;
+        }
+        [JsonProperty("profileIconId")]
+        public readonly long ProfileIconId;
+        [JsonProperty("championId")]
+        public readonly long ChampionId;
+        [JsonProperty("summonerName")]
+        public readonly string SummonerName;
+        [JsonProperty("gameCustomizationObjects")]
+        public readonly GameCustomizationObject[] GameCustomizationObjects;
+        [JsonProperty("bot")]
+        public readonly bool Bot;
+        [JsonProperty("perks")]
+        public readonly Perks Perks;
+        [JsonProperty("spell2Id")]
+        public readonly long Spell2Id;
+        [JsonProperty("teamId")]
+        public readonly long TeamId;
+        [JsonProperty("spell1Id")]
+        public readonly long Spell1Id;
+        [JsonProperty("summonerId")]
+        public readonly long SummonerId;
     }
 }
 
@@ -1188,8 +3036,15 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct GameCustomizationObject
     {
-        public string Category;
-        public string Content;
+        public GameCustomizationObject([JsonProperty("category")] string category,
+                [JsonProperty("content")] string content) {
+            Category = category;
+            Content = content;
+        }
+        [JsonProperty("category")]
+        public readonly string Category;
+        [JsonProperty("content")]
+        public readonly string Content;
     }
 }
 
@@ -1198,9 +3053,19 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct Perks
     {
-        public long PerkStyle;
-        public long[] PerkIds;
-        public long PerkSubStyle;
+        public Perks([JsonProperty("perkStyle")] long perkStyle,
+                [JsonProperty("perkIds")] long[] perkIds,
+                [JsonProperty("perkSubStyle")] long perkSubStyle) {
+            PerkStyle = perkStyle;
+            PerkIds = perkIds;
+            PerkSubStyle = perkSubStyle;
+        }
+        [JsonProperty("perkStyle")]
+        public readonly long PerkStyle;
+        [JsonProperty("perkIds")]
+        public readonly long[] PerkIds;
+        [JsonProperty("perkSubStyle")]
+        public readonly long PerkSubStyle;
     }
 }
 
@@ -1209,8 +3074,15 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct FeaturedGames
     {
-        public long ClientRefreshInterval;
-        public FeaturedGameInfo[] GameList;
+        public FeaturedGames([JsonProperty("clientRefreshInterval")] long clientRefreshInterval,
+                [JsonProperty("gameList")] FeaturedGameInfo[] gameList) {
+            ClientRefreshInterval = clientRefreshInterval;
+            GameList = gameList;
+        }
+        [JsonProperty("clientRefreshInterval")]
+        public readonly long ClientRefreshInterval;
+        [JsonProperty("gameList")]
+        public readonly FeaturedGameInfo[] GameList;
     }
 }
 
@@ -1219,17 +3091,51 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct FeaturedGameInfo
     {
-        public long GameId;
-        public long GameStartTime;
-        public string PlatformId;
-        public string GameMode;
-        public long MapId;
-        public string GameType;
-        public BannedChampion[] BannedChampions;
-        public Observer Observers;
-        public Participant[] Participants;
-        public long GameLength;
-        public long GameQueueConfigId;
+        public FeaturedGameInfo([JsonProperty("gameId")] long gameId,
+                [JsonProperty("gameStartTime")] long gameStartTime,
+                [JsonProperty("platformId")] string platformId,
+                [JsonProperty("gameMode")] string gameMode,
+                [JsonProperty("mapId")] long mapId,
+                [JsonProperty("gameType")] string gameType,
+                [JsonProperty("bannedChampions")] BannedChampion[] bannedChampions,
+                [JsonProperty("observers")] Observer observers,
+                [JsonProperty("participants")] Participant[] participants,
+                [JsonProperty("gameLength")] long gameLength,
+                [JsonProperty("gameQueueConfigId")] long gameQueueConfigId) {
+            GameId = gameId;
+            GameStartTime = gameStartTime;
+            PlatformId = platformId;
+            GameMode = gameMode;
+            MapId = mapId;
+            GameType = gameType;
+            BannedChampions = bannedChampions;
+            Observers = observers;
+            Participants = participants;
+            GameLength = gameLength;
+            GameQueueConfigId = gameQueueConfigId;
+        }
+        [JsonProperty("gameId")]
+        public readonly long GameId;
+        [JsonProperty("gameStartTime")]
+        public readonly long GameStartTime;
+        [JsonProperty("platformId")]
+        public readonly string PlatformId;
+        [JsonProperty("gameMode")]
+        public readonly string GameMode;
+        [JsonProperty("mapId")]
+        public readonly long MapId;
+        [JsonProperty("gameType")]
+        public readonly string GameType;
+        [JsonProperty("bannedChampions")]
+        public readonly BannedChampion[] BannedChampions;
+        [JsonProperty("observers")]
+        public readonly Observer Observers;
+        [JsonProperty("participants")]
+        public readonly Participant[] Participants;
+        [JsonProperty("gameLength")]
+        public readonly long GameLength;
+        [JsonProperty("gameQueueConfigId")]
+        public readonly long GameQueueConfigId;
     }
 }
 
@@ -1238,13 +3144,35 @@ namespace MingweiSamuel.Camille.Spectator
 {
     public struct Participant
     {
-        public long ProfileIconId;
-        public long ChampionId;
-        public string SummonerName;
-        public bool Bot;
-        public long Spell2Id;
-        public long TeamId;
-        public long Spell1Id;
+        public Participant([JsonProperty("profileIconId")] long profileIconId,
+                [JsonProperty("championId")] long championId,
+                [JsonProperty("summonerName")] string summonerName,
+                [JsonProperty("bot")] bool bot,
+                [JsonProperty("spell2Id")] long spell2Id,
+                [JsonProperty("teamId")] long teamId,
+                [JsonProperty("spell1Id")] long spell1Id) {
+            ProfileIconId = profileIconId;
+            ChampionId = championId;
+            SummonerName = summonerName;
+            Bot = bot;
+            Spell2Id = spell2Id;
+            TeamId = teamId;
+            Spell1Id = spell1Id;
+        }
+        [JsonProperty("profileIconId")]
+        public readonly long ProfileIconId;
+        [JsonProperty("championId")]
+        public readonly long ChampionId;
+        [JsonProperty("summonerName")]
+        public readonly string SummonerName;
+        [JsonProperty("bot")]
+        public readonly bool Bot;
+        [JsonProperty("spell2Id")]
+        public readonly long Spell2Id;
+        [JsonProperty("teamId")]
+        public readonly long TeamId;
+        [JsonProperty("spell1Id")]
+        public readonly long Spell1Id;
     }
 }
 
@@ -1254,12 +3182,31 @@ namespace MingweiSamuel.Camille.Summoner
     /// represents a summoner
     public struct Summoner
     {
-        public int ProfileIconId;
-        public string Name;
-        public long SummonerLevel;
-        public long RevisionDate;
-        public long Id;
-        public long AccountId;
+        public Summoner([JsonProperty("profileIconId")] int profileIconId,
+                [JsonProperty("name")] string name,
+                [JsonProperty("summonerLevel")] long summonerLevel,
+                [JsonProperty("revisionDate")] long revisionDate,
+                [JsonProperty("id")] long id,
+                [JsonProperty("accountId")] long accountId) {
+            ProfileIconId = profileIconId;
+            Name = name;
+            SummonerLevel = summonerLevel;
+            RevisionDate = revisionDate;
+            Id = id;
+            AccountId = accountId;
+        }
+        [JsonProperty("profileIconId")]
+        public readonly int ProfileIconId;
+        [JsonProperty("name")]
+        public readonly string Name;
+        [JsonProperty("summonerLevel")]
+        public readonly long SummonerLevel;
+        [JsonProperty("revisionDate")]
+        public readonly long RevisionDate;
+        [JsonProperty("id")]
+        public readonly long Id;
+        [JsonProperty("accountId")]
+        public readonly long AccountId;
     }
 }
 
@@ -1268,12 +3215,31 @@ namespace MingweiSamuel.Camille.TournamentStub
 {
     public struct TournamentCodeParameters
     {
-        public string SpectatorType;
-        public int TeamSize;
-        public string PickType;
-        public SummonerIdParams AllowedSummonerIds;
-        public string MapType;
-        public string Metadata;
+        public TournamentCodeParameters([JsonProperty("spectatorType")] string spectatorType,
+                [JsonProperty("teamSize")] int teamSize,
+                [JsonProperty("pickType")] string pickType,
+                [JsonProperty("allowedSummonerIds")] SummonerIdParams allowedSummonerIds,
+                [JsonProperty("mapType")] string mapType,
+                [JsonProperty("metadata")] string metadata) {
+            SpectatorType = spectatorType;
+            TeamSize = teamSize;
+            PickType = pickType;
+            AllowedSummonerIds = allowedSummonerIds;
+            MapType = mapType;
+            Metadata = metadata;
+        }
+        [JsonProperty("spectatorType")]
+        public readonly string SpectatorType;
+        [JsonProperty("teamSize")]
+        public readonly int TeamSize;
+        [JsonProperty("pickType")]
+        public readonly string PickType;
+        [JsonProperty("allowedSummonerIds")]
+        public readonly SummonerIdParams AllowedSummonerIds;
+        [JsonProperty("mapType")]
+        public readonly string MapType;
+        [JsonProperty("metadata")]
+        public readonly string Metadata;
     }
 }
 
@@ -1282,16 +3248,24 @@ namespace MingweiSamuel.Camille.TournamentStub
 {
     public struct SummonerIdParams
     {
-        public long[] Participants;
+        public SummonerIdParams([JsonProperty("participants")] long[] participants) {
+            Participants = participants;
+        }
+        [JsonProperty("participants")]
+        public readonly long[] Participants;
     }
 }
 
 // tournament-stub-v3
 namespace MingweiSamuel.Camille.TournamentStub
 {
-    public struct LobbyEventDTOWrapper
+    public struct LobbyEventWrapper
     {
-        public LobbyEvent[] EventList;
+        public LobbyEventWrapper([JsonProperty("eventList")] LobbyEvent[] eventList) {
+            EventList = eventList;
+        }
+        [JsonProperty("eventList")]
+        public readonly LobbyEvent[] EventList;
     }
 }
 
@@ -1300,9 +3274,19 @@ namespace MingweiSamuel.Camille.TournamentStub
 {
     public struct LobbyEvent
     {
-        public string EventType;
-        public string SummonerId;
-        public string Timestamp;
+        public LobbyEvent([JsonProperty("eventType")] string eventType,
+                [JsonProperty("summonerId")] string summonerId,
+                [JsonProperty("timestamp")] string timestamp) {
+            EventType = eventType;
+            SummonerId = summonerId;
+            Timestamp = timestamp;
+        }
+        [JsonProperty("eventType")]
+        public readonly string EventType;
+        [JsonProperty("summonerId")]
+        public readonly string SummonerId;
+        [JsonProperty("timestamp")]
+        public readonly string Timestamp;
     }
 }
 
@@ -1311,8 +3295,15 @@ namespace MingweiSamuel.Camille.TournamentStub
 {
     public struct ProviderRegistrationParameters
     {
-        public string Url;
-        public string Region;
+        public ProviderRegistrationParameters([JsonProperty("url")] string url,
+                [JsonProperty("region")] string region) {
+            Url = url;
+            Region = region;
+        }
+        [JsonProperty("url")]
+        public readonly string Url;
+        [JsonProperty("region")]
+        public readonly string Region;
     }
 }
 
@@ -1321,8 +3312,15 @@ namespace MingweiSamuel.Camille.TournamentStub
 {
     public struct TournamentRegistrationParameters
     {
-        public int ProviderId;
-        public string Name;
+        public TournamentRegistrationParameters([JsonProperty("providerId")] int providerId,
+                [JsonProperty("name")] string name) {
+            ProviderId = providerId;
+            Name = name;
+        }
+        [JsonProperty("providerId")]
+        public readonly int ProviderId;
+        [JsonProperty("name")]
+        public readonly string Name;
     }
 }
 
@@ -1331,12 +3329,31 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct TournamentCodeParameters
     {
-        public string SpectatorType;
-        public int TeamSize;
-        public string PickType;
-        public SummonerIdParams AllowedSummonerIds;
-        public string MapType;
-        public string Metadata;
+        public TournamentCodeParameters([JsonProperty("spectatorType")] string spectatorType,
+                [JsonProperty("teamSize")] int teamSize,
+                [JsonProperty("pickType")] string pickType,
+                [JsonProperty("allowedSummonerIds")] SummonerIdParams allowedSummonerIds,
+                [JsonProperty("mapType")] string mapType,
+                [JsonProperty("metadata")] string metadata) {
+            SpectatorType = spectatorType;
+            TeamSize = teamSize;
+            PickType = pickType;
+            AllowedSummonerIds = allowedSummonerIds;
+            MapType = mapType;
+            Metadata = metadata;
+        }
+        [JsonProperty("spectatorType")]
+        public readonly string SpectatorType;
+        [JsonProperty("teamSize")]
+        public readonly int TeamSize;
+        [JsonProperty("pickType")]
+        public readonly string PickType;
+        [JsonProperty("allowedSummonerIds")]
+        public readonly SummonerIdParams AllowedSummonerIds;
+        [JsonProperty("mapType")]
+        public readonly string MapType;
+        [JsonProperty("metadata")]
+        public readonly string Metadata;
     }
 }
 
@@ -1345,7 +3362,11 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct SummonerIdParams
     {
-        public long[] Participants;
+        public SummonerIdParams([JsonProperty("participants")] long[] participants) {
+            Participants = participants;
+        }
+        [JsonProperty("participants")]
+        public readonly long[] Participants;
     }
 }
 
@@ -1354,10 +3375,23 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct TournamentCodeUpdateParameters
     {
-        public string SpectatorType;
-        public string PickType;
-        public string AllowedParticipants;
-        public string MapType;
+        public TournamentCodeUpdateParameters([JsonProperty("spectatorType")] string spectatorType,
+                [JsonProperty("pickType")] string pickType,
+                [JsonProperty("allowedParticipants")] string allowedParticipants,
+                [JsonProperty("mapType")] string mapType) {
+            SpectatorType = spectatorType;
+            PickType = pickType;
+            AllowedParticipants = allowedParticipants;
+            MapType = mapType;
+        }
+        [JsonProperty("spectatorType")]
+        public readonly string SpectatorType;
+        [JsonProperty("pickType")]
+        public readonly string PickType;
+        [JsonProperty("allowedParticipants")]
+        public readonly string AllowedParticipants;
+        [JsonProperty("mapType")]
+        public readonly string MapType;
     }
 }
 
@@ -1366,28 +3400,72 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct TournamentCode
     {
-        public string Map;
-        public string Code;
-        public string Spectators;
-        public string Region;
-        public int ProviderId;
-        public int TeamSize;
-        public long[] Participants;
-        public string PickType;
-        public int TournamentId;
-        public string LobbyName;
-        public string Password;
-        public int Id;
-        public string MetaData;
+        public TournamentCode([JsonProperty("map")] string map,
+                [JsonProperty("code")] string code,
+                [JsonProperty("spectators")] string spectators,
+                [JsonProperty("region")] string region,
+                [JsonProperty("providerId")] int providerId,
+                [JsonProperty("teamSize")] int teamSize,
+                [JsonProperty("participants")] long[] participants,
+                [JsonProperty("pickType")] string pickType,
+                [JsonProperty("tournamentId")] int tournamentId,
+                [JsonProperty("lobbyName")] string lobbyName,
+                [JsonProperty("password")] string password,
+                [JsonProperty("id")] int id,
+                [JsonProperty("metaData")] string metaData) {
+            Map = map;
+            Code = code;
+            Spectators = spectators;
+            Region = region;
+            ProviderId = providerId;
+            TeamSize = teamSize;
+            Participants = participants;
+            PickType = pickType;
+            TournamentId = tournamentId;
+            LobbyName = lobbyName;
+            Password = password;
+            Id = id;
+            MetaData = metaData;
+        }
+        [JsonProperty("map")]
+        public readonly string Map;
+        [JsonProperty("code")]
+        public readonly string Code;
+        [JsonProperty("spectators")]
+        public readonly string Spectators;
+        [JsonProperty("region")]
+        public readonly string Region;
+        [JsonProperty("providerId")]
+        public readonly int ProviderId;
+        [JsonProperty("teamSize")]
+        public readonly int TeamSize;
+        [JsonProperty("participants")]
+        public readonly long[] Participants;
+        [JsonProperty("pickType")]
+        public readonly string PickType;
+        [JsonProperty("tournamentId")]
+        public readonly int TournamentId;
+        [JsonProperty("lobbyName")]
+        public readonly string LobbyName;
+        [JsonProperty("password")]
+        public readonly string Password;
+        [JsonProperty("id")]
+        public readonly int Id;
+        [JsonProperty("metaData")]
+        public readonly string MetaData;
     }
 }
 
 // tournament-v3
 namespace MingweiSamuel.Camille.Tournament
 {
-    public struct LobbyEventDTOWrapper
+    public struct LobbyEventWrapper
     {
-        public LobbyEvent[] EventList;
+        public LobbyEventWrapper([JsonProperty("eventList")] LobbyEvent[] eventList) {
+            EventList = eventList;
+        }
+        [JsonProperty("eventList")]
+        public readonly LobbyEvent[] EventList;
     }
 }
 
@@ -1396,9 +3474,19 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct LobbyEvent
     {
-        public string EventType;
-        public string SummonerId;
-        public string Timestamp;
+        public LobbyEvent([JsonProperty("eventType")] string eventType,
+                [JsonProperty("summonerId")] string summonerId,
+                [JsonProperty("timestamp")] string timestamp) {
+            EventType = eventType;
+            SummonerId = summonerId;
+            Timestamp = timestamp;
+        }
+        [JsonProperty("eventType")]
+        public readonly string EventType;
+        [JsonProperty("summonerId")]
+        public readonly string SummonerId;
+        [JsonProperty("timestamp")]
+        public readonly string Timestamp;
     }
 }
 
@@ -1407,8 +3495,15 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct ProviderRegistrationParameters
     {
-        public string Url;
-        public string Region;
+        public ProviderRegistrationParameters([JsonProperty("url")] string url,
+                [JsonProperty("region")] string region) {
+            Url = url;
+            Region = region;
+        }
+        [JsonProperty("url")]
+        public readonly string Url;
+        [JsonProperty("region")]
+        public readonly string Region;
     }
 }
 
@@ -1417,8 +3512,15 @@ namespace MingweiSamuel.Camille.Tournament
 {
     public struct TournamentRegistrationParameters
     {
-        public int ProviderId;
-        public string Name;
+        public TournamentRegistrationParameters([JsonProperty("providerId")] int providerId,
+                [JsonProperty("name")] string name) {
+            ProviderId = providerId;
+            Name = name;
+        }
+        [JsonProperty("providerId")]
+        public readonly int ProviderId;
+        [JsonProperty("name")]
+        public readonly string Name;
     }
 }
 #endregion

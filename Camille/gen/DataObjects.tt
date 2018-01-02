@@ -23,6 +23,7 @@
 // Version <#= spec.info.version #>
 
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 #region data objects
 <#
@@ -36,6 +37,7 @@ using System.Collections.Generic;
         var endpoint = schemaSplit[0];
         var schemaName = NormailzeSchemaName(schemaSplit[1]);
         var schema = GetDynamicMember(schemas, schemaKey);
+        IDictionary<string, dynamic> props = DynamicToDict(schema.properties);
 #>
 
 // <#= endpoint #>
@@ -48,12 +50,28 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
 #>
     public struct <#= schemaName #>
     {
+        public <#= schemaName #>(<#= string.Join(",\r\n                ", props.Select(kv => GetJsonProperty(kv.Key) + ' ' +
+            StringifyType(kv.Value) + ' ' + NormalizeArgName(kv.Key))) #>) {
 <#
-        foreach (string propName in GetKeys(schema.properties))
+        foreach (var propKv in props)
         {
-            var prop = GetDynamicMember(schema.properties, propName);
+            var name = NormalizePropName(propKv.Key, schemaName, propKv.Value);
+            if (name.Equals(schemaName))
+                name += StringifyType(propKv.Value);
+            var argName = NormalizeArgName(propKv.Key);
+            var thiz = argName.Equals(name) ? "this." : "";
+            WriteLine($"            {thiz}{name} = {argName};");
+        }
 #>
-        public <#= StringifyType(prop) #> <#= NormalizePropName(propName) #>;
+        }
+<#
+        foreach (var propKv in props)
+        {
+            var name = NormalizePropName(propKv.Key, schemaName, propKv.Value);
+            var prop = propKv.Value;
+#>
+        <#= GetJsonProperty(propKv.Key) #>
+        public readonly <#= StringifyType(prop) #> <#= name #>;
 <#
         }
 #>
@@ -64,11 +82,6 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
 #>
 #endregion
 <#+
-    private static ICollection<string> GetKeys(JDynamic obj)
-    {
-        return ((IDictionary<string, object>) obj.Value).Keys;
-    }
-
     public static string StringifyType(dynamic prop)
     {
         var anyOf = GetDynamicMember(prop, "anyOf");
@@ -85,7 +98,7 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
         switch ((string) prop.type)
         {
             case "boolean": return "bool";
-            case "integer": return prop.format == "int32" ? "int" : "long";
+            case "integer": return "int32".Equals(prop.format) ? "int" : "long";
             case "number": return prop.format;
             case "array": return StringifyType(prop.items) + "[]";
             case "object":
@@ -100,10 +113,32 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
         return input.First().ToString().ToUpper() + input.Substring(1);
     }
 
-    private static string NormalizePropName(string name)
+    private static string Decapitalize(string input)
+    {
+        return input.First().ToString().ToLower() + input.Substring(1);
+    }
+
+    private static string GetJsonProperty(string name)
+    {
+        return $"[JsonProperty(\"{name}\")]";
+    }
+
+    private static string NormalizeArgName(string name)
     {
         var tokens = name.Split('_');
-        return string.Join("", tokens.Select(Capitalize));
+        var argName = Decapitalize(string.Join("", tokens.Select(Capitalize)));
+        if ("base".Equals(argName))
+            return "Base";
+        return argName;
+    }
+
+    private static string NormalizePropName(string propName, string schemaName, object value)
+    {
+        var tokens = propName.Split('_');
+        var name = string.Join("", tokens.Select(Capitalize));
+        if (name.Equals(schemaName))
+            name += StringifyType(value);
+        return name;
     }
 
     private static string NormalizeEndpointName(string name)
@@ -116,7 +151,17 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
 
     private static string NormailzeSchemaName(string name)
     {
-        return Regex.Replace(name, @"DTO$", "");
+        return Regex.Replace(name, @"DTO", "", RegexOptions.IgnoreCase);
+    }
+
+    private static IDictionary<string, dynamic> DynamicToDict(JDynamic obj)
+    {
+        return GetKeys(obj).ToDictionary(k => k, k => GetDynamicMember(obj, k));
+    }
+
+    private static ICollection<string> GetKeys(JDynamic obj)
+    {
+        return ((IDictionary<string, object>) obj.Value).Keys;
     }
 
     private static object GetDynamicMember(object obj, string memberName)
