@@ -4,10 +4,1459 @@
 // Version 8d39db9a064557788d3d967fab2237638af4ee43
 
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
+using MingweiSamuel.Camille.Enums;
+
+#region methods
+namespace MingweiSamuel.Camille
+{
+    // ChampionMastery
+    public class ChampionMasteryEndpoints : Endpoints
+    {
+        internal ChampionMasteryEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get all champion mastery entries sorted by number of champion points descending,<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getAllChampionMasteries">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public ChampionMastery.ChampionMastery[] GetAllChampionMasteries(Region region, long summonerId)
+        {
+            return RiotApi.Get<ChampionMastery.ChampionMastery[]>("champion-mastery-v3.getAllChampionMasteries", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get all champion mastery entries sorted by number of champion points descending,<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getAllChampionMasteries">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public Task<ChampionMastery.ChampionMastery[]> GetAllChampionMasteriesAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<ChampionMastery.ChampionMastery[]>("champion-mastery-v3.getAllChampionMasteries", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a champion mastery by player ID and champion ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getChampionMastery">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="championId">Champion ID to retrieve Champion Mastery for (required)></param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public ChampionMastery.ChampionMastery GetChampionMastery(Region region, long championId, long summonerId)
+        {
+            return RiotApi.Get<ChampionMastery.ChampionMastery>("champion-mastery-v3.getChampionMastery", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}/by-champion/{championId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a champion mastery by player ID and champion ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getChampionMastery">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="championId">Champion ID to retrieve Champion Mastery for (required)></param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public Task<ChampionMastery.ChampionMastery> GetChampionMasteryAsync(Region region, long championId, long summonerId)
+        {
+            return RiotApi.GetAsync<ChampionMastery.ChampionMastery>("champion-mastery-v3.getChampionMastery", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}/by-champion/{championId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a player's total champion mastery score, which is the sum of individual champion mastery levels.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getChampionMasteryScore">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public int GetChampionMasteryScore(Region region, long summonerId)
+        {
+            return RiotApi.Get<int>("champion-mastery-v3.getChampionMasteryScore", $"/lol/champion-mastery/v3/scores/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a player's total champion mastery score, which is the sum of individual champion mastery levels.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-mastery-v3/GET_getChampionMasteryScore">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID associated with the player (required)></param>
+        public Task<int> GetChampionMasteryScoreAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<int>("champion-mastery-v3.getChampionMasteryScore", $"/lol/champion-mastery/v3/scores/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+    }
+    // Champion
+    public class ChampionEndpoints : Endpoints
+    {
+        internal ChampionEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Retrieve all champions.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-v3/GET_getChampions">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="freeToPlay">Optional filter param to retrieve only free to play champions. (optional)></param>
+        public Champion.ChampionList GetChampions(Region region, bool? freeToPlay = null)
+        {
+            return RiotApi.Get<Champion.ChampionList>("champion-v3.getChampions", $"/lol/platform/v3/champions",
+                region, MakeParams(nameof(freeToPlay), freeToPlay));
+        }
+
+
+        /// <summary>
+        /// Retrieve all champions.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-v3/GET_getChampions">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="freeToPlay">Optional filter param to retrieve only free to play champions. (optional)></param>
+        public Task<Champion.ChampionList> GetChampionsAsync(Region region, bool? freeToPlay = null)
+        {
+            return RiotApi.GetAsync<Champion.ChampionList>("champion-v3.getChampions", $"/lol/platform/v3/champions",
+                region, MakeParams(nameof(freeToPlay), freeToPlay));
+        }
+
+
+        /// <summary>
+        /// Retrieve champion by ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-v3/GET_getChampionsById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Champion ID (required)></param>
+        public Champion.Champion GetChampionsById(Region region, int id)
+        {
+            return RiotApi.Get<Champion.Champion>("champion-v3.getChampionsById", $"/lol/platform/v3/champions/{id}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieve champion by ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#champion-v3/GET_getChampionsById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Champion ID (required)></param>
+        public Task<Champion.Champion> GetChampionsByIdAsync(Region region, int id)
+        {
+            return RiotApi.GetAsync<Champion.Champion>("champion-v3.getChampionsById", $"/lol/platform/v3/champions/{id}",
+                region, MakeParams());
+        }
+
+    }
+    // League
+    public class LeagueEndpoints : Endpoints
+    {
+        internal LeagueEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get the challenger league for given queue.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getChallengerLeague">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="queue"> (required)></param>
+        public League.LeagueList GetChallengerLeague(Region region, string queue)
+        {
+            return RiotApi.Get<League.LeagueList>("league-v3.getChallengerLeague", $"/lol/league/v3/challengerleagues/by-queue/{queue}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get the challenger league for given queue.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getChallengerLeague">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="queue"> (required)></param>
+        public Task<League.LeagueList> GetChallengerLeagueAsync(Region region, string queue)
+        {
+            return RiotApi.GetAsync<League.LeagueList>("league-v3.getChallengerLeague", $"/lol/league/v3/challengerleagues/by-queue/{queue}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get leagues in all queues for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getAllLeaguesForSummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId"> (required)></param>
+        public League.LeagueList[] GetAllLeaguesForSummoner(Region region, long summonerId)
+        {
+            return RiotApi.Get<League.LeagueList[]>("league-v3.getAllLeaguesForSummoner", $"/lol/league/v3/leagues/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get leagues in all queues for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getAllLeaguesForSummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId"> (required)></param>
+        public Task<League.LeagueList[]> GetAllLeaguesForSummonerAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<League.LeagueList[]>("league-v3.getAllLeaguesForSummoner", $"/lol/league/v3/leagues/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get league with given ID, including inactive entries.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getLeagueById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="leagueId">The UUID of the league. (required)></param>
+        public League.LeagueList GetLeagueById(Region region, string leagueId)
+        {
+            return RiotApi.Get<League.LeagueList>("league-v3.getLeagueById", $"/lol/league/v3/leagues/{leagueId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get league with given ID, including inactive entries.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getLeagueById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="leagueId">The UUID of the league. (required)></param>
+        public Task<League.LeagueList> GetLeagueByIdAsync(Region region, string leagueId)
+        {
+            return RiotApi.GetAsync<League.LeagueList>("league-v3.getLeagueById", $"/lol/league/v3/leagues/{leagueId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get the master league for given queue.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getMasterLeague">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="queue"> (required)></param>
+        public League.LeagueList GetMasterLeague(Region region, string queue)
+        {
+            return RiotApi.Get<League.LeagueList>("league-v3.getMasterLeague", $"/lol/league/v3/masterleagues/by-queue/{queue}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get the master league for given queue.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getMasterLeague">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="queue"> (required)></param>
+        public Task<League.LeagueList> GetMasterLeagueAsync(Region region, string queue)
+        {
+            return RiotApi.GetAsync<League.LeagueList>("league-v3.getMasterLeague", $"/lol/league/v3/masterleagues/by-queue/{queue}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get league positions in all queues for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getAllLeaguePositionsForSummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId"> (required)></param>
+        public League.LeaguePosition[] GetAllLeaguePositionsForSummoner(Region region, long summonerId)
+        {
+            return RiotApi.Get<League.LeaguePosition[]>("league-v3.getAllLeaguePositionsForSummoner", $"/lol/league/v3/positions/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get league positions in all queues for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#league-v3/GET_getAllLeaguePositionsForSummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId"> (required)></param>
+        public Task<League.LeaguePosition[]> GetAllLeaguePositionsForSummonerAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<League.LeaguePosition[]>("league-v3.getAllLeaguePositionsForSummoner", $"/lol/league/v3/positions/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+    }
+    // LolStaticData
+    public class LolStaticDataEndpoints : Endpoints
+    {
+        internal LolStaticDataEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Retrieves champion list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
+        public LolStaticData.ChampionList GetChampionList(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById));
+        }
+
+
+        /// <summary>
+        /// Retrieves champion list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
+        public Task<LolStaticData.ChampionList> GetChampionListAsync(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById));
+        }
+
+
+        /// <summary>
+        /// Retrieves champion by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Champion ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.Champion GetChampionById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves champion by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getChampionById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Champion ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.Champion> GetChampionByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves item list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getItemList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.ItemList GetItemList(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves item list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getItemList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.ItemList> GetItemListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves item by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getItemById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Item ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public LolStaticData.Item GetItemById(Region region, int id, string locale = null, string[] tags = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieves item by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getItemById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Item ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public Task<LolStaticData.Item> GetItemByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve language strings data<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Language strings data was not generated for patch version 7.4.2.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getLanguageStrings">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public LolStaticData.LanguageStrings GetLanguageStrings(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve language strings data<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Language strings data was not generated for patch version 7.4.2.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getLanguageStrings">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public Task<LolStaticData.LanguageStrings> GetLanguageStringsAsync(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve supported languages data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getLanguages">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public string[] GetLanguages(Region region)
+        {
+            return RiotApi.GetNonRateLimited<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieve supported languages data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getLanguages">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Task<string[]> GetLanguagesAsync(Region region)
+        {
+            return RiotApi.GetNonRateLimitedAsync<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieve map data<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// This endpoint is only supported for patch version 5.5.3 and later. Also, map data was not generated for patch versions 5.15.1, 5.16.1, and 5.17.1.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMapData">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public LolStaticData.MapData GetMapData(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve map data<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// This endpoint is only supported for patch version 5.5.3 and later. Also, map data was not generated for patch versions 5.15.1, 5.16.1, and 5.17.1.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMapData">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public Task<LolStaticData.MapData> GetMapDataAsync(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieves mastery list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMasteryList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.MasteryList GetMasteryList(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves mastery list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMasteryList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.MasteryList> GetMasteryListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves mastery item by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMasteryById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Mastery ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.Mastery GetMasteryById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves mastery item by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getMasteryById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Mastery ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.Mastery> GetMasteryByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieve profile icons<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getProfileIcons">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public LolStaticData.ProfileIconData GetProfileIcons(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve profile icons<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getProfileIcons">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public Task<LolStaticData.ProfileIconData> GetProfileIconsAsync(Region region, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
+                region, MakeParams(nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieve realm data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRealm">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public LolStaticData.Realm GetRealm(Region region)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieve realm data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRealm">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Task<LolStaticData.Realm> GetRealmAsync(Region region)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieves rune list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRuneList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.RuneList GetRuneList(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves rune list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRuneList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.RuneList> GetRuneListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves rune by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRuneById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Rune ID (required)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public LolStaticData.Rune GetRuneById(Region region, int id, string[] tags = null, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
+                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieves rune by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getRuneById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Rune ID (required)></param>
+        /// <param name="tags">Tags to return additional data. Only id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        public Task<LolStaticData.Rune> GetRuneByIdAsync(Region region, int id, string[] tags = null, string locale = null, string version = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
+                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version));
+        }
+
+
+        /// <summary>
+        /// Retrieves summoner spell list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getSummonerSpellList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="dataById">If specified as true, the returned data map will use the spells' IDs as the keys. If not specified or specified as false, the returned data map will use the spells' keys instead. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.SummonerSpellList GetSummonerSpellList(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves summoner spell list<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getSummonerSpellList">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="dataById">If specified as true, the returned data map will use the spells' IDs as the keys. If not specified or specified as false, the returned data map will use the spells' keys instead. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.SummonerSpellList> GetSummonerSpellListAsync(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves summoner spell by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getSummonerSpellById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Summoner spell ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public LolStaticData.SummonerSpell GetSummonerSpellById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimited<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieves summoner spell by ID<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all data specified below is returned by default. See the tags parameter for more information.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getSummonerSpellById">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="id">Summoner spell ID (required)></param>
+        /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
+        /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
+        /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
+        public Task<LolStaticData.SummonerSpell> GetSummonerSpellByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+        }
+
+
+        /// <summary>
+        /// Retrieve version data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getVersions">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public string[] GetVersions(Region region)
+        {
+            return RiotApi.GetNonRateLimited<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Retrieve version data<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-static-data-v3/GET_getVersions">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Task<string[]> GetVersionsAsync(Region region)
+        {
+            return RiotApi.GetNonRateLimitedAsync<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
+                region, MakeParams());
+        }
+
+    }
+    // LolStatus
+    public class LolStatusEndpoints : Endpoints
+    {
+        internal LolStatusEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get League of Legends status for the given shard.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-status-v3/GET_getShardData">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public LolStatus.ShardStatus GetShardData(Region region)
+        {
+            return RiotApi.GetNonRateLimited<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get League of Legends status for the given shard.<br />
+        /// <h2>Rate Limit Notes</h2><br />
+        /// Requests to this API are not counted against the application Rate Limits.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#lol-status-v3/GET_getShardData">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Task<LolStatus.ShardStatus> GetShardDataAsync(Region region)
+        {
+            return RiotApi.GetNonRateLimitedAsync<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
+                region, MakeParams());
+        }
+
+    }
+    // Match
+    public class MatchEndpoints : Endpoints
+    {
+        internal MatchEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get match IDs by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchIdsByTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The tournament code. (required)></param>
+        public long[] GetMatchIdsByTournamentCode(Region region, string tournamentCode)
+        {
+            return RiotApi.Get<long[]>("match-v3.getMatchIdsByTournamentCode", $"/lol/match/v3/matches/by-tournament-code/{tournamentCode}/ids",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match IDs by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchIdsByTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The tournament code. (required)></param>
+        public Task<long[]> GetMatchIdsByTournamentCodeAsync(Region region, string tournamentCode)
+        {
+            return RiotApi.GetAsync<long[]>("match-v3.getMatchIdsByTournamentCode", $"/lol/match/v3/matches/by-tournament-code/{tournamentCode}/ids",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match by match ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatch">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        public Match.Match GetMatch(Region region, long matchId)
+        {
+            return RiotApi.Get<Match.Match>("match-v3.getMatch", $"/lol/match/v3/matches/{matchId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match by match ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatch">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        public Task<Match.Match> GetMatchAsync(Region region, long matchId)
+        {
+            return RiotApi.GetAsync<Match.Match>("match-v3.getMatch", $"/lol/match/v3/matches/{matchId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match by match ID and tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchByTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        /// <param name="tournamentCode">The tournament code. (required)></param>
+        public Match.Match GetMatchByTournamentCode(Region region, long matchId, string tournamentCode)
+        {
+            return RiotApi.Get<Match.Match>("match-v3.getMatchByTournamentCode", $"/lol/match/v3/matches/{matchId}/by-tournament-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match by match ID and tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchByTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        /// <param name="tournamentCode">The tournament code. (required)></param>
+        public Task<Match.Match> GetMatchByTournamentCodeAsync(Region region, long matchId, string tournamentCode)
+        {
+            return RiotApi.GetAsync<Match.Match>("match-v3.getMatchByTournamentCode", $"/lol/match/v3/matches/{matchId}/by-tournament-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get matchlist for games played on given account ID and platform ID and filtered using given filter parameters, if any.<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// A number of optional parameters are provided for filtering. It is up to the caller to ensure that the combination of filter parameters provided is valid for the requested account, otherwise, no matches may be returned.<br />
+        /// <br />
+        /// If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned.<br />
+        /// <br />
+        /// If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchlist">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId">The account ID. (required)></param>
+        /// <param name="queue">Set of queue IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="endTime">The end time to use for filtering matchlist specified as epoch milliseconds. If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="beginIndex">The begin index to use for filtering matchlist.  If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="beginTime">The begin time to use for filtering matchlist specified as epoch milliseconds. If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="season">Set of season IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="champion">Set of champion IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="endIndex">The end index to use for filtering matchlist. If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
+        public Match.Matchlist GetMatchlist(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
+        {
+            return RiotApi.Get<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
+                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex));
+        }
+
+
+        /// <summary>
+        /// Get matchlist for games played on given account ID and platform ID and filtered using given filter parameters, if any.<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// A number of optional parameters are provided for filtering. It is up to the caller to ensure that the combination of filter parameters provided is valid for the requested account, otherwise, no matches may be returned.<br />
+        /// <br />
+        /// If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned.<br />
+        /// <br />
+        /// If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchlist">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId">The account ID. (required)></param>
+        /// <param name="queue">Set of queue IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="endTime">The end time to use for filtering matchlist specified as epoch milliseconds. If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="beginIndex">The begin index to use for filtering matchlist.  If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="beginTime">The begin time to use for filtering matchlist specified as epoch milliseconds. If beginTime is specified, but not endTime, then these parameters are ignored. If endTime is specified, but not beginTime, then beginTime defaults to the start of the account's match history. If both are specified, then endTime should be greater than beginTime. The maximum time range allowed is one week, otherwise a 400 error code is returned. (optional)></param>
+        /// <param name="season">Set of season IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="champion">Set of champion IDs for which to filtering matchlist. (optional)></param>
+        /// <param name="endIndex">The end index to use for filtering matchlist. If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
+        public Task<Match.Matchlist> GetMatchlistAsync(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
+        {
+            return RiotApi.GetAsync<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
+                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex));
+        }
+
+
+        /// <summary>
+        /// Get matchlist for last 20 matches played on given account ID and platform ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getRecentMatchlist">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId">The account ID. (required)></param>
+        public Match.Matchlist GetRecentMatchlist(Region region, long accountId)
+        {
+            return RiotApi.Get<Match.Matchlist>("match-v3.getRecentMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}/recent",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get matchlist for last 20 matches played on given account ID and platform ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getRecentMatchlist">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId">The account ID. (required)></param>
+        public Task<Match.Matchlist> GetRecentMatchlistAsync(Region region, long accountId)
+        {
+            return RiotApi.GetAsync<Match.Matchlist>("match-v3.getRecentMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}/recent",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match timeline by match ID.<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all matches have timeline data.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchTimeline">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        public Match.MatchTimeline GetMatchTimeline(Region region, long matchId)
+        {
+            return RiotApi.Get<Match.MatchTimeline>("match-v3.getMatchTimeline", $"/lol/match/v3/timelines/by-match/{matchId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get match timeline by match ID.<br />
+        /// <h2>Implementation Notes</h2><br />
+        /// Not all matches have timeline data.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#match-v3/GET_getMatchTimeline">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="matchId">The match ID. (required)></param>
+        public Task<Match.MatchTimeline> GetMatchTimelineAsync(Region region, long matchId)
+        {
+            return RiotApi.GetAsync<Match.MatchTimeline>("match-v3.getMatchTimeline", $"/lol/match/v3/timelines/by-match/{matchId}",
+                region, MakeParams());
+        }
+
+    }
+    // Spectator
+    public class SpectatorEndpoints : Endpoints
+    {
+        internal SpectatorEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get current game information for the given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#spectator-v3/GET_getCurrentGameInfoBySummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">The ID of the summoner. (required)></param>
+        public Spectator.CurrentGameInfo GetCurrentGameInfoBySummoner(Region region, long summonerId)
+        {
+            return RiotApi.Get<Spectator.CurrentGameInfo>("spectator-v3.getCurrentGameInfoBySummoner", $"/lol/spectator/v3/active-games/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get current game information for the given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#spectator-v3/GET_getCurrentGameInfoBySummoner">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">The ID of the summoner. (required)></param>
+        public Task<Spectator.CurrentGameInfo> GetCurrentGameInfoBySummonerAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<Spectator.CurrentGameInfo>("spectator-v3.getCurrentGameInfoBySummoner", $"/lol/spectator/v3/active-games/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get list of featured games.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#spectator-v3/GET_getFeaturedGames">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Spectator.FeaturedGames GetFeaturedGames(Region region)
+        {
+            return RiotApi.Get<Spectator.FeaturedGames>("spectator-v3.getFeaturedGames", $"/lol/spectator/v3/featured-games",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get list of featured games.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#spectator-v3/GET_getFeaturedGames">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        public Task<Spectator.FeaturedGames> GetFeaturedGamesAsync(Region region)
+        {
+            return RiotApi.GetAsync<Spectator.FeaturedGames>("spectator-v3.getFeaturedGames", $"/lol/spectator/v3/featured-games",
+                region, MakeParams());
+        }
+
+    }
+    // Summoner
+    public class SummonerEndpoints : Endpoints
+    {
+        internal SummonerEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get a summoner by account ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getByAccountId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId"> (required)></param>
+        public Summoner.Summoner GetByAccountId(Region region, long accountId)
+        {
+            return RiotApi.Get<Summoner.Summoner>("summoner-v3.getByAccountId", $"/lol/summoner/v3/summoners/by-account/{accountId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a summoner by account ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getByAccountId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="accountId"> (required)></param>
+        public Task<Summoner.Summoner> GetByAccountIdAsync(Region region, long accountId)
+        {
+            return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getByAccountId", $"/lol/summoner/v3/summoners/by-account/{accountId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a summoner by summoner name.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getBySummonerName">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerName">Summoner Name (required)></param>
+        public Summoner.Summoner GetBySummonerName(Region region, string summonerName)
+        {
+            return RiotApi.Get<Summoner.Summoner>("summoner-v3.getBySummonerName", $"/lol/summoner/v3/summoners/by-name/{summonerName}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a summoner by summoner name.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getBySummonerName">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerName">Summoner Name (required)></param>
+        public Task<Summoner.Summoner> GetBySummonerNameAsync(Region region, string summonerName)
+        {
+            return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getBySummonerName", $"/lol/summoner/v3/summoners/by-name/{summonerName}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a summoner by summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getBySummonerId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID (required)></param>
+        public Summoner.Summoner GetBySummonerId(Region region, long summonerId)
+        {
+            return RiotApi.Get<Summoner.Summoner>("summoner-v3.getBySummonerId", $"/lol/summoner/v3/summoners/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get a summoner by summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#summoner-v3/GET_getBySummonerId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID (required)></param>
+        public Task<Summoner.Summoner> GetBySummonerIdAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getBySummonerId", $"/lol/summoner/v3/summoners/{summonerId}",
+                region, MakeParams());
+        }
+
+    }
+    // ThirdPartyCode
+    public class ThirdPartyCodeEndpoints : Endpoints
+    {
+        internal ThirdPartyCodeEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Get third party code for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#third-party-code-v3/GET_getThirdPartyCodeBySummonerId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID (required)></param>
+        public string GetThirdPartyCodeBySummonerId(Region region, long summonerId)
+        {
+            return RiotApi.Get<string>("third-party-code-v3.getThirdPartyCodeBySummonerId", $"/lol/platform/v3/third-party-code/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Get third party code for a given summoner ID.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#third-party-code-v3/GET_getThirdPartyCodeBySummonerId">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="summonerId">Summoner ID (required)></param>
+        public Task<string> GetThirdPartyCodeBySummonerIdAsync(Region region, long summonerId)
+        {
+            return RiotApi.GetAsync<string>("third-party-code-v3.getThirdPartyCodeBySummonerId", $"/lol/platform/v3/third-party-code/by-summoner/{summonerId}",
+                region, MakeParams());
+        }
+
+    }
+    // TournamentStub
+    public class TournamentStubEndpoints : Endpoints
+    {
+        internal TournamentStubEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Gets a mock list of lobby events by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-stub-v3/GET_getLobbyEventsByCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The short code to look up lobby events for (required)></param>
+        public TournamentStub.LobbyEventWrapper GetLobbyEventsByCode(Region region, string tournamentCode)
+        {
+            return RiotApi.Get<TournamentStub.LobbyEventWrapper>("tournament-stub-v3.getLobbyEventsByCode", $"/lol/tournament-stub/v3/lobby-events/by-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Gets a mock list of lobby events by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-stub-v3/GET_getLobbyEventsByCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The short code to look up lobby events for (required)></param>
+        public Task<TournamentStub.LobbyEventWrapper> GetLobbyEventsByCodeAsync(Region region, string tournamentCode)
+        {
+            return RiotApi.GetAsync<TournamentStub.LobbyEventWrapper>("tournament-stub-v3.getLobbyEventsByCode", $"/lol/tournament-stub/v3/lobby-events/by-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+    }
+    // Tournament
+    public class TournamentEndpoints : Endpoints
+    {
+        internal TournamentEndpoints(RiotApi riotApi) : base(riotApi)
+        {}
+
+        /// <summary>
+        /// Returns the tournament code DTO associated with a tournament code string.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-v3/GET_getTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The tournament code string. (required)></param>
+        public Tournament.TournamentCode GetTournamentCode(Region region, string tournamentCode)
+        {
+            return RiotApi.Get<Tournament.TournamentCode>("tournament-v3.getTournamentCode", $"/lol/tournament/v3/codes/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Returns the tournament code DTO associated with a tournament code string.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-v3/GET_getTournamentCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The tournament code string. (required)></param>
+        public Task<Tournament.TournamentCode> GetTournamentCodeAsync(Region region, string tournamentCode)
+        {
+            return RiotApi.GetAsync<Tournament.TournamentCode>("tournament-v3.getTournamentCode", $"/lol/tournament/v3/codes/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Gets a list of lobby events by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-v3/GET_getLobbyEventsByCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The short code to look up lobby events for (required)></param>
+        public Tournament.LobbyEventWrapper GetLobbyEventsByCode(Region region, string tournamentCode)
+        {
+            return RiotApi.Get<Tournament.LobbyEventWrapper>("tournament-v3.getLobbyEventsByCode", $"/lol/tournament/v3/lobby-events/by-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+
+        /// <summary>
+        /// Gets a list of lobby events by tournament code.<br />
+        /// <br />
+        /// <a href="https://developer.riotgames.com/api-methods/#tournament-v3/GET_getLobbyEventsByCode">Official API Reference</a>
+        /// </summary>
+        /// <param name="region">Region to query.</param>
+        /// <param name="tournamentCode">The short code to look up lobby events for (required)></param>
+        public Task<Tournament.LobbyEventWrapper> GetLobbyEventsByCodeAsync(Region region, string tournamentCode)
+        {
+            return RiotApi.GetAsync<Tournament.LobbyEventWrapper>("tournament-v3.getLobbyEventsByCode", $"/lol/tournament/v3/lobby-events/by-code/{tournamentCode}",
+                region, MakeParams());
+        }
+
+    }
+}
+#endregion
 
 #region data objects
-
 // champion-mastery-v3
 namespace MingweiSamuel.Camille.ChampionMastery
 {
@@ -3523,4 +4972,5 @@ namespace MingweiSamuel.Camille.Tournament
         public readonly string Name;
     }
 }
+
 #endregion

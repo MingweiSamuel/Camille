@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
   </PropertyGroup>
 
@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="gen\DataObjects.tt">
+    <None Update="Gen\DataObjects.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DataObjects.cs</LastGenOutput>
     </None>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="gen\DataObjects.cs">
+    <Compile Update="Gen\DataObjects.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>DataObjects.tt</DependentUpon>
