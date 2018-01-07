@@ -1,0 +1,96 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" #>
+<#@ assembly name="Microsoft.CSharp" #>
+<#@ assembly name="$(SolutionDir)Camille\gen\Chsword.JDynamic.dll" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Runtime.CompilerServices" #>
+<#@ import namespace="Chsword" #>
+<#@ import namespace="Microsoft.CSharp.RuntimeBinder" #>
+<#@ output extension=".cs" #>
+<#
+    dynamic spec = new JDynamic(File.ReadAllText(Host.ResolvePath("configspec.json")));
+    IDictionary<string, dynamic> dict = DynamicToDict(spec);
+#>
+namespace MingweiSamuel.Camille
+{
+    public class RiotApiConfig
+    {
+<#
+    foreach (var kv in dict)
+    {
+#>
+        /// <summary><#= kv.Value.desc #></summary>
+        public readonly <#= kv.Value.type #> <#= Capitalize(kv.Key) #>;
+
+<#
+    }
+#>
+        private ApiConfig(<#= string.Join(", ", dict.Select(kv => $"{kv.Value.type} {kv.Key}")) #>)
+        {
+<#
+    foreach (var kv in dict)
+    {
+#>
+            <#= Capitalize(kv.Key) #> = <#= kv.Key #>;
+<#
+    }
+#>
+        }
+
+        public class Builder
+        {
+<#
+    foreach (var kv in dict)
+    {
+#>
+            /// <summary><#= kv.Value.desc #></summary>
+            public <#= kv.Value.type #> <#= Capitalize(kv.Key) #> = <#= GetDynamicMember(kv.Value, "val") ?? $"default({kv.Value.type})" #>;
+
+<#
+    }
+#>
+            private Builder()
+            {}
+
+            public ApiConfig Build()
+            {
+                return new ApiConfig(<#= string.Join(", ", dict.Keys.Select(Capitalize)) #>);
+            }
+        }
+    }
+}
+<#+
+    private static string Capitalize(string input)
+    {
+        return input.First().ToString().ToUpper() + input.Substring(1);
+    }
+
+    private static IDictionary<string, dynamic> DynamicToDict(JDynamic obj)
+    {
+        return GetKeys(obj).ToDictionary(k => k, k => GetDynamicMember(obj, k));
+    }
+
+    private static ICollection<string> GetKeys(JDynamic obj)
+    {
+        return ((IDictionary<string, object>) obj.Value).Keys;
+    }
+
+    private static object GetDynamicMember(object obj, string memberName)
+    {
+        var type = obj.GetType();
+        var binder = Binder.GetMember(CSharpBinderFlags.None, memberName, type,
+            new[] { CSharpArgumentInfo.Create(CSharpArgumentInfoFlags.None, null) });
+        var callsite = CallSite<Func<CallSite, object, object>>.Create(binder);
+        try
+        {
+            return callsite.Target(callsite, obj);
+        }
+        catch (RuntimeBinderException)
+        {
+            return null;
+        }
+    }
+#>

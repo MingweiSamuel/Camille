@@ -9,9 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Gen\DataObjects.tt">
+    <None Update="gen\RiotApiConfig.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DataObjects.cs</LastGenOutput>
+      <LastGenOutput>RiotApiConfig.cs</LastGenOutput>
+    </None>
+    <None Update="gen\GeneratedClasses.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>GeneratedClasses.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
@@ -20,10 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Gen\DataObjects.cs">
+    <Compile Update="gen\GeneratedClasses.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>DataObjects.tt</DependentUpon>
+      <DependentUpon>GeneratedClasses.tt</DependentUpon>
+    </Compile>
+    <Compile Update="gen\RiotApiConfig.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>RiotApiConfig.tt</DependentUpon>
     </Compile>
   </ItemGroup>
 

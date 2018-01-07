@@ -1,0 +1,11 @@
+﻿{
+  "apiKey": {
+    "type": "string",
+    "desc": "Riot Games API key."
+  },
+  "maxConcurrentRequests": {
+    "type": "int",
+    "desc": "Maximum number of concurrent requests allowed.",
+    "val": "1000"
+  }
+}

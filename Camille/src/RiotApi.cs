@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
 
@@ -9,6 +6,13 @@ namespace MingweiSamuel.Camille
 {
     public class RiotApi
     {
+        private readonly RiotApiConfig _config;
+
+        public RiotApi(RiotApiConfig config)
+        {
+            _config = config;
+        }
+
         #region requests
         internal T Get<T>(string methodId, string url, Region region, KeyValuePair<string, string>[] queryParams)
         {
