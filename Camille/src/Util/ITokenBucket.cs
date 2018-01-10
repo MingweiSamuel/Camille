@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MingweiSamuel.Camille.Util
+﻿namespace MingweiSamuel.Camille.Util
 {
     /// <summary>
     /// This interface defines a token bucket system. One instance represents one recurring bucket with a certain

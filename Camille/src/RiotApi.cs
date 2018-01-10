@@ -1,37 +1,51 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
+using MingweiSamuel.Camille.Util;
 
 namespace MingweiSamuel.Camille
 {
-    public class RiotApi
+    public partial class RiotApi
     {
-        private readonly RiotApiConfig _config;
+        /// <summary>RequestManager for sending web requests and managing rate limits.</summary>
+        private readonly RequestManager _requestManager;
 
-        public RiotApi(RiotApiConfig config)
+        private RiotApi(IRiotApiConfig config) : this()
         {
-            _config = config;
+            _requestManager = new RequestManager(config);
+        }
+
+        /// <summary>
+        /// Creates a new RiotApi instance with default configuration.
+        /// </summary>
+        /// <param name="apiKey">Riot API key.</param>
+        /// <returns>RiotApi instance using supllied apiKey.</returns>
+        public static RiotApi NewInstance(string apiKey)
+        {
+            return NewInstance(new RiotApiConfig.Builder().Build());
+        }
+
+        /// <summary>
+        /// Creates a new RiotApi instance with the provided configuration.
+        /// </summary>
+        /// <param name="config">RiotApiConfig to use.</param>
+        /// <returns>RiotApi instance using supplied configuration.</returns>
+        public static RiotApi NewInstance(IRiotApiConfig config)
+        {
+            return new RiotApi(config);
         }
 
         #region requests
-        internal T Get<T>(string methodId, string url, Region region, KeyValuePair<string, string>[] queryParams)
+        internal T Get<T>(string methodId, string url, Region region,
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited = false)
         {
-            return GetAsync<T>(methodId, url, region, queryParams).Result;
+            return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited).Result;
         }
 
-        internal async Task<T> GetAsync<T>(string methodId, string url, Region region, KeyValuePair<string, string>[] queryParams)
+        internal Task<T> GetAsync<T>(string methodId, string url, Region region,
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited = false)
         {
-            return default(T);
-        }
-
-        internal T GetNonRateLimited<T>(string methodId, string url, Region region, KeyValuePair<string, string>[] queryParams)
-        {
-            return GetNonRateLimitedAsync<T>(methodId, url, region, queryParams).Result;
-        }
-
-        internal async Task<T> GetNonRateLimitedAsync<T>(string methodId, string url, Region region, KeyValuePair<string, string>[] queryParams)
-        {
-            return default(T);
+            return _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited);
         }
         #endregion
     }

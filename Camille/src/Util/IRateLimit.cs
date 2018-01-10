@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Net;
+using System.Net.Http;
 
 namespace MingweiSamuel.Camille.Util
 {
@@ -21,6 +21,6 @@ namespace MingweiSamuel.Camille.Util
         /// Callback for when a response returns. Used to update RetryAfter delay and rate limit buckets.
         /// </summary>
         /// <param name="response">Response that applies to this RateLimit.</param>
-        void OnResponse(HttpWebResponse response);
+        void OnResponse(HttpResponseMessage response);
     }
 }

@@ -1,17 +1,56 @@
 ﻿namespace MingweiSamuel.Camille
 {
-    public class RiotApiConfig
+    public interface IRiotApiConfig
     {
         /// <summary>Riot Games API key.</summary>
-        public readonly string ApiKey;
+        string ApiKey { get; }
 
         /// <summary>Maximum number of concurrent requests allowed.</summary>
-        public readonly int MaxConcurrentRequests;
+        int MaxConcurrentRequests { get; }
 
-        private ApiConfig(string apiKey, int maxConcurrentRequests)
+        /// <summary>Multiplier for using concurrent instances. For example, use 0.25 for 4 concurrent instances equally spread.</summary>
+        float ConcurrentInstanceFactor { get; }
+
+        /// <summary>Overhead factor to reduce the chance 429s due to network noise.</summary>
+        float OverheadFactor { get; }
+
+        /// <summary>Number of times to retry a failed request (zero for no retries).</summary>
+        int Retries { get; }
+
+        /// <summary>Factory for creating temporal buckets.</summary>
+        Util.TokenBucketFactory TokenBucketFactory { get; }
+
+    }
+
+
+    public class RiotApiConfig : IRiotApiConfig
+    {
+        /// <summary>Riot Games API key.</summary>
+        public string ApiKey { get; }
+
+        /// <summary>Maximum number of concurrent requests allowed.</summary>
+        public int MaxConcurrentRequests { get; }
+
+        /// <summary>Multiplier for using concurrent instances. For example, use 0.25 for 4 concurrent instances equally spread.</summary>
+        public float ConcurrentInstanceFactor { get; }
+
+        /// <summary>Overhead factor to reduce the chance 429s due to network noise.</summary>
+        public float OverheadFactor { get; }
+
+        /// <summary>Number of times to retry a failed request (zero for no retries).</summary>
+        public int Retries { get; }
+
+        /// <summary>Factory for creating temporal buckets.</summary>
+        public Util.TokenBucketFactory TokenBucketFactory { get; }
+
+        private RiotApiConfig(string apiKey, int maxConcurrentRequests, float concurrentInstanceFactor, float overheadFactor, int retries, Util.TokenBucketFactory tokenBucketFactory)
         {
             ApiKey = apiKey;
             MaxConcurrentRequests = maxConcurrentRequests;
+            ConcurrentInstanceFactor = concurrentInstanceFactor;
+            OverheadFactor = overheadFactor;
+            Retries = retries;
+            TokenBucketFactory = tokenBucketFactory;
         }
 
         public class Builder
@@ -22,13 +61,26 @@
             /// <summary>Maximum number of concurrent requests allowed.</summary>
             public int MaxConcurrentRequests = 1000;
 
-            private Builder()
+            /// <summary>Multiplier for using concurrent instances. For example, use 0.25 for 4 concurrent instances equally spread.</summary>
+            public float ConcurrentInstanceFactor = 1f;
+
+            /// <summary>Overhead factor to reduce the chance 429s due to network noise.</summary>
+            public float OverheadFactor = 0.95f;
+
+            /// <summary>Number of times to retry a failed request (zero for no retries).</summary>
+            public int Retries = 3;
+
+            /// <summary>Factory for creating temporal buckets.</summary>
+            public Util.TokenBucketFactory TokenBucketFactory = (timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new Util.CircularBufferTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor* overheadFactor);
+
+            public Builder()
             {}
 
-            public ApiConfig Build()
+            public RiotApiConfig Build()
             {
-                return new ApiConfig(ApiKey, MaxConcurrentRequests);
+                return new RiotApiConfig(ApiKey, MaxConcurrentRequests, ConcurrentInstanceFactor, OverheadFactor, Retries, TokenBucketFactory);
             }
         }
     }
 }
+

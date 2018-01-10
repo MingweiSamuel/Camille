@@ -16,19 +16,34 @@
 #>
 namespace MingweiSamuel.Camille
 {
-    public class RiotApiConfig
+    public interface IRiotApiConfig
     {
 <#
     foreach (var kv in dict)
     {
 #>
         /// <summary><#= kv.Value.desc #></summary>
-        public readonly <#= kv.Value.type #> <#= Capitalize(kv.Key) #>;
+        <#= kv.Value.type #> <#= Capitalize(kv.Key) #> { get; }
 
 <#
     }
 #>
-        private ApiConfig(<#= string.Join(", ", dict.Select(kv => $"{kv.Value.type} {kv.Key}")) #>)
+    }
+
+
+    public class RiotApiConfig : IRiotApiConfig
+    {
+<#
+    foreach (var kv in dict)
+    {
+#>
+        /// <summary><#= kv.Value.desc #></summary>
+        public <#= kv.Value.type #> <#= Capitalize(kv.Key) #> { get; }
+
+<#
+    }
+#>
+        private RiotApiConfig(<#= string.Join(", ", dict.Select(kv => $"{kv.Value.type} {kv.Key}")) #>)
         {
 <#
     foreach (var kv in dict)
@@ -52,45 +67,14 @@ namespace MingweiSamuel.Camille
 <#
     }
 #>
-            private Builder()
+            public Builder()
             {}
 
-            public ApiConfig Build()
+            public RiotApiConfig Build()
             {
-                return new ApiConfig(<#= string.Join(", ", dict.Keys.Select(Capitalize)) #>);
+                return new RiotApiConfig(<#= string.Join(", ", dict.Keys.Select(Capitalize)) #>);
             }
         }
     }
 }
-<#+
-    private static string Capitalize(string input)
-    {
-        return input.First().ToString().ToUpper() + input.Substring(1);
-    }
-
-    private static IDictionary<string, dynamic> DynamicToDict(JDynamic obj)
-    {
-        return GetKeys(obj).ToDictionary(k => k, k => GetDynamicMember(obj, k));
-    }
-
-    private static ICollection<string> GetKeys(JDynamic obj)
-    {
-        return ((IDictionary<string, object>) obj.Value).Keys;
-    }
-
-    private static object GetDynamicMember(object obj, string memberName)
-    {
-        var type = obj.GetType();
-        var binder = Binder.GetMember(CSharpBinderFlags.None, memberName, type,
-            new[] { CSharpArgumentInfo.Create(CSharpArgumentInfoFlags.None, null) });
-        var callsite = CallSite<Func<CallSite, object, object>>.Create(binder);
-        try
-        {
-            return callsite.Target(callsite, obj);
-        }
-        catch (RuntimeBinderException)
-        {
-            return null;
-        }
-    }
-#>
+<#@ include file="./Utils.t4" #>

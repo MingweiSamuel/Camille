@@ -30,8 +30,39 @@ namespace MingweiSamuel.Camille
 {
 <#
     IDictionary<string, dynamic> pathsDict = DynamicToDict(spec.paths);
-    foreach (var endpointMethods in pathsDict
-        .GroupBy(kvp => (string) GetDynamicMember(kvp.Value, "x-endpoint")))
+    var endpointGroups = pathsDict
+        .GroupBy(kvp => (string) GetDynamicMember(kvp.Value, "x-endpoint")).ToList();
+#>
+<# // RiotApi Class // #>
+    public partial class RiotApi
+    {
+<#
+    foreach (var endpointMethods in endpointGroups)
+    {
+        var endpoint = NormalizeEndpointName(endpointMethods.Key);
+#>
+        public readonly <#= endpoint #>Endpoints <#= endpoint #>;
+<#
+    }
+#>
+
+        private RiotApi()
+        {
+<#
+    foreach (var endpointMethods in endpointGroups)
+    {
+        var endpoint = NormalizeEndpointName(endpointMethods.Key);
+#>
+            <#= endpoint #> = new <#= endpoint #>Endpoints(this);
+<#
+    }
+#>
+        }
+    }
+
+<# // Endpoint Classes // #>
+<#
+    foreach (var endpointMethods in endpointGroups)
     {
         var endpoint = NormalizeEndpointName(endpointMethods.Key);
 #>
@@ -59,7 +90,6 @@ namespace MingweiSamuel.Camille
 
             // Cases if not rate limited.
             bool rateLimitExcluded = GetDynamicMember(get, "x-app-rate-limit-excluded") ?? false;
-            var rateLimitString = rateLimitExcluded ? "NonRateLimited" : "";
 
             // Description processing.
             string desc = get.description;
@@ -123,8 +153,8 @@ namespace MingweiSamuel.Camille
 #>
         public <#= "Async" == async ? $"Task<{returnType}>" : returnType #> <#= method #><#= async #>(Region region<#= argBuilder #>)
         {
-            return RiotApi.Get<#= rateLimitString #><#= async #><<#= returnType #>>("<#= operationId #>", $"<#= route #>",
-                region, MakeParams(<#= makeParamCode #>));
+            return RiotApi.Get<#= async #><<#= returnType #>>("<#= operationId #>", $"<#= route #>",
+                region, MakeParams(<#= makeParamCode #>), <#= rateLimitExcluded.ToString().ToLowerInvariant() #>);
         }
 
 <#
@@ -139,6 +169,7 @@ namespace MingweiSamuel.Camille
 #endregion
 
 #region data objects
+<# // DTOs // #>
 <#
     var schemas = spec.components.schemas;
     foreach (string schemaKey in GetKeys(schemas))
@@ -195,104 +226,4 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
     }
 #>
 #endregion
-<#+
-    public static string StringifyType(dynamic prop, string endpoint = null, bool nullable = false)
-    {
-        var anyOf = GetDynamicMember(prop, "anyOf");
-        if (anyOf != null)
-        {
-            prop = anyOf[0];
-        }
-
-        string refType = GetDynamicMember(prop, "$ref");
-        if (refType != null)
-        {
-            return (null == endpoint ? "" : endpoint + '.') + 
-                NormailzeSchemaName(refType.Substring(refType.IndexOf('.') + 1));
-        }
-        var qm = nullable ? "?" : "";
-        switch ((string) prop.type)
-        {
-            case "boolean": return "bool" + qm;
-            case "integer": return ("int32".Equals(prop.format) ? "int" : "long") + qm;
-            case "number": return prop.format + qm;
-            case "array": return StringifyType(prop.items, endpoint) + "[]";
-            case "object":
-                return "IDictionary<" + StringifyType(GetDynamicMember(prop, "x-key"), endpoint) + ", " +
-                    StringifyType(prop.additionalProperties, endpoint) + ">";
-            default: return prop.type;
-        }
-    }
-
-    private static string Capitalize(string input)
-    {
-        return input.First().ToString().ToUpper() + input.Substring(1);
-    }
-
-    private static string Decapitalize(string input)
-    {
-        return input.First().ToString().ToLower() + input.Substring(1);
-    }
-
-    private static string GetJsonProperty(string name)
-    {
-        return $"[JsonProperty(\"{name}\")]";
-    }
-
-    private static string NormalizeArgName(string name)
-    {
-        var tokens = name.Split('_');
-        var argName = Decapitalize(string.Join("", tokens.Select(Capitalize)));
-        if ("base".Equals(argName))
-            return "Base";
-        return argName;
-    }
-
-    private static string NormalizePropName(string propName, string schemaName, object value)
-    {
-        var tokens = propName.Split('_');
-        var name = string.Join("", tokens.Select(Capitalize));
-        if (name.Equals(schemaName))
-            name += StringifyType(value);
-        return name;
-    }
-
-    private static string NormalizeEndpointName(string name)
-    {
-        var tokens = name.Split('-');
-        return string.Join("", tokens
-            .Take(tokens.Length - 1)
-            .Select(Capitalize));
-    }
-
-    private static string NormailzeSchemaName(string name)
-    {
-        return Regex.Replace(name, @"DTO", "", RegexOptions.IgnoreCase);
-    }
-
-    private static IDictionary<string, dynamic> DynamicToDict(JDynamic obj)
-    {
-        return GetKeys(obj).ToDictionary(k => k, k => GetDynamicMember(obj, k));
-    }
-
-    private static ICollection<string> GetKeys(JDynamic obj)
-    {
-        return ((IDictionary<string, object>) obj.Value).Keys;
-    }
-
-    private static object GetDynamicMember(object obj, string memberName)
-    {
-        var type = obj.GetType();
-        var binder = Binder.GetMember(CSharpBinderFlags.None, memberName, type,
-            new[] { CSharpArgumentInfo.Create(CSharpArgumentInfoFlags.None, null) });
-        var callsite = CallSite<Func<CallSite, object, object>>.Create(binder);
-        try
-        {
-            return callsite.Target(callsite, obj);
-        }
-        catch (RuntimeBinderException)
-        {
-            return null;
-        }
-    }
-#>
+<#@ include file="./Utils.t4" #>

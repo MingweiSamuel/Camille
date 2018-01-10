@@ -11,6 +11,36 @@ using MingweiSamuel.Camille.Enums;
 #region methods
 namespace MingweiSamuel.Camille
 {
+    public partial class RiotApi
+    {
+        public readonly ChampionMasteryEndpoints ChampionMastery;
+        public readonly ChampionEndpoints Champion;
+        public readonly LeagueEndpoints League;
+        public readonly LolStaticDataEndpoints LolStaticData;
+        public readonly LolStatusEndpoints LolStatus;
+        public readonly MatchEndpoints Match;
+        public readonly SpectatorEndpoints Spectator;
+        public readonly SummonerEndpoints Summoner;
+        public readonly ThirdPartyCodeEndpoints ThirdPartyCode;
+        public readonly TournamentStubEndpoints TournamentStub;
+        public readonly TournamentEndpoints Tournament;
+
+        private RiotApi()
+        {
+            ChampionMastery = new ChampionMasteryEndpoints(this);
+            Champion = new ChampionEndpoints(this);
+            League = new LeagueEndpoints(this);
+            LolStaticData = new LolStaticDataEndpoints(this);
+            LolStatus = new LolStatusEndpoints(this);
+            Match = new MatchEndpoints(this);
+            Spectator = new SpectatorEndpoints(this);
+            Summoner = new SummonerEndpoints(this);
+            ThirdPartyCode = new ThirdPartyCodeEndpoints(this);
+            TournamentStub = new TournamentStubEndpoints(this);
+            Tournament = new TournamentEndpoints(this);
+        }
+    }
+
     // champion-mastery-v3
     public class ChampionMasteryEndpoints : Endpoints
     {
@@ -27,7 +57,7 @@ namespace MingweiSamuel.Camille
         public ChampionMastery.ChampionMastery[] GetAllChampionMasteries(Region region, long summonerId)
         {
             return RiotApi.Get<ChampionMastery.ChampionMastery[]>("champion-mastery-v3.getAllChampionMasteries", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -40,7 +70,7 @@ namespace MingweiSamuel.Camille
         public Task<ChampionMastery.ChampionMastery[]> GetAllChampionMasteriesAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<ChampionMastery.ChampionMastery[]>("champion-mastery-v3.getAllChampionMasteries", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -54,7 +84,7 @@ namespace MingweiSamuel.Camille
         public ChampionMastery.ChampionMastery GetChampionMastery(Region region, long championId, long summonerId)
         {
             return RiotApi.Get<ChampionMastery.ChampionMastery>("champion-mastery-v3.getChampionMastery", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}/by-champion/{championId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -68,7 +98,7 @@ namespace MingweiSamuel.Camille
         public Task<ChampionMastery.ChampionMastery> GetChampionMasteryAsync(Region region, long championId, long summonerId)
         {
             return RiotApi.GetAsync<ChampionMastery.ChampionMastery>("champion-mastery-v3.getChampionMastery", $"/lol/champion-mastery/v3/champion-masteries/by-summoner/{summonerId}/by-champion/{championId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -81,7 +111,7 @@ namespace MingweiSamuel.Camille
         public int GetChampionMasteryScore(Region region, long summonerId)
         {
             return RiotApi.Get<int>("champion-mastery-v3.getChampionMasteryScore", $"/lol/champion-mastery/v3/scores/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -94,7 +124,7 @@ namespace MingweiSamuel.Camille
         public Task<int> GetChampionMasteryScoreAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<int>("champion-mastery-v3.getChampionMasteryScore", $"/lol/champion-mastery/v3/scores/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -114,7 +144,7 @@ namespace MingweiSamuel.Camille
         public Champion.ChampionList GetChampions(Region region, bool? freeToPlay = null)
         {
             return RiotApi.Get<Champion.ChampionList>("champion-v3.getChampions", $"/lol/platform/v3/champions",
-                region, MakeParams(nameof(freeToPlay), freeToPlay));
+                region, MakeParams(nameof(freeToPlay), freeToPlay), false);
         }
 
         /// <summary>
@@ -127,7 +157,7 @@ namespace MingweiSamuel.Camille
         public Task<Champion.ChampionList> GetChampionsAsync(Region region, bool? freeToPlay = null)
         {
             return RiotApi.GetAsync<Champion.ChampionList>("champion-v3.getChampions", $"/lol/platform/v3/champions",
-                region, MakeParams(nameof(freeToPlay), freeToPlay));
+                region, MakeParams(nameof(freeToPlay), freeToPlay), false);
         }
 
         /// <summary>
@@ -140,7 +170,7 @@ namespace MingweiSamuel.Camille
         public Champion.Champion GetChampionsById(Region region, int id)
         {
             return RiotApi.Get<Champion.Champion>("champion-v3.getChampionsById", $"/lol/platform/v3/champions/{id}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -153,7 +183,7 @@ namespace MingweiSamuel.Camille
         public Task<Champion.Champion> GetChampionsByIdAsync(Region region, int id)
         {
             return RiotApi.GetAsync<Champion.Champion>("champion-v3.getChampionsById", $"/lol/platform/v3/champions/{id}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -173,7 +203,7 @@ namespace MingweiSamuel.Camille
         public League.LeagueList GetChallengerLeague(Region region, string queue)
         {
             return RiotApi.Get<League.LeagueList>("league-v3.getChallengerLeague", $"/lol/league/v3/challengerleagues/by-queue/{queue}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -186,7 +216,7 @@ namespace MingweiSamuel.Camille
         public Task<League.LeagueList> GetChallengerLeagueAsync(Region region, string queue)
         {
             return RiotApi.GetAsync<League.LeagueList>("league-v3.getChallengerLeague", $"/lol/league/v3/challengerleagues/by-queue/{queue}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -199,7 +229,7 @@ namespace MingweiSamuel.Camille
         public League.LeagueList[] GetAllLeaguesForSummoner(Region region, long summonerId)
         {
             return RiotApi.Get<League.LeagueList[]>("league-v3.getAllLeaguesForSummoner", $"/lol/league/v3/leagues/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -212,7 +242,7 @@ namespace MingweiSamuel.Camille
         public Task<League.LeagueList[]> GetAllLeaguesForSummonerAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<League.LeagueList[]>("league-v3.getAllLeaguesForSummoner", $"/lol/league/v3/leagues/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -225,7 +255,7 @@ namespace MingweiSamuel.Camille
         public League.LeagueList GetLeagueById(Region region, string leagueId)
         {
             return RiotApi.Get<League.LeagueList>("league-v3.getLeagueById", $"/lol/league/v3/leagues/{leagueId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -238,7 +268,7 @@ namespace MingweiSamuel.Camille
         public Task<League.LeagueList> GetLeagueByIdAsync(Region region, string leagueId)
         {
             return RiotApi.GetAsync<League.LeagueList>("league-v3.getLeagueById", $"/lol/league/v3/leagues/{leagueId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -251,7 +281,7 @@ namespace MingweiSamuel.Camille
         public League.LeagueList GetMasterLeague(Region region, string queue)
         {
             return RiotApi.Get<League.LeagueList>("league-v3.getMasterLeague", $"/lol/league/v3/masterleagues/by-queue/{queue}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -264,7 +294,7 @@ namespace MingweiSamuel.Camille
         public Task<League.LeagueList> GetMasterLeagueAsync(Region region, string queue)
         {
             return RiotApi.GetAsync<League.LeagueList>("league-v3.getMasterLeague", $"/lol/league/v3/masterleagues/by-queue/{queue}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -277,7 +307,7 @@ namespace MingweiSamuel.Camille
         public League.LeaguePosition[] GetAllLeaguePositionsForSummoner(Region region, long summonerId)
         {
             return RiotApi.Get<League.LeaguePosition[]>("league-v3.getAllLeaguePositionsForSummoner", $"/lol/league/v3/positions/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -290,7 +320,7 @@ namespace MingweiSamuel.Camille
         public Task<League.LeaguePosition[]> GetAllLeaguePositionsForSummonerAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<League.LeaguePosition[]>("league-v3.getAllLeaguePositionsForSummoner", $"/lol/league/v3/positions/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -316,8 +346,8 @@ namespace MingweiSamuel.Camille
         /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
         public LolStaticData.ChampionList GetChampionList(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById));
+            return RiotApi.Get<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById), true);
         }
 
         /// <summary>
@@ -336,8 +366,8 @@ namespace MingweiSamuel.Camille
         /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
         public Task<LolStaticData.ChampionList> GetChampionListAsync(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById));
+            return RiotApi.GetAsync<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById), true);
         }
 
         /// <summary>
@@ -356,8 +386,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.Champion GetChampionById(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -376,8 +406,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.Champion> GetChampionByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -395,8 +425,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.ItemList GetItemList(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -414,8 +444,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.ItemList> GetItemListAsync(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -434,8 +464,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public LolStaticData.Item GetItemById(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version));
+            return RiotApi.Get<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -454,8 +484,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public Task<LolStaticData.Item> GetItemByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version));
+            return RiotApi.GetAsync<LolStaticData.Item>("lol-static-data-v3.getItemById", $"/lol/static-data/v3/items/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -472,8 +502,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public LolStaticData.LanguageStrings GetLanguageStrings(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.Get<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -490,8 +520,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public Task<LolStaticData.LanguageStrings> GetLanguageStringsAsync(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.GetAsync<LolStaticData.LanguageStrings>("lol-static-data-v3.getLanguageStrings", $"/lol/static-data/v3/language-strings",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -504,8 +534,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public string[] GetLanguages(Region region)
         {
-            return RiotApi.GetNonRateLimited<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
-                region, MakeParams());
+            return RiotApi.Get<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -518,8 +548,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public Task<string[]> GetLanguagesAsync(Region region)
         {
-            return RiotApi.GetNonRateLimitedAsync<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
-                region, MakeParams());
+            return RiotApi.GetAsync<string[]>("lol-static-data-v3.getLanguages", $"/lol/static-data/v3/languages",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -536,8 +566,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public LolStaticData.MapData GetMapData(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.Get<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -554,8 +584,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public Task<LolStaticData.MapData> GetMapDataAsync(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.GetAsync<LolStaticData.MapData>("lol-static-data-v3.getMapData", $"/lol/static-data/v3/maps",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -573,8 +603,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.MasteryList GetMasteryList(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -592,8 +622,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.MasteryList> GetMasteryListAsync(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -612,8 +642,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.Mastery GetMasteryById(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -632,8 +662,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.Mastery> GetMasteryByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -648,8 +678,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public LolStaticData.ProfileIconData GetProfileIcons(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.Get<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -664,8 +694,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public Task<LolStaticData.ProfileIconData> GetProfileIconsAsync(Region region, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
-                region, MakeParams(nameof(locale), locale, nameof(version), version));
+            return RiotApi.GetAsync<LolStaticData.ProfileIconData>("lol-static-data-v3.getProfileIcons", $"/lol/static-data/v3/profile-icons",
+                region, MakeParams(nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -678,8 +708,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public LolStaticData.Realm GetRealm(Region region)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
-                region, MakeParams());
+            return RiotApi.Get<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -692,8 +722,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public Task<LolStaticData.Realm> GetRealmAsync(Region region)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
-                region, MakeParams());
+            return RiotApi.GetAsync<LolStaticData.Realm>("lol-static-data-v3.getRealm", $"/lol/static-data/v3/realms",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -711,8 +741,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.RuneList GetRuneList(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -730,8 +760,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.RuneList> GetRuneListAsync(Region region, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -750,8 +780,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public LolStaticData.Rune GetRuneById(Region region, int id, string[] tags = null, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
-                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version));
+            return RiotApi.Get<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
+                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -770,8 +800,8 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         public Task<LolStaticData.Rune> GetRuneByIdAsync(Region region, int id, string[] tags = null, string locale = null, string version = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
-                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version));
+            return RiotApi.GetAsync<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
+                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version), true);
         }
 
         /// <summary>
@@ -790,8 +820,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.SummonerSpellList GetSummonerSpellList(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -810,8 +840,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.SummonerSpellList> GetSummonerSpellListAsync(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -830,8 +860,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public LolStaticData.SummonerSpell GetSummonerSpellById(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimited<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.Get<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -850,8 +880,8 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         public Task<LolStaticData.SummonerSpell> GetSummonerSpellByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags));
+            return RiotApi.GetAsync<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
+                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
         }
 
         /// <summary>
@@ -864,8 +894,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public string[] GetVersions(Region region)
         {
-            return RiotApi.GetNonRateLimited<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
-                region, MakeParams());
+            return RiotApi.Get<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -878,8 +908,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public Task<string[]> GetVersionsAsync(Region region)
         {
-            return RiotApi.GetNonRateLimitedAsync<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
-                region, MakeParams());
+            return RiotApi.GetAsync<string[]>("lol-static-data-v3.getVersions", $"/lol/static-data/v3/versions",
+                region, MakeParams(), true);
         }
 
     }
@@ -899,8 +929,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public LolStatus.ShardStatus GetShardData(Region region)
         {
-            return RiotApi.GetNonRateLimited<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
-                region, MakeParams());
+            return RiotApi.Get<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
+                region, MakeParams(), true);
         }
 
         /// <summary>
@@ -913,8 +943,8 @@ namespace MingweiSamuel.Camille
         /// <param name="region">Region to query.</param>
         public Task<LolStatus.ShardStatus> GetShardDataAsync(Region region)
         {
-            return RiotApi.GetNonRateLimitedAsync<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
-                region, MakeParams());
+            return RiotApi.GetAsync<LolStatus.ShardStatus>("lol-status-v3.getShardData", $"/lol/status/v3/shard-data",
+                region, MakeParams(), true);
         }
 
     }
@@ -934,7 +964,7 @@ namespace MingweiSamuel.Camille
         public long[] GetMatchIdsByTournamentCode(Region region, string tournamentCode)
         {
             return RiotApi.Get<long[]>("match-v3.getMatchIdsByTournamentCode", $"/lol/match/v3/matches/by-tournament-code/{tournamentCode}/ids",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -947,7 +977,7 @@ namespace MingweiSamuel.Camille
         public Task<long[]> GetMatchIdsByTournamentCodeAsync(Region region, string tournamentCode)
         {
             return RiotApi.GetAsync<long[]>("match-v3.getMatchIdsByTournamentCode", $"/lol/match/v3/matches/by-tournament-code/{tournamentCode}/ids",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -960,7 +990,7 @@ namespace MingweiSamuel.Camille
         public Match.Match GetMatch(Region region, long matchId)
         {
             return RiotApi.Get<Match.Match>("match-v3.getMatch", $"/lol/match/v3/matches/{matchId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -973,7 +1003,7 @@ namespace MingweiSamuel.Camille
         public Task<Match.Match> GetMatchAsync(Region region, long matchId)
         {
             return RiotApi.GetAsync<Match.Match>("match-v3.getMatch", $"/lol/match/v3/matches/{matchId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -987,7 +1017,7 @@ namespace MingweiSamuel.Camille
         public Match.Match GetMatchByTournamentCode(Region region, long matchId, string tournamentCode)
         {
             return RiotApi.Get<Match.Match>("match-v3.getMatchByTournamentCode", $"/lol/match/v3/matches/{matchId}/by-tournament-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1001,7 +1031,7 @@ namespace MingweiSamuel.Camille
         public Task<Match.Match> GetMatchByTournamentCodeAsync(Region region, long matchId, string tournamentCode)
         {
             return RiotApi.GetAsync<Match.Match>("match-v3.getMatchByTournamentCode", $"/lol/match/v3/matches/{matchId}/by-tournament-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1027,7 +1057,7 @@ namespace MingweiSamuel.Camille
         public Match.Matchlist GetMatchlist(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
         {
             return RiotApi.Get<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
-                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex));
+                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex), false);
         }
 
         /// <summary>
@@ -1053,7 +1083,7 @@ namespace MingweiSamuel.Camille
         public Task<Match.Matchlist> GetMatchlistAsync(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
         {
             return RiotApi.GetAsync<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
-                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex));
+                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex), false);
         }
 
         /// <summary>
@@ -1066,7 +1096,7 @@ namespace MingweiSamuel.Camille
         public Match.Matchlist GetRecentMatchlist(Region region, long accountId)
         {
             return RiotApi.Get<Match.Matchlist>("match-v3.getRecentMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}/recent",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1079,7 +1109,7 @@ namespace MingweiSamuel.Camille
         public Task<Match.Matchlist> GetRecentMatchlistAsync(Region region, long accountId)
         {
             return RiotApi.GetAsync<Match.Matchlist>("match-v3.getRecentMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}/recent",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1094,7 +1124,7 @@ namespace MingweiSamuel.Camille
         public Match.MatchTimeline GetMatchTimeline(Region region, long matchId)
         {
             return RiotApi.Get<Match.MatchTimeline>("match-v3.getMatchTimeline", $"/lol/match/v3/timelines/by-match/{matchId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1109,7 +1139,7 @@ namespace MingweiSamuel.Camille
         public Task<Match.MatchTimeline> GetMatchTimelineAsync(Region region, long matchId)
         {
             return RiotApi.GetAsync<Match.MatchTimeline>("match-v3.getMatchTimeline", $"/lol/match/v3/timelines/by-match/{matchId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -1129,7 +1159,7 @@ namespace MingweiSamuel.Camille
         public Spectator.CurrentGameInfo GetCurrentGameInfoBySummoner(Region region, long summonerId)
         {
             return RiotApi.Get<Spectator.CurrentGameInfo>("spectator-v3.getCurrentGameInfoBySummoner", $"/lol/spectator/v3/active-games/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1142,7 +1172,7 @@ namespace MingweiSamuel.Camille
         public Task<Spectator.CurrentGameInfo> GetCurrentGameInfoBySummonerAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<Spectator.CurrentGameInfo>("spectator-v3.getCurrentGameInfoBySummoner", $"/lol/spectator/v3/active-games/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1154,7 +1184,7 @@ namespace MingweiSamuel.Camille
         public Spectator.FeaturedGames GetFeaturedGames(Region region)
         {
             return RiotApi.Get<Spectator.FeaturedGames>("spectator-v3.getFeaturedGames", $"/lol/spectator/v3/featured-games",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1166,7 +1196,7 @@ namespace MingweiSamuel.Camille
         public Task<Spectator.FeaturedGames> GetFeaturedGamesAsync(Region region)
         {
             return RiotApi.GetAsync<Spectator.FeaturedGames>("spectator-v3.getFeaturedGames", $"/lol/spectator/v3/featured-games",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -1186,7 +1216,7 @@ namespace MingweiSamuel.Camille
         public Summoner.Summoner GetByAccountId(Region region, long accountId)
         {
             return RiotApi.Get<Summoner.Summoner>("summoner-v3.getByAccountId", $"/lol/summoner/v3/summoners/by-account/{accountId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1199,7 +1229,7 @@ namespace MingweiSamuel.Camille
         public Task<Summoner.Summoner> GetByAccountIdAsync(Region region, long accountId)
         {
             return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getByAccountId", $"/lol/summoner/v3/summoners/by-account/{accountId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1212,7 +1242,7 @@ namespace MingweiSamuel.Camille
         public Summoner.Summoner GetBySummonerName(Region region, string summonerName)
         {
             return RiotApi.Get<Summoner.Summoner>("summoner-v3.getBySummonerName", $"/lol/summoner/v3/summoners/by-name/{summonerName}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1225,7 +1255,7 @@ namespace MingweiSamuel.Camille
         public Task<Summoner.Summoner> GetBySummonerNameAsync(Region region, string summonerName)
         {
             return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getBySummonerName", $"/lol/summoner/v3/summoners/by-name/{summonerName}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1238,7 +1268,7 @@ namespace MingweiSamuel.Camille
         public Summoner.Summoner GetBySummonerId(Region region, long summonerId)
         {
             return RiotApi.Get<Summoner.Summoner>("summoner-v3.getBySummonerId", $"/lol/summoner/v3/summoners/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1251,7 +1281,7 @@ namespace MingweiSamuel.Camille
         public Task<Summoner.Summoner> GetBySummonerIdAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<Summoner.Summoner>("summoner-v3.getBySummonerId", $"/lol/summoner/v3/summoners/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -1271,7 +1301,7 @@ namespace MingweiSamuel.Camille
         public string GetThirdPartyCodeBySummonerId(Region region, long summonerId)
         {
             return RiotApi.Get<string>("third-party-code-v3.getThirdPartyCodeBySummonerId", $"/lol/platform/v3/third-party-code/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1284,7 +1314,7 @@ namespace MingweiSamuel.Camille
         public Task<string> GetThirdPartyCodeBySummonerIdAsync(Region region, long summonerId)
         {
             return RiotApi.GetAsync<string>("third-party-code-v3.getThirdPartyCodeBySummonerId", $"/lol/platform/v3/third-party-code/by-summoner/{summonerId}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -1304,7 +1334,7 @@ namespace MingweiSamuel.Camille
         public TournamentStub.LobbyEventWrapper GetLobbyEventsByCode(Region region, string tournamentCode)
         {
             return RiotApi.Get<TournamentStub.LobbyEventWrapper>("tournament-stub-v3.getLobbyEventsByCode", $"/lol/tournament-stub/v3/lobby-events/by-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1317,7 +1347,7 @@ namespace MingweiSamuel.Camille
         public Task<TournamentStub.LobbyEventWrapper> GetLobbyEventsByCodeAsync(Region region, string tournamentCode)
         {
             return RiotApi.GetAsync<TournamentStub.LobbyEventWrapper>("tournament-stub-v3.getLobbyEventsByCode", $"/lol/tournament-stub/v3/lobby-events/by-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -1337,7 +1367,7 @@ namespace MingweiSamuel.Camille
         public Tournament.TournamentCode GetTournamentCode(Region region, string tournamentCode)
         {
             return RiotApi.Get<Tournament.TournamentCode>("tournament-v3.getTournamentCode", $"/lol/tournament/v3/codes/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1350,7 +1380,7 @@ namespace MingweiSamuel.Camille
         public Task<Tournament.TournamentCode> GetTournamentCodeAsync(Region region, string tournamentCode)
         {
             return RiotApi.GetAsync<Tournament.TournamentCode>("tournament-v3.getTournamentCode", $"/lol/tournament/v3/codes/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1363,7 +1393,7 @@ namespace MingweiSamuel.Camille
         public Tournament.LobbyEventWrapper GetLobbyEventsByCode(Region region, string tournamentCode)
         {
             return RiotApi.Get<Tournament.LobbyEventWrapper>("tournament-v3.getLobbyEventsByCode", $"/lol/tournament/v3/lobby-events/by-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
         /// <summary>
@@ -1376,7 +1406,7 @@ namespace MingweiSamuel.Camille
         public Task<Tournament.LobbyEventWrapper> GetLobbyEventsByCodeAsync(Region region, string tournamentCode)
         {
             return RiotApi.GetAsync<Tournament.LobbyEventWrapper>("tournament-v3.getLobbyEventsByCode", $"/lol/tournament/v3/lobby-events/by-code/{tournamentCode}",
-                region, MakeParams());
+                region, MakeParams(), false);
         }
 
     }
@@ -4901,3 +4931,4 @@ namespace MingweiSamuel.Camille.Tournament
 }
 
 #endregion
+

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
+using System.Net.Http;
 
 namespace MingweiSamuel.Camille.Util
 {
@@ -11,6 +11,9 @@ namespace MingweiSamuel.Camille.Util
         public const string HeaderXRateLimitType = "X-Rate-Limit-Type";
         /// <summary>Header specifying retry after time in seconds after a 429.</summary>
         public const string HeaderRetryAfter = "Retry-After";
+
+        /// <summary>Configuration information.</summary>
+        private readonly IRiotApiConfig _config;
 
         /// <summary>Thread must synchronize on this lock to change bucketsUpdated and buckets.</summary>
         private readonly object _bucketsLock = new object();
@@ -26,7 +29,13 @@ namespace MingweiSamuel.Camille.Util
         private long _retryAfterTickStamp = 0;
 
         /// <summary>Type of rate limit, to know what headers to check.</summary>
-        private readonly RateLimitType rateLimitType;
+        private readonly RateLimitType _rateLimitType;
+
+        public RateLimit(RateLimitType rateLimitType, IRiotApiConfig config)
+        {
+            _rateLimitType = rateLimitType;
+            _config = config;
+        }
 
         public IReadOnlyList<ITokenBucket> GetBuckets()
         {
@@ -41,32 +50,33 @@ namespace MingweiSamuel.Camille.Util
             return now > _retryAfterTickStamp ? -1 : _retryAfterTickStamp - now;
         }
 
-        public void OnResponse(HttpWebResponse response)
+        public void OnResponse(HttpResponseMessage response)
         {
             if (429 == (int) response.StatusCode)
             {
                 // Determine if this RateLimit triggered the 429, and set retryAfter accordingly.
-                var typeNameHeader = response.GetResponseHeader(HeaderXRateLimitType);
+                var typeNameHeader = response.Headers.GetValues(HeaderXRateLimitType).FirstOrDefault(null);
                 if (typeNameHeader == null)
                     throw new InvalidOperationException(
                         $"429 response did not include {HeaderXRateLimitType}, indicating a failure of the Riot API edge.");
-                if (rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.InvariantCultureIgnoreCase))
+                if (_rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var retryAfterHeader = response.GetResponseHeader(HeaderRetryAfter);
+                    var retryAfterHeader = response.Headers.GetValues(HeaderRetryAfter).FirstOrDefault(null);
                     if (retryAfterHeader == null)
                         throw new InvalidOperationException(
-                            $"429 response triggered by {rateLimitType.TypeName()} missing {HeaderRetryAfter}" +
+                            $"429 response triggered by {_rateLimitType.TypeName()} missing {HeaderRetryAfter}" +
                             " header, indicating a failure of the Riot API edge.");
                     // Because the precision of the retryAfter header is only in seconds, we multiply
                     // and add an additional half-second in case of rounding (for example, the API sometimes returns
                     // retry-after 0 seconds).
-                    _retryAfterTickStamp = DateTimeOffset.UtcNow.Ticks + TimeSpan.TicksPerSecond * long.Parse(retryAfterHeader)
+                    _retryAfterTickStamp = DateTimeOffset.UtcNow.Ticks
+                        + TimeSpan.TicksPerSecond * long.Parse(retryAfterHeader)
                         + TimeSpan.TicksPerSecond / 2;
                 }
             }
 
-            var limitHeader = response.GetResponseHeader(rateLimitType.LimitHeader());
-            var countHeader = response.GetResponseHeader(rateLimitType.CountHeader());
+            var limitHeader = response.Headers.GetValues(_rateLimitType.LimitHeader()).FirstOrDefault(null);
+            var countHeader = response.Headers.GetValues(_rateLimitType.CountHeader()).FirstOrDefault(null);
             if (!CheckBucketsRequireUpdating(limitHeader, countHeader))
                 return;
             lock(_bucketsLock) {
@@ -101,7 +111,7 @@ namespace MingweiSamuel.Camille.Util
         /// <param name="limitHeader"></param>
         /// <param name="countHeader"></param>
         /// <returns>A new set of buckets based on the provided headers.</returns>
-        private IReadOnlyList<ITokenBucket> GetBucketsFromHeaders(String limitHeader, String countHeader)
+        private IReadOnlyList<ITokenBucket> GetBucketsFromHeaders(string limitHeader, String countHeader)
         {
             // Limits: "20000:10,1200000:600"
             // Counts: "7:10,58:600"
@@ -122,8 +132,9 @@ namespace MingweiSamuel.Camille.Util
                     if (limitSpan != countSpan)
                         throw new InvalidOperationException(
                             $"Header timespans did not match: {limitHeader} and {countHeader}.");
-                    var bucket = new CircularBufferTokenBucket(TimeSpan.FromSeconds(limitSpan), limitValue, 20, 0.5f, 0.95f);
-                    bucket.GetTokens((int) Math.Ceiling(countValue * 1f)); // TODO
+                    var bucket = _config.TokenBucketFactory.Invoke(
+                        TimeSpan.FromSeconds(limitSpan), limitValue, _config.ConcurrentInstanceFactor, _config.OverheadFactor);
+                    bucket.GetTokens((int) Math.Ceiling(countValue * _config.ConcurrentInstanceFactor));
                     return bucket;
                 })
                 .ToList();
