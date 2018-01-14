@@ -22,7 +22,7 @@ namespace MingweiSamuel.Camille.Util
         private const string RiotKeyHeader = "X-Riot-Token";
 
         /// <summary>Configuration information.</summary>
-        private readonly RiotApiConfig _config;
+        private readonly IRiotApiConfig _config;
 
         /// <summary>Represents the app rate limit.</summary>
         private readonly IRateLimit _appRateLimit;
@@ -37,7 +37,7 @@ namespace MingweiSamuel.Camille.Util
         /// </summary>
         private readonly HttpClient _client = new HttpClient();
 
-        public RegionalRequester(RiotApiConfig config)
+        public RegionalRequester(IRiotApiConfig config)
         {
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
@@ -74,7 +74,7 @@ namespace MingweiSamuel.Camille.Util
                 using (var content = new FormUrlEncodedContent(queryParams))
                     query = content.ReadAsStringAsync().Result;
 
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region}{RiotRootUrl}{relativeUrl}{query}");
+                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.Platform}{RiotRootUrl}{relativeUrl}{query}");
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
 
                 // Receive response.
@@ -84,7 +84,7 @@ namespace MingweiSamuel.Camille.Util
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
                     return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
-                if (0 <= Array.BinarySearch(NullSuccessStatusCodes, response.StatusCode))
+                if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default(T);
                 // Failure. 429 and 5xx are retryable. All else exit.
                 if (429 == (int)response.StatusCode || response.StatusCode >= HttpStatusCode.InternalServerError)

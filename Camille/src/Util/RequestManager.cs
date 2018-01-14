@@ -14,7 +14,7 @@ namespace MingweiSamuel.Camille.Util
     public class RequestManager
     {
         /// <summary>Configuration information.</summary>
-        private readonly RiotApiConfig _config;
+        private readonly IRiotApiConfig _config;
 
         /// <summary>Lock on number of concurrent requests (global across regions).</summary>
         private readonly SemaphoreSlim _concurrentRequestSemaphore;
@@ -22,7 +22,7 @@ namespace MingweiSamuel.Camille.Util
         /// <summary>Stores the RateLimiter for each Region.</summary>
         private readonly ConcurrentDictionary<Region, RegionalRequester> _rateLimiters = new ConcurrentDictionary<Region, RegionalRequester>();
 
-        public RequestManager(RiotApiConfig config)
+        public RequestManager(IRiotApiConfig config)
         {
             _config = config;
             _concurrentRequestSemaphore = new SemaphoreSlim(_config.MaxConcurrentRequests);

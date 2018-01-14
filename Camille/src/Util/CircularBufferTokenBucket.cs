@@ -108,7 +108,8 @@ namespace MingweiSamuel.Camille.Util
             _totalLimit = totalLimit;
 
             _adjustedTotalLimit = (int) (totalLimit * totalLimitFactor);
-            _indexLimit = (int) (totalLimit * totalLimitFactor / spreadFactor / temporalFactor);
+            // (int) double.PositiveInfinity becomes negative (-2147483648).
+            _indexLimit = Math.Max(int.MaxValue, (int) (totalLimit * totalLimitFactor / spreadFactor / temporalFactor));
             _indexTickSpan = (long) Math.Ceiling(_tickSpan / (double) temporalFactor);
 
             _buffer = new int[temporalFactor + 1];
@@ -118,25 +119,27 @@ namespace MingweiSamuel.Camille.Util
         /// Gets the delay till next available token, or -1 if available.
         /// </summary>
         /// <returns>Delay in ticks, or -1 if available.</returns>
-        [MethodImpl(MethodImplOptions.Synchronized)]
         public long GetDelay()
         {
-            var index = Update();
-            if (_total < _adjustedTotalLimit)
+            lock (this)
             {
-                if (_buffer[index] >= _indexLimit)
-                    return GetTimeToBucket(1);
-                return -1;
-            }
+                var index = Update();
+                if (_total < _adjustedTotalLimit)
+                {
+                    if (_buffer[index] >= _indexLimit)
+                        return GetTimeToBucket(1);
+                    return -1;
+                }
 
-            // Check how soon into the future old buckets will be zeroed, making requests available.
-            var i = 1;
-            for (; i < _buffer.Length; i++)
-            {
-                if (_buffer[(index + i) % _buffer.Length] > 0)
-                    break;
+                // Check how soon into the future old buckets will be zeroed, making requests available.
+                var i = 1;
+                for (; i < _buffer.Length; i++)
+                {
+                    if (_buffer[(index + i) % _buffer.Length] > 0)
+                        break;
+                }
+                return GetTimeToBucket(i);
             }
-            return GetTimeToBucket(i);
         }
 
 
@@ -144,38 +147,40 @@ namespace MingweiSamuel.Camille.Util
         /// Updates the circular buffer and TickStamp to match the passage of time.
         /// </summary>
         /// <returns>The current buffer index.</returns>
-        [MethodImpl(MethodImplOptions.Synchronized)]
         private int Update()
         {
-            // The first time this is called, we initialize the time.
-            if (_tickStamp < 0)
+            lock (this)
             {
-                _tickStamp = _tickSupplier.Invoke();
-                return GetIndex(_tickStamp);
-            }
-            var index = GetIndex(_tickStamp);
-            var length = GetLength(_tickStamp, (_tickStamp = _tickSupplier.Invoke()));
+                // The first time this is called, we initialize the time.
+                if (_tickStamp < 0)
+                {
+                    _tickStamp = _tickSupplier.Invoke();
+                    return GetIndex(_tickStamp);
+                }
+                var index = GetIndex(_tickStamp);
+                var length = GetLength(_tickStamp, (_tickStamp = _tickSupplier.Invoke()));
 
-            if (length < 0)
-                throw new InvalidOperationException($"Length should be non-negative: {length}.");
-            if (length == 0)
-                return index;
-            if (length >= _buffer.Length)
-            {
-                Array.Clear(_buffer, 0, _buffer.Length);
-                _total = 0;
+                if (length < 0)
+                    throw new InvalidOperationException($"Length should be non-negative: {length}.");
+                if (length == 0)
+                    return index;
+                if (length >= _buffer.Length)
+                {
+                    Array.Clear(_buffer, 0, _buffer.Length);
+                    _total = 0;
+                    return index;
+                }
+                for (var i = 0; i < length; i++)
+                {
+                    index++;
+                    index %= _buffer.Length;
+                    _total -= _buffer[index];
+                    _buffer[index] = 0;
+                }
+                if (GetIndex(_tickStamp) != index)
+                    throw new InvalidOperationException($"Get index time: {GetIndex(_tickStamp)}, index: {index}.");
                 return index;
             }
-            for (var i = 0; i < length; i++)
-            {
-                index++;
-                index %= _buffer.Length;
-                _total -= _buffer[index];
-                _buffer[index] = 0;
-            }
-            if (GetIndex(_tickStamp) != index)
-                throw new InvalidOperationException($"Get index time: {GetIndex(_tickStamp)}, index: {index}.");
-            return index;
         }
 
         /// <summary>
@@ -183,13 +188,15 @@ namespace MingweiSamuel.Camille.Util
         /// </summary>
         /// <param name="n">Number of tokens to get.</param>
         /// <returns>True if the tokens were obtained without violating limits, false otherwise.</returns>
-        [MethodImpl(MethodImplOptions.Synchronized)]
         public bool GetTokens(int n)
         {
-            int index = Update();
-            _buffer[index] += n;
-            _total += n;
-            return _total <= _adjustedTotalLimit && _buffer[index] <= _indexLimit;
+            lock (this)
+            {
+                var index = Update();
+                _buffer[index] += n;
+                _total += n;
+                return _total <= _adjustedTotalLimit && _buffer[index] <= _indexLimit;
+            }
         }
 
         public long GetTickSpan()

@@ -2,7 +2,7 @@
 <#@ assembly name="System.Core" #>
 <#@ assembly name="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" #>
 <#@ assembly name="Microsoft.CSharp" #>
-<#@ assembly name="$(SolutionDir)Camille\gen\Chsword.JDynamic.dll" #>
+<#@ assembly name="$(ProjectDir)gen\Chsword.JDynamic.dll" #>
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Text" #>
 <#@ import namespace="System.Collections.Generic" #>
@@ -104,7 +104,8 @@ namespace MingweiSamuel.Camille
             dynamic[] allParams = GetDynamicMember(get, "parameters");
             if (null != allParams && allParams.Length > 0)
             {
-                var pathParams = allParams.Where(p => "path" == GetDynamicMember(p, "in")).ToList();
+                var pathParams = allParams.Where(p => "path" == GetDynamicMember(p, "in"))
+                    .OrderBy(p => route.IndexOf(p.name)).ToList();
                 var reqParams = allParams.Where(p => "path" != GetDynamicMember(p, "in") && p.required).ToList();
                 var optParams = allParams.Where(p => "path" != GetDynamicMember(p, "in") && !p.required).ToList();
                 foreach (var paramList in new[] {pathParams, reqParams, optParams})
@@ -192,7 +193,7 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
         if (desc != null)
             WriteLine("    /// " + desc);
 #>
-    public struct <#= schemaName #>
+    public class <#= schemaName #>
     {
         public <#= schemaName #>(<#= string.Join(",\r\n                ", props.Select(kv => GetJsonProperty(kv.Key) + ' ' +
             StringifyType(kv.Value) + ' ' + NormalizeArgName(kv.Key))) #>) {
@@ -219,6 +220,11 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
 <#
         }
 #>
+
+        public override string ToString()
+        {
+            return $"{{ <#= string.Join(", ", props.Select(kv => NormalizePropName(kv.Key, schemaName, kv.Value)).Select(n => $"{n}: {{{n}}}")) #> }}";
+        }
     }
 }
 
@@ -226,4 +232,4 @@ namespace MingweiSamuel.Camille.<#= NormalizeEndpointName(endpoint) #>
     }
 #>
 #endregion
-<#@ include file="./Utils.t4" #>
+<#@ include file="$(ProjectDir)\gen\Utils.t4" #>

@@ -22,7 +22,7 @@ namespace MingweiSamuel.Camille
         /// <returns>RiotApi instance using supllied apiKey.</returns>
         public static RiotApi NewInstance(string apiKey)
         {
-            return NewInstance(new RiotApiConfig.Builder().Build());
+            return NewInstance(new RiotApiConfig.Builder(apiKey).Build());
         }
 
         /// <summary>

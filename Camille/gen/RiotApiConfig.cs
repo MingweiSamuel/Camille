@@ -56,7 +56,7 @@
         public class Builder
         {
             /// <summary>Riot Games API key.</summary>
-            public string ApiKey = default(string);
+            public string ApiKey;
 
             /// <summary>Maximum number of concurrent requests allowed.</summary>
             public int MaxConcurrentRequests = 1000;
@@ -73,8 +73,10 @@
             /// <summary>Factory for creating temporal buckets.</summary>
             public Util.TokenBucketFactory TokenBucketFactory = (timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new Util.CircularBufferTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor* overheadFactor);
 
-            public Builder()
-            {}
+            public Builder(string apiKey)
+            {
+                ApiKey = apiKey;
+            }
 
             public RiotApiConfig Build()
             {

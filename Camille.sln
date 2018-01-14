@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille", "Camille\Camille.csproj", "{544580A1-73F0-492C-80DE-F1727BE099A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille", "Camille\Camille.csproj", "{544580A1-73F0-492C-80DE-F1727BE099A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille.Test", "Camille.Test\Camille.Test.csproj", "{8A60F139-66B8-46F2-8933-DBE9C80C657F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{544580A1-73F0-492C-80DE-F1727BE099A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544580A1-73F0-492C-80DE-F1727BE099A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544580A1-73F0-492C-80DE-F1727BE099A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A60F139-66B8-46F2-8933-DBE9C80C657F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A60F139-66B8-46F2-8933-DBE9C80C657F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A60F139-66B8-46F2-8933-DBE9C80C657F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A60F139-66B8-46F2-8933-DBE9C80C657F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A22938CF-A9E4-423B-84E6-0F0939DBE423}
 	EndGlobalSection
 EndGlobal

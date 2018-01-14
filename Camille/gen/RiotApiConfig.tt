@@ -2,7 +2,7 @@
 <#@ assembly name="System.Core" #>
 <#@ assembly name="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" #>
 <#@ assembly name="Microsoft.CSharp" #>
-<#@ assembly name="$(SolutionDir)Camille\gen\Chsword.JDynamic.dll" #>
+<#@ assembly name="$(ProjectDir)gen\Chsword.JDynamic.dll" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ import namespace="System.IO" #>
 <#@ import namespace="System.Linq" #>
@@ -62,13 +62,23 @@ namespace MingweiSamuel.Camille
     {
 #>
             /// <summary><#= kv.Value.desc #></summary>
-            public <#= kv.Value.type #> <#= Capitalize(kv.Key) #> = <#= GetDynamicMember(kv.Value, "val") ?? $"default({kv.Value.type})" #>;
+            public <#= kv.Value.type #> <#= Capitalize(kv.Key) #><#= null != GetDynamicMember(kv.Value, "val") ? " = " + GetDynamicMember(kv.Value, "val") : "" #>;
 
 <#
     }
+    var constructorArgs = dict.Where(kv => null == GetDynamicMember(kv.Value, "val")).ToList();
 #>
-            public Builder()
-            {}
+            public Builder(<#= string.Join(", ", constructorArgs.Select(kv => $"{kv.Value.type} {kv.Key}")) #>)
+            {
+<#
+    foreach (var kv in constructorArgs)
+    {
+#>
+                <#= Capitalize(kv.Key) #> = <#= kv.Key #>;
+<#
+    }
+#>
+            }
 
             public RiotApiConfig Build()
             {
@@ -77,4 +87,4 @@ namespace MingweiSamuel.Camille
         }
     }
 }
-<#@ include file="./Utils.t4" #>
+<#@ include file="$(ProjectDir)\gen\Utils.t4" #>
