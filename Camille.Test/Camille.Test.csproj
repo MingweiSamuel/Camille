@@ -52,6 +52,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiMatchListTest.cs" />
     <Compile Include="ApiLeagueTest.cs" />
     <Compile Include="ApiGameTest.cs" />
     <Compile Include="ApiChampionTest.cs" />

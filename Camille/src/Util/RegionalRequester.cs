@@ -74,7 +74,7 @@ namespace MingweiSamuel.Camille.Util
                 using (var content = new FormUrlEncodedContent(queryParams))
                     query = content.ReadAsStringAsync().Result;
 
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.Platform}{RiotRootUrl}{relativeUrl}{query}");
+                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.Platform}{RiotRootUrl}{relativeUrl}?{query}");
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
 
                 // Receive response.
@@ -92,7 +92,7 @@ namespace MingweiSamuel.Camille.Util
                 break;
             }
             throw new RiotResponseException(
-                $"Request failed after {retries} retries. ({response?.StatusCode ?? 0}).", response);
+                $"Request failed after {retries} retries. ({(int) (response?.StatusCode ?? 0)}).", response);
         }
 
         private IRateLimit GetMethodRateLimit(string methodId)

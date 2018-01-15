@@ -18,8 +18,15 @@ namespace Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.Match.GetMatchlist(Region.NA, 78247, queue: new [] { 420 },
-                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new [] { (int) ChampionId.Kalista }));
+            CheckGetQuery(Api.Match.GetMatchlist(Region.NA, 78247, queue: new[] {420},
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
+        }
+
+        [TestMethod]
+        public async Task GetQueryAsync()
+        {
+            CheckGetQuery(await Api.Match.GetMatchlistAsync(Region.NA, 78247, queue: new[] {420},
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
         }
 
         public static void CheckGetQuery(Matchlist matchlist)
