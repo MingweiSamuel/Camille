@@ -3,6 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
+    <PackageId>MingweiSamuel.Camille</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>MingweiSamuel</Authors>
+    <Company>MingweiSamuel</Company>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</PackageLicenseUrl>
+    <Copyright>GPLv2 2018</Copyright>
+    <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
+    <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.1.1/img/champion/Camille.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Description>
+    <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
+    <PackageReleaseNotes>Initial test release.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
