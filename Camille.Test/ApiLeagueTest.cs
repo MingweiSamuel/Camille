@@ -1,10 +1,9 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MingweiSamuel.Camille.Champion;
 using MingweiSamuel.Camille.Enums;
 using MingweiSamuel.Camille.League;
-using MingweiSamuel.Camille.Match;
 
 namespace Camille.Test
 {
@@ -40,6 +39,36 @@ namespace Camille.Test
                 Assert.IsTrue(entry.PlayerOrTeamName.ToUpperInvariant().Contains("SNEAKY"));
             }
             Console.WriteLine("Failed to find queue " + Queue.RANKED_SOLO_5x5 + ", Sneaky unranked.");
+        }
+
+        [TestMethod]
+        public void GetTop()
+        {
+            CheckGetTop(Api.League.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
+                Api.League.GetMasterLeague(Region.NA, Queue.RANKED_SOLO_5x5));
+        }
+
+        [TestMethod]
+        public async Task GetTopAsync()
+        {
+            var challengerTask = Api.League.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
+            var masterTask = Api.League.GetMasterLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
+            CheckGetTop(await challengerTask, await masterTask);
+        }
+
+        public static void CheckGetTop(LeagueList challenger, LeagueList master)
+        {
+            Assert.AreEqual(Tier.Challenger, challenger.Tier);
+            Assert.AreEqual("Dr. Mundo's Scouts", challenger.Name); // lol
+            Assert.AreEqual(200, challenger.Entries.Length);
+            var challengerLp = challenger.Entries.Average(e => e.LeaguePoints);
+
+            Assert.AreEqual(Tier.Master, master.Tier);
+            Assert.AreEqual("Renekton's Shadows", master.Name);
+            var masterLp = master.Entries.Average(e => e.LeaguePoints);
+
+            Assert.IsTrue(masterLp < challengerLp,
+                $"Expect average master LP to be less than challenger LP: {masterLp} < {challengerLp}.");
         }
     }
 }

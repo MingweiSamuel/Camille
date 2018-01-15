@@ -318,10 +318,10 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
-        public LolStaticData.ChampionList GetChampionList(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
+        public LolStaticData.ChampionList GetChampionList(Region region, bool? dataById = null, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById), true);
+                region, MakeParams(nameof(dataById), dataById, nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -338,10 +338,10 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         /// <param name="dataById">If specified as true, the returned data map will use the champions' IDs as the keys. If not specified or specified as false, the returned data map will use the champions' keys instead. (optional)></param>
-        public Task<LolStaticData.ChampionList> GetChampionListAsync(Region region, string locale = null, string version = null, string[] tags = null, bool? dataById = null)
+        public Task<LolStaticData.ChampionList> GetChampionListAsync(Region region, bool? dataById = null, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.ChampionList>("lol-static-data-v3.getChampionList", $"/lol/static-data/v3/champions",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags, nameof(dataById), dataById), true);
+                region, MakeParams(nameof(dataById), dataById, nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -358,10 +358,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.Champion GetChampionById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.Champion GetChampionById(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -378,10 +378,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, key, name, and title are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.Champion> GetChampionByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.Champion> GetChampionByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.Champion>("lol-static-data-v3.getChampionById", $"/lol/static-data/v3/champions/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -397,10 +397,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.ItemList GetItemList(Region region, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.ItemList GetItemList(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -416,10 +416,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, plaintext, and group are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.ItemList> GetItemListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.ItemList> GetItemListAsync(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.ItemList>("lol-static-data-v3.getItemList", $"/lol/static-data/v3/items",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -575,10 +575,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.MasteryList GetMasteryList(Region region, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.MasteryList GetMasteryList(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -594,10 +594,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.MasteryList> GetMasteryListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.MasteryList> GetMasteryListAsync(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.MasteryList>("lol-static-data-v3.getMasteryList", $"/lol/static-data/v3/masteries",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -614,10 +614,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.Mastery GetMasteryById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.Mastery GetMasteryById(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -634,10 +634,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, name, and description are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.Mastery> GetMasteryByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.Mastery> GetMasteryByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.Mastery>("lol-static-data-v3.getMasteryById", $"/lol/static-data/v3/masteries/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -713,10 +713,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.RuneList GetRuneList(Region region, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.RuneList GetRuneList(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -732,10 +732,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.RuneList> GetRuneListAsync(Region region, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.RuneList> GetRuneListAsync(Region region, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.RuneList>("lol-static-data-v3.getRuneList", $"/lol/static-data/v3/runes",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -752,10 +752,10 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
-        public LolStaticData.Rune GetRuneById(Region region, int id, string[] tags = null, string locale = null, string version = null)
+        public LolStaticData.Rune GetRuneById(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
-                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -772,10 +772,10 @@ namespace MingweiSamuel.Camille
         /// <param name="tags">Tags to return additional data. Only id, name, description, and rune are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
-        public Task<LolStaticData.Rune> GetRuneByIdAsync(Region region, int id, string[] tags = null, string locale = null, string version = null)
+        public Task<LolStaticData.Rune> GetRuneByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.Rune>("lol-static-data-v3.getRuneById", $"/lol/static-data/v3/runes/{id}",
-                region, MakeParams(nameof(tags), tags, nameof(locale), locale, nameof(version), version), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -792,10 +792,10 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="dataById">If specified as true, the returned data map will use the spells' IDs as the keys. If not specified or specified as false, the returned data map will use the spells' keys instead. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.SummonerSpellList GetSummonerSpellList(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
+        public LolStaticData.SummonerSpellList GetSummonerSpellList(Region region, bool? dataById = null, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags), true);
+                region, MakeParams(nameof(dataById), dataById, nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -812,10 +812,10 @@ namespace MingweiSamuel.Camille
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="dataById">If specified as true, the returned data map will use the spells' IDs as the keys. If not specified or specified as false, the returned data map will use the spells' keys instead. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only type, version, data, id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.SummonerSpellList> GetSummonerSpellListAsync(Region region, string locale = null, string version = null, bool? dataById = null, string[] tags = null)
+        public Task<LolStaticData.SummonerSpellList> GetSummonerSpellListAsync(Region region, bool? dataById = null, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.SummonerSpellList>("lol-static-data-v3.getSummonerSpellList", $"/lol/static-data/v3/summoner-spells",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(dataById), dataById, nameof(tags), tags), true);
+                region, MakeParams(nameof(dataById), dataById, nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -832,10 +832,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public LolStaticData.SummonerSpell GetSummonerSpellById(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public LolStaticData.SummonerSpell GetSummonerSpellById(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.Get<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -852,10 +852,10 @@ namespace MingweiSamuel.Camille
         /// <param name="locale">Locale code for returned data (e.g., en_US, es_ES). If not specified, the default locale for the region is used. (optional)></param>
         /// <param name="version">Patch version for returned data. If not specified, the latest version for the region is used. List of valid versions can be obtained from the /versions endpoint. (optional)></param>
         /// <param name="tags">Tags to return additional data. Only id, key, name, description, and summonerLevel are returned by default if this parameter isn't specified. To return all additional data, use the tag 'all'. (optional)></param>
-        public Task<LolStaticData.SummonerSpell> GetSummonerSpellByIdAsync(Region region, int id, string locale = null, string version = null, string[] tags = null)
+        public Task<LolStaticData.SummonerSpell> GetSummonerSpellByIdAsync(Region region, int id, string locale = null, string[] tags = null, string version = null)
         {
             return RiotApi.GetAsync<LolStaticData.SummonerSpell>("lol-static-data-v3.getSummonerSpellById", $"/lol/static-data/v3/summoner-spells/{id}",
-                region, MakeParams(nameof(locale), locale, nameof(version), version, nameof(tags), tags), true);
+                region, MakeParams(nameof(locale), locale, nameof(tags), tags, nameof(version), version), true);
         }
 
         /// <summary>
@@ -1028,10 +1028,10 @@ namespace MingweiSamuel.Camille
         /// <param name="season">Set of season IDs for which to filtering matchlist. (optional)></param>
         /// <param name="champion">Set of champion IDs for which to filtering matchlist. (optional)></param>
         /// <param name="endIndex">The end index to use for filtering matchlist. If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
-        public Match.Matchlist GetMatchlist(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
+        public Match.Matchlist GetMatchlist(Region region, long accountId, int[] champion = null, int? beginIndex = null, int? endIndex = null, int[] queue = null, int[] season = null, long? beginTime = null, long? endTime = null)
         {
             return RiotApi.Get<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
-                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex), false);
+                region, MakeParams(nameof(champion), champion, nameof(beginIndex), beginIndex, nameof(endIndex), endIndex, nameof(queue), queue, nameof(season), season, nameof(beginTime), beginTime, nameof(endTime), endTime), false);
         }
 
         /// <summary>
@@ -1054,10 +1054,10 @@ namespace MingweiSamuel.Camille
         /// <param name="season">Set of season IDs for which to filtering matchlist. (optional)></param>
         /// <param name="champion">Set of champion IDs for which to filtering matchlist. (optional)></param>
         /// <param name="endIndex">The end index to use for filtering matchlist. If beginIndex is specified, but not endIndex, then endIndex defaults to beginIndex+100. If endIndex is specified, but not beginIndex, then beginIndex defaults to 0. If both are specified, then endIndex must be greater than beginIndex. The maximum range allowed is 100, otherwise a 400 error code is returned. (optional)></param>
-        public Task<Match.Matchlist> GetMatchlistAsync(Region region, long accountId, int[] queue = null, long? endTime = null, int? beginIndex = null, long? beginTime = null, int[] season = null, int[] champion = null, int? endIndex = null)
+        public Task<Match.Matchlist> GetMatchlistAsync(Region region, long accountId, int[] champion = null, int? beginIndex = null, int? endIndex = null, int[] queue = null, int[] season = null, long? beginTime = null, long? endTime = null)
         {
             return RiotApi.GetAsync<Match.Matchlist>("match-v3.getMatchlist", $"/lol/match/v3/matchlists/by-account/{accountId}",
-                region, MakeParams(nameof(queue), queue, nameof(endTime), endTime, nameof(beginIndex), beginIndex, nameof(beginTime), beginTime, nameof(season), season, nameof(champion), champion, nameof(endIndex), endIndex), false);
+                region, MakeParams(nameof(champion), champion, nameof(beginIndex), beginIndex, nameof(endIndex), endIndex, nameof(queue), queue, nameof(season), season, nameof(beginTime), beginTime, nameof(endTime), endTime), false);
         }
 
         /// <summary>

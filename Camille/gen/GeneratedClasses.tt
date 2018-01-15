@@ -107,7 +107,13 @@ namespace MingweiSamuel.Camille
                 var pathParams = allParams.Where(p => "path" == GetDynamicMember(p, "in"))
                     .OrderBy(p => route.IndexOf(p.name)).ToList();
                 var reqParams = allParams.Where(p => "path" != GetDynamicMember(p, "in") && p.required).ToList();
-                var optParams = allParams.Where(p => "path" != GetDynamicMember(p, "in") && !p.required).ToList();
+                var optParams = allParams.Where(p => "path" != GetDynamicMember(p, "in") && !p.required)
+                    .OrderBy(p =>
+                        string.Join("", Regex.Matches((string) p.name, "(^[a-z]+|[A-Z]+(?![a-z])|[A-Z][a-z]+)")
+                            .OfType<Match>()
+                            .Select(m => m.Value)
+                            .Reverse())
+                    ).ToList();
                 foreach (var paramList in new[] {pathParams, reqParams, optParams})
                 {
                     var required = ReferenceEquals(paramList, pathParams);

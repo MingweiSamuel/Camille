@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Champion;
 using MingweiSamuel.Camille.Enums;
+using MingweiSamuel.Camille.League;
 using MingweiSamuel.Camille.Match;
 
 namespace Camille.Test
