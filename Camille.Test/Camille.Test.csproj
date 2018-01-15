@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiMatchListTest.cs" />
+    <Compile Include="ApiMatchTest.cs" />
     <Compile Include="ApiLeagueTest.cs" />
     <Compile Include="ApiGameTest.cs" />
     <Compile Include="ApiChampionTest.cs" />

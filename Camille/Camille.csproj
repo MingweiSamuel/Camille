@@ -4,7 +4,7 @@
     <TargetFramework>netstandard1.1</TargetFramework>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</PackageLicenseUrl>
@@ -15,10 +15,9 @@
     <RepositoryType>git</RepositoryType>
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Description>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
-    <PackageReleaseNotes>Initial test release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Second test release, working.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>

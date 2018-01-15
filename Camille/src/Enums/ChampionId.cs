@@ -64,7 +64,7 @@
         public const int Kindred = 203;
         public const int Kled = 240;
         public const int KogMaw = 96;
-        public const int Leblanc = 7;
+        public const int LeBlanc = 7;
         public const int LeeSin = 64;
         public const int Leona = 89;
         public const int Lissandra = 127;

@@ -10,7 +10,7 @@ using MingweiSamuel.Camille.Match;
 namespace Camille.Test
 {
     [TestClass]
-    public class ApiMatchListTest : ApiTest
+    public class ApiMatchlistTest : ApiTest
     {
         public const long MillisPerWeek = 7 * TimeSpan.TicksPerDay / TimeSpan.TicksPerMillisecond;
         public const long QueryTime = 1484292409447L;
@@ -43,6 +43,36 @@ namespace Camille.Test
             {
                 Assert.IsNotNull(matchlist.Matches[i]);
                 Assert.AreEqual(expected[i], matchlist.Matches[i].GameId);
+            }
+        }
+
+        [TestMethod]
+        public void GetRecent()
+        {
+            CheckGetRecent(Api.Match.GetRecentMatchlist(Region.NA, 78247));
+        }
+
+        [TestMethod]
+        public async Task GetRecentAsync()
+        {
+            CheckGetRecent(await Api.Match.GetRecentMatchlistAsync(Region.NA, 78247));
+        }
+
+        public static void CheckGetRecent(Matchlist matchlist)
+        {
+            Assert.IsNotNull(matchlist);
+            Assert.IsNotNull(matchlist.Matches);
+            //assertEquals(matchlist.totalGames, matchlist.matches.size());
+
+            const long after = 1494737245688L;
+            var timestamp = long.MaxValue;
+            foreach (var match in matchlist.Matches)
+            {
+                Assert.IsNotNull(match);
+                Assert.IsTrue(match.Timestamp >= after);
+                // check descending
+                Assert.IsTrue(match.Timestamp < timestamp);
+                timestamp = match.Timestamp;
             }
         }
     }
