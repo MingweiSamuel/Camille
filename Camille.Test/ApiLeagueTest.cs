@@ -43,6 +43,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
+        [Ignore("Season Reset")]
         public void GetTop()
         {
             CheckGetTop(Api.League.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
@@ -50,6 +51,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
+        [Ignore("Season Reset")]
         public async Task GetTopAsync()
         {
             var challengerTask = Api.League.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
