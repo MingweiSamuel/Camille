@@ -25,6 +25,8 @@ namespace MingweiSamuel.Camille
                     if (v is IEnumerable)
                         return ((IEnumerable) v).Cast<object>()
                             .Select(w => new KeyValuePair<string, string>(k, w.ToString()));
+                    if (v is bool)
+                        v = v.ToString().ToLowerInvariant();
                     return new[] {new KeyValuePair<string, string>(k, v.ToString())};
                 })
                 .ToArray();
