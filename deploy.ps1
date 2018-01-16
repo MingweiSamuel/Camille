@@ -6,6 +6,7 @@ Push-Location .\Camille
 
  Write-Host "version: $NEW_VERSION"
 
- dotnet msbuild /t:pack /p:Configuration=Release /p:Platform=AnyCPU /p:Version="$NEW_VERSION" /p:AssemblyName=Camille
+ dotnet msbuild /t:build /p:Configuration=Release
+ dotnet msbuild /t:pack /p:Configuration=Release /p:Version="$NEW_VERSION" /p:PackageReleaseNotes="Nightly Release"
 
  Pop-Location
