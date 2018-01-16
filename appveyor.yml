@@ -5,9 +5,16 @@ environment:
 before_build:
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
-after_test:
-  - cmd: echo %APPVEYOR_REPO_COMMIT%
-  - ps: echo $ENV:APPVEYOR_REPO_COMMIT
+after_build:
   - ps: .\deploy.ps1
-#- nuget pack AppVeyor.Tools.SecureFile\secure-file.nuspec -Version %appveyor_build_version%
-#- appveyor PushArtifact secure-file.%appveyor_build_version%.nupkg
+artifacts:
+  - path: '**\*-nightly-*.nupkg'
+    name: nightly
+deploy:
+  provider: NuGet
+#  server: # remove to push to NuGet.org
+  api_key:
+    secure: pQn8nvprYgKNFytgH1LhrUyfuO6meVoLfbbhZYFE1neGwC7Vqesr65TwHQSYGI/o
+  skip_symbols: false
+#  symbol_server:           # remove to push symbols to SymbolSource.org
+  artifact: nightly #/.*\*-nightly-*.nupkg/
