@@ -5,7 +5,7 @@ environment:
 before_build:
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
-on_success:
+after_test:
   - cmd: echo %APPVEYOR_REPO_COMMIT%
   - ps: echo $ENV:APPVEYOR_REPO_COMMIT
   - ps: .\deploy.ps1

@@ -9,4 +9,7 @@ Push-Location .\Camille
  dotnet msbuild /t:build /p:Configuration=Release
  dotnet msbuild /t:pack /p:Configuration=Release /p:Version="$NEW_VERSION" /p:PackageReleaseNotes="Nightly Release"
 
+ # publish
+ Get-ChildItem .\bin\Release\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+
  Pop-Location
