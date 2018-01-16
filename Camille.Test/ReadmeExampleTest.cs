@@ -8,6 +8,7 @@ namespace Camille.Test
     public class ReadmeExampleTest : ApiTest
     {
         [TestMethod]
+        [Ignore("Static Data")]
         public void SummonerChampionMasteryTest()
         {
             // Use existing instance for test.
