@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0" DefaultTargets="Build" Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
-    <Version>1.0.0-rc1</Version>
+    <Version>1.0.0-rc2appveyor</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</PackageLicenseUrl>
@@ -15,7 +15,7 @@
     <RepositoryType>git</RepositoryType>
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Description>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
-    <PackageReleaseNotes>RC1</PackageReleaseNotes>
+    <PackageReleaseNotes></PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>

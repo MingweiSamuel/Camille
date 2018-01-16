@@ -5,4 +5,9 @@ environment:
 before_build:
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
-
+on_success:
+  - cmd: echo %APPVEYOR_REPO_COMMIT%
+  - ps: echo $ENV:APPVEYOR_REPO_COMMIT
+  - ps: .\deploy.ps1
+#- nuget pack AppVeyor.Tools.SecureFile\secure-file.nuspec -Version %appveyor_build_version%
+#- appveyor PushArtifact secure-file.%appveyor_build_version%.nupkg

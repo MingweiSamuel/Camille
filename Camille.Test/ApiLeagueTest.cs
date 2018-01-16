@@ -37,6 +37,7 @@ namespace Camille.Test
                     entry.Tier);
                 Assert.AreEqual("51405", entry.PlayerOrTeamId);
                 Assert.IsTrue(entry.PlayerOrTeamName.ToUpperInvariant().Contains("SNEAKY"));
+                return;
             }
             Console.WriteLine("Failed to find queue " + Queue.RANKED_SOLO_5x5 + ", Sneaky unranked.");
         }
