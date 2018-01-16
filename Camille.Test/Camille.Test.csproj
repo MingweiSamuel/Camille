@@ -61,6 +61,7 @@
     <Compile Include="ApiTest.cs" />
     <Compile Include="ApiChampionMasteryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadmeExampleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

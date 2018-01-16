@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace MingweiSamuel.Camille.Util
 {
-    /// <inheritDoc/>
+    /// <inheritdoc />
     /// <summary>
     /// <p>A circular buffer keeps track of tokens. The value of each buffer index represents the number of requests
     /// sent during that time period and as time passes, old indices are zeroed and the current index advances.The

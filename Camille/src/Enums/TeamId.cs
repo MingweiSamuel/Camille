@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MingweiSamuel.Camille.Enums
+﻿namespace MingweiSamuel.Camille.Enums
 {
     public static class TeamId
     {
