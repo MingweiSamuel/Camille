@@ -55,13 +55,15 @@ namespace MingweiSamuel.Camille.Util
             if (429 == (int) response.StatusCode)
             {
                 // Determine if this RateLimit triggered the 429, and set retryAfter accordingly.
-                var typeNameHeader = response.Headers.GetValues(HeaderXRateLimitType).FirstOrDefault();
+                response.Headers.TryGetValues(HeaderXRateLimitType, out var typeNameHeaderEnumerable);
+                var typeNameHeader = typeNameHeaderEnumerable?.FirstOrDefault();
                 if (typeNameHeader == null)
                     throw new InvalidOperationException(
                         $"429 response did not include {HeaderXRateLimitType}, indicating a failure of the Riot API edge.");
                 if (_rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.OrdinalIgnoreCase))
                 {
-                    var retryAfterHeader = response.Headers.GetValues(HeaderRetryAfter).FirstOrDefault();
+                    response.Headers.TryGetValues(HeaderRetryAfter, out var retryAfterHeaderEnumerable);
+                    var retryAfterHeader = retryAfterHeaderEnumerable?.FirstOrDefault();
                     if (retryAfterHeader == null)
                         throw new InvalidOperationException(
                             $"429 response triggered by {_rateLimitType.TypeName()} missing {HeaderRetryAfter}" +
@@ -75,8 +77,10 @@ namespace MingweiSamuel.Camille.Util
                 }
             }
 
-            var limitHeader = response.Headers.GetValues(_rateLimitType.LimitHeader()).FirstOrDefault();
-            var countHeader = response.Headers.GetValues(_rateLimitType.CountHeader()).FirstOrDefault();
+            response.Headers.TryGetValues(_rateLimitType.LimitHeader(), out var limitHeaderEnumerable);
+            var limitHeader = limitHeaderEnumerable?.FirstOrDefault();
+            response.Headers.TryGetValues(_rateLimitType.CountHeader(), out var countHeaderEnumerable);
+            var countHeader = countHeaderEnumerable?.FirstOrDefault();
             if (!CheckBucketsRequireUpdating(limitHeader, countHeader))
                 return;
             lock(_bucketsLock) {

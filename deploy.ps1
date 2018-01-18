@@ -1,7 +1,7 @@
 Push-Location .\Camille
 
  [xml]$CSPROJ = Get-Content -Path .\Camille.csproj
- $NEW_VERSION = "$($CSPROJ.Project.PropertyGroup.Version)-nightly-$($ENV:APPVEYOR_REPO_COMMIT.subString(0, 10))"
+ $NEW_VERSION = "$($CSPROJ.Project.PropertyGroup.Version)-nightly-$($ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP.subString(0, 10))-$($ENV:APPVEYOR_REPO_COMMIT.subString(0, 10))"
 
  Write-Host "version: $NEW_VERSION"
 

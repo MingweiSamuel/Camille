@@ -6,6 +6,7 @@ before_build:
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
 after_build:
+  - ps: echo $ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP
   - ps: .\deploy.ps1
 artifacts:
   - path: '**\*-nightly-*.nupkg'
