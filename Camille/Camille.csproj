@@ -18,8 +18,13 @@
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <TransformOnBuild>true</TransformOnBuild>
+    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
+    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Clarius.TransformOnBuild" Version="1.21.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
@@ -51,8 +56,10 @@
     </Compile>
   </ItemGroup>
 
-  <Target Name="DownloadSpec" BeforeTargets="Build">
+  <Target Name="DownloadSpec" BeforeTargets="TransformOnBuild">
     <Message Text="Downloading openapi spec." />
     <Exec Command="powershell -Command &quot;Invoke-WebRequest -Uri \&quot;http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json\&quot; -OutFile .\gen\.spec.json&quot;" />
+  </Target>
+  <Target Name="Generate" BeforeTargets="Build" DependsOnTargets="DownloadSpec;TransformOnBuild">
   </Target>
 </Project>

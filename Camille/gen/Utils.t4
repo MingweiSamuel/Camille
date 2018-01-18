@@ -1,8 +1,7 @@
-﻿<#@ template debug="false" hostspecific="true" language="C#" #>
-<#@ assembly name="System.Core" #>
+﻿<#@ assembly name="System.Core" #>
 <#@ assembly name="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" #>
 <#@ assembly name="Microsoft.CSharp" #>
-<#@ assembly name="$(SolutionDir)Camille\gen\Chsword.JDynamic.dll" #>
+<#@ assembly name="gen\Chsword.JDynamic.dll" #>
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ import namespace="System.Runtime.CompilerServices" #>
@@ -10,6 +9,11 @@
 <#@ import namespace="Chsword" #>
 <#@ import namespace="Microsoft.CSharp.RuntimeBinder" #>
 <#+
+    public static string GetTimestamp()
+    {
+        return DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss \"GMT\"zzz");
+    }
+
     public static string StringifyType(dynamic prop, string endpoint = null, bool nullable = false)
     {
         var anyOf = GetDynamicMember(prop, "anyOf");

@@ -19,6 +19,7 @@
 // Do not directly edit.
 // http://www.mingweisamuel.com/riotapi-schema/tool/
 // Version <#= spec.info.version #>
+// Generated on <#= GetTimestamp() #>
 
 using System.Collections.Generic;
 using System.Threading.Tasks;

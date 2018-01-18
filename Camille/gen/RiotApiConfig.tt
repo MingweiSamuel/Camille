@@ -14,6 +14,7 @@
     dynamic spec = new JDynamic(File.ReadAllText(Host.ResolvePath("configspec.json")));
     IDictionary<string, dynamic> dict = DynamicToDict(spec);
 #>
+// Generated on <#= GetTimestamp() #>
 namespace MingweiSamuel.Camille
 {
     public interface IRiotApiConfig
