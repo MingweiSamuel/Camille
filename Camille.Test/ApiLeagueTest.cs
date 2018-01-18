@@ -29,8 +29,9 @@ namespace Camille.Test
             {
                 if (!Queue.RANKED_SOLO_5x5.Equals(entry.QueueType))
                     continue;
-                // If he's ranked, Sneaky better be at least Diamond
+                // If he's ranked, Sneaky better be at least -Diamond- Platinum.
                 Assert.IsTrue(
+                    Tier.Platinum == entry.Tier ||
                     Tier.Diamond == entry.Tier ||
                     Tier.Master == entry.Tier ||
                     Tier.Challenger == entry.Tier,
