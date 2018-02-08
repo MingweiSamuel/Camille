@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 
+// ReSharper disable InlineOutVariableDeclaration
 namespace MingweiSamuel.Camille.Util
 {
     public class RateLimit : IRateLimit
@@ -55,14 +56,16 @@ namespace MingweiSamuel.Camille.Util
             if (429 == (int) response.StatusCode)
             {
                 // Determine if this RateLimit triggered the 429, and set retryAfter accordingly.
-                response.Headers.TryGetValues(HeaderXRateLimitType, out var typeNameHeaderEnumerable);
+                IEnumerable<string> typeNameHeaderEnumerable;
+                response.Headers.TryGetValues(HeaderXRateLimitType, out typeNameHeaderEnumerable);
                 var typeNameHeader = typeNameHeaderEnumerable?.FirstOrDefault();
                 if (typeNameHeader == null)
                     throw new InvalidOperationException(
                         $"429 response did not include {HeaderXRateLimitType}, indicating a failure of the Riot API edge.");
                 if (_rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.OrdinalIgnoreCase))
                 {
-                    response.Headers.TryGetValues(HeaderRetryAfter, out var retryAfterHeaderEnumerable);
+                    IEnumerable<string> retryAfterHeaderEnumerable;
+                    response.Headers.TryGetValues(HeaderRetryAfter, out retryAfterHeaderEnumerable);
                     var retryAfterHeader = retryAfterHeaderEnumerable?.FirstOrDefault();
                     if (retryAfterHeader == null)
                         throw new InvalidOperationException(
@@ -77,10 +80,14 @@ namespace MingweiSamuel.Camille.Util
                 }
             }
 
-            response.Headers.TryGetValues(_rateLimitType.LimitHeader(), out var limitHeaderEnumerable);
+            IEnumerable<string> limitHeaderEnumerable;
+            response.Headers.TryGetValues(_rateLimitType.LimitHeader(), out limitHeaderEnumerable);
             var limitHeader = limitHeaderEnumerable?.FirstOrDefault();
-            response.Headers.TryGetValues(_rateLimitType.CountHeader(), out var countHeaderEnumerable);
+
+            IEnumerable<string> countHeaderEnumerable;
+            response.Headers.TryGetValues(_rateLimitType.CountHeader(), out countHeaderEnumerable);
             var countHeader = countHeaderEnumerable?.FirstOrDefault();
+
             if (!CheckBucketsRequireUpdating(limitHeader, countHeader))
                 return;
             lock(_bucketsLock) {

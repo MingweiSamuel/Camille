@@ -1,0 +1,78 @@
+﻿{{
+    const spec = require('./configspec.json');
+    const dotUtils = require('./dotUtils.js');
+}}
+// Generated on {{= (new Date).toISOString() }}
+namespace MingweiSamuel.Camille
+{
+    public interface IRiotApiConfig
+    {
+{{
+    for (let [ key, value ] of Object.entries(spec))
+    {
+}}
+        /// <summary>{{= value.desc }}</summary>
+        {{= value.type }} {{= dotUtils.capitalize(key) }} { get; }
+
+{{
+    }
+}}
+    }
+
+
+    public class RiotApiConfig : IRiotApiConfig
+    {
+{{
+    for (let [ key, value ] of Object.entries(spec))
+    {
+}}
+        /// <summary>{{= value.desc }}</summary>
+        public {{= value.type }} {{= dotUtils.capitalize(key) }} { get; }
+
+{{
+    }
+}}
+        private RiotApiConfig({{= Object.entries(spec).map(([ key, value ]) => `${value.type} ${key}`).join(', ') }})
+        {
+{{
+    for (let [ key, value ] of Object.entries(spec))
+    {
+}}
+            {{= dotUtils.capitalize(key) }} = {{= key }};
+{{
+    }
+}}
+        }
+
+        public class Builder
+        {
+{{
+    for (let [ key, value ] of Object.entries(spec))
+    {
+}}
+            /// <summary>{{= value.desc }}</summary>
+            public {{= value.type }} {{= dotUtils.capitalize(key) }}{{= value.val ? ' = ' + value.val : '' }};
+
+{{
+    }
+    let constructorArgs = Object.entries(spec).filter(([ key, value ]) => !value.val);
+}}
+            public Builder({{= constructorArgs.map(([ key, value ]) => `${value.type} ${key}`) }})
+            {
+{{
+    for (let [ key, value ] of constructorArgs)
+    {
+}}
+                {{= dotUtils.capitalize(key) }} = {{= key }};
+{{
+    }
+}}
+            }
+
+            public RiotApiConfig Build()
+            {
+                return new RiotApiConfig({{= Object.keys(spec).map(dotUtils.capitalize).join(', ') }});
+            }
+        }
+    }
+}

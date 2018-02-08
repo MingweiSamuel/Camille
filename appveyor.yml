@@ -1,8 +1,14 @@
 image: Visual Studio 2017
 environment:
+  nodejs_version: 8
   api_key:
     secure: 5KXvde0TpDl13n+h9W2hdjdVVI/RftroHDDa+YWkyJaZTy8RPvf7Y8bGHl8HjTjG
+install:
+  - ps: Install-Product node $env:nodejs_version
 before_build:
+  - node --version
+  - npm --version
+  - powershell -Command "cd Camille\gen; npm install"
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
 after_build:
