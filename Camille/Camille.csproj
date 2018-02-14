@@ -8,7 +8,7 @@
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</PackageLicenseUrl>
-    <Copyright>GPLv2 2018</Copyright>
+    <Copyright>LGPLv3 2018</Copyright>
     <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
     <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.1.1/img/champion/Camille.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
@@ -32,11 +32,13 @@
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
 
+<!--
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
     <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
       <Version>1.0.8</Version>
     </PackageReference>
   </ItemGroup>
+-->
 
   <Target Name="EchoFramework" BeforeTargets="CoreCompile">
     <Message Text="$(TargetFramework)" />

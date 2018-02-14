@@ -4,11 +4,11 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
 using MingweiSamuel.Camille.Spectator;
-using MingweiSamuel.Camille.Summoner;
 
 namespace Camille.Test
 {
     [TestClass]
+    [Ignore("Unreliable")]
     public class ApiComboFeaturedGamesSummonerCurrentGameTest : ApiTest
     {
         [TestMethod]
