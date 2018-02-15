@@ -7,7 +7,7 @@
     <Version>1.0.1</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
-    <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</PackageLicenseUrl>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
     <Copyright>LGPLv3 2018</Copyright>
     <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
     <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.1.1/img/champion/Camille.png</PackageIconUrl>
@@ -17,11 +17,8 @@
     <Summary>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Summary>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
     <PackageReleaseNotes>Updates with new Region.Get methods</PackageReleaseNotes>
+    <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
-    <TransformOnBuild>true</TransformOnBuild>
-    <OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOutputFiles>
-    <TransformOutOfDateOnly>false</TransformOutOfDateOnly>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
