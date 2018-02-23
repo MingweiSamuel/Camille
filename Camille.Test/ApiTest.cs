@@ -9,7 +9,7 @@ namespace Camille.Test
         (
             new RiotApiConfig.Builder(File.ReadAllText("apikey.txt").Trim())
             {
-                MaxConcurrentRequests = 3,
+                MaxConcurrentRequests = 10,
                 Retries = 10
             }.Build()
         );

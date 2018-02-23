@@ -9,6 +9,7 @@
 // Generated on {{= (new Date).toISOString() }}
 
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using MingweiSamuel.Camille.Enums;
@@ -139,15 +140,16 @@ namespace MingweiSamuel.Camille
                     for (let param of allParams)
                     {
 }}
-        /// <param name="{{= param.name }}">{{= param.description || '' }} ({{= param.required ? 'required' : 'optional' }})></param>
+        /// <param name="{{= param.name }}">{{= param.description || '' }} ({{= param.required ? 'required' : 'optional' }})</param>
 {{
                     }
                 }
 }}
-        public {{= "Async" === asynch ? `Task<${returnType}>` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }})
+        /// <param name="cancellationToken">A cancellation token that can be used to cancel this task.</param>
+        public {{= "Async" === asynch ? `Task<${returnType}>` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }}, CancellationToken? cancellationToken = null)
         {
             return RiotApi.Get{{= asynch }}<{{= returnType }}>("{{= operationId }}", $"{{= route }}",
-                region, MakeParams({{= makeParamCode }}), {{= rateLimitExcluded }});
+                region, MakeParams({{= makeParamCode }}), {{= rateLimitExcluded }}, cancellationToken);
         }
 
 {{

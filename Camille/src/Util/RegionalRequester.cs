@@ -3,6 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
 using Newtonsoft.Json;
@@ -54,9 +55,10 @@ namespace MingweiSamuel.Camille.Util
         /// <param name="region"></param>
         /// <param name="queryParams"></param>
         /// <param name="nonRateLimited">If set to true, the request will not count against the application rate limit.</param>
+        /// <param name="token">CancellationToken to cancel this task.</param>
         /// <returns></returns>
-        public async Task<T> Get<T>(string methodId, string relativeUrl, Region region, KeyValuePair<string, string>[] queryParams,
-            bool nonRateLimited = false)
+        public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
             HttpResponseMessage response = null;
             var retries = 0;
@@ -67,7 +69,7 @@ namespace MingweiSamuel.Camille.Util
                 long delay;
                 var rateLimits = nonRateLimited ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
                 while ((delay = RateLimitUtils.GetOrDelay(rateLimits)) >= 0)
-                    await Task.Delay(TimeSpan.FromTicks(delay));
+                    await (token == null ? Task.Delay(TimeSpan.FromTicks(delay)) : Task.Delay(TimeSpan.FromTicks(delay), token.Value));
 
                 // Send request.
                 string query;
@@ -78,7 +80,7 @@ namespace MingweiSamuel.Camille.Util
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
 
                 // Receive response.
-                response = await _client.SendAsync(request);
+                response = await (token == null ? _client.SendAsync(request) : _client.SendAsync(request, token.Value));
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response);
                 // Success.

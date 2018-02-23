@@ -28,13 +28,15 @@ namespace MingweiSamuel.Camille.Util
             _concurrentRequestSemaphore = new SemaphoreSlim(_config.MaxConcurrentRequests);
         }
 
-        public async Task<T> Get<T>(string methodId, string relativeUrl,
-            Region region, KeyValuePair<string, string>[] queryParams, bool nonRateLimited = false)
+        public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
-            await _concurrentRequestSemaphore.WaitAsync();
+            await (token == null ?
+                _concurrentRequestSemaphore.WaitAsync() :
+                _concurrentRequestSemaphore.WaitAsync(token.Value));
             try
             {
-                return await GetRateLimiter(region).Get<T>(methodId, relativeUrl, region, queryParams, nonRateLimited);
+                return await GetRateLimiter(region).Get<T>(methodId, relativeUrl, region, queryParams, nonRateLimited, token);
             }
             finally
             {

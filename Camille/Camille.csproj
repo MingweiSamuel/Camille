@@ -4,7 +4,7 @@
     <TargetFrameworks>netstandard1.1;net45;netcoreapp1.0;</TargetFrameworks>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
@@ -16,7 +16,7 @@
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Description>
     <Summary>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Summary>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
-    <PackageReleaseNotes>Updates with new Region.Get methods</PackageReleaseNotes>
+    <PackageReleaseNotes>Adding CancellationTokens</PackageReleaseNotes>
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

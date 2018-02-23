@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
 using MingweiSamuel.Camille.Util;
@@ -37,15 +38,15 @@ namespace MingweiSamuel.Camille
 
         #region requests
         internal T Get<T>(string methodId, string url, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited = false)
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
-            return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited).Result;
+            return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited, token).Result;
         }
 
         internal Task<T> GetAsync<T>(string methodId, string url, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited = false)
+            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
-            return _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited);
+            return _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited, token);
         }
         #endregion
     }
