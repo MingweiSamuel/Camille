@@ -46,18 +46,6 @@ namespace Camille.Test
             }
         }
 
-        [TestMethod]
-        public void GetRecent()
-        {
-            CheckGetRecent(Api.Match.GetRecentMatchlist(Region.NA, 78247));
-        }
-
-        [TestMethod]
-        public async Task GetRecentAsync()
-        {
-            CheckGetRecent(await Api.Match.GetRecentMatchlistAsync(Region.NA, 78247));
-        }
-
         public static void CheckGetRecent(Matchlist matchlist)
         {
             Assert.IsNotNull(matchlist);
