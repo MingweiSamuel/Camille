@@ -22,8 +22,10 @@ namespace MingweiSamuel.Camille
                     var v = input[2 * i + 1];
                     if (null == v)
                         return Enumerable.Empty<KeyValuePair<string, string>>();
-                    if (v is IEnumerable)
-                        return ((IEnumerable) v).Cast<object>()
+                    if (v is string str)
+                        return new[] { new KeyValuePair<string, string>(k, str) };
+                    if (v is IEnumerable enumerable)
+                        return enumerable.Cast<object>()
                             .Select(w => new KeyValuePair<string, string>(k, w.ToString()));
                     if (v is bool)
                         v = v.ToString().ToLowerInvariant();
