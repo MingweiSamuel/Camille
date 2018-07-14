@@ -14,9 +14,9 @@ namespace Camille.Test
             // Use existing instance for test.
             var riotApi = Api;
 
-            // Get champion static data (for champion names).
-            // Note the LolStaticData endpoints have very low rate limits (10/hr).
-            var champs = riotApi.LolStaticData.GetChampionList(Region.NA, dataById: true).Data;
+//            // Get champion static data (for champion names).
+//            // Note the LolStaticData endpoints have very low rate limits (10/hr).
+//            var champs = riotApi.LolStaticData.GetChampionList(Region.NA, dataById: true).Data;
 
             // Get summoners by name synchronously. (using async is faster).
             var summoners = new[]
@@ -36,9 +36,9 @@ namespace Camille.Test
                 {
                     var mastery = masteries[i];
                     // Get champion for this mastery.
-                    var champ = champs[mastery.ChampionId.ToString()];
+                    var champ = mastery.ChampionId.ToString(); //champs[mastery.ChampionId.ToString()]);
                     // print i, champ name, champ mastery points, and champ level
-                    Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ.Name,
+                    Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ, //.Name,
                         mastery.ChampionPoints, mastery.ChampionLevel);
                 }
                 Console.WriteLine();
