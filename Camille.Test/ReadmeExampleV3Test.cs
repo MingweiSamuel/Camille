@@ -5,7 +5,7 @@ using MingweiSamuel.Camille.Enums;
 namespace Camille.Test
 {
     [TestClass]
-    public class ReadmeExampleTest : ApiTest
+    public class ReadmeExampleV3Test : ApiTest
     {
         [TestMethod]
         [Ignore("Static Data")]
@@ -21,8 +21,8 @@ namespace Camille.Test
             // Get summoners by name synchronously. (using async is faster).
             var summoners = new[]
             {
-                riotApi.Summoner.GetBySummonerName(Region.NA, "c9 sneaky"),
-                riotApi.Summoner.GetBySummonerName(Region.NA, "double LIFT")
+                riotApi.SummonerV3.GetBySummonerName(Region.NA, "c9 sneaky"),
+                riotApi.SummonerV3.GetBySummonerName(Region.NA, "double LIFT")
             };
 
             foreach (var summoner in summoners)
@@ -30,7 +30,7 @@ namespace Camille.Test
                 Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
                 var masteries =
-                    riotApi.ChampionMastery.GetAllChampionMasteries(Region.NA, summoner.Id);
+                    riotApi.ChampionMasteryV3.GetAllChampionMasteries(Region.NA, summoner.Id);
 
                 for (var i = 0; i < 10; i++)
                 {

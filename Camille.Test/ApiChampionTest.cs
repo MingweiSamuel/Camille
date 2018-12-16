@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MingweiSamuel.Camille.Champion;
+using MingweiSamuel.Camille.ChampionV3;
 using MingweiSamuel.Camille.Enums;
 
 namespace Camille.Test
@@ -9,47 +9,24 @@ namespace Camille.Test
     public class ApiChampionTest : ApiTest
     {
         [TestMethod]
-        public void GetAll()
+        public void GetChampionInfo()
         {
-            CheckGetAll(Api.Champion.GetChampions(Region.NA));
+            CheckGetAll(Api.ChampionV3.GetChampionInfo(Region.NA));
         }
 
         [TestMethod]
-        public async Task GetAllAsync()
+        public async Task GetChampionInfoAsync()
         {
-            CheckGetAll(await Api.Champion.GetChampionsAsync(Region.NA));
+            CheckGetAll(await Api.ChampionV3.GetChampionInfoAsync(Region.NA));
         }
 
-        public static void CheckGetAll(ChampionList result)
+        public static void CheckGetAll(ChampionInfo result)
         {
-            var free = 0;
-            foreach (var champ in result.Champions)
-            {
-                if (champ.Id == ChampionId.Zyra)
-                    CheckGet(champ);
-                if (champ.FreeToPlay)
-                    free++;
-            }
             // We're up to 14 free champions (2017/08).
-            Assert.IsTrue(10 <= free && free <= 20, free.ToString());
-        }
+            Assert.IsTrue(10 <= result.FreeChampionIds.Length);
 
-        [TestMethod]
-        public void Get()
-        {
-            CheckGet(Api.Champion.GetChampionsById(Region.NA, ChampionId.Zyra));
-        }
-
-        [TestMethod]
-        public async Task GetAsync()
-        {
-            CheckGet(await Api.Champion.GetChampionsByIdAsync(Region.NA, ChampionId.Zyra));
-        }
-
-        public static void CheckGet(Champion result)
-        {
-            Assert.AreEqual(143, result.Id);
-            Assert.IsTrue(result.BotEnabled);
+            Assert.IsTrue(0 <= result.FreeChampionIdsForNewPlayers.Length);
+            Assert.IsTrue(0 != result.MaxNewPlayerLevel);
         }
     }
 }

@@ -3,24 +3,24 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.Spectator;
+using MingweiSamuel.Camille.SpectatorV3;
 
 namespace Camille.Test
 {
     [TestClass]
     [Ignore("Unreliable")]
-    public class ApiComboFeaturedGamesSummonerCurrentGameTest : ApiTest
+    public class ApiComboFeaturedGamesSummonerCurrentGameV3Test : ApiTest
     {
         [TestMethod]
         public void Get()
         {
-            var featured = Api.Spectator.GetFeaturedGames(Region.NA);
+            var featured = Api.SpectatorV3.GetFeaturedGames(Region.NA);
             CheckFeatured(featured);
             foreach (var gameInfo in featured.GameList)
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = Api.Summoner.GetBySummonerName(Region.NA, participant.SummonerName);
-                var currentGame = Api.Spectator.GetCurrentGameInfoBySummoner(Region.NA, summoner.Id);
+                var summoner = Api.SummonerV3.GetBySummonerName(Region.NA, participant.SummonerName);
+                var currentGame = Api.SpectatorV3.GetCurrentGameInfoBySummoner(Region.NA, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),
@@ -31,13 +31,13 @@ namespace Camille.Test
         [TestMethod]
         public async Task GetAsync()
         {
-            var featured = await Api.Spectator.GetFeaturedGamesAsync(Region.NA);
+            var featured = await Api.SpectatorV3.GetFeaturedGamesAsync(Region.NA);
             CheckFeatured(featured);
             var tasks = featured.GameList.Select(async gameInfo =>
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = await Api.Summoner.GetBySummonerNameAsync(Region.NA, participant.SummonerName);
-                var currentGame = await Api.Spectator.GetCurrentGameInfoBySummonerAsync(Region.NA, summoner.Id);
+                var summoner = await Api.SummonerV3.GetBySummonerNameAsync(Region.NA, participant.SummonerName);
+                var currentGame = await Api.SpectatorV3.GetCurrentGameInfoBySummonerAsync(Region.NA, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),
@@ -49,13 +49,13 @@ namespace Camille.Test
         [TestMethod]
         public void GetParallel()
         {
-            var featured = Api.Spectator.GetFeaturedGames(Region.NA);
+            var featured = Api.SpectatorV3.GetFeaturedGames(Region.NA);
             CheckFeatured(featured);
             var result = Parallel.ForEach(featured.GameList, gameInfo =>
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = Api.Summoner.GetBySummonerName(Region.NA, participant.SummonerName);
-                var currentGame = Api.Spectator.GetCurrentGameInfoBySummoner(Region.NA, summoner.Id);
+                var summoner = Api.SummonerV3.GetBySummonerName(Region.NA, participant.SummonerName);
+                var currentGame = Api.SpectatorV3.GetCurrentGameInfoBySummoner(Region.NA, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),

@@ -100,7 +100,7 @@ namespace MingweiSamuel.Camille.Enums
         /// <summary>Platform ID in capital letters and digits.</summary>
         public readonly string Platform;
 
-        [Obsolete("Use Region.* static regions or Region.Parse(string) instead.")]
+        [Obsolete("Use Region.* static regions or Region.Get(string) instead.")]
         public Region(string key, string platform)
         {
             Key = key;

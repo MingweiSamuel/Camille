@@ -2,24 +2,24 @@
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.Match;
-using Match = MingweiSamuel.Camille.Match.Match;
+using MingweiSamuel.Camille.MatchV3;
+using Match = MingweiSamuel.Camille.MatchV3.Match;
 
 namespace Camille.Test
 {
     [TestClass]
-    public class ApiMatchTest : ApiTest
+    public class ApiMatchV3Test : ApiTest
     {
         [TestMethod]
         public void Get()
         {
-            CheckGet(Api.Match.GetMatch(Region.NA, 2357244372L));
+            CheckGet(Api.MatchV3.GetMatch(Region.NA, 2357244372L));
         }
         
         [TestMethod]
         public async Task GetAsync()
         {
-            CheckGet(await Api.Match.GetMatchAsync(Region.NA, 2357244372L));
+            CheckGet(await Api.MatchV3.GetMatchAsync(Region.NA, 2357244372L));
         }
         public static void CheckGet(Match match)
         {
@@ -55,13 +55,13 @@ namespace Camille.Test
         [TestMethod]
         public void GetTimeline()
         {
-            CheckGetTimeline(Api.Match.GetMatchTimeline(Region.NA, 2357244372));
+            CheckGetTimeline(Api.MatchV3.GetMatchTimeline(Region.NA, 2357244372));
         }
 
         [TestMethod]
         public async Task GetTimelineAsync()
         {
-            CheckGetTimeline(await Api.Match.GetMatchTimelineAsync(Region.NA, 2357244372));
+            CheckGetTimeline(await Api.MatchV3.GetMatchTimelineAsync(Region.NA, 2357244372));
         }
 
         public static void CheckGetTimeline(MatchTimeline timeline)
@@ -81,13 +81,14 @@ namespace Camille.Test
                 var participantGold = new Dictionary<int, int>();
                 foreach (var participantFrameEntry in frame.ParticipantFrames)
                 {
+                    var key = participantFrameEntry.Value.ParticipantId;
                     Assert.IsNotNull(participantFrameEntry);
-                    Assert.AreEqual((long) participantFrameEntry.Key, participantFrameEntry.Value.ParticipantId);
+                    Assert.AreEqual(participantFrameEntry.Key, key.ToString());
 
                     // Check gold increasing.
-                    participantGold.TryGetValue(participantFrameEntry.Key, out var prevGold);
+                    participantGold.TryGetValue(key, out var prevGold);
                     var currGold = participantFrameEntry.Value.TotalGold;
-                    participantGold[participantFrameEntry.Key] = currGold;
+                    participantGold[key] = currGold;
 
                     Assert.AreNotEqual(0, currGold);
                     if (prevGold != 0)

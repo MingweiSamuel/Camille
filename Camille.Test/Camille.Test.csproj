@@ -52,17 +52,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiChampionMasteryV3Test.cs" />
+    <Compile Include="ApiComboFeaturedGamesSummonerCurrentGameV3Test.cs" />
     <Compile Include="ApiSummonerTest.cs" />
-    <Compile Include="ApiMatchListTest.cs" />
-    <Compile Include="ApiMatchTest.cs" />
-    <Compile Include="ApiLeagueTest.cs" />
+    <Compile Include="ApiMatchListV3Test.cs" />
+    <Compile Include="ApiMatchV3Test.cs" />
+    <Compile Include="ApiLeagueV3Test.cs" />
     <Compile Include="ApiChampionTest.cs" />
-    <Compile Include="ApiComboFeaturedGamesSummonerCurrentGameTest.cs" />
+    <Compile Include="ApiComboFeaturedGamesSummonerCurrentGameV4Test.cs" />
     <Compile Include="ApiTest.cs" />
-    <Compile Include="ApiChampionMasteryTest.cs" />
+    <Compile Include="ApiChampionMasteryV4Test.cs" />
     <Compile Include="ApiCancellationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadmeExampleTest.cs" />
+    <Compile Include="ReadmeExampleV4Test.cs" />
+    <Compile Include="ReadmeExampleV3Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

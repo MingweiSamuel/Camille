@@ -14,7 +14,7 @@ function decapitalize(input) {
 
 function normalizeEndpointName(name) {
   return name.split('-')
-    .slice(0, -1)
+//    .slice(0, -1)
     .map(capitalize)
     .join('');
 }

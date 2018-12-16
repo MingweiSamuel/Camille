@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.League;
-using MingweiSamuel.Camille.Match;
+using MingweiSamuel.Camille.MatchV3;
 
 namespace Camille.Test
 {
@@ -18,14 +15,14 @@ namespace Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.Match.GetMatchlist(Region.NA, 78247, queue: new[] {420},
+            CheckGetQuery(Api.MatchV3.GetMatchlist(Region.NA, 78247, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
-            CheckGetQuery(await Api.Match.GetMatchlistAsync(Region.NA, 78247, queue: new[] {420},
+            CheckGetQuery(await Api.MatchV3.GetMatchlistAsync(Region.NA, 78247, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
         }
 

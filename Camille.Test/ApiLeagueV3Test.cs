@@ -3,23 +3,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.League;
+using MingweiSamuel.Camille.LeagueV3;
 
 namespace Camille.Test
 {
     [TestClass]
-    public class ApiLeagueTest : ApiTest
+    public class ApiLeagueV3Test : ApiTest
     {
         [TestMethod]
+        [Ignore("Preseason")]
         public void Get()
         {
-            CheckGet(Api.League.GetAllLeaguePositionsForSummoner(Region.NA, 51405));
+            CheckGet(Api.LeagueV3.GetAllLeaguePositionsForSummoner(Region.NA, 51405));
         }
 
         [TestMethod]
+        [Ignore("Preseason")]
         public async Task GetAsync()
         {
-            CheckGet(await Api.League.GetAllLeaguePositionsForSummonerAsync(Region.NA, 51405));
+            CheckGet(await Api.LeagueV3.GetAllLeaguePositionsForSummonerAsync(Region.NA, 51405));
         }
 
         public static void CheckGet(LeaguePosition[] result)
@@ -29,7 +31,7 @@ namespace Camille.Test
             {
                 if (!Queue.RANKED_SOLO_5x5.Equals(entry.QueueType))
                     continue;
-                // If he's ranked, Sneaky better be at least -Diamond- Platinum.
+                // If he's ranked, Sneaky better be at least Platinum.
                 Assert.IsTrue(
                     Tier.Platinum == entry.Tier ||
                     Tier.Diamond == entry.Tier ||
@@ -47,16 +49,16 @@ namespace Camille.Test
         [Ignore("Season Reset")]
         public void GetTop()
         {
-            CheckGetTop(Api.League.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
-                Api.League.GetMasterLeague(Region.NA, Queue.RANKED_SOLO_5x5));
+            CheckGetTop(Api.LeagueV3.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
+                Api.LeagueV3.GetMasterLeague(Region.NA, Queue.RANKED_SOLO_5x5));
         }
 
         [TestMethod]
         [Ignore("Season Reset")]
         public async Task GetTopAsync()
         {
-            var challengerTask = Api.League.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
-            var masterTask = Api.League.GetMasterLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
+            var challengerTask = Api.LeagueV3.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
+            var masterTask = Api.LeagueV3.GetMasterLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
             CheckGetTop(await challengerTask, await masterTask);
         }
 

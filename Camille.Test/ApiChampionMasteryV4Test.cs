@@ -1,24 +1,24 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MingweiSamuel.Camille.ChampionMastery;
+using MingweiSamuel.Camille.ChampionMasteryV4;
 using MingweiSamuel.Camille.Enums;
 
 namespace Camille.Test
 {
     [TestClass]
-    public class ApiChampionMasteryTest : ApiTest
+    public class ApiChampionMasteryV4Test : ApiTest
     {
         [TestMethod]
         public async Task GetChampionAsync()
         {
-            CheckGetChampion(await Api.ChampionMastery.GetChampionMasteryAsync(Region.NA, 69009277, ChampionId.Zyra));
+            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, SummonerIdLugnutsK, ChampionId.Zyra));
         }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMastery.GetChampionMastery(Region.NA, 69009277, ChampionId.Zyra));
+            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, SummonerIdLugnutsK, ChampionId.Zyra));
         }
 
         public static void CheckGetChampion(ChampionMastery result)
@@ -31,13 +31,13 @@ namespace Camille.Test
         [TestMethod]
         public void GetChampions()
         {
-            CheckGetChampions(Api.ChampionMastery.GetAllChampionMasteries(Region.NA, 69009277));
+            CheckGetChampions(Api.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, SummonerIdLugnutsK));
         }
 
         [TestMethod]
         public async Task GetChampionsAsync()
         {
-            CheckGetChampions(await Api.ChampionMastery.GetAllChampionMasteriesAsync(Region.NA, 69009277));
+            CheckGetChampions(await Api.ChampionMasteryV4.GetAllChampionMasteriesAsync(Region.NA, SummonerIdLugnutsK));
         }
 
         public static void CheckGetChampions(ChampionMastery[] champData)
@@ -57,13 +57,13 @@ namespace Camille.Test
         public void GetScore()
         {
             // http://www.lolking.net/summoner/euw/20401158/0#champ-mastery
-            CheckGetScore(Api.ChampionMastery.GetChampionMasteryScore(Region.EUW, 20401158));
+            CheckGetScore(Api.ChampionMasteryV4.GetChampionMasteryScore(Region.EUW, SummonerIdMa5tery));
         }
 
         [TestMethod]
         public async Task GetScoreAsync()
         {
-            CheckGetScore(await Api.ChampionMastery.GetChampionMasteryScoreAsync(Region.EUW, 20401158));
+            CheckGetScore(await Api.ChampionMasteryV4.GetChampionMasteryScoreAsync(Region.EUW, SummonerIdMa5tery));
         }
 
         public static void CheckGetScore(int score)
