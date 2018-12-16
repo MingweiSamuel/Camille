@@ -36,8 +36,8 @@ namespace Camille.Test
                 {
                     var mastery = masteries[i];
                     // Get champion for this mastery.
-                    var champ = mastery.ChampionId.ToString(); //champs[mastery.ChampionId.ToString()]);
-                    // print i, champ name, champ mastery points, and champ level
+                    var champ = mastery.ChampionId.ToString();
+                    // print i, champ id, champ mastery points, and champ level
                     Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ, //.Name,
                         mastery.ChampionPoints, mastery.ChampionLevel);
                 }

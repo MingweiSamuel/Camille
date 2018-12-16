@@ -12,6 +12,7 @@ Camille's goals are _speed_ and _reliability_. Camille handles rate limits and l
 * Automatically retries failed requests
 * Highly-configurable
 * Targets .NET Standard 1.1+ (.NET Core 1.0+, .NET Framework 4.5+)
+* Riot API V4 Support
 
 ## Installation
 
@@ -43,15 +44,11 @@ API methods are divided up into respective endpoints, corresponding to the left 
 #### Print Summoner's Top Champions
 
 ```c#
-// Get champion static data (for champion names).
-// Note the LolStaticData endpoints have very low rate limits (10/hr).
-var champs = riotApi.LolStaticData.GetChampionList(Region.NA, dataById: true).Data;
-
 // Get summoners by name synchronously. (using async is faster).
 var summoners = new[]
 {
-    riotApi.Summoner.GetBySummonerName(Region.NA, "c9 sneaky"),
-    riotApi.Summoner.GetBySummonerName(Region.NA, "double LIFT")
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, "c9 sneaky"),
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, "double LIFT")
 };
 
 foreach (var summoner in summoners)
@@ -59,15 +56,15 @@ foreach (var summoner in summoners)
     Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
     var masteries =
-        riotApi.ChampionMastery.GetAllChampionMasteries(Region.NA, summoner.Id);
+        riotApi.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, summoner.Id);
 
     for (var i = 0; i < 10; i++)
     {
         var mastery = masteries[i];
         // Get champion for this mastery.
-        var champ = champs[mastery.ChampionId.ToString()];
-        // print i, champ name, champ mastery points, and champ level
-        Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ.Name,
+        var champ = mastery.ChampionId.ToString();
+        // print i, champ id, champ mastery points, and champ level
+        Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ,
             mastery.ChampionPoints, mastery.ChampionLevel);
     }
     Console.WriteLine();
