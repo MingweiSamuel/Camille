@@ -2,32 +2,42 @@
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.SummonerV3;
+using MingweiSamuel.Camille.SummonerV4;
 
 namespace Camille.Test
 {
     [TestClass]
     public class ApiSummonerTest : ApiTest
     {
-        private const string SummonerName = "thefizz";
 
         [TestMethod]
         public void Get()
         {
-            var summoner = Api.SummonerV3.GetBySummonerName(Region.RU, SummonerName);
-            Console.WriteLine(summoner);
+            CheckGet(Api.SummonerV4.GetBySummonerName(Region.NA, "50550639DEL1"));
         }
 
         [TestMethod]
         public async Task GetAsync()
         {
-            var summoner = await Api.SummonerV3.GetBySummonerNameAsync(Region.RU, SummonerName);
-            Console.WriteLine(summoner);
+            CheckGet(await Api.SummonerV4.GetBySummonerNameAsync(Region.NA, "50550639DEL1"));
         }
 
-        public static void CheckGet(Summoner result)
+        [TestMethod]
+        public void GetUnicode()
         {
-            // TODO
+            CheckGet(Api.SummonerV4.GetBySummonerName(Region.EUW, "相当猥琐"));
+        }
+
+        [TestMethod]
+        public async Task GetUnicodeAsync()
+        {
+            CheckGet(await Api.SummonerV4.GetBySummonerNameAsync(Region.EUW, "相当猥琐"));
+        }
+
+        public static void CheckGet(Summoner summoner)
+        {
+            Console.WriteLine(summoner);
+            Assert.IsNotNull(summoner);
         }
     }
 }
