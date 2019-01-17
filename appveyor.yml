@@ -19,9 +19,8 @@ artifacts:
     name: nightly
 deploy:
   provider: NuGet
-#  server: # remove to push to NuGet.org
   api_key:
-    secure: pQn8nvprYgKNFytgH1LhrUyfuO6meVoLfbbhZYFE1neGwC7Vqesr65TwHQSYGI/o
+    secure: A0rg3A+K7NxQ6022rqGmiuiR/AncTrnk5S2wJ39LzMKHlXie3yxvnudHPZrrqk93
   skip_symbols: false
-#  symbol_server:           # remove to push symbols to SymbolSource.org
   artifact: nightly #/.*\*-nightly-*.nupkg/
+
