@@ -11,14 +11,12 @@ namespace Camille.Test
     public class ApiLeagueV3Test : ApiTest
     {
         [TestMethod]
-        [Ignore("Preseason")]
         public void Get()
         {
             CheckGet(Api.LeagueV3.GetAllLeaguePositionsForSummoner(Region.NA, 51405));
         }
 
         [TestMethod]
-        [Ignore("Preseason")]
         public async Task GetAsync()
         {
             CheckGet(await Api.LeagueV3.GetAllLeaguePositionsForSummonerAsync(Region.NA, 51405));
@@ -36,6 +34,7 @@ namespace Camille.Test
                     Tier.Platinum == entry.Tier ||
                     Tier.Diamond == entry.Tier ||
                     Tier.Master == entry.Tier ||
+                    Tier.Grandmaster == entry.Tier ||
                     Tier.Challenger == entry.Tier,
                     entry.Tier);
                 Assert.AreEqual("51405", entry.PlayerOrTeamId);
@@ -46,7 +45,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
-        [Ignore("Season Reset")]
+        [Ignore("Season Reset/Season 9 Outdated")]
         public void GetTop()
         {
             CheckGetTop(Api.LeagueV3.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
@@ -54,7 +53,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
-        [Ignore("Season Reset")]
+        [Ignore("Season Reset/Season 9 Outdated")]
         public async Task GetTopAsync()
         {
             var challengerTask = Api.LeagueV3.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);

@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="ApiChampionMasteryV3Test.cs" />
     <Compile Include="ApiComboFeaturedGamesSummonerCurrentGameV3Test.cs" />
+    <Compile Include="ApiLeagueV4Test.cs" />
     <Compile Include="ApiSummonerTest.cs" />
     <Compile Include="ApiMatchListV3Test.cs" />
     <Compile Include="ApiMatchV3Test.cs" />
