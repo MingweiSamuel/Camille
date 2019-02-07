@@ -1,13 +1,22 @@
 ﻿namespace MingweiSamuel.Camille.Enums
 {
+    /// <summary>
+    /// Roles used for positional ranks.
+    /// </summary>
     public static class Position
     {
         /// <summary>
         /// None role.
-        /// For non-positional queue types and for apex tiers
-        /// of positional queue types (master, gm, challenger).
+        /// For ranks in non-positional queues.
         /// </summary>
         public const string NONE = "NONE";
+
+        /// <summary>
+        /// Apex role.
+        /// For ranks in apex tiers (master, gm, challenger)
+        /// of positional queue types.
+        /// </summary>
+        public const string APEX = "APEX";
 
         /// <summary>Top role.</summary>
         public const string TOP = "TOP";

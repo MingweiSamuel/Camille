@@ -25,7 +25,7 @@ namespace Camille.Test
         {
             // C9 Sneaky
             var rankFound = false;
-            var adcRoleFound = false;
+            var roleFound = false;
             foreach (var entry in result)
             {
                 if (!Queue.RANKED_SOLO_5x5.Equals(entry.QueueType))
@@ -41,10 +41,10 @@ namespace Camille.Test
                     entry.Tier);
                 Assert.AreEqual(SummonerIdC9Sneaky, entry.SummonerId);
                 Assert.IsTrue(entry.SummonerName.ToUpperInvariant().Contains("SNEAKY"));
-                adcRoleFound |= entry.Position == Position.BOTTOM;
+                roleFound |= entry.Position == Position.BOTTOM || entry.Position == Position.APEX;
             }
             Assert.IsTrue(rankFound, "Failed to find queue " + Queue.RANKED_SOLO_5x5 + ", Sneaky unranked.");
-            Assert.IsTrue(adcRoleFound, "Failed to find adc role for queue " +
+            Assert.IsTrue(roleFound, "Failed to find adc or apex role for queue " +
                     Queue.RANKED_SOLO_5x5 + ", Sneaky unranked in adc role.");
         }
 
