@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
-using MingweiSamuel.Camille.MatchV3;
+using MingweiSamuel.Camille.MatchV4;
 
 namespace Camille.Test
 {
     [TestClass]
-    public class ApiMatchlistTest : ApiTest
+    public class ApiMatchlistTestV4 : ApiTest
     {
         public const long MillisPerWeek = 7 * TimeSpan.TicksPerDay / TimeSpan.TicksPerMillisecond;
         public const long QueryTime = 1484292409447L;
@@ -15,14 +15,14 @@ namespace Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.MatchV3.GetMatchlist(Region.NA, 78247, queue: new[] {420},
+            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
-            CheckGetQuery(await Api.MatchV3.GetMatchlistAsync(Region.NA, 78247, queue: new[] {420},
+            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
         }
 
@@ -43,13 +43,26 @@ namespace Camille.Test
             }
         }
 
-        public static void CheckGetRecent(Matchlist matchlist)
+        [TestMethod]
+        public void GetQueryRecent()
+        {
+            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA, AccountIdC9Sneaky, queue: new[] {420}));
+        }
+
+        [TestMethod]
+        public async Task GetQueryRecentAsync()
+        {
+            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA, AccountIdC9Sneaky, queue: new[] {420}));
+        }
+
+        public static void CheckGetQueryRecent(Matchlist matchlist)
         {
             Assert.IsNotNull(matchlist);
             Assert.IsNotNull(matchlist.Matches);
             //assertEquals(matchlist.totalGames, matchlist.matches.size());
 
             const long after = 1494737245688L;
+            long max = 0;
             var timestamp = long.MaxValue;
             foreach (var match in matchlist.Matches)
             {
