@@ -8,7 +8,6 @@ namespace Camille.Test
     public class ReadmeExampleTest : ApiTest
     {
         [TestMethod]
-        [Ignore("Static Data")]
         public void SummonerChampionMasteryTest()
         {
             // Use existing instance for test.
@@ -17,8 +16,8 @@ namespace Camille.Test
             // Get summoners by name synchronously. (using async is faster).
             var summoners = new[]
             {
-                riotApi.SummonerV4.GetBySummonerName(Region.NA, "c9 sneaky"),
-                riotApi.SummonerV4.GetBySummonerName(Region.NA, "double LIFT")
+                riotApi.SummonerV4.GetBySummonerName(Region.NA, "jAnna kendrick"),
+                riotApi.SummonerV4.GetBySummonerName(Region.NA, "lug nuts k")
             };
 
             foreach (var summoner in summoners)
@@ -32,9 +31,9 @@ namespace Camille.Test
                 {
                     var mastery = masteries[i];
                     // Get champion for this mastery.
-                    var champ = mastery.ChampionId.ToString();
+                    var champ = (Champion) mastery.ChampionId;
                     // print i, champ id, champ mastery points, and champ level
-                    Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ,
+                    Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.Name(),
                         mastery.ChampionPoints, mastery.ChampionLevel);
                 }
                 Console.WriteLine();

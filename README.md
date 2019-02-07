@@ -25,8 +25,7 @@ All API interactions are done using a `RiotApi` instance.
 
 ```c#
 var riotApi = RiotApi.NewInstance("RGAPI-12345678-abcd-1234-abcd-123456abcdef");
-```
-```c#
+// OR
 var riotApi = RiotApi.NewInstance(
     new RiotApiConfig.Builder("RGAPI-12345678-abcd-1234-abcd-123456abcdef")
     {
@@ -39,7 +38,7 @@ var riotApi = RiotApi.NewInstance(
 
 API methods are divided up into respective endpoints, corresponding to the left bar of the [API reference](https://developer.riotgames.com/api-methods/).
 
-### Examples
+### Example
 
 #### Print Summoner's Top Champions
 
@@ -47,8 +46,8 @@ API methods are divided up into respective endpoints, corresponding to the left 
 // Get summoners by name synchronously. (using async is faster).
 var summoners = new[]
 {
-    riotApi.SummonerV4.GetBySummonerName(Region.NA, "c9 sneaky"),
-    riotApi.SummonerV4.GetBySummonerName(Region.NA, "double LIFT")
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, "jAnna kendrick"),
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, "lug nuts k")
 };
 
 foreach (var summoner in summoners)
@@ -62,39 +61,38 @@ foreach (var summoner in summoners)
     {
         var mastery = masteries[i];
         // Get champion for this mastery.
-        var champ = mastery.ChampionId.ToString();
+        var champ = (Champion) mastery.ChampionId;
         // print i, champ id, champ mastery points, and champ level
-        Console.WriteLine("{0,3}) {1,-16} {2,7} ({3})", i + 1, champ,
+        Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.Name(),
             mastery.ChampionPoints, mastery.ChampionLevel);
     }
     Console.WriteLine();
 }
 ```
 
-Output (2017-01-18):
+Output (2019-02-06):
 ```
-C9 Sneaky's Top 10 Champs:
-  1) Jhin             268,866 (7)
-  2) Lucian           195,541 (7)
-  3) Ezreal           146,950 (7)
-  4) Ashe             144,269 (7)
-  5) Caitlyn          139,390 (7)
-  6) Sivir             84,331 (7)
-  7) Twitch            82,702 (7)
-  8) Vayne             80,733 (7)
-  9) Tristana          75,150 (6)
- 10) Miss Fortune      70,757 (7)
+Janna Kendrick's Top 10 Champs:
+  1) Ekko              1,280,476 (7)
+  2) Master Yi            89,871 (7)
+  3) Jinx                 59,238 (6)
+  4) Yasuo                58,625 (7)
+  5) Poppy                52,140 (7)
+  6) Maokai               46,567 (6)
+  7) Ezreal               44,604 (6)
+  8) Lulu                 42,794 (6)
+  9) Kennen               42,500 (7)
+ 10) Zilean               41,710 (6)
 
-Doublelift's Top 10 Champs:
-  1) Jhin             126,291 (7)
-  2) Caitlyn           97,410 (7)
-  3) Vayne             79,420 (7)
-  4) Lucian            77,254 (7)
-  5) Kalista           43,572 (5)
-  6) Ashe              36,408 (7)
-  7) Ezreal            35,754 (6)
-  8) Twitch            33,169 (6)
-  9) Kog'Maw           22,459 (5)
- 10) Tristana          20,582 (4)
- 
+LugnutsK's Top 10 Champs:
+  1) Zyra                548,939 (7)
+  2) Soraka               73,675 (6)
+  3) Morgana              59,828 (5)
+  4) Sona                 50,001 (6)
+  5) Nami                 44,775 (6)
+  6) Brand                42,108 (5)
+  7) Janna                41,923 (5)
+  8) Taric                37,916 (6)
+  9) Ekko                 35,837 (5)
+ 10) Poppy                31,457 (5)
  ```

@@ -60,6 +60,7 @@
     <Compile Include="ApiTest.cs" />
     <Compile Include="ApiChampionMasteryV4Test.cs" />
     <Compile Include="ApiCancellationTest.cs" />
+    <Compile Include="ChampionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadmeExampleV4Test.cs" />
   </ItemGroup>

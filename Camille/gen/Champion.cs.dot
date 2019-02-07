@@ -14,7 +14,7 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// Numeric champion IDs.
     /// </summary>
-    [Obsolete("ChampionId is deprecated, use ChampionEnum instead.")]
+    [Obsolete("ChampionId is deprecated, use Champion instead.")]
     public static class ChampionId
     {
 {{
@@ -28,7 +28,7 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// Champion enum based on ChampionIds.
     /// </summary>
-    public enum ChampionEnum : int
+    public enum Champion : int
     {
 {{
     for (let { key, name } of Object.values(champions.data)) {
@@ -39,18 +39,18 @@ namespace MingweiSamuel.Camille.Enums
 }}
     }
 
-    public static class ChampionEnumUtils
+    public static class ChampionUtils
     {
         /// <summary>
         /// Return's the champion's human-readable name (en-US).
         /// </summary>
-        /// <param name="val">The ChampionEnum value.</param>
+        /// <param name="val">The Champion value.</param>
         /// <param name="throwOnUnknown">
         /// If false (default), will return "UNKNOWN" on unknown champions.
         /// If true, throws an InvalidOperationException on unknown string identifiers.
         /// </param>
         /// <returns>Champion's name.</returns>
-        public static string Name(this ChampionEnum val, bool throwOnUnknown = false)
+        public static string Name(this Champion val, bool throwOnUnknown = false)
         {
             switch ((int) val)
             {
@@ -74,13 +74,13 @@ namespace MingweiSamuel.Camille.Enums
         /// This is generally the same as their Name with spaces and symbols removed
         /// with notable exceptions in "MonkeyKing" (Wu Kong) and "Nunu" (Nunu & Willump).
         /// </summary>
-        /// <param name="val">The ChampionEnum value.</param>
+        /// <param name="val">The Champion value.</param>
         /// <param name="throwOnUnknown">
         /// If false (default), will return "UNKNOWN" on unknown champions.
         /// If true, throws an InvalidOperationException on unknown string identifiers.
         /// </param>
         /// <returns>Champion's string identifier.</returns>
-        public static string Identifier(this ChampionEnum val, bool throwOnUnknown = false)
+        public static string Identifier(this Champion val, bool throwOnUnknown = false)
         {
             switch ((int) val)
             {
@@ -99,7 +99,7 @@ namespace MingweiSamuel.Camille.Enums
         }
 
         /// <summary>
-        /// Return's the ChampionEnum corresponding to a champion's string identifier or (en-US) name.
+        /// Return's the Champion corresponding to a champion's string identifier or (en-US) name.
         ///
         /// This method will only look at the first four alphabetic characters in the given string.
         /// </summary>
@@ -111,7 +111,7 @@ namespace MingweiSamuel.Camille.Enums
         /// If true, throws an InvalidOperationException on unknown strings.
         /// </param>
         /// <returns>Champion's name.</returns>
-        public static ChampionEnum Parse(string val, bool throwOnUnknown = false)
+        public static Champion Parse(string val, bool throwOnUnknown = false)
         {
             switch (new string(val.ToCharArray()
                 .Select(char.ToUpperInvariant)
@@ -126,7 +126,7 @@ namespace MingweiSamuel.Camille.Enums
                 case "{{= prefix }}":
 {{
         }
-        out += ' return (ChampionEnum) {{= key }};';
+        out += ' return (Champion) {{= key }};';
     }
 }}
                 default:
