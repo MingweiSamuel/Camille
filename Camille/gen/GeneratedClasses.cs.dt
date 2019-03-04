@@ -59,7 +59,10 @@ namespace MingweiSamuel.Camille
     {
         let endpoint = dotUtils.normalizeEndpointName(endpointName);
 }}
-    // {{= endpointName }}
+    /// <summary>
+    /// {{= endpoint }} endpoints. This class is automatically generated.<br />
+    /// <a href="https://developer.riotgames.com/api-methods/#{{= endpointName }}">Official API Reference</a>
+    /// </summary>
     public class {{= endpoint }}Endpoints : Endpoints
     {
         internal {{= endpoint }}Endpoints(RiotApi riotApi) : base(riotApi)
@@ -184,12 +187,11 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 {
 {{
         let desc = schema.description;
-        if (desc) {
 }}
+    /// <summary>
+    /// {{= schemaName }} data object. This class is automatically generated.<br />
     /// {{= desc }}
-{{
-        }
-}}
+    /// </summary>
     public class {{= schemaName }}
     {
         public {{= schemaName }}({{= Object.entries(props)

@@ -7,7 +7,7 @@ const doT = require('dot');
 const glob = require('glob-promise');
 
 const log = a => { console.log(a); return a; };
-const suffix = '.dot';
+const suffix = '.dt';
 
 doT.templateSettings = {
   evaluate: /\r?\n?\{\{([\s\S]+?)\}\}/g,
