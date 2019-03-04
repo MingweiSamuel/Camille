@@ -1,0 +1,5 @@
+- name: Read Me
+  homepage: ../README.md
+- name: Api Documentation
+  href: api/
+  homepage: api/index.md
