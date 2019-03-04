@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Camille </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Camille ">
+    <meta name="generator" content="docfx 2.40.11.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="camille">Camille</h1>
+
+<p><a href="https://ci.appveyor.com/project/MingweiSamuel/Camille"><img src="https://img.shields.io/appveyor/ci/MingweiSamuel/Camille/master.svg?style=flat-square&amp;logo=appveyor" alt="AppVeyor branch"></a> <a href="https://www.nuget.org/packages/MingweiSamuel.Camille/"><img src="https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square" alt="NuGet Stable"></a> <a href="https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest"><img src="https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square" alt="NuGet Pre Release"></a></p>
+<p>C# Library for the <a href="https://developer.riotgames.com/">Riot Games API</a></p>
+<p>Camille's goals are <em>speed</em> and <em>reliability</em>. Camille handles rate limits and large requests seamlessly. Data classes are automatically generated from the <a href="https://developer.riotgames.com/api-methods/">Riot API Reference</a> (<a href="http://www.mingweisamuel.com/riotapi-schema/tool/">Swagger</a>).</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Fast, asynchronous, thread-safe</li>
+<li>Automatically retries failed requests</li>
+<li>Highly-configurable</li>
+<li>Targets .NET Standard 1.1+ (.NET Core 1.0+, .NET Framework 4.5+)</li>
+<li>Riot API V4 Support</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p><a href="https://www.nuget.org/packages/MingweiSamuel.Camille/">Install via NuGet</a> (<code>MingweiSamuel.Camille</code>).</p>
+<h2 id="usage">Usage</h2>
+<p>All API interactions are done using a <code>RiotApi</code> instance.
+<code>RiotApi.NewInstance</code> takes either just an API key (for default settings) or a <code>IRiotApiConfig</code> instance (for custom settings).</p>
+<pre><code class="lang-c#">var riotApi = RiotApi.NewInstance(&quot;RGAPI-12345678-abcd-1234-abcd-123456abcdef&quot;);
+// OR
+var riotApi = RiotApi.NewInstance(
+    new RiotApiConfig.Builder(&quot;RGAPI-12345678-abcd-1234-abcd-123456abcdef&quot;)
+    {
+        MaxConcurrentRequests = 200,
+        Retries = 10,
+        // ...
+    }.Build()
+);
+</code></pre>
+<p>API methods are divided up into respective endpoints, corresponding to the left bar of the <a href="https://developer.riotgames.com/api-methods/">API reference</a>.</p>
+<h3 id="example">Example</h3>
+<h4 id="print-summoners-top-champions">Print Summoner's Top Champions</h4>
+<pre><code class="lang-c#">// Get summoners by name synchronously. (using async is faster).
+var summoners = new[]
+{
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, &quot;jAnna kendrick&quot;),
+    riotApi.SummonerV4.GetBySummonerName(Region.NA, &quot;lug nuts k&quot;)
+};
+
+foreach (var summoner in summoners)
+{
+    Console.WriteLine($&quot;{summoner.Name}'s Top 10 Champs:&quot;);
+
+    var masteries =
+        riotApi.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, summoner.Id);
+
+    for (var i = 0; i &lt; 10; i++)
+    {
+        var mastery = masteries[i];
+        // Get champion for this mastery.
+        var champ = (Champion) mastery.ChampionId;
+        // print i, champ id, champ mastery points, and champ level
+        Console.WriteLine(&quot;{0,3}) {1,-16} {2,10:N0} ({3})&quot;, i + 1, champ.Name(),
+            mastery.ChampionPoints, mastery.ChampionLevel);
+    }
+    Console.WriteLine();
+}
+</code></pre>
+<p>Output (2019-02-06):</p>
+<pre><code>Janna Kendrick's Top 10 Champs:
+  1) Ekko              1,280,476 (7)
+  2) Master Yi            89,871 (7)
+  3) Jinx                 59,238 (6)
+  4) Yasuo                58,625 (7)
+  5) Poppy                52,140 (7)
+  6) Maokai               46,567 (6)
+  7) Ezreal               44,604 (6)
+  8) Lulu                 42,794 (6)
+  9) Kennen               42,500 (7)
+ 10) Zilean               41,710 (6)
+
+LugnutsK's Top 10 Champs:
+  1) Zyra                548,939 (7)
+  2) Soraka               73,675 (6)
+  3) Morgana              59,828 (5)
+  4) Sona                 50,001 (6)
+  5) Nami                 44,775 (6)
+  6) Brand                42,108 (5)
+  7) Janna                41,923 (5)
+  8) Taric                37,916 (6)
+  9) Ekko                 35,837 (5)
+ 10) Poppy                31,457 (5)
+</code></pre>
+<h4 id="print-summoner-ranked-match-history">Print Summoner Ranked Match History</h4>
+<p>This example takes advantage of C#'s <code>async</code>/<code>await</code> tasks to fetch 10 matches all at once.</p>
+<pre><code class="lang-c#">var summonerNameQuery = &quot;lugnutsk&quot;;
+
+// Get summoners data (blocking).
+var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(Region.NA, summonerNameQuery);
+if (null == summonerData)
+{
+   // If a summoner is not found, the response will be null.
+   Console.WriteLine($&quot;Summoner '{summonerNameQuery}' not found.&quot;);
+   return;
+}
+
+Console.WriteLine($&quot;Match history for {summonerData.Name}:&quot;);
+
+// Get 10 most recent matches (blocking).
+// Queue ID 420 is RANKED_SOLO_5v5 (TODO)
+var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
+   Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
+// Get match results (done asynchronously -&gt; not blocking -&gt; fast).
+var matchDataTasks = matchlist.Matches.Select(
+       matchMetadata =&gt; riotApi.MatchV4.GetMatchAsync(Region.NA, matchMetadata.GameId)
+   ).ToArray();
+// Wait for all task requests to complete asynchronously.
+var matchDatas = await Task.WhenAll(matchDataTasks);
+
+for (var i = 0; i &lt; matchDatas.Count(); i++)
+{
+   var matchData = matchDatas[i];
+   // Get this summoner's participant ID info.
+   var participantIdData = matchData.ParticipantIdentities
+       .First(pi =&gt; summonerData.Id.Equals(pi.Player.SummonerId));
+   // Find the corresponding participant.
+   var participant = matchData.Participants
+       .First(p =&gt; p.ParticipantId == participantIdData.ParticipantId);
+
+   var win = participant.Stats.Win;
+   var champ = (Champion) participant.ChampionId;
+   var k = participant.Stats.Kills;
+   var d = participant.Stats.Deaths;
+   var a = participant.Stats.Assists;
+   var kda = (k + a) / (float) d;
+
+   // Print #, win/loss, champion.
+   Console.WriteLine(&quot;{0,3}) {1,-4} ({2})&quot;, i + 1, win ? &quot;Win&quot; : &quot;Loss&quot;, champ.Name());
+   // Print champion, K/D/A
+   Console.WriteLine(&quot;     K/D/A {0}/{1}/{2} ({3:0.00})&quot;, k, d, a, kda);
+}
+</code></pre>
+<p>Output (2019-02-19):</p>
+<pre><code>Match history for LugnutsK:
+  1) Win  (Zyra)
+     K/D/A 2/3/11 (4.33)
+  2) Win  (Zyra)
+     K/D/A 5/1/13 (18.00)
+  3) Loss (Zyra)
+     K/D/A 2/5/1 (0.60)
+  4) Win  (Sona)
+     K/D/A 1/13/23 (1.85)
+  5) Win  (Zyra)
+     K/D/A 3/1/5 (8.00)
+  6) Win  (Zyra)
+     K/D/A 6/3/16 (7.33)
+  7) Win  (Zyra)
+     K/D/A 2/4/7 (2.25)
+  8) Loss (Zyra)
+     K/D/A 1/10/8 (0.90)
+  9) Loss (Zyra)
+     K/D/A 0/11/5 (0.45)
+ 10) Win  (Zyra)
+     K/D/A 4/5/15 (3.80)
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/master/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
