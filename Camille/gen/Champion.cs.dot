@@ -72,7 +72,7 @@ namespace MingweiSamuel.Camille.Enums
         /// Returns the champion's string identifier.
         /// 
         /// This is generally the same as their Name with spaces and symbols removed
-        /// with notable exceptions in "MonkeyKing" (Wu Kong) and "Nunu" (Nunu & Willump).
+        /// with notable exceptions in "MonkeyKing" (Wu Kong) and "Nunu" (Nunu &amp; Willump).
         /// </summary>
         /// <param name="val">The Champion value.</param>
         /// <param name="throwOnUnknown">
