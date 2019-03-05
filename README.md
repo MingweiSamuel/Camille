@@ -1,6 +1,6 @@
 # Camille
 
-[![AppVeyor branch](https://img.shields.io/appveyor/ci/MingweiSamuel/Camille/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MingweiSamuel/Camille) [![NuGet Stable](https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest)
+[![AppVeyor branch](https://img.shields.io/appveyor/ci/MingweiSamuel/Camille/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MingweiSamuel/Camille) [![NuGet Stable](https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest) [![API Reference](https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square)](http://www.mingweisamuel.com/Camille/)
 
 C# Library for the [Riot Games API](https://developer.riotgames.com/)
 
@@ -174,3 +174,7 @@ Match history for LugnutsK:
  10) Win  (Zyra)
      K/D/A 4/5/15 (3.80)
  ```
+
+### API Reference
+
+[Automatically generated API Reference](http://www.mingweisamuel.com/Camille/api/index.html)
