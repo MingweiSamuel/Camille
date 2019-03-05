@@ -185,12 +185,9 @@ namespace MingweiSamuel.Camille
 // {{= endpoint }}
 namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 {
-{{
-        let desc = schema.description;
-}}
     /// <summary>
     /// {{= schemaName }} data object. This class is automatically generated.<br />
-    /// {{= desc }}
+    /// {{= schema.description || '' }}
     /// </summary>
     public class {{= schemaName }}
     {
