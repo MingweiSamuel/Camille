@@ -35,7 +35,7 @@ If (-not $diffs -or ($diffs[0] -le 5 -and $diffs[1] -le 5)) {
 }
 
 git add .
-git commit -m "Autogenerating Documentation $(Get-Date)"
+git commit -m "Autogenerating Documentation $(Get-Date) $env:APPVEYOR_REPO_COMMIT"
 git push
 Pop-Location
 
