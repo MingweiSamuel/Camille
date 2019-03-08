@@ -14,7 +14,7 @@ before_build:
   - ps: $env:api_key | Out-File Camille.Test\apikey.txt
   - nuget restore
   - ps: >-
-      $env:DO_DEPLOY = (-not ($env:APPVEYOR_REPO_COMMIT_MESSAGE -like '*[no deploy]*'))
+      $env:DO_DEPLOY = ($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]')
       -or $env:APPVEYOR_SCHEDULED_BUILD
 after_build:
   - ps: echo $ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP
