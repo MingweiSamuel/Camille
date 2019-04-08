@@ -10,12 +10,14 @@ namespace Camille.Test
     public class ApiLeagueV4Test : ApiTest
     {
         [TestMethod]
+        [Ignore("Season 9 Positional Ranks Removed")]
         public void Get()
         {
             CheckGet(Api.LeagueV4.GetAllLeaguePositionsForSummoner(Region.NA, SummonerIdC9Sneaky));
         }
 
         [TestMethod]
+        [Ignore("Season 9 Positional Ranks Removed")]
         public async Task GetAsync()
         {
             CheckGet(await Api.LeagueV4.GetAllLeaguePositionsForSummonerAsync(Region.NA, SummonerIdC9Sneaky));
@@ -49,7 +51,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
-        [Ignore("Season Reset/Season 9 Outdated")]
+        [Ignore("Season Reset/Season 9 Outdated")] // TODO
         public void GetApex()
         {
             CheckGetApex(Api.LeagueV4.GetChallengerLeague(Region.NA, Queue.RANKED_SOLO_5x5),
@@ -57,7 +59,7 @@ namespace Camille.Test
         }
 
         [TestMethod]
-        [Ignore("Season Reset/Season 9 Outdated")]
+        [Ignore("Season Reset/Season 9 Outdated")] // TODO
         public async Task GetApexAsync()
         {
             var challengerTask = Api.LeagueV4.GetChallengerLeagueAsync(Region.NA, Queue.RANKED_SOLO_5x5);
@@ -81,12 +83,14 @@ namespace Camille.Test
         }
 
         [TestMethod]
+        [Ignore("Season 9 Positional Ranks Removed")]
         public async Task GetQueuesWithPositionRanksAsync()
         {
             CheckGetQueuesWithPositionRanks(await Api.LeagueV4.GetQueuesWithPositionRanksAsync(Region.NA));
         }
         
         [TestMethod]
+        [Ignore("Season 9 Positional Ranks Removed")]
         public void GetQueuesWithPositionRanks()
         {
             CheckGetQueuesWithPositionRanks(Api.LeagueV4.GetQueuesWithPositionRanks(Region.NA));
