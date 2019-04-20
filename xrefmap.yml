@@ -3111,6 +3111,122 @@ references:
   commentId: N:MingweiSamuel.Camille.LeagueV4
   fullName: MingweiSamuel.Camille.LeagueV4
   nameWithType: MingweiSamuel.Camille.LeagueV4
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry
+  name: LeagueEntry
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html
+  commentId: T:MingweiSamuel.Camille.LeagueV4.LeagueEntry
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry
+  nameWithType: LeagueEntry
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.#ctor(System.String,System.String,System.Boolean,MingweiSamuel.Camille.LeagueV4.MiniSeries,System.Int32,System.Boolean,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.Int32)
+  name: LeagueEntry(String, String, Boolean, MiniSeries, Int32, Boolean, Int32, String, String, Boolean, Boolean, String, String, Int32)
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry__ctor_System_String_System_String_System_Boolean_MingweiSamuel_Camille_LeagueV4_MiniSeries_System_Int32_System_Boolean_System_Int32_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_System_Int32_
+  commentId: M:MingweiSamuel.Camille.LeagueV4.LeagueEntry.#ctor(System.String,System.String,System.Boolean,MingweiSamuel.Camille.LeagueV4.MiniSeries,System.Int32,System.Boolean,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.Int32)
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueEntry(System.String, System.String, System.Boolean, MingweiSamuel.Camille.LeagueV4.MiniSeries, System.Int32, System.Boolean, System.Int32, System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, System.Int32)
+  nameWithType: LeagueEntry.LeagueEntry(String, String, Boolean, MiniSeries, Int32, Boolean, Int32, String, String, Boolean, Boolean, String, String, Int32)
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.#ctor*
+  name: LeagueEntry
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4.LeagueEntry.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueEntry
+  nameWithType: LeagueEntry.LeagueEntry
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.FreshBlood
+  name: FreshBlood
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_FreshBlood
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.FreshBlood
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.FreshBlood
+  nameWithType: LeagueEntry.FreshBlood
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.HotStreak
+  name: HotStreak
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_HotStreak
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.HotStreak
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.HotStreak
+  nameWithType: LeagueEntry.HotStreak
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Inactive
+  name: Inactive
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Inactive
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Inactive
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Inactive
+  nameWithType: LeagueEntry.Inactive
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueId
+  name: LeagueId
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_LeagueId
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueId
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueId
+  nameWithType: LeagueEntry.LeagueId
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeaguePoints
+  name: LeaguePoints
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_LeaguePoints
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeaguePoints
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeaguePoints
+  nameWithType: LeagueEntry.LeaguePoints
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Losses
+  name: Losses
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Losses
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Losses
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Losses
+  nameWithType: LeagueEntry.Losses
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.MiniSeries
+  name: MiniSeries
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_MiniSeries
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.MiniSeries
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.MiniSeries
+  nameWithType: LeagueEntry.MiniSeries
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.QueueType
+  name: QueueType
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_QueueType
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.QueueType
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.QueueType
+  nameWithType: LeagueEntry.QueueType
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Rank
+  name: Rank
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Rank
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Rank
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Rank
+  nameWithType: LeagueEntry.Rank
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerId
+  name: SummonerId
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_SummonerId
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerId
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerId
+  nameWithType: LeagueEntry.SummonerId
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerName
+  name: SummonerName
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_SummonerName
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerName
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.SummonerName
+  nameWithType: LeagueEntry.SummonerName
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Tier
+  name: Tier
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Tier
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Tier
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Tier
+  nameWithType: LeagueEntry.Tier
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_ToString
+  commentId: M:MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString()
+  nameWithType: LeagueEntry.ToString()
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.ToString
+  nameWithType: LeagueEntry.ToString
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Veteran
+  name: Veteran
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Veteran
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Veteran
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Veteran
+  nameWithType: LeagueEntry.Veteran
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Wins
+  name: Wins
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_Wins
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry.Wins
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.Wins
+  nameWithType: LeagueEntry.Wins
 - uid: MingweiSamuel.Camille.LeagueV4.LeagueItem
   name: LeagueItem
   href: api/MingweiSamuel.Camille.LeagueV4.LeagueItem.html
@@ -3592,6 +3708,70 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueByIdAsync
   nameWithType: LeagueV4Endpoints.GetLeagueByIdAsync
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntries_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries*
+  name: GetLeagueEntries
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntries_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries
+  nameWithType: LeagueV4Endpoints.GetLeagueEntries
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesAsync(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesAsync(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesAsync(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync*
+  name: GetLeagueEntriesAsync
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesAsync_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesForSummoner(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummoner_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesForSummoner(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummoner(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesForSummoner(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner*
+  name: GetLeagueEntriesForSummoner
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummoner_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummoner
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesForSummonerAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummonerAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesForSummonerAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync*
+  name: GetLeagueEntriesForSummonerAsync
+  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummonerAsync_
+  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync
 - uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetMasterLeague(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetMasterLeague(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetMasterLeague_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
