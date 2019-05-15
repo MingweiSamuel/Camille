@@ -1173,6 +1173,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.YORICK
   fullName: MingweiSamuel.Camille.Enums.Champion.YORICK
   nameWithType: Champion.YORICK
+- uid: MingweiSamuel.Camille.Enums.Champion.YUUMI
+  name: YUUMI
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_YUUMI
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.YUUMI
+  fullName: MingweiSamuel.Camille.Enums.Champion.YUUMI
+  nameWithType: Champion.YUUMI
 - uid: MingweiSamuel.Camille.Enums.Champion.ZAC
   name: ZAC
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_ZAC
@@ -2037,6 +2043,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Yorick
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Yorick
   nameWithType: ChampionId.Yorick
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Yuumi
+  name: Yuumi
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Yuumi
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Yuumi
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Yuumi
+  nameWithType: ChampionId.Yuumi
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Zac
   name: Zac
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Zac
