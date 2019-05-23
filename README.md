@@ -4,7 +4,9 @@
 
 C# Library for the [Riot Games API](https://developer.riotgames.com/)
 
-Camille's goals are _speed_ and _reliability_. Camille handles rate limits and large requests seamlessly. Data classes are automatically generated from the [Riot API Reference](https://developer.riotgames.com/api-methods/) ([Swagger](http://www.mingweisamuel.com/riotapi-schema/tool/)).
+Camille's goals are _speed_, _reliability_, and _maintainability_. Camille handles rate limits and large requests with ease.
+Data classes are automatically generated from the
+[Riot API Reference](https://developer.riotgames.com/api-methods/) ([Swagger](http://www.mingweisamuel.com/riotapi-schema/tool/)).
 
 ## Features
 
@@ -13,6 +15,7 @@ Camille's goals are _speed_ and _reliability_. Camille handles rate limits and l
 * Highly-configurable
 * Targets .NET Standard 1.1+ (.NET Core 1.0+, .NET Framework 4.5+)
 * Riot API V4 Support
+* Automatic up-to-date nightlies, reflecting Riot API changes within 24 hours.
 
 ## Installation
 
@@ -35,6 +38,7 @@ var riotApi = RiotApi.NewInstance(
     }.Build()
 );
 ```
+You can find all configuration options [here](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs#L7-L27).
 
 API methods are divided up into respective endpoints, corresponding to the left bar of the [API reference](https://developer.riotgames.com/api-methods/).
 
@@ -178,3 +182,37 @@ Match history for LugnutsK:
 ### API Reference
 
 [Automatically generated API Reference](http://www.mingweisamuel.com/Camille/api/index.html)
+
+## Source Code
+
+Source code is located in the
+[`src/` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src), corresponding
+to the `MingweiSamuel.Camille` namespace.
+
+[`RiotApi.cs`](https://github.com/MingweiSamuel/Camille/blob/master/Camille/src/RiotApi.cs) is the main
+point of entry for interfacing with Camille, however this source file is only a partial class. The remainder
+of the class is automatically generated and not commited to the `master` branch, but is viewable as described
+below in the "Generated Classes" section.
+
+Files in the
+[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src/Util)/`MingweiSamuel.Camille.Util` namespace
+are internal classes used for sending requests and handling rate limits.
+
+### Generated Classes
+
+The majority of the code in Camille is automatically generated. The generated sources are not commited to
+the master branch, but
+[are available in the `gh-pages` branch in the `_gen/` directory](https://github.com/MingweiSamuel/Camille/tree/gh-pages/_gen).
+
+[GeneratedClasses.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/GeneratedClasses.cs) contains all endpoints,
+and therefore endpoint methods, as well as all the data transfer objects corresponding to the JSON returned by the Riot API.
+
+[Champion.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/Champion.cs) is an enum for working with champion IDs.
+
+[RiotApiConfig.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs) is the configuration builder
+code for creating `RiotApi` instnaces with custom settings.
+
+The actual code for generating these classes is in the
+[`src/gen` folder](https://github.com/MingweiSamuel/Camille/tree/master/Camille/gen).
+The C#-generating code is in `*.cs.dt` files and is written in NodeJS, using
+[doT.js templates](https://olado.github.io/doT/index.html).
