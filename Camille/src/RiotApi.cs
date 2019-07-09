@@ -43,10 +43,14 @@ namespace MingweiSamuel.Camille
             return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited, token).Result;
         }
 
-        internal Task<T> GetAsync<T>(string methodId, string url, Region region,
+        internal async Task<T> GetAsync<T>(string methodId, string url, Region region,
             KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
-            return _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited, token);
+            // Camille's code is context-free.
+            // This slightly improves performance and helps prevent GUI thread deadlocks.
+            // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
+            await new SynchronizationContextRemover();
+            return await _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited, token);
         }
         #endregion
     }
