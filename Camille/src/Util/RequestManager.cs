@@ -31,9 +31,7 @@ namespace MingweiSamuel.Camille.Util
         public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
             KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
         {
-            await (token == null ?
-                _concurrentRequestSemaphore.WaitAsync() :
-                _concurrentRequestSemaphore.WaitAsync(token.Value));
+            await _concurrentRequestSemaphore.WaitAsync(token.GetValueOrDefault());
             try
             {
                 return await GetRateLimiter(region).Get<T>(methodId, relativeUrl, region, queryParams, nonRateLimited, token);

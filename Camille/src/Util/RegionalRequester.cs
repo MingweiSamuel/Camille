@@ -69,7 +69,7 @@ namespace MingweiSamuel.Camille.Util
                 long delay;
                 var rateLimits = nonRateLimited ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
                 while ((delay = RateLimitUtils.GetOrDelay(rateLimits)) >= 0)
-                    await (token == null ? Task.Delay(TimeSpan.FromTicks(delay)) : Task.Delay(TimeSpan.FromTicks(delay), token.Value));
+                    await Task.Delay(TimeSpan.FromTicks(delay), token.GetValueOrDefault());
 
                 // Send request.
                 string query;
@@ -80,7 +80,7 @@ namespace MingweiSamuel.Camille.Util
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
 
                 // Receive response.
-                response = await (token == null ? _client.SendAsync(request) : _client.SendAsync(request, token.Value));
+                response = await _client.SendAsync(request, token.GetValueOrDefault());
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response);
                 // Success.
