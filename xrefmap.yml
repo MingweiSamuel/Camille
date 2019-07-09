@@ -8542,6 +8542,64 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.Util.RiotResponseException.GetResponse
   nameWithType: RiotResponseException.GetResponse
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover
+  name: SynchronizationContextRemover
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html
+  commentId: T:MingweiSamuel.Camille.Util.SynchronizationContextRemover
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover
+  nameWithType: SynchronizationContextRemover
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter
+  name: GetAwaiter()
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_GetAwaiter
+  commentId: M:MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter()
+  nameWithType: SynchronizationContextRemover.GetAwaiter()
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter*
+  name: GetAwaiter
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_GetAwaiter_
+  commentId: Overload:MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetAwaiter
+  nameWithType: SynchronizationContextRemover.GetAwaiter
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult
+  name: GetResult()
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_GetResult
+  commentId: M:MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult()
+  nameWithType: SynchronizationContextRemover.GetResult()
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult*
+  name: GetResult
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_GetResult_
+  commentId: Overload:MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.GetResult
+  nameWithType: SynchronizationContextRemover.GetResult
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted
+  name: IsCompleted
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_IsCompleted
+  commentId: P:MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted
+  nameWithType: SynchronizationContextRemover.IsCompleted
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted*
+  name: IsCompleted
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_IsCompleted_
+  commentId: Overload:MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.IsCompleted
+  nameWithType: SynchronizationContextRemover.IsCompleted
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted(System.Action)
+  name: OnCompleted(Action)
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_OnCompleted_System_Action_
+  commentId: M:MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted(System.Action)
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted(System.Action)
+  nameWithType: SynchronizationContextRemover.OnCompleted(Action)
+- uid: MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted*
+  name: OnCompleted
+  href: api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html#MingweiSamuel_Camille_Util_SynchronizationContextRemover_OnCompleted_
+  commentId: Overload:MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.Util.SynchronizationContextRemover.OnCompleted
+  nameWithType: SynchronizationContextRemover.OnCompleted
 - uid: MingweiSamuel.Camille.Util.TokenBucketFactory
   name: TokenBucketFactory
   href: api/MingweiSamuel.Camille.Util.TokenBucketFactory.html
