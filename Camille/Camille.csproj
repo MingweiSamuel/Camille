@@ -4,11 +4,11 @@
     <TargetFrameworks>netstandard1.1;net45;netcoreapp1.0;</TargetFrameworks>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
-    <Version>2.2.0</Version>
+    <Version>2.2.1</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
-    <Copyright>LGPLv3 2018</Copyright>
+    <Copyright>LGPLv3 2019</Copyright>
     <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
     <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Camille.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
