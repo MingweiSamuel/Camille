@@ -7,7 +7,7 @@
     <ProjectGuid>{8A60F139-66B8-46F2-8933-DBE9C80C657F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Camille.Test</RootNamespace>
+    <RootNamespace>MingweiSamuel.Camille.Test</RootNamespace>
     <AssemblyName>Camille.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -56,10 +56,10 @@
     <Compile Include="ApiComboFeaturedGamesSummonerCurrentGameV4Test.cs" />
     <Compile Include="ApiTest.cs" />
     <Compile Include="ApiChampionMasteryV4Test.cs" />
-    <Compile Include="ApiCancellationTest.cs" />
     <Compile Include="ChampionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadmeExampleV4Test.cs" />
+    <Compile Include="ApiCancellationTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

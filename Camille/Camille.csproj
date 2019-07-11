@@ -20,6 +20,9 @@
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+  <PropertyGroup>
+    <GenDir>gen</GenDir>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="System.Net.Http" Version="4.3.3" />
@@ -36,18 +39,24 @@
     </PackageReference>
   </ItemGroup>
 -->
-
-  <Target Name="EchoFramework" BeforeTargets="CoreCompile">
-    <Message Text="$(TargetFramework)" />
-  </Target>
-
-  <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds">
-    <Message Text="Building templates." />
-    <Exec Command="powershell -Command &quot;cd gen; node index.js&quot;" />
+  
+  <Target Name="DownloadTemplateData">
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json"
+                  DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json"
+                  DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" ContinueOnError="true" />
   </Target>
   
-  <Target Name="Download" BeforeTargets="BuildTemplates">
-    <Message Text="Running download script." />
-    <Exec Command="powershell.exe -NonInteractive -executionpolicy Unrestricted -command &quot;cd gen; .\download.ps1&quot;" />
+  <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
+  <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateData">
+    <Exec WorkingDirectory="$(GenDir)" Command="node index.js" />
+  </Target>
+  <!-- On Unix/OSX DispatchToInnerBuilds is not run so we use GenerateTargetFrameworkMonikerAttribute. -->
+  <Target Name="BuildTemplatesUnix" BeforeTargets="GenerateTargetFrameworkMonikerAttribute" DependsOnTargets="BuildTemplates" Condition="$(OS) == 'Unix'">
+    <Message Text="Building templates on unix." />
+  </Target>
+
+  <Target Name="EchoEnviornment" BeforeTargets="Build">
+    <Message Text="$(TargetFramework) $(OS)" />
   </Target>
 </Project>

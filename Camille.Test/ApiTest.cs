@@ -1,7 +1,7 @@
 ﻿using MingweiSamuel.Camille;
 using System.IO;
 
-namespace Camille.Test
+namespace MingweiSamuel.Camille.Test
 {
     public class ApiTest
     {

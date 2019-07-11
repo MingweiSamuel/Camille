@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.ChampionMasteryV4;
 using MingweiSamuel.Camille.Enums;
 
-namespace Camille.Test
+namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
     public class ApiChampionMasteryV4Test : ApiTest

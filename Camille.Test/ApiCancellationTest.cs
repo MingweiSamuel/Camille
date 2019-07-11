@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
 
-namespace Camille.Test
+namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
     public class ApiCancellationTest : ApiTest

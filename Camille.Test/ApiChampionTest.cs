@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.ChampionV3;
 using MingweiSamuel.Camille.Enums;
 
-namespace Camille.Test
+namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
     public class ApiChampionTest : ApiTest

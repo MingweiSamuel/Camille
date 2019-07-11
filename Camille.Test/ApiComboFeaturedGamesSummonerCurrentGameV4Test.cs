@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MingweiSamuel.Camille.Enums;
 using MingweiSamuel.Camille.SpectatorV4;
 
-namespace Camille.Test
+namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
     [Ignore("Unreliable")]
