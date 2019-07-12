@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;net45;netcoreapp1.0;</TargetFrameworks>
+    <TargetFrameworks>netcoreapp1.0;netstandard1.1;net45;</TargetFrameworks>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
     <Version>2.2.1</Version>
@@ -41,10 +41,8 @@
 -->
   
   <Target Name="DownloadTemplateData">
-    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json"
-                  DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json"
-                  DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json" DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" ContinueOnError="true" />
   </Target>
   
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->

@@ -12,13 +12,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public async Task GetChampionAsync()
         {
-            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, SummonerIdLugnutsK, ChampionId.Zyra));
+            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: ChampionId.Zyra));
         }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, SummonerIdLugnutsK, ChampionId.Zyra));
+            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: ChampionId.Zyra));
         }
 
         public static void CheckGetChampion(ChampionMastery result)

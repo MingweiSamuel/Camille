@@ -1,5 +1,4 @@
-﻿using MingweiSamuel.Camille;
-using System.IO;
+﻿using System.IO;
 
 namespace MingweiSamuel.Camille.Test
 {
