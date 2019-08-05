@@ -3,7 +3,7 @@ Push-Location .\Camille
 # Handle version
 [xml]$CSPROJ = Get-Content -Path .\Camille.csproj
 # Incrememt minor to make sure nightlies are ordered newer than releases.
-$ver = $CSPROJ.Project.PropertyGroup.Version.Split('.')
+$ver = $CSPROJ.Project.PropertyGroup.Version[0].Split('.')
 $ver[2] = [int]$ver[2] + 1
 $ver = $ver -Join '.'
 # Append date for ordering, and include commit ID.
