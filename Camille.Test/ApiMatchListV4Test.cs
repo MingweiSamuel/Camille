@@ -7,6 +7,7 @@ using MingweiSamuel.Camille.MatchV4;
 namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
+    [Ignore("Requires updating")] // TODO
     public class ApiMatchlistTestV4 : ApiTest
     {
         public const long MillisPerWeek = 7 * TimeSpan.TicksPerDay / TimeSpan.TicksPerMillisecond;
