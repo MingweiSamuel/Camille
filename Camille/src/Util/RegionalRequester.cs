@@ -94,7 +94,8 @@ namespace MingweiSamuel.Camille.Util
                 break;
             }
             throw new RiotResponseException(
-                $"Request failed after {retries} retries. ({(int) (response?.StatusCode ?? 0)}).", response);
+                $"Request to {methodId} failed after {retries} retries. " +
+                $"(status: {(int) (response?.StatusCode ?? 0)}).", response);
         }
 
         private IRateLimit GetMethodRateLimit(string methodId)
