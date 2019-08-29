@@ -4,7 +4,7 @@
     <TargetFrameworks>netcoreapp1.0;netstandard1.1;net45;</TargetFrameworks>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <PackageId>MingweiSamuel.Camille</PackageId>
-    <Version>2.2.1</Version>
+    <Version>2.2.2</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
