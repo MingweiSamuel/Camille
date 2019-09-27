@@ -12,8 +12,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using MingweiSamuel.Camille.Enums;
+
+// ReSharper disable RedundantStringInterpolation
+// ReSharper disable InconsistentNaming
 
 #region methods
 namespace MingweiSamuel.Camille
@@ -60,8 +65,8 @@ namespace MingweiSamuel.Camille
         let endpoint = dotUtils.normalizeEndpointName(endpointName);
 }}
     /// <summary>
-    /// {{= endpoint }} endpoints. This class is automatically generated.<br />
-    /// <a href="https://developer.riotgames.com/api-methods/#{{= endpointName }}">Official API Reference</a>
+    /// {{= endpoint }} endpoints. This class is automatically generated.<para />
+    /// Official API Reference <a href="https://developer.riotgames.com/api-methods/#{{= endpointName }}">https://developer.riotgames.com/api-methods/#{{= endpointName }}</a>
     /// </summary>
     public class {{= endpoint }}Endpoints : Endpoints
     {
@@ -130,12 +135,11 @@ namespace MingweiSamuel.Camille
                 for (var descLine of descArr)
                 {
 }}
-        /// {{= descLine }}<br />
+        /// {{= descLine }}<para />
 {{
                 }
 }}
-        /// <br />
-        /// <a href="{{= get.externalDocs.url }}">{{= get.externalDocs.description }}</a>
+        /// {{= get.externalDocs.description }}: <a href="{{= get.externalDocs.url }}">{{= get.externalDocs.url }}</a>
         /// </summary>
         /// <param name="region">Region to query.</param>
 {{
@@ -186,7 +190,7 @@ namespace MingweiSamuel.Camille
 namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 {
     /// <summary>
-    /// {{= schemaName }} data object. This class is automatically generated.<br />
+    /// {{= schemaName }} data object. This class is automatically generated.<para />
     /// {{= schema.description || '' }}
     /// </summary>
     public class {{= schemaName }}
@@ -215,18 +219,34 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
         {
             let name = dotUtils.normalizePropName(propKey, schemaName, prop);
 }}
+{{? prop.description }}
+        /// <summary>
+        /// {{= prop.description.split('\n').map(x => x.trim()).join('<para />\r\n        /// ') }}
+        /// </summary>
+{{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
         public readonly {{= dotUtils.stringifyType(prop) }} {{= name }};
 {{
         }
 }}
 
+        /// <summary>Contains any extra JSON properties that did not map to fields.</summary>
+        [JsonExtensionData]
+        public readonly Dictionary<string, JToken> _AdditionalProperties = new Dictionary<string, JToken>();
+
         public override string ToString()
         {
-            return $"{{= schemaName }}({{= Object.entries(props)
-                .map(([ propKey, prop ]) => dotUtils.normalizePropName(propKey, schemaName, prop))
-                .map(n => n + ': {' + n + '}')
-                .join(', ') }})";
+            return "{{= schemaName }}"
+{{
+        for (let [ propKey, prop ] of Object.entries(props))
+        {
+            let propName = dotUtils.normalizePropName(propKey, schemaName, prop);
+}}
+                + "{{= propName}}: " + {{= propName }} + ", "
+{{
+        }
+}}
+                + "_AdditionalProperties: {" + string.Join(", ", _AdditionalProperties.Select(kv => $"\"{kv.Key}\": {kv.Value}")) + "})";
         }
     }
 }
