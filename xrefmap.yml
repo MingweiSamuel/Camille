@@ -32,6 +32,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.ChampionMastery
   nameWithType: ChampionMastery.ChampionMastery
+- uid: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html#MingweiSamuel_Camille_ChampionMasteryV4_ChampionMastery__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery._AdditionalProperties
+  nameWithType: ChampionMastery._AdditionalProperties
 - uid: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.ChampionId
   name: ChampionId
   href: api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html#MingweiSamuel_Camille_ChampionMasteryV4_ChampionMastery_ChampionId
@@ -229,6 +235,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionV3.ChampionInfo.ChampionInfo
   nameWithType: ChampionInfo.ChampionInfo
+- uid: MingweiSamuel.Camille.ChampionV3.ChampionInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ChampionV3.ChampionInfo.html#MingweiSamuel_Camille_ChampionV3_ChampionInfo__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.ChampionV3.ChampionInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ChampionV3.ChampionInfo._AdditionalProperties
+  nameWithType: ChampionInfo._AdditionalProperties
 - uid: MingweiSamuel.Camille.ChampionV3.ChampionInfo.FreeChampionIds
   name: FreeChampionIds
   href: api/MingweiSamuel.Camille.ChampionV3.ChampionInfo.html#MingweiSamuel_Camille_ChampionV3_ChampionInfo_FreeChampionIds
@@ -3154,6 +3166,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.LeagueEntry
   nameWithType: LeagueEntry.LeagueEntry
+- uid: MingweiSamuel.Camille.LeagueExpV4.LeagueEntry._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueExpV4_LeagueEntry__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueExpV4.LeagueEntry._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueExpV4.LeagueEntry._AdditionalProperties
+  nameWithType: LeagueEntry._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.FreshBlood
   name: FreshBlood
   href: api/MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueExpV4_LeagueEntry_FreshBlood
@@ -3270,6 +3288,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueExpV4.MiniSeries.MiniSeries
   nameWithType: MiniSeries.MiniSeries
+- uid: MingweiSamuel.Camille.LeagueExpV4.MiniSeries._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueExpV4.MiniSeries.html#MingweiSamuel_Camille_LeagueExpV4_MiniSeries__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueExpV4.MiniSeries._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueExpV4.MiniSeries._AdditionalProperties
+  nameWithType: MiniSeries._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueExpV4.MiniSeries.Losses
   name: Losses
   href: api/MingweiSamuel.Camille.LeagueExpV4.MiniSeries.html#MingweiSamuel_Camille_LeagueExpV4_MiniSeries_Losses
@@ -3370,6 +3394,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry.LeagueEntry
   nameWithType: LeagueEntry.LeagueEntry
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueEntry._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueEntry._AdditionalProperties
+  nameWithType: LeagueEntry._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueV4.LeagueEntry.FreshBlood
   name: FreshBlood
   href: api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html#MingweiSamuel_Camille_LeagueV4_LeagueEntry_FreshBlood
@@ -3486,6 +3516,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4.LeagueItem.LeagueItem
   nameWithType: LeagueItem.LeagueItem
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueItem._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueItem.html#MingweiSamuel_Camille_LeagueV4_LeagueItem__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueItem._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueItem._AdditionalProperties
+  nameWithType: LeagueItem._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueV4.LeagueItem.FreshBlood
   name: FreshBlood
   href: api/MingweiSamuel.Camille.LeagueV4.LeagueItem.html#MingweiSamuel_Camille_LeagueV4_LeagueItem_FreshBlood
@@ -3587,6 +3623,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4.LeagueList.LeagueList
   nameWithType: LeagueList.LeagueList
+- uid: MingweiSamuel.Camille.LeagueV4.LeagueList._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueV4.LeagueList.html#MingweiSamuel_Camille_LeagueV4_LeagueList__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueV4.LeagueList._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueV4.LeagueList._AdditionalProperties
+  nameWithType: LeagueList._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueV4.LeagueList.Entries
   name: Entries
   href: api/MingweiSamuel.Camille.LeagueV4.LeagueList.html#MingweiSamuel_Camille_LeagueV4_LeagueList_Entries
@@ -3649,6 +3691,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4.MiniSeries.MiniSeries
   nameWithType: MiniSeries.MiniSeries
+- uid: MingweiSamuel.Camille.LeagueV4.MiniSeries._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LeagueV4.MiniSeries.html#MingweiSamuel_Camille_LeagueV4_MiniSeries__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LeagueV4.MiniSeries._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LeagueV4.MiniSeries._AdditionalProperties
+  nameWithType: MiniSeries._AdditionalProperties
 - uid: MingweiSamuel.Camille.LeagueV4.MiniSeries.Losses
   name: Losses
   href: api/MingweiSamuel.Camille.LeagueV4.MiniSeries.html#MingweiSamuel_Camille_LeagueV4_MiniSeries_Losses
@@ -3912,6 +3960,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Incident.Incident
   nameWithType: Incident.Incident
+- uid: MingweiSamuel.Camille.LolStatusV3.Incident._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolStatusV3.Incident.html#MingweiSamuel_Camille_LolStatusV3_Incident__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LolStatusV3.Incident._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolStatusV3.Incident._AdditionalProperties
+  nameWithType: Incident._AdditionalProperties
 - uid: MingweiSamuel.Camille.LolStatusV3.Incident.Active
   name: Active
   href: api/MingweiSamuel.Camille.LolStatusV3.Incident.html#MingweiSamuel_Camille_LolStatusV3_Incident_Active
@@ -3971,6 +4025,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Message.Message
   nameWithType: Message.Message
+- uid: MingweiSamuel.Camille.LolStatusV3.Message._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolStatusV3.Message.html#MingweiSamuel_Camille_LolStatusV3_Message__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LolStatusV3.Message._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolStatusV3.Message._AdditionalProperties
+  nameWithType: Message._AdditionalProperties
 - uid: MingweiSamuel.Camille.LolStatusV3.Message.Author
   name: Author
   href: api/MingweiSamuel.Camille.LolStatusV3.Message.html#MingweiSamuel_Camille_LolStatusV3_Message_Author
@@ -4048,6 +4108,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Service.Service
   nameWithType: Service.Service
+- uid: MingweiSamuel.Camille.LolStatusV3.Service._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolStatusV3.Service.html#MingweiSamuel_Camille_LolStatusV3_Service__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LolStatusV3.Service._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolStatusV3.Service._AdditionalProperties
+  nameWithType: Service._AdditionalProperties
 - uid: MingweiSamuel.Camille.LolStatusV3.Service.Incidents
   name: Incidents
   href: api/MingweiSamuel.Camille.LolStatusV3.Service.html#MingweiSamuel_Camille_LolStatusV3_Service_Incidents
@@ -4107,6 +4173,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.ShardStatus.ShardStatus
   nameWithType: ShardStatus.ShardStatus
+- uid: MingweiSamuel.Camille.LolStatusV3.ShardStatus._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolStatusV3.ShardStatus.html#MingweiSamuel_Camille_LolStatusV3_ShardStatus__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LolStatusV3.ShardStatus._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolStatusV3.ShardStatus._AdditionalProperties
+  nameWithType: ShardStatus._AdditionalProperties
 - uid: MingweiSamuel.Camille.LolStatusV3.ShardStatus.Hostname
   name: Hostname
   href: api/MingweiSamuel.Camille.LolStatusV3.ShardStatus.html#MingweiSamuel_Camille_LolStatusV3_ShardStatus_Hostname
@@ -4175,6 +4247,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Translation.Translation
   nameWithType: Translation.Translation
+- uid: MingweiSamuel.Camille.LolStatusV3.Translation._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.LolStatusV3.Translation._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolStatusV3.Translation._AdditionalProperties
+  nameWithType: Translation._AdditionalProperties
 - uid: MingweiSamuel.Camille.LolStatusV3.Translation.Content
   name: Content
   href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_Content
@@ -4269,6 +4347,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Mastery.Mastery
   nameWithType: Mastery.Mastery
+- uid: MingweiSamuel.Camille.MatchV4.Mastery._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Mastery.html#MingweiSamuel_Camille_MatchV4_Mastery__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Mastery._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Mastery._AdditionalProperties
+  nameWithType: Mastery._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Mastery.MasteryId
   name: MasteryId
   href: api/MingweiSamuel.Camille.MatchV4.Mastery.html#MingweiSamuel_Camille_MatchV4_Mastery_MasteryId
@@ -4316,6 +4400,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Match.Match
   nameWithType: Match.Match
+- uid: MingweiSamuel.Camille.MatchV4.Match._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Match.html#MingweiSamuel_Camille_MatchV4_Match__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Match._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Match.GameCreation
   name: GameCreation
   href: api/MingweiSamuel.Camille.MatchV4.Match.html#MingweiSamuel_Camille_MatchV4_Match_GameCreation
@@ -4429,6 +4519,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchEvent.MatchEvent
   nameWithType: MatchEvent.MatchEvent
+- uid: MingweiSamuel.Camille.MatchV4.MatchEvent._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchEvent.html#MingweiSamuel_Camille_MatchV4_MatchEvent__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchEvent._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchEvent._AdditionalProperties
+  nameWithType: MatchEvent._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchEvent.AfterId
   name: AfterId
   href: api/MingweiSamuel.Camille.MatchV4.MatchEvent.html#MingweiSamuel_Camille_MatchV4_MatchEvent_AfterId
@@ -4602,6 +4698,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchFrame.MatchFrame
   nameWithType: MatchFrame.MatchFrame
+- uid: MingweiSamuel.Camille.MatchV4.MatchFrame._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchFrame.html#MingweiSamuel_Camille_MatchV4_MatchFrame__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchFrame._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchFrame._AdditionalProperties
+  nameWithType: MatchFrame._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchFrame.Events
   name: Events
   href: api/MingweiSamuel.Camille.MatchV4.MatchFrame.html#MingweiSamuel_Camille_MatchV4_MatchFrame_Events
@@ -4655,6 +4757,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Matchlist.Matchlist
   nameWithType: Matchlist.Matchlist
+- uid: MingweiSamuel.Camille.MatchV4.Matchlist._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Matchlist.html#MingweiSamuel_Camille_MatchV4_Matchlist__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Matchlist._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Matchlist._AdditionalProperties
+  nameWithType: Matchlist._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Matchlist.EndIndex
   name: EndIndex
   href: api/MingweiSamuel.Camille.MatchV4.Matchlist.html#MingweiSamuel_Camille_MatchV4_Matchlist_EndIndex
@@ -4711,6 +4819,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.MatchParticipantFrame
   nameWithType: MatchParticipantFrame.MatchParticipantFrame
+- uid: MingweiSamuel.Camille.MatchV4.MatchParticipantFrame._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.html#MingweiSamuel_Camille_MatchV4_MatchParticipantFrame__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchParticipantFrame._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchParticipantFrame._AdditionalProperties
+  nameWithType: MatchParticipantFrame._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.CurrentGold
   name: CurrentGold
   href: api/MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.html#MingweiSamuel_Camille_MatchV4_MatchParticipantFrame_CurrentGold
@@ -4803,6 +4917,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchPosition.MatchPosition
   nameWithType: MatchPosition.MatchPosition
+- uid: MingweiSamuel.Camille.MatchV4.MatchPosition._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchPosition.html#MingweiSamuel_Camille_MatchV4_MatchPosition__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchPosition._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchPosition._AdditionalProperties
+  nameWithType: MatchPosition._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchPosition.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.MatchV4.MatchPosition.html#MingweiSamuel_Camille_MatchV4_MatchPosition_ToString
@@ -4847,6 +4967,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchReference.MatchReference
   nameWithType: MatchReference.MatchReference
+- uid: MingweiSamuel.Camille.MatchV4.MatchReference._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchReference.html#MingweiSamuel_Camille_MatchV4_MatchReference__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchReference._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchReference._AdditionalProperties
+  nameWithType: MatchReference._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchReference.Champion
   name: Champion
   href: api/MingweiSamuel.Camille.MatchV4.MatchReference.html#MingweiSamuel_Camille_MatchV4_MatchReference_Champion
@@ -4930,6 +5056,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.MatchTimeline.MatchTimeline
   nameWithType: MatchTimeline.MatchTimeline
+- uid: MingweiSamuel.Camille.MatchV4.MatchTimeline._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.MatchTimeline.html#MingweiSamuel_Camille_MatchV4_MatchTimeline__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.MatchTimeline._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.MatchTimeline._AdditionalProperties
+  nameWithType: MatchTimeline._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.MatchTimeline.FrameInterval
   name: FrameInterval
   href: api/MingweiSamuel.Camille.MatchV4.MatchTimeline.html#MingweiSamuel_Camille_MatchV4_MatchTimeline_FrameInterval
@@ -4977,6 +5109,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Participant.Participant
   nameWithType: Participant.Participant
+- uid: MingweiSamuel.Camille.MatchV4.Participant._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Participant.html#MingweiSamuel_Camille_MatchV4_Participant__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Participant._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Participant._AdditionalProperties
+  nameWithType: Participant._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Participant.ChampionId
   name: ChampionId
   href: api/MingweiSamuel.Camille.MatchV4.Participant.html#MingweiSamuel_Camille_MatchV4_Participant_ChampionId
@@ -5069,6 +5207,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.ParticipantIdentity.ParticipantIdentity
   nameWithType: ParticipantIdentity.ParticipantIdentity
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantIdentity._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantIdentity.html#MingweiSamuel_Camille_MatchV4_ParticipantIdentity__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.ParticipantIdentity._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantIdentity._AdditionalProperties
+  nameWithType: ParticipantIdentity._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.ParticipantIdentity.ParticipantId
   name: ParticipantId
   href: api/MingweiSamuel.Camille.MatchV4.ParticipantIdentity.html#MingweiSamuel_Camille_MatchV4_ParticipantIdentity_ParticipantId
@@ -5113,6 +5257,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.ParticipantStats
   nameWithType: ParticipantStats.ParticipantStats
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.ParticipantStats._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats._AdditionalProperties
+  nameWithType: ParticipantStats._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.AltarsCaptured
   name: AltarsCaptured
   href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_AltarsCaptured
@@ -5796,6 +5946,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.ParticipantTimeline.ParticipantTimeline
   nameWithType: ParticipantTimeline.ParticipantTimeline
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantTimeline._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantTimeline.html#MingweiSamuel_Camille_MatchV4_ParticipantTimeline__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.ParticipantTimeline._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantTimeline._AdditionalProperties
+  nameWithType: ParticipantTimeline._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.ParticipantTimeline.CreepsPerMinDeltas
   name: CreepsPerMinDeltas
   href: api/MingweiSamuel.Camille.MatchV4.ParticipantTimeline.html#MingweiSamuel_Camille_MatchV4_ParticipantTimeline_CreepsPerMinDeltas
@@ -5888,6 +6044,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Player.Player
   nameWithType: Player.Player
+- uid: MingweiSamuel.Camille.MatchV4.Player._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Player.html#MingweiSamuel_Camille_MatchV4_Player__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Player._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Player._AdditionalProperties
+  nameWithType: Player._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Player.AccountId
   name: AccountId
   href: api/MingweiSamuel.Camille.MatchV4.Player.html#MingweiSamuel_Camille_MatchV4_Player_AccountId
@@ -5968,6 +6130,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.Rune.Rune
   nameWithType: Rune.Rune
+- uid: MingweiSamuel.Camille.MatchV4.Rune._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.Rune.html#MingweiSamuel_Camille_MatchV4_Rune__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.Rune._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.Rune._AdditionalProperties
+  nameWithType: Rune._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.Rune.Rank
   name: Rank
   href: api/MingweiSamuel.Camille.MatchV4.Rune.html#MingweiSamuel_Camille_MatchV4_Rune_Rank
@@ -6012,6 +6180,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.TeamBans.TeamBans
   nameWithType: TeamBans.TeamBans
+- uid: MingweiSamuel.Camille.MatchV4.TeamBans._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.TeamBans.html#MingweiSamuel_Camille_MatchV4_TeamBans__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.TeamBans._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.TeamBans._AdditionalProperties
+  nameWithType: TeamBans._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.TeamBans.ChampionId
   name: ChampionId
   href: api/MingweiSamuel.Camille.MatchV4.TeamBans.html#MingweiSamuel_Camille_MatchV4_TeamBans_ChampionId
@@ -6059,6 +6233,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.TeamStats.TeamStats
   nameWithType: TeamStats.TeamStats
+- uid: MingweiSamuel.Camille.MatchV4.TeamStats._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV4.TeamStats.html#MingweiSamuel_Camille_MatchV4_TeamStats__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.MatchV4.TeamStats._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV4.TeamStats._AdditionalProperties
+  nameWithType: TeamStats._AdditionalProperties
 - uid: MingweiSamuel.Camille.MatchV4.TeamStats.Bans
   name: Bans
   href: api/MingweiSamuel.Camille.MatchV4.TeamStats.html#MingweiSamuel_Camille_MatchV4_TeamStats_Bans
@@ -6602,6 +6782,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.BannedChampion.BannedChampion
   nameWithType: BannedChampion.BannedChampion
+- uid: MingweiSamuel.Camille.SpectatorV4.BannedChampion._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.BannedChampion.html#MingweiSamuel_Camille_SpectatorV4_BannedChampion__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.BannedChampion._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.BannedChampion._AdditionalProperties
+  nameWithType: BannedChampion._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.BannedChampion.ChampionId
   name: ChampionId
   href: api/MingweiSamuel.Camille.SpectatorV4.BannedChampion.html#MingweiSamuel_Camille_SpectatorV4_BannedChampion_ChampionId
@@ -6655,6 +6841,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.CurrentGameInfo
   nameWithType: CurrentGameInfo.CurrentGameInfo
+- uid: MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.html#MingweiSamuel_Camille_SpectatorV4_CurrentGameInfo__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo._AdditionalProperties
+  nameWithType: CurrentGameInfo._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.BannedChampions
   name: BannedChampions
   href: api/MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.html#MingweiSamuel_Camille_SpectatorV4_CurrentGameInfo_BannedChampions
@@ -6756,6 +6948,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.CurrentGameParticipant
   nameWithType: CurrentGameParticipant.CurrentGameParticipant
+- uid: MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.html#MingweiSamuel_Camille_SpectatorV4_CurrentGameParticipant__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant._AdditionalProperties
+  nameWithType: CurrentGameParticipant._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.Bot
   name: Bot
   href: api/MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.html#MingweiSamuel_Camille_SpectatorV4_CurrentGameParticipant_Bot
@@ -6851,6 +7049,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.FeaturedGameInfo
   nameWithType: FeaturedGameInfo.FeaturedGameInfo
+- uid: MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.html#MingweiSamuel_Camille_SpectatorV4_FeaturedGameInfo__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo._AdditionalProperties
+  nameWithType: FeaturedGameInfo._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.BannedChampions
   name: BannedChampions
   href: api/MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.html#MingweiSamuel_Camille_SpectatorV4_FeaturedGameInfo_BannedChampions
@@ -6952,6 +7156,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.FeaturedGames.FeaturedGames
   nameWithType: FeaturedGames.FeaturedGames
+- uid: MingweiSamuel.Camille.SpectatorV4.FeaturedGames._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.FeaturedGames.html#MingweiSamuel_Camille_SpectatorV4_FeaturedGames__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.FeaturedGames._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.FeaturedGames._AdditionalProperties
+  nameWithType: FeaturedGames._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.FeaturedGames.ClientRefreshInterval
   name: ClientRefreshInterval
   href: api/MingweiSamuel.Camille.SpectatorV4.FeaturedGames.html#MingweiSamuel_Camille_SpectatorV4_FeaturedGames_ClientRefreshInterval
@@ -6996,6 +7206,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.GameCustomizationObject
   nameWithType: GameCustomizationObject.GameCustomizationObject
+- uid: MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.html#MingweiSamuel_Camille_SpectatorV4_GameCustomizationObject__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject._AdditionalProperties
+  nameWithType: GameCustomizationObject._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.Category
   name: Category
   href: api/MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.html#MingweiSamuel_Camille_SpectatorV4_GameCustomizationObject_Category
@@ -7040,6 +7256,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.Observer.Observer
   nameWithType: Observer.Observer
+- uid: MingweiSamuel.Camille.SpectatorV4.Observer._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.Observer.html#MingweiSamuel_Camille_SpectatorV4_Observer__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.Observer._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.Observer._AdditionalProperties
+  nameWithType: Observer._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.Observer.EncryptionKey
   name: EncryptionKey
   href: api/MingweiSamuel.Camille.SpectatorV4.Observer.html#MingweiSamuel_Camille_SpectatorV4_Observer_EncryptionKey
@@ -7078,6 +7300,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.Participant.Participant
   nameWithType: Participant.Participant
+- uid: MingweiSamuel.Camille.SpectatorV4.Participant._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.Participant.html#MingweiSamuel_Camille_SpectatorV4_Participant__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.Participant._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.Participant._AdditionalProperties
+  nameWithType: Participant._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.Participant.Bot
   name: Bot
   href: api/MingweiSamuel.Camille.SpectatorV4.Participant.html#MingweiSamuel_Camille_SpectatorV4_Participant_Bot
@@ -7155,6 +7383,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SpectatorV4.Perks.Perks
   nameWithType: Perks.Perks
+- uid: MingweiSamuel.Camille.SpectatorV4.Perks._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SpectatorV4.Perks.html#MingweiSamuel_Camille_SpectatorV4_Perks__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SpectatorV4.Perks._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SpectatorV4.Perks._AdditionalProperties
+  nameWithType: Perks._AdditionalProperties
 - uid: MingweiSamuel.Camille.SpectatorV4.Perks.PerkIds
   name: PerkIds
   href: api/MingweiSamuel.Camille.SpectatorV4.Perks.html#MingweiSamuel_Camille_SpectatorV4_Perks_PerkIds
@@ -7281,6 +7515,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SummonerV4.Summoner.Summoner
   nameWithType: Summoner.Summoner
+- uid: MingweiSamuel.Camille.SummonerV4.Summoner._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.SummonerV4.Summoner.html#MingweiSamuel_Camille_SummonerV4_Summoner__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.SummonerV4.Summoner._AdditionalProperties
+  fullName: MingweiSamuel.Camille.SummonerV4.Summoner._AdditionalProperties
+  nameWithType: Summoner._AdditionalProperties
 - uid: MingweiSamuel.Camille.SummonerV4.Summoner.AccountId
   name: AccountId
   href: api/MingweiSamuel.Camille.SummonerV4.Summoner.html#MingweiSamuel_Camille_SummonerV4_Summoner_AccountId
@@ -7533,6 +7773,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.LobbyEvent
   nameWithType: LobbyEvent.LobbyEvent
+- uid: MingweiSamuel.Camille.TournamentStubV4.LobbyEvent._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.html#MingweiSamuel_Camille_TournamentStubV4_LobbyEvent__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentStubV4.LobbyEvent._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentStubV4.LobbyEvent._AdditionalProperties
+  nameWithType: LobbyEvent._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.EventType
   name: EventType
   href: api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.html#MingweiSamuel_Camille_TournamentStubV4_LobbyEvent_EventType
@@ -7586,6 +7832,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.LobbyEventWrapper
   nameWithType: LobbyEventWrapper.LobbyEventWrapper
+- uid: MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.html#MingweiSamuel_Camille_TournamentStubV4_LobbyEventWrapper__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper._AdditionalProperties
+  nameWithType: LobbyEventWrapper._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.EventList
   name: EventList
   href: api/MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.html#MingweiSamuel_Camille_TournamentStubV4_LobbyEventWrapper_EventList
@@ -7624,6 +7876,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.ProviderRegistrationParameters
   nameWithType: ProviderRegistrationParameters.ProviderRegistrationParameters
+- uid: MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.html#MingweiSamuel_Camille_TournamentStubV4_ProviderRegistrationParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters._AdditionalProperties
+  nameWithType: ProviderRegistrationParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.Region
   name: Region
   href: api/MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.html#MingweiSamuel_Camille_TournamentStubV4_ProviderRegistrationParameters_Region
@@ -7671,6 +7929,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.TournamentCodeParameters
   nameWithType: TournamentCodeParameters.TournamentCodeParameters
+- uid: MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.html#MingweiSamuel_Camille_TournamentStubV4_TournamentCodeParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters._AdditionalProperties
+  nameWithType: TournamentCodeParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.AllowedSummonerIds
   name: AllowedSummonerIds
   href: api/MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.html#MingweiSamuel_Camille_TournamentStubV4_TournamentCodeParameters_AllowedSummonerIds
@@ -7739,6 +8003,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.TournamentRegistrationParameters
   nameWithType: TournamentRegistrationParameters.TournamentRegistrationParameters
+- uid: MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.html#MingweiSamuel_Camille_TournamentStubV4_TournamentRegistrationParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters._AdditionalProperties
+  nameWithType: TournamentRegistrationParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.Name
   name: Name
   href: api/MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.html#MingweiSamuel_Camille_TournamentStubV4_TournamentRegistrationParameters_Name
@@ -7827,6 +8097,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.LobbyEvent.LobbyEvent
   nameWithType: LobbyEvent.LobbyEvent
+- uid: MingweiSamuel.Camille.TournamentV4.LobbyEvent._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.LobbyEvent.html#MingweiSamuel_Camille_TournamentV4_LobbyEvent__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.LobbyEvent._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.LobbyEvent._AdditionalProperties
+  nameWithType: LobbyEvent._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.LobbyEvent.EventType
   name: EventType
   href: api/MingweiSamuel.Camille.TournamentV4.LobbyEvent.html#MingweiSamuel_Camille_TournamentV4_LobbyEvent_EventType
@@ -7880,6 +8156,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.LobbyEventWrapper
   nameWithType: LobbyEventWrapper.LobbyEventWrapper
+- uid: MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.html#MingweiSamuel_Camille_TournamentV4_LobbyEventWrapper__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper._AdditionalProperties
+  nameWithType: LobbyEventWrapper._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.EventList
   name: EventList
   href: api/MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.html#MingweiSamuel_Camille_TournamentV4_LobbyEventWrapper_EventList
@@ -7918,6 +8200,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.ProviderRegistrationParameters
   nameWithType: ProviderRegistrationParameters.ProviderRegistrationParameters
+- uid: MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.html#MingweiSamuel_Camille_TournamentV4_ProviderRegistrationParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters._AdditionalProperties
+  nameWithType: ProviderRegistrationParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.Region
   name: Region
   href: api/MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.html#MingweiSamuel_Camille_TournamentV4_ProviderRegistrationParameters_Region
@@ -7965,6 +8253,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.TournamentCode.TournamentCode
   nameWithType: TournamentCode.TournamentCode
+- uid: MingweiSamuel.Camille.TournamentV4.TournamentCode._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.TournamentCode.html#MingweiSamuel_Camille_TournamentV4_TournamentCode__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.TournamentCode._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.TournamentCode._AdditionalProperties
+  nameWithType: TournamentCode._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.TournamentCode.Code
   name: Code
   href: api/MingweiSamuel.Camille.TournamentV4.TournamentCode.html#MingweiSamuel_Camille_TournamentV4_TournamentCode_Code
@@ -8078,6 +8372,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.TournamentCodeParameters
   nameWithType: TournamentCodeParameters.TournamentCodeParameters
+- uid: MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentCodeParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters._AdditionalProperties
+  nameWithType: TournamentCodeParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.AllowedSummonerIds
   name: AllowedSummonerIds
   href: api/MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentCodeParameters_AllowedSummonerIds
@@ -8149,6 +8449,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.TournamentCodeUpdateParameters
   nameWithType: TournamentCodeUpdateParameters.TournamentCodeUpdateParameters
+- uid: MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentCodeUpdateParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters._AdditionalProperties
+  nameWithType: TournamentCodeUpdateParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.AllowedSummonerIds
   name: AllowedSummonerIds
   href: api/MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentCodeUpdateParameters_AllowedSummonerIds
@@ -8205,6 +8511,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.TournamentRegistrationParameters
   nameWithType: TournamentRegistrationParameters.TournamentRegistrationParameters
+- uid: MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentRegistrationParameters__AdditionalProperties
+  commentId: F:MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters._AdditionalProperties
+  nameWithType: TournamentRegistrationParameters._AdditionalProperties
 - uid: MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.Name
   name: Name
   href: api/MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.html#MingweiSamuel_Camille_TournamentV4_TournamentRegistrationParameters_Name
