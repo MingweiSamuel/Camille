@@ -225,14 +225,14 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
-        public readonly {{= dotUtils.stringifyType(prop) }} {{= name }};
+        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; }
 {{
         }
 }}
 
         /// <summary>Contains any extra JSON properties that did not map to fields.</summary>
         [JsonExtensionData]
-        public readonly Dictionary<string, JToken> _AdditionalProperties = new Dictionary<string, JToken>();
+        public Dictionary<string, object> _AdditionalProperties { get; } = new Dictionary<string, object>();
 
         public override string ToString()
         {
