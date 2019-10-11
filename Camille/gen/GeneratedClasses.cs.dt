@@ -13,9 +13,17 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using MingweiSamuel.Camille.Enums;
+
+#if USE_NEWTONSOFT
+using JsonPropertyAttribute = Newtonsoft.Json.JsonPropertyAttribute;
+using JsonExtensionDataAttribute = Newtonsoft.Json.JsonExtensionDataAttribute;
+#endif
+
+#if USE_SYSTEXTJSON
+using JsonPropertyAttribute = System.Text.Json.Serialization.JsonPropertyNameAttribute;
+using JsonExtensionDataAttribute = System.Text.Json.Serialization.JsonExtensionDataAttribute;
+#endif
 
 // ReSharper disable RedundantStringInterpolation
 // ReSharper disable InconsistentNaming
@@ -195,25 +203,8 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
     /// </summary>
     public class {{= schemaName }}
     {
-        public {{= schemaName }}({{= Object.entries(props)
-            .map(([ key, value ]) => dotUtils.formatJsonProperty(key) + ' ' +
-                dotUtils.stringifyType(value) + ' ' + dotUtils.normalizeArgName(key))
-            .join(',\r\n                ') }})
-        {
-{{
-        for (let [ propKey, prop ] of Object.entries(props))
-        {
-            let name = dotUtils.normalizePropName(propKey, schemaName, prop);
-            if (name === schemaName)
-                name += dotUtils.stringifyType(prop);
-            let argName = dotUtils.normalizeArgName(propKey);
-            let thiz = argName === name ? 'this.' : '';
-}}
-            {{= thiz }}{{= name }} = {{= argName }};
-{{
-        }
-}}
-        }
+        public {{= schemaName }}()
+        {}
 {{
         for (let [ propKey, prop ] of Object.entries(props))
         {
@@ -225,7 +216,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
-        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; }
+        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; set; }
 {{
         }
 }}

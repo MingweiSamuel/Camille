@@ -6,7 +6,6 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
-using Newtonsoft.Json;
 
 namespace MingweiSamuel.Camille.Util
 {
@@ -85,7 +84,15 @@ namespace MingweiSamuel.Camille.Util
                     rateLimit.OnResponse(response);
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
-                    return JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+#if USE_NEWTONSOFT
+                    return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
+#endif
+#if USE_SYSTEXTJSON
+                    return System.Text.Json.JsonSerializer.Deserialize<T>(json);
+#endif
+                }
                 if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default(T);
                 // Failure. 429 and 5xx are retryable. All else exit.
