@@ -15,20 +15,6 @@ using System.Threading.Tasks;
 using System.Linq;
 using MingweiSamuel.Camille.Enums;
 
-#if USE_NEWTONSOFT
-using JsonPropertyAttribute = Newtonsoft.Json.JsonPropertyAttribute;
-using JsonExtensionDataAttribute = Newtonsoft.Json.JsonExtensionDataAttribute;
-#endif
-
-#if USE_SYSTEXTJSON
-using JsonPropertyAttribute = System.Text.Json.Serialization.JsonPropertyNameAttribute;
-using JsonExtensionDataAttribute = System.Text.Json.Serialization.JsonExtensionDataAttribute;
-#endif
-
-// ReSharper disable RedundantStringInterpolation
-// ReSharper disable InconsistentNaming
-
-#region methods
 namespace MingweiSamuel.Camille
 {
 {{
@@ -39,33 +25,6 @@ namespace MingweiSamuel.Camille
         endpointGroups[ep].push(path);
     }
 }}
-{{/* RiotApi Class */}}
-    public partial class RiotApi
-    {
-{{
-    for (let [ endpointName, endpointMethods ] of Object.entries(endpointGroups))
-    {
-        let endpoint = dotUtils.normalizeEndpointName(endpointName);
-}}
-        public readonly {{= endpoint }}Endpoints {{= endpoint }};
-{{
-    }
-}}
-
-        private RiotApi()
-        {
-{{
-    for (let [ endpointName, endpointMethods ] of Object.entries(endpointGroups))
-    {
-        let endpoint = dotUtils.normalizeEndpointName(endpointName);
-}}
-            {{= endpoint }} = new {{= endpoint }}Endpoints(this);
-{{
-    }
-}}
-        }
-    }
-
 {{/* Endpoint Classes */}}
 {{
     for (let [ endpointName, endpointMethods ] of Object.entries(endpointGroups))
@@ -92,6 +51,7 @@ namespace MingweiSamuel.Camille
 
             let jsonInfo = get.responses['200'].content['application/json'];
             let returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
+            if ('int' !== returnType) returnType += '?'; /* HACK. */
 
             /* Cases if not rate limited. */
             let rateLimitExcluded = get['x-app-rate-limit-excluded'] ? true : false;
@@ -107,6 +67,7 @@ namespace MingweiSamuel.Camille
             let argBuilder = [];
             let makeParamCode = '';
             let allParams = get.parameters;
+            let queryParams = [];
             if (allParams && allParams.length)
             {
                 let pathParams = allParams.filter(p => 'path' === p.in)
@@ -117,6 +78,8 @@ namespace MingweiSamuel.Camille
                         let match = /(^[a-z]+|[A-Z]+(?![a-z])|[A-Z][a-z]+)/.exec(p.name);
                         return match.slice(1).reverse().join('');
                     });
+                queryParams = reqParams.concat(optParams);
+
                 for (let paramList of [ pathParams, reqParams, optParams ])
                 {
                     let required = paramList === pathParams;
@@ -129,10 +92,6 @@ namespace MingweiSamuel.Camille
                             argBuilder.push(' = null');
                     }
                 }
-                makeParamCode = reqParams.concat(optParams)
-                    .map(p => p.name)
-                    .flatMap(n => [ `nameof(${n})`, n ])
-                    .join(', ');
             }
 
             for (let asynch of [ '', 'Async' ])
@@ -164,8 +123,19 @@ namespace MingweiSamuel.Camille
         /// <param name="cancellationToken">A cancellation token that can be used to cancel this task.</param>
         public {{= "Async" === asynch ? `Task<${returnType}>` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }}, CancellationToken? cancellationToken = null)
         {
+{{? queryParams.length }}
+            var queryParams = new List<KeyValuePair<string, string>>();
+{{
+                for (let queryParam of queryParams)
+                { 
+}}
+            {{= dotUtils.formatAddQueryParam(queryParam) }};
+{{
+                }
+}}
+{{?}}
             return RiotApi.Get{{= asynch }}<{{= returnType }}>("{{= operationId }}", $"{{= route }}",
-                region, MakeParams({{= makeParamCode }}), {{= rateLimitExcluded }}, cancellationToken);
+                region, {{= queryParams.length ? 'queryParams' : 'QUERY_PARAMS_EMPTY' }}, {{= rateLimitExcluded }}, cancellationToken);
         }
 
 {{
@@ -177,72 +147,3 @@ namespace MingweiSamuel.Camille
     }
 }}
 }
-#endregion
-
-#region data objects
-{{/* DTOs */}}
-{{
-    let schemas = spec.components.schemas;
-    for (let schemaKey of Object.keys(schemas)) {
-        if ('Error'  === schemaKey) {
-            continue;
-        }
-        let schemaSplit = schemaKey.split('.');
-        let endpoint = schemaSplit[0];
-        if ('lol-static-data-v3' === endpoint) { continue; }
-        let schemaName = dotUtils.normalizeSchemaName(schemaSplit[1]);
-        let schema = schemas[schemaKey];
-        let props = schema.properties;
-}}
-// {{= endpoint }}
-namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
-{
-    /// <summary>
-    /// {{= schemaName }} data object. This class is automatically generated.<para />
-    /// {{= schema.description || '' }}
-    /// </summary>
-    public class {{= schemaName }}
-    {
-        public {{= schemaName }}()
-        {}
-{{
-        for (let [ propKey, prop ] of Object.entries(props))
-        {
-            let name = dotUtils.normalizePropName(propKey, schemaName, prop);
-}}
-{{? prop.description }}
-        /// <summary>
-        /// {{= prop.description.split('\n').map(x => x.trim()).join('<para />\r\n        /// ') }}
-        /// </summary>
-{{?}}
-        {{= dotUtils.formatJsonProperty(propKey) }}
-        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; set; }
-{{
-        }
-}}
-
-        /// <summary>Contains any extra JSON properties that did not map to fields.</summary>
-        [JsonExtensionData]
-        public Dictionary<string, object> _AdditionalProperties { get; } = new Dictionary<string, object>();
-
-        public override string ToString()
-        {
-            return "{{= schemaName }}"
-{{
-        for (let [ propKey, prop ] of Object.entries(props))
-        {
-            let propName = dotUtils.normalizePropName(propKey, schemaName, prop);
-}}
-                + "{{= propName}}: " + {{= propName }} + ", "
-{{
-        }
-}}
-                + "_AdditionalProperties: {" + string.Join(", ", _AdditionalProperties.Select(kv => $"\"{kv.Key}\": {kv.Value}")) + "})";
-        }
-    }
-}
-
-{{
-    }
-}}
-#endregion

@@ -88,10 +88,12 @@ namespace MingweiSamuel.Camille.Util
             response.Headers.TryGetValues(_rateLimitType.CountHeader(), out countHeaderEnumerable);
             var countHeader = countHeaderEnumerable?.FirstOrDefault();
 
-            if (!CheckBucketsRequireUpdating(limitHeader, countHeader))
+            if (limitHeader == null || countHeader == null)
+                return;
+            if (!CheckBucketsRequireUpdating(limitHeader))
                 return;
             lock(_bucketsLock) {
-                if (!CheckBucketsRequireUpdating(limitHeader, countHeader))
+                if (!CheckBucketsRequireUpdating(limitHeader))
                     return;
                 try
                 {
@@ -108,12 +110,9 @@ namespace MingweiSamuel.Camille.Util
         /// Check if the buckets need updating based on a response and the current buckets.
         /// </summary>
         /// <param name="limitHeader"></param>
-        /// <param name="countHeader"></param>
         /// <returns>True if needs update, false otherwise.</returns>
-        private bool CheckBucketsRequireUpdating(string limitHeader, string countHeader)
+        private bool CheckBucketsRequireUpdating(string limitHeader)
         {
-            if (limitHeader == null || countHeader == null)
-                return false;
             var currentLimit = string.Join(",", _buckets.Select(b => b.ToLimitString()));
             // Needs update if headers do not match.
             return !limitHeader.Equals(currentLimit);
@@ -122,7 +121,7 @@ namespace MingweiSamuel.Camille.Util
         /// <param name="limitHeader"></param>
         /// <param name="countHeader"></param>
         /// <returns>A new set of buckets based on the provided headers.</returns>
-        private IReadOnlyList<ITokenBucket> GetBucketsFromHeaders(string limitHeader, String countHeader)
+        private IReadOnlyList<ITokenBucket> GetBucketsFromHeaders(string limitHeader, string countHeader)
         {
             // Limits: "20000:10,1200000:600"
             // Counts: "7:10,58:600"

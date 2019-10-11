@@ -2,6 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.1;net45;netcoreapp2.0;netstandard2.1;netcoreapp3.0</TargetFrameworks>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
     <PackageId>MingweiSamuel.Camille</PackageId>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
     <Version>2.3.0</Version>
@@ -33,9 +35,13 @@
     <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
   </PropertyGroup>
 
-  <!-- Newtonsoft from Nuget. -->
+  <!-- Newtonsoft & Nullable attributes from Nuget. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netcoreapp2.0'">
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Nullable" Version="1.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
   <!-- System.Net.Http from Nuget. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">

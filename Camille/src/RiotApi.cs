@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using MingweiSamuel.Camille.Enums;
@@ -13,6 +14,7 @@ namespace MingweiSamuel.Camille
 
         private RiotApi(IRiotApiConfig config) : this()
         {
+            if (null == config) throw new ArgumentException($"{nameof(config)} cannot be null.");
             _requestManager = new RequestManager(config);
         }
 
@@ -38,13 +40,13 @@ namespace MingweiSamuel.Camille
 
         #region requests
         internal T Get<T>(string methodId, string url, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
+            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
         {
             return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited, token).Result;
         }
 
         internal async Task<T> GetAsync<T>(string methodId, string url, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
+            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
         {
             // Camille's code is context-free.
             // This slightly improves performance and helps prevent GUI thread deadlocks.

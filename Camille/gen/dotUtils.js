@@ -52,16 +52,39 @@ function stringifyType(prop, endpoint = null, nullable = false) {
     case 'boolean': return 'bool' + qm;
     case 'integer': return ('int32' === prop.format ? 'int' : 'long') + qm;
     case 'number': return prop.format + qm;
-    case 'array': return stringifyType(prop.items, endpoint) + '[]';
+    case 'array': return stringifyType(prop.items, endpoint) + '[]' + qm;
     case 'object':
       return 'IDictionary<' + stringifyType(prop['x-key'], endpoint) + ', ' +
-        stringifyType(prop.additionalProperties, endpoint) + '>';
-    default: return prop.type;
+        stringifyType(prop.additionalProperties, endpoint) + '>' + qm;
+    default: return prop.type + qm;
   }
 }
 
 function formatJsonProperty(name) {
   return `[JsonProperty(\"${name}\")]`;
+}
+
+function formatQueryParamStringify(prop) {
+    switch (prop.type) {
+        case 'boolean': return '.ToString().ToLowerInvariant()';
+        case 'string': return '';
+        default: return '.ToString()';
+    }
+}
+
+function formatAddQueryParam(param) {
+    let k = `nameof(${param.name})`;
+    let nc = param.required ? '' : `if (null != ${param.name}) `;
+    let prop = param.schema;
+    switch (prop.type) {
+        case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
+            + `w => new KeyValuePair<string, string>(${k}, w${formatQueryParamStringify(prop.items)})))`;
+        case 'object': throw 'unsupported';
+        default:
+            let vnc = param.required ? '' : '.Value';
+            return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
+            + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
+    }
 }
 
 module.exports = {
@@ -71,7 +94,7 @@ module.exports = {
   normalizeSchemaName,
   normalizeArgName,
   normalizePropName,
-
   stringifyType,
-  formatJsonProperty
+  formatJsonProperty,
+  formatAddQueryParam
 };

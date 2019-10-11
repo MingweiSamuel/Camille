@@ -27,7 +27,7 @@ namespace MingweiSamuel.Camille.Enums
         /// <summary>
         /// Create region instance and register in Regions dictionary. Private.
         /// </summary>
-        private static Region Register(string key, string platform)
+        private static Region Register(string key, string? platform)
         {
 #pragma warning disable 618
             var region = new Region(key, platform);
@@ -98,10 +98,10 @@ namespace MingweiSamuel.Camille.Enums
         /// <summary>Region key in all capital letters.</summary>
         public readonly string Key;
         /// <summary>Platform ID in capital letters and digits.</summary>
-        public readonly string Platform;
+        public readonly string? Platform;
 
         [Obsolete("Use Region.* static regions or Region.Get(string) instead.")]
-        public Region(string key, string platform)
+        public Region(string key, string? platform)
         {
             Key = key;
             Platform = platform;

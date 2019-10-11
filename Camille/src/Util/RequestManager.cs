@@ -29,7 +29,7 @@ namespace MingweiSamuel.Camille.Util
         }
 
         public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
+            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
         {
             await _concurrentRequestSemaphore.WaitAsync(token.GetValueOrDefault());
             try

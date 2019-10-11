@@ -46,6 +46,7 @@ namespace MingweiSamuel.Camille.Util
         /// <summary>HttpStatus codes that are considered a success, but will return null (or default(T)).</summary>
         private static readonly int[] NullSuccessStatusCodes = { 204, 404, 422 };
 
+#nullable disable
         /// <summary>
         /// Sends a GET request, obeying rate limits and retry afters.
         /// </summary>
@@ -57,7 +58,7 @@ namespace MingweiSamuel.Camille.Util
         /// <param name="token">CancellationToken to cancel this task.</param>
         /// <returns></returns>
         public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
-            KeyValuePair<string, string>[] queryParams, bool nonRateLimited, CancellationToken? token)
+            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
         {
             HttpResponseMessage response = null;
             var retries = 0;
@@ -73,7 +74,7 @@ namespace MingweiSamuel.Camille.Util
                 // Send request.
                 string query;
                 using (var content = new FormUrlEncodedContent(queryParams))
-                    query = content.ReadAsStringAsync().Result;
+                    query = await content.ReadAsStringAsync();
 
                 var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.Platform}{RiotRootUrl}{relativeUrl}?{query}");
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
@@ -94,7 +95,7 @@ namespace MingweiSamuel.Camille.Util
 #endif
                 }
                 if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
-                    return default(T);
+                    return default;
                 // Failure. 429 and 5xx are retryable. All else exit.
                 if (429 == (int)response.StatusCode || response.StatusCode >= HttpStatusCode.InternalServerError)
                     continue;
@@ -104,6 +105,7 @@ namespace MingweiSamuel.Camille.Util
                 $"Request to {methodId} failed after {retries} retries. " +
                 $"(status: {(int) (response?.StatusCode ?? 0)}).", response);
         }
+#nullable restore
 
         private IRateLimit GetMethodRateLimit(string methodId)
         {
