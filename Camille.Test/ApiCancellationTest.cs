@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MingweiSamuel.Camille.ChampionV3;
 using MingweiSamuel.Camille.Enums;
 
 namespace MingweiSamuel.Camille.Test

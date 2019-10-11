@@ -12,13 +12,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public async Task GetChampionAsync()
         {
-            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: ChampionId.Zyra));
+            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
         }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: ChampionId.Zyra));
+            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
         }
 
         public static void CheckGetChampion(ChampionMastery result)
@@ -44,8 +44,8 @@ namespace MingweiSamuel.Camille.Test
         {
             var topChamps = new HashSet<long>
             {
-                ChampionId.Zyra, ChampionId.Soraka, ChampionId.Morgana, ChampionId.Sona, ChampionId.Janna,
-                ChampionId.Ekko, ChampionId.Nami, ChampionId.Taric, ChampionId.Poppy, ChampionId.Brand
+                (long) Champion.ZYRA, (long) Champion.SORAKA, (long) Champion.MORGANA, (long) Champion.SONA, (long) Champion.JANNA,
+                (long) Champion.EKKO, (long) Champion.NAMI, (long) Champion.TARIC, (long) Champion.POPPY, (long) Champion.BRAND
             };
             var topChampCount = topChamps.Count;
             for (var i = 0; i < topChampCount; i++)

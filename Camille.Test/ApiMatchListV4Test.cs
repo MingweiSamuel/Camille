@@ -17,14 +17,14 @@ namespace MingweiSamuel.Camille.Test
         public void GetQuery()
         {
             CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
-                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
             CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
-                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {ChampionId.Kalista}));
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
         }
 
         public static void CheckGetQuery(Matchlist matchlist)
@@ -63,7 +63,7 @@ namespace MingweiSamuel.Camille.Test
             //assertEquals(matchlist.totalGames, matchlist.matches.size());
 
             const long after = 1494737245688L;
-            long max = 0;
+            //long max = 0;
             var timestamp = long.MaxValue;
             foreach (var match in matchlist.Matches)
             {
