@@ -86,10 +86,10 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#lea
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_RiotApi">Endpoints.RiotApi</a>
+      <a class="xref" href="MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_QUERY_PARAMS_EMPTY">Endpoints.QUERY_PARAMS_EMPTY</a>
     </div>
     <div>
-      <a class="xref" href="MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_MakeParams_System_Object___">Endpoints.MakeParams(Object[])</a>
+      <a class="xref" href="MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_RiotApi">Endpoints.RiotApi</a>
     </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
@@ -123,90 +123,10 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#lea
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntries_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen\GeneratedClasses.cs/#L204">View Source</a>
-  </span>
-  <a id="MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntries_" data-uid="MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries*"></a>
-  <h4 id="MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntries_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntries(Region, String, String, String, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Get all the league entries.<p>
-Official API Reference: <a href="https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries">https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(Region region, string division, string tier, string queue, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="MingweiSamuel.Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">division</span></td>
-        <td><p>(required)</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tier</span></td>
-        <td><p>(required)</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">queue</span></td>
-        <td><p>Note that the queue value must be a valid ranked queue. (required)</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">page</span></td>
-        <td><p>Starts with page 1. (optional)</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>A cancellation token that can be used to cancel this task.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.html">LeagueEntry</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen\GeneratedClasses.cs/#L220">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen\EndpointMethods.cs/#L178">View Source</a>
   </span>
   <a id="MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntriesAsync_" data-uid="MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntriesAsync*"></a>
   <h4 id="MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntriesAsync(Region, String, String, String, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
@@ -292,7 +212,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
                     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=MingweiSamuel_Camille_LeagueExpV4Endpoints.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.LeagueExpV4Endpoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen\GeneratedClasses.cs/#L189" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen\EndpointMethods.cs/#L145" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

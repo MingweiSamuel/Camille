@@ -181,22 +181,6 @@ references:
   commentId: T:MingweiSamuel.Camille.ChampionMasteryV4Endpoints
   fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints
   nameWithType: ChampionMasteryV4Endpoints
-- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetAllChampionMasteries(Region, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteries_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetAllChampionMasteries(Region, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteries(Region, String, Nullable<CancellationToken>)
-  nameWithType.vb: ChampionMasteryV4Endpoints.GetAllChampionMasteries(Region, String, Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries*
-  name: GetAllChampionMasteries
-  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteries_
-  commentId: Overload:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteries
-  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteries
 - uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetAllChampionMasteriesAsync(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -424,22 +408,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.Endpoints.Endpoints
   nameWithType: Endpoints.Endpoints
-- uid: MingweiSamuel.Camille.Endpoints.MakeParams(System.Object[])
-  name: MakeParams(Object[])
-  href: api/MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_MakeParams_System_Object___
-  commentId: M:MingweiSamuel.Camille.Endpoints.MakeParams(System.Object[])
-  name.vb: MakeParams(Object())
-  fullName: MingweiSamuel.Camille.Endpoints.MakeParams(System.Object[])
-  fullName.vb: MingweiSamuel.Camille.Endpoints.MakeParams(System.Object())
-  nameWithType: Endpoints.MakeParams(Object[])
-  nameWithType.vb: Endpoints.MakeParams(Object())
-- uid: MingweiSamuel.Camille.Endpoints.MakeParams*
-  name: MakeParams
-  href: api/MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_MakeParams_
-  commentId: Overload:MingweiSamuel.Camille.Endpoints.MakeParams
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.Endpoints.MakeParams
-  nameWithType: Endpoints.MakeParams
+- uid: MingweiSamuel.Camille.Endpoints.QUERY_PARAMS_EMPTY
+  name: QUERY_PARAMS_EMPTY
+  href: api/MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_QUERY_PARAMS_EMPTY
+  commentId: F:MingweiSamuel.Camille.Endpoints.QUERY_PARAMS_EMPTY
+  fullName: MingweiSamuel.Camille.Endpoints.QUERY_PARAMS_EMPTY
+  nameWithType: Endpoints.QUERY_PARAMS_EMPTY
 - uid: MingweiSamuel.Camille.Endpoints.RiotApi
   name: RiotApi
   href: api/MingweiSamuel.Camille.Endpoints.html#MingweiSamuel_Camille_Endpoints_RiotApi
@@ -2886,12 +2860,15 @@ references:
   commentId: T:MingweiSamuel.Camille.Enums.Region
   fullName: MingweiSamuel.Camille.Enums.Region
   nameWithType: Region
-- uid: MingweiSamuel.Camille.Enums.Region.#ctor(System.String,System.String)
-  name: Region(String, String)
-  href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region__ctor_System_String_System_String_
-  commentId: M:MingweiSamuel.Camille.Enums.Region.#ctor(System.String,System.String)
-  fullName: MingweiSamuel.Camille.Enums.Region.Region(System.String, System.String)
-  nameWithType: Region.Region(String, String)
+- uid: MingweiSamuel.Camille.Enums.Region.#ctor(System.String,System.Nullable{System.String})
+  name: Region(String, Nullable<String>)
+  href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region__ctor_System_String_System_Nullable_System_String__
+  commentId: M:MingweiSamuel.Camille.Enums.Region.#ctor(System.String,System.Nullable{System.String})
+  name.vb: Region(String, Nullable(Of String))
+  fullName: MingweiSamuel.Camille.Enums.Region.Region(System.String, System.Nullable<System.String>)
+  fullName.vb: MingweiSamuel.Camille.Enums.Region.Region(System.String, System.Nullable(Of System.String))
+  nameWithType: Region.Region(String, Nullable<String>)
+  nameWithType.vb: Region.Region(String, Nullable(Of String))
 - uid: MingweiSamuel.Camille.Enums.Region.#ctor*
   name: Region
   href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region__ctor_
@@ -3572,22 +3549,6 @@ references:
   commentId: T:MingweiSamuel.Camille.LeagueExpV4Endpoints
   fullName: MingweiSamuel.Camille.LeagueExpV4Endpoints
   nameWithType: LeagueExpV4Endpoints
-- uid: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.LeagueExpV4Endpoints.html#MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntries_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueExpV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueExpV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries*
-  name: GetLeagueEntries
-  href: api/MingweiSamuel.Camille.LeagueExpV4Endpoints.html#MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntries_
-  commentId: Overload:MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntries
-  nameWithType: LeagueExpV4Endpoints.GetLeagueEntries
 - uid: MingweiSamuel.Camille.LeagueExpV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
   name: GetLeagueEntriesAsync(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.LeagueExpV4Endpoints.html#MingweiSamuel_Camille_LeagueExpV4Endpoints_GetLeagueEntriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
@@ -4334,22 +4295,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueByIdAsync
   nameWithType: LeagueV4Endpoints.GetLeagueByIdAsync
-- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntries_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntries(Region, String, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries*
-  name: GetLeagueEntries
-  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntries_
-  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntries
-  nameWithType: LeagueV4Endpoints.GetLeagueEntries
 - uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
   name: GetLeagueEntriesAsync(Region, String, String, String, Nullable<Int32>, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
@@ -4366,22 +4311,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesAsync
   nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync
-- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntriesForSummoner(Region, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummoner_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntriesForSummoner(Region, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummoner(Region, String, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesForSummoner(Region, String, Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner*
-  name: GetLeagueEntriesForSummoner
-  href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummoner_
-  commentId: Overload:MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummoner
-  nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummoner
 - uid: MingweiSamuel.Camille.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetLeagueEntriesForSummonerAsync(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.LeagueV4Endpoints.html#MingweiSamuel_Camille_LeagueV4Endpoints_GetLeagueEntriesForSummonerAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -8777,22 +8706,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync
   nameWithType: MatchV4Endpoints.GetMatchByTournamentCodeAsync
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchIdsByTournamentCode(Region, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchIdsByTournamentCode_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchIdsByTournamentCode(Region, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MatchV4Endpoints.GetMatchIdsByTournamentCode(Region, String, Nullable<CancellationToken>)
-  nameWithType.vb: MatchV4Endpoints.GetMatchIdsByTournamentCode(Region, String, Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode*
-  name: GetMatchIdsByTournamentCode
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchIdsByTournamentCode_
-  commentId: Overload:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCode
-  nameWithType: MatchV4Endpoints.GetMatchIdsByTournamentCode
 - uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetMatchIdsByTournamentCodeAsync(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchIdsByTournamentCodeAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -8809,15 +8722,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchIdsByTournamentCodeAsync
   nameWithType: MatchV4Endpoints.GetMatchIdsByTournamentCodeAsync
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],System.Int32[],System.Int32[],System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchlist(Region, String, Int32[], Int32[], Int32[], Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlist_MingweiSamuel_Camille_Enums_Region_System_String_System_Int32___System_Int32___System_Int32___System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],System.Int32[],System.Int32[],System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchlist(Region, String, Int32(), Int32(), Int32(), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32[], System.Int32[], System.Int32[], System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32(), System.Int32(), System.Int32(), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MatchV4Endpoints.GetMatchlist(Region, String, Int32[], Int32[], Int32[], Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: MatchV4Endpoints.GetMatchlist(Region, String, Int32(), Int32(), Int32(), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],champion,System.Int32[],queue,System.Int32[],season,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchlist(Region, String, Int32[], champion, Int32[], queue, Int32[], season, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlist_MingweiSamuel_Camille_Enums_Region_System_String_System_Int32___champion_System_Int32___queue_System_Int32___season_System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],champion,System.Int32[],queue,System.Int32[],season,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchlist(Region, String, Int32(), champion, Int32(), queue, Int32(), season, Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32[], champion, System.Int32[], queue, System.Int32[], season, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32(), champion, System.Int32(), queue, System.Int32(), season, System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV4Endpoints.GetMatchlist(Region, String, Int32[], champion, Int32[], queue, Int32[], season, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV4Endpoints.GetMatchlist(Region, String, Int32(), champion, Int32(), queue, Int32(), season, Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist*
   name: GetMatchlist
   href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlist_
@@ -8825,15 +8738,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlist
   nameWithType: MatchV4Endpoints.GetMatchlist
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],System.Int32[],System.Int32[],System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchlistAsync(Region, String, Int32[], Int32[], Int32[], Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlistAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Int32___System_Int32___System_Int32___System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],System.Int32[],System.Int32[],System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchlistAsync(Region, String, Int32(), Int32(), Int32(), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32[], System.Int32[], System.Int32[], System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32(), System.Int32(), System.Int32(), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MatchV4Endpoints.GetMatchlistAsync(Region, String, Int32[], Int32[], Int32[], Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: MatchV4Endpoints.GetMatchlistAsync(Region, String, Int32(), Int32(), Int32(), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],champion,System.Int32[],queue,System.Int32[],season,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchlistAsync(Region, String, Int32[], champion, Int32[], queue, Int32[], season, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlistAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Int32___champion_System_Int32___queue_System_Int32___season_System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int32[],champion,System.Int32[],queue,System.Int32[],season,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchlistAsync(Region, String, Int32(), champion, Int32(), queue, Int32(), season, Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32[], champion, System.Int32[], queue, System.Int32[], season, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int32(), champion, System.Int32(), queue, System.Int32(), season, System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV4Endpoints.GetMatchlistAsync(Region, String, Int32[], champion, Int32[], queue, Int32[], season, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV4Endpoints.GetMatchlistAsync(Region, String, Int32(), champion, Int32(), queue, Int32(), season, Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchlistAsync*
   name: GetMatchlistAsync
   href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchlistAsync_
@@ -12176,15 +12089,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.Util.RegionalRequester.Get
   nameWithType: RegionalRequester.Get
-- uid: MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name: Get<T>(String, String, Region, KeyValuePair<String, String>[], Boolean, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.Util.RegionalRequester.html#MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_KeyValuePair_System_String_System_String____System_Boolean_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name.vb: Get(Of T)(String, String, Region, KeyValuePair(Of String, String)(), Boolean, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.Util.RegionalRequester.Get<T>(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.KeyValuePair<System.String, System.String>[], System.Boolean, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.Util.RegionalRequester.Get(Of T)(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.KeyValuePair(Of System.String, System.String)(), System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RegionalRequester.Get<T>(String, String, Region, KeyValuePair<String, String>[], Boolean, Nullable<CancellationToken>)
-  nameWithType.vb: RegionalRequester.Get(Of T)(String, String, Region, KeyValuePair(Of String, String)(), Boolean, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean,System.Nullable{System.Threading.CancellationToken})
+  name: Get<T>(String, String, Region, IEnumerable<KeyValuePair<String, String>>, Boolean, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.Util.RegionalRequester.html#MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___System_Boolean_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean,System.Nullable{System.Threading.CancellationToken})
+  name.vb: Get(Of T)(String, String, Region, IEnumerable(Of KeyValuePair(Of String, String)), Boolean, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.Util.RegionalRequester.Get<T>(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, System.Boolean, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.Util.RegionalRequester.Get(Of T)(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: RegionalRequester.Get<T>(String, String, Region, IEnumerable<KeyValuePair<String, String>>, Boolean, Nullable<CancellationToken>)
+  nameWithType.vb: RegionalRequester.Get(Of T)(String, String, Region, IEnumerable(Of KeyValuePair(Of String, String)), Boolean, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.Util.RequestManager
   name: RequestManager
   href: api/MingweiSamuel.Camille.Util.RequestManager.html
@@ -12211,45 +12124,57 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.Util.RequestManager.Get
   nameWithType: RequestManager.Get
-- uid: MingweiSamuel.Camille.Util.RequestManager.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name: Get<T>(String, String, Region, KeyValuePair<String, String>[], Boolean, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.Util.RequestManager.html#MingweiSamuel_Camille_Util_RequestManager_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_KeyValuePair_System_String_System_String____System_Boolean_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.Util.RequestManager.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name.vb: Get(Of T)(String, String, Region, KeyValuePair(Of String, String)(), Boolean, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.Util.RequestManager.Get<T>(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.KeyValuePair<System.String, System.String>[], System.Boolean, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.Util.RequestManager.Get(Of T)(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.KeyValuePair(Of System.String, System.String)(), System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RequestManager.Get<T>(String, String, Region, KeyValuePair<String, String>[], Boolean, Nullable<CancellationToken>)
-  nameWithType.vb: RequestManager.Get(Of T)(String, String, Region, KeyValuePair(Of String, String)(), Boolean, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.Util.RequestManager.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean,System.Nullable{System.Threading.CancellationToken})
+  name: Get<T>(String, String, Region, IEnumerable<KeyValuePair<String, String>>, Boolean, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.Util.RequestManager.html#MingweiSamuel_Camille_Util_RequestManager_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___System_Boolean_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.Util.RequestManager.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean,System.Nullable{System.Threading.CancellationToken})
+  name.vb: Get(Of T)(String, String, Region, IEnumerable(Of KeyValuePair(Of String, String)), Boolean, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.Util.RequestManager.Get<T>(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>, System.Boolean, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.Util.RequestManager.Get(Of T)(System.String, System.String, MingweiSamuel.Camille.Enums.Region, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)), System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: RequestManager.Get<T>(String, String, Region, IEnumerable<KeyValuePair<String, String>>, Boolean, Nullable<CancellationToken>)
+  nameWithType.vb: RequestManager.Get(Of T)(String, String, Region, IEnumerable(Of KeyValuePair(Of String, String)), Boolean, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.Util.RiotResponseException
   name: RiotResponseException
   href: api/MingweiSamuel.Camille.Util.RiotResponseException.html
   commentId: T:MingweiSamuel.Camille.Util.RiotResponseException
   fullName: MingweiSamuel.Camille.Util.RiotResponseException
   nameWithType: RiotResponseException
-- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Exception,System.Net.Http.HttpResponseMessage)
-  name: RiotResponseException(Exception, HttpResponseMessage)
-  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_Exception_System_Net_Http_HttpResponseMessage_
-  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Exception,System.Net.Http.HttpResponseMessage)
-  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Exception, System.Net.Http.HttpResponseMessage)
-  nameWithType: RiotResponseException.RiotResponseException(Exception, HttpResponseMessage)
-- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Net.Http.HttpResponseMessage)
-  name: RiotResponseException(HttpResponseMessage)
-  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_Net_Http_HttpResponseMessage_
-  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Net.Http.HttpResponseMessage)
-  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Net.Http.HttpResponseMessage)
-  nameWithType: RiotResponseException.RiotResponseException(HttpResponseMessage)
-- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Exception,System.Net.Http.HttpResponseMessage)
-  name: RiotResponseException(String, Exception, HttpResponseMessage)
-  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_String_System_Exception_System_Net_Http_HttpResponseMessage_
-  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Exception,System.Net.Http.HttpResponseMessage)
-  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Exception, System.Net.Http.HttpResponseMessage)
-  nameWithType: RiotResponseException.RiotResponseException(String, Exception, HttpResponseMessage)
-- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Net.Http.HttpResponseMessage)
-  name: RiotResponseException(String, HttpResponseMessage)
-  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_String_System_Net_Http_HttpResponseMessage_
-  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Net.Http.HttpResponseMessage)
-  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Net.Http.HttpResponseMessage)
-  nameWithType: RiotResponseException.RiotResponseException(String, HttpResponseMessage)
+- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Exception,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name: RiotResponseException(Exception, Nullable<HttpResponseMessage>)
+  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_Exception_System_Nullable_System_Net_Http_HttpResponseMessage__
+  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Exception,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name.vb: RiotResponseException(Exception, Nullable(Of HttpResponseMessage))
+  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Exception, System.Nullable<System.Net.Http.HttpResponseMessage>)
+  fullName.vb: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Exception, System.Nullable(Of System.Net.Http.HttpResponseMessage))
+  nameWithType: RiotResponseException.RiotResponseException(Exception, Nullable<HttpResponseMessage>)
+  nameWithType.vb: RiotResponseException.RiotResponseException(Exception, Nullable(Of HttpResponseMessage))
+- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Nullable{System.Net.Http.HttpResponseMessage})
+  name: RiotResponseException(Nullable<HttpResponseMessage>)
+  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_Nullable_System_Net_Http_HttpResponseMessage__
+  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.Nullable{System.Net.Http.HttpResponseMessage})
+  name.vb: RiotResponseException(Nullable(Of HttpResponseMessage))
+  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Nullable<System.Net.Http.HttpResponseMessage>)
+  fullName.vb: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.Nullable(Of System.Net.Http.HttpResponseMessage))
+  nameWithType: RiotResponseException.RiotResponseException(Nullable<HttpResponseMessage>)
+  nameWithType.vb: RiotResponseException.RiotResponseException(Nullable(Of HttpResponseMessage))
+- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Exception,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name: RiotResponseException(String, Exception, Nullable<HttpResponseMessage>)
+  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_String_System_Exception_System_Nullable_System_Net_Http_HttpResponseMessage__
+  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Exception,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name.vb: RiotResponseException(String, Exception, Nullable(Of HttpResponseMessage))
+  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Exception, System.Nullable<System.Net.Http.HttpResponseMessage>)
+  fullName.vb: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Exception, System.Nullable(Of System.Net.Http.HttpResponseMessage))
+  nameWithType: RiotResponseException.RiotResponseException(String, Exception, Nullable<HttpResponseMessage>)
+  nameWithType.vb: RiotResponseException.RiotResponseException(String, Exception, Nullable(Of HttpResponseMessage))
+- uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name: RiotResponseException(String, Nullable<HttpResponseMessage>)
+  href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_System_String_System_Nullable_System_Net_Http_HttpResponseMessage__
+  commentId: M:MingweiSamuel.Camille.Util.RiotResponseException.#ctor(System.String,System.Nullable{System.Net.Http.HttpResponseMessage})
+  name.vb: RiotResponseException(String, Nullable(Of HttpResponseMessage))
+  fullName: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Nullable<System.Net.Http.HttpResponseMessage>)
+  fullName.vb: MingweiSamuel.Camille.Util.RiotResponseException.RiotResponseException(System.String, System.Nullable(Of System.Net.Http.HttpResponseMessage))
+  nameWithType: RiotResponseException.RiotResponseException(String, Nullable<HttpResponseMessage>)
+  nameWithType.vb: RiotResponseException.RiotResponseException(String, Nullable(Of HttpResponseMessage))
 - uid: MingweiSamuel.Camille.Util.RiotResponseException.#ctor*
   name: RiotResponseException
   href: api/MingweiSamuel.Camille.Util.RiotResponseException.html#MingweiSamuel_Camille_Util_RiotResponseException__ctor_

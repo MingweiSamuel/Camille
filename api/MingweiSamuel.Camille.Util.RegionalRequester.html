@@ -151,19 +151,19 @@ Processes non-retryable responses (200, 404, 4xx).</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/master/apiSpec/new?filename=MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_KeyValuePair_System_String_System_String____System_Boolean_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.Util.RegionalRequester.Get%60%601(System.String%2CSystem.String%2CMingweiSamuel.Camille.Enums.Region%2CSystem.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.String%7D%5B%5D%2CSystem.Boolean%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/master/apiSpec/new?filename=MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___System_Boolean_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.Util.RegionalRequester.Get%60%601(System.String%2CSystem.String%2CMingweiSamuel.Camille.Enums.Region%2CSystem.Collections.Generic.IEnumerable%7BSystem.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.String%7D%7D%2CSystem.Boolean%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/master/Camille/src/Util/RegionalRequester.cs/#L59">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/master/Camille/src/Util/RegionalRequester.cs/#L60">View Source</a>
   </span>
   <a id="MingweiSamuel_Camille_Util_RegionalRequester_Get_" data-uid="MingweiSamuel.Camille.Util.RegionalRequester.Get*"></a>
-  <h4 id="MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_KeyValuePair_System_String_System_String____System_Boolean_System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean,System.Nullable{System.Threading.CancellationToken})">Get&lt;T&gt;(String, String, Region, KeyValuePair&lt;String, String&gt;[], Boolean, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="MingweiSamuel_Camille_Util_RegionalRequester_Get__1_System_String_System_String_MingweiSamuel_Camille_Enums_Region_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___System_Boolean_System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.Util.RegionalRequester.Get``1(System.String,System.String,MingweiSamuel.Camille.Enums.Region,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean,System.Nullable{System.Threading.CancellationToken})">Get&lt;T&gt;(String, String, Region, IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;, Boolean, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends a GET request, obeying rate limits and retry afters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;T&gt; Get&lt;T&gt;(string methodId, string relativeUrl, Region region, KeyValuePair&lt;string, string&gt;[] queryParams, bool nonRateLimited, CancellationToken? token)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;T&gt; Get&lt;T&gt;(string methodId, string relativeUrl, Region region, IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; queryParams, bool nonRateLimited, CancellationToken? token)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,7 +191,7 @@ Processes non-retryable responses (200, 404, 4xx).</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;[]</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td><span class="parametername">queryParams</span></td>
         <td></td>
       </tr>
