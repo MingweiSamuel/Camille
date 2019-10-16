@@ -10,12 +10,12 @@ Data classes are automatically generated from the
 
 ## Features
 
-* Fast, asynchronous, thread-safe
-* Automatically retries failed requests
-* Highly-configurable
-* Targets .NET Standard 1.1+ (.NET Core 1.0+, .NET Framework 4.5+)
-* Riot API V4 Support
+* Fast, asynchronous, thread-safe.
+* Automatically retries failed requests.
 * Automatic up-to-date nightlies, reflecting Riot API changes within 24 hours.
+* Multi-targeted: .NET Standard 1.1+, .NET Framework 4.5+, .NET Core 2.0, .NET Standard 2.1+, .NET Core 3.0+.
+* Highly-configurable.
+* Riot API V4 Support.
 
 ## Installation
 
