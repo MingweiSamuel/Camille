@@ -76,7 +76,7 @@ namespace MingweiSamuel.Camille.Util
                 using (var content = new FormUrlEncodedContent(queryParams))
                     query = await content.ReadAsStringAsync();
 
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.Platform}{RiotRootUrl}{relativeUrl}?{query}");
+                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.ToString()}{RiotRootUrl}{relativeUrl}?{query}");
                 request.Headers.Add(RiotKeyHeader, _config.ApiKey);
 
                 // Receive response.

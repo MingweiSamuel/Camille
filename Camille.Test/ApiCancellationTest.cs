@@ -18,7 +18,7 @@ namespace MingweiSamuel.Camille.Test
         {
             var tokenSource = new CancellationTokenSource();
             var tasks = Enumerable.Range(0, 1000)
-                .Select(n => Api.SummonerV4.GetBySummonerNameAsync(Region.NA, n.ToString(), tokenSource.Token))
+                .Select(n => Api.SummonerV4.GetBySummonerNameAsync(Region.NA1, n.ToString(), tokenSource.Token))
                 .ToList();
             tokenSource.CancelAfter(1000);
             for (var n = 0; n < tasks.Count; n++)

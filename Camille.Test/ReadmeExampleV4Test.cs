@@ -18,8 +18,8 @@ namespace MingweiSamuel.Camille.Test
             // Get summoners by name synchronously. (using async is faster).
             var summoners = new[]
             {
-                riotApi.SummonerV4.GetBySummonerName(Region.NA, "jAnna kendrick"),
-                riotApi.SummonerV4.GetBySummonerName(Region.NA, "lug nuts k")
+                riotApi.SummonerV4.GetBySummonerName(Region.NA1, "jAnna kendrick"),
+                riotApi.SummonerV4.GetBySummonerName(Region.NA1, "lug nuts k")
             };
 
             foreach (var summoner in summoners)
@@ -27,7 +27,7 @@ namespace MingweiSamuel.Camille.Test
                 Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
                 var masteries =
-                    riotApi.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, summoner.Id);
+                    riotApi.ChampionMasteryV4.GetAllChampionMasteries(Region.NA1, summoner.Id);
 
                 for (var i = 0; i < 10; i++)
                 {
@@ -51,7 +51,7 @@ namespace MingweiSamuel.Camille.Test
             var summonerNameQuery = "lugnutsk";
 
             // Get summoners data (blocking).
-            var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(Region.NA, summonerNameQuery);
+            var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(Region.NA1, summonerNameQuery);
             if (null == summonerData)
             {
                 // If a summoner is not found, the response will be null.
@@ -64,10 +64,10 @@ namespace MingweiSamuel.Camille.Test
             // Get 10 most recent matches (blocking).
             // Queue ID 420 is RANKED_SOLO_5v5 (TODO)
             var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
-                Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
+                Region.NA1, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
             // Get match results (done asynchronously -> not blocking -> fast).
             var matchDataTasks = matchlist.Matches.Select(
-                    matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA, matchMetadata.GameId)
+                    matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA1, matchMetadata.GameId)
                 ).ToArray();
             // Wait for all task requests to complete asynchronously.
             var matchDatas = await Task.WhenAll(matchDataTasks);
