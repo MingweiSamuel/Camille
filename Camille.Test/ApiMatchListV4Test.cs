@@ -16,14 +16,14 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
+            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
-            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA, AccountIdC9Sneaky, queue: new[] {420},
+            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] {420},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
         }
 
@@ -47,13 +47,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQueryRecent()
         {
-            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA, AccountIdC9Sneaky, queue: new[] {420}));
+            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {420}));
         }
 
         [TestMethod]
         public async Task GetQueryRecentAsync()
         {
-            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA, AccountIdC9Sneaky, queue: new[] {420}));
+            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] {420}));
         }
 
         public static void CheckGetQueryRecent(Matchlist matchlist)

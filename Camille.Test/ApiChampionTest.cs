@@ -11,13 +11,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetChampionInfo()
         {
-            CheckGetAll(Api.ChampionV3.GetChampionInfo(Region.NA));
+            CheckGetAll(Api.ChampionV3.GetChampionInfo(Region.NA1));
         }
 
         [TestMethod]
         public async Task GetChampionInfoAsync()
         {
-            CheckGetAll(await Api.ChampionV3.GetChampionInfoAsync(Region.NA));
+            CheckGetAll(await Api.ChampionV3.GetChampionInfoAsync(Region.NA1));
         }
 
         public static void CheckGetAll(ChampionInfo result)

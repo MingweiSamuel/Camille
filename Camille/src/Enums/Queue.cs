@@ -1,8 +1,10 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MingweiSamuel.Camille.Enums
 {
     [SuppressMessage("ReSharper", "InconsistentNaming")]
+    [Obsolete("Replaced by generated queues enum")]
     public static class Queue
     {
         public const string RANKED_SOLO_5x5 = "RANKED_SOLO_5x5";
@@ -17,7 +19,6 @@ namespace MingweiSamuel.Camille.Enums
         public const string RANKED_FLEX_SR = "RANKED_FLEX_SR";
         public const string RANKED_FLEX_TT = "RANKED_FLEX_TT";
         public const string TEAM_BUILDER_RANKED_SOLO = "TEAM_BUILDER_RANKED_SOLO";
-
 
 
         public const string ASCENSION_5x5 = "ASCENSION_5x5";
@@ -49,8 +50,6 @@ namespace MingweiSamuel.Camille.Enums
         public const string SIEGE = "SIEGE";
         public const string SR_6x6 = "SR_6x6";
         public const string URF_5x5 = "URF_5x5";
-
-
 
 
         public const string NONE = "NONE";

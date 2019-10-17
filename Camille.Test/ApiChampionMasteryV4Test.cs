@@ -12,13 +12,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public async Task GetChampionAsync()
         {
-            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
+            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
         }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
+            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
         }
 
         public static void CheckGetChampion(ChampionMastery result)
@@ -31,13 +31,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetChampions()
         {
-            CheckGetChampions(Api.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, SummonerIdLugnutsK));
+            CheckGetChampions(Api.ChampionMasteryV4.GetAllChampionMasteries(Region.NA1, SummonerIdLugnutsK));
         }
 
         [TestMethod]
         public async Task GetChampionsAsync()
         {
-            CheckGetChampions(await Api.ChampionMasteryV4.GetAllChampionMasteriesAsync(Region.NA, SummonerIdLugnutsK));
+            CheckGetChampions(await Api.ChampionMasteryV4.GetAllChampionMasteriesAsync(Region.NA1, SummonerIdLugnutsK));
         }
 
         public static void CheckGetChampions(ChampionMastery[] champData)
@@ -57,13 +57,13 @@ namespace MingweiSamuel.Camille.Test
         public void GetScore()
         {
             // http://www.lolking.net/summoner/euw/20401158/0#champ-mastery
-            CheckGetScore(Api.ChampionMasteryV4.GetChampionMasteryScore(Region.EUW, SummonerIdMa5tery));
+            CheckGetScore(Api.ChampionMasteryV4.GetChampionMasteryScore(Region.EUW1, SummonerIdMa5tery));
         }
 
         [TestMethod]
         public async Task GetScoreAsync()
         {
-            CheckGetScore(await Api.ChampionMasteryV4.GetChampionMasteryScoreAsync(Region.EUW, SummonerIdMa5tery));
+            CheckGetScore(await Api.ChampionMasteryV4.GetChampionMasteryScoreAsync(Region.EUW1, SummonerIdMa5tery));
         }
 
         public static void CheckGetScore(int score)
