@@ -19,7 +19,7 @@ namespace MingweiSamuel.Camille.Enums
 {{
     for (let { queueId, map, description, notes } of queues) {
 }}
-        [Display(Description = "{{= description}}")]
+        [Display(Name = "{{= map}}", Description = "{{= description}}")]
         {{= enumName(description === null ? map : map + "_" + description) }} = {{= queueId }},
 {{
     }

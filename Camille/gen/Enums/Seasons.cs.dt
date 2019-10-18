@@ -7,6 +7,8 @@
 // Do not directly edit.
 // Generated on {{= (new Date).toISOString() }}
 
+using System.ComponentModel.DataAnnotations;
+
 namespace MingweiSamuel.Camille.Enums
 {
     /// <summary>
@@ -17,6 +19,7 @@ namespace MingweiSamuel.Camille.Enums
 {{
     for (let { id, season } of seasons) {
 }}
+        [Display(Name = "{{= season}}")]
         {{= enumName(season) }} = {{= id }},
 {{
     }

@@ -18,7 +18,7 @@ namespace MingweiSamuel.Camille.Enums
 {{
     for (let { gametype, description } of gameTypes) {
 }}
-        [Display(Description = "{{= description}}")]
+        [Display(Name = "{{= gametype}}", Description = "{{= description}}")]
         {{= enumName(gametype) }},
 {{
     }
