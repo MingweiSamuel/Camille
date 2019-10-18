@@ -18,7 +18,7 @@ namespace MingweiSamuel.Camille.Enums
 {{
     for (let { mapId, mapName, notes } of maps) {
 }}
-        [Display(Description = "{{= notes}}")]
+        [Display(Name = "{{= mapName}}", Description = "{{= notes}}")]
         {{= enumName(mapName + "_" + notes) }} = {{= mapId }},
 {{
     }
