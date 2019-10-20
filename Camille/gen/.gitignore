@@ -1,4 +1,3 @@
 node_modules/
-.spec.json
-.champion.json
+*.json
 *.cs
