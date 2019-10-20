@@ -1,5 +1,5 @@
 {{
-    const seasons = require('./Enums/.seasons.json')
+    const seasons = require('./.seasons.json')
         .filter(({ id }) => id > 0);
     const enumName = function(name) { return name.toUpperCase().replace(/[^A-Z0-9]+/, '_'); };
 }}

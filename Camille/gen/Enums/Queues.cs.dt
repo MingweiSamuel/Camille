@@ -1,5 +1,5 @@
 {{
-    const queues = require('./Enums/.queues.json')
+    const queues = require('./.queues.json')
         .filter(({ notes }) => notes === null);
     const enumName = function(name) { return name.toUpperCase().replace(/['-]/, '').replace(/[^A-Z0-9]+/g, '_'); };
 }}
