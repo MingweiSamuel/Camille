@@ -12,13 +12,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public async Task GetChampionAsync()
         {
-            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
+            CheckGetChampion(await Api.ChampionMasteryV4.GetChampionMasteryAsync(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: Champion.ZYRA));
         }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: (long) Champion.ZYRA));
+            CheckGetChampion(Api.ChampionMasteryV4.GetChampionMastery(Region.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: Champion.ZYRA));
         }
 
         public static void CheckGetChampion(ChampionMastery result)
@@ -42,10 +42,10 @@ namespace MingweiSamuel.Camille.Test
 
         public static void CheckGetChampions(ChampionMastery[] champData)
         {
-            var topChamps = new HashSet<long>
+            var topChamps = new HashSet<Champion>
             {
-                (long) Champion.ZYRA, (long) Champion.SORAKA, (long) Champion.MORGANA, (long) Champion.SONA, (long) Champion.JANNA,
-                (long) Champion.EKKO, (long) Champion.NAMI, (long) Champion.TARIC, (long) Champion.POPPY, (long) Champion.BRAND
+                Champion.ZYRA, Champion.SORAKA, Champion.MORGANA, Champion.SONA, Champion.JANNA,
+                Champion.EKKO, Champion.NAMI, Champion.TARIC, Champion.POPPY, Champion.BRAND
             };
             var topChampCount = topChamps.Count;
             for (var i = 0; i < topChampCount; i++)

@@ -1,6 +1,6 @@
 ﻿// flatMap: https://gist.github.com/samgiles/762ee337dff48623e729
 // [B](f: (A) ⇒ [B]): [B]  ; Although the types in the arrays aren't strict (:
-Array.prototype.flatMap = function(lambda) {
+Array.prototype.flatMap = function (lambda) {
   return Array.prototype.concat.apply([], this.map(lambda));
 };
 
@@ -14,7 +14,7 @@ function decapitalize(input) {
 
 function normalizeEndpointName(name) {
   return name.split('-')
-//    .slice(0, -1)
+    //    .slice(0, -1)
     .map(capitalize)
     .join('');
 }
@@ -37,7 +37,7 @@ function normalizePropName(propName, schemaName, value) {
   return name;
 }
 
-function stringifyType(prop, endpoint = null, nullable = false) {
+function stringifyType(prop, name = '', endpoint = null, nullable = false) {
   if (prop.anyOf) {
     prop = prop.anyOf[0];
   }
@@ -48,16 +48,72 @@ function stringifyType(prop, endpoint = null, nullable = false) {
       normalizeSchemaName(refType.slice(refType.indexOf('.') + 1));
   }
   var qm = nullable ? '?' : '';
+  var enumName = checkApiNameForEnum(name);
+  if (enumName !== '') {
+    if (prop.type === 'array') {
+      return enumName + '[]' + qm;
+    } else {
+      return enumName + qm;
+    }
+  }
+
   switch (prop.type) {
     case 'boolean': return 'bool' + qm;
     case 'integer': return ('int32' === prop.format ? 'int' : 'long') + qm;
     case 'number': return prop.format + qm;
-    case 'array': return stringifyType(prop.items, endpoint) + '[]' + qm;
+    case 'array': return stringifyType(prop.items, name, endpoint) + '[]' + qm;
     case 'object':
-      return 'IDictionary<' + stringifyType(prop['x-key'], endpoint) + ', ' +
-        stringifyType(prop.additionalProperties, endpoint) + '>' + qm;
+      return 'IDictionary<' + stringifyType(prop['x-key'], name, endpoint) + ', ' +
+        stringifyType(prop.additionalProperties, name, endpoint) + '>' + qm;
     default: return prop.type + qm;
   }
+}
+
+function checkApiNameForEnum(name) {
+  switch (name) {
+    // Cases for EndpointMethods.cs
+    case 'queue':
+      return 'RankedQueues';
+    case 'champion':
+    case 'championId':
+      return 'Champion';
+    case 'division':
+      return 'Division';
+    case 'tier':
+      return 'Tier';
+    // Cases for DataClasses.cs
+    case 'Queue':
+    case 'QueueId':
+    case 'GameQueueConfigId':
+      return 'Queues';
+    case 'season':
+    case 'Season':
+    case 'SeasonId':
+      return 'Seasons';
+    case 'Champion':
+    case 'ChampionId':
+      return 'Champion';
+    case 'GameType':
+      return 'GameTypes';
+    case 'GameMode':
+      return 'GameModes';
+    case 'MapId':
+      return 'Maps';
+    case 'Locale':
+    case 'Locales':
+      return 'Locale';
+    case 'TeamId':
+      return 'TeamId';
+    case 'HighestAchievedSeasonTier':
+      return 'Tier';
+    // Default
+    default:
+      return '';
+  }
+}
+
+function replaceEnumCasts(input) {
+    return input.replace("{championId}", "{(int)championId}");
 }
 
 function formatJsonProperty(name) {
@@ -65,26 +121,26 @@ function formatJsonProperty(name) {
 }
 
 function formatQueryParamStringify(prop) {
-    switch (prop.type) {
-        case 'boolean': return '.ToString().ToLowerInvariant()';
-        case 'string': return '';
-        default: return '.ToString()';
-    }
+  switch (prop.type) {
+    case 'boolean': return '.ToString().ToLowerInvariant()';
+    case 'string': return '';
+    default: return '.ToString()';
+  }
 }
 
 function formatAddQueryParam(param) {
-    let k = `nameof(${param.name})`;
-    let nc = param.required ? '' : `if (null != ${param.name}) `;
-    let prop = param.schema;
-    switch (prop.type) {
-        case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
-            + `w => new KeyValuePair<string, string>(${k}, w${formatQueryParamStringify(prop.items)})))`;
-        case 'object': throw 'unsupported';
-        default:
-            let vnc = param.required ? '' : '.Value';
-            return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
-            + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
-    }
+  let k = `nameof(${param.name})`;
+  let nc = param.required ? '' : `if (null != ${param.name}) `;
+  let prop = param.schema;
+  switch (prop.type) {
+    case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
+          + `w => new KeyValuePair<string, string>(${k}, ((int)w)${formatQueryParamStringify(prop.items)})))`;
+    case 'object': throw 'unsupported';
+    default:
+      let vnc = param.required ? '' : '.Value';
+      return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
+        + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
+  }
 }
 
 module.exports = {
@@ -95,6 +151,7 @@ module.exports = {
   normalizeArgName,
   normalizePropName,
   stringifyType,
+  replaceEnumCasts,
   formatJsonProperty,
   formatAddQueryParam
 };

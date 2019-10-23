@@ -11,6 +11,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using MingweiSamuel.Camille.Enums;
 
 #if USE_NEWTONSOFT
 using JsonPropertyAttribute = Newtonsoft.Json.JsonPropertyAttribute;
@@ -62,7 +63,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
-        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; set; }
+        public {{= dotUtils.stringifyType(prop, name) }} {{= name }} { get; set; }
 {{
         }
 }}
