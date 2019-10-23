@@ -50,7 +50,7 @@ namespace MingweiSamuel.Camille
             let method = dotUtils.capitalize(operationId.slice(operationId.indexOf('.') + 1));
 
             let jsonInfo = get.responses['200'].content['application/json'];
-            let returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
+            let returnType = dotUtils.stringifyType(jsonInfo.schema, '', endpoint);
             if ('int' !== returnType) returnType += '?'; /* HACK. */
 
             /* Cases if not rate limited. */
@@ -86,7 +86,7 @@ namespace MingweiSamuel.Camille
                     for (let param of paramList)
                     {
                         argBuilder.push(', ',
-                            dotUtils.stringifyType(param.schema, endpoint, !required),
+                            dotUtils.stringifyType(param.schema, param.name, endpoint, !required),
                             ' ', param.name);
                         if (!required)
                             argBuilder.push(' = null');
@@ -134,7 +134,7 @@ namespace MingweiSamuel.Camille
                 }
 }}
 {{?}}
-            return RiotApi.Get{{= asynch }}<{{= returnType }}>("{{= operationId }}", $"{{= route }}",
+            return RiotApi.Get{{= asynch }}<{{= returnType }}>("{{= operationId }}", $"{{= dotUtils.replaceEnumCasts(route) }}",
                 region, {{= queryParams.length ? 'queryParams' : 'QUERY_PARAMS_EMPTY' }}, {{= rateLimitExcluded }}, cancellationToken);
         }
 

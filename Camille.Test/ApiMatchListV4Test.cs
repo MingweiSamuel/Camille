@@ -16,15 +16,15 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {420},
-                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
+            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {RankedQueues.RANKED_SOLO_5x5},
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {Champion.KALISTA}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
-            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] {420},
-                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {(int) Champion.KALISTA}));
+            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 },
+                beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {Champion.KALISTA}));
         }
 
         public static void CheckGetQuery(Matchlist matchlist)
@@ -47,13 +47,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQueryRecent()
         {
-            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {420}));
+            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 }));
         }
 
         [TestMethod]
         public async Task GetQueryRecentAsync()
         {
-            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] {420}));
+            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 }));
         }
 
         public static void CheckGetQueryRecent(Matchlist matchlist)

@@ -64,7 +64,7 @@ namespace MingweiSamuel.Camille.Test
             // Get 10 most recent matches (blocking).
             // Queue ID 420 is RANKED_SOLO_5v5 (TODO)
             var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
-                Region.NA1, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
+                Region.NA1, summonerData.AccountId, queue: new[] { RankedQueues.RANKED_SOLO_5x5 }, endIndex: 10);
             // Get match results (done asynchronously -> not blocking -> fast).
             var matchDataTasks = matchlist.Matches.Select(
                     matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA1, matchMetadata.GameId)
@@ -83,7 +83,7 @@ namespace MingweiSamuel.Camille.Test
                     .First(p => p.ParticipantId == participantIdData.ParticipantId);
 
                 var win = participant.Stats.Win;
-                var champ = (Champion) participant.ChampionId;
+                var champ = participant.ChampionId;
                 var k = participant.Stats.Kills;
                 var d = participant.Stats.Deaths;
                 var a = participant.Stats.Assists;
