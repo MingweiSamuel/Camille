@@ -14,7 +14,7 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// Seasons enum based on Seasons.json.
     /// </summary>
-    public enum Seasons
+    public enum Season
     {
 {{
     for (let { id, season } of seasons) {

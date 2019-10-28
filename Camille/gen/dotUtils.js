@@ -48,12 +48,12 @@ function stringifyType(prop, name = '', endpoint = null, nullable = false) {
       normalizeSchemaName(refType.slice(refType.indexOf('.') + 1));
   }
   var qm = nullable ? '?' : '';
-  var enumName = checkApiNameForEnum(name);
-  if (enumName !== '') {
+  var enumName = prop['x-enum'];
+  if (enumName !== undefined) {
     if (prop.type === 'array') {
-      return enumName + '[]' + qm;
+      return normalizePropName(enumName, 'placeholder', '') + '[]' + qm;
     } else {
-      return enumName + qm;
+      return normalizePropName(enumName, 'placeholder', '') + qm;
     }
   }
 
@@ -66,49 +66,6 @@ function stringifyType(prop, name = '', endpoint = null, nullable = false) {
       return 'IDictionary<' + stringifyType(prop['x-key'], name, endpoint) + ', ' +
         stringifyType(prop.additionalProperties, name, endpoint) + '>' + qm;
     default: return prop.type + qm;
-  }
-}
-
-function checkApiNameForEnum(name) {
-  switch (name) {
-    // Cases for EndpointMethods.cs
-    case 'queue':
-      return 'RankedQueues';
-    case 'champion':
-    case 'championId':
-      return 'Champion';
-    case 'division':
-      return 'Division';
-    case 'tier':
-      return 'Tier';
-    // Cases for DataClasses.cs
-    case 'Queue':
-    case 'QueueId':
-    case 'GameQueueConfigId':
-      return 'Queues';
-    case 'season':
-    case 'Season':
-    case 'SeasonId':
-      return 'Seasons';
-    case 'Champion':
-    case 'ChampionId':
-      return 'Champion';
-    case 'GameType':
-      return 'GameTypes';
-    case 'GameMode':
-      return 'GameModes';
-    case 'MapId':
-      return 'Maps';
-    case 'Locale':
-    case 'Locales':
-      return 'Locale';
-    case 'TeamId':
-      return 'TeamId';
-    case 'HighestAchievedSeasonTier':
-      return 'Tier';
-    // Default
-    default:
-      return '';
   }
 }
 

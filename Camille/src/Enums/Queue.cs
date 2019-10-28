@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace MingweiSamuel.Camille.Enums
+namespace MingweiSamuel.Camille.Enums.Obsolete
 {
     [SuppressMessage("ReSharper", "InconsistentNaming")]
     [Obsolete("Replaced by generated queues enum")]
