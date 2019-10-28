@@ -16,14 +16,14 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQuery()
         {
-            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {RankedQueues.RANKED_SOLO_5x5},
+            CheckGetQuery(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] {QueueType.RANKED_SOLO_5x5},
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {Champion.KALISTA}));
         }
 
         [TestMethod]
         public async Task GetQueryAsync()
         {
-            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 },
+            CheckGetQuery(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { QueueType.RANKED_SOLO_5x5 },
                 beginTime: QueryTime - MillisPerWeek, endTime: QueryTime, champion: new[] {Champion.KALISTA}));
         }
 
@@ -47,13 +47,13 @@ namespace MingweiSamuel.Camille.Test
         [TestMethod]
         public void GetQueryRecent()
         {
-            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 }));
+            CheckGetQueryRecent(Api.MatchV4.GetMatchlist(Region.NA1, AccountIdC9Sneaky, queue: new[] { QueueType.RANKED_SOLO_5x5 }));
         }
 
         [TestMethod]
         public async Task GetQueryRecentAsync()
         {
-            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { RankedQueues.RANKED_SOLO_5x5 }));
+            CheckGetQueryRecent(await Api.MatchV4.GetMatchlistAsync(Region.NA1, AccountIdC9Sneaky, queue: new[] { QueueType.RANKED_SOLO_5x5 }));
         }
 
         public static void CheckGetQueryRecent(Matchlist matchlist)
