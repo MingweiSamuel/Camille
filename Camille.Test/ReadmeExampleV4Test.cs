@@ -35,7 +35,7 @@ namespace MingweiSamuel.Camille.Test
                     // Get champion for this mastery.
                     var champ = (Champion) mastery.ChampionId;
                     // print i, champ id, champ mastery points, and champ level
-                    Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.Name(),
+                    Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.ToString(),
                         mastery.ChampionPoints, mastery.ChampionLevel);
                 }
                 Console.WriteLine();
@@ -64,7 +64,7 @@ namespace MingweiSamuel.Camille.Test
             // Get 10 most recent matches (blocking).
             // Queue ID 420 is RANKED_SOLO_5v5 (TODO)
             var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
-                Region.NA1, summonerData.AccountId, queue: new[] { QueueType.RANKED_SOLO_5x5 }, endIndex: 10);
+                Region.NA1, summonerData.AccountId, queue: new[] { Queue.SUMMONERS_RIFT_5V5_RANKED_SOLO_GAMES }, endIndex: 10);
             // Get match results (done asynchronously -> not blocking -> fast).
             var matchDataTasks = matchlist.Matches.Select(
                     matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA1, matchMetadata.GameId)
@@ -90,7 +90,7 @@ namespace MingweiSamuel.Camille.Test
                 var kda = (k + a) / (float) d;
 
                 // Print #, win/loss, champion.
-                Console.WriteLine("{0,3}) {1,-4} ({2})", i + 1, win ? "Win" : "Loss", champ.Name());
+                Console.WriteLine("{0,3}) {1,-4} ({2})", i + 1, win ? "Win" : "Loss", champ.ToString());
                 // Print champion, K/D/A
                 Console.WriteLine("     K/D/A {0}/{1}/{2} ({3:0.00})", k, d, a, kda);
             }

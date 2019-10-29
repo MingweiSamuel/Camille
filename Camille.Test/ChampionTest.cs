@@ -12,9 +12,8 @@ namespace MingweiSamuel.Camille.Test
         {
             foreach (Champion champ in Enum.GetValues(typeof(Champion)))
             {
-                Console.WriteLine(champ.Name());
-                Assert.AreEqual(champ, ChampionUtils.Parse(champ.Name()));
-                Assert.AreEqual(champ, ChampionUtils.Parse(champ.Identifier()));
+                Console.WriteLine(champ.ToString());
+                Assert.AreEqual(champ, Enum.Parse(typeof(Champion), champ.ToString()));
             }
         }
     }

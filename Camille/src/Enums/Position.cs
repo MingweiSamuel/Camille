@@ -5,8 +5,7 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// Roles used for positional ranks.
     /// </summary>
-    [Obsolete(
-        "Check: https://riot-api-libraries.readthedocs.io/en/latest/roleid.html for a better way to figure out where somebody played")]
+    [Obsolete("Check: https://riot-api-libraries.readthedocs.io/en/latest/roleid.html for a better way to figure out where somebody played")]
     public static class Position
     {
         /// <summary>
