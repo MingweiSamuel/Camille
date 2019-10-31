@@ -73,7 +73,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 
         public override string ToString()
         {
-            return "{{= schemaName }}"
+            return "{{= schemaName }}("
 {{
         for (let [ propKey, prop ] of Object.entries(props))
         {
