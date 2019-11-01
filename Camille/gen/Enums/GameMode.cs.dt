@@ -13,12 +13,15 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// GameModes enum based on gameModes.json.
     /// </summary>
+#if USE_SYSTEXTJSON
+    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum GameMode
     {
 {{
     for (let { gameMode, description } of gameModes) {
 }}
-        [Display(Name = "{{= gameMode}}", Description = "{{= description}}")]
+        [Display(Name = "{{= gameMode }}", Description = "{{= description }}")]
         {{= enumName(gameMode) }},
 {{
     }

@@ -3,6 +3,9 @@
     /// <summary>
     /// Contains tier names (CHALLENGER, MASTER, etc.)
     /// </summary>
+#if USE_SYSTEXTJSON
+  [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum Tier
     {
         CHALLENGER,
