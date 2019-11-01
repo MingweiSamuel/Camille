@@ -3,6 +3,9 @@ using System.Collections.Concurrent;
 
 namespace MingweiSamuel.Camille.Enums
 {
+#if USE_SYSTEXTJSON
+  [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum Region
     {
         /// <summary>Brazil.</summary>

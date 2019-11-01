@@ -13,6 +13,9 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// Maps enum based on maps.json.
     /// </summary>
+#if USE_SYSTEXTJSON
+    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum Map
     {
 {{

@@ -13,6 +13,9 @@ namespace MingweiSamuel.Camille.Enums
     /// <summary>
     /// GameTypes enum based on gameTypes.json.
     /// </summary>
+#if USE_SYSTEXTJSON
+    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum GameType
     {
 {{
