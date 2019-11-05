@@ -63,7 +63,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
-        public {{= dotUtils.stringifyType(prop, name) }} {{= name }} { get; set; }
+        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; set; }
 {{
         }
 }}
