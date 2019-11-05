@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>MingweiSamuel.Camille</PackageId>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
-    <Version>2.4.0</Version>
+    <Version>2.4.1</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
