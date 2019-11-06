@@ -51,7 +51,7 @@ namespace MingweiSamuel.Camille
 
             let jsonInfo = get.responses['200'].content['application/json'];
             let returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
-            if ('int' !== returnType) returnType += '?'; /* HACK. */
+            if (get['x-nullable-404']) returnType += '?';
 
             /* Cases if not rate limited. */
             let rateLimitExcluded = get['x-app-rate-limit-excluded'] ? true : false;
@@ -86,8 +86,9 @@ namespace MingweiSamuel.Camille
                     for (let param of paramList)
                     {
                         argBuilder.push(', ',
-                            dotUtils.stringifyType(param.schema, endpoint, !required),
-                            ' ', param.name);
+                            dotUtils.stringifyType(param.schema, endpoint),
+                            required ? ' ' : '? ',
+                            param.name);
                         if (!required)
                             argBuilder.push(' = null');
                     }

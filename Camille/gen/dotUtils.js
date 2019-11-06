@@ -51,7 +51,7 @@ function normalizePropName(propName, schemaName, value) {
   return name;
 }
 
-function stringifyType(prop, endpoint = null, nullable = false) {
+function stringifyType(prop, endpoint = null) {
   if (prop.anyOf) {
     prop = prop.anyOf[0];
   }
@@ -61,25 +61,20 @@ function stringifyType(prop, endpoint = null, nullable = false) {
     return (!endpoint ? '' : endpoint + '.') +
       normalizeSchemaName(refType.slice(refType.indexOf('.') + 1));
   }
-  var qm = nullable ? '?' : '';
   var enumName = prop['x-enum'];
   if (enumName !== undefined) {
-    if (prop.type === 'array') {
-      return normalizePropName(enumName, 'placeholder', '') + '[]' + qm;
-    } else {
-      return normalizePropName(enumName, 'placeholder', '') + qm;
-    }
+    return normalizePropName(enumName, 'placeholder', '') + (prop.type === 'array' ? '[]' : '');
   }
 
   switch (prop.type) {
-    case 'boolean': return 'bool' + qm;
-    case 'integer': return ('int32' === prop.format ? 'int' : 'long') + qm;
-    case 'number': return prop.format + qm;
-    case 'array': return stringifyType(prop.items, endpoint) + '[]' + qm;
+    case 'boolean': return 'bool';
+    case 'integer': return ('int32' === prop.format ? 'int' : 'long');
+    case 'number': return prop.format;
+    case 'array': return stringifyType(prop.items, endpoint) + '[]';
     case 'object':
       return 'IDictionary<' + stringifyType(prop['x-key'], endpoint) + ', ' +
-        stringifyType(prop.additionalProperties, endpoint) + '>' + qm;
-    default: return prop.type + qm;
+        stringifyType(prop.additionalProperties, endpoint) + '>';
+    default: return prop.type;
   }
 }
 
