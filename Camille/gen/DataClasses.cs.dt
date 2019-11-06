@@ -28,42 +28,48 @@ using JsonExtensionDataAttribute = System.Text.Json.Serialization.JsonExtensionD
 
 {{/* DTOs */}}
 {{
-    let schemas = spec.components.schemas;
-    for (let schemaKey of Object.keys(schemas)) {
+    const schemas = spec.components.schemas;
+    for (const schemaKey of Object.keys(schemas)) {
         if ('Error'  === schemaKey) {
             continue;
         }
-        let schemaSplit = schemaKey.split('.');
-        let endpoint = schemaSplit[0];
-        if ('lol-static-data-v3' === endpoint) { continue; }
-        let schemaName = dotUtils.normalizeSchemaName(schemaSplit[1]);
-        let schema = schemas[schemaKey];
-        let props = schema.properties;
+        const schemaSplit = schemaKey.split('.');
+        const endpoint = schemaSplit[0];
+        const schemaName = dotUtils.normalizeSchemaName(schemaSplit[1]);
+        const schema = schemas[schemaKey];
+        const props = schema.properties;
+
+        const fields = Object.entries(props).map(([ propKey, prop ]) => {
+            const name = dotUtils.normalizePropName(propKey, schemaName, prop);
+            const type = dotUtils.stringifyType(prop)
+                + (schema.required && schema.required.includes(propKey) ? '' : '?');
+            return { propKey, name, type, description: prop.description };
+        }).sortBy(({ name }) => name);
 }}
 // {{= endpoint }}
 namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 {
-#nullable disable
     /// <summary>
     /// {{= schemaName }} data object. This class is automatically generated.<para />
     /// {{= schema.description || '' }}
     /// </summary>
     public class {{= schemaName }}
     {
-        public {{= schemaName }}()
-        {}
+#nullable disable
+        public {{= schemaName }}() {}
+#nullable restore
+
 {{
-        for (let [ propKey, prop ] of Object.entries(props))
+        for (const { propKey, name, type, description } of fields)
         {
-            let name = dotUtils.normalizePropName(propKey, schemaName, prop);
 }}
-{{? prop.description }}
+{{? description }}
         /// <summary>
-        /// {{= prop.description.split('\n').map(x => x.trim()).join('<para />\r\n        /// ') }}
+        /// {{= description.split('\n').map(x => x.trim()).join('<para />\r\n        /// ') }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
-        public {{= dotUtils.stringifyType(prop) }} {{= name }} { get; set; }
+        public {{= type }} {{= name }} { get; set; }
 {{
         }
 }}
@@ -87,7 +93,6 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
                 + "_AdditionalProperties: {" + string.Join(", ", _AdditionalProperties.Select(kv => $"\"{kv.Key}\": {kv.Value}")) + "})";
         }
     }
-#nullable restore
 }
 
 {{
