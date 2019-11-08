@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille", "Camille\Camille.csproj", "{7DB820F1-5E9B-4872-8B78-A1B799DC4B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotApi", "Camille.RiotApi\Camille.RiotApi.csproj", "{7DB820F1-5E9B-4872-8B78-A1B799DC4B17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Test", "Camille.Test\Camille.Test.csproj", "{2798A2CC-31D0-490F-A257-A76E18414334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotApi.Test", "Camille.RiotApi.Test\Camille.RiotApi.Test.csproj", "{2798A2CC-31D0-490F-A257-A76E18414334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
