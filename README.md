@@ -1,6 +1,6 @@
 # Camille
 
-[![AppVeyor branch](https://img.shields.io/appveyor/ci/MingweiSamuel/Camille/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MingweiSamuel/Camille) [![NuGet Stable](https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest) [![API Reference](https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square)](http://www.mingweisamuel.com/Camille/)
+[![AppVeyor branch](https://img.shields.io/appveyor/ci/MingweiSamuel/Camille/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MingweiSamuel/Camille) [![NuGet Stable](https://img.shields.io/nuget/v/Camille.RiotApi.svg?style=flat-square)](https://www.nuget.org/packages/Camille.RiotApi/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/Camille.RiotApi.svg?style=flat-square)](https://www.nuget.org/packages/Camille.RiotApi/absoluteLatest) [![API Reference](https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square)](http://www.mingweisamuel.com/Camille/)
 
 C# Library for the [Riot Games API](https://developer.riotgames.com/)
 
@@ -19,7 +19,7 @@ Data classes are automatically generated from the
 
 ## Installation
 
-[Install via NuGet](https://www.nuget.org/packages/MingweiSamuel.Camille/) (`MingweiSamuel.Camille`).
+[Install via NuGet](https://www.nuget.org/packages/Camille.RiotApi/) (`Camille.RiotApi`).
 
 ## Usage
 
@@ -187,7 +187,7 @@ Match history for LugnutsK:
 
 Source code is located in the
 [`src/` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src), corresponding
-to the `MingweiSamuel.Camille` namespace.
+to the `Camille.RiotApi` namespace.
 
 [`RiotApi.cs`](https://github.com/MingweiSamuel/Camille/blob/master/Camille/src/RiotApi.cs) is the main
 point of entry for interfacing with Camille, however this source file is only a partial class. The remainder
@@ -195,7 +195,7 @@ of the class is automatically generated and not commited to the `master` branch,
 below in the "Generated Classes" section.
 
 Files in the
-[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src/Util)/`MingweiSamuel.Camille.Util` namespace
+[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src/Util)/`Camille.RiotApi.Util` namespace
 are internal classes used for sending requests and handling rate limits.
 
 ### Generated Classes

@@ -1,4 +1,4 @@
-Push-Location .\Camille
+Push-Location .\Camille.RiotApi
 
 # Handle version
 [xml]$CSPROJ = Get-Content -Path .\Camille.csproj

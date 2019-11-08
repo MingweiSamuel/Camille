@@ -17,14 +17,14 @@ docfx metadata .\docfx_project\docfx.json
 # Change links to generated files.
 Get-ChildItem "docfx_project\api" -Filter *.yml |
 ForEach-Object {
-  (Get-Content $_.FullName -raw) -replace '(?m)^(\s+)path:\s+Camille\/gen\/(.*)\.cs\r?\n\s+branch:\s+master',
+  (Get-Content $_.FullName -raw) -replace '(?m)^(\s+)path:\s+Camille\.RiotApi\/gen\/(.*)\.cs\r?\n\s+branch:\s+master',
     "`$1path: _gen\`$2.cs`r`n`$1branch: gh-pages" | Out-File $_.FullName
 }
 # Build HTML.
 docfx build .\docfx_project\docfx.json
 # Create folder for generated files & copy over.
 New-Item -ItemType directory -Path docs\_gen -Force
-Copy-Item .\Camille\gen\*.cs .\docs\_gen\
+Copy-Item .\Camille.RiotApi\gen\*.cs .\docs\_gen\
 
 Push-Location .\docs
 # Check if there are substantial changes.
