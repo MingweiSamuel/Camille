@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MingweiSamuel.TokenBucket;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -24,7 +25,7 @@ namespace MingweiSamuel.Camille.Util
         /// temporal factor of 1. Once a response is successful, we update the buckets to match.
         /// </summary>
         private volatile IReadOnlyList<ITokenBucket> _buckets =
-            new List<ITokenBucket> { new CircularBufferTokenBucket(TimeSpan.FromSeconds(1), 1, 1, 0, 1) };
+            new List<ITokenBucket> { new CircularTokenBucket(TimeSpan.FromSeconds(1), 1, 1, 0, 1) };
 
         /// <summary>TickStamp to retry after receiving a 429/Retry-After header.</summary>
         private long _retryAfterTickStamp = 0;
@@ -113,7 +114,8 @@ namespace MingweiSamuel.Camille.Util
         /// <returns>True if needs update, false otherwise.</returns>
         private bool CheckBucketsRequireUpdating(string limitHeader)
         {
-            var currentLimit = string.Join(",", _buckets.Select(b => b.ToLimitString()));
+            var currentLimit = string.Join(",", _buckets
+                .Select(b => b.GetTotalLimit() + ":" + (b.GetTickSpan() / TimeSpan.TicksPerSecond)));
             // Needs update if headers do not match.
             return !limitHeader.Equals(currentLimit);
         }
