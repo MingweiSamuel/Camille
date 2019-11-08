@@ -61,8 +61,7 @@ namespace Camille.RiotApi.Util
                 response.Headers.TryGetValues(HeaderXRateLimitType, out typeNameHeaderEnumerable);
                 var typeNameHeader = typeNameHeaderEnumerable?.FirstOrDefault();
                 if (typeNameHeader == null)
-                    throw new InvalidOperationException(
-                        $"429 response did not include {HeaderXRateLimitType}, indicating a failure of the Riot API edge.");
+                    return;
                 if (_rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.OrdinalIgnoreCase))
                 {
                     IEnumerable<string> retryAfterHeaderEnumerable;
