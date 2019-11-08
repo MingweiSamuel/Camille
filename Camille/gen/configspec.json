@@ -26,6 +26,6 @@
   "tokenBucketFactory": {
     "type": "Util.TokenBucketFactory",
     "desc": "Factory for creating temporal buckets.",
-    "val": "(timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new Util.CircularBufferTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor* overheadFactor)"
+    "val": "(timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new MingweiSamuel.TokenBucket.CircularTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor * overheadFactor)"
   }
 }
