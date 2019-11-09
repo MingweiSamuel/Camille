@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0;netcoreapp3.1</TargetFrameworks>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Camille.Enums\Camille.Enums.csproj" />
     <ProjectReference Include="..\Camille.RiotApi\Camille.RiotApi.csproj" />
   </ItemGroup>
   <ItemGroup>

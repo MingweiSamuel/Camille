@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Camille.RiotApi.ChampionMasteryV4;
-using Camille.RiotApi.Enums;
+using Camille.Enums;
 
 namespace Camille.RiotApi.Test
 {

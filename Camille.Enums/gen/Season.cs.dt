@@ -1,5 +1,5 @@
 {{
-    const seasons = require('./.seasons.json')
+    const seasons = require(it.path + '/.seasons.json')
         .filter(({ id }) => id > 0);
     const enumName = function(name) { return name.toUpperCase().replace(/[^A-Z0-9]+/, '_'); };
 }}
@@ -9,7 +9,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Camille.RiotApi.Enums
+namespace Camille.Enums
 {
     /// <summary>
     /// Seasons enum based on Seasons.json.

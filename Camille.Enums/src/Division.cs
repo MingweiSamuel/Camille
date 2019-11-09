@@ -1,6 +1,6 @@
 using System;
 
-namespace Camille.RiotApi.Enums
+namespace Camille.Enums
 {
 #if USE_SYSTEXTJSON
   [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]

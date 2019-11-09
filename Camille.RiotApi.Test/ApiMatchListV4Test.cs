@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Camille.RiotApi.Enums;
+using Camille.Enums;
 using Camille.RiotApi.MatchV4;
 
 namespace Camille.RiotApi.Test

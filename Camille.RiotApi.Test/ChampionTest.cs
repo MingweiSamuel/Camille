@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Camille.RiotApi.Enums;
+using Camille.Enums;
 
 namespace Camille.RiotApi.Test
 {
