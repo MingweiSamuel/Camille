@@ -4,7 +4,23 @@
       "src": [
         {
           "files": [
-            "Camille/Camille.csproj"
+            "Camille.RiotApi/Camille.RiotApi.csproj"
+          ],
+          "src": "../"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "properties": {
+        "TargetFramework": "net45" 
+      }
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Camille.Enums/Camille.Enums.csproj"
           ],
           "src": "../"
         }
