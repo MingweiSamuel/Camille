@@ -10,8 +10,8 @@ install:
 before_build:
   - node --version
   - npm --version
-  - powershell -Command "cd Camille\gen; npm install"
-  - ps: $env:api_key | Out-File Camille.Test\apikey.txt
+  - powershell -Command "cd srcgen; npm install"
+  - ps: $env:api_key | Out-File Camille.RiotApi.Test\apikey.txt
   - nuget restore
   - ps: >-
       $env:DO_DEPLOY = ($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]')
