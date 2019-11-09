@@ -30,6 +30,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F67163
 		srcgen\polyfill.js = srcgen\polyfill.js
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille.Lcu", "Camille.Lcu\Camille.Lcu.csproj", "{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille.Lcu.Test", "Camille.Lcu.Test\Camille.Lcu.Test.csproj", "{D0B78606-D154-4E27-923E-73ED56977029}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06} = {08A47FDA-EF22-426F-8E9F-6D9706EC4F06}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +55,14 @@ Global
 		{D0E87959-4FBD-4134-A399-3C29E9CE38A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E87959-4FBD-4134-A399-3C29E9CE38A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E87959-4FBD-4134-A399-3C29E9CE38A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B78606-D154-4E27-923E-73ED56977029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B78606-D154-4E27-923E-73ED56977029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B78606-D154-4E27-923E-73ED56977029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B78606-D154-4E27-923E-73ED56977029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
