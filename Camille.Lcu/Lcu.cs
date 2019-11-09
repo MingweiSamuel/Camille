@@ -13,29 +13,32 @@ namespace Camille.Lcu
     {
         /// <summary>Basic auth username used by the LCU.</summary>
         private const string USERNAME = "riot";
-        /// <summary>Certificate used by the LCU.</summary>
+        /// <summary>Root certificate used by the certificate used by the LCU.</summary>
         private static readonly X509Certificate2 RIOT_CERT =
             new X509Certificate2(Convert.FromBase64String(
-            "MIIDkjCCAnqgAwIBAgIBYTANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UEBhMCVVMx" +
-            "EzARBgNVBAgTCkNhbGlmb3JuaWExFTATBgNVBAcTDFNhbnRhIE1vbmljYTETMBEG" +
-            "A1UEChMKUmlvdCBHYW1lczEdMBsGA1UECxMUTG9MIEdhbWUgRW5naW5lZXJpbmcx" +
-            "MzAxBgNVBAMTKkxvTCBHYW1lIEVuZ2luZWVyaW5nIENlcnRpZmljYXRlIEF1dGhv" +
-            "cml0eTEtMCsGCSqGSIb3DQEJARYeZ2FtZXRlY2hub2xvZ2llc0ByaW90Z2FtZXMu" +
-            "Y29tMB4XDTE2MDEwNzIwMDMzM1oXDTI2MDEwNDIwMDMzM1owEjEQMA4GA1UEAwwH" +
-            "cmNsaWVudDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKAEY5b/ofR3" +
-            "Hkw3ga5epY6r/XHXtxtnC1aDpFdvaAK4w3XW6wSqkt9p71dA6LJ+IHdA9BR8KXvj" +
-            "eOay//SGhSm7Ac7ceGH5s7CK8nt8py6orM6nKTKrt/Ujt2W/px+UGYrQdmQ1v+0s" +
-            "/JTqNjXeZV04Y/YtWGvoOhFo4tTYCySbfkWmnz+h9VrM7S6dqZi7ulM9PkLr77oE" +
-            "LPhjLJssXZU1RPkv4OAhdXGJhedKI1Gjl1OtRLoNgKJ5Z0ADpJPbq8/bPsHoOeZ8" +
-            "bNCWIRTdQQWWBoAdKJ0tMcEipGuaMDKSm62QYnut2xdBUU0QQth8pPVh0T5U0kHk" +
-            "OsIs+f8yhYECAwEAAaMzMDEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwGgYDVR0RBBMw" +
-            "EYcEfwAAAYIJbG9jYWxob3N0MA0GCSqGSIb3DQEBCwUAA4IBAQB844UGlHduV1uZ" +
-            "1A0J9nnotBvqRR1F74Ni/BWMH00L5N+klW2qpVft6+K9mqFgY+A9ym/jHf7w3wlu" +
-            "8S7Bdwh/AEm7U21UmxkeViZ1zwfj+iujsjAnLGCZsNoP+Eew2VAhegNVO0cVQ/Tu" +
-            "IHFowIF1gmPXkBSi4n0veEhBmsp9k70wCmHSaDJ2nLftWBhC4OMhMUO0HxAO2v5Y" +
-            "b1fQPJv5goyhDa5Wnzl4LZimoVcBMX01ll1EolcwZVKIV+SyBexzG5bjGlT6clNG" +
-            "V2RHs+ciYoXWtVjzmZ3DqNTvIjnqhcXQQ7n1yXk3JJF1WqkbRUCCOWXxUpuQy8Lp" +
-            "6Vy9F980"));
+            "MIIEIDCCAwgCCQDJC+QAdVx4UDANBgkqhkiG9w0BAQUFADCB0TELMAkGA1UEBhMC" +
+            "VVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFTATBgNVBAcTDFNhbnRhIE1vbmljYTET" +
+            "MBEGA1UEChMKUmlvdCBHYW1lczEdMBsGA1UECxMUTG9MIEdhbWUgRW5naW5lZXJp" +
+            "bmcxMzAxBgNVBAMTKkxvTCBHYW1lIEVuZ2luZWVyaW5nIENlcnRpZmljYXRlIEF1" +
+            "dGhvcml0eTEtMCsGCSqGSIb3DQEJARYeZ2FtZXRlY2hub2xvZ2llc0ByaW90Z2Ft" +
+            "ZXMuY29tMB4XDTEzMTIwNDAwNDgzOVoXDTQzMTEyNzAwNDgzOVowgdExCzAJBgNV" +
+            "BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRUwEwYDVQQHEwxTYW50YSBNb25p" +
+            "Y2ExEzARBgNVBAoTClJpb3QgR2FtZXMxHTAbBgNVBAsTFExvTCBHYW1lIEVuZ2lu" +
+            "ZWVyaW5nMTMwMQYDVQQDEypMb0wgR2FtZSBFbmdpbmVlcmluZyBDZXJ0aWZpY2F0" +
+            "ZSBBdXRob3JpdHkxLTArBgkqhkiG9w0BCQEWHmdhbWV0ZWNobm9sb2dpZXNAcmlv" +
+            "dGdhbWVzLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKoJemF/" +
+            "6PNG3GRJGbjzImTdOo1OJRDI7noRwJgDqkaJFkwv0X8aPUGbZSUzUO23cQcCgpYj" +
+            "21ygzKu5dtCN2EcQVVpNtyPuM2V4eEGr1woodzALtufL3Nlyh6g5jKKuDIfeUBHv" +
+            "JNyQf2h3Uha16lnrXmz9o9wsX/jf+jUAljBJqsMeACOpXfuZy+YKUCxSPOZaYTLC" +
+            "y+0GQfiT431pJHBQlrXAUwzOmaJPQ7M6mLfsnpHibSkxUfMfHROaYCZ/sbWKl3lr" +
+            "ZA9DbwaKKfS1Iw0ucAeDudyuqb4JntGU/W0aboKA0c3YB02mxAM4oDnqseuKV/CX" +
+            "8SQAiaXnYotuNXMCAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAf3KPmddqEqqC8iLs" +
+            "lcd0euC4F5+USp9YsrZ3WuOzHqVxTtX3hR1scdlDXNvrsebQZUqwGdZGMS16ln3k" +
+            "WObw7BbhU89tDNCN7Lt/IjT4MGRYRE+TmRc5EeIXxHkQ78bQqbmAI3GsW+7kJsoO" +
+            "q3DdeE+M+BUJrhWorsAQCgUyZO166SAtKXKLIcxa+ddC49NvMQPJyzm3V+2b1roP" +
+            "SvD2WV8gRYUnGmy/N0+u6ANq5EsbhZ548zZc+BI4upsWChTLyxt2RxR7+uGlS1+5" +
+            "EcGfKZ+g024k/J32XP4hdho7WYAS2xMiV83CfLR/MNi8oSMaVQTdKD8cpgiWJk3L" +
+            "XWehWA=="));
 
         private readonly Lockfile _lockfile;
 
@@ -49,8 +52,21 @@ namespace Camille.Lcu
             _clientHandler = new HttpClientHandler
             {
                 ClientCertificateOptions = ClientCertificateOption.Manual,
-                ServerCertificateCustomValidationCallback = (req, cert, chain, polErr) =>
-                    RIOT_CERT.Equals(cert) && 0 == (polErr & ~SslPolicyErrors.RemoteCertificateChainErrors)
+                ServerCertificateCustomValidationCallback = (req, cert, chain, polErrs) => {
+                    // Normal verification.
+                    if (SslPolicyErrors.None == polErrs)
+                        return true;
+
+                    using X509Chain privateChain = new X509Chain();
+                    // Do not use `AllowUnknownCertificateAuthority` (ignores `ExtraStore`).
+                    privateChain.ChainPolicy.RevocationMode = X509RevocationMode.NoCheck;
+                    privateChain.ChainPolicy.ExtraStore.Add(RIOT_CERT); // Add root certificate.
+                    privateChain.Build(cert);
+
+                    // Only error should be that the root certificate is untrusted.
+                    return 1 == privateChain.ChainStatus.Length &&
+                        privateChain.ChainStatus[0].Status == X509ChainStatusFlags.UntrustedRoot;
+                }
             };
 
             _client = new HttpClient(_clientHandler);
