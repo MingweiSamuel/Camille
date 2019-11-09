@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Linq;
-using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Camille.RiotApi.ChampionV3;
-using Camille.RiotApi.Enums;
+using Camille.Enums;
 
 namespace Camille.RiotApi.Test
 {

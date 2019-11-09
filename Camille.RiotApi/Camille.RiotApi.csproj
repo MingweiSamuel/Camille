@@ -18,13 +18,16 @@
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. V4 Supported.</Description>
     <Summary>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. V4 Supported.</Summary>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
-    <PackageReleaseNotes>Updates for v4 leagues</PackageReleaseNotes>
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup>
     <GenDir>gen</GenDir>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
+    <ProjectReference Include="..\Camille.Enums\Camille.Enums.csproj" />
+  </ItemGroup>
 
   <!-- Camille using Newtonsoft.Json. -->
   <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netcoreapp2.0' Or '$(TargetFramework)' == 'netcoreapp3.0'">
@@ -55,9 +58,6 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netstandard2.1'">
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
-  </ItemGroup>
 
 
   <ItemGroup>
@@ -66,17 +66,11 @@
 
   <Target Name="DownloadTemplateData">
     <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json" DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/seasons.json" DestinationFolder="$(GenDir)" DestinationFileName=".seasons.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/queues.json" DestinationFolder="$(GenDir)" DestinationFileName=".queues.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/maps.json" DestinationFolder="$(GenDir)" DestinationFileName=".maps.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/gameModes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameModes.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" ContinueOnError="true" />
   </Target>
 
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
   <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateData">
-    <Exec WorkingDirectory="$(GenDir)" Command="node index.js" />
+    <Exec WorkingDirectory="$(SolutionDir)" Command="node srcgen/index.js &quot;$(MSBuildProjectDirectory)&quot;" />
   </Target>
   <!-- On Unix/OSX DispatchToInnerBuilds is not run so we use GenerateTargetFrameworkMonikerAttribute. -->
   <Target Name="BuildTemplatesUnix" BeforeTargets="GenerateTargetFrameworkMonikerAttribute" DependsOnTargets="BuildTemplates" Condition="$(OS) == 'Unix'">

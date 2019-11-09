@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Camille.RiotApi.Enums;
+using Camille.Enums;
 using Camille.RiotApi.Util;
 
 namespace Camille.RiotApi
