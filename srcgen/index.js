@@ -21,6 +21,19 @@ const _ = require('./polyfill');
 const log = a => { console.log(a); return a; };
 const suffix = '.dt';
 
+const templateNames = [
+    'dataClasses',
+    'endpointMethods'
+];
+const templatesPromise = Promise
+    .all(templateNames.map(file => fs.readFileAsync(`${__dirname}/${file}${suffix}`, 'utf8')))
+    .then(contents => {
+        const templates = {};
+        for (let i = 0; i < templateNames.length; i++)
+            templates[templateNames[i]] = doT.template(contents[i]);
+        return templates;
+    });
+
 doT.templateSettings = {
   evaluate: /\r?\n?\{\{([\s\S]+?)\}\}/g,
   interpolate: /\r?\n?\{\{=([\s\S]+?)\}\}/g,
@@ -41,6 +54,7 @@ const dir = process.argv[2] || process.cwd();
 
 glob
   .promise(dir + '/**/*' + suffix, { ignore: [
+    __dirname + '/**',
     '**/node_modules/**',
     '**/bin/**',
     '**/obj/**',
@@ -48,11 +62,12 @@ glob
   ] })
   .then(files => Promise.all(files
     .map(log)
-    .map(file => fs.readFileAsync(file, 'utf8')
-      .then(input => {
+    .map(file => Promise.all([ templatesPromise, fs.readFileAsync(file, 'utf8') ])
+      .then(([ templates, input ])=> {
         try {
           return doT.template(input)({
-            path: path.dirname(file)
+            path: path.dirname(file),
+            templates,
           });
         }
         catch (e) {

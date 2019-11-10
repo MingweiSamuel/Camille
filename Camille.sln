@@ -24,15 +24,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Enums", "Camille.En
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F671635E-4AA2-4A6E-90B2-4FD6C1D243BE}"
 	ProjectSection(SolutionItems) = preProject
+		srcgen\dataClasses.dt = srcgen\dataClasses.dt
 		srcgen\dotUtils.js = srcgen\dotUtils.js
+		srcgen\endpointMethods.dt = srcgen\endpointMethods.dt
 		srcgen\index.js = srcgen\index.js
 		srcgen\package.json = srcgen\package.json
 		srcgen\polyfill.js = srcgen\polyfill.js
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille.Lcu", "Camille.Lcu\Camille.Lcu.csproj", "{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu", "Camille.Lcu\Camille.Lcu.csproj", "{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camille.Lcu.Test", "Camille.Lcu.Test\Camille.Lcu.Test.csproj", "{D0B78606-D154-4E27-923E-73ED56977029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu.Test", "Camille.Lcu.Test\Camille.Lcu.Test.csproj", "{D0B78606-D154-4E27-923E-73ED56977029}"
 	ProjectSection(ProjectDependencies) = postProject
 		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06} = {08A47FDA-EF22-426F-8E9F-6D9706EC4F06}
 	EndProjectSection

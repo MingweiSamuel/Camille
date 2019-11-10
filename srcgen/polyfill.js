@@ -4,6 +4,10 @@ Array.prototype.flatMap = function(lambda) {
   return Array.prototype.concat.apply([], this.map(lambda));
 };
 
+Array.prototype.defined = function(lambda) {
+  return this.filter(x => undefined !== x);
+};
+
 Array.prototype.sortBy = function(lambda) {
   return this.sort((a, b) => {
     const va = lambda(a);

@@ -68,7 +68,7 @@ namespace Camille.RiotApi.Util
                 var methodRateLimit = GetMethodRateLimit(methodId);
                 long delay;
                 var rateLimits = nonRateLimited ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
-                while ((delay = RateLimitUtils.GetOrDelay(rateLimits)) >= 0)
+                while (0 <= (delay = RateLimitUtils.GetOrDelay(rateLimits)))
                     await Task.Delay(TimeSpan.FromTicks(delay), token.GetValueOrDefault());
 
                 // Send request.
