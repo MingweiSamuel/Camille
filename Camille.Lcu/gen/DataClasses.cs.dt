@@ -1,0 +1,44 @@
+﻿{{
+    const dotUtils = require('./dotUtils.js');
+    const spec = require(it.path + '/spec.json');
+
+    const endpoints = [
+        "/lol-login/v1/session",
+        "/riotclient/region-locale",
+        "/riotclient/kill-and-restart-ux",
+        "/riotclient/kill-ux",
+        "/riotclient/launch-ux",
+        "/riotclient/unload",
+        "/riotclient/ux-flash",
+        "/riotclient/ux-minimize",
+        "/riotclient/ux-show",
+        "/riotclient/ux-state",
+        "/lol-summoner/v1/check-name-availability-new-summoners/{name}",
+        "/lol-summoner/v1/check-name-availability/{name}",
+        "/lol-summoner/v1/current-summoner",
+        "/lol-summoner/v1/current-summoner/autofill",
+        "/lol-ranked/v1/league-ladders/{puuid}"
+    ];
+
+    const dtoNamespaceMapping = dotUtils.getDtoNamespaceMapping(endpoints, spec);
+
+    const header = `// Version ${spec.info.version}`;
+    const usings = []; /* 'using Camille.RiotApi.Enums;' ]; */
+    const useSchema = (schemaKey)
+        => dtoNamespaceMapping[schemaKey];
+    const getSchemaNamespace = (schemaKey)
+        => dtoNamespaceMapping[schemaKey];
+    const getSchemaName = (schemaKey) => {
+        const ns = dtoNamespaceMapping[schemaKey];
+        const name = dotUtils.normalizeSchemaName(schemaKey);
+        return name.startsWith(ns) ? name.slice(ns.length) : name;
+    };
+    const stringifyType = (schema, namespace) => {
+        console.log(schema, namespace);
+        return dotUtils.stringifyType(schema, null, namespace);
+    };
+}}
+{{= it.templates.dataClasses({
+    spec, header, usings, useSchema, getSchemaNamespace, getSchemaName,
+    stringifyType
+}) }}
