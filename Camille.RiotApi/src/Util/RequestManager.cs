@@ -29,9 +29,9 @@ namespace Camille.RiotApi.Util
         }
 
         public async Task<string?> Send(Region region, string methodId, bool nonRateLimited, 
-            HttpRequestMessage request, CancellationToken? token)
+            HttpRequestMessage request, CancellationToken token)
         {
-            await _concurrentRequestSemaphore.WaitAsync(token.GetValueOrDefault());
+            await _concurrentRequestSemaphore.WaitAsync(token);
             try
             {
                 return await GetRateLimiter(region).Send(methodId, nonRateLimited, request, token);

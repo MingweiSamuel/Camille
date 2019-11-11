@@ -35,27 +35,24 @@ namespace Camille.Lcu
                 "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lf.Password}")));
         }
 
-        public async Task<T> SendAsync<T>(HttpRequestMessage request)
+        public async Task<string> SendAsync(HttpRequestMessage request, CancellationToken token)
         {
             if (null != _concurrentRequestSemaphore)
-                await _concurrentRequestSemaphore.WaitAsync();
+                await _concurrentRequestSemaphore.WaitAsync(token);
             try
             {
                 if (null != _tokenBucket)
                 {
                     long delay;
                     while (0 <= (delay = TokenBucketUtils.GetAllTokensOrDelay(_tokenBucket)))
-                        await Task.Delay(TimeSpan.FromTicks(delay));
+                    {
+                        await Task.Delay(TimeSpan.FromTicks(delay), token);
+                        token.ThrowIfCancellationRequested();
+                    }
                 }
 
                 var response = await _client.SendAsync(request);
-                var json = await response.Content.ReadAsStringAsync();
-#if USE_NEWTONSOFT
-                return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
-#endif
-#if USE_SYSTEXTJSON
-                return System.Text.Json.JsonSerializer.Deserialize<T>(json);
-#endif
+                return await response.Content.ReadAsStringAsync();
             }
             finally
             {

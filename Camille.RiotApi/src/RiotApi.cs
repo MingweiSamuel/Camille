@@ -58,7 +58,7 @@ namespace Camille.RiotApi
             // This slightly improves performance and helps prevent GUI thread deadlocks.
             // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
             await new SynchronizationContextRemover();
-            var content = await _requestManager.Send(region, methodId, nonRateLimited, request, token);
+            var content = await _requestManager.Send(region, methodId, nonRateLimited, request, token.GetValueOrDefault());
 #if USE_NEWTONSOFT
             return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
 #endif
@@ -71,7 +71,7 @@ namespace Camille.RiotApi
             HttpRequestMessage request, CancellationToken? token)
         {
             await new SynchronizationContextRemover();
-            await _requestManager.Send(region, methodId, nonRateLimited, request, token);
+            await _requestManager.Send(region, methodId, nonRateLimited, request, token.GetValueOrDefault());
         }
         #endregion
     }
