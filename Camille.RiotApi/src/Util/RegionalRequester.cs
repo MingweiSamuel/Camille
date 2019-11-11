@@ -57,7 +57,7 @@ namespace Camille.RiotApi.Util
         /// <param name="token">CancellationToken to cancel this task.</param>
         /// <returns>Response body (or null if no body).</returns>
         public async Task<string?> Send(string methodId, bool nonRateLimited,
-            HttpRequestMessage request, CancellationToken? token)
+            HttpRequestMessage request, CancellationToken token)
         {
             HttpResponseMessage? response = null;
             var retries = 0;
@@ -68,10 +68,13 @@ namespace Camille.RiotApi.Util
                 long delay;
                 var rateLimits = nonRateLimited ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
                 while (0 <= (delay = RateLimitUtils.GetOrDelay(rateLimits)))
-                    await Task.Delay(TimeSpan.FromTicks(delay), token.GetValueOrDefault());
+                {
+                    await Task.Delay(TimeSpan.FromTicks(delay), token);
+                    token.ThrowIfCancellationRequested();
+                }
 
                 // Send request, receive response.
-                response = await _client.SendAsync(request, token.GetValueOrDefault());
+                response = await _client.SendAsync(request, token);
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response);
                 // Success.

@@ -1,8 +1,12 @@
 ﻿{{
     const spec = require(it.path + '/.spec.json');
     const dotUtils = require('./dotUtils.js');
+    const namespace = 'RiotApi';
     const useMethod = ([ route, path ]) => true; /*path.get && path.get.responses['200'];*/
+    const defaultArgs = [ 'Region region, ' ];
+    const formatSendArgs = operation
+        => `region, "${operation.operationId}", ${ !!operation['x-app-rate-limit-excluded'] }, request, cancellationToken`;
 }}
 {{= it.templates.endpointMethods({
-    spec, useMethod, namespace: 'RiotApi'
+    spec, namespace, useMethod, defaultArgs, formatSendArgs
 }) }}

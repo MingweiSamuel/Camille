@@ -8,8 +8,10 @@
     };
     const schemasToInclude = dotUtils.remapNamespaces(spec, endpoints, namespaceRenames);
 
+    const namespace = 'Lcu';
     const useMethod = ([ route, path ]) => endpoints.includes(route);
+    const formatSendArgs = operation => 'request, cancellationToken';
 }}
 {{= it.templates.endpointMethods({
-    spec, useMethod, namespace: 'Lcu'
+    spec, namespace, useMethod, formatSendArgs
 }) }}

@@ -132,14 +132,16 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
         const namespace = normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
         path['x-endpoint'] = namespaceRenamed(namespace);
         Object.values(op.responses || {})
+          .concat(op.requestBody || [])
           .map(resp => resp.content).defined()
           .map(cont => cont['application/json']).defined()
-          .filter(json => json.schema['$ref'])
-          .forEach(json => {
-              // TODO items.
-            const type = json.schema['$ref'].split('/').pop();
+          .map(json => json.schema)
+          .flatMap(schem => [ schem, schem.items, schem.additionalProperties ]).defined()
+          .filter(schem => schem['$ref'])
+          .forEach(schem => {
+            const type = schem['$ref'].split('/').pop();
             dtoNamespaceMapping[type] = namespace;
-            updateRef(json.schema);
+            updateRef(schem);
           });
       })
     );
@@ -151,7 +153,6 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
 
     let schema = spec.components.schemas[type];
     let childRefs = Object.values(schema.properties || {})
-      //.map(x => { console.log(x); return x; })
       .flatMap(propVal => [ propVal, propVal.items, propVal.additionalProperties ]).defined()
       .filter(propVal => propVal['$ref'])
       .forEach(propVal => {
@@ -164,7 +165,6 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
       });
   }
 
-  
   const schemas = spec.components.schemas;
   const schemasToInclude = new Set();
   for (const [ schemaKey, namespace ] of Object.entries(dtoNamespaceMapping)) {

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Camille.Lcu.Util;
+using System;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Camille.Lcu
@@ -15,27 +17,62 @@ namespace Camille.Lcu
             _requester = new LcuRequester(lcuConfig);
         }
 
-        public async Task<LolSummoner.Summoner> GetLolSummonerV1CurrentSummoner()
+        /// <summary>
+        /// Send a custom request to the LCU, parsing a value as JSON.
+        /// </summary>
+        /// <typeparam name="T">Type to parse as JSON.</typeparam>
+        /// <param name="request">Request to send.</param>
+        /// <param name="token">Cancellation token to cancel the request.</param>
+        /// <returns>The parsed value. May be null if endpoint returned an empty success response.</returns>
+        public T Send<T>(HttpRequestMessage request, CancellationToken? token)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, "/lol-summoner/v1/current-summoner");
-            return await SendAsync<LolSummoner.Summoner>(request);
-        }
-
-        public async Task<LolLogin.LoginSession> GetLolLoginV1Session()
-        {
-            var request = new HttpRequestMessage(HttpMethod.Get, "/lol-login/v1/session");
-            return await SendAsync<LolLogin.LoginSession>(request);
+            return SendAsync<T>(request, token).Result;
         }
 
         /// <summary>
-        /// Send a custom request to the LCU.
+        /// Send a custom request to the LCU, ignoring the return value.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="request"></param>
-        /// <returns></returns>
-        public async Task<T> SendAsync<T>(HttpRequestMessage request)
+        /// <typeparam name="T">Type to parse as JSON.</typeparam>
+        /// <param name="request">Request to send.</param>
+        /// <param name="token">Cancellation token to cancel the request.</param>
+        public void Send(HttpRequestMessage request, CancellationToken? token)
         {
-            return await _requester.SendAsync<T>(request);
+            SendAsync(request, token).Wait();
+        }
+
+
+        /// <summary>
+        /// Send a custom request to the LCU, parsing a value as JSON.
+        /// </summary>
+        /// <typeparam name="T">Type to parse as JSON.</typeparam>
+        /// <param name="request">Request to send.</param>
+        /// <param name="token">Cancellation token to cancel the request.</param>
+        /// <returns>The parsed value. May be null if endpoint returned an empty success response.</returns>
+        public async Task<T> SendAsync<T>(HttpRequestMessage request, CancellationToken? token)
+        {
+            // Camille's code is context-free.
+            // This slightly improves performance and helps prevent GUI thread deadlocks.
+            // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
+            await new SynchronizationContextRemover();
+            var content = await _requester.SendAsync(request, token.GetValueOrDefault());
+#if USE_NEWTONSOFT
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
+#endif
+#if USE_SYSTEXTJSON
+            return System.Text.Json.JsonSerializer.Deserialize<T>(content);
+#endif
+        }
+
+        /// <summary>
+        /// Send a custom request to the LCU, ignoring the return value.
+        /// </summary>
+        /// <typeparam name="T">Type to parse as JSON.</typeparam>
+        /// <param name="request">Request to send.</param>
+        /// <param name="token">Cancellation token to cancel the request.</param>
+        public async Task SendAsync(HttpRequestMessage request, CancellationToken? token)
+        {
+            await new SynchronizationContextRemover();
+            await _requester.SendAsync(request, token.GetValueOrDefault());
         }
 
         public void Dispose()

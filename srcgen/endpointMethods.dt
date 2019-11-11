@@ -74,22 +74,19 @@ namespace Camille.{{= it.namespace }}
                     bodyType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
                 }
 
-                /* Cases if not rate limited. */
-                let rateLimitExcluded = operation['x-app-rate-limit-excluded'] ? true : false;
-
                 /* Description processing. */
                 let desc = operation.description || '';
-                let descArr = desc
+                let descArr = desc /* Convert MD #headers to <h#> tags. */
                     .replace(/(#+)\s*([^\\]+)\\n(.*?)([\\n$])/g,
                         (m, g1, g2, g3, g4) => `<h${g1.length}>${g2}</h${g1.length}>\\n${g3}${g4}`)
                     .split('\n');
 
                 /* Build argument comment & string. */
-                const argBuilder = [];
+                const argBuilder = (it.defaultArgs || []).slice();
                 const allParams = operation.parameters;
                 let queryParams = [];
                 if (bodyType) {
-                    argBuilder.push(', ', bodyType, ' body');
+                    argBuilder.push(bodyType, ' body, ');
                 }
                 if (allParams && allParams.length)
                 {
@@ -108,15 +105,15 @@ namespace Camille.{{= it.namespace }}
                         let required = paramList === pathParams;
                         for (let param of paramList)
                         {
-                            argBuilder.push(', ',
+                            argBuilder.push(
                                 dotUtils.stringifyType(param.schema, endpoint),
                                 required ? ' ' : '? ',
-                                param.name);
-                            if (!required)
-                                argBuilder.push(' = null');
+                                param.name,
+                                required ? ', ' : ' = null, ');
                         }
                     }
                 }
+                argBuilder.push('CancellationToken? cancellationToken = null');
 
                 for (const isAsync of [ false, true ])
                 {
@@ -148,7 +145,7 @@ namespace Camille.{{= it.namespace }}
                     }
 }}
         /// <param name="cancellationToken">A cancellation token that can be used to cancel this task.</param>
-        public {{= isAsync ? `Task${returnTypeBrackets}` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }}, CancellationToken? cancellationToken = null)
+        public {{= isAsync ? `Task${returnTypeBrackets}` : returnType }} {{= method }}{{= asynch }}({{= argBuilder.join('') }})
         {
 {{? queryParams.length }}
             var queryParams = new List<KeyValuePair<string, string>>();
@@ -170,7 +167,7 @@ namespace Camille.{{= it.namespace }}
 {{? bodyType }}
             request.Content = new StringContent(JsonSerialize(body), Encoding.UTF8, "application/json");
 {{?}}
-            {{= hasReturn || isAsync ? 'return ' : '' }}{{= it.namespace }}.Send{{= asynch }}{{= returnTypeBrackets }}(region, "{{= operationId }}", {{= rateLimitExcluded }}, request, cancellationToken);
+            {{= hasReturn || isAsync ? 'return ' : '' }}{{= it.namespace }}.Send{{= asynch }}{{= returnTypeBrackets }}({{= it.formatSendArgs(operation) }});
         }
 
 {{
