@@ -14,6 +14,10 @@ function escapeKeyword(name) {
   return name;
 }
 
+function removePrefix(name, prefix) {
+  return name.startsWith(prefix) ? name.slice(prefix.length) : name;
+}
+
 function normalizeEndpointName(name) {
   return name.split('-')
     //    .slice(0, -1)
@@ -39,7 +43,7 @@ function normalizePropName(propName, schemaName, value) {
   return name;
 }
 
-function stringifyType(prop, endpoint = null, prefixToRemove = '') {
+function stringifyType(prop, endpoint = null) {
   if (prop.anyOf) {
     prop = prop.anyOf[0];
   }
@@ -48,8 +52,6 @@ function stringifyType(prop, endpoint = null, prefixToRemove = '') {
   if (refType) {
     refType = refType.split('/').pop();
     refType = refType.split('.').pop();
-    if (refType.startsWith(prefixToRemove))
-        refType = refType.slice(prefixToRemove.length);
     return (endpoint ? endpoint + '.' : '') + normalizeSchemaName(refType);
   }
   var enumName = prop['x-enum'];
@@ -61,10 +63,10 @@ function stringifyType(prop, endpoint = null, prefixToRemove = '') {
     case 'boolean': return 'bool';
     case 'integer': return ('int32' === prop.format ? 'int' : 'long');
     case 'number': return prop.format;
-    case 'array': return stringifyType(prop.items, endpoint, prefixToRemove) + '[]';
+    case 'array': return stringifyType(prop.items, endpoint) + '[]';
     case 'object':
-      const keyType = prop['x-key'] ? stringifyType(prop['x-key'], endpoint, prefixToRemove) : 'string';
-      return `IDictionary<${keyType}, ${stringifyType(prop.additionalProperties, endpoint, prefixToRemove)}>`;
+      const keyType = prop['x-key'] ? stringifyType(prop['x-key'], endpoint) : 'string';
+      return `IDictionary<${keyType}, ${stringifyType(prop.additionalProperties, endpoint)}>`;
     default: return prop.type || 'Dictionary<string, object>';
   }
 }
@@ -100,20 +102,38 @@ function formatAddQueryParam(param) {
   }
 }
 
-function getDtoNamespaceMapping(endpoints, spec) {
+function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
   const dtoNamespaceMapping = {};
-  endpoints.map(endpoint => spec.paths[endpoint])
+
+  function updateRef(objWithRef) {
+    const ref = objWithRef['$ref'];
+    if (!ref) return;
+    const path = ref.split('/');
+    const type = path.pop();
+    const namespace = dtoNamespaceMapping[type];
+    path.push(`${namespace}.${removePrefix(type, namespace)}`);
+    objWithRef['$ref'] = path.join('/');
+  }
+
+  (endpoints
+    ? endpoints.map(ep => spec.paths[ep])
+    : Object.values(spec.paths))
     .flatMap(path => Object.values(path))
     .forEach(op => {
+      if (!op.tags.length) // No need to update without tags.
+        return;
       const namespace = normalizeEndpointName(
-        op.tags.pop().split(' ').pop()
-            .replace('riotclient', 'riot-client')); // TODO Hack.
+        op.tags.pop().split(' ').pop());
       Object.values(op.responses || {})
         .map(resp => resp.content).defined()
         .map(cont => cont['application/json']).defined()
-        .map(json => json.schema['$ref']).defined()
-        .map(ref => ref.split('/').pop())
-        .forEach(type => dtoNamespaceMapping[type] = namespace);
+        .filter(json => json.schema['$ref'])
+        .forEach(json => {
+            // TODO items.
+            const type = json.schema['$ref'].split('/').pop();
+            dtoNamespaceMapping[type] = namespace;
+            updateRef(json.schema);
+        });
     });
 
   const stack = Object.entries(dtoNamespaceMapping);
@@ -125,18 +145,38 @@ function getDtoNamespaceMapping(endpoints, spec) {
     let childRefs = Object.values(schema.properties || {})
       //.map(x => { console.log(x); return x; })
       .flatMap(propVal => [ propVal, propVal.items ]).defined()
-      .map(propVal => propVal['$ref']).defined()
-      .map(ref => ref.split('/').pop());
-    stack.push(...childRefs.map(cr => [ cr, endpoint ]));
+      .filter(propVal => propVal['$ref'])
+      .forEach(propVal => {
+        const type = propVal['$ref'].split('/').pop();
+        if (!dtoNamespaceMapping[type]) {
+          dtoNamespaceMapping[type] = endpoint;
+          stack.push([ type, endpoint ]);
+        }
+        updateRef(propVal);
+      });
   }
-  console.log(dtoNamespaceMapping);
-  return dtoNamespaceMapping;
+
+  
+  const schemas = spec.components.schemas;
+  const schemasToInclude = new Set();
+  for (const [ schemaKey, namespace ] of Object.entries(dtoNamespaceMapping)) {
+    const newNamespace = namespaceRenames[namespace] || namespace;
+    const newSchemaKey = `${newNamespace}.${removePrefix(schemaKey, namespace)}`;
+    if (newSchemaKey === schemaKey)
+      continue;
+    (schemas[newSchemaKey] = schemas[schemaKey])['x-endpoint'] = newNamespace;
+    delete schemas[schemaKey];
+
+    schemasToInclude.add(newSchemaKey);
+  }
+  return schemasToInclude;
 }
 
 module.exports = {
   capitalize,
   decapitalize,
   escapeKeyword,
+  removePrefix,
   normalizeEndpointName,
   normalizeSchemaName,
   normalizeArgName,
@@ -145,5 +185,5 @@ module.exports = {
   replaceEnumCasts,
   formatJsonProperty,
   formatAddQueryParam,
-  getDtoNamespaceMapping
+  remapNamespaces
 };

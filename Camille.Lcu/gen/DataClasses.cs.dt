@@ -19,26 +19,17 @@
         "/lol-summoner/v1/current-summoner/autofill",
         "/lol-ranked/v1/league-ladders/{puuid}"
     ];
-
-    const dtoNamespaceMapping = dotUtils.getDtoNamespaceMapping(endpoints, spec);
+    const namespaceRenames = {
+        "riotclient": "RiotClient"
+    };
+    const schemasToInclude = dotUtils.remapNamespaces(spec, endpoints, namespaceRenames);
 
     const header = `// Version ${spec.info.version}`;
     const usings = []; /* 'using Camille.RiotApi.Enums;' ]; */
     const useSchema = (schemaKey)
-        => dtoNamespaceMapping[schemaKey];
-    const getSchemaNamespace = (schemaKey)
-        => dtoNamespaceMapping[schemaKey];
-    const getSchemaName = (schemaKey) => {
-        const ns = dtoNamespaceMapping[schemaKey];
-        const name = dotUtils.normalizeSchemaName(schemaKey);
-        return name.startsWith(ns) ? name.slice(ns.length) : name;
-    };
-    const stringifyType = (schema, namespace) => {
-        console.log(schema, namespace);
-        return dotUtils.stringifyType(schema, null, namespace);
-    };
+        => schemasToInclude.has(schemaKey);
+    const namespace = 'Lcu';
 }}
 {{= it.templates.dataClasses({
-    spec, header, usings, useSchema, getSchemaNamespace, getSchemaName,
-    stringifyType
+    spec, header, usings, useSchema, namespace
 }) }}
