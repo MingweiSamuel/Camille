@@ -1,7 +1,7 @@
 ﻿{{
     const spec = require(it.path + '/.spec.json');
     const dotUtils = require('./dotUtils.js');
-    const useMethod = ([ route, path ]) => path.get && path.get.responses['200'];
+    const useMethod = ([ route, path ]) => true; /*path.get && path.get.responses['200'];*/
 }}
 {{= it.templates.endpointMethods({
     spec, useMethod, namespace: 'RiotApi'

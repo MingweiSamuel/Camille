@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
@@ -37,10 +36,13 @@ namespace Camille.RiotApi.Util
         /// </summary>
         private readonly HttpClient _client = new HttpClient();
 
-        public RegionalRequester(IRiotApiConfig config)
+        public RegionalRequester(IRiotApiConfig config, Region region)
         {
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
+
+            _client.BaseAddress = new Uri($"https://{region.ToString()}{RiotRootUrl}");
+            _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
         }
 
         /// <summary>HttpStatus codes that are considered a success, but will return null (or default(T)).</summary>
@@ -57,8 +59,8 @@ namespace Camille.RiotApi.Util
         /// <param name="nonRateLimited">If set to true, the request will not count against the application rate limit.</param>
         /// <param name="token">CancellationToken to cancel this task.</param>
         /// <returns></returns>
-        public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
-            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
+        public async Task<T> Send<T>(string methodId, bool nonRateLimited,
+            HttpRequestMessage request, CancellationToken? token)
         {
             HttpResponseMessage response = null;
             var retries = 0;
@@ -71,15 +73,7 @@ namespace Camille.RiotApi.Util
                 while (0 <= (delay = RateLimitUtils.GetOrDelay(rateLimits)))
                     await Task.Delay(TimeSpan.FromTicks(delay), token.GetValueOrDefault());
 
-                // Send request.
-                string query;
-                using (var content = new FormUrlEncodedContent(queryParams))
-                    query = await content.ReadAsStringAsync();
-
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://{region.ToString()}{RiotRootUrl}{relativeUrl}?{query}");
-                request.Headers.Add(RiotKeyHeader, _config.ApiKey);
-
-                // Receive response.
+                // Send request, receive response.
                 response = await _client.SendAsync(request, token.GetValueOrDefault());
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response);
