@@ -46,19 +46,25 @@ namespace Camille.{{= it.namespace }}
             {
                 if (verb.startsWith('x-')) continue;
 
+                if (operation.requestBody)
+                    continue; /* TODO add body support. */
+
                 const httpVerb = dotUtils.capitalize(verb);
                 const operationId = operation.operationId;
                 const method = dotUtils.capitalize(operationId.slice(operationId.indexOf('.') + 1));
 
                 const resp200 = operation.responses['200'];
-                if (!resp200) /* TODO */
-                    continue;
-                if (!resp200.content)
-                    continue; /* TODO */
 
-                const jsonInfo = resp200.content['application/json'];
-                let returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
-                if (operation['x-nullable-404']) returnType += '?';
+                let hasReturn = false;
+                let returnType = 'void';
+                let returnTypeBrackets = '';
+                if (resp200 && resp200.content) {
+                    hasReturn = true;
+                    const jsonInfo = resp200.content['application/json'];
+                    returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
+                    if (operation['x-nullable-404']) returnType += '?';
+                    returnTypeBrackets = `<${returnType}>`;
+                }
 
                 /* Cases if not rate limited. */
                 let rateLimitExcluded = operation['x-app-rate-limit-excluded'] ? true : false;
@@ -102,8 +108,9 @@ namespace Camille.{{= it.namespace }}
                     }
                 }
 
-                for (let asynch of [ '', 'Async' ])
+                for (const isAsync of [ false, true ])
                 {
+                    const asynch = [ '', 'Async' ][+isAsync];
 }}
         /// <summary>
 {{
@@ -131,7 +138,7 @@ namespace Camille.{{= it.namespace }}
                     }
 }}
         /// <param name="cancellationToken">A cancellation token that can be used to cancel this task.</param>
-        public {{= "Async" === asynch ? `Task<${returnType}>` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }}, CancellationToken? cancellationToken = null)
+        public {{= isAsync ? `Task${returnTypeBrackets}` : returnType }} {{= method }}{{= asynch }}(Region region{{= argBuilder.join('') }}, CancellationToken? cancellationToken = null)
         {
 {{? queryParams.length }}
             var queryParams = new List<KeyValuePair<string, string>>();
@@ -150,7 +157,7 @@ namespace Camille.{{= it.namespace }}
 {{? !queryParams.length}}
             var request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
 {{?}}
-            return {{= it.namespace }}.Send{{= asynch }}<{{= returnType }}>(region, "{{= operationId }}", {{= rateLimitExcluded }}, request, cancellationToken);
+            {{= hasReturn || isAsync ? 'return ' : '' }}{{= it.namespace }}.Send{{= asynch }}{{= returnTypeBrackets }}(region, "{{= operationId }}", {{= rateLimitExcluded }}, request, cancellationToken);
         }
 
 {{
