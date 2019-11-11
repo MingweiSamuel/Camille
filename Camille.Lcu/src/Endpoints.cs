@@ -5,14 +5,22 @@ namespace Camille.Lcu
 {
     public abstract class Endpoints
     {
-        protected static readonly IEnumerable<KeyValuePair<string, string>> QUERY_PARAMS_EMPTY =
-            Enumerable.Empty<KeyValuePair<string, string>>();
-
         protected readonly Lcu Lcu;
 
         protected Endpoints(Lcu lcu)
         {
             Lcu = lcu;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        protected static string JsonSerialize(object value)
+        {
+#if USE_NEWTONSOFT
+            return Newtonsoft.Json.JsonConvert.SerializeObject(value);
+#endif
+#if USE_SYSTEXTJSON
+            return System.Text.Json.JsonSerializer.Serialize(value);
+#endif
         }
     }
 }
