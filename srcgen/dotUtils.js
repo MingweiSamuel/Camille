@@ -44,9 +44,12 @@ function normalizePropName(propName, schemaName, value) {
 }
 
 function stringifyType(prop, endpoint = null) {
-  if (prop.anyOf) {
+  if (!prop)
+    return 'UNDEFINED_TYPE';
+
+  // Use first field of anyOf. HACK.
+  if (prop.anyOf)
     prop = prop.anyOf[0];
-  }
 
   let refType = prop['$ref'];
   if (refType) {
@@ -91,6 +94,8 @@ function formatAddQueryParam(param) {
   let k = `nameof(${param.name})`;
   let nc = param.required ? '' : `if (null != ${param.name}) `;
   let prop = param.schema;
+  if (!prop)
+    return 'UNDEFINED_QP';
   switch (prop.type) {
     case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
           + `w => new KeyValuePair<string, string>(${k}, ((int)w)${formatQueryParamStringify(prop.items)})))`;
@@ -105,52 +110,55 @@ function formatAddQueryParam(param) {
 function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
   const dtoNamespaceMapping = {};
 
+  function namespaceRenamed(namespace) {
+    return namespaceRenames[namespace.toUpperCase()] || namespace;
+  }
   function updateRef(objWithRef) {
     const ref = objWithRef['$ref'];
-    if (!ref) return;
+    if (!ref || ref.includes('.')) return; // '.' hack to prevent double update.
     const path = ref.split('/');
     const type = path.pop();
     const namespace = dtoNamespaceMapping[type];
-    path.push(`${namespace}.${removePrefix(type, namespace)}`);
+    path.push(`${namespaceRenamed(namespace)}.${removePrefix(type, namespace)}`);
     objWithRef['$ref'] = path.join('/');
   }
 
   (endpoints
     ? endpoints.map(ep => spec.paths[ep])
     : Object.values(spec.paths))
-    .flatMap(path => Object.values(path))
-    .forEach(op => {
-      if (!op.tags.length) // No need to update without tags.
-        return;
-      const namespace = normalizeEndpointName(
-        op.tags.pop().split(' ').pop());
-      Object.values(op.responses || {})
-        .map(resp => resp.content).defined()
-        .map(cont => cont['application/json']).defined()
-        .filter(json => json.schema['$ref'])
-        .forEach(json => {
-            // TODO items.
+    .forEach(path => Object.values(path)
+      .forEach(op => {
+        if (!(op.tags && op.tags.length)) return; // No need to update without tags.
+        const namespace = normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
+        path['x-endpoint'] = namespaceRenamed(namespace);
+        Object.values(op.responses || {})
+          .map(resp => resp.content).defined()
+          .map(cont => cont['application/json']).defined()
+          .filter(json => json.schema['$ref'])
+          .forEach(json => {
+              // TODO items.
             const type = json.schema['$ref'].split('/').pop();
             dtoNamespaceMapping[type] = namespace;
             updateRef(json.schema);
-        });
-    });
+          });
+      })
+    );
 
   const stack = Object.entries(dtoNamespaceMapping);
   while (stack.length) {
-    const [ type, endpoint ] = stack.pop();
-    dtoNamespaceMapping[type] = endpoint;
+    const [ type, namespace ] = stack.pop();
+    dtoNamespaceMapping[type] = namespace;
 
     let schema = spec.components.schemas[type];
     let childRefs = Object.values(schema.properties || {})
       //.map(x => { console.log(x); return x; })
-      .flatMap(propVal => [ propVal, propVal.items ]).defined()
+      .flatMap(propVal => [ propVal, propVal.items, propVal.additionalProperties ]).defined()
       .filter(propVal => propVal['$ref'])
       .forEach(propVal => {
         const type = propVal['$ref'].split('/').pop();
         if (!dtoNamespaceMapping[type]) {
-          dtoNamespaceMapping[type] = endpoint;
-          stack.push([ type, endpoint ]);
+          dtoNamespaceMapping[type] = namespace;
+          stack.push([ type, namespace ]);
         }
         updateRef(propVal);
       });
@@ -160,7 +168,7 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
   const schemas = spec.components.schemas;
   const schemasToInclude = new Set();
   for (const [ schemaKey, namespace ] of Object.entries(dtoNamespaceMapping)) {
-    const newNamespace = namespaceRenames[namespace] || namespace;
+    const newNamespace = namespaceRenamed(namespace);
     const newSchemaKey = `${newNamespace}.${removePrefix(schemaKey, namespace)}`;
     if (newSchemaKey === schemaKey)
       continue;
