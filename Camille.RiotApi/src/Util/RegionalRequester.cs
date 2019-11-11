@@ -48,21 +48,18 @@ namespace Camille.RiotApi.Util
         /// <summary>HttpStatus codes that are considered a success, but will return null (or default(T)).</summary>
         private static readonly int[] NullSuccessStatusCodes = { 204, 404, 422 };
 
-#nullable disable
         /// <summary>
         /// Sends a GET request, obeying rate limits and retry afters.
         /// </summary>
         /// <param name="methodId"></param>
-        /// <param name="relativeUrl"></param>
-        /// <param name="region"></param>
-        /// <param name="queryParams"></param>
         /// <param name="nonRateLimited">If set to true, the request will not count against the application rate limit.</param>
+        /// <param name="request">Request to send (use relative url).</param>
         /// <param name="token">CancellationToken to cancel this task.</param>
-        /// <returns></returns>
-        public async Task<T> Send<T>(string methodId, bool nonRateLimited,
+        /// <returns>Response body (or null if no body).</returns>
+        public async Task<string?> Send(string methodId, bool nonRateLimited,
             HttpRequestMessage request, CancellationToken? token)
         {
-            HttpResponseMessage response = null;
+            HttpResponseMessage? response = null;
             var retries = 0;
             for (; retries <= _config.Retries; retries++)
             {
@@ -79,15 +76,8 @@ namespace Camille.RiotApi.Util
                     rateLimit.OnResponse(response);
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
-                {
-                    string json = await response.Content.ReadAsStringAsync();
-#if USE_NEWTONSOFT
-                    return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
-#endif
-#if USE_SYSTEXTJSON
-                    return System.Text.Json.JsonSerializer.Deserialize<T>(json);
-#endif
-                }
+                    return await response.Content.ReadAsStringAsync();
+                // Null success (no body).
                 if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
                 // Failure. 429 and 5xx are retryable. All else exit.
@@ -99,7 +89,6 @@ namespace Camille.RiotApi.Util
                 $"Request to {methodId} failed after {retries} retries. " +
                 $"(status: {(int) (response?.StatusCode ?? 0)}).", response);
         }
-#nullable restore
 
         private IRateLimit GetMethodRateLimit(string methodId)
         {

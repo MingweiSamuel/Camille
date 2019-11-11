@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -46,6 +45,12 @@ namespace Camille.RiotApi
             return SendAsync<T>(region, methodId, nonRateLimited, request, token).Result;
         }
 
+        public void Send(Region region, string methodId, bool nonRateLimited,
+            HttpRequestMessage request, CancellationToken? token)
+        {
+            SendAsync(region, methodId, nonRateLimited, request, token).Wait();
+        }
+
         public async Task<T> SendAsync<T>(Region region, string methodId, bool nonRateLimited,
             HttpRequestMessage request, CancellationToken? token)
         {
@@ -53,7 +58,20 @@ namespace Camille.RiotApi
             // This slightly improves performance and helps prevent GUI thread deadlocks.
             // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
             await new SynchronizationContextRemover();
-            return await _requestManager.Send<T>(region, methodId, nonRateLimited, request, token);
+            var content = await _requestManager.Send(region, methodId, nonRateLimited, request, token);
+#if USE_NEWTONSOFT
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
+#endif
+#if USE_SYSTEXTJSON
+            return System.Text.Json.JsonSerializer.Deserialize<T>(content);
+#endif
+        }
+
+        public async Task SendAsync(Region region, string methodId, bool nonRateLimited,
+            HttpRequestMessage request, CancellationToken? token)
+        {
+            await new SynchronizationContextRemover();
+            await _requestManager.Send(region, methodId, nonRateLimited, request, token);
         }
         #endregion
     }
