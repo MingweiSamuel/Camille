@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Camille.Enums;
@@ -39,20 +40,20 @@ namespace Camille.RiotApi
         }
 
         #region requests
-        internal T Get<T>(string methodId, string url, Region region,
-            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
+        public T Send<T>(Region region, string methodId, bool nonRateLimited,
+            HttpRequestMessage request, CancellationToken? token)
         {
-            return GetAsync<T>(methodId, url, region, queryParams, nonRateLimited, token).Result;
+            return SendAsync<T>(region, methodId, nonRateLimited, request, token).Result;
         }
 
-        internal async Task<T> GetAsync<T>(string methodId, string url, Region region,
-            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
+        public async Task<T> SendAsync<T>(Region region, string methodId, bool nonRateLimited,
+            HttpRequestMessage request, CancellationToken? token)
         {
             // Camille's code is context-free.
             // This slightly improves performance and helps prevent GUI thread deadlocks.
             // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
             await new SynchronizationContextRemover();
-            return await _requestManager.Get<T>(methodId, url, region, queryParams, nonRateLimited, token);
+            return await _requestManager.Send<T>(region, methodId, nonRateLimited, request, token);
         }
         #endregion
     }

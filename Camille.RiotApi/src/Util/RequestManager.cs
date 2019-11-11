@@ -1,5 +1,5 @@
 ﻿using System.Collections.Concurrent;
-using System.Collections.Generic;
+using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Camille.Enums;
@@ -28,13 +28,13 @@ namespace Camille.RiotApi.Util
             _concurrentRequestSemaphore = new SemaphoreSlim(_config.MaxConcurrentRequests);
         }
 
-        public async Task<T> Get<T>(string methodId, string relativeUrl, Region region,
-            IEnumerable<KeyValuePair<string, string>> queryParams, bool nonRateLimited, CancellationToken? token)
+        public async Task<T> Send<T>(Region region, string methodId, bool nonRateLimited, 
+            HttpRequestMessage request, CancellationToken? token)
         {
             await _concurrentRequestSemaphore.WaitAsync(token.GetValueOrDefault());
             try
             {
-                return await GetRateLimiter(region).Get<T>(methodId, relativeUrl, region, queryParams, nonRateLimited, token);
+                return await GetRateLimiter(region).Send<T>(methodId, nonRateLimited, request, token);
             }
             finally
             {
@@ -49,7 +49,7 @@ namespace Camille.RiotApi.Util
         /// <returns>The rate limiter.</returns>
         private RegionalRequester GetRateLimiter(Region region)
         {
-            return _rateLimiters.GetOrAdd(region, r => new RegionalRequester(_config));
+            return _rateLimiters.GetOrAdd(region, r => new RegionalRequester(_config, region));
         }
     }
 }

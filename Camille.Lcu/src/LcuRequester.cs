@@ -30,10 +30,9 @@ namespace Camille.Lcu
 
             var lf = _config.Lockfile ?? Lockfile.Parse(_config.LeagueInstallDir + @"\lockfile");
             _client = new HttpClient(_config.HttpClientHandler);
+            _client.BaseAddress = new UriBuilder(lf.Protocol, "127.0.0.1", lf.Port).Uri;
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
                 "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lf.Password}")));
-            Console.WriteLine(Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lf.Password}")));
-            _client.BaseAddress = new UriBuilder(lf.Protocol, "127.0.0.1", lf.Port).Uri;
         }
 
         public async Task<T> SendAsync<T>(HttpRequestMessage request)
