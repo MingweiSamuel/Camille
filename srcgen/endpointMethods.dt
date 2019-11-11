@@ -8,6 +8,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Camille.Enums;
@@ -46,24 +47,31 @@ namespace Camille.{{= it.namespace }}
             {
                 if (verb.startsWith('x-')) continue;
 
-                if (operation.requestBody)
-                    continue; /* TODO add body support. */
-
                 const httpVerb = dotUtils.capitalize(verb);
                 const operationId = operation.operationId;
                 const method = dotUtils.capitalize(operationId.slice(operationId.indexOf('.') + 1));
 
                 const resp200 = operation.responses['200'];
 
+                /* Return type checks. */
                 let hasReturn = false;
                 let returnType = 'void';
                 let returnTypeBrackets = '';
-                if (resp200 && resp200.content) {
+                if (resp200 && resp200.content)
+                {
                     hasReturn = true;
                     const jsonInfo = resp200.content['application/json'];
                     returnType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
                     if (operation['x-nullable-404']) returnType += '?';
                     returnTypeBrackets = `<${returnType}>`;
+                }
+
+                /* Body content checks. */
+                let bodyType = null;
+                if (operation.requestBody)
+                {
+                    const jsonInfo = operation.requestBody.content['application/json'];
+                    bodyType = dotUtils.stringifyType(jsonInfo.schema, endpoint);
                 }
 
                 /* Cases if not rate limited. */
@@ -77,10 +85,12 @@ namespace Camille.{{= it.namespace }}
                     .split('\n');
 
                 /* Build argument comment & string. */
-                let argBuilder = [];
-                let makeParamCode = '';
-                let allParams = operation.parameters;
+                const argBuilder = [];
+                const allParams = operation.parameters;
                 let queryParams = [];
+                if (bodyType) {
+                    argBuilder.push(', ', bodyType, ' body');
+                }
                 if (allParams && allParams.length)
                 {
                     let pathParams = allParams.filter(p => 'path' === p.in)
@@ -156,6 +166,9 @@ namespace Camille.{{= it.namespace }}
 {{?}}
 {{? !queryParams.length}}
             var request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
+{{?}}
+{{? bodyType }}
+            request.Content = new StringContent(JsonSerialize(body), Encoding.UTF8, "application/json");
 {{?}}
             {{= hasReturn || isAsync ? 'return ' : '' }}{{= it.namespace }}.Send{{= asynch }}{{= returnTypeBrackets }}(region, "{{= operationId }}", {{= rateLimitExcluded }}, request, cancellationToken);
         }
