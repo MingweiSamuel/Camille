@@ -1,26 +1,10 @@
 ﻿{{
     const dotUtils = require('./dotUtils.js');
     const spec = require(it.path + '/spec.json');
+    const endpoints = require(it.path + '/endpoints');
 
-    const endpoints = [
-        "/lol-login/v1/session",
-        "/riotclient/region-locale",
-        "/riotclient/kill-and-restart-ux",
-        "/riotclient/kill-ux",
-        "/riotclient/launch-ux",
-        "/riotclient/unload",
-        "/riotclient/ux-flash",
-        "/riotclient/ux-minimize",
-        "/riotclient/ux-show",
-        "/riotclient/ux-state",
-        "/lol-summoner/v1/check-name-availability-new-summoners/{name}",
-        "/lol-summoner/v1/check-name-availability/{name}",
-        "/lol-summoner/v1/current-summoner",
-        "/lol-summoner/v1/current-summoner/autofill",
-        "/lol-ranked/v1/league-ladders/{puuid}"
-    ];
     const namespaceRenames = {
-        "riotclient": "RiotClient"
+        "RIOTCLIENT": "RiotClient"
     };
     const schemasToInclude = dotUtils.remapNamespaces(spec, endpoints, namespaceRenames);
 
