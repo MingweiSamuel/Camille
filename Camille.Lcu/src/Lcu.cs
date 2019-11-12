@@ -18,20 +18,7 @@ namespace Camille.Lcu
         }
 
         /// <inheritdoc/>
-        public T Send<T>(HttpRequestMessage request, CancellationToken? token)
-        {
-            return SendAsync<T>(request, token).Result;
-        }
-
-        /// <inheritdoc/>
-        public void Send(HttpRequestMessage request, CancellationToken? token)
-        {
-            SendAsync(request, token).Wait();
-        }
-
-
-        /// <inheritdoc/>
-        public async Task<T> SendAsync<T>(HttpRequestMessage request, CancellationToken? token)
+        public async Task<T> Send<T>(HttpRequestMessage request, CancellationToken? token)
         {
             // Camille's code is context-free.
             // This slightly improves performance and helps prevent GUI thread deadlocks.
@@ -47,7 +34,7 @@ namespace Camille.Lcu
         }
 
         /// <inheritdoc/>
-        public async Task SendAsync(HttpRequestMessage request, CancellationToken? token)
+        public async Task Send(HttpRequestMessage request, CancellationToken? token)
         {
             await new SynchronizationContextRemover();
             await _requester.SendAsync(request, token.GetValueOrDefault());

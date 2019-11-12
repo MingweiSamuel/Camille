@@ -52,12 +52,12 @@ namespace Camille.RiotApi.Util
         /// Sends a GET request, obeying rate limits and retry afters.
         /// </summary>
         /// <param name="methodId"></param>
-        /// <param name="nonRateLimited">If set to true, the request will not count against the application rate limit.</param>
         /// <param name="request">Request to send (use relative url).</param>
         /// <param name="token">CancellationToken to cancel this task.</param>
+        /// <param name="ignoreAppRateLimits">If set to true, the request will not count against the application rate limit.</param>
         /// <returns>Response body (or null if no body).</returns>
-        public async Task<string?> Send(string methodId, bool nonRateLimited,
-            HttpRequestMessage request, CancellationToken token)
+        public async Task<string?> Send(string methodId, HttpRequestMessage request,
+            CancellationToken token, bool ignoreAppRateLimits)
         {
             HttpResponseMessage? response = null;
             var retries = 0;
@@ -66,7 +66,7 @@ namespace Camille.RiotApi.Util
                 // Get token.
                 var methodRateLimit = GetMethodRateLimit(methodId);
                 long delay;
-                var rateLimits = nonRateLimited ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
+                var rateLimits = ignoreAppRateLimits ? new[] { methodRateLimit } : new[] { _appRateLimit, methodRateLimit };
                 while (0 <= (delay = RateLimitUtils.GetOrDelay(rateLimits)))
                 {
                     await Task.Delay(TimeSpan.FromTicks(delay), token);

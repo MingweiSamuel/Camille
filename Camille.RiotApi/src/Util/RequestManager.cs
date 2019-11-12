@@ -28,13 +28,13 @@ namespace Camille.RiotApi.Util
             _concurrentRequestSemaphore = new SemaphoreSlim(_config.MaxConcurrentRequests);
         }
 
-        public async Task<string?> Send(Region region, string methodId, bool nonRateLimited, 
-            HttpRequestMessage request, CancellationToken token)
+        public async Task<string?> Send(Region region, string methodId, HttpRequestMessage request,
+            CancellationToken token, bool ignoreAppRateLimits)
         {
             await _concurrentRequestSemaphore.WaitAsync(token);
             try
             {
-                return await GetRateLimiter(region).Send(methodId, nonRateLimited, request, token);
+                return await GetRateLimiter(region).Send(methodId, request, token, ignoreAppRateLimits);
             }
             finally
             {
