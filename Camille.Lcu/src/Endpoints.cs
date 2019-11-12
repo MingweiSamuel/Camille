@@ -1,9 +1,18 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Net.Http;
+using System.Runtime.CompilerServices;
 
 namespace Camille.Lcu
 {
     public abstract class Endpoints
     {
+        public static readonly HttpMethod HttpMethodPatch =
+#if USE_HTTPMETHOD_PATCH_SHIM
+            new HttpMethod("PATCH");
+#else
+            HttpMethod.Patch;
+#endif
+
+
         protected readonly ILcu Lcu;
 
         protected Endpoints(ILcu lcu)

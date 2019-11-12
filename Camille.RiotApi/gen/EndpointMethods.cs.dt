@@ -6,7 +6,8 @@
     const defaultArgs = [ 'Region region, ' ];
     const formatSendArgs = operation
         => `region, "${operation.operationId}", ${ !!operation['x-app-rate-limit-excluded'] }, request, cancellationToken`;
+    const usings = [ 'using Camille.RiotApi.Enums;' ];
 }}
 {{= it.templates.endpointMethods({
-    spec, namespace, useMethod, defaultArgs, formatSendArgs
+    spec, namespace, useMethod, defaultArgs, formatSendArgs, usings
 }) }}

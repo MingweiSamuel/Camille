@@ -1,5 +1,10 @@
 ﻿const dotUtils = require('../../srcgen/dotUtils.js'); // Evil relative path.
 const spec = require('./spec.json');
+const lcuTypeToCamilleEnum = {
+  "LolRankedLeagueQueueType": { "x-enum": "queueType", "x-type": "int" },
+  "LolRankedLeagueTier": { "x-enum": "tier", "x-type": "string" },
+  "LolRankedLeagueDivision": { "x-enum": "division", "x-type": "string" }
+};
 const endpoints = [
   "/lol-login/v1/session",
   "/riotclient/region-locale",
@@ -25,6 +30,8 @@ const endpoints = [
   "/lol-ranked/v1/league-ladders/{puuid}",
   "/lol-ranked/v1/ranked-stats",
   "/lol-ranked/v1/ranked-stats/{puuid}",
+
+  "/lol-ranked/v2/tiers",
 
   "/lol-champ-select/v1/bannable-champions",
   "/lol-champ-select/v1/battle-training/launch",
@@ -54,8 +61,9 @@ const namespaceRenames = {
   "RIOTCLIENT": "RiotClient"
 };
 
-function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
+function remapNamespaces(spec, endpoints = null, namespaceRenames = {}, lcuTypeToCamilleEnum = {}) {
   const dtoNamespaceMapping = {};
+  const dtoNamespaceNewToOldMapping = {};
 
   function namespaceRenamed(namespace) {
     return namespaceRenames[namespace.toUpperCase()] || namespace;
@@ -65,24 +73,48 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
     if (!ref || ref.includes('.')) return; // '.' hack to prevent double update.
     const path = ref.split('/');
     const type = path.pop();
+
+    if (lcuTypeToCamilleEnum[type]) {
+      Object.assign(objWithRef, lcuTypeToCamilleEnum[type]);
+      delete objWithRef['$ref'];
+      return;
+    }
+
     const namespace = dtoNamespaceMapping[type];
-    path.push(`${namespaceRenamed(namespace)}.${dotUtils.removePrefix(type, namespace)}`);
+    path.push(`${namespaceRenamed(namespace)}.${dotUtils.removePrefix(type, dtoNamespaceNewToOldMapping[namespace])}`);
     objWithRef['$ref'] = path.join('/');
   }
 
   (endpoints
     ? endpoints.map(ep => spec.paths[ep])
     : Object.values(spec.paths))
-    .forEach(path => Object.values(path)
-      .forEach(op => {
-        if (!(op.tags && op.tags.length)) return; // No need to update without tags.
-        const namespace = dotUtils.normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
-        path['x-endpoint'] = namespaceRenamed(namespace);
+    .forEach(path => Object.entries(path)
+      .forEach(([ verb, op ]) => {
+        // TODO.
+        if (!(op.tags && op.tags.length)) throw new Error("Can't handle missing tags.");
+
+        const oldNamespace = dotUtils.normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
+        const oldNamespaceRenamed = namespaceRenamed(oldNamespace);
+        let namespace = oldNamespace;
+
+        // Shorten method names already containing namespace/endpoint.
+        let match;
+        const regex = new RegExp(`${verb}${oldNamespace}(V\\d+)?`, 'i');
+        if ((match = regex.exec(op.operationId))) {
+          const [ prefix, versionOpt ] = match;
+          namespace = oldNamespaceRenamed;
+          op.operationId = dotUtils.capitalize(verb) + op.operationId.slice(prefix.length) + (versionOpt || '');
+        }
+
+        dtoNamespaceNewToOldMapping[namespace] = oldNamespace;
+        path['x-endpoint'] = namespace;
+
         Object.values(op.responses || {})
           .concat(op.requestBody || [])
           .map(resp => resp.content).defined()
           .map(cont => cont['application/json']).defined()
           .map(json => json.schema)
+          .concat((op.parameters || []).map(param => param.schema || param)) // Add-in parameters.
           .flatMap(schem => [ schem, schem.items, schem.additionalProperties ]).defined()
           .filter(schem => schem['$ref'])
           .forEach(schem => {
@@ -111,12 +143,15 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
         updateRef(propVal);
       });
   }
+  
+  // Remove those enums.
+  Object.keys(lcuTypeToCamilleEnum).forEach(key => delete dtoNamespaceMapping[key]);
 
   const schemas = spec.components.schemas;
   const schemasToInclude = new Set();
   for (const [ schemaKey, namespace ] of Object.entries(dtoNamespaceMapping)) {
     const newNamespace = namespaceRenamed(namespace);
-    const newSchemaKey = `${newNamespace}.${dotUtils.removePrefix(schemaKey, namespace)}`;
+    const newSchemaKey = `${newNamespace}.${dotUtils.removePrefix(schemaKey, dtoNamespaceNewToOldMapping[namespace])}`;
     if (newSchemaKey === schemaKey)
       continue;
     (schemas[newSchemaKey] = schemas[schemaKey])['x-endpoint'] = newNamespace;
@@ -124,9 +159,10 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
 
     schemasToInclude.add(newSchemaKey);
   }
+
   return schemasToInclude;
 }
 
-const schemasToInclude = remapNamespaces(spec, endpoints, namespaceRenames);
+const schemasToInclude = remapNamespaces(spec, endpoints, namespaceRenames, lcuTypeToCamilleEnum);
 
 module.exports = { endpoints, spec, schemasToInclude };

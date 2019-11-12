@@ -98,6 +98,11 @@ function formatQueryParamStringify(expr, prop) {
       throw Error('Unexpected x-enum x-type: ' + prop['x-type']);
     return `((int) ${expr}).ToString()`;
   }
+  if (prop['$ref']) {
+    const type = prop['$ref'].split('/').pop();
+    console.error("Cannot put unknown type in query param: " + type);
+    return 'BAD_QP_TYPE';
+  }
   switch (prop.type) {
     case undefined: throw new Error('Undefined .type: ' + JSON.stringify(prop));
     case 'boolean': return expr + '.ToString().ToLowerInvariant()';
