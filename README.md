@@ -50,8 +50,8 @@ API methods are divided up into respective endpoints, corresponding to the left 
 // Get summoners by name synchronously. (using async is faster).
 var summoners = new[]
 {
-    riotApi.SummonerV4.GetBySummonerName(Region.NA, "jAnna kendrick"),
-    riotApi.SummonerV4.GetBySummonerName(Region.NA, "lug nuts k")
+    riotApi.SummonerV4().GetBySummonerName(Region.NA, "jAnna kendrick"),
+    riotApi.SummonerV4().GetBySummonerName(Region.NA, "lug nuts k")
 };
 
 foreach (var summoner in summoners)
@@ -59,7 +59,7 @@ foreach (var summoner in summoners)
     Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
     var masteries =
-        riotApi.ChampionMasteryV4.GetAllChampionMasteries(Region.NA, summoner.Id);
+        riotApi.ChampionMasteryV4().GetAllChampionMasteries(Region.NA, summoner.Id);
 
     for (var i = 0; i < 10; i++)
     {
@@ -109,7 +109,7 @@ LugnutsK's Top 10 Champs:
 var summonerNameQuery = "lugnutsk";
 
 // Get summoners data (blocking).
-var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(Region.NA, summonerNameQuery);
+var summonerData = await riotApi.SummonerV4().GetBySummonerNameAsync(Region.NA, summonerNameQuery);
 if (null == summonerData)
 {
     // If a summoner is not found, the response will be null.
@@ -121,11 +121,11 @@ Console.WriteLine($"Match history for {summonerData.Name}:");
 
 // Get 10 most recent matches (blocking).
 // Queue ID 420 is RANKED_SOLO_5v5 (TODO)
-var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
+var matchlist = await riotApi.MatchV4().GetMatchlistAsync(
     Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
 // Get match results (done asynchronously -> not blocking -> fast).
 var matchDataTasks = matchlist.Matches.Select(
-        matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA, matchMetadata.GameId)
+        matchMetadata => riotApi.MatchV4().GetMatchAsync(Region.NA, matchMetadata.GameId)
     ).ToArray();
 // Wait for all task requests to complete asynchronously.
 var matchDatas = await Task.WhenAll(matchDataTasks);
@@ -186,16 +186,16 @@ Match history for LugnutsK:
 ## Source Code
 
 Source code is located in the
-[`src/` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src), corresponding
+[`src/` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotApi/src), corresponding
 to the `MingweiSamuel.Camille` namespace.
 
-[`RiotApi.cs`](https://github.com/MingweiSamuel/Camille/blob/master/Camille/src/RiotApi.cs) is the main
+[`RiotApi.cs`](https://github.com/MingweiSamuel/Camille/blob/master/Camille.RiotApi/src/RiotApi.cs) is the main
 point of entry for interfacing with Camille, however this source file is only a partial class. The remainder
 of the class is automatically generated and not commited to the `master` branch, but is viewable as described
 below in the "Generated Classes" section.
 
 Files in the
-[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille/src/Util)/`MingweiSamuel.Camille.Util` namespace
+[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotApi/src/Util)/`MingweiSamuel.Camille.Util` namespace
 are internal classes used for sending requests and handling rate limits.
 
 ### Generated Classes
@@ -213,6 +213,6 @@ and therefore endpoint methods, as well as all the data transfer objects corresp
 code for creating `RiotApi` instnaces with custom settings.
 
 The actual code for generating these classes is in the
-[`src/gen` folder](https://github.com/MingweiSamuel/Camille/tree/master/Camille/gen).
+[`src/gen` folder](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotApi/gen).
 The C#-generating code is in `*.cs.dt` files and is written in NodeJS, using
 [doT.js templates](https://olado.github.io/doT/index.html).

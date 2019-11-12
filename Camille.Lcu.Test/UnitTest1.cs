@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Camille.Lcu.Test
 {
     [TestClass]
+    [Ignore("Required LCU to be running.")]
     public class UnitTest1
     {
         /*var processes = Process.GetProcessesByName("LeagueClient");
@@ -23,16 +24,18 @@ namespace Camille.Lcu.Test
         var lockfilePath = Path.Combine(path, "lockfile");
         var lockfile = Lockfile.Parse(lockfilePath);*/
 
-    [TestMethod]
+        [TestMethod]
         public async Task TestMethod1()
         {
             var lcu = new Lcu();
 
-            //var content = await lcu.SendTest();
-            var content = await lcu.GetLolSummonerV1CurrentSummoner();
-            var content2 = await lcu.GetLolLoginV1Session();
+            var session = await lcu.LolLogin().PostLolLoginV1SessionAsync(new LolLogin.UsernameAndPassword
+            {
+                Username = "0x5A79",
+                Password = "wrong password",
+            });
 
-            Console.WriteLine("Content: " + content + "\n" + content2);
+            Console.WriteLine(session);
         }
     }
 }

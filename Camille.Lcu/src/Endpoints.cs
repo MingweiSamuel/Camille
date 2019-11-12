@@ -4,9 +4,9 @@ namespace Camille.Lcu
 {
     public abstract class Endpoints
     {
-        protected readonly Lcu Lcu;
+        protected readonly ILcu Lcu;
 
-        protected Endpoints(Lcu lcu)
+        protected Endpoints(ILcu lcu)
         {
             Lcu = lcu;
         }

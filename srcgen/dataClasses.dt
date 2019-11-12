@@ -87,6 +87,7 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(schemaK
 
         /// <summary>Contains any extra JSON properties that did not map to fields.</summary>
         [JsonExtensionData]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles")]
         public Dictionary<string, object> _AdditionalProperties { get; } = new Dictionary<string, object>();
 
         public override string ToString()

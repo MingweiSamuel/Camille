@@ -4,9 +4,9 @@ namespace Camille.RiotApi
 {
     public abstract class Endpoints
     {
-        protected readonly RiotApi RiotApi;
+        protected readonly IRiotApi RiotApi;
 
-        protected Endpoints(RiotApi riotApi)
+        protected Endpoints(IRiotApi riotApi)
         {
             RiotApi = riotApi;
         }

@@ -1,0 +1,8 @@
+﻿{{
+    const spec = require(it.path + '/.spec');
+
+    const namespace = 'RiotApi';
+}}
+{{= it.templates.endpointExtensions({
+    spec, namespace
+}) }}

@@ -21,18 +21,17 @@ const _ = require('./polyfill');
 const log = a => { console.log(a); return a; };
 const suffix = '.dt';
 
-const templateNames = [
-    'dataClasses',
-    'endpointMethods'
-];
-const templatesPromise = Promise
-    .all(templateNames.map(file => fs.readFileAsync(`${__dirname}/${file}${suffix}`, 'utf8')))
+const templateNamesPromise = glob.promise(__dirname + '/*.dt');
+const templatesPromise = templateNamesPromise.then(templateNames => Promise
+    .all(templateNames.map(file => fs.readFileAsync(file, 'utf8')))
     .then(contents => {
         const templates = {};
-        for (let i = 0; i < templateNames.length; i++)
-            templates[templateNames[i]] = doT.template(contents[i]);
+        for (let i = 0; i < templateNames.length; i++) {
+            const name = templateNames[i].slice(__dirname.length + 1, -suffix.length);
+            templates[name] = doT.template(contents[i]);
+        }
         return templates;
-    });
+    }));
 
 doT.templateSettings = {
   evaluate: /\r?\n?\{\{([\s\S]+?)\}\}/g,
