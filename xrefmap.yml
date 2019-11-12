@@ -2023,6 +2023,42 @@ references:
   commentId: N:Camille.RiotApi.Enums
   fullName: Camille.RiotApi.Enums
   nameWithType: Camille.RiotApi.Enums
+- uid: Camille.RiotApi.Enums.QueueType
+  name: QueueType
+  href: api/Camille.RiotApi.Enums.QueueType.html
+  commentId: T:Camille.RiotApi.Enums.QueueType
+  fullName: Camille.RiotApi.Enums.QueueType
+  nameWithType: QueueType
+- uid: Camille.RiotApi.Enums.QueueType.NONE
+  name: NONE
+  href: api/Camille.RiotApi.Enums.QueueType.html#Camille_RiotApi_Enums_QueueType_NONE
+  commentId: F:Camille.RiotApi.Enums.QueueType.NONE
+  fullName: Camille.RiotApi.Enums.QueueType.NONE
+  nameWithType: QueueType.NONE
+- uid: Camille.RiotApi.Enums.QueueType.RANKED_FLEX_SR
+  name: RANKED_FLEX_SR
+  href: api/Camille.RiotApi.Enums.QueueType.html#Camille_RiotApi_Enums_QueueType_RANKED_FLEX_SR
+  commentId: F:Camille.RiotApi.Enums.QueueType.RANKED_FLEX_SR
+  fullName: Camille.RiotApi.Enums.QueueType.RANKED_FLEX_SR
+  nameWithType: QueueType.RANKED_FLEX_SR
+- uid: Camille.RiotApi.Enums.QueueType.RANKED_FLEX_TT
+  name: RANKED_FLEX_TT
+  href: api/Camille.RiotApi.Enums.QueueType.html#Camille_RiotApi_Enums_QueueType_RANKED_FLEX_TT
+  commentId: F:Camille.RiotApi.Enums.QueueType.RANKED_FLEX_TT
+  fullName: Camille.RiotApi.Enums.QueueType.RANKED_FLEX_TT
+  nameWithType: QueueType.RANKED_FLEX_TT
+- uid: Camille.RiotApi.Enums.QueueType.RANKED_SOLO_5x5
+  name: RANKED_SOLO_5x5
+  href: api/Camille.RiotApi.Enums.QueueType.html#Camille_RiotApi_Enums_QueueType_RANKED_SOLO_5x5
+  commentId: F:Camille.RiotApi.Enums.QueueType.RANKED_SOLO_5x5
+  fullName: Camille.RiotApi.Enums.QueueType.RANKED_SOLO_5x5
+  nameWithType: QueueType.RANKED_SOLO_5x5
+- uid: Camille.RiotApi.Enums.QueueType.RANKED_TFT
+  name: RANKED_TFT
+  href: api/Camille.RiotApi.Enums.QueueType.html#Camille_RiotApi_Enums_QueueType_RANKED_TFT
+  commentId: F:Camille.RiotApi.Enums.QueueType.RANKED_TFT
+  fullName: Camille.RiotApi.Enums.QueueType.RANKED_TFT
+  nameWithType: QueueType.RANKED_TFT
 - uid: Camille.RiotApi.Enums.Tier
   name: Tier
   href: api/Camille.RiotApi.Enums.Tier.html
@@ -2071,6 +2107,12 @@ references:
   commentId: F:Camille.RiotApi.Enums.Tier.MASTER
   fullName: Camille.RiotApi.Enums.Tier.MASTER
   nameWithType: Tier.MASTER
+- uid: Camille.RiotApi.Enums.Tier.NONE
+  name: NONE
+  href: api/Camille.RiotApi.Enums.Tier.html#Camille_RiotApi_Enums_Tier_NONE
+  commentId: F:Camille.RiotApi.Enums.Tier.NONE
+  fullName: Camille.RiotApi.Enums.Tier.NONE
+  nameWithType: Tier.NONE
 - uid: Camille.RiotApi.Enums.Tier.PLATINUM
   name: PLATINUM
   href: api/Camille.RiotApi.Enums.Tier.html#Camille_RiotApi_Enums_Tier_PLATINUM
@@ -2083,9 +2125,3 @@ references:
   commentId: F:Camille.RiotApi.Enums.Tier.SILVER
   fullName: Camille.RiotApi.Enums.Tier.SILVER
   nameWithType: Tier.SILVER
-- uid: Camille.RiotApi.Enums.Tier.UNRANKED
-  name: UNRANKED
-  href: api/Camille.RiotApi.Enums.Tier.html#Camille_RiotApi_Enums_Tier_UNRANKED
-  commentId: F:Camille.RiotApi.Enums.Tier.UNRANKED
-  fullName: Camille.RiotApi.Enums.Tier.UNRANKED
-  nameWithType: Tier.UNRANKED
