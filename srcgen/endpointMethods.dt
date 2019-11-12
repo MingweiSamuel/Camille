@@ -14,6 +14,9 @@ using System.Threading.Tasks;
 using Camille.Enums;
 using Camille.RiotApi.Enums;
 
+#pragma warning disable IDE0017 // Simplify object initialization
+#pragma warning disable IDE0028 // Simplify collection initialization
+
 namespace Camille.{{= it.namespace }}
 {
 {{
@@ -37,7 +40,7 @@ namespace Camille.{{= it.namespace }}
     /// </summary>
     public class {{= endpoint }}Endpoints : Endpoints
     {
-        internal {{= endpoint }}Endpoints({{= it.namespace }} @base) : base(@base)
+        internal {{= endpoint }}Endpoints(I{{= it.namespace }} @base) : base(@base)
         {}
 
 {{
@@ -102,11 +105,11 @@ namespace Camille.{{= it.namespace }}
 
                     for (let paramList of [ pathParams, reqParams, optParams ])
                     {
-                        let required = paramList === pathParams;
                         for (let param of paramList)
                         {
+                            const required = param.required || paramList === pathParams;
                             argBuilder.push(
-                                dotUtils.stringifyType(param.schema, endpoint),
+                                dotUtils.stringifyParam(param, endpoint),
                                 required ? ' ' : '? ',
                                 param.name,
                                 required ? ', ' : ' = null, ');
@@ -180,3 +183,6 @@ namespace Camille.{{= it.namespace }}
     }
 }}
 }
+
+#pragma warning restore IDE0028 // Simplify collection initialization
+#pragma warning restore IDE0017 // Simplify object initialization

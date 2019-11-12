@@ -26,6 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F67163
 	ProjectSection(SolutionItems) = preProject
 		srcgen\dataClasses.dt = srcgen\dataClasses.dt
 		srcgen\dotUtils.js = srcgen\dotUtils.js
+		srcgen\endpointExtensions.dt = srcgen\endpointExtensions.dt
 		srcgen\endpointMethods.dt = srcgen\endpointMethods.dt
 		srcgen\index.js = srcgen\index.js
 		srcgen\package.json = srcgen\package.json

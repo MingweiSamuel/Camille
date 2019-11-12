@@ -6,48 +6,31 @@ using System.Threading.Tasks;
 
 namespace Camille.Lcu
 {
-    public class Lcu : IDisposable
+    public class Lcu : ILcu, IDisposable
     {
         private readonly LcuRequester _requester;
 
         public Lcu() : this(new LcuConfig()) {}
 
-        public Lcu(LcuConfig lcuConfig)
+        public Lcu(LcuConfig lcuConfig) : base()
         {
             _requester = new LcuRequester(lcuConfig);
         }
 
-        /// <summary>
-        /// Send a custom request to the LCU, parsing a value as JSON.
-        /// </summary>
-        /// <typeparam name="T">Type to parse as JSON.</typeparam>
-        /// <param name="request">Request to send.</param>
-        /// <param name="token">Cancellation token to cancel the request.</param>
-        /// <returns>The parsed value. May be null if endpoint returned an empty success response.</returns>
+        /// <inheritdoc/>
         public T Send<T>(HttpRequestMessage request, CancellationToken? token)
         {
             return SendAsync<T>(request, token).Result;
         }
 
-        /// <summary>
-        /// Send a custom request to the LCU, ignoring the return value.
-        /// </summary>
-        /// <typeparam name="T">Type to parse as JSON.</typeparam>
-        /// <param name="request">Request to send.</param>
-        /// <param name="token">Cancellation token to cancel the request.</param>
+        /// <inheritdoc/>
         public void Send(HttpRequestMessage request, CancellationToken? token)
         {
             SendAsync(request, token).Wait();
         }
 
 
-        /// <summary>
-        /// Send a custom request to the LCU, parsing a value as JSON.
-        /// </summary>
-        /// <typeparam name="T">Type to parse as JSON.</typeparam>
-        /// <param name="request">Request to send.</param>
-        /// <param name="token">Cancellation token to cancel the request.</param>
-        /// <returns>The parsed value. May be null if endpoint returned an empty success response.</returns>
+        /// <inheritdoc/>
         public async Task<T> SendAsync<T>(HttpRequestMessage request, CancellationToken? token)
         {
             // Camille's code is context-free.
@@ -63,12 +46,7 @@ namespace Camille.Lcu
 #endif
         }
 
-        /// <summary>
-        /// Send a custom request to the LCU, ignoring the return value.
-        /// </summary>
-        /// <typeparam name="T">Type to parse as JSON.</typeparam>
-        /// <param name="request">Request to send.</param>
-        /// <param name="token">Cancellation token to cancel the request.</param>
+        /// <inheritdoc/>
         public async Task SendAsync(HttpRequestMessage request, CancellationToken? token)
         {
             await new SynchronizationContextRemover();

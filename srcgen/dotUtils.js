@@ -74,110 +74,59 @@ function stringifyType(prop, endpoint = null) {
   }
 }
 
+function stringifyParam(param, endpoint = null) {
+  if (param.schema)
+    return stringifyType(param.schema, endpoint);
+
+  const schema = { ...param }; // Clone.
+  if (param.enum)
+    schema['x-enum'] = param.name; // HACKY.
+  return stringifyType(schema);
+}
+
 function replaceEnumCasts(input) {
-    return input.replace("{championId}", "{(int)championId}");
+  return input.replace("{championId}", "{(int)championId}");
 }
 
 function formatJsonProperty(name) {
   return `[JsonProperty(\"${name}\")]`;
 }
 
-function formatQueryParamStringify(prop) {
+function formatQueryParamStringify(expr, prop) {
+  if (prop['x-enum']) {
+    if ('int' !== prop['x-type'])
+      throw Error('Unexpected x-enum x-type: ' + prop['x-type']);
+    return `((int) ${expr}).ToString()`;
+  }
   switch (prop.type) {
-    case 'boolean': return '.ToString().ToLowerInvariant()';
-    case 'string': return '';
-    default: return '.ToString()';
+    case undefined: throw new Error('Undefined .type: ' + JSON.stringify(prop));
+    case 'boolean': return expr + '.ToString().ToLowerInvariant()';
+    case 'string': return expr;
+    default:
+      return expr + '.ToString()';
   }
 }
 
 function formatAddQueryParam(param) {
+  let prop = param.schema;
+  if (!prop) {
+    // HACK. Some LCU endpoints don't obey the openapi spec and have
+    // ".schema" values directly in param.
+    return formatAddQueryParam({ ...param, schema: param })
+  }
+
   let k = `nameof(${param.name})`;
   let nc = param.required ? '' : `if (null != ${param.name}) `;
-  let prop = param.schema;
-  if (!prop)
-    return 'UNDEFINED_QP';
+
   switch (prop.type) {
     case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
-          + `w => new KeyValuePair<string, string>(${k}, ((int)w)${formatQueryParamStringify(prop.items)})))`;
+          + `w => new KeyValuePair<string, string>(${k}, ${formatQueryParamStringify('w', prop.items)})))`;
     case 'object': throw 'unsupported';
     default:
-      let vnc = param.required ? '' : '.Value';
+      let expr = param.name + (param.required ? '' : '.Value');
       return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
-        + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
+        + `${formatQueryParamStringify(expr, prop)}))`;
   }
-}
-
-function remapNamespaces(spec, endpoints = null, namespaceRenames = {}) {
-  const dtoNamespaceMapping = {};
-
-  function namespaceRenamed(namespace) {
-    return namespaceRenames[namespace.toUpperCase()] || namespace;
-  }
-  function updateRef(objWithRef) {
-    const ref = objWithRef['$ref'];
-    if (!ref || ref.includes('.')) return; // '.' hack to prevent double update.
-    const path = ref.split('/');
-    const type = path.pop();
-    const namespace = dtoNamespaceMapping[type];
-    path.push(`${namespaceRenamed(namespace)}.${removePrefix(type, namespace)}`);
-    objWithRef['$ref'] = path.join('/');
-  }
-
-  (endpoints
-    ? endpoints.map(ep => spec.paths[ep])
-    : Object.values(spec.paths))
-    .forEach(path => Object.values(path)
-      .forEach(op => {
-        if (!(op.tags && op.tags.length)) return; // No need to update without tags.
-        const namespace = normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
-        path['x-endpoint'] = namespaceRenamed(namespace);
-        Object.values(op.responses || {})
-          .concat(op.requestBody || [])
-          .map(resp => resp.content).defined()
-          .map(cont => cont['application/json']).defined()
-          .map(json => json.schema)
-          .flatMap(schem => [ schem, schem.items, schem.additionalProperties ]).defined()
-          .filter(schem => schem['$ref'])
-          .forEach(schem => {
-            const type = schem['$ref'].split('/').pop();
-            dtoNamespaceMapping[type] = namespace;
-            updateRef(schem);
-          });
-      })
-    );
-
-  const stack = Object.entries(dtoNamespaceMapping);
-  while (stack.length) {
-    const [ type, namespace ] = stack.pop();
-    dtoNamespaceMapping[type] = namespace;
-
-    let schema = spec.components.schemas[type];
-    let childRefs = Object.values(schema.properties || {})
-      .flatMap(propVal => [ propVal, propVal.items, propVal.additionalProperties ]).defined()
-      .filter(propVal => propVal['$ref'])
-      .forEach(propVal => {
-        const type = propVal['$ref'].split('/').pop();
-        if (!dtoNamespaceMapping[type]) {
-          dtoNamespaceMapping[type] = namespace;
-          stack.push([ type, namespace ]);
-        }
-        updateRef(propVal);
-      });
-  }
-
-  const schemas = spec.components.schemas;
-  const schemasToInclude = new Set();
-  for (const [ schemaKey, namespace ] of Object.entries(dtoNamespaceMapping)) {
-    const newNamespace = namespaceRenamed(namespace);
-    const newSchemaKey = `${newNamespace}.${removePrefix(schemaKey, namespace)}`;
-    if (newSchemaKey === schemaKey)
-      continue;
-    (schemas[newSchemaKey] = schemas[schemaKey])['x-endpoint'] = newNamespace;
-    delete schemas[schemaKey];
-
-    schemasToInclude.add(newSchemaKey);
-  }
-  return schemasToInclude;
 }
 
 module.exports = {
@@ -190,8 +139,8 @@ module.exports = {
   normalizeArgName,
   normalizePropName,
   stringifyType,
+  stringifyParam,
   replaceEnumCasts,
   formatJsonProperty,
-  formatAddQueryParam,
-  remapNamespaces
+  formatAddQueryParam
 };

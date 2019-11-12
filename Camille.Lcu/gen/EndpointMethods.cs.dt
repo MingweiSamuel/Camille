@@ -1,12 +1,5 @@
 ﻿{{
-    const dotUtils = require('./dotUtils.js');   
-    const spec = require(it.path + '/spec.json'); 
-    const endpoints = require(it.path + '/endpoints');
-
-    const namespaceRenames = {
-        "RIOTCLIENT": "RiotClient"
-    };
-    const schemasToInclude = dotUtils.remapNamespaces(spec, endpoints, namespaceRenames);
+    const { endpoints, spec, schemasToInclude } = require(it.path + '/specTransform');
 
     const namespace = 'Lcu';
     const useMethod = ([ route, path ]) => endpoints.includes(route);
