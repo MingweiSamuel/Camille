@@ -3,7 +3,7 @@
     const dotUtils = require('./dotUtils.js');
     const namespace = 'RiotApi';
     const useMethod = ([ route, path ]) => true; /*path.get && path.get.responses['200'];*/
-    const extraParams = [ { type: 'Region', name: 'region' } ];
+    const extraParams = [ { type: 'Region', name: 'region', description: 'Region to query.' } ];
     const formatSendArgs = operation
         => `region, "${operation.operationId}", request, cancellationToken, ${ !!operation['x-app-rate-limit-excluded'] }`;
     const usings = [ 'using Camille.RiotApi.Enums;' ];

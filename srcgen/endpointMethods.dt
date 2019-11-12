@@ -83,11 +83,13 @@ namespace Camille.{{= it.namespace }}
                 }
 
                 /* Description processing. */
-                let desc = operation.description || '';
-                let descArr = desc /* Convert MD #headers to <h#> tags. */
-                    .replace(/(#+)\s*([^\\]+)\\n(.*?)([\\n$])/g,
-                        (m, g1, g2, g3, g4) => `<h${g1.length}>${g2}</h${g1.length}>\\n${g3}${g4}`)
-                    .split('\n');
+                /* Convert MD #headers to <h#> tags. */
+                let descArr = operation.description
+                    ? operation.description
+                        .replace(/(#+)\s*([^\\]+)\\n(.*?)([\\n$])/g,
+                            (m, g1, g2, g3, g4) => `<h${g1.length}>${g2}</h${g1.length}>\\n${g3}${g4}`)
+                        .split('\n')
+                    : [];
 
                 /* Build argument comment & string. */
                 const extraParams = it.extraParams || [];
@@ -140,32 +142,27 @@ namespace Camille.{{= it.namespace }}
                         methodExpr += hasReturn ? '.Result' : '.Wait()';
                     }
 }}
+{{? operation.externalDocs || descArr.length }}
         /// <summary>
-{{
-                    for (var descLine of descArr)
-                    {
-}}
-        /// {{= descLine }}<para />
-{{
-                    }
-}}
+{{? descArr.length }}
+        /// {{= descArr.join('<para />        /// ') }}
+{{?}}
 {{? operation.externalDocs }}
         /// {{= operation.externalDocs.description }}: <a href="{{= operation.externalDocs.url }}">{{= operation.externalDocs.url }}</a>
 {{?}}
         /// </summary>
-        /// <param name="region">Region to query.</param>
+{{?}}
 {{
-                    if (allParams)
+                    extraParams.forEach(param => param.required = true);
+                    for (const param of extraParams.concat(allParams || []))
                     {
-                        for (let param of allParams)
-                        {
+                        const paramDesc = `${param.description || ''} (${param.required ? 'required' : 'optional'})`.trim();
 }}
-        /// <param name="{{= param.name }}">{{= param.description || '' }} ({{= param.required ? 'required' : 'optional' }})</param>
+        /// <param name="{{= param.name }}">{{= paramDesc }}</param>
 {{
-                        }
                     }
 }}
-        /// <param name="cancellationToken">A cancellation token that can be used to cancel this task.</param>
+        /// <param name="cancellationToken">A cancellation token that can be used to cancel this task. (optional)</param>
 {{? !isAsync }}
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
 {{?}}
