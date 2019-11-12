@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace Camille.RiotApi.Enums
+namespace Camille.Enums
 {
 #if USE_SYSTEXTJSON
   [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
 #endif
     public enum QueueType
     {
-        /// <summary>Used in LCU only.</summary>
+        /// <summary>Returned by LCU only.</summary>
+        [Obsolete("Returned by LCU only.")]
         NONE = 0,
         /// <summary>Ranked solo queue, 5v5 on Summoner's Rift.</summary>
         RANKED_SOLO_5x5 = 420,

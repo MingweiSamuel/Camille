@@ -29,7 +29,7 @@ namespace Camille.Lcu.Test
         {
             var lcu = new Lcu();
 
-            var session = await lcu.LolLogin().PostLolLoginV1SessionAsync(new LolLogin.UsernameAndPassword
+            var session = await lcu.LolLogin().PostSessionV1Async(new LolLogin.UsernameAndPassword
             {
                 Username = "0x5A79",
                 Password = "wrong password",

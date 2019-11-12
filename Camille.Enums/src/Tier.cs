@@ -1,4 +1,6 @@
-﻿namespace Camille.RiotApi.Enums
+﻿using System;
+
+namespace Camille.Enums
 {
     /// <summary>
     /// Contains tier names (CHALLENGER, MASTER, etc.)
@@ -18,7 +20,7 @@
         BRONZE      = 160,
         IRON        = 180,
 
-        /// <summary>Used by some LCU endpoints.</summary>
+        /// <summary>Returned by LCU only.</summary>
         NONE = byte.MaxValue,
     }
 }
