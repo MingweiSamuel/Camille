@@ -24,7 +24,31 @@ const endpoints = [
   "/lol-ranked/v1/current-ranked-stats",
   "/lol-ranked/v1/league-ladders/{puuid}",
   "/lol-ranked/v1/ranked-stats",
-  "/lol-ranked/v1/ranked-stats/{puuid}"
+  "/lol-ranked/v1/ranked-stats/{puuid}",
+
+  "/lol-champ-select/v1/bannable-champions",
+  "/lol-champ-select/v1/battle-training/launch",
+  "/lol-champ-select/v1/current-champion",
+  "/lol-champ-select/v1/disabled-champions",
+  "/lol-champ-select/v1/pickable-champions",
+  "/lol-champ-select/v1/pickable-skins",
+  "/lol-champ-select/v1/retrieve-latest-game-dto",
+  "/lol-champ-select/v1/session",
+  "/lol-champ-select/v1/session/actions/{id}",
+  "/lol-champ-select/v1/session/actions/{id}/complete",
+  "/lol-champ-select/v1/session/bench/swap/{championId}",
+  "/lol-champ-select/v1/session/my-selection",
+  "/lol-champ-select/v1/session/my-selection/reroll",
+  "/lol-champ-select/v1/session/simple-inventory",
+  "/lol-champ-select/v1/session/timer",
+  "/lol-champ-select/v1/session/trades",
+  "/lol-champ-select/v1/session/trades/{id}",
+  "/lol-champ-select/v1/session/trades/{id}/accept",
+  "/lol-champ-select/v1/session/trades/{id}/cancel",
+  "/lol-champ-select/v1/session/trades/{id}/decline",
+  "/lol-champ-select/v1/session/trades/{id}/request",
+  "/lol-champ-select/v1/team-boost",
+  "/lol-champ-select/v1/team-boost/purchase"
 ];
 const namespaceRenames = {
   "RIOTCLIENT": "RiotClient"
