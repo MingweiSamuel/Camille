@@ -1717,6 +1717,24 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_SNOW_ARURF_GAMES
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_SNOW_ARURF_GAMES
   nameWithType: Queue.SUMMONERS_RIFT_SNOW_ARURF_GAMES
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_1
+  name: SUMMONERS_RIFT_TUTORIAL_1
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_TUTORIAL_1
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_1
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_1
+  nameWithType: Queue.SUMMONERS_RIFT_TUTORIAL_1
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_2
+  name: SUMMONERS_RIFT_TUTORIAL_2
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_TUTORIAL_2
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_2
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_2
+  nameWithType: Queue.SUMMONERS_RIFT_TUTORIAL_2
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_3
+  name: SUMMONERS_RIFT_TUTORIAL_3
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_TUTORIAL_3
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_3
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_3
+  nameWithType: Queue.SUMMONERS_RIFT_TUTORIAL_3
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_ULTRA_RAPID_FIRE_GAMES
   name: SUMMONERS_RIFT_ULTRA_RAPID_FIRE_GAMES
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_ULTRA_RAPID_FIRE_GAMES
@@ -1993,6 +2011,12 @@ references:
   commentId: F:Camille.Enums.Season.PRESEASON_2015
   fullName: Camille.Enums.Season.PRESEASON_2015
   nameWithType: Season.PRESEASON_2015
+- uid: Camille.Enums.Season.PRESEASON_2016
+  name: PRESEASON_2016
+  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2016
+  commentId: F:Camille.Enums.Season.PRESEASON_2016
+  fullName: Camille.Enums.Season.PRESEASON_2016
+  nameWithType: Season.PRESEASON_2016
 - uid: Camille.Enums.Season.PRESEASON_2017
   name: PRESEASON_2017
   href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2017
@@ -2011,12 +2035,6 @@ references:
   commentId: F:Camille.Enums.Season.PRESEASON_2019
   fullName: Camille.Enums.Season.PRESEASON_2019
   nameWithType: Season.PRESEASON_2019
-- uid: Camille.Enums.Season.PRESEASON_2106
-  name: PRESEASON_2106
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2106
-  commentId: F:Camille.Enums.Season.PRESEASON_2106
-  fullName: Camille.Enums.Season.PRESEASON_2106
-  nameWithType: Season.PRESEASON_2106
 - uid: Camille.Enums.Season.SEASON_2014
   name: SEASON_2014
   href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2014
