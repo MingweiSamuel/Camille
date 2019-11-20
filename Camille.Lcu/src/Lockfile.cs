@@ -1,22 +1,39 @@
-﻿using System.IO;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace Camille.Lcu
 {
     public class Lockfile
     {
-        public readonly string Process;
+        public readonly string ProcessName;
         public readonly ulong Pid;
         public readonly ushort Port;
         public readonly string Password;
         public readonly string Protocol;
 
-        public Lockfile(string process, ulong pid, ushort port, string password, string protocol)
+        public Lockfile(string processName, ulong pid, ushort port, string password, string protocol)
         {
-            Process = process;
+            ProcessName = processName;
             Pid = pid;
             Port = port;
             Password = password;
             Protocol = protocol;
+        }
+
+        public static Lockfile GetFromProcess(string processName = "LeagueClient")
+        {
+            var processes = Process.GetProcessesByName(processName);
+            if (processes.Length <= 0)
+                throw new InvalidOperationException($"Process \"{processName}\" not found.");
+            if (processes.Length > 1)
+                throw new InvalidOperationException($"Multiple processes with name \"{processName}\" found.");
+
+            var process = processes[0];
+            var path = Path.GetDirectoryName(process.MainModule.FileName);
+            Debug.Assert(null != path);
+            var lockfilePath = Path.Combine(path, "lockfile");
+            return Parse(lockfilePath);
         }
 
         public static Lockfile Parse(string lockfilePath)
