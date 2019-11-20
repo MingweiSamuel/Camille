@@ -36,27 +36,15 @@ namespace Camille.Lcu
             "XWehWA=="));
 
         /// <summary>
-        /// League install dir. Will be ignored if lockfile is set.
-        /// </summary>
-        public string LeagueInstallDir = @"C:\Riot Games\League of Legends";
-
-        /// <summary>
-        /// Lockfile, optional. If not set, will try to read existing lockfile in LeagueInstallDir.
-        /// </summary>
-        public Lockfile? Lockfile = null;
-
-        /// <summary>
         /// Max concurrent requests (per LCU).
         /// </summary>
         public int MaxConcurrentRequests = 100;
 
-        /// <summary>
-        /// Handler used for SSL.
-        /// </summary>
-        public HttpClientHandler HttpClientHandler = new HttpClientHandler
-        {
-            ClientCertificateOptions = ClientCertificateOption.Manual,
-            ServerCertificateCustomValidationCallback = (req, cert, chain, polErrs) => {
+        public RemoteCertificateValidationCallback CertificateValidationCallback =
+            (obj, cert, chain, polErrs) =>
+            {
+                X509Certificate2 cert2 = cert as X509Certificate2 ?? new X509Certificate2(cert);
+
                 // Normal verification.
                 if (SslPolicyErrors.None == polErrs)
                     return true;
@@ -67,14 +55,13 @@ namespace Camille.Lcu
                 // https://stackoverflow.com/questions/6097671/how-to-verify-x509-cert-without-importing-root-cert
                 privateChain.ChainPolicy.RevocationMode = X509RevocationMode.NoCheck;
                 privateChain.ChainPolicy.ExtraStore.Add(RIOT_CA); // Add root certificate.
-                privateChain.Build(cert);
+                privateChain.Build(cert2);
 
                 // Only error should be untrusted root certificate.
                 // (Chain error if root isn't our root).
                 return 1 == privateChain.ChainStatus.Length &&
                     privateChain.ChainStatus[0].Status == X509ChainStatusFlags.UntrustedRoot;
-            }
-        };
+            };
 
         public Func<ITokenBucket?> TokenBucketProvider = () => new CircularTokenBucket(TimeSpan.FromSeconds(10), 1000, 20, 0.5f, 1.0f);
     }

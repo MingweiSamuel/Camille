@@ -1,4 +1,5 @@
-﻿using Camille.Lcu.Util;
+﻿using Camille.Lcu.src;
+using Camille.Lcu.Util;
 using System;
 using System.Net.Http;
 using System.Threading;
@@ -9,16 +10,24 @@ namespace Camille.Lcu
     public class Lcu : ILcu, IDisposable
     {
         private readonly LcuRequester _requester;
+        private readonly LcuWamp _wamp;
 
-        public Lcu() : this(new LcuConfig()) {}
+        public Lcu(Lockfile lockfile) : this(lockfile, new LcuConfig())
+        {}
 
-        public Lcu(LcuConfig lcuConfig) : base()
+        public Lcu(Lockfile lockfile, LcuConfig config) : base()
         {
-            _requester = new LcuRequester(lcuConfig);
+            _requester = new LcuRequester(lockfile, config);
+            _wamp = new LcuWamp(lockfile, config);
+        }
+
+        public async Task Connect(CancellationToken? token = null)
+        {
+            await _wamp.Connect(token);
         }
 
         /// <inheritdoc/>
-        public async Task<T> Send<T>(HttpRequestMessage request, CancellationToken? token)
+        public async Task<T> Send<T>(HttpRequestMessage request, CancellationToken? token = null)
         {
             // Camille's code is context-free.
             // This slightly improves performance and helps prevent GUI thread deadlocks.
@@ -34,7 +43,7 @@ namespace Camille.Lcu
         }
 
         /// <inheritdoc/>
-        public async Task Send(HttpRequestMessage request, CancellationToken? token)
+        public async Task Send(HttpRequestMessage request, CancellationToken? token = null)
         {
             await new SynchronizationContextRemover();
             await _requester.SendAsync(request, token.GetValueOrDefault());
