@@ -55,6 +55,12 @@ references:
   commentId: F:Camille.Enums.Champion.ANNIE
   fullName: Camille.Enums.Champion.ANNIE
   nameWithType: Champion.ANNIE
+- uid: Camille.Enums.Champion.APHELIOS
+  name: APHELIOS
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_APHELIOS
+  commentId: F:Camille.Enums.Champion.APHELIOS
+  fullName: Camille.Enums.Champion.APHELIOS
+  nameWithType: Champion.APHELIOS
 - uid: Camille.Enums.Champion.ASHE
   name: ASHE
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_ASHE
