@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Camille.Lcu.Test
 {
     [TestClass]
-    //[Ignore("Required LCU to be running.")]
+    [Ignore("Required LCU to be running.")]
     public class UnitTest1
     {
         [TestMethod]
