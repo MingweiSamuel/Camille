@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net471;netstandard2.0;netstandard2.1;netcoreapp2.0;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netcoreapp2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <LangVersion>8.0</LangVersion>
     <Nullable>enable</Nullable>
     <PackageId>Camille.Lcu</PackageId>
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <!-- Camille using Newtonsoft.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net471' Or '$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'netcoreapp2.0' Or '$(TargetFramework)' == 'netcoreapp3.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0'">
     <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
   </PropertyGroup>
   <!-- Camille using System.Text.Json. -->
@@ -33,36 +33,22 @@
   </PropertyGroup>
 
   <!-- Shim for HttpMethod.Patch -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net471' Or '$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'netcoreapp2.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
     <DefineConstants>$(DefineConstants);USE_HTTPMETHOD_PATCH_SHIM</DefineConstants>
   </PropertyGroup>
 
-  <!-- If System.Net.WebSockets Client has custom cert validator. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp3.0' Or '$(TargetFramework)' == 'netcoreapp3.1'">
-    <DefineConstants>$(DefineConstants);USE_REMOTECERTIFICATEVALIDATIONCALLBACK</DefineConstants>
-  </PropertyGroup>
-  
-  <!-- Use Process.Get TODO -->
-
   <!-- Newtonsoft & Nullable attributes from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'net471' Or '$(TargetFramework)' == 'netcoreapp2.0' Or '$(TargetFramework)' == 'netcoreapp3.0'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0'">
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="Nullable" Version="1.1.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-  <!-- System.Net.Http from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'net471'">
-    <PackageReference Include="System.Net.Http" Version="4.3.3" />
-  </ItemGroup>
-  <!-- System.Text.Json from Nuget. -->
+  <!-- System.Text.Json & System.Collections.Immutable from Nuget. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
     <PackageReference Include="System.Text.Json" Version="4.6.0" />
-  </ItemGroup>
-  <!-- System.ComponentModel.DataAnnotations from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'net471' Or '$(TargetFramework)' == 'netstandard2.1'">
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.6.0" />
   </ItemGroup>
 
   <Target Name="DownloadTemplateData">

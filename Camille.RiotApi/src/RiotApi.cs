@@ -38,7 +38,6 @@ namespace Camille.RiotApi
             return new RiotApi(config);
         }
 
-        #region requests
         public async Task<T> Send<T>(Region region, string methodId, HttpRequestMessage request,
             CancellationToken? token = null, bool ignoreAppRateLimits = false)
         {
@@ -49,9 +48,10 @@ namespace Camille.RiotApi
             var content = await _requestManager.Send(region, methodId, request, token.GetValueOrDefault(), ignoreAppRateLimits);
 #if USE_NEWTONSOFT
             return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
-#endif
-#if USE_SYSTEXTJSON
+#elif USE_SYSTEXTJSON
             return System.Text.Json.JsonSerializer.Deserialize<T>(content);
+#else
+#error Must have one of USE_NEWTONSOFT or USE_SYSTEXTJSON set.
 #endif
         }
 
@@ -61,6 +61,5 @@ namespace Camille.RiotApi
             await new SynchronizationContextRemover();
             await _requestManager.Send(region, methodId, request, token.GetValueOrDefault(), ignoreAppRateLimits);
         }
-        #endregion
     }
 }

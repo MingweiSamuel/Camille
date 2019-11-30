@@ -16,9 +16,10 @@ namespace Camille.RiotApi
         {
 #if USE_NEWTONSOFT
             return Newtonsoft.Json.JsonConvert.SerializeObject(value);
-#endif
-#if USE_SYSTEXTJSON
+#elif USE_SYSTEXTJSON
             return System.Text.Json.JsonSerializer.Serialize(value);
+#else
+#error Must have one of USE_NEWTONESOFT or USE_SYSTEXTJSON set.
 #endif
         }
     }

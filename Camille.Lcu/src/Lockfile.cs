@@ -33,10 +33,10 @@ namespace Camille.Lcu
             var path = Path.GetDirectoryName(process.MainModule.FileName);
             Debug.Assert(null != path);
             var lockfilePath = Path.Combine(path, "lockfile");
-            return Parse(lockfilePath);
+            return ParseFile(lockfilePath);
         }
 
-        public static Lockfile Parse(string lockfilePath)
+        public static Lockfile ParseFile(string lockfilePath)
         {
             string text;
             using (var stream = File.Open(lockfilePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
