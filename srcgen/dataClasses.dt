@@ -17,11 +17,11 @@ using Camille.Enums;
 #if USE_NEWTONSOFT
 using JsonPropertyAttribute = Newtonsoft.Json.JsonPropertyAttribute;
 using JsonExtensionDataAttribute = Newtonsoft.Json.JsonExtensionDataAttribute;
-#endif
-
-#if USE_SYSTEXTJSON
+#elif USE_SYSTEXTJSON
 using JsonPropertyAttribute = System.Text.Json.Serialization.JsonPropertyNameAttribute;
 using JsonExtensionDataAttribute = System.Text.Json.Serialization.JsonExtensionDataAttribute;
+#else
+#error One of USE_NEWTONSOFT or USE_SYSTEXTJSON must be set.
 #endif
 
 // ReSharper disable InconsistentNaming
