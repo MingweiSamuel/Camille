@@ -67,12 +67,12 @@ references:
   commentId: F:Camille.Enums.Champion.ASHE
   fullName: Camille.Enums.Champion.ASHE
   nameWithType: Champion.ASHE
-- uid: Camille.Enums.Champion.AURELION_SOL
-  name: AURELION_SOL
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AURELION_SOL
-  commentId: F:Camille.Enums.Champion.AURELION_SOL
-  fullName: Camille.Enums.Champion.AURELION_SOL
-  nameWithType: Champion.AURELION_SOL
+- uid: Camille.Enums.Champion.AURELIONSOL
+  name: AURELIONSOL
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AURELIONSOL
+  commentId: F:Camille.Enums.Champion.AURELIONSOL
+  fullName: Camille.Enums.Champion.AURELIONSOL
+  nameWithType: Champion.AURELIONSOL
 - uid: Camille.Enums.Champion.AZIR
   name: AZIR
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AZIR
@@ -121,12 +121,12 @@ references:
   commentId: F:Camille.Enums.Champion.CASSIOPEIA
   fullName: Camille.Enums.Champion.CASSIOPEIA
   nameWithType: Champion.CASSIOPEIA
-- uid: Camille.Enums.Champion.CHO_GATH
-  name: CHO_GATH
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_CHO_GATH
-  commentId: F:Camille.Enums.Champion.CHO_GATH
-  fullName: Camille.Enums.Champion.CHO_GATH
-  nameWithType: Champion.CHO_GATH
+- uid: Camille.Enums.Champion.CHOGATH
+  name: CHOGATH
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_CHOGATH
+  commentId: F:Camille.Enums.Champion.CHOGATH
+  fullName: Camille.Enums.Champion.CHOGATH
+  nameWithType: Champion.CHOGATH
 - uid: Camille.Enums.Champion.CORKI
   name: CORKI
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_CORKI
@@ -145,18 +145,18 @@ references:
   commentId: F:Camille.Enums.Champion.DIANA
   fullName: Camille.Enums.Champion.DIANA
   nameWithType: Champion.DIANA
-- uid: Camille.Enums.Champion.DR_MUNDO
-  name: DR_MUNDO
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_DR_MUNDO
-  commentId: F:Camille.Enums.Champion.DR_MUNDO
-  fullName: Camille.Enums.Champion.DR_MUNDO
-  nameWithType: Champion.DR_MUNDO
 - uid: Camille.Enums.Champion.DRAVEN
   name: DRAVEN
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_DRAVEN
   commentId: F:Camille.Enums.Champion.DRAVEN
   fullName: Camille.Enums.Champion.DRAVEN
   nameWithType: Champion.DRAVEN
+- uid: Camille.Enums.Champion.DRMUNDO
+  name: DRMUNDO
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_DRMUNDO
+  commentId: F:Camille.Enums.Champion.DRMUNDO
+  fullName: Camille.Enums.Champion.DRMUNDO
+  nameWithType: Champion.DRMUNDO
 - uid: Camille.Enums.Champion.EKKO
   name: EKKO
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_EKKO
@@ -271,12 +271,12 @@ references:
   commentId: F:Camille.Enums.Champion.JANNA
   fullName: Camille.Enums.Champion.JANNA
   nameWithType: Champion.JANNA
-- uid: Camille.Enums.Champion.JARVAN_IV
-  name: JARVAN_IV
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_JARVAN_IV
-  commentId: F:Camille.Enums.Champion.JARVAN_IV
-  fullName: Camille.Enums.Champion.JARVAN_IV
-  nameWithType: Champion.JARVAN_IV
+- uid: Camille.Enums.Champion.JARVANIV
+  name: JARVANIV
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_JARVANIV
+  commentId: F:Camille.Enums.Champion.JARVANIV
+  fullName: Camille.Enums.Champion.JARVANIV
+  nameWithType: Champion.JARVANIV
 - uid: Camille.Enums.Champion.JAX
   name: JAX
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_JAX
@@ -301,12 +301,12 @@ references:
   commentId: F:Camille.Enums.Champion.JINX
   fullName: Camille.Enums.Champion.JINX
   nameWithType: Champion.JINX
-- uid: Camille.Enums.Champion.KAI_SA
-  name: KAI_SA
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KAI_SA
-  commentId: F:Camille.Enums.Champion.KAI_SA
-  fullName: Camille.Enums.Champion.KAI_SA
-  nameWithType: Champion.KAI_SA
+- uid: Camille.Enums.Champion.KAISA
+  name: KAISA
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KAISA
+  commentId: F:Camille.Enums.Champion.KAISA
+  fullName: Camille.Enums.Champion.KAISA
+  nameWithType: Champion.KAISA
 - uid: Camille.Enums.Champion.KALISTA
   name: KALISTA
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KALISTA
@@ -355,12 +355,12 @@ references:
   commentId: F:Camille.Enums.Champion.KENNEN
   fullName: Camille.Enums.Champion.KENNEN
   nameWithType: Champion.KENNEN
-- uid: Camille.Enums.Champion.KHA_ZIX
-  name: KHA_ZIX
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KHA_ZIX
-  commentId: F:Camille.Enums.Champion.KHA_ZIX
-  fullName: Camille.Enums.Champion.KHA_ZIX
-  nameWithType: Champion.KHA_ZIX
+- uid: Camille.Enums.Champion.KHAZIX
+  name: KHAZIX
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KHAZIX
+  commentId: F:Camille.Enums.Champion.KHAZIX
+  fullName: Camille.Enums.Champion.KHAZIX
+  nameWithType: Champion.KHAZIX
 - uid: Camille.Enums.Champion.KINDRED
   name: KINDRED
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KINDRED
@@ -373,24 +373,24 @@ references:
   commentId: F:Camille.Enums.Champion.KLED
   fullName: Camille.Enums.Champion.KLED
   nameWithType: Champion.KLED
-- uid: Camille.Enums.Champion.KOG_MAW
-  name: KOG_MAW
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KOG_MAW
-  commentId: F:Camille.Enums.Champion.KOG_MAW
-  fullName: Camille.Enums.Champion.KOG_MAW
-  nameWithType: Champion.KOG_MAW
+- uid: Camille.Enums.Champion.KOGMAW
+  name: KOGMAW
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_KOGMAW
+  commentId: F:Camille.Enums.Champion.KOGMAW
+  fullName: Camille.Enums.Champion.KOGMAW
+  nameWithType: Champion.KOGMAW
 - uid: Camille.Enums.Champion.LEBLANC
   name: LEBLANC
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_LEBLANC
   commentId: F:Camille.Enums.Champion.LEBLANC
   fullName: Camille.Enums.Champion.LEBLANC
   nameWithType: Champion.LEBLANC
-- uid: Camille.Enums.Champion.LEE_SIN
-  name: LEE_SIN
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_LEE_SIN
-  commentId: F:Camille.Enums.Champion.LEE_SIN
-  fullName: Camille.Enums.Champion.LEE_SIN
-  nameWithType: Champion.LEE_SIN
+- uid: Camille.Enums.Champion.LEESIN
+  name: LEESIN
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_LEESIN
+  commentId: F:Camille.Enums.Champion.LEESIN
+  fullName: Camille.Enums.Champion.LEESIN
+  nameWithType: Champion.LEESIN
 - uid: Camille.Enums.Champion.LEONA
   name: LEONA
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_LEONA
@@ -439,18 +439,18 @@ references:
   commentId: F:Camille.Enums.Champion.MAOKAI
   fullName: Camille.Enums.Champion.MAOKAI
   nameWithType: Champion.MAOKAI
-- uid: Camille.Enums.Champion.MASTER_YI
-  name: MASTER_YI
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MASTER_YI
-  commentId: F:Camille.Enums.Champion.MASTER_YI
-  fullName: Camille.Enums.Champion.MASTER_YI
-  nameWithType: Champion.MASTER_YI
-- uid: Camille.Enums.Champion.MISS_FORTUNE
-  name: MISS_FORTUNE
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MISS_FORTUNE
-  commentId: F:Camille.Enums.Champion.MISS_FORTUNE
-  fullName: Camille.Enums.Champion.MISS_FORTUNE
-  nameWithType: Champion.MISS_FORTUNE
+- uid: Camille.Enums.Champion.MASTERYI
+  name: MASTERYI
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MASTERYI
+  commentId: F:Camille.Enums.Champion.MASTERYI
+  fullName: Camille.Enums.Champion.MASTERYI
+  nameWithType: Champion.MASTERYI
+- uid: Camille.Enums.Champion.MISSFORTUNE
+  name: MISSFORTUNE
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MISSFORTUNE
+  commentId: F:Camille.Enums.Champion.MISSFORTUNE
+  fullName: Camille.Enums.Champion.MISSFORTUNE
+  nameWithType: Champion.MISSFORTUNE
 - uid: Camille.Enums.Champion.MORDEKAISER
   name: MORDEKAISER
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MORDEKAISER
@@ -499,12 +499,12 @@ references:
   commentId: F:Camille.Enums.Champion.NOCTURNE
   fullName: Camille.Enums.Champion.NOCTURNE
   nameWithType: Champion.NOCTURNE
-- uid: Camille.Enums.Champion.NUNU_WILLUMP
-  name: NUNU_WILLUMP
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_NUNU_WILLUMP
-  commentId: F:Camille.Enums.Champion.NUNU_WILLUMP
-  fullName: Camille.Enums.Champion.NUNU_WILLUMP
-  nameWithType: Champion.NUNU_WILLUMP
+- uid: Camille.Enums.Champion.NUNUWILLUMP
+  name: NUNUWILLUMP
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_NUNUWILLUMP
+  commentId: F:Camille.Enums.Champion.NUNUWILLUMP
+  fullName: Camille.Enums.Champion.NUNUWILLUMP
+  nameWithType: Champion.NUNUWILLUMP
 - uid: Camille.Enums.Champion.OLAF
   name: OLAF
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_OLAF
@@ -565,12 +565,12 @@ references:
   commentId: F:Camille.Enums.Champion.RAMMUS
   fullName: Camille.Enums.Champion.RAMMUS
   nameWithType: Champion.RAMMUS
-- uid: Camille.Enums.Champion.REK_SAI
-  name: REK_SAI
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_REK_SAI
-  commentId: F:Camille.Enums.Champion.REK_SAI
-  fullName: Camille.Enums.Champion.REK_SAI
-  nameWithType: Champion.REK_SAI
+- uid: Camille.Enums.Champion.REKSAI
+  name: REKSAI
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_REKSAI
+  commentId: F:Camille.Enums.Champion.REKSAI
+  fullName: Camille.Enums.Champion.REKSAI
+  nameWithType: Champion.REKSAI
 - uid: Camille.Enums.Champion.RENEKTON
   name: RENEKTON
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_RENEKTON
@@ -685,12 +685,12 @@ references:
   commentId: F:Camille.Enums.Champion.SYNDRA
   fullName: Camille.Enums.Champion.SYNDRA
   nameWithType: Champion.SYNDRA
-- uid: Camille.Enums.Champion.TAHM_KENCH
-  name: TAHM_KENCH
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TAHM_KENCH
-  commentId: F:Camille.Enums.Champion.TAHM_KENCH
-  fullName: Camille.Enums.Champion.TAHM_KENCH
-  nameWithType: Champion.TAHM_KENCH
+- uid: Camille.Enums.Champion.TAHMKENCH
+  name: TAHMKENCH
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TAHMKENCH
+  commentId: F:Camille.Enums.Champion.TAHMKENCH
+  fullName: Camille.Enums.Champion.TAHMKENCH
+  nameWithType: Champion.TAHMKENCH
 - uid: Camille.Enums.Champion.TALIYAH
   name: TALIYAH
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TALIYAH
@@ -739,12 +739,12 @@ references:
   commentId: F:Camille.Enums.Champion.TRYNDAMERE
   fullName: Camille.Enums.Champion.TRYNDAMERE
   nameWithType: Champion.TRYNDAMERE
-- uid: Camille.Enums.Champion.TWISTED_FATE
-  name: TWISTED_FATE
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TWISTED_FATE
-  commentId: F:Camille.Enums.Champion.TWISTED_FATE
-  fullName: Camille.Enums.Champion.TWISTED_FATE
-  nameWithType: Champion.TWISTED_FATE
+- uid: Camille.Enums.Champion.TWISTEDFATE
+  name: TWISTEDFATE
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TWISTEDFATE
+  commentId: F:Camille.Enums.Champion.TWISTEDFATE
+  fullName: Camille.Enums.Champion.TWISTEDFATE
+  nameWithType: Champion.TWISTEDFATE
 - uid: Camille.Enums.Champion.TWITCH
   name: TWITCH
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_TWITCH
@@ -781,12 +781,12 @@ references:
   commentId: F:Camille.Enums.Champion.VEIGAR
   fullName: Camille.Enums.Champion.VEIGAR
   nameWithType: Champion.VEIGAR
-- uid: Camille.Enums.Champion.VEL_KOZ
-  name: VEL_KOZ
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VEL_KOZ
-  commentId: F:Camille.Enums.Champion.VEL_KOZ
-  fullName: Camille.Enums.Champion.VEL_KOZ
-  nameWithType: Champion.VEL_KOZ
+- uid: Camille.Enums.Champion.VELKOZ
+  name: VELKOZ
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VELKOZ
+  commentId: F:Camille.Enums.Champion.VELKOZ
+  fullName: Camille.Enums.Champion.VELKOZ
+  nameWithType: Champion.VELKOZ
 - uid: Camille.Enums.Champion.VI
   name: VI
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VI
@@ -835,12 +835,12 @@ references:
   commentId: F:Camille.Enums.Champion.XERATH
   fullName: Camille.Enums.Champion.XERATH
   nameWithType: Champion.XERATH
-- uid: Camille.Enums.Champion.XIN_ZHAO
-  name: XIN_ZHAO
-  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_XIN_ZHAO
-  commentId: F:Camille.Enums.Champion.XIN_ZHAO
-  fullName: Camille.Enums.Champion.XIN_ZHAO
-  nameWithType: Champion.XIN_ZHAO
+- uid: Camille.Enums.Champion.XINZHAO
+  name: XINZHAO
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_XINZHAO
+  commentId: F:Camille.Enums.Champion.XINZHAO
+  fullName: Camille.Enums.Champion.XINZHAO
+  nameWithType: Champion.XINZHAO
 - uid: Camille.Enums.Champion.YASUO
   name: YASUO
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_YASUO
