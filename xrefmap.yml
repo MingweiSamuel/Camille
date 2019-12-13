@@ -613,6 +613,12 @@ references:
   commentId: F:Camille.Enums.Champion.SENNA
   fullName: Camille.Enums.Champion.SENNA
   nameWithType: Champion.SENNA
+- uid: Camille.Enums.Champion.SETT
+  name: SETT
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SETT
+  commentId: F:Camille.Enums.Champion.SETT
+  fullName: Camille.Enums.Champion.SETT
+  nameWithType: Champion.SETT
 - uid: Camille.Enums.Champion.SHACO
   name: SHACO
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SHACO
