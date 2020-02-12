@@ -16,7 +16,7 @@ before_build:
   - ps: >-
       $env:DO_DEPLOY = (($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]')
       -Or $env:APPVEYOR_SCHEDULED_BUILD)
-      -And ($env:APPVEYOR_REPO_BRANCH -Eq 'Master')
+      -And ($env:APPVEYOR_REPO_BRANCH -Match '^release/')
       -And (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER)
 after_build:
   - ps: echo $ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP
