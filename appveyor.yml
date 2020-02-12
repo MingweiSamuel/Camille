@@ -32,5 +32,3 @@ deploy:
   artifact: nightly #/.*\*-nightly-*.nupkg/
   on: 
     DO_DEPLOY: true
-on_success:
-  - ps: .\docs.ps1
