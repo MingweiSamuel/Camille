@@ -28,11 +28,13 @@ namespace Camille.Lcu
             // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
             await new SynchronizationContextRemover();
             var content = await _requester.SendAsync(request, token.GetValueOrDefault());
+            if (null == content) return default!; // TODO: throw exception on unexpected null.
 #if USE_NEWTONSOFT
             return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
-#endif
-#if USE_SYSTEXTJSON
+#elif USE_SYSTEXTJSON
             return System.Text.Json.JsonSerializer.Deserialize<T>(content);
+#else
+#error Must have one of USE_NEWTONSOFT or USE_SYSTEXTJSON set.
 #endif
         }
 

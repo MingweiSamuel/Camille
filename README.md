@@ -15,7 +15,8 @@ Data classes are automatically generated from the
 * Automatic up-to-date nightlies, reflecting Riot API changes within 24 hours.
 * Multi-targeted: .NET Standard 1.1+, .NET Framework 4.5+, .NET Core 2.0, .NET Standard 2.1+, .NET Core 3.0+.
 * Highly-configurable.
-* Riot API V4 Support.
+* Riot API LOL-V4, TFT, LOR support.
+* C# 8 nullable support.
 
 ## Installation
 

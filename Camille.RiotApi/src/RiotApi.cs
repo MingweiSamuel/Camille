@@ -46,6 +46,7 @@ namespace Camille.RiotApi
             // https://blogs.msdn.microsoft.com/benwilli/2017/02/09/an-alternative-to-configureawaitfalse-everywhere/
             await new SynchronizationContextRemover();
             var content = await _requestManager.Send(region, methodId, request, token.GetValueOrDefault(), ignoreAppRateLimits);
+            if (null == content) return default!; // TODO: throw exception on unexpected null.
 #if USE_NEWTONSOFT
             return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
 #elif USE_SYSTEXTJSON
