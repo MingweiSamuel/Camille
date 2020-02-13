@@ -39,5 +39,17 @@ namespace Camille.RiotApi.Test
             Console.WriteLine(summoner);
             Assert.IsNotNull(summoner);
         }
+
+        [TestMethod]
+        public void GetNonexistentSummoner()
+        {
+            Assert.IsNull(Api.SummonerV4().GetBySummonerName(Region.JP1, "this summoner does not exist"));
+        }
+
+        [TestMethod]
+        public async Task GetNonexistentSummonerAsync()
+        {
+            Assert.IsNull(await Api.SummonerV4().GetBySummonerNameAsync(Region.JP1, "this summoner does not exist"));
+        }
     }
 }
