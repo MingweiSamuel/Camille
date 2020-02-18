@@ -6,6 +6,7 @@
 // Do not directly edit.
 // Generated on {{= (new Date).toISOString() }}
 
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Camille.Enums
@@ -19,10 +20,20 @@ namespace Camille.Enums
     public enum Queue
     {
 {{
-    for (let { queueId, map, description, notes } of queues) {
+    for (const { queueId, map, description, notes } of queues) {
+        const deprecated = notes && notes.toUpperCase().includes('DEPRECATED');
+        let name = map;
+        if (description)
+            name += '_' + description;
+        if (deprecated)
+            name += '_DEPRECATED_' + queueId;
 }}
-        [Display(Name = "{{= map}}", Description = "{{= description}}")]
-        {{= enumName(notes !== null ? description === null ? map + "_DEPRECATED" : map + "_" + description + "_DEPRECATED" : map + "_" + description) }} = {{= queueId }},
+{{? deprecated }}
+        [Obsolete("{{= notes }}")]
+{{?}}
+        [Display(Name = "{{= map }}", Description = "{{= description ? description : '' }}")]
+        {{= enumName(name) }} = {{= queueId }},
+
 {{
     }
 }}
