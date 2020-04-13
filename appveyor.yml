@@ -15,20 +15,20 @@ before_build:
   - nuget restore
   - ps: >-
       $env:DO_DEPLOY = (($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]')
-      -Or $env:APPVEYOR_SCHEDULED_BUILD -Or $env:SCHEDULED_BUILD)
+      -Or $env:APPVEYOR_SCHEDULED_BUILD -Or $env:SCHEDULED_BUILD -Or $env:APPVEYOR_REPO_TAG)
       -And ($env:APPVEYOR_REPO_BRANCH -Match '^release/')
       -And (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER)
 after_build:
   - ps: echo $ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP
   - ps: .\deploy.ps1
 artifacts:
-  - path: '**\*-nightly-*.nupkg'
-    name: nightly
+  - path: '**\*.nupkg'
+    name: release
 deploy:
   provider: NuGet
   api_key:
     secure: Oas6wmFju8XW3kIvsrfToZ9UPwgvBSQUL6BCMCLXRuNohcUw51EiYeIo7vSS44FD
   skip_symbols: false
-  artifact: nightly #/.*\*-nightly-*.nupkg/
+  artifact: release
   on: 
     DO_DEPLOY: true
