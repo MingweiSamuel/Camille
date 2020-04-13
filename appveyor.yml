@@ -1,0 +1,6 @@
+environment:
+  api_key:
+    secure: cZaqcXLVw9oH1OMgdVoSTniU6kLOP+UQrUbNOs07Duo=
+build_script:
+  - ps: ./TriggerBranch.ps1 'release/2.x.x'
+  - ps: ./TriggerBranch.ps1 'release/3.x.x'
