@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>MingweiSamuel.Camille</PackageId>
     <RootNamespace>MingweiSamuel.Camille</RootNamespace>
-    <Version>2.4.1</Version>
+    <Version>0.0.0</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
@@ -15,10 +15,9 @@
     <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Camille.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. V4 &amp; TFT Supported.</Description>
-    <Summary>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. V4 &amp; TFT Supported.</Summary>
+    <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Description>
+    <Summary>Riot Games API library. Fully rate limited, automatic retrying, thread-safe.</Summary>
     <PackageTags>riot games api league of legends camille riotsharp</PackageTags>
-    <PackageReleaseNotes>Updates for v4 leagues</PackageReleaseNotes>
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
