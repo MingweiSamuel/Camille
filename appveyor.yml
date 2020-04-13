@@ -10,27 +10,22 @@ install:
 before_build:
   - node --version
   - npm --version
-  - powershell -Command "cd srcgen; npm install"
+  - powershell -Command 'cd srcgen; npm install'
   - ps: $env:api_key | Out-File Camille.RiotApi.Test\apikey.txt
+  - ps: Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME/appveyor/SetEnv.ps1" | Invoke-Expression
   - nuget restore
-  - ps: >-
-      $env:DO_DEPLOY = (($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]')
-      -Or $env:APPVEYOR_SCHEDULED_BUILD)
-      -And ($env:APPVEYOR_REPO_BRANCH -Match '^release/')
-      -And (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER)
 after_build:
-  - ps: echo $ENV:APPVEYOR_REPO_COMMIT_TIMESTAMP
-  - ps: .\deploy.ps1
+  - ps: dotnet msbuild /t:build /t:pack /p:Configuration=Release /p:Version="$env:CAMI_VERSION"
 artifacts:
-  - path: '**\*-nightly-*.nupkg'
-    name: nightly
+  - path: '**\Release\*.nupkg'
+    name: release
 deploy:
   provider: NuGet
   api_key:
     secure: Oas6wmFju8XW3kIvsrfToZ9UPwgvBSQUL6BCMCLXRuNohcUw51EiYeIo7vSS44FD
   skip_symbols: false
-  artifact: nightly #/.*\*-nightly-*.nupkg/
+  artifact: release
   on: 
-    DO_DEPLOY: true
+    CAMI_DO_DEPLOY: true
 on_success:
-  - ps: .\docs.ps1
+  - ps: Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME/appveyor/Docs.ps1" | Invoke-Expression
