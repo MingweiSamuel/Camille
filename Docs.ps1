@@ -1,7 +1,7 @@
 $VERSION = $env:CAMI_VERSION
 $PUSH = $env:CAMI_DO_DEPLOY
 
-Remove-Item -Recurse -Force docs -ErrorAction Ignore
+Remove-Item 'docs' -Recurse -Force -ErrorAction Ignore
 
 # Version logic:
 # Keep one nightly version per MAJOR verison.
@@ -45,14 +45,16 @@ $DEST = "docs\v\$NIGHTLY"
 docfx build .\docfx_project\docfx.json -o "$DEST\docs"
 # Create folder for generated files & copy over.
 Get-ChildItem -Directory -Filter 'Camille.*' | ForEach-Object {
-    Copy-Item -Path "$($_.Name)\gen" -Filter '*.cs' -Recurse -Destination "$DEST\_gen\$($_.Name)\" -ErrorAction Ignore
+    Remove-Item "$DEST\_gen\$($_.Name)" -Recurse -Force -ErrorAction Ignore
+    Copy-Item -Path "$($_.Name)\gen" -Filter '*.cs' -Destination "$DEST\_gen\$($_.Name)" -Recurse -ErrorAction Ignore
 }
 
 If ($IS_STABLE) {
+    Remove-Item "docs\v\$VERSION" -Recurse -Force -ErrorAction Ignore
     Copy-Item -Path "$DEST" -Destination "docs\v\$VERSION" -Recurse
 }
 
-Push-Location .\docs
+Push-Location 'docs'
 # Check if there are substantial changes.
 git add .
 $diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' | ConvertFrom-Csv -Delimiter `t -Header r,w,f |
