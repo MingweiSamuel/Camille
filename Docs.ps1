@@ -1,7 +1,5 @@
-param(
-    [String] $VERSION='0.0.0-nightly',
-    [Switch] $PUSH
-)
+$VERSION = $env:CAMI_VERSION
+$PUSH = $env:CAMI_DO_DEPLOY
 
 Remove-Item -Recurse -Force docs -ErrorAction Ignore
 
