@@ -1,0 +1,1700 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/camille/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "e2PZlQdUeCSakqcCpFBO3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html",
+          "hash": "lA7dA3ltpwlUo00j+nu8Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4.html",
+          "hash": "tlsarfRuIdvHT7yBISIikw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html",
+          "hash": "Yql+UXAoEbZwqQYiIuFDJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionV3.ChampionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionV3.ChampionInfo.html",
+          "hash": "LRGpsM72PCat7fV75g3eHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionV3.html",
+          "hash": "DHyKprpNs1fWDY1WBrr3eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ChampionV3Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ChampionV3Endpoints.html",
+          "hash": "FTvLbTOMt5B0JLWEbiteIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1.Player.html",
+          "hash": "IflF/EWkFBnZrhrWhv0E4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1.Team.html",
+          "hash": "YV7S/0HFglEH4SMINLRfPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1.Tournament.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1.Tournament.html",
+          "hash": "Kf4F2fCNt6YMS+QbAwWVrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1.TournamentPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1.TournamentPhase.html",
+          "hash": "9ePcGgZTmt///0KsK4yH2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1.html",
+          "hash": "4nCAVhonBQGLTJBgJRdGyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ClashV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ClashV1Endpoints.html",
+          "hash": "d0filurCeSptnXs4NX3Uyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Endpoints.html",
+          "hash": "OLxKromTKO2MBMFF9z3wpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Champion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Champion.html",
+          "hash": "TygVO+ZIQMjvaoOzXgn03A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.ChampionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.ChampionId.html",
+          "hash": "Qy3gUrHHenpEQDZqkT0swA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.ChampionUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.ChampionUtils.html",
+          "hash": "uDjvvJ//ad3kugnI8m7TjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Division.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Division.html",
+          "hash": "E6+cTLrA4M+LhM+8d6AYkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Locale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Locale.html",
+          "hash": "Ta9P1A1fuI5swWslyJeZLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Position.html",
+          "hash": "SzXoWjdlx71er5aIn5G0YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Queue.html",
+          "hash": "g8mR4dUNFtGiUdbVQ/Os7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Region.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Region.html",
+          "hash": "z0u1e9zQUrBB9FZSQNyTJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.TeamId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.TeamId.html",
+          "hash": "aiytJ64Qzq8l2eqftvPIHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.Tier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.Tier.html",
+          "hash": "KFw8HRwhu7PX/zfSDkTLwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Enums.html",
+          "hash": "y0NJEfeYGNeRP+ti7566XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.IRiotApiConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.IRiotApiConfig.html",
+          "hash": "bh+r6iatc8gE1fIKHGyXTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.LeagueEntry.html",
+          "hash": "9OsTg5OHuQYlvBWnRQWAzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.MiniSeries.html",
+          "hash": "0aes1uDj3XWU0rO4Js1xQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueExpV4.html",
+          "hash": "RccFSAJv8myD8EUkqIJy2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueExpV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueExpV4Endpoints.html",
+          "hash": "/QEd5tsndocPxBeAWrqRVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueEntry.html",
+          "hash": "WJXPL95kU7wxZ9yUVIBnlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueItem.html",
+          "hash": "CwFSTMim+R6vfhSnAYH4/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4.LeagueList.html",
+          "hash": "j6Z+RBEWmeSBm1j7QatDNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4.MiniSeries.html",
+          "hash": "pnxM04gxhTvNe3YtqGG+Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4.html",
+          "hash": "sOFEzQVLE2NcD02tvfN1gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LeagueV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LeagueV4Endpoints.html",
+          "hash": "Whn/RtUrCYNJFb1+LZtY+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Incident.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Incident.html",
+          "hash": "mG7zU/NI+NDp4wU9j/ra/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Message.html",
+          "hash": "+MlJQbVlYgOYq1vPBvp6sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Service.html",
+          "hash": "EnM/qMLEfvSdYNN/kD7WNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.ShardStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.ShardStatus.html",
+          "hash": "imYSyEyJlM6DIQQmJBNHgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.Translation.html",
+          "hash": "Y7dRbboLFSHd8HhMV/vvJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3.html",
+          "hash": "uLG3HKBqm2bYV8WAjV6otQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LolStatusV3Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LolStatusV3Endpoints.html",
+          "hash": "1a10l0EUoSagQ2G/nC/0uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Leaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Leaderboard.html",
+          "hash": "/RCgRlOcYAWYQZOp1twQ0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Player.html",
+          "hash": "IdgaTIbq1Q2A3aim96OCRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorRankedV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorRankedV1.html",
+          "hash": "xnliBfgHQoXh4P9UQzoDyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorRankedV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorRankedV1Endpoints.html",
+          "hash": "XZrFCMpo3wPTkVoBhfI/2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Mastery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Mastery.html",
+          "hash": "chGtwGQrJddaCSFrw25yPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Match.html",
+          "hash": "AMq8n2EXE+D1DlMCNHy8zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchEvent.html",
+          "hash": "k2q/nZro/7NhiuXi5T4ekw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchFrame.html",
+          "hash": "Z9Ig0NL1pn5XqbX6NDwBjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.html",
+          "hash": "MFSVn0gvTSsf03OV1y3R9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchPosition.html",
+          "hash": "eI5t9B4hv3jVPeoJkaW6Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchReference.html",
+          "hash": "VKftPKHPyt+TqXzQ0ndAhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchTimeline.html",
+          "hash": "a1tz/oe7w7ATHs4MZ7aOOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Matchlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Matchlist.html",
+          "hash": "n5GsD99HD02q6v2nJECGfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Participant.html",
+          "hash": "nMhM41ZgQL109XuH6b3G8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantIdentity.html",
+          "hash": "18lpT4pGugwvNCqzC9puYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html",
+          "hash": "q8OwYxymRbhTiNOtZwx+hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantTimeline.html",
+          "hash": "KM5EtNulgZfY35ZUCWzCIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Player.html",
+          "hash": "xZXBM+qLu5YUfc6jwYAC1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.Rune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.Rune.html",
+          "hash": "BL8rCtFi7NilrwWa3Y4lKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamBans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamBans.html",
+          "hash": "J7TwVM9xqDRuPeEJZ05PVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamStats.html",
+          "hash": "QM+T8Fh+PgPeqD8S1VYluw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4.html",
+          "hash": "CyvgG4T0uMpnOuy4S1QxRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.MatchV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.MatchV4Endpoints.html",
+          "hash": "fGlEH10WiW0urbG5KMVcGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.RiotApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.RiotApi.html",
+          "hash": "BVLdh2DRH0d5az3vqcOpDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.RiotApiConfig.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.RiotApiConfig.Builder.html",
+          "hash": "HRmYB2xp8eZcMvObrWk8LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.RiotApiConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.RiotApiConfig.html",
+          "hash": "pca/HolLKeAErcphsF301g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.BannedChampion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.BannedChampion.html",
+          "hash": "1KjMHXFu/bkJwO8unKQJBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.html",
+          "hash": "5r8GsZXIbfN8Z2d7w2AUFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.html",
+          "hash": "9GRbj8gKYSsSMKlZbuCIng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.html",
+          "hash": "4pIlqd3PHpM0wrBSwWxI8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGames.html",
+          "hash": "7XNVH8czRTZAnLk/3WVbNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.html",
+          "hash": "FDW9Izinzx/HKg5oIaAweQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Observer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Observer.html",
+          "hash": "sWcSyWUHc7TZg9ENN1/Sow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Participant.html",
+          "hash": "EFQRsadzqBXEGvBM7azIrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Perks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Perks.html",
+          "hash": "mW3b6V4UB/ARwIqc0+zNpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.html",
+          "hash": "mlO8p7GXv4+Yxr2fKhPIZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SpectatorV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SpectatorV4Endpoints.html",
+          "hash": "LuAHfQWxlIIOvS3M9YjTiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SummonerV4.Summoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SummonerV4.Summoner.html",
+          "hash": "BPSM7s/m4NLQY5dEYvrVVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SummonerV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SummonerV4.html",
+          "hash": "cPbHeGarHvxwvv+RBCia1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.SummonerV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.SummonerV4Endpoints.html",
+          "hash": "SFX5nHMQ7V4++neGVf9V5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html",
+          "hash": "1QDVQviVcCd/dX5ewV/5Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueItem.html",
+          "hash": "Np2GVy8Voyko4+d9kxdJhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueList.html",
+          "hash": "Sald8KeZi6IGvFq7ba/C5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.MiniSeries.html",
+          "hash": "k6X+jsWBuFsIT74Qlr6Tug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.html",
+          "hash": "Qjstx7bRJvXKUcDV1ORHYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftLeagueV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html",
+          "hash": "/l6coRrfoCopBhYQsFcH8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Companion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Companion.html",
+          "hash": "o5SSOJtraPVQef+KzqSe2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Info.html",
+          "hash": "gIWdfI49KGIvdLXeltupTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Match.html",
+          "hash": "2wxyDZIxFwI2G6eB9lFp9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Metadata.html",
+          "hash": "Kl5lOKBOFpoZWR9PcFh4Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Participant.html",
+          "hash": "K97zIbRHM9dvjX2KuxYjLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Trait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Trait.html",
+          "hash": "dTIhgnpceL5804lnYmhZow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Unit.html",
+          "hash": "VltVkhmxcoS5Cr/rGNIhNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.html",
+          "hash": "7riy21KdW/0dg15Rr+flRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftMatchV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftMatchV1Endpoints.html",
+          "hash": "FhBLfK0FV/sBTUQ+lGjjhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftSummonerV1.Summoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftSummonerV1.Summoner.html",
+          "hash": "L2HV0MZpSF6aDBlu9fIiQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftSummonerV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftSummonerV1.html",
+          "hash": "cuxiO3TkAQ7e7ribRZXW9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TftSummonerV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TftSummonerV1Endpoints.html",
+          "hash": "5GIx3Vfd0LY773knecSioQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html",
+          "hash": "y8P3awf2ek2ByM0HHRDi3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.html",
+          "hash": "XW6EZbUiBIo2orRlh/bDow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.html",
+          "hash": "hX8d6Nb7TMVqR3j1Lx+K2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.html",
+          "hash": "4S2e9ql1wpolWPkOw69+dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.html",
+          "hash": "DxkzPKCBMe5g7i7T43JBBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.html",
+          "hash": "oiZGpMx3LUJrKgkqB4hfNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.html",
+          "hash": "0kOrecevu4I8zKNjLovUNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4Endpoints.html",
+          "hash": "jfhm5IKv1pZv8Hw6Pob/lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEvent.html",
+          "hash": "oGm7VxXv0xGaLgXUSfLAaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.html",
+          "hash": "uOwZiZSILKAPAcP5PZR9zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.html",
+          "hash": "yxUIR6USfxhVTAfVPJYrsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCode.html",
+          "hash": "KQdYqbnHUR+qALg5QkcNmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.html",
+          "hash": "IWMi1/kakg+oWodgzZvr7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.html",
+          "hash": "jFdEAOK9fF/FC/tX5kYHPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.html",
+          "hash": "YQME/yx3xwMViPP/FNBKbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4.html",
+          "hash": "xVYXFyMhf3GCb3ZNzhAOTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.TournamentV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.TournamentV4Endpoints.html",
+          "hash": "2XLOWQ3LhQ0lVIHJ57F6lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.CircularBufferTokenBucket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.CircularBufferTokenBucket.html",
+          "hash": "+cqarEshh4M2rhf09t9Y8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.IRateLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.IRateLimit.html",
+          "hash": "STUqJeN0KiBhV4lRC8bBrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.ITokenBucket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.ITokenBucket.html",
+          "hash": "5SDbLR2bMHgjZTuKo/ZmtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RateLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RateLimit.html",
+          "hash": "jZQpbjQWrSfpmGvIGiAe+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RateLimitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RateLimitType.html",
+          "hash": "mynk6kCZp7NzaHIJcEqtvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RateLimitTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RateLimitTypeInfo.html",
+          "hash": "BiqqvtHUEquQO/Nbi+qJYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RateLimitUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RateLimitUtils.html",
+          "hash": "/l6/ibU90ZRSUi6gcz4RPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RegionalRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RegionalRequester.html",
+          "hash": "Xw/KMU6sLXuJPONZZBrvrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RequestManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RequestManager.html",
+          "hash": "tF8A4HrQfmkXRnbh6XDAsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.RiotResponseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.RiotResponseException.html",
+          "hash": "MLySVXp0clHYq8djoEfuTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.SynchronizationContextRemover.html",
+          "hash": "VSBvyqPHG/+nEGIU6Kzd8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.TokenBucketFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.TokenBucketFactory.html",
+          "hash": "JlqofuWLBRnH/FceLaRARQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.TokenBucketUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.TokenBucketUtils.html",
+          "hash": "w5JqDF3LtnghZapwJ3FawQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.Util.html",
+          "hash": "e173sSYgb5vtbReZqa1aag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.html",
+          "hash": "Z4DJ8ExX/Je4UCI8zJVAaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "XJjlYSt57sl0GqEPb0JEfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "OH91XS0188X8P97zN5suhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "XVQ6TWX8oa8taW2b2UOjHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "5551i2Aongws3N1Klm8g3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 132,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
