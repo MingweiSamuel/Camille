@@ -43,8 +43,11 @@ namespace MingweiSamuel.Camille.Util
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
         }
 
-        /// <summary>HttpStatus codes that are considered a success, but will return null (or default(T)).</summary>
-        private static readonly int[] NullSuccessStatusCodes = { 204, 404, 422 };
+        /// <summary>
+        /// HttpStatus codes that are considered a success, but will return null (or default(T)).
+        /// Listed from most common to least common.
+        /// </summary>
+        private static readonly int[] NullSuccessStatusCodes = { 404, 204, 422 };
 
 #nullable disable
         /// <summary>
@@ -83,6 +86,7 @@ namespace MingweiSamuel.Camille.Util
                 response = await _client.SendAsync(request, token.GetValueOrDefault());
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response);
+
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
                 {
@@ -94,10 +98,10 @@ namespace MingweiSamuel.Camille.Util
                     return System.Text.Json.JsonSerializer.Deserialize<T>(json);
 #endif
                 }
-                if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
+                if (0 <= Array.IndexOf(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
                 // Failure. 429 and 5xx are retryable. All else exit.
-                if (429 == (int)response.StatusCode || response.StatusCode >= HttpStatusCode.InternalServerError)
+                if (429 == (int) response.StatusCode || response.StatusCode >= HttpStatusCode.InternalServerError)
                     continue;
                 break;
             }
