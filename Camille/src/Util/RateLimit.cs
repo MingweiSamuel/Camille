@@ -53,41 +53,42 @@ namespace MingweiSamuel.Camille.Util
 
         public void OnResponse(HttpResponseMessage response)
         {
+            string? GetHeader(string name)
+            {
+                if (response.Headers.TryGetValues(name, out IEnumerable<string>? headers))
+                    return headers.FirstOrDefault();
+                return null;
+            }
+
             if (429 == (int) response.StatusCode)
             {
                 // Determine if this RateLimit triggered the 429, and set retryAfter accordingly.
-                IEnumerable<string> typeNameHeaderEnumerable;
-                response.Headers.TryGetValues(HeaderXRateLimitType, out typeNameHeaderEnumerable);
-                var typeNameHeader = typeNameHeaderEnumerable?.FirstOrDefault();
-                if (typeNameHeader == null)
-                    throw new InvalidOperationException(
-                        $"429 response did not include {HeaderXRateLimitType}, indicating a failure of the Riot API edge.");
-                if (_rateLimitType.TypeName().Equals(typeNameHeader, StringComparison.OrdinalIgnoreCase))
+                var rlTypeHeader = GetHeader(HeaderXRateLimitType);
+                if (!Enum.TryParse(rlTypeHeader, out RateLimitType rlType) || !Enum.IsDefined(typeof(RateLimitType), rlType))
+                    // Missing X-Rate-Limit-Type header indicates a "service" or "other" rate limit violation.
+                    // Assume that the rate limit applies to the method only.
+                    rlType = RateLimitType.Method;
+
+                if (rlType == _rateLimitType)
                 {
-                    IEnumerable<string> retryAfterHeaderEnumerable;
-                    response.Headers.TryGetValues(HeaderRetryAfter, out retryAfterHeaderEnumerable);
-                    var retryAfterHeader = retryAfterHeaderEnumerable?.FirstOrDefault();
-                    if (retryAfterHeader == null)
-                        throw new InvalidOperationException(
-                            $"429 response triggered by {_rateLimitType.TypeName()} missing {HeaderRetryAfter}" +
-                            " header, indicating a failure of the Riot API edge.");
+                    var retryAfterHeader = GetHeader(HeaderRetryAfter);
+                    if (!long.TryParse(retryAfterHeader, out long retrySecs))
+                        // Missing Retry-After probably indicates a "service" or "other" rate limit violation.
+                        // Use hardcoded retry of 1 second (naive).
+                        retrySecs = 1;
                     // Because the precision of the retryAfter header is only in seconds, we multiply
                     // and add an additional half-second in case of rounding (for example, the API sometimes returns
                     // retry-after 0 seconds).
-                    _retryAfterTickStamp = DateTimeOffset.UtcNow.Ticks
-                        + TimeSpan.TicksPerSecond * long.Parse(retryAfterHeader)
+                    var retryTicks = DateTimeOffset.UtcNow.Ticks
+                        + TimeSpan.TicksPerSecond * retrySecs
                         + TimeSpan.TicksPerSecond / 2;
+                    if (retryTicks > _retryAfterTickStamp)
+                        _retryAfterTickStamp = retryTicks;
                 }
             }
 
-            IEnumerable<string> limitHeaderEnumerable;
-            response.Headers.TryGetValues(_rateLimitType.LimitHeader(), out limitHeaderEnumerable);
-            var limitHeader = limitHeaderEnumerable?.FirstOrDefault();
-
-            IEnumerable<string> countHeaderEnumerable;
-            response.Headers.TryGetValues(_rateLimitType.CountHeader(), out countHeaderEnumerable);
-            var countHeader = countHeaderEnumerable?.FirstOrDefault();
-
+            var limitHeader = GetHeader(_rateLimitType.LimitHeader());
+            var countHeader = GetHeader(_rateLimitType.CountHeader());
             if (limitHeader == null || countHeader == null)
                 return;
             if (!CheckBucketsRequireUpdating(limitHeader))
@@ -129,7 +130,7 @@ namespace MingweiSamuel.Camille.Util
             var counts = countHeader.Split(',');
             if (limits.Length != counts.Length)
                 throw new InvalidOperationException(
-                    $"Header lengths did not match: {limitHeader} and {countHeader}.");
+                    $"Limit and count header comma counts do not match: {limitHeader} and {countHeader}.");
             return limits
                 .Zip(counts, (limit, count) =>
                 {
@@ -141,7 +142,7 @@ namespace MingweiSamuel.Camille.Util
                     var countSpan = long.Parse(count.Substring(countColon + 1));
                     if (limitSpan != countSpan)
                         throw new InvalidOperationException(
-                            $"Header timespans did not match: {limitHeader} and {countHeader}.");
+                            $"Limit and count header timespans do not match: '{limitHeader}' and '{countHeader}'.");
                     var bucket = _config.TokenBucketFactory.Invoke(
                         TimeSpan.FromSeconds(limitSpan), limitValue, _config.ConcurrentInstanceFactor, _config.OverheadFactor);
                     bucket.GetTokens((int) Math.Ceiling(countValue * _config.ConcurrentInstanceFactor));
