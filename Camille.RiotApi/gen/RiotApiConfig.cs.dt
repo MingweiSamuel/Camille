@@ -55,6 +55,14 @@ namespace Camille.RiotApi
     {
 }}
             /// <summary>{{= value.desc }}</summary>
+{{? value.val }}
+            /// <example>
+            /// Default value:
+            /// <code>
+            /// {{= value.val }}
+            /// </code>
+            /// </example>
+{{?}}
             public {{= value.type }} {{= dotUtils.capitalize(key) }}{{= value.val ? ' = ' + value.val : '' }};
 
 {{

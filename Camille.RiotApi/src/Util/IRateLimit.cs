@@ -22,6 +22,7 @@ namespace Camille.RiotApi.Util
         /// Callback for when a response returns. Used to update RetryAfter delay and rate limit buckets.
         /// </summary>
         /// <param name="response">Response that applies to this RateLimit.</param>
-        void OnResponse(HttpResponseMessage response);
+        /// <param name="defaultRetrySeconds">Seconds to delay if response is 429 and has missing/invalid Retry-After header.</param>
+        void OnResponse(HttpResponseMessage response, double defaultRetrySeconds);
     }
 }

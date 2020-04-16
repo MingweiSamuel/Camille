@@ -52,7 +52,7 @@ namespace Camille.RiotApi.Util
             return now > _retryAfterTickStamp ? -1 : _retryAfterTickStamp - now;
         }
 
-        public void OnResponse(HttpResponseMessage response)
+        public void OnResponse(HttpResponseMessage response, double defaultRetrySeconds)
         {
             string? GetHeader(string name)
             {
@@ -73,16 +73,17 @@ namespace Camille.RiotApi.Util
                 if (rlType == _rateLimitType)
                 {
                     var retryAfterHeader = GetHeader(HeaderRetryAfter);
-                    if (!long.TryParse(retryAfterHeader, out long retrySecs))
+                    if (double.TryParse(retryAfterHeader, out double retrySecs))
+                        // Because the precision of the retryAfter header is only in seconds, we multiply
+                        // and add an additional half-second in case of rounding (for example, the API sometimes returns
+                        // retry-after 0 seconds).
+                        retrySecs += 0.5;
+                    else
                         // Missing Retry-After probably indicates a "service" or "other" rate limit violation.
                         // Use hardcoded retry of 1 second (naive).
                         retrySecs = 1;
-                    // Because the precision of the retryAfter header is only in seconds, we multiply
-                    // and add an additional half-second in case of rounding (for example, the API sometimes returns
-                    // retry-after 0 seconds).
-                    var retryTicks = DateTimeOffset.UtcNow.Ticks
-                        + TimeSpan.TicksPerSecond * retrySecs
-                        + TimeSpan.TicksPerSecond / 2;
+
+                    var retryTicks = DateTimeOffset.UtcNow.Ticks + (long) (TimeSpan.TicksPerSecond * retrySecs);
                     if (retryTicks > _retryAfterTickStamp)
                         _retryAfterTickStamp = retryTicks;
                 }

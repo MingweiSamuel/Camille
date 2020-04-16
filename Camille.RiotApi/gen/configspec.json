@@ -16,16 +16,21 @@
   "overheadFactor": {
     "type": "float",
     "desc": "Overhead factor to reduce the chance 429s due to network noise.",
-    "val": "0.95f" 
+    "val": "0.95f"
   },
   "retries": {
     "type": "int",
     "desc": "Number of times to retry a failed request (zero for no retries).",
-    "val": "3"
+    "val": "5"
   },
   "tokenBucketFactory": {
     "type": "Util.TokenBucketFactory",
-    "desc": "Factory for creating temporal buckets.",
+    "desc": "Factory for creating token buckets.",
     "val": "(timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new MingweiSamuel.TokenBucket.CircularTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor * overheadFactor)"
+  },
+  "backoffStrategy": {
+    "type": "Util.BackoffStrategy",
+    "desc": "A backoff strategy for 429s with missing Retry-After headers. Returns seconds.",
+    "val": "(retries, num429s) => 0.5 + Math.Pow(2, num429s)"
   }
 }

@@ -41,12 +41,15 @@ namespace Camille.RiotApi.Util
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
 
-            _client.BaseAddress = new Uri($"https://{region.ToString()}{RiotRootUrl}");
+            _client.BaseAddress = new Uri($"https://{region}{RiotRootUrl}");
             _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
         }
 
-        /// <summary>HttpStatus codes that are considered a success, but will return null (or default(T)).</summary>
-        private static readonly int[] NullSuccessStatusCodes = { 204, 404, 422 };
+        /// <summary>
+        /// HttpStatus codes that are considered a success, but will return null (or default(T)).
+        /// Listed from most common to least common.
+        /// </summary>
+        private static readonly int[] NullSuccessStatusCodes = { 404, 204, 422 };
 
         /// <summary>
         /// Sends a GET request, obeying rate limits and retry afters.
@@ -61,6 +64,7 @@ namespace Camille.RiotApi.Util
         {
             HttpResponseMessage? response = null;
             var retries = 0;
+            var num429s = 0;
             for (; retries <= _config.Retries; retries++)
             {
                 // Get token.
@@ -76,15 +80,21 @@ namespace Camille.RiotApi.Util
                 // Send request, receive response.
                 response = await _client.SendAsync(request, token);
                 foreach (var rateLimit in rateLimits)
-                    rateLimit.OnResponse(response);
+                    rateLimit.OnResponse(response, _config.BackoffStrategy(retries, num429s));
+
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
                     return await response.Content.ReadAsStringAsync();
                 // Null success (no body).
-                if (0 <= Array.BinarySearch(NullSuccessStatusCodes, (int) response.StatusCode))
+                if (0 <= Array.IndexOf(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
-                // Failure. 429 and 5xx are retryable. All else exit.
-                if (429 == (int)response.StatusCode || response.StatusCode >= HttpStatusCode.InternalServerError)
+                // Failure. 429 and 5xx are retryable. All else exit (break loop).
+                if (429 == (int) response.StatusCode)
+                {
+                    num429s++;
+                    continue;
+                }
+                if (response.StatusCode >= HttpStatusCode.InternalServerError)
                     continue;
                 break;
             }
