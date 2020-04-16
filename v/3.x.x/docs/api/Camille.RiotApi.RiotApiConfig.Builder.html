@@ -117,7 +117,7 @@
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder__ctor_System_String_.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L82">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L128">View Source</a>
   </span>
   <a id="Camille_RiotApi_RiotApiConfig_Builder__ctor_" data-uid="Camille.RiotApi.RiotApiConfig.Builder.#ctor*"></a>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder__ctor_System_String_" data-uid="Camille.RiotApi.RiotApiConfig.Builder.#ctor(System.String)">Builder(String)</h4>
@@ -151,7 +151,7 @@
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_ApiKey.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.ApiKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L65">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L72">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_ApiKey" data-uid="Camille.RiotApi.RiotApiConfig.Builder.ApiKey">ApiKey</h4>
   <div class="markdown level1 summary"><p>Riot Games API key.</p>
@@ -178,10 +178,44 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_BackoffStrategy.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.BackoffStrategy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L126">View Source</a>
+  </span>
+  <h4 id="Camille_RiotApi_RiotApiConfig_Builder_BackoffStrategy" data-uid="Camille.RiotApi.RiotApiConfig.Builder.BackoffStrategy">BackoffStrategy</h4>
+  <div class="markdown level1 summary"><p>A backoff strategy for 429s with missing Retry-After headers. Returns seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackoffStrategy BackoffStrategy</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Camille.RiotApi.Util.BackoffStrategy.html">BackoffStrategy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_BackoffStrategy_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>(retries, num429s) => 0.5 + Math.Pow(2, num429s)</code></pre>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_ConcurrentInstanceFactor.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.ConcurrentInstanceFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L71">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L90">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_ConcurrentInstanceFactor" data-uid="Camille.RiotApi.RiotApiConfig.Builder.ConcurrentInstanceFactor">ConcurrentInstanceFactor</h4>
   <div class="markdown level1 summary"><p>Multiplier for using concurrent instances. For example, use 0.25 for 4 concurrent instances equally spread.</p>
@@ -206,12 +240,16 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_ConcurrentInstanceFactor_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>1f</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_MaxConcurrentRequests.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.MaxConcurrentRequests%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L68">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L81">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_MaxConcurrentRequests" data-uid="Camille.RiotApi.RiotApiConfig.Builder.MaxConcurrentRequests">MaxConcurrentRequests</h4>
   <div class="markdown level1 summary"><p>Maximum number of concurrent requests allowed.</p>
@@ -236,12 +274,16 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_MaxConcurrentRequests_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>1000</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_OverheadFactor.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.OverheadFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L74">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L99">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_OverheadFactor" data-uid="Camille.RiotApi.RiotApiConfig.Builder.OverheadFactor">OverheadFactor</h4>
   <div class="markdown level1 summary"><p>Overhead factor to reduce the chance 429s due to network noise.</p>
@@ -266,12 +308,16 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_OverheadFactor_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>0.95f</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_Retries.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.Retries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L77">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L108">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_Retries" data-uid="Camille.RiotApi.RiotApiConfig.Builder.Retries">Retries</h4>
   <div class="markdown level1 summary"><p>Number of times to retry a failed request (zero for no retries).</p>
@@ -296,15 +342,19 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_Retries_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>5</code></pre>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_TokenBucketFactory.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.TokenBucketFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L80">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L117">View Source</a>
   </span>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_TokenBucketFactory" data-uid="Camille.RiotApi.RiotApiConfig.Builder.TokenBucketFactory">TokenBucketFactory</h4>
-  <div class="markdown level1 summary"><p>Factory for creating temporal buckets.</p>
+  <div class="markdown level1 summary"><p>Factory for creating token buckets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -326,6 +376,10 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Camille_RiotApi_RiotApiConfig_Builder_TokenBucketFactory_examples">Examples</h5>
+  <p>Default value:</p>
+<pre><code>(timespan, totalLimit, concurrentInstanceFactor, overheadFactor) => new MingweiSamuel.TokenBucket.CircularTokenBucket(timespan, totalLimit, 20, 0.5f, concurrentInstanceFactor * overheadFactor)</code></pre>
+
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -333,7 +387,7 @@
     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder_Build.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder.Build%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L87">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L133">View Source</a>
   </span>
   <a id="Camille_RiotApi_RiotApiConfig_Builder_Build_" data-uid="Camille.RiotApi.RiotApiConfig.Builder.Build*"></a>
   <h4 id="Camille_RiotApi_RiotApiConfig_Builder_Build" data-uid="Camille.RiotApi.RiotApiConfig.Builder.Build">Build()</h4>
@@ -369,7 +423,7 @@
                     <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_RiotApiConfig_Builder.md&amp;value=---%0Auid%3A%20Camille.RiotApi.RiotApiConfig.Builder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L62" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\RiotApiConfig.cs/#L69" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.IRiotApiConfig.html",
-          "hash": "FPeoivVNTpA7KrMZJ4pE4w=="
+          "hash": "6Ad8qssN88PILAx6x2HkNA=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.RiotApiConfig.Builder.html",
-          "hash": "43XlOA209cPRxH2D2UQT0w=="
+          "hash": "oedv+dtYeRocVm7mBfI6xw=="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.RiotApiConfig.html",
-          "hash": "BI1DW9kYUxBXC//IKPXKFA=="
+          "hash": "GzgHCtyPvhnjAuoWr/Ac4w=="
         }
       },
       "is_incremental": false,
@@ -2225,11 +2225,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotApi.Util.BackoffStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotApi.Util.BackoffStrategy.html",
+          "hash": "tHnsVGTFrzRjAPddGa5WRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Camille.RiotApi.Util.IRateLimit.yml",
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.Util.IRateLimit.html",
-          "hash": "z6p/rpPeiHNWZBpr5eOvTw=="
+          "hash": "bDL+gIliTDeC0AePgyj2Ig=="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.Util.RateLimit.html",
-          "hash": "tVWFJPXSsriMT9M1ms5SRg=="
+          "hash": "rR17UjVK8F14NREMTDMHAQ=="
         }
       },
       "is_incremental": false,
@@ -2289,7 +2301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.Util.RegionalRequester.html",
-          "hash": "uVuvPdJBYQ1WTFyog1IdSA=="
+          "hash": "/Zf9YxDWd7ogrtrSldOVww=="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.Util.html",
-          "hash": "Lq95GpfiTSmuz4SSYKNeWw=="
+          "hash": "yYi4CHumPK0sELwOWncfEg=="
         }
       },
       "is_incremental": false,
@@ -2397,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T95YYny3X/0WoxCs5RSx4g=="
+          "hash": "Sqvm0n/fT4UlWYXD56Xb2A=="
         }
       },
       "is_incremental": false,
@@ -2448,7 +2460,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 197,
+          "total_file_count": 198,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

@@ -9932,6 +9932,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotApi.IRiotApiConfig.ApiKey
   nameWithType: IRiotApiConfig.ApiKey
+- uid: Camille.RiotApi.IRiotApiConfig.BackoffStrategy
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.IRiotApiConfig.html#Camille_RiotApi_IRiotApiConfig_BackoffStrategy
+  commentId: P:Camille.RiotApi.IRiotApiConfig.BackoffStrategy
+  fullName: Camille.RiotApi.IRiotApiConfig.BackoffStrategy
+  nameWithType: IRiotApiConfig.BackoffStrategy
+- uid: Camille.RiotApi.IRiotApiConfig.BackoffStrategy*
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.IRiotApiConfig.html#Camille_RiotApi_IRiotApiConfig_BackoffStrategy_
+  commentId: Overload:Camille.RiotApi.IRiotApiConfig.BackoffStrategy
+  isSpec: "True"
+  fullName: Camille.RiotApi.IRiotApiConfig.BackoffStrategy
+  nameWithType: IRiotApiConfig.BackoffStrategy
 - uid: Camille.RiotApi.IRiotApiConfig.ConcurrentInstanceFactor
   name: ConcurrentInstanceFactor
   href: api/Camille.RiotApi.IRiotApiConfig.html#Camille_RiotApi_IRiotApiConfig_ConcurrentInstanceFactor
@@ -15876,6 +15889,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotApi.RiotApiConfig.ApiKey
   nameWithType: RiotApiConfig.ApiKey
+- uid: Camille.RiotApi.RiotApiConfig.BackoffStrategy
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.RiotApiConfig.html#Camille_RiotApi_RiotApiConfig_BackoffStrategy
+  commentId: P:Camille.RiotApi.RiotApiConfig.BackoffStrategy
+  fullName: Camille.RiotApi.RiotApiConfig.BackoffStrategy
+  nameWithType: RiotApiConfig.BackoffStrategy
+- uid: Camille.RiotApi.RiotApiConfig.BackoffStrategy*
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.RiotApiConfig.html#Camille_RiotApi_RiotApiConfig_BackoffStrategy_
+  commentId: Overload:Camille.RiotApi.RiotApiConfig.BackoffStrategy
+  isSpec: "True"
+  fullName: Camille.RiotApi.RiotApiConfig.BackoffStrategy
+  nameWithType: RiotApiConfig.BackoffStrategy
 - uid: Camille.RiotApi.RiotApiConfig.Builder
   name: RiotApiConfig.Builder
   href: api/Camille.RiotApi.RiotApiConfig.Builder.html
@@ -15901,6 +15927,12 @@ references:
   commentId: F:Camille.RiotApi.RiotApiConfig.Builder.ApiKey
   fullName: Camille.RiotApi.RiotApiConfig.Builder.ApiKey
   nameWithType: RiotApiConfig.Builder.ApiKey
+- uid: Camille.RiotApi.RiotApiConfig.Builder.BackoffStrategy
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.RiotApiConfig.Builder.html#Camille_RiotApi_RiotApiConfig_Builder_BackoffStrategy
+  commentId: F:Camille.RiotApi.RiotApiConfig.Builder.BackoffStrategy
+  fullName: Camille.RiotApi.RiotApiConfig.Builder.BackoffStrategy
+  nameWithType: RiotApiConfig.Builder.BackoffStrategy
 - uid: Camille.RiotApi.RiotApiConfig.Builder.Build
   name: Build()
   href: api/Camille.RiotApi.RiotApiConfig.Builder.html#Camille_RiotApi_RiotApiConfig_Builder_Build
@@ -21078,6 +21110,12 @@ references:
   commentId: N:Camille.RiotApi.Util
   fullName: Camille.RiotApi.Util
   nameWithType: Camille.RiotApi.Util
+- uid: Camille.RiotApi.Util.BackoffStrategy
+  name: BackoffStrategy
+  href: api/Camille.RiotApi.Util.BackoffStrategy.html
+  commentId: T:Camille.RiotApi.Util.BackoffStrategy
+  fullName: Camille.RiotApi.Util.BackoffStrategy
+  nameWithType: BackoffStrategy
 - uid: Camille.RiotApi.Util.IRateLimit
   name: IRateLimit
   href: api/Camille.RiotApi.Util.IRateLimit.html
@@ -21110,12 +21148,12 @@ references:
   isSpec: "True"
   fullName: Camille.RiotApi.Util.IRateLimit.GetRetryAfterDelay
   nameWithType: IRateLimit.GetRetryAfterDelay
-- uid: Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  name: OnResponse(HttpResponseMessage)
-  href: api/Camille.RiotApi.Util.IRateLimit.html#Camille_RiotApi_Util_IRateLimit_OnResponse_System_Net_Http_HttpResponseMessage_
-  commentId: M:Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  fullName: Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  nameWithType: IRateLimit.OnResponse(HttpResponseMessage)
+- uid: Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage,System.Double)
+  name: OnResponse(HttpResponseMessage, Double)
+  href: api/Camille.RiotApi.Util.IRateLimit.html#Camille_RiotApi_Util_IRateLimit_OnResponse_System_Net_Http_HttpResponseMessage_System_Double_
+  commentId: M:Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage,System.Double)
+  fullName: Camille.RiotApi.Util.IRateLimit.OnResponse(System.Net.Http.HttpResponseMessage, System.Double)
+  nameWithType: IRateLimit.OnResponse(HttpResponseMessage, Double)
 - uid: Camille.RiotApi.Util.IRateLimit.OnResponse*
   name: OnResponse
   href: api/Camille.RiotApi.Util.IRateLimit.html#Camille_RiotApi_Util_IRateLimit_OnResponse_
@@ -21180,12 +21218,12 @@ references:
   commentId: F:Camille.RiotApi.Util.RateLimit.HeaderXRateLimitType
   fullName: Camille.RiotApi.Util.RateLimit.HeaderXRateLimitType
   nameWithType: RateLimit.HeaderXRateLimitType
-- uid: Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  name: OnResponse(HttpResponseMessage)
-  href: api/Camille.RiotApi.Util.RateLimit.html#Camille_RiotApi_Util_RateLimit_OnResponse_System_Net_Http_HttpResponseMessage_
-  commentId: M:Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  fullName: Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage)
-  nameWithType: RateLimit.OnResponse(HttpResponseMessage)
+- uid: Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage,System.Double)
+  name: OnResponse(HttpResponseMessage, Double)
+  href: api/Camille.RiotApi.Util.RateLimit.html#Camille_RiotApi_Util_RateLimit_OnResponse_System_Net_Http_HttpResponseMessage_System_Double_
+  commentId: M:Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage,System.Double)
+  fullName: Camille.RiotApi.Util.RateLimit.OnResponse(System.Net.Http.HttpResponseMessage, System.Double)
+  nameWithType: RateLimit.OnResponse(HttpResponseMessage, Double)
 - uid: Camille.RiotApi.Util.RateLimit.OnResponse*
   name: OnResponse
   href: api/Camille.RiotApi.Util.RateLimit.html#Camille_RiotApi_Util_RateLimit_OnResponse_

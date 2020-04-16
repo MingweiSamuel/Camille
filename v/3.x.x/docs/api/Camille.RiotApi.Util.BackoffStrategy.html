@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Camille.RiotApi.Util
+    <title>Delegate BackoffStrategy
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Camille.RiotApi.Util
+    <meta name="title" content="Delegate BackoffStrategy
    ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -68,54 +68,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Camille.RiotApi.Util">
+            <article class="content wrap" id="_content" data-uid="Camille.RiotApi.Util.BackoffStrategy">
   
-  <h1 id="Camille_RiotApi_Util" data-uid="Camille.RiotApi.Util" class="text-break">Namespace Camille.RiotApi.Util
+  
+  <h1 id="Camille_RiotApi_Util_BackoffStrategy" data-uid="Camille.RiotApi.Util.BackoffStrategy" class="text-break">Delegate BackoffStrategy
   </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RateLimit.html">RateLimit</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RateLimitTypeInfo.html">RateLimitTypeInfo</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RateLimitUtils.html">RateLimitUtils</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RegionalRequester.html">RegionalRequester</a></h4>
-      <section><p>Manages rate limits for a particular region and sends requests.
-Retries retryable responses (429, 5xx).
-Processes non-retryable responses (200, 404, 4xx).</p>
-</section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RequestManager.html">RequestManager</a></h4>
-      <section><p>For sending rate-limited requests to the Riot API.</p>
-<p>Manages splitting up regions and limiting concurrent connections.</p>
-</section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RiotResponseException.html">RiotResponseException</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.TokenBucketUtils.html">TokenBucketUtils</a></h4>
-      <section></section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="Camille.RiotApi.Util.SynchronizationContextRemover.html">SynchronizationContextRemover</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Camille.RiotApi.Util.IRateLimit.html">IRateLimit</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="Camille.RiotApi.Util.RateLimitType.html">RateLimitType</a></h4>
-      <section></section>
-    <h3 id="delegates">Delegates
-  </h3>
-      <h4><a class="xref" href="Camille.RiotApi.Util.BackoffStrategy.html">BackoffStrategy</a></h4>
-      <section><p>A backoff strategy for determining how long to delay when response status is 429 (too many requests)
+  <div class="markdown level0 summary"><p>A backoff strategy for determining how long to delay when response status is 429 (too many requests)
 but have a missing/invalid Retry-After header.</p>
-</section>
-      <h4><a class="xref" href="Camille.RiotApi.Util.TokenBucketFactory.html">TokenBucketFactory</a></h4>
-      <section></section>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Camille.RiotApi.Util.html">Camille.RiotApi.Util</a></h6>
+  <h6><strong>Assembly</strong>: Camille.RiotApi.dll</h6>
+  <h5 id="Camille_RiotApi_Util_BackoffStrategy_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate double BackoffStrategy(int retries, int num429s);</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">retries</span></td>
+        <td><p>Number of retries (0 if this is the first attempt).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num429s</span></td>
+        <td><p>Number of previous 429 responses (0 if this is the first 429 response).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Seconds to delay.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -123,6 +130,12 @@ but have a missing/invalid Retry-After header.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotApi_Util_BackoffStrategy.md&amp;value=---%0Auid%3A%20Camille.RiotApi.Util.BackoffStrategy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/Camille.RiotApi/src/Util/BackoffStrategy.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
