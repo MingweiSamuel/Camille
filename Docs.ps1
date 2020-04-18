@@ -64,7 +64,7 @@ $diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' | Conver
 If ($PUSH -Ne $true) {
     Write-Output 'No "-Push", exiting.'
 }
-ElseIf (-Not $diffs -Or ($diffs[0] -LE 5 -And $diffs[1] -LE 5)) {
+ElseIf (-Not $diffs -Or ($diffs[0] -LE 20 -And $diffs[1] -LE 20)) {
     Write-Output 'No substantial changes, exiting.'
 }
 Else {
