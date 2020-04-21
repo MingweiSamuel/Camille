@@ -27,6 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F67163
 		srcgen\endpointExtensions.dt = srcgen\endpointExtensions.dt
 		srcgen\endpointMethods.dt = srcgen\endpointMethods.dt
 		srcgen\index.js = srcgen\index.js
+		srcgen\install.ps1 = srcgen\install.ps1
 		srcgen\package.json = srcgen\package.json
 		srcgen\polyfill.js = srcgen\polyfill.js
 	EndProjectSection

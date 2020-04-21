@@ -8,9 +8,6 @@ environment:
 install:
   - ps: Install-Product node $env:nodejs_version
 before_build:
-  - node --version
-  - npm --version
-  - powershell -Command 'cd srcgen; npm install'
   - ps: $env:api_key | Out-File Camille.RiotApi.Test\apikey.txt
   - ps: Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME/appveyor/SetEnv.ps1" | Invoke-Expression
   - nuget restore

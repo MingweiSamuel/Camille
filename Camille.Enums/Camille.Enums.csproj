@@ -64,8 +64,7 @@
 
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
   <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateData">
-    <Exec WorkingDirectory="$(SolutionDir)/srcgen"
-        Command="powershell -command &quot;&amp; {If ([System.Version]%24(npm -v) -ge [System.Version]'5.7.0') {npm ci} Else {npm install}}&quot;" />
+    <Exec WorkingDirectory="$(SolutionDir)/srcgen" Command="PowerShell -ExecutionPolicy Bypass -File install.ps1" />
     <Exec WorkingDirectory="$(SolutionDir)" Command="node srcgen/index.js &quot;$(MSBuildProjectDirectory)&quot;" />
   </Target>
   <!-- On Unix/OSX DispatchToInnerBuilds is not run so we use GenerateTargetFrameworkMonikerAttribute. -->
