@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace MingweiSamuel.Camille.Util
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace MingweiSamuel.Camille.Util
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MingweiSamuel.Camille.Util">
+  
+  <h1 id="MingweiSamuel_Camille_Util" data-uid="MingweiSamuel.Camille.Util" class="text-break">Namespace MingweiSamuel.Camille.Util
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.CircularBufferTokenBucket.html">CircularBufferTokenBucket</a></h4>
+      <section><p>A circular buffer keeps track of tokens. The value of each buffer index represents the number of requests
+sent during that time period and as time passes, old indices are zeroed and the current index advances.The
+entire length of the buffer minus one represents a entire timespan (each index represents a fraction of the
+total timespan). The extra index prevents violations due to bucket misalignment.A rolling total is kept of
+the buffer&apos;s contents.</p>
+<p>When trying to obtain a token, we first check the rolling total is less than the limit.If so, we obtain
+a token by incrementing the rolling total and incrementing the buffer&apos;s current index.</p>
+<p>The length of the buffer is one more than the temporal factor supplied to the constructor. The temporal
+factor represents the multiplicative increase in temporal resolution provided with more buffer indices.</p>
+<p>Additionally, a non-zero spreading factor can be provided to prevent a single index from supplying all of
+a timespan&apos;s tokens. A spreading factor of 0.0 means no spreading, a factor of 0.5 means each index can
+supply up to half of the tokens, and a factor of 1.0 means tokens will be evenly supplied by all indices
+(provided there is enough demand).</p>
+<p>Checking the availability of tokens is done using the {@link #getDelay()} method. Tokens are obtained
+using the {@link #getToken()} method. Both these methods are synchronized on the bucket instance. Because
+the state of the bucket may change if there are multiple threads, it is best to call these methods in a
+synchronized block, as shown below.</p>
+<pre><code>ITokenBucket bucket = ...;
+while (true)
+{
+    long delay;
+    synchronized(bucket) {
+        delay = bucket.getDelay();
+        if (delay == -1)
+        {
+            bucket.GetTokens(1);
+            break;
+        }
+    }
+    // Waiting is done outside of the synchronized block.
+    Thread.sleep(delay);
+}
+// Token is obtained.
+...</code></pre>
+</section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RateLimit.html">RateLimit</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RateLimitTypeInfo.html">RateLimitTypeInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RateLimitUtils.html">RateLimitUtils</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RegionalRequester.html">RegionalRequester</a></h4>
+      <section><p>Manages rate limits for a particular region and sends requests.
+Retries retryable responses (429, 5xx).
+Processes non-retryable responses (200, 404, 4xx).</p>
+</section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RequestManager.html">RequestManager</a></h4>
+      <section><p>For sending rate-limited requests to the Riot API.</p>
+<p>Manages splitting up regions and limiting concurrent connections.</p>
+</section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RiotResponseException.html">RiotResponseException</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.TokenBucketUtils.html">TokenBucketUtils</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.SynchronizationContextRemover.html">SynchronizationContextRemover</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.IRateLimit.html">IRateLimit</a></h4>
+      <section></section>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.ITokenBucket.html">ITokenBucket</a></h4>
+      <section><p>This interface defines a token bucket system. One instance represents one recurring bucket with a certain
+limit of tokens per timespan.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.RateLimitType.html">RateLimitType</a></h4>
+      <section></section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="MingweiSamuel.Camille.Util.TokenBucketFactory.html">TokenBucketFactory</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
