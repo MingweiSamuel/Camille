@@ -1,6 +1,6 @@
 # Set CAMI_DO_DEPLOY
 $env:CAMI_DO_DEPLOY = (($env:APPVEYOR_REPO_COMMIT_MESSAGE -NotMatch '\[no deploy\]') `
-    -Or $env:APPVEYOR_SCHEDULED_BUILD -Or $env:SCHEDULED_BUILD) `
+    -Or $env:APPVEYOR_SCHEDULED_BUILD -Or $env:SCHEDULED_BUILD -Or $env:APPVEYOR_REPO_TAG_NAME) `
     -And ($env:APPVEYOR_REPO_BRANCH -Match '^release/') `
     -And (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER)
 
