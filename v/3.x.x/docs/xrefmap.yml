@@ -18636,6 +18636,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotApi.TftMatchV1.Info.GameLength
   nameWithType: Info.GameLength
+- uid: Camille.RiotApi.TftMatchV1.Info.GameVariation
+  name: GameVariation
+  href: api/Camille.RiotApi.TftMatchV1.Info.html#Camille_RiotApi_TftMatchV1_Info_GameVariation
+  commentId: P:Camille.RiotApi.TftMatchV1.Info.GameVariation
+  fullName: Camille.RiotApi.TftMatchV1.Info.GameVariation
+  nameWithType: Info.GameVariation
+- uid: Camille.RiotApi.TftMatchV1.Info.GameVariation*
+  name: GameVariation
+  href: api/Camille.RiotApi.TftMatchV1.Info.html#Camille_RiotApi_TftMatchV1_Info_GameVariation_
+  commentId: Overload:Camille.RiotApi.TftMatchV1.Info.GameVariation
+  isSpec: "True"
+  fullName: Camille.RiotApi.TftMatchV1.Info.GameVariation
+  nameWithType: Info.GameVariation
 - uid: Camille.RiotApi.TftMatchV1.Info.GameVersion
   name: GameVersion
   href: api/Camille.RiotApi.TftMatchV1.Info.html#Camille_RiotApi_TftMatchV1_Info_GameVersion
