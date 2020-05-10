@@ -16,6 +16,8 @@ after_build:
 artifacts:
   - path: '**\Release\*.nupkg'
     name: release
+before_deploy: 
+  - ps: Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME/appveyor/Docs.ps1" | Invoke-Expression
 deploy:
   provider: NuGet
   api_key:
@@ -24,5 +26,3 @@ deploy:
   artifact: release
   on: 
     CAMI_DO_DEPLOY: true
-on_success:
-  - ps: Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME/appveyor/Docs.ps1" | Invoke-Expression
