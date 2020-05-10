@@ -21,7 +21,7 @@ If ($VERSION_TAG -Ne $env:APPVEYOR_REPO_TAG_NAME -Or -Not ($env:CAMI_VERSION -As
     $ver[2] = [int]$ver[2] + 1
     $ver = $ver -Join '.'
     # Append date for ordering, and include commit ID.
-    $date = "$(Invoke-Command { $TZ='UTC'; git show -s --format=%cd --date=short-local })"
+    $date = (Get-Date).ToUniversalTime().ToString("o").Substring(0, 10)
     $env:CAMI_VERSION = "$($ver)-nightly-$date-$(git rev-parse --short=10 HEAD)"
 }
 

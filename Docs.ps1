@@ -1,5 +1,4 @@
 $VERSION = $env:CAMI_VERSION
-$PUSH = $env:CAMI_DO_DEPLOY
 
 Remove-Item 'docs' -Recurse -Force -ErrorAction Ignore
 
@@ -61,14 +60,19 @@ $diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' | Conver
     Where-Object r -ne '-' |
     Measure-Object r,w -Sum).Sum
 
-If ($PUSH -Ne $true) {
-    Write-Output 'No "-Push", exiting.'
+If ($env:CAMI_DO_DEPLOY -Ne $true) {
+    Write-Output 'CAMI_DO_DEPLOY not set to true, exiting.'
 }
 ElseIf (-Not $diffs -Or ($diffs[0] -LE 20 -And $diffs[1] -LE 20)) {
     Write-Output 'No substantial changes, exiting.'
+    # Turn off NuGet deploy.
+    $env:CAMI_DO_DEPLOY = $false
 }
 Else {
     git commit -m "$MSG"
     git push -q
 }
 Pop-Location
+
+Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
+Write-Output "CAMI_VERSION=$env:CAMI_VERSION"
