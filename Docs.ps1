@@ -37,7 +37,7 @@ docfx metadata .\docfx_project\docfx.json
 # Change links to generated files.
 Get-ChildItem "docfx_project\api" -Filter '*.yml' | ForEach-Object {
     (Get-Content $_.FullName -raw) -replace '(?m)^(\s+)path:\s+(Camille\.[\w\.]+)\/gen\/(.*)\.cs\r?\n\s+branch:\s+\S+',
-        "`$1path: v\$NIGHTLY\_gen\`$2\`$3.cs`r`n`$1branch: gh-pages" | Out-File $_.FullName
+        "`$1path: v\$NIGHTLY\_gen\`$2\`$3.cs`r`n`$1branch: gh-pages" | Out-File -FilePath $_.FullName -Encoding 'UTF8'
 }
 $DEST = "docs\v\$NIGHTLY"
 # Build HTML.
@@ -47,7 +47,7 @@ Get-ChildItem -Directory -Filter 'Camille.*' | ForEach-Object {
     Remove-Item "$DEST\_gen\$($_.Name)" -Recurse -Force -ErrorAction Ignore
     Copy-Item -Path "$($_.Name)\gen" -Filter '*.cs' -Destination "$DEST\_gen\$($_.Name)" -Recurse -ErrorAction Ignore
 }
-$env:CAMI_SPEC_HASH | Out-File "$DEST\spechash.txt"
+$env:CAMI_SPEC_HASH | Out-File -FilePath "$DEST\spechash.txt" -Encoding 'ASCII'
 
 If ($IS_STABLE) {
     Remove-Item "docs\v\$VERSION" -Recurse -Force -ErrorAction Ignore
@@ -57,7 +57,8 @@ If ($IS_STABLE) {
 Push-Location 'docs'
 # Check if there are substantial changes.
 git add .
-$diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' | ConvertFrom-Csv -Delimiter `t -Header r,w,f |
+$diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' |
+    ConvertFrom-Csv -Delimiter `t -Header r,w,f |
     Where-Object r -ne '-' |
     Measure-Object r,w -Sum).Sum
 
