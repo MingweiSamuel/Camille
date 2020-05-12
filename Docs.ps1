@@ -15,6 +15,7 @@ $MSG = "Autogen Docs $VERSION
 Date: $((Get-Date).ToUniversalTime())
 Commit: $(git rev-parse HEAD)
 Stable: $IS_STABLE
+Spec Hash: $env:CAMI_SPEC_HASH
 "
 Write-Output $MSG
 
