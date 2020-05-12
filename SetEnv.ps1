@@ -25,5 +25,10 @@ If ($VERSION_TAG -Ne $env:APPVEYOR_REPO_TAG_NAME -Or -Not ($env:CAMI_VERSION -As
     $env:CAMI_VERSION = "$($ver)-nightly-$date-$(git rev-parse --short=10 HEAD)"
 }
 
+# Set CAMI_SPEC_HASH
+$env:CAMI_SPEC_HASH = (
+    Invoke-RestMethod -Uri 'http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.min.json').Info.Version
+
 Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
 Write-Output "CAMI_VERSION=$env:CAMI_VERSION"
+Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH"

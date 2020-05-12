@@ -47,6 +47,7 @@ Get-ChildItem -Directory -Filter 'Camille.*' | ForEach-Object {
     Remove-Item "$DEST\_gen\$($_.Name)" -Recurse -Force -ErrorAction Ignore
     Copy-Item -Path "$($_.Name)\gen" -Filter '*.cs' -Destination "$DEST\_gen\$($_.Name)" -Recurse -ErrorAction Ignore
 }
+$env:CAMI_SPEC_HASH | Out-File "$DEST\spechash.txt"
 
 If ($IS_STABLE) {
     Remove-Item "docs\v\$VERSION" -Recurse -Force -ErrorAction Ignore
@@ -76,3 +77,4 @@ Pop-Location
 
 Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
 Write-Output "CAMI_VERSION=$env:CAMI_VERSION"
+Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH"
