@@ -7,7 +7,7 @@ Remove-Item 'docs' -Recurse -Force -ErrorAction Ignore
 # Always update nightly version.
 # Only update stable version if this is a stable version.
 
-$IS_STABLE = ($VERSION -NotMatch 'nightly')
+$IS_STABLE = $VERSION -NotMatch 'nightly'
 $NIGHTLY = "$($VERSION.Substring(0, $VERSION.IndexOf('.'))).x.x"
 
 $MSG = "Autogen Docs $VERSION
@@ -16,7 +16,7 @@ Date: $((Get-Date).ToUniversalTime())
 Commit: $(git rev-parse HEAD)
 Stable: $IS_STABLE
 "
-Write-Output "$MSG"
+Write-Output $MSG
 
 # Configure git.
 git config --global credential.helper store
@@ -47,7 +47,8 @@ Get-ChildItem -Directory -Filter 'Camille.*' | ForEach-Object {
     Remove-Item "$DEST\_gen\$($_.Name)" -Recurse -Force -ErrorAction Ignore
     Copy-Item -Path "$($_.Name)\gen" -Filter '*.cs' -Destination "$DEST\_gen\$($_.Name)" -Recurse -ErrorAction Ignore
 }
-$env:CAMI_SPEC_HASH | Out-File -FilePath "$DEST\spechash.txt" -Encoding 'ASCII'
+$HASHFILE = "$DEST\spechash.txt"
+$env:CAMI_SPEC_HASH | Out-File -FilePath $HASHFILE -Encoding 'ASCII'
 
 If ($IS_STABLE) {
     Remove-Item "docs\v\$VERSION" -Recurse -Force -ErrorAction Ignore
@@ -56,22 +57,23 @@ If ($IS_STABLE) {
 
 Push-Location 'docs'
 # Check if there are substantial changes.
-git add .
-$diffs = (git diff --cached --numstat -- . ':(exclude)**/manifest.json' |
-    ConvertFrom-Csv -Delimiter `t -Header r,w,f |
-    Where-Object r -ne '-' |
-    Measure-Object r,w -Sum).Sum
+git diff --quiet -- $HASHFILE
+$UNCHANGED = 0 -Eq $LastExitCode
 
 If ($env:CAMI_DO_DEPLOY -Ne $true) {
     Write-Output 'CAMI_DO_DEPLOY not set to true, exiting.'
 }
-ElseIf (-Not $diffs -Or ($diffs[0] -LE 20 -And $diffs[1] -LE 20)) {
+ElseIf ($IS_STABLE) {
+    Write-Output "Releasing stable version. Nightly spec hash unchanged: $UNCHANGED."
+}
+ElseIf ($UNCHANGED) {
     Write-Output 'No substantial changes, exiting.'
     # Turn off NuGet deploy.
     $env:CAMI_DO_DEPLOY = $false
 }
 Else {
-    git commit -m "$MSG"
+    git add .
+    git commit -m $MSG
     git push -q
 }
 Pop-Location
