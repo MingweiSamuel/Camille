@@ -86,8 +86,8 @@ namespace Camille.{{= it.namespace }}
                 /* Convert MD #headers to <h#> tags. */
                 let descArr = operation.description
                     ? operation.description
-                        .replace(/(#+)\s*([^\\]+)\\n(.*?)([\\n$])/g,
-                            (m, g1, g2, g3, g4) => `<h${g1.length}>${g2}</h${g1.length}>\\n${g3}${g4}`)
+                        .replace(/(#+)\s*([^\n]+)\n(.+?)($)/gm,
+                            (m, g1, g2, g3, g4) => `<para /><h${g1.length + 2}>${g2}</h${g1.length + 2}>\n${g3}${g4}`)
                         .split('\n')
                     : [];
 
@@ -145,7 +145,7 @@ namespace Camille.{{= it.namespace }}
 {{? operation.externalDocs || descArr.length }}
         /// <summary>
 {{? descArr.length }}
-        /// {{= descArr.join('<para />        /// ') }}
+        /// {{= descArr.join('\r\n        /// ') }}
 {{?}}
 {{? operation.externalDocs }}
         /// {{= operation.externalDocs.description }}: <a href="{{= operation.externalDocs.url }}">{{= operation.externalDocs.url }}</a>
