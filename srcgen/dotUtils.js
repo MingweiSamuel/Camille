@@ -36,7 +36,7 @@ function normalizeArgName(name) {
 }
 
 function normalizePropName(propName, schemaName, value) {
-  var tokens = propName.split('_');
+  var tokens = propName.split(/[_-]/g);
   var name = tokens.map(capitalize).join('');
   if (name === schemaName)
     name += stringifyType(value);
@@ -67,9 +67,10 @@ function stringifyType(prop, endpoint = null) {
     case 'integer': return ('int32' === prop.format ? 'int' : 'long');
     case 'number': return prop.format;
     case 'array': return stringifyType(prop.items, endpoint) + '[]';
-    case 'object':
+    case 'object': {
       const keyType = prop['x-key'] ? stringifyType(prop['x-key'], endpoint) : 'string';
       return `IDictionary<${keyType}, ${stringifyType(prop.additionalProperties, endpoint)}>`;
+    }
     default: return prop.type || 'Dictionary<string, object>';
   }
 }
@@ -127,10 +128,11 @@ function formatAddQueryParam(param) {
     case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
           + `w => new KeyValuePair<string, string>(${k}, ${formatQueryParamStringify('w', prop.items)})))`;
     case 'object': throw 'unsupported';
-    default:
-      let expr = param.name + (param.required ? '' : '.Value');
+    default: {
+      let expr = param.name + ((param.required || 'string' === prop.type) ? '' : '.Value');
       return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
-        + `${formatQueryParamStringify(expr, prop)}))`;
+          + `${formatQueryParamStringify(expr, prop)}))`;
+    }
   }
 }
 
