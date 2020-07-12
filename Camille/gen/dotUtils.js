@@ -30,7 +30,7 @@ function normalizeArgName(name) {
 }
 
 function normalizePropName(propName, schemaName, value) {
-  var tokens = propName.split('_');
+  var tokens = propName.split(/[_-]/g);
   var name = tokens.map(capitalize).join('');
   if (name === schemaName)
     name += stringifyType(value);
@@ -80,10 +80,11 @@ function formatAddQueryParam(param) {
         case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
             + `w => new KeyValuePair<string, string>(${k}, w${formatQueryParamStringify(prop.items)})))`;
         case 'object': throw 'unsupported';
-        default:
-            let vnc = param.required ? '' : '.Value';
+        default: {
+            let vnc = (param.required || 'string' === prop.type) ? '' : '.Value';
             return `${nc}queryParams.Add(new KeyValuePair<string, string>(${k}, `
-            + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
+                + `${param.name}${vnc}${formatQueryParamStringify(prop.type)}))`;
+        }
     }
 }
 
