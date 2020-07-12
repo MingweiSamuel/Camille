@@ -58,7 +58,7 @@ If ($IS_STABLE) {
 
 Push-Location 'docs'
 # Check if there are substantial changes.
-git diff --quiet -- $HASHFILE
+git diff --quiet -- $(Resolve-Path -Relative ..\$HASHFILE)
 $UNCHANGED = 0 -Eq $LastExitCode
 
 If ($env:CAMI_DO_DEPLOY -Ne $true) {
