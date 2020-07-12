@@ -1891,18 +1891,36 @@ references:
   commentId: F:Camille.Enums.Region.AMERICAS
   fullName: Camille.Enums.Region.AMERICAS
   nameWithType: Region.AMERICAS
+- uid: Camille.Enums.Region.APAC
+  name: APAC
+  href: api/Camille.Enums.Region.html#Camille_Enums_Region_APAC
+  commentId: F:Camille.Enums.Region.APAC
+  fullName: Camille.Enums.Region.APAC
+  nameWithType: Region.APAC
 - uid: Camille.Enums.Region.ASIA
   name: ASIA
   href: api/Camille.Enums.Region.html#Camille_Enums_Region_ASIA
   commentId: F:Camille.Enums.Region.ASIA
   fullName: Camille.Enums.Region.ASIA
   nameWithType: Region.ASIA
+- uid: Camille.Enums.Region.BR
+  name: BR
+  href: api/Camille.Enums.Region.html#Camille_Enums_Region_BR
+  commentId: F:Camille.Enums.Region.BR
+  fullName: Camille.Enums.Region.BR
+  nameWithType: Region.BR
 - uid: Camille.Enums.Region.BR1
   name: BR1
   href: api/Camille.Enums.Region.html#Camille_Enums_Region_BR1
   commentId: F:Camille.Enums.Region.BR1
   fullName: Camille.Enums.Region.BR1
   nameWithType: Region.BR1
+- uid: Camille.Enums.Region.EU
+  name: EU
+  href: api/Camille.Enums.Region.html#Camille_Enums_Region_EU
+  commentId: F:Camille.Enums.Region.EU
+  fullName: Camille.Enums.Region.EU
+  nameWithType: Region.EU
 - uid: Camille.Enums.Region.EUN1
   name: EUN1
   href: api/Camille.Enums.Region.html#Camille_Enums_Region_EUN1
@@ -1957,6 +1975,18 @@ references:
   commentId: F:Camille.Enums.Region.LA2
   fullName: Camille.Enums.Region.LA2
   nameWithType: Region.LA2
+- uid: Camille.Enums.Region.LATAM
+  name: LATAM
+  href: api/Camille.Enums.Region.html#Camille_Enums_Region_LATAM
+  commentId: F:Camille.Enums.Region.LATAM
+  fullName: Camille.Enums.Region.LATAM
+  nameWithType: Region.LATAM
+- uid: Camille.Enums.Region.NA
+  name: NA
+  href: api/Camille.Enums.Region.html#Camille_Enums_Region_NA
+  commentId: F:Camille.Enums.Region.NA
+  fullName: Camille.Enums.Region.NA
+  nameWithType: Region.NA
 - uid: Camille.Enums.Region.NA1
   name: NA1
   href: api/Camille.Enums.Region.html#Camille_Enums_Region_NA1
