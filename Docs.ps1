@@ -72,10 +72,11 @@ ElseIf ($UNCHANGED) {
     # Turn off NuGet deploy.
     $env:CAMI_DO_DEPLOY = $false
 }
-Else {
+
+If ($env:CAMI_DO_DEPLOY) {
     git add .
     git commit -m $MSG
-    git push -q
+    git push --quiet
 }
 Pop-Location
 
