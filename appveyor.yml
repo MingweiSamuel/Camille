@@ -23,5 +23,5 @@ deploy:
     secure: Oas6wmFju8XW3kIvsrfToZ9UPwgvBSQUL6BCMCLXRuNohcUw51EiYeIo7vSS44FD
   skip_symbols: false
   artifact: release
-  on: 
+  on:
     CAMI_DO_DEPLOY: true

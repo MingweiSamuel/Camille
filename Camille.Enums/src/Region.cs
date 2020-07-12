@@ -17,7 +17,7 @@
         /// <summary>North America.</summary>
         NA1,
 
-        /// <summary>Korea.</summary>
+        /// <summary>Korea. Valorant's Korea platform</summary>
         KR,
 
         /// <summary>North Latin America.</summary>
@@ -38,8 +38,27 @@
         /// <summary>Japan.</summary>
         JP1,
 
-        /// <summary>Public beta environment. Only functional in certain endpoints.</summary>
+        /// <summary>Public beta environment. Only functional in certain endpoints. Valorant's PBE platform.</summary>
         PBE1,
+
+
+
+        /// <summary>Valorant's Asian Pacific platform.</summary>
+        APAC,
+
+        /// <summary>Valorant's Brazil platform.</summary>
+        BR,
+
+        /// <summary>Valorant's Europe platform.</summary>
+        EU,
+
+        /// <summary>Valorant's Latin America platform.</summary>
+        LATAM,
+
+        /// <summary>Valorant's North America platform.</summary>
+        NA,
+
+
 
         /// <summary>Garena publisher - South east asia regions. Not functional in endpoints.</summary>
         GARENA,
@@ -50,6 +69,8 @@
         /// <summary>Global.</summary>
         global,
 
+
+
         /// <summary>Regional proxy for Americas.</summary>
         AMERICAS,
 
@@ -58,6 +79,8 @@
 
         /// <summary>Regional proxy for Asia.</summary>
         ASIA,
+
+
 
         /// <summary>Tournament Realm 1.</summary>
         TRLH1,
