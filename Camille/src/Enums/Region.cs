@@ -75,6 +75,23 @@ namespace MingweiSamuel.Camille.Enums
         public static readonly Region Global = Register("GLOBAL", "global");
         #endregion
 
+        #region valorant regions
+        /// <summary>Valorant Asian Pacific platform.</summary>
+        public static readonly Region VAL_APAC = Register("APAC", "APAC");
+        /// <summary>Valorant Brazil platform.</summary>
+        public static readonly Region VAL_BR = Register("BR", "BR");
+        /// <summary>Valorant Europe platform.</summary>
+        public static readonly Region VAL_EU = Register("EU", "EU");
+        /// <summary>Valorant Korea platform.</summary>
+        public static readonly Region VAL_KR = Register("KR", "KR");
+        /// <summary>Valorant Latin America platform.</summary>
+        public static readonly Region VAL_LATAM = Register("LATAM", "LATAM");
+        /// <summary>Valorant North America platform.</summary>
+        public static readonly Region VAL_NA = Register("NA", "NA");
+        /// <summary>Valorant Public Beta Environment platform.</summary>
+        public static readonly Region VAL_PBE = Register("PBE", "PBE1");
+        #endregion
+
         #region regional proxies
         /// <summary>Regional proxy for Americas.</summary>
         public static readonly Region Americas = Register("AMERICAS", "AMERICAS");
@@ -82,6 +99,8 @@ namespace MingweiSamuel.Camille.Enums
         public static readonly Region Europe = Register("EUROPE", "EUROPE");
         /// <summary>Regional proxy for Asia.</summary>
         public static readonly Region Asia = Register("ASIA", "ASIA");
+        /// <summary>Regional proxy for South-East Asia, for Legends of Runeterra.</summary>
+        public static readonly Region Sea = Register("SEA", "SEA");
         #endregion
 
         #region tournament realms
