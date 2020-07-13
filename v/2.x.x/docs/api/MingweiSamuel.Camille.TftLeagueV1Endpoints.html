@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TftLeagueV1Endpoints
    ">
-    <meta name="generator" content="docfx 2.52.0.0">
+    <meta name="generator" content="docfx 2.56.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -484,7 +484,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(Region region, string tier, string division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(Region region, string division, string tier, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,13 +504,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tier</span></td>
+        <td><span class="parametername">division</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">division</span></td>
+        <td><span class="parametername">tier</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
@@ -558,7 +558,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(Region region, string tier, string division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(Region region, string division, string tier, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -578,13 +578,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tier</span></td>
+        <td><span class="parametername">division</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">division</span></td>
+        <td><span class="parametername">tier</span></td>
         <td><p>(required)</p>
 </td>
       </tr>

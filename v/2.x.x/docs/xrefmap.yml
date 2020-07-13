@@ -213,15 +213,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
   nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
-- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetChampionMastery(Region, Int64, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMastery_MingweiSamuel_Camille_Enums_Region_System_Int64_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChampionMastery(Region, Int64, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery(Region, Int64, String, Nullable<CancellationToken>)
-  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMastery(Region, Int64, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMastery(Region, String, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMastery_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMastery(Region, String, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery(Region, String, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMastery(Region, String, Int64, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery*
   name: GetChampionMastery
   href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMastery_
@@ -229,15 +229,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery
   nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery
-- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetChampionMasteryAsync(Region, Int64, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_MingweiSamuel_Camille_Enums_Region_System_Int64_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChampionMasteryAsync(Region, Int64, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(Region, Int64, String, Nullable<CancellationToken>)
-  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(Region, Int64, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryAsync(Region, String, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryAsync(Region, String, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(Region, String, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(Region, String, Int64, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMasteryAsync*
   name: GetChampionMasteryAsync
   href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_
@@ -9642,15 +9642,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchAsync
   nameWithType: MatchV4Endpoints.GetMatchAsync
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchByTournamentCode(Region, String, Int64, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCode_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchByTournamentCode(Region, String, Int64, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MatchV4Endpoints.GetMatchByTournamentCode(Region, String, Int64, Nullable<CancellationToken>)
-  nameWithType.vb: MatchV4Endpoints.GetMatchByTournamentCode(Region, String, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchByTournamentCode(Region, Int64, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCode_MingweiSamuel_Camille_Enums_Region_System_Int64_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchByTournamentCode(Region, Int64, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV4Endpoints.GetMatchByTournamentCode(Region, Int64, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV4Endpoints.GetMatchByTournamentCode(Region, Int64, String, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode*
   name: GetMatchByTournamentCode
   href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCode_
@@ -9658,15 +9658,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCode
   nameWithType: MatchV4Endpoints.GetMatchByTournamentCode
-- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchByTournamentCodeAsync(Region, String, Int64, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCodeAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchByTournamentCodeAsync(Region, String, Int64, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MatchV4Endpoints.GetMatchByTournamentCodeAsync(Region, String, Int64, Nullable<CancellationToken>)
-  nameWithType.vb: MatchV4Endpoints.GetMatchByTournamentCodeAsync(Region, String, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchByTournamentCodeAsync(Region, Int64, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCodeAsync_MingweiSamuel_Camille_Enums_Region_System_Int64_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchByTournamentCodeAsync(Region, Int64, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV4Endpoints.GetMatchByTournamentCodeAsync(Region, Int64, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV4Endpoints.GetMatchByTournamentCodeAsync(Region, Int64, String, Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchByTournamentCodeAsync*
   name: GetMatchByTournamentCodeAsync
   href: api/MingweiSamuel.Camille.MatchV4Endpoints.html#MingweiSamuel_Camille_MatchV4Endpoints_GetMatchByTournamentCodeAsync_
