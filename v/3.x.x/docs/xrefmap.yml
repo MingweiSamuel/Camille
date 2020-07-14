@@ -8767,6 +8767,282 @@ references:
   commentId: N:Camille.RiotApi
   fullName: Camille.RiotApi
   nameWithType: Camille.RiotApi
+- uid: Camille.RiotApi.AccountV1
+  name: Camille.RiotApi.AccountV1
+  href: api/Camille.RiotApi.AccountV1.html
+  commentId: N:Camille.RiotApi.AccountV1
+  fullName: Camille.RiotApi.AccountV1
+  nameWithType: Camille.RiotApi.AccountV1
+- uid: Camille.RiotApi.AccountV1.Account
+  name: Account
+  href: api/Camille.RiotApi.AccountV1.Account.html
+  commentId: T:Camille.RiotApi.AccountV1.Account
+  fullName: Camille.RiotApi.AccountV1.Account
+  nameWithType: Account
+- uid: Camille.RiotApi.AccountV1.Account.#ctor
+  name: Account()
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account__ctor
+  commentId: M:Camille.RiotApi.AccountV1.Account.#ctor
+  fullName: Camille.RiotApi.AccountV1.Account.Account()
+  nameWithType: Account.Account()
+- uid: Camille.RiotApi.AccountV1.Account.#ctor*
+  name: Account
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account__ctor_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account.Account
+  nameWithType: Account.Account
+- uid: Camille.RiotApi.AccountV1.Account._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account__AdditionalProperties
+  commentId: P:Camille.RiotApi.AccountV1.Account._AdditionalProperties
+  fullName: Camille.RiotApi.AccountV1.Account._AdditionalProperties
+  nameWithType: Account._AdditionalProperties
+- uid: Camille.RiotApi.AccountV1.Account._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account__AdditionalProperties_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account._AdditionalProperties
+  nameWithType: Account._AdditionalProperties
+- uid: Camille.RiotApi.AccountV1.Account.GameName
+  name: GameName
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_GameName
+  commentId: P:Camille.RiotApi.AccountV1.Account.GameName
+  fullName: Camille.RiotApi.AccountV1.Account.GameName
+  nameWithType: Account.GameName
+- uid: Camille.RiotApi.AccountV1.Account.GameName*
+  name: GameName
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_GameName_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account.GameName
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account.GameName
+  nameWithType: Account.GameName
+- uid: Camille.RiotApi.AccountV1.Account.Puuid
+  name: Puuid
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_Puuid
+  commentId: P:Camille.RiotApi.AccountV1.Account.Puuid
+  fullName: Camille.RiotApi.AccountV1.Account.Puuid
+  nameWithType: Account.Puuid
+- uid: Camille.RiotApi.AccountV1.Account.Puuid*
+  name: Puuid
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_Puuid_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account.Puuid
+  nameWithType: Account.Puuid
+- uid: Camille.RiotApi.AccountV1.Account.TagLine
+  name: TagLine
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_TagLine
+  commentId: P:Camille.RiotApi.AccountV1.Account.TagLine
+  fullName: Camille.RiotApi.AccountV1.Account.TagLine
+  nameWithType: Account.TagLine
+- uid: Camille.RiotApi.AccountV1.Account.TagLine*
+  name: TagLine
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_TagLine_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account.TagLine
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account.TagLine
+  nameWithType: Account.TagLine
+- uid: Camille.RiotApi.AccountV1.Account.ToString
+  name: ToString()
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_ToString
+  commentId: M:Camille.RiotApi.AccountV1.Account.ToString
+  fullName: Camille.RiotApi.AccountV1.Account.ToString()
+  nameWithType: Account.ToString()
+- uid: Camille.RiotApi.AccountV1.Account.ToString*
+  name: ToString
+  href: api/Camille.RiotApi.AccountV1.Account.html#Camille_RiotApi_AccountV1_Account_ToString_
+  commentId: Overload:Camille.RiotApi.AccountV1.Account.ToString
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.Account.ToString
+  nameWithType: Account.ToString
+- uid: Camille.RiotApi.AccountV1.ActiveShard
+  name: ActiveShard
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html
+  commentId: T:Camille.RiotApi.AccountV1.ActiveShard
+  fullName: Camille.RiotApi.AccountV1.ActiveShard
+  nameWithType: ActiveShard
+- uid: Camille.RiotApi.AccountV1.ActiveShard.#ctor
+  name: ActiveShard()
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard__ctor
+  commentId: M:Camille.RiotApi.AccountV1.ActiveShard.#ctor
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ActiveShard()
+  nameWithType: ActiveShard.ActiveShard()
+- uid: Camille.RiotApi.AccountV1.ActiveShard.#ctor*
+  name: ActiveShard
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard__ctor_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ActiveShard
+  nameWithType: ActiveShard.ActiveShard
+- uid: Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard__AdditionalProperties
+  commentId: P:Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties
+  fullName: Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties
+  nameWithType: ActiveShard._AdditionalProperties
+- uid: Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard__AdditionalProperties_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard._AdditionalProperties
+  nameWithType: ActiveShard._AdditionalProperties
+- uid: Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring
+  name: ActiveShardstring
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_ActiveShardstring
+  commentId: P:Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring
+  nameWithType: ActiveShard.ActiveShardstring
+- uid: Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring*
+  name: ActiveShardstring
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_ActiveShardstring_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ActiveShardstring
+  nameWithType: ActiveShard.ActiveShardstring
+- uid: Camille.RiotApi.AccountV1.ActiveShard.Game
+  name: Game
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_Game
+  commentId: P:Camille.RiotApi.AccountV1.ActiveShard.Game
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.Game
+  nameWithType: ActiveShard.Game
+- uid: Camille.RiotApi.AccountV1.ActiveShard.Game*
+  name: Game
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_Game_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard.Game
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.Game
+  nameWithType: ActiveShard.Game
+- uid: Camille.RiotApi.AccountV1.ActiveShard.Puuid
+  name: Puuid
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_Puuid
+  commentId: P:Camille.RiotApi.AccountV1.ActiveShard.Puuid
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.Puuid
+  nameWithType: ActiveShard.Puuid
+- uid: Camille.RiotApi.AccountV1.ActiveShard.Puuid*
+  name: Puuid
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_Puuid_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.Puuid
+  nameWithType: ActiveShard.Puuid
+- uid: Camille.RiotApi.AccountV1.ActiveShard.ToString
+  name: ToString()
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_ToString
+  commentId: M:Camille.RiotApi.AccountV1.ActiveShard.ToString
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ToString()
+  nameWithType: ActiveShard.ToString()
+- uid: Camille.RiotApi.AccountV1.ActiveShard.ToString*
+  name: ToString
+  href: api/Camille.RiotApi.AccountV1.ActiveShard.html#Camille_RiotApi_AccountV1_ActiveShard_ToString_
+  commentId: Overload:Camille.RiotApi.AccountV1.ActiveShard.ToString
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1.ActiveShard.ToString
+  nameWithType: ActiveShard.ToString
+- uid: Camille.RiotApi.AccountV1Endpoints
+  name: AccountV1Endpoints
+  href: api/Camille.RiotApi.AccountV1Endpoints.html
+  commentId: T:Camille.RiotApi.AccountV1Endpoints
+  fullName: Camille.RiotApi.AccountV1Endpoints
+  nameWithType: AccountV1Endpoints
+- uid: Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveShard(Region, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetActiveShard_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveShard(Region, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveShard(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveShard(Region, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetActiveShard*
+  name: GetActiveShard
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetActiveShard_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetActiveShard
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetActiveShard
+  nameWithType: AccountV1Endpoints.GetActiveShard
+- uid: Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveShardAsync(Region, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveShardAsync(Region, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveShardAsync(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveShardAsync(Region, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync*
+  name: GetActiveShardAsync
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync
+  nameWithType: AccountV1Endpoints.GetActiveShardAsync
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByPuuid(Region, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByPuuid_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByPuuid(Region, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByPuuid(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByPuuid(Region, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByPuuid*
+  name: GetByPuuid
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByPuuid_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetByPuuid
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByPuuid
+  nameWithType: AccountV1Endpoints.GetByPuuid
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByPuuidAsync(Region, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByPuuidAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByPuuidAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByPuuidAsync(Region, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync*
+  name: GetByPuuidAsync
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync
+  nameWithType: AccountV1Endpoints.GetByPuuidAsync
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRiotId(Region, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByRiotId_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRiotId(Region, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByRiotId(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByRiotId(Region, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByRiotId*
+  name: GetByRiotId
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByRiotId_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetByRiotId
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByRiotId
+  nameWithType: AccountV1Endpoints.GetByRiotId
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRiotIdAsync(Region, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRiotIdAsync(Region, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByRiotIdAsync(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByRiotIdAsync(Region, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync*
+  name: GetByRiotIdAsync
+  href: api/Camille.RiotApi.AccountV1Endpoints.html#Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_
+  commentId: Overload:Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync
+  isSpec: "True"
+  fullName: Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync
+  nameWithType: AccountV1Endpoints.GetByRiotIdAsync
 - uid: Camille.RiotApi.ChampionMasteryV4
   name: Camille.RiotApi.ChampionMasteryV4
   href: api/Camille.RiotApi.ChampionMasteryV4.html
@@ -16096,6 +16372,19 @@ references:
   commentId: T:Camille.RiotApi.RiotApiExtensions
   fullName: Camille.RiotApi.RiotApiExtensions
   nameWithType: RiotApiExtensions
+- uid: Camille.RiotApi.RiotApiExtensions.AccountV1(Camille.RiotApi.IRiotApi)
+  name: AccountV1(IRiotApi)
+  href: api/Camille.RiotApi.RiotApiExtensions.html#Camille_RiotApi_RiotApiExtensions_AccountV1_Camille_RiotApi_IRiotApi_
+  commentId: M:Camille.RiotApi.RiotApiExtensions.AccountV1(Camille.RiotApi.IRiotApi)
+  fullName: Camille.RiotApi.RiotApiExtensions.AccountV1(Camille.RiotApi.IRiotApi)
+  nameWithType: RiotApiExtensions.AccountV1(IRiotApi)
+- uid: Camille.RiotApi.RiotApiExtensions.AccountV1*
+  name: AccountV1
+  href: api/Camille.RiotApi.RiotApiExtensions.html#Camille_RiotApi_RiotApiExtensions_AccountV1_
+  commentId: Overload:Camille.RiotApi.RiotApiExtensions.AccountV1
+  isSpec: "True"
+  fullName: Camille.RiotApi.RiotApiExtensions.AccountV1
+  nameWithType: RiotApiExtensions.AccountV1
 - uid: Camille.RiotApi.RiotApiExtensions.ChampionMasteryV4(Camille.RiotApi.IRiotApi)
   name: ChampionMasteryV4(IRiotApi)
   href: api/Camille.RiotApi.RiotApiExtensions.html#Camille_RiotApi_RiotApiExtensions_ChampionMasteryV4_Camille_RiotApi_IRiotApi_
