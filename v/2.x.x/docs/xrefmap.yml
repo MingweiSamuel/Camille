@@ -7,6 +7,282 @@ references:
   commentId: N:MingweiSamuel.Camille
   fullName: MingweiSamuel.Camille
   nameWithType: MingweiSamuel.Camille
+- uid: MingweiSamuel.Camille.AccountV1
+  name: MingweiSamuel.Camille.AccountV1
+  href: api/MingweiSamuel.Camille.AccountV1.html
+  commentId: N:MingweiSamuel.Camille.AccountV1
+  fullName: MingweiSamuel.Camille.AccountV1
+  nameWithType: MingweiSamuel.Camille.AccountV1
+- uid: MingweiSamuel.Camille.AccountV1.Account
+  name: Account
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html
+  commentId: T:MingweiSamuel.Camille.AccountV1.Account
+  fullName: MingweiSamuel.Camille.AccountV1.Account
+  nameWithType: Account
+- uid: MingweiSamuel.Camille.AccountV1.Account.#ctor
+  name: Account()
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account__ctor
+  commentId: M:MingweiSamuel.Camille.AccountV1.Account.#ctor
+  fullName: MingweiSamuel.Camille.AccountV1.Account.Account()
+  nameWithType: Account.Account()
+- uid: MingweiSamuel.Camille.AccountV1.Account.#ctor*
+  name: Account
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account__ctor_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account.Account
+  nameWithType: Account.Account
+- uid: MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties
+  fullName: MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties
+  nameWithType: Account._AdditionalProperties
+- uid: MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account._AdditionalProperties
+  nameWithType: Account._AdditionalProperties
+- uid: MingweiSamuel.Camille.AccountV1.Account.GameName
+  name: GameName
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_GameName
+  commentId: P:MingweiSamuel.Camille.AccountV1.Account.GameName
+  fullName: MingweiSamuel.Camille.AccountV1.Account.GameName
+  nameWithType: Account.GameName
+- uid: MingweiSamuel.Camille.AccountV1.Account.GameName*
+  name: GameName
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_GameName_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account.GameName
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account.GameName
+  nameWithType: Account.GameName
+- uid: MingweiSamuel.Camille.AccountV1.Account.Puuid
+  name: Puuid
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_Puuid
+  commentId: P:MingweiSamuel.Camille.AccountV1.Account.Puuid
+  fullName: MingweiSamuel.Camille.AccountV1.Account.Puuid
+  nameWithType: Account.Puuid
+- uid: MingweiSamuel.Camille.AccountV1.Account.Puuid*
+  name: Puuid
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_Puuid_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account.Puuid
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account.Puuid
+  nameWithType: Account.Puuid
+- uid: MingweiSamuel.Camille.AccountV1.Account.TagLine
+  name: TagLine
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_TagLine
+  commentId: P:MingweiSamuel.Camille.AccountV1.Account.TagLine
+  fullName: MingweiSamuel.Camille.AccountV1.Account.TagLine
+  nameWithType: Account.TagLine
+- uid: MingweiSamuel.Camille.AccountV1.Account.TagLine*
+  name: TagLine
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_TagLine_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account.TagLine
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account.TagLine
+  nameWithType: Account.TagLine
+- uid: MingweiSamuel.Camille.AccountV1.Account.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_ToString
+  commentId: M:MingweiSamuel.Camille.AccountV1.Account.ToString
+  fullName: MingweiSamuel.Camille.AccountV1.Account.ToString()
+  nameWithType: Account.ToString()
+- uid: MingweiSamuel.Camille.AccountV1.Account.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.AccountV1.Account.html#MingweiSamuel_Camille_AccountV1_Account_ToString_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.Account.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.Account.ToString
+  nameWithType: Account.ToString
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard
+  name: ActiveShard
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html
+  commentId: T:MingweiSamuel.Camille.AccountV1.ActiveShard
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard
+  nameWithType: ActiveShard
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.#ctor
+  name: ActiveShard()
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard__ctor
+  commentId: M:MingweiSamuel.Camille.AccountV1.ActiveShard.#ctor
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShard()
+  nameWithType: ActiveShard.ActiveShard()
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.#ctor*
+  name: ActiveShard
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard__ctor_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShard
+  nameWithType: ActiveShard.ActiveShard
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties
+  nameWithType: ActiveShard._AdditionalProperties
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard._AdditionalProperties
+  nameWithType: ActiveShard._AdditionalProperties
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring
+  name: ActiveShardstring
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_ActiveShardstring
+  commentId: P:MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring
+  nameWithType: ActiveShard.ActiveShardstring
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring*
+  name: ActiveShardstring
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_ActiveShardstring_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ActiveShardstring
+  nameWithType: ActiveShard.ActiveShardstring
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.Game
+  name: Game
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_Game
+  commentId: P:MingweiSamuel.Camille.AccountV1.ActiveShard.Game
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.Game
+  nameWithType: ActiveShard.Game
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.Game*
+  name: Game
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_Game_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard.Game
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.Game
+  nameWithType: ActiveShard.Game
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid
+  name: Puuid
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_Puuid
+  commentId: P:MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid
+  nameWithType: ActiveShard.Puuid
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid*
+  name: Puuid
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_Puuid_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.Puuid
+  nameWithType: ActiveShard.Puuid
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_ToString
+  commentId: M:MingweiSamuel.Camille.AccountV1.ActiveShard.ToString
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ToString()
+  nameWithType: ActiveShard.ToString()
+- uid: MingweiSamuel.Camille.AccountV1.ActiveShard.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.AccountV1.ActiveShard.html#MingweiSamuel_Camille_AccountV1_ActiveShard_ToString_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1.ActiveShard.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1.ActiveShard.ToString
+  nameWithType: ActiveShard.ToString
+- uid: MingweiSamuel.Camille.AccountV1Endpoints
+  name: AccountV1Endpoints
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html
+  commentId: T:MingweiSamuel.Camille.AccountV1Endpoints
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints
+  nameWithType: AccountV1Endpoints
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveShard(Region, String, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetActiveShard_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveShard(Region, String, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveShard(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveShard(Region, String, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard*
+  name: GetActiveShard
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetActiveShard_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShard
+  nameWithType: AccountV1Endpoints.GetActiveShard
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveShardAsync(Region, String, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetActiveShardAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveShardAsync(Region, String, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveShardAsync(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveShardAsync(Region, String, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync*
+  name: GetActiveShardAsync
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetActiveShardAsync_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetActiveShardAsync
+  nameWithType: AccountV1Endpoints.GetActiveShardAsync
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByPuuid(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByPuuid_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByPuuid(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByPuuid(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByPuuid(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid*
+  name: GetByPuuid
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByPuuid_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuid
+  nameWithType: AccountV1Endpoints.GetByPuuid
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByPuuidAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByPuuidAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByPuuidAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByPuuidAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByPuuidAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync*
+  name: GetByPuuidAsync
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByPuuidAsync_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByPuuidAsync
+  nameWithType: AccountV1Endpoints.GetByPuuidAsync
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRiotId(Region, String, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByRiotId_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRiotId(Region, String, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByRiotId(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByRiotId(Region, String, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId*
+  name: GetByRiotId
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByRiotId_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotId
+  nameWithType: AccountV1Endpoints.GetByRiotId
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRiotIdAsync(Region, String, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByRiotIdAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRiotIdAsync(Region, String, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetByRiotIdAsync(Region, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetByRiotIdAsync(Region, String, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync*
+  name: GetByRiotIdAsync
+  href: api/MingweiSamuel.Camille.AccountV1Endpoints.html#MingweiSamuel_Camille_AccountV1Endpoints_GetByRiotIdAsync_
+  commentId: Overload:MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.AccountV1Endpoints.GetByRiotIdAsync
+  nameWithType: AccountV1Endpoints.GetByRiotIdAsync
 - uid: MingweiSamuel.Camille.ChampionMasteryV4
   name: MingweiSamuel.Camille.ChampionMasteryV4
   href: api/MingweiSamuel.Camille.ChampionMasteryV4.html
@@ -9776,6 +10052,12 @@ references:
   commentId: T:MingweiSamuel.Camille.RiotApi
   fullName: MingweiSamuel.Camille.RiotApi
   nameWithType: RiotApi
+- uid: MingweiSamuel.Camille.RiotApi.AccountV1
+  name: AccountV1
+  href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_AccountV1
+  commentId: F:MingweiSamuel.Camille.RiotApi.AccountV1
+  fullName: MingweiSamuel.Camille.RiotApi.AccountV1
+  nameWithType: RiotApi.AccountV1
 - uid: MingweiSamuel.Camille.RiotApi.ChampionMasteryV4
   name: ChampionMasteryV4
   href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_ChampionMasteryV4
