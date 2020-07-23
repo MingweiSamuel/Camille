@@ -123,13 +123,13 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#cla
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummoner_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummoner(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummoner_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummoner(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L255">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummoner_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummoner*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummoner_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummoner(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummoner(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummoner_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummoner(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummoner(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get players by summoner ID.</p>
 <p><h4>Implementation Notes</h4>
 This endpoint returns a list of active Clash players for a given summoner ID. If a summoner registers for multiple tournaments at the same time (e.g., Saturday and Sunday) then both registrations would appear in this list.
@@ -138,7 +138,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Player[] GetPlayersBySummoner(Region region, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Player[] GetPlayersBySummoner(PlatformRoute route, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,9 +151,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -187,13 +187,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummonerAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummonerAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummonerAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummonerAsync(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L270">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummonerAsync_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummonerAsync*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummonerAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummonerAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummonerAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetPlayersBySummonerAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetPlayersBySummonerAsync(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummonerAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get players by summoner ID.</p>
 <p><h4>Implementation Notes</h4>
 This endpoint returns a list of active Clash players for a given summoner ID. If a summoner registers for multiple tournaments at the same time (e.g., Saturday and Sunday) then both registrations would appear in this list.
@@ -202,7 +202,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Player[]&gt; GetPlayersBySummonerAsync(Region region, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Player[]&gt; GetPlayersBySummonerAsync(PlatformRoute route, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,9 +215,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -251,20 +251,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTeamById_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTeamById(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTeamById_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTeamById(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L283">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTeamById_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamById*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTeamById_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamById(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamById(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTeamById_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamById(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamById(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get team by ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTeamById">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTeamById</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Team GetTeamById(Region region, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Team GetTeamById(PlatformRoute route, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -277,9 +277,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -313,20 +313,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTeamByIdAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTeamByIdAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTeamByIdAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTeamByIdAsync(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L296">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTeamByIdAsync_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamByIdAsync*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTeamByIdAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamByIdAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamByIdAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTeamByIdAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTeamByIdAsync(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamByIdAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get team by ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTeamById">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTeamById</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Team&gt; GetTeamByIdAsync(Region region, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Team&gt; GetTeamByIdAsync(PlatformRoute route, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -339,9 +339,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -375,20 +375,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentById_Camille_Enums_Region_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentById(Camille.Enums.Region%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentById_Camille_Enums_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentById(Camille.Enums.PlatformRoute%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L359">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournamentById_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentById*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentById_Camille_Enums_Region_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentById(Camille.Enums.Region,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentById(Region, Int32, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentById_Camille_Enums_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentById(Camille.Enums.PlatformRoute,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentById(PlatformRoute, Int32, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get tournament by ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentById">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentById</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tournament GetTournamentById(Region region, int tournamentId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Tournament GetTournamentById(PlatformRoute route, int tournamentId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,9 +401,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -437,20 +437,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByIdAsync_Camille_Enums_Region_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByIdAsync(Camille.Enums.Region%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByIdAsync_Camille_Enums_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByIdAsync(Camille.Enums.PlatformRoute%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L372">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByIdAsync_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByIdAsync*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByIdAsync_Camille_Enums_Region_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByIdAsync(Camille.Enums.Region,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentByIdAsync(Region, Int32, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByIdAsync_Camille_Enums_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByIdAsync(Camille.Enums.PlatformRoute,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentByIdAsync(PlatformRoute, Int32, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get tournament by ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentById">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentById</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Tournament&gt; GetTournamentByIdAsync(Region region, int tournamentId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Tournament&gt; GetTournamentByIdAsync(PlatformRoute route, int tournamentId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -463,9 +463,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -499,20 +499,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeam_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeam(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeam_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeam(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L333">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeam_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeam*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeam_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeam(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeam(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeam_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeam(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeam(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get tournament by team ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentByTeam">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentByTeam</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tournament GetTournamentByTeam(Region region, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Tournament GetTournamentByTeam(PlatformRoute route, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -525,9 +525,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -561,20 +561,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeamAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeamAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeamAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeamAsync(Camille.Enums.PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L346">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeamAsync_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeamAsync*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeamAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeamAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeamAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentByTeamAsync_Camille_Enums_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentByTeamAsync(Camille.Enums.PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeamAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get tournament by team ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentByTeam">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournamentByTeam</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Tournament&gt; GetTournamentByTeamAsync(Region region, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Tournament&gt; GetTournamentByTeamAsync(PlatformRoute route, string teamId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -587,9 +587,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -623,20 +623,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournaments_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournaments(Camille.Enums.Region%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournaments_Camille_Enums_PlatformRoute_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournaments(Camille.Enums.PlatformRoute%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L308">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournaments_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournaments*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournaments_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournaments(Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})">GetTournaments(Region, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournaments_Camille_Enums_PlatformRoute_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournaments(Camille.Enums.PlatformRoute,System.Nullable{System.Threading.CancellationToken})">GetTournaments(PlatformRoute, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all active or upcoming tournaments.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournaments">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournaments</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tournament[] GetTournaments(Region region, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Tournament[] GetTournaments(PlatformRoute route, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -649,9 +649,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -679,20 +679,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentsAsync_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentsAsync(Camille.Enums.Region%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_ClashV1Endpoints_GetTournamentsAsync_Camille_Enums_PlatformRoute_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.ClashV1Endpoints.GetTournamentsAsync(Camille.Enums.PlatformRoute%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L320">View Source</a>
   </span>
   <a id="Camille_RiotApi_ClashV1Endpoints_GetTournamentsAsync_" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentsAsync*"></a>
-  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentsAsync_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentsAsync(Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})">GetTournamentsAsync(Region, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_ClashV1Endpoints_GetTournamentsAsync_Camille_Enums_PlatformRoute_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.ClashV1Endpoints.GetTournamentsAsync(Camille.Enums.PlatformRoute,System.Nullable{System.Threading.CancellationToken})">GetTournamentsAsync(PlatformRoute, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all active or upcoming tournaments.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournaments">https://developer.riotgames.com/api-methods/#clash-v1/GET_getTournaments</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Tournament[]&gt; GetTournamentsAsync(Region region, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Tournament[]&gt; GetTournamentsAsync(PlatformRoute route, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -705,9 +705,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>

@@ -123,20 +123,20 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#lea
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntries_Camille_Enums_Region_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntries(Camille.Enums.Region%2CCamille.Enums.QueueType%2CCamille.Enums.Tier%2CCamille.Enums.Division%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntries_Camille_Enums_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntries(Camille.Enums.PlatformRoute%2CCamille.Enums.QueueType%2CCamille.Enums.Tier%2CCamille.Enums.Division%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L398">View Source</a>
   </span>
   <a id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntries_" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntries*"></a>
-  <h4 id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntries_Camille_Enums_Region_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntries(Camille.Enums.Region,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntries(Region, QueueType, Tier, Division, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntries_Camille_Enums_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntries(Camille.Enums.PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the league entries.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries">https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(Region region, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,9 +149,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -203,20 +203,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntriesAsync_Camille_Enums_Region_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntriesAsync(Camille.Enums.Region%2CCamille.Enums.QueueType%2CCamille.Enums.Tier%2CCamille.Enums.Division%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntriesAsync_Camille_Enums_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntriesAsync(Camille.Enums.PlatformRoute%2CCamille.Enums.QueueType%2CCamille.Enums.Tier%2CCamille.Enums.Division%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L414">View Source</a>
   </span>
   <a id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntriesAsync_" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntriesAsync*"></a>
-  <h4 id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntriesAsync_Camille_Enums_Region_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntriesAsync(Camille.Enums.Region,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntriesAsync(Region, QueueType, Tier, Division, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_LeagueExpV4Endpoints_GetLeagueEntriesAsync_Camille_Enums_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.LeagueExpV4Endpoints.GetLeagueEntriesAsync(Camille.Enums.PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get all the league entries.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries">https://developer.riotgames.com/api-methods/#league-exp-v4/GET_getLeagueEntries</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(Region region, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -229,9 +229,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.PlatformRoute.html">PlatformRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>

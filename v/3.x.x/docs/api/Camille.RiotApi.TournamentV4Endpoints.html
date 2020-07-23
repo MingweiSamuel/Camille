@@ -123,20 +123,20 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#tou
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCode_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCode(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentCodeParameters%2CSystem.Int64%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCode_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCode(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentCodeParameters%2CSystem.Int64%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1556">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCode_" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCode*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCode_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCode(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentCodeParameters,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">CreateTournamentCode(Region, TournamentCodeParameters, Int64, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCode_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCode(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentCodeParameters,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">CreateTournamentCode(RegionalRoute, TournamentCodeParameters, Int64, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Create a tournament code for the given tournament.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/POST_createTournamentCode">https://developer.riotgames.com/api-methods/#tournament-v4/POST_createTournamentCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] CreateTournamentCode(Region region, TournamentCodeParameters body, long tournamentId, int? count = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] CreateTournamentCode(RegionalRoute route, TournamentCodeParameters body, long tournamentId, int? count = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,9 +149,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -196,20 +196,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCodeAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCodeAsync(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentCodeParameters%2CSystem.Int64%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCodeAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCodeAsync(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentCodeParameters%2CSystem.Int64%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1570">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCodeAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCodeAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCodeAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCodeAsync(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentCodeParameters,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">CreateTournamentCodeAsync(Region, TournamentCodeParameters, Int64, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_CreateTournamentCodeAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeParameters_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.CreateTournamentCodeAsync(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentCodeParameters,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">CreateTournamentCodeAsync(RegionalRoute, TournamentCodeParameters, Int64, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Create a tournament code for the given tournament.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/POST_createTournamentCode">https://developer.riotgames.com/api-methods/#tournament-v4/POST_createTournamentCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;string[]&gt; CreateTournamentCodeAsync(Region region, TournamentCodeParameters body, long tournamentId, int? count = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;string[]&gt; CreateTournamentCodeAsync(RegionalRoute route, TournamentCodeParameters body, long tournamentId, int? count = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,9 +222,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -269,20 +269,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCode_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCode(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCode_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCode(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1642">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCode_" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCode*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCode_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCode(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCode(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCode_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCode(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCode(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets a list of lobby events by tournament code.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/GET_getLobbyEventsByCode">https://developer.riotgames.com/api-methods/#tournament-v4/GET_getLobbyEventsByCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LobbyEventWrapper GetLobbyEventsByCode(Region region, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LobbyEventWrapper GetLobbyEventsByCode(RegionalRoute route, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -295,9 +295,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -331,20 +331,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCodeAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCodeAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCodeAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCodeAsync(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1655">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCodeAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCodeAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCodeAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCodeAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCodeAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetLobbyEventsByCodeAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetLobbyEventsByCodeAsync(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCodeAsync(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets a list of lobby events by tournament code.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/GET_getLobbyEventsByCode">https://developer.riotgames.com/api-methods/#tournament-v4/GET_getLobbyEventsByCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LobbyEventWrapper&gt; GetLobbyEventsByCodeAsync(Region region, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LobbyEventWrapper&gt; GetLobbyEventsByCodeAsync(RegionalRoute route, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,9 +357,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -393,20 +393,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetTournamentCode_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetTournamentCode(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetTournamentCode_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetTournamentCode(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1589">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCode_" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCode*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCode_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCode(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentCode(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCode_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCode(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentCode(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns the tournament code DTO associated with a tournament code string.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/GET_getTournamentCode">https://developer.riotgames.com/api-methods/#tournament-v4/GET_getTournamentCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TournamentCode GetTournamentCode(Region region, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public TournamentCode GetTournamentCode(RegionalRoute route, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -419,9 +419,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -455,20 +455,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetTournamentCodeAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetTournamentCodeAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_GetTournamentCodeAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.GetTournamentCodeAsync(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1602">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCodeAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCodeAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCodeAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCodeAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentCodeAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_GetTournamentCodeAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.GetTournamentCodeAsync(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentCodeAsync(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns the tournament code DTO associated with a tournament code string.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/GET_getTournamentCode">https://developer.riotgames.com/api-methods/#tournament-v4/GET_getTournamentCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;TournamentCode&gt; GetTournamentCodeAsync(Region region, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;TournamentCode&gt; GetTournamentCodeAsync(RegionalRoute route, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -481,9 +481,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -517,13 +517,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterProviderData_Camille_Enums_Region_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterProviderData(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.ProviderRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterProviderData_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterProviderData(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.ProviderRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1669">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderData_" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderData*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderData_Camille_Enums_Region_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderData(Camille.Enums.Region,Camille.RiotApi.TournamentV4.ProviderRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterProviderData(Region, ProviderRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderData_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderData(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.ProviderRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterProviderData(RegionalRoute, ProviderRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a tournament provider and returns its ID.</p>
 <p><h4>Implementation Notes</h4>
 Providers will need to call this endpoint first to register their callback URL and their API key with the tournament system before any other tournament provider endpoints will work.
@@ -532,7 +532,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RegisterProviderData(Region region, ProviderRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public int RegisterProviderData(RegionalRoute route, ProviderRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -545,9 +545,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -580,13 +580,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterProviderDataAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterProviderDataAsync(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.ProviderRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterProviderDataAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterProviderDataAsync(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.ProviderRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1683">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderDataAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderDataAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderDataAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderDataAsync(Camille.Enums.Region,Camille.RiotApi.TournamentV4.ProviderRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterProviderDataAsync(Region, ProviderRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterProviderDataAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_ProviderRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterProviderDataAsync(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.ProviderRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterProviderDataAsync(RegionalRoute, ProviderRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a tournament provider and returns its ID.</p>
 <p><h4>Implementation Notes</h4>
 Providers will need to call this endpoint first to register their callback URL and their API key with the tournament system before any other tournament provider endpoints will work.
@@ -595,7 +595,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; RegisterProviderDataAsync(Region region, ProviderRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; RegisterProviderDataAsync(RegionalRoute route, ProviderRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -608,9 +608,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -643,20 +643,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterTournament_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterTournament(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterTournament_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterTournament(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1696">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournament_" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournament*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournament_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournament(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterTournament(Region, TournamentRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournament_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournament(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterTournament(RegionalRoute, TournamentRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a tournament and returns its ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/POST_registerTournament">https://developer.riotgames.com/api-methods/#tournament-v4/POST_registerTournament</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RegisterTournament(Region region, TournamentRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public int RegisterTournament(RegionalRoute route, TournamentRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -669,9 +669,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -704,20 +704,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterTournamentAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterTournamentAsync(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_RegisterTournamentAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.RegisterTournamentAsync(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentRegistrationParameters%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1708">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournamentAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournamentAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournamentAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournamentAsync(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterTournamentAsync(Region, TournamentRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_RegisterTournamentAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentRegistrationParameters_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.RegisterTournamentAsync(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentRegistrationParameters,System.Nullable{System.Threading.CancellationToken})">RegisterTournamentAsync(RegionalRoute, TournamentRegistrationParameters, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a tournament and returns its ID.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/POST_registerTournament">https://developer.riotgames.com/api-methods/#tournament-v4/POST_registerTournament</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; RegisterTournamentAsync(Region region, TournamentRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; RegisterTournamentAsync(RegionalRoute route, TournamentRegistrationParameters body, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -730,9 +730,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -765,20 +765,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_UpdateCode_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.UpdateCode(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentCodeUpdateParameters%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_UpdateCode_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.UpdateCode(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentCodeUpdateParameters%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1615">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_UpdateCode_" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCode*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_UpdateCode_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCode(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentCodeUpdateParameters,System.String,System.Nullable{System.Threading.CancellationToken})">UpdateCode(Region, TournamentCodeUpdateParameters, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_UpdateCode_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCode(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentCodeUpdateParameters,System.String,System.Nullable{System.Threading.CancellationToken})">UpdateCode(RegionalRoute, TournamentCodeUpdateParameters, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Update the pick type, map, spectator type, or allowed summoners for a code.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/PUT_updateCode">https://developer.riotgames.com/api-methods/#tournament-v4/PUT_updateCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateCode(Region region, TournamentCodeUpdateParameters body, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateCode(RegionalRoute route, TournamentCodeUpdateParameters body, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -791,9 +791,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -817,20 +817,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_UpdateCodeAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.UpdateCodeAsync(Camille.Enums.Region%2CCamille.RiotApi.TournamentV4.TournamentCodeUpdateParameters%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_TournamentV4Endpoints_UpdateCodeAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.TournamentV4Endpoints.UpdateCodeAsync(Camille.Enums.RegionalRoute%2CCamille.RiotApi.TournamentV4.TournamentCodeUpdateParameters%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L1628">View Source</a>
   </span>
   <a id="Camille_RiotApi_TournamentV4Endpoints_UpdateCodeAsync_" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCodeAsync*"></a>
-  <h4 id="Camille_RiotApi_TournamentV4Endpoints_UpdateCodeAsync_Camille_Enums_Region_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCodeAsync(Camille.Enums.Region,Camille.RiotApi.TournamentV4.TournamentCodeUpdateParameters,System.String,System.Nullable{System.Threading.CancellationToken})">UpdateCodeAsync(Region, TournamentCodeUpdateParameters, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_TournamentV4Endpoints_UpdateCodeAsync_Camille_Enums_RegionalRoute_Camille_RiotApi_TournamentV4_TournamentCodeUpdateParameters_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.TournamentV4Endpoints.UpdateCodeAsync(Camille.Enums.RegionalRoute,Camille.RiotApi.TournamentV4.TournamentCodeUpdateParameters,System.String,System.Nullable{System.Threading.CancellationToken})">UpdateCodeAsync(RegionalRoute, TournamentCodeUpdateParameters, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Update the pick type, map, spectator type, or allowed summoners for a code.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v4/PUT_updateCode">https://developer.riotgames.com/api-methods/#tournament-v4/PUT_updateCode</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task UpdateCodeAsync(Region region, TournamentCodeUpdateParameters body, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task UpdateCodeAsync(RegionalRoute route, TournamentCodeUpdateParameters body, string tournamentCode, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -843,9 +843,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>

@@ -123,20 +123,20 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#acc
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetActiveShard_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetActiveShard_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L92">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetActiveShard_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShard*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetActiveShard_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveShard(Region, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetActiveShard_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShard(Camille.Enums.RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveShard(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get active shard for a player
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveShard">https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveShard</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ActiveShard GetActiveShard(Region region, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public ActiveShard GetActiveShard(RegionalRoute route, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,9 +149,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -191,20 +191,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L106">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveShardAsync(Region, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetActiveShardAsync_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetActiveShardAsync(Camille.Enums.RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveShardAsync(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get active shard for a player
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveShard">https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveShard</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ActiveShard&gt; GetActiveShardAsync(Region region, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ActiveShard&gt; GetActiveShardAsync(RegionalRoute route, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,9 +217,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -259,20 +259,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByPuuid_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByPuuid_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L37">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetByPuuid_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuid*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByPuuid_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetByPuuid(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByPuuid_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuid(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetByPuuid(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get account by puuid
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getByPuuid">https://developer.riotgames.com/api-methods/#account-v1/GET_getByPuuid</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Account GetByPuuid(Region region, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Account GetByPuuid(RegionalRoute route, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -285,9 +285,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -321,20 +321,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L50">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetByPuuidAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByPuuidAsync_Camille_Enums_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByPuuidAsync(Camille.Enums.RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetByPuuidAsync(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get account by puuid
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getByPuuid">https://developer.riotgames.com/api-methods/#account-v1/GET_getByPuuid</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Account&gt; GetByPuuidAsync(Region region, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Account&gt; GetByPuuidAsync(RegionalRoute route, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -347,9 +347,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -383,20 +383,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByRiotId_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByRiotId_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L64">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetByRiotId_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotId*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByRiotId_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetByRiotId(Region, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByRiotId_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotId(Camille.Enums.RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetByRiotId(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get account by riot id
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getByRiotId">https://developer.riotgames.com/api-methods/#account-v1/GET_getByRiotId</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Account GetByRiotId(Region region, string gameName, string tagLine, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Account GetByRiotId(RegionalRoute route, string gameName, string tagLine, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,9 +409,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
@@ -451,20 +451,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.RiotApi\EndpointMethods.cs/#L78">View Source</a>
   </span>
   <a id="Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync*"></a>
-  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_Camille_Enums_Region_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.Region,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetByRiotIdAsync(Region, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotApi_AccountV1Endpoints_GetByRiotIdAsync_Camille_Enums_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotApi.AccountV1Endpoints.GetByRiotIdAsync(Camille.Enums.RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetByRiotIdAsync(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get account by riot id
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getByRiotId">https://developer.riotgames.com/api-methods/#account-v1/GET_getByRiotId</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Account&gt; GetByRiotIdAsync(Region region, string gameName, string tagLine, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Account&gt; GetByRiotIdAsync(RegionalRoute route, string gameName, string tagLine, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -477,9 +477,9 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Camille.Enums.Region.html">Region</a></td>
-        <td><span class="parametername">region</span></td>
-        <td><p>Region to query. (required)</p>
+        <td><a class="xref" href="Camille.Enums.RegionalRoute.html">RegionalRoute</a></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
 </td>
       </tr>
       <tr>
