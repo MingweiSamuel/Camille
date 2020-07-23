@@ -92,7 +92,7 @@ namespace Camille.{{= it.namespace }}
                     : [];
 
                 /* Build argument comment & string. */
-                const extraParams = it.extraParams || [];
+                const extraParams = it.extraParamsFn ? it.extraParamsFn(operation) : it.extraParams || [];
                 const argBuilder = extraParams.flatMap(({ name, type }) => [ type, ' ', name, ', ' ]);
                 const argForward = extraParams.flatMap(({ name }) => [ name, ', ' ]);
 

@@ -14,13 +14,13 @@ namespace Camille.RiotApi.Test
         [TestMethod]
         public void Get()
         {
-            var featured = Api.SpectatorV4().GetFeaturedGames(Region.NA1);
+            var featured = Api.SpectatorV4().GetFeaturedGames(PlatformRoute.NA1);
             CheckFeatured(featured);
             foreach (var gameInfo in featured.GameList)
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = Api.SummonerV4().GetBySummonerName(Region.NA1, participant.SummonerName);
-                var currentGame = Api.SpectatorV4().GetCurrentGameInfoBySummoner(Region.NA1, summoner.Id);
+                var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.NA1, participant.SummonerName);
+                var currentGame = Api.SpectatorV4().GetCurrentGameInfoBySummoner(PlatformRoute.NA1, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),
@@ -31,13 +31,13 @@ namespace Camille.RiotApi.Test
         [TestMethod]
         public async Task GetAsync()
         {
-            var featured = await Api.SpectatorV4().GetFeaturedGamesAsync(Region.NA1);
+            var featured = await Api.SpectatorV4().GetFeaturedGamesAsync(PlatformRoute.NA1);
             CheckFeatured(featured);
             var tasks = featured.GameList.Select(async gameInfo =>
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = await Api.SummonerV4().GetBySummonerNameAsync(Region.NA1, participant.SummonerName);
-                var currentGame = await Api.SpectatorV4().GetCurrentGameInfoBySummonerAsync(Region.NA1, summoner.Id);
+                var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.NA1, participant.SummonerName);
+                var currentGame = await Api.SpectatorV4().GetCurrentGameInfoBySummonerAsync(PlatformRoute.NA1, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),
@@ -49,13 +49,13 @@ namespace Camille.RiotApi.Test
         [TestMethod]
         public void GetParallel()
         {
-            var featured = Api.SpectatorV4().GetFeaturedGames(Region.NA1);
+            var featured = Api.SpectatorV4().GetFeaturedGames(PlatformRoute.NA1);
             CheckFeatured(featured);
             var result = Parallel.ForEach(featured.GameList, gameInfo =>
             {
                 var participant = gameInfo.Participants[0];
-                var summoner = Api.SummonerV4().GetBySummonerName(Region.NA1, participant.SummonerName);
-                var currentGame = Api.SpectatorV4().GetCurrentGameInfoBySummoner(Region.NA1, summoner.Id);
+                var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.NA1, participant.SummonerName);
+                var currentGame = Api.SpectatorV4().GetCurrentGameInfoBySummoner(PlatformRoute.NA1, summoner.Id);
                 Assert.IsNotNull(currentGame);
                 Assert.AreEqual(gameInfo.GameId, currentGame.GameId);
                 Assert.IsTrue(currentGame.Participants.Any(cp => participant.SummonerName.Equals(cp.SummonerName)),

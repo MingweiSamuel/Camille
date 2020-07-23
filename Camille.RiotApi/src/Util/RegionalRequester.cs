@@ -36,12 +36,12 @@ namespace Camille.RiotApi.Util
         /// </summary>
         private readonly HttpClient _client = new HttpClient();
 
-        public RegionalRequester(IRiotApiConfig config, Region region)
+        public RegionalRequester(IRiotApiConfig config, string route)
         {
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
 
-            _client.BaseAddress = new Uri($"https://{region}{RiotRootUrl}");
+            _client.BaseAddress = new Uri($"https://{route}{RiotRootUrl}");
             _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
         }
 

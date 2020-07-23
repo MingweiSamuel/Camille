@@ -20,7 +20,7 @@ namespace Camille.RiotApi.Util
         private readonly SemaphoreSlim _concurrentRequestSemaphore;
 
         /// <summary>Stores the RateLimiter for each Region.</summary>
-        private readonly ConcurrentDictionary<Region, RegionalRequester> _rateLimiters = new ConcurrentDictionary<Region, RegionalRequester>();
+        private readonly ConcurrentDictionary<string, RegionalRequester> _rateLimiters = new ConcurrentDictionary<string, RegionalRequester>();
 
         public RequestManager(IRiotApiConfig config)
         {
@@ -28,13 +28,13 @@ namespace Camille.RiotApi.Util
             _concurrentRequestSemaphore = new SemaphoreSlim(_config.MaxConcurrentRequests);
         }
 
-        public async Task<string?> Send(Region region, string methodId, HttpRequestMessage request,
+        public async Task<string?> Send(string route, string methodId, HttpRequestMessage request,
             CancellationToken token, bool ignoreAppRateLimits)
         {
             await _concurrentRequestSemaphore.WaitAsync(token);
             try
             {
-                return await GetRateLimiter(region).Send(methodId, request, token, ignoreAppRateLimits);
+                return await GetRateLimiter(route).Send(methodId, request, token, ignoreAppRateLimits);
             }
             finally
             {
@@ -45,11 +45,11 @@ namespace Camille.RiotApi.Util
         /// <summary>
         /// Gets a rate limiter from a region, creating it if needed.
         /// </summary>
-        /// <param name="region">Region of rate limiter to get.</param>
+        /// <param name="route">Route subdomain corresponding to a region or platform.</param>
         /// <returns>The rate limiter.</returns>
-        private RegionalRequester GetRateLimiter(Region region)
+        private RegionalRequester GetRateLimiter(string route)
         {
-            return _rateLimiters.GetOrAdd(region, r => new RegionalRequester(_config, region));
+            return _rateLimiters.GetOrAdd(route, r => new RegionalRequester(_config, route));
         }
     }
 }

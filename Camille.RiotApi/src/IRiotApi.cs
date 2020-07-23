@@ -7,10 +7,10 @@ namespace Camille.RiotApi
 {
     public interface IRiotApi
     {
-        public Task<T> Send<T>(Region region, string methodId, HttpRequestMessage request,
+        public Task<T> Send<T>(string route, string methodId, HttpRequestMessage request,
             CancellationToken? token = null, bool ignoreAppRateLimits = false);
 
-        public Task Send(Region region, string methodId, HttpRequestMessage request,
+        public Task Send(string route, string methodId, HttpRequestMessage request,
             CancellationToken? token = null, bool ignoreAppRateLimits = false);
     }
 }

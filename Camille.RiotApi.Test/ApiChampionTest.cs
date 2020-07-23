@@ -11,13 +11,13 @@ namespace Camille.RiotApi.Test
         [TestMethod]
         public void GetChampionInfo()
         {
-            CheckGetAll(Api.ChampionV3().GetChampionInfo(Region.NA1));
+            CheckGetAll(Api.ChampionV3().GetChampionInfo(PlatformRoute.NA1));
         }
 
         [TestMethod]
         public async Task GetChampionInfoAsync()
         {
-            CheckGetAll(await Api.ChampionV3().GetChampionInfoAsync(Region.NA1));
+            CheckGetAll(await Api.ChampionV3().GetChampionInfoAsync(PlatformRoute.NA1));
         }
 
         public static void CheckGetAll(ChampionInfo result)
