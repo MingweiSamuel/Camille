@@ -4001,12 +4001,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Region.TRLH4
   fullName: MingweiSamuel.Camille.Enums.Region.TRLH4
   nameWithType: Region.TRLH4
-- uid: MingweiSamuel.Camille.Enums.Region.VAL_APAC
-  name: VAL_APAC
-  href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region_VAL_APAC
-  commentId: F:MingweiSamuel.Camille.Enums.Region.VAL_APAC
-  fullName: MingweiSamuel.Camille.Enums.Region.VAL_APAC
-  nameWithType: Region.VAL_APAC
+- uid: MingweiSamuel.Camille.Enums.Region.VAL_AP
+  name: VAL_AP
+  href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region_VAL_AP
+  commentId: F:MingweiSamuel.Camille.Enums.Region.VAL_AP
+  fullName: MingweiSamuel.Camille.Enums.Region.VAL_AP
+  nameWithType: Region.VAL_AP
 - uid: MingweiSamuel.Camille.Enums.Region.VAL_BR
   name: VAL_BR
   href: api/MingweiSamuel.Camille.Enums.Region.html#MingweiSamuel_Camille_Enums_Region_VAL_BR
