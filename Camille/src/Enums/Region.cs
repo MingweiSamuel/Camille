@@ -77,7 +77,7 @@ namespace MingweiSamuel.Camille.Enums
 
         #region valorant regions
         /// <summary>Valorant Asian Pacific platform.</summary>
-        public static readonly Region VAL_APAC = Register("APAC", "APAC");
+        public static readonly Region VAL_AP = Register("AP", "AP");
         /// <summary>Valorant Brazil platform.</summary>
         public static readonly Region VAL_BR = Register("BR", "BR");
         /// <summary>Valorant Europe platform.</summary>
