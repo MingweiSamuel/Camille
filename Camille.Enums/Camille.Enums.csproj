@@ -55,11 +55,11 @@
 
   <Target Name="DownloadTemplateData">
     <DownloadFile SourceUrl="http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json" DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/seasons.json" DestinationFolder="$(GenDir)" DestinationFileName=".seasons.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/queues.json" DestinationFolder="$(GenDir)" DestinationFileName=".queues.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/maps.json" DestinationFolder="$(GenDir)" DestinationFileName=".maps.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/gameModes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameModes.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="http://static.developer.riotgames.com/docs/lol/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/enums/seasons.json" DestinationFolder="$(GenDir)" DestinationFileName=".seasons.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/enums/queues.json" DestinationFolder="$(GenDir)" DestinationFileName=".queues.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/enums/maps.json" DestinationFolder="$(GenDir)" DestinationFileName=".maps.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/enums/gameModes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameModes.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="http://www.mingweisamuel.com/riotapi-schema/enums/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" ContinueOnError="true" />
   </Target>
 
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->

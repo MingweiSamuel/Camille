@@ -15,9 +15,6 @@ namespace Camille.Enums
     /// <summary>
     /// Champion enum based on ChampionIds.
     /// </summary>
-#if USE_SYSTEXTJSON
-    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum Champion : int
     {
 {{
@@ -28,5 +25,8 @@ namespace Camille.Enums
 {{
     }
 }}
+
+        [Display(Description = "NONE")]
+        NONE = -1,
     }
 }
