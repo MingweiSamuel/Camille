@@ -865,6 +865,12 @@ references:
   commentId: F:Camille.Enums.Champion.YASUO
   fullName: Camille.Enums.Champion.YASUO
   nameWithType: Champion.YASUO
+- uid: Camille.Enums.Champion.YONE
+  name: YONE
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_YONE
+  commentId: F:Camille.Enums.Champion.YONE
+  fullName: Camille.Enums.Champion.YONE
+  nameWithType: Champion.YONE
 - uid: Camille.Enums.Champion.YORICK
   name: YORICK
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_YORICK
