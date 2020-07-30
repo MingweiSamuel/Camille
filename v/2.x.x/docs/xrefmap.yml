@@ -17225,19 +17225,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
   nameWithType: MatchReference._AdditionalProperties
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime
-  name: GameStartTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTime
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime
-  nameWithType: MatchReference.GameStartTime
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime*
-  name: GameStartTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTime_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  name: GameStartTimeMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTimeMillis
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  nameWithType: MatchReference.GameStartTimeMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis*
+  name: GameStartTimeMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTimeMillis_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTime
-  nameWithType: MatchReference.GameStartTime
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  nameWithType: MatchReference.GameStartTimeMillis
 - uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
   name: MatchId
   href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_MatchId
