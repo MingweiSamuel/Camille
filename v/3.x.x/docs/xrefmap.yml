@@ -23611,19 +23611,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotApi.ValMatchV1.MatchReference._AdditionalProperties
   nameWithType: MatchReference._AdditionalProperties
-- uid: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime
-  name: GameStartTime
-  href: api/Camille.RiotApi.ValMatchV1.MatchReference.html#Camille_RiotApi_ValMatchV1_MatchReference_GameStartTime
-  commentId: P:Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime
-  fullName: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime
-  nameWithType: MatchReference.GameStartTime
-- uid: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime*
-  name: GameStartTime
-  href: api/Camille.RiotApi.ValMatchV1.MatchReference.html#Camille_RiotApi_ValMatchV1_MatchReference_GameStartTime_
-  commentId: Overload:Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime
+- uid: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis
+  name: GameStartTimeMillis
+  href: api/Camille.RiotApi.ValMatchV1.MatchReference.html#Camille_RiotApi_ValMatchV1_MatchReference_GameStartTimeMillis
+  commentId: P:Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis
+  fullName: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis
+  nameWithType: MatchReference.GameStartTimeMillis
+- uid: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis*
+  name: GameStartTimeMillis
+  href: api/Camille.RiotApi.ValMatchV1.MatchReference.html#Camille_RiotApi_ValMatchV1_MatchReference_GameStartTimeMillis_
+  commentId: Overload:Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis
   isSpec: "True"
-  fullName: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTime
-  nameWithType: MatchReference.GameStartTime
+  fullName: Camille.RiotApi.ValMatchV1.MatchReference.GameStartTimeMillis
+  nameWithType: MatchReference.GameStartTimeMillis
 - uid: Camille.RiotApi.ValMatchV1.MatchReference.MatchId
   name: MatchId
   href: api/Camille.RiotApi.ValMatchV1.MatchReference.html#Camille_RiotApi_ValMatchV1_MatchReference_MatchId
