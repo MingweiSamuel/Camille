@@ -2517,7 +2517,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Ability.html",
-          "hash": "w4b1qLPoV72dCDJL5h0fPA=="
+          "hash": "5k9P9dFjnZlUNu9t1r62yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotApi.ValMatchV1.AbilityCasts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotApi.ValMatchV1.AbilityCasts.html",
+          "hash": "Nb8xKb+Qh0M7MdcotlHqog=="
         }
       },
       "is_incremental": false,
@@ -2529,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Damage.html",
-          "hash": "FL+xXAXd+0ivzS3ajJLmmA=="
+          "hash": "leZLkjCxJQ/nDj3N+tLV0A=="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Economy.html",
-          "hash": "ZeIhL4M9K5dAG51KVVES2g=="
+          "hash": "W6TWSp/96TNlEeI4DRPU7g=="
         }
       },
       "is_incremental": false,
@@ -2553,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.FinishingDamage.html",
-          "hash": "d513eogmyLkltNK4Ql9hvQ=="
+          "hash": "u587DqVNzcLdpqcLJhT4Gw=="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2577,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Kill.html",
-          "hash": "i3AYMzlNctczepsddoxa2Q=="
+          "hash": "kpI9FolQtZoFHt9SlumxtQ=="
         }
       },
       "is_incremental": false,
@@ -2577,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Location.html",
-          "hash": "vvAziBGlXBjqIohXC7cZww=="
+          "hash": "sngDLeOyN4nqwKyek+TZmA=="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.MatchReference.html",
-          "hash": "8/J9YWdcIoYRP13M1KkJrg=="
+          "hash": "GRHsncmHPvEfDbSEOj1POw=="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Matchlist.html",
-          "hash": "UQOL9smm+No+wU/nMlRYKA=="
+          "hash": "+6TU1n9S3mJCMl3fnnsOpA=="
         }
       },
       "is_incremental": false,
@@ -2649,7 +2661,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.PlayerLocations.html",
-          "hash": "s8KVoAJ53+G0x7swKOK78g=="
+          "hash": "CSnzlV1s6bnyKskUMr9d0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotApi.ValMatchV1.PlayerRoundStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotApi.ValMatchV1.PlayerRoundStats.html",
+          "hash": "1Emuq2q4P41f6Bnc3slY7g=="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.PlayerStats.html",
-          "hash": "P6E1WVy7yJDSPVM2PlNpTg=="
+          "hash": "G0w1+LxKxGVbCC7DqSIcUw=="
         }
       },
       "is_incremental": false,
@@ -2673,7 +2697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.RoundResult.html",
-          "hash": "nzDHXnQGBn55pIcnvmWRog=="
+          "hash": "iTonvhvALYtvjXrGgtlqig=="
         }
       },
       "is_incremental": false,
@@ -2685,7 +2709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.Team.html",
-          "hash": "ZaQLbBudY2UHce4Ob6n97w=="
+          "hash": "oQP9uE/gQgkdAQxwmXC88w=="
         }
       },
       "is_incremental": false,
@@ -2697,7 +2721,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotApi.ValMatchV1.html",
-          "hash": "snXD/yc4orD/eMkctLWCiQ=="
+          "hash": "ZgPSPh6MFpCcm7TWf74VsA=="
         }
       },
       "is_incremental": false,
@@ -2745,7 +2769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vdO5kwiCWUJRtMh3rtMSfA=="
+          "hash": "9tCdZ7sFEyn6MihUvqmksA=="
         }
       },
       "is_incremental": false,
@@ -2796,7 +2820,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 226,
+          "total_file_count": 228,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
