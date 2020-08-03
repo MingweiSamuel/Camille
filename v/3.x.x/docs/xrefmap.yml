@@ -1075,6 +1075,24 @@ references:
   commentId: F:Camille.Enums.GameMode.TUTORIAL
   fullName: Camille.Enums.GameMode.TUTORIAL
   nameWithType: GameMode.TUTORIAL
+- uid: Camille.Enums.GameMode.TUTORIAL_MODULE_1
+  name: TUTORIAL_MODULE_1
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TUTORIAL_MODULE_1
+  commentId: F:Camille.Enums.GameMode.TUTORIAL_MODULE_1
+  fullName: Camille.Enums.GameMode.TUTORIAL_MODULE_1
+  nameWithType: GameMode.TUTORIAL_MODULE_1
+- uid: Camille.Enums.GameMode.TUTORIAL_MODULE_2
+  name: TUTORIAL_MODULE_2
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TUTORIAL_MODULE_2
+  commentId: F:Camille.Enums.GameMode.TUTORIAL_MODULE_2
+  fullName: Camille.Enums.GameMode.TUTORIAL_MODULE_2
+  nameWithType: GameMode.TUTORIAL_MODULE_2
+- uid: Camille.Enums.GameMode.TUTORIAL_MODULE_3
+  name: TUTORIAL_MODULE_3
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TUTORIAL_MODULE_3
+  commentId: F:Camille.Enums.GameMode.TUTORIAL_MODULE_3
+  fullName: Camille.Enums.GameMode.TUTORIAL_MODULE_3
+  nameWithType: GameMode.TUTORIAL_MODULE_3
 - uid: Camille.Enums.GameMode.URF
   name: URF
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_URF
