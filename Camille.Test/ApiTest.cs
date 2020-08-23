@@ -15,7 +15,8 @@ namespace MingweiSamuel.Camille.Test
             new RiotApiConfig.Builder(File.ReadAllText("apikey.txt").Trim())
             {
                 MaxConcurrentRequests = 10,
-                Retries = 10
+                Retries = 10,
+                ConcurrentInstanceFactor = 0.5f, // Since two targets run at the same time.
             }.Build()
         );
     }
