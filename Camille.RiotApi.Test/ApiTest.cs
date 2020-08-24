@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Camille.RiotApi.Test
 {
@@ -12,7 +13,9 @@ namespace Camille.RiotApi.Test
 
         protected static readonly RiotApi Api = RiotApi.NewInstance
         (
-            new RiotApiConfig.Builder(File.ReadAllText("apikey.txt").Trim())
+            new RiotApiConfig.Builder(
+                Environment.GetEnvironmentVariable("RGAPI_KEY")
+                ?? File.ReadAllText("apikey.txt").Trim())
             {
                 MaxConcurrentRequests = 10,
                 Retries = 10,
