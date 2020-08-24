@@ -1,9 +1,0 @@
-environment:
-  api_key:
-    secure: cZaqcXLVw9oH1OMgdVoSTniU6kLOP+UQrUbNOs07Duo=
-build_script:
-  - ps: >-
-      If ($env:APPVEYOR_SCHEDULED_BUILD -Or $env:SCHEDULED_BUILD) {
-        ./TriggerBranch.ps1 'release/2.x.x'
-        ./TriggerBranch.ps1 'release/3.x.x'
-      }

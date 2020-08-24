@@ -17,20 +17,19 @@ Commit: $(git rev-parse HEAD)
 Stable: $IS_STABLE
 Spec Hash: $env:CAMI_SPEC_HASH
 "
-Write-Output $MSG
+Write-Host $MSG
 
-# Configure git.
-git config --global credential.helper store
-if ($env:APPVEYOR) {
-    Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-    git config --global user.name "Appveyor"
-    git config --global user.email "$(git show -s --format='%ae' HEAD)"
-    git config --global core.autocrlf true
-    git config --global core.safecrlf false # Hide CRLF warnings.
-}
 
 # Clone docs.
 git clone -q --single-branch --branch gh-pages "$(git remote get-url origin)" docs
+# Copy git credentials.
+if ($env:CI) {
+    git -C docs config credential.helper "$(git config credential.helper)"
+    git -C docs config 'http.https://github.com/.extraheader' "$(git config 'http.https://github.com/.extraheader')"
+    git -C docs config core.autocrlf input
+    git -C docs config core.safecrlf false
+}
+
 # Install docfx.
 choco install docfx -y | Out-Null
 # Create metadata.
@@ -61,25 +60,27 @@ Push-Location 'docs'
 git diff --quiet -- $(Resolve-Path -Relative ..\$HASHFILE)
 $UNCHANGED = 0 -Eq $LastExitCode
 
-If ($env:CAMI_DO_DEPLOY -Ne $true) {
-    Write-Output 'CAMI_DO_DEPLOY not set to true, exiting.'
+If ($env:CAMI_DO_DEPLOY -Ne 'true') {
+    Write-Host 'CAMI_DO_DEPLOY not set to true, exiting.'
+    $env:CAMI_DO_DEPLOY = ''
 }
 ElseIf ($IS_STABLE) {
-    Write-Output "Releasing stable version. Nightly spec hash unchanged: $UNCHANGED."
+    Write-Host "Releasing stable version. Nightly spec hash unchanged: $UNCHANGED."
 }
 ElseIf ($UNCHANGED) {
-    Write-Output 'No substantial changes, exiting.'
+    Write-Host 'No substantial changes, exiting.'
     # Turn off NuGet deploy.
-    $env:CAMI_DO_DEPLOY = $false
+    $env:CAMI_DO_DEPLOY = ''
 }
 
-If ($env:CAMI_DO_DEPLOY) {
+If ($env:CAMI_DO_DEPLOY -Eq 'true') {
     git add .
     git commit -m $MSG
     git push --quiet
 }
+
 Pop-Location
 
-Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
-Write-Output "CAMI_VERSION=$env:CAMI_VERSION"
-Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH"
+Write-Host "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
+Write-Host "CAMI_VERSION=$env:CAMI_VERSION"
+Write-Host "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH"
