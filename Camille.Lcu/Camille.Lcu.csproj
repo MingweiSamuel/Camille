@@ -17,10 +17,19 @@
     <Description>League of Legends Client Update API Library.</Description>
     <Summary>League of Legends Client Update API Library.</Summary>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <!-- Explicitly generate AssemblyInfo for InternalsVisibleToAttribute -->
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
     <ProjectReference Include="..\Camille.Enums\Camille.Enums.csproj" />
+  </ItemGroup>
+
+  <!-- Make internals visible for testing -->
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>$(AssemblyName).Test</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 
   <!-- Camille using Newtonsoft.Json. -->

@@ -109,11 +109,7 @@ namespace Camille.RiotApi
             await new SynchronizationContextRemover();
             var content = await _requestManager.Send(route, methodId, request, token.GetValueOrDefault(), ignoreAppRateLimits);
             if (null == content) return default!; // TODO: throw exception on unexpected null.
-#if USE_NEWTONSOFT
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content, customIntConverter);
-#elif USE_SYSTEXTJSON
-            return System.Text.Json.JsonSerializer.Deserialize<T>(content, jsonOptions);
-#endif
+            return Deserialize<T>(content);
         }
 
         public async Task Send(string route, string methodId, HttpRequestMessage request,
@@ -121,6 +117,16 @@ namespace Camille.RiotApi
         {
             await new SynchronizationContextRemover();
             await _requestManager.Send(route, methodId, request, token.GetValueOrDefault(), ignoreAppRateLimits);
+        }
+
+        // Visible for testing.
+        internal static T Deserialize<T>(string content)
+        {
+#if USE_NEWTONSOFT
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content, customIntConverter);
+#elif USE_SYSTEXTJSON
+            return System.Text.Json.JsonSerializer.Deserialize<T>(content, jsonOptions);
+#endif
         }
     }
 }
