@@ -1,3 +1,5 @@
+$env:GIT_REDIRECT_STDERR = '2>&1'
+
 $VERSION = $env:CAMI_VERSION
 
 Remove-Item 'docs' -Recurse -Force -ErrorAction Ignore
@@ -72,10 +74,13 @@ ElseIf ($UNCHANGED) {
     # Turn off NuGet deploy.
     $env:CAMI_DO_DEPLOY = ''
 }
+Else {
+    Write-Host 'CAMI_DO_DEPLOY set to true, has substantial changes.'
+}
 
 If ($env:CAMI_DO_DEPLOY -Eq 'true') {
-    git add .
-    git commit -m $MSG
+    git add -A
+    git commit --quiet -m $MSG
     git push --quiet
 }
 
