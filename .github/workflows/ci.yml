@@ -68,6 +68,6 @@ jobs:
         if: ${{ success() && env.CAMI_DO_DEPLOY }}
         shell: pwsh
         env:
-          NUGET_KEY: ${{ secrets.NUGETTEST_KEY }}
-          NUGET_SOURCE: 'https://apiint.nugettest.org/v3/index.json'
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
+          NUGET_SOURCE: 'https://api.nuget.org/v3/index.json'
         run: dotnet nuget push "*\bin\Release\*.$env:CAMI_VERSION.nupkg" --source $env:NUGET_SOURCE --api-key $env:NUGET_KEY --skip-duplicate
