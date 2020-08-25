@@ -59,7 +59,22 @@ jobs:
       - name: 'Check Changes & Publish Docs'
         shell: pwsh
         run: |
-          Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/gh-actions/Docs.ps1" | Invoke-Expression
+          $ErrorView = 'NormalView'
+          Try {
+            Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/gh-actions/Docs.ps1" | Invoke-Expression
+          }
+          Catch {
+            $formatstring = "{0} : {1}`n{2}`n" +
+                "    + CategoryInfo          : {3}`n" +
+                "    + FullyQualifiedErrorId : {4}`n"
+            $fields = $_.InvocationInfo.MyCommand.Name,
+                      $_.ErrorDetails.Message,
+                      $_.InvocationInfo.PositionMessage,
+                      $_.CategoryInfo.ToString(),
+                      $_.FullyQualifiedErrorId
+            Write-Host $($formatstring -f $fields)
+            Throw $_
+          }
           Write-Host "::set-env name=CAMI_DO_DEPLOY::$env:CAMI_DO_DEPLOY"
           Write-Host "::set-env name=CAMI_VERSION::$env:CAMI_VERSION"
           Write-Host "::set-env name=CAMI_SPEC_HASH::$env:CAMI_SPEC_HASH"
