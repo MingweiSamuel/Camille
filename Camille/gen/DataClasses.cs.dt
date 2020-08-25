@@ -69,7 +69,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 
         /// <summary>Contains any extra JSON properties that did not map to fields.</summary>
         [JsonExtensionData]
-        public Dictionary<string, object> _AdditionalProperties { get; } = new Dictionary<string, object>();
+        public Dictionary<string, object> _AdditionalProperties { get; set; } = new Dictionary<string, object>();
 
         public override string ToString()
         {

@@ -90,12 +90,8 @@ namespace MingweiSamuel.Camille.Util
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
                 {
-                    string json = await response.Content.ReadAsStringAsync();
-#if USE_NEWTONSOFT
-                    return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json, customIntConverter);
-#elif USE_SYSTEXTJSON
-                    return System.Text.Json.JsonSerializer.Deserialize<T>(json, jsonOptions);
-#endif
+                    var json = await response.Content.ReadAsStringAsync();
+                    return Deserialize<T>(json);
                 }
                 if (0 <= Array.IndexOf(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
@@ -113,6 +109,16 @@ namespace MingweiSamuel.Camille.Util
         private IRateLimit GetMethodRateLimit(string methodId)
         {
             return _methodRateLimits.GetOrAdd(methodId, m => new RateLimit(RateLimitType.Method, _config));
+        }
+
+        // Visible for testing.
+        internal static T Deserialize<T>(string json)
+        {
+#if USE_NEWTONSOFT
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json, customIntConverter);
+#elif USE_SYSTEXTJSON
+            return System.Text.Json.JsonSerializer.Deserialize<T>(json, jsonOptions);
+#endif
         }
 
 
