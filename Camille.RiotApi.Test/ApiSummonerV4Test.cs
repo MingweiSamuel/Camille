@@ -7,7 +7,7 @@ using Camille.RiotApi.SummonerV4;
 namespace Camille.RiotApi.Test
 {
     [TestClass]
-    public class ApiSummonerTest : ApiTest
+    public class ApiSummonerV4Test : ApiTest
     {
 
         [TestMethod]

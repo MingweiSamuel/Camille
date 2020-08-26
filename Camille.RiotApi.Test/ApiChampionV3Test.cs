@@ -6,7 +6,7 @@ using Camille.Enums;
 namespace Camille.RiotApi.Test
 {
     [TestClass]
-    public class ApiChampionTest : ApiTest
+    public class ApiChampionV3Test : ApiTest
     {
         [TestMethod]
         public void GetChampionInfo()
