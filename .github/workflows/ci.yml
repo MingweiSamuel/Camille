@@ -4,7 +4,7 @@ on:
     inputs:
       dispatchDeploy:
         description: Deploy if there are changes? ('true')
-        required: true
+        required: false
         default: 'true'
   push:
     tags:
