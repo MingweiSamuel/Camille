@@ -13,7 +13,6 @@
 ## API Reference
 
 {% for version in versions %}
-* [{{ version }}](v/{{ version }}/docs/)
-  {% if version contains 'x' %}(latest){% endif %}
-  {% include_relative v/{{version}}/spechash.txt %}
+* [{{ version }}](v/{{ version }}/docs/) {% if version contains 'x' %}(latest){% endif %}  
+  <sup>spec hash: {% include_relative v/{{version}}/spechash.txt %}</sup>
 {% endfor %}
