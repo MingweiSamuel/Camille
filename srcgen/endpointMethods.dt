@@ -42,7 +42,7 @@ namespace Camille.{{= it.namespace }}
     /// </summary>
     public class {{= endpoint }}Endpoints : Endpoints
     {
-        internal {{= endpoint }}Endpoints(I{{= it.namespace }} @base) : base(@base)
+        internal {{= endpoint }}Endpoints(I{{= it.namespace }}Api @base) : base(@base)
         {}
 
 {{
@@ -135,7 +135,7 @@ namespace Camille.{{= it.namespace }}
                 {
                     let methodExpr;
                     if (isAsync)
-                        methodExpr = `return ${it.namespace}.Send${returnTypeBrackets}(${it.formatSendArgs(operation)})`;
+                        methodExpr = `return @base.Send${returnTypeBrackets}(${it.formatSendArgs(operation)})`;
                     else {
                         methodExpr = hasReturn ? 'return ' : '';
                         methodExpr += `${method}Async(${argForward.join('')})`;

@@ -26,7 +26,7 @@ namespace Camille.{{= it.namespace }}
     {
         let endpoint = dotUtils.normalizeEndpointName(endpointName);
 }}
-        public static {{= endpoint }}Endpoints {{= endpoint }}(this I{{= it.namespace }} @base)
+        public static {{= endpoint }}Endpoints {{= endpoint }}(this I{{= it.namespace }}Api @base)
         {
             return new {{= endpoint }}Endpoints(@base);
         }

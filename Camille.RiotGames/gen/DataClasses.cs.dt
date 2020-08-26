@@ -1,0 +1,13 @@
+﻿{{
+    const dotUtils = require('./dotUtils.js');
+
+    const spec = require(it.path + '/.spec.json');
+    const header = `// http://www.mingweisamuel.com/riotapi-schema/tool/\r\n// Version ${spec.info.version}`;
+    const usings = [ 'using Camille.RiotGames.Enums;' ];
+    const useSchema = (schemaKey) => 'Error' !== schemaKey;
+    const namespace = 'RiotGames';
+}}
+
+{{= it.templates.dataClasses({
+    spec, header, usings, useSchema, namespace
+}) }}

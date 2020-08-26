@@ -19,7 +19,7 @@ namespace Camille.Lcu.Test
         public async Task TestMethod1()
         {
             var lockfile = Lockfile.GetFromProcess();
-            using var lcu = new Lcu(lockfile);
+            using var lcu = new LcuApi(lockfile);
             var wamp = lcu.wamp;
 
             wamp.OnConnect += async () =>

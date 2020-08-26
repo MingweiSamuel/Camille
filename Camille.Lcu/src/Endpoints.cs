@@ -13,11 +13,11 @@ namespace Camille.Lcu
 #endif
 
 
-        protected readonly ILcu Lcu;
+        protected readonly ILcuApi @base;
 
-        protected Endpoints(ILcu lcu)
+        protected Endpoints(ILcuApi @base)
         {
-            Lcu = lcu;
+            this.@base = @base;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
