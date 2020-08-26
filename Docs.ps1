@@ -1,8 +1,6 @@
-$env:GIT_REDIRECT_STDERR = '2>&1'
-
 $VERSION = $env:CAMI_VERSION
 
-Remove-Item 'docs' -Recurse -Force -ErrorAction Ignore
+Remove-Item -Recurse -Force 'docs' -ErrorAction Ignore
 
 # Version logic:
 # Keep one nightly version per MAJOR verison.
@@ -42,6 +40,9 @@ Get-ChildItem "docfx_project\api" -Filter '*.yml' | ForEach-Object {
         "`$1path: v\$NIGHTLY\_gen\`$2\`$3.cs`r`n`$1branch: gh-pages" | Out-File -FilePath $_.FullName -Encoding 'UTF8'
 }
 $DEST = "docs\v\$NIGHTLY"
+# Clear out output folder.
+Remove-Item -Recurse -Force "$DEST\*" -ErrorAction Ignore
+
 # Build HTML.
 docfx build .\docfx_project\docfx.json -o "$DEST\docs"
 # Create folder for generated files & copy over.
@@ -80,7 +81,9 @@ Else {
 
 If ($env:CAMI_DO_DEPLOY -Eq 'true') {
     git add -A
-    git commit --quiet -m $MSG
+    git -c 'user.name=github-actions[bot]' `
+        -c 'user.email=41898282+github-actions[bot]@users.noreply.github.com' `
+        commit -m $MSG
     git push --quiet
 }
 
