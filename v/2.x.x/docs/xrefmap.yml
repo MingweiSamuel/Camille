@@ -13209,6 +13209,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Trait.NumUnits
   nameWithType: Trait.NumUnits
+- uid: MingweiSamuel.Camille.TftMatchV1.Trait.Style
+  name: Style
+  href: api/MingweiSamuel.Camille.TftMatchV1.Trait.html#MingweiSamuel_Camille_TftMatchV1_Trait_Style
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Trait.Style
+  fullName: MingweiSamuel.Camille.TftMatchV1.Trait.Style
+  nameWithType: Trait.Style
+- uid: MingweiSamuel.Camille.TftMatchV1.Trait.Style*
+  name: Style
+  href: api/MingweiSamuel.Camille.TftMatchV1.Trait.html#MingweiSamuel_Camille_TftMatchV1_Trait_Style_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Trait.Style
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Trait.Style
+  nameWithType: Trait.Style
 - uid: MingweiSamuel.Camille.TftMatchV1.Trait.TierCurrent
   name: TierCurrent
   href: api/MingweiSamuel.Camille.TftMatchV1.Trait.html#MingweiSamuel_Camille_TftMatchV1_Trait_TierCurrent
@@ -18138,6 +18151,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Team._AdditionalProperties
   nameWithType: Team._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValMatchV1.Team.NumPoints
+  name: NumPoints
+  href: api/MingweiSamuel.Camille.ValMatchV1.Team.html#MingweiSamuel_Camille_ValMatchV1_Team_NumPoints
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.Team.NumPoints
+  fullName: MingweiSamuel.Camille.ValMatchV1.Team.NumPoints
+  nameWithType: Team.NumPoints
+- uid: MingweiSamuel.Camille.ValMatchV1.Team.NumPoints*
+  name: NumPoints
+  href: api/MingweiSamuel.Camille.ValMatchV1.Team.html#MingweiSamuel_Camille_ValMatchV1_Team_NumPoints_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Team.NumPoints
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1.Team.NumPoints
+  nameWithType: Team.NumPoints
 - uid: MingweiSamuel.Camille.ValMatchV1.Team.RoundsPlayed
   name: RoundsPlayed
   href: api/MingweiSamuel.Camille.ValMatchV1.Team.html#MingweiSamuel_Camille_ValMatchV1_Team_RoundsPlayed
