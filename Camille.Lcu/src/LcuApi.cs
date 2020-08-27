@@ -34,7 +34,7 @@ namespace Camille.Lcu
 #elif USE_SYSTEXTJSON
             return System.Text.Json.JsonSerializer.Deserialize<T>(content);
 #else
-#error Must have one of USE_NEWTONSOFT or USE_SYSTEXTJSON set.
+#error One of USE_NEWTONSOFT or USE_SYSTEXTJSON must be defined.
 #endif
         }
 

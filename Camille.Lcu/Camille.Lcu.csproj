@@ -1,80 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <Import Project="$(SolutionDir)\common.csproj.xml" />
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;netcoreapp2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
-    <LangVersion>8.0</LangVersion>
-    <Nullable>enable</Nullable>
     <PackageId>Camille.Lcu</PackageId>
     <RootNamespace>Camille.Lcu</RootNamespace>
     <Version>3.0.0</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
     <Copyright>MIT 2019 Mingwei Samuel</Copyright>
-    <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
-    <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Camille.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
     <Description>League of Legends Client Update API Library.</Description>
     <Summary>League of Legends Client Update API Library.</Summary>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <!-- Explicitly generate AssemblyInfo for InternalsVisibleToAttribute -->
-    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
-    <ProjectReference Include="..\Camille.Enums\Camille.Enums.csproj" />
+    <ProjectReference Include="$(SolutionDir)\Camille.Enums\Camille.Enums.csproj" />
   </ItemGroup>
-
-  <!-- Make internals visible for testing -->
-  <ItemGroup>
-    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-      <_Parameter1>$(AssemblyName).Test</_Parameter1>
-    </AssemblyAttribute>
-  </ItemGroup>
-
-  <!-- Camille using Newtonsoft.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0'">
-    <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
-  </PropertyGroup>
-  <!-- Camille using System.Text.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp3.1'">
-    <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
-  </PropertyGroup>
 
   <!-- Shim for HttpMethod.Patch -->
   <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
     <DefineConstants>$(DefineConstants);USE_HTTPMETHOD_PATCH_SHIM</DefineConstants>
   </PropertyGroup>
-
-  <!-- Newtonsoft & Nullable attributes from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0'">
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <PackageReference Include="Nullable" Version="1.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-  <!-- System.Text.Json & System.Collections.Immutable from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-    <PackageReference Include="System.Text.Json" Version="4.6.0" />
-    <PackageReference Include="System.Collections.Immutable" Version="1.6.0" />
-  </ItemGroup>
-
-  <Target Name="DownloadTemplateData">
-    <!-- TODO -->
-  </Target>
-
-  <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
-  <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateData">
-    <Exec WorkingDirectory="$(SolutionDir)/srcgen" Command="PowerShell -ExecutionPolicy Bypass -File install.ps1" />
-    <Exec WorkingDirectory="$(SolutionDir)" Command="node srcgen/index.js &quot;$(MSBuildProjectDirectory)&quot;" />
-  </Target>
-  <!-- On Unix/OSX DispatchToInnerBuilds is not run so we use GenerateTargetFrameworkMonikerAttribute. -->
-  <Target Name="BuildTemplatesUnix" BeforeTargets="GenerateTargetFrameworkMonikerAttribute" DependsOnTargets="BuildTemplates" Condition="$(OS) == 'Unix'">
-    <Message Text="Building templates on unix." />
-  </Target>
-
-  <Target Name="EchoEnviornment" BeforeTargets="Build">
-    <Message Text="$(TargetFramework) $(OS)" />
-  </Target>
 </Project>
