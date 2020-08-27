@@ -6,11 +6,28 @@
     <Nullable>enable</Nullable>
     
     <!-- Project stuff. -->
-    <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
-    <PackageIcon>Camille.png</PackageIcon>
-    <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Camille.png</PackageIconUrl>
+    <!-- Author. -->
+    <Authors>MingweiSamuel</Authors>
+    <Company>MingweiSamuel</Company>
+    <!-- Licensing. -->
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <Copyright>2020 Mingwei Samuel and contributors</Copyright>
+    <!-- Version, should be overridden using the `-p:version` build CLI argument. -->
+    <Version>0.0.0</Version>
+    <!-- Repository. -->
     <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
+    <!-- Package icon. -->
+    <PackageIcon>Camille.png</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/MingweiSamuel/Camille/release/3.x.x/Camille.png</PackageIconUrl>
+    <!-- README. -->
+    <!--
+        This is unused for now:
+        https://github.com/NuGet/Home/wiki/Embedding-and-displaying-NuGet-READMEs
+        https://github.com/NuGet/Home/issues/6873
+    -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <!-- Build stuff. -->
     <!-- Ensure package is generated for CI. -->
@@ -20,7 +37,7 @@
     <!-- Set source code generation directory. -->
     <GenDir>gen</GenDir>
   </PropertyGroup>
-  <!-- Make internals visible for testing -->
+  <!-- Make internals visible for testing. -->
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
       <_Parameter1>$(AssemblyName).Test</_Parameter1>
@@ -28,9 +45,16 @@
   </ItemGroup>
 
 
-  <!-- Include icon image for PackageIcon. -->
+  <!-- Include project information files for packaging. -->
   <ItemGroup>
+    <!-- Icon png for PackageIcon. -->
     <None Include="$(SolutionDir)\$(PackageIcon)" Pack="true" PackagePath="\" />
+    <!-- Readme for PackageReadmeFile. -->
+    <None Include="$(SolutionDir)\$(PackageReadmeFile)" Pack="true" PackagePath="\" />
+    <!-- License files. -->
+    <None Include="$(SolutionDir)\LICENSE.txt" Pack="true" PackagePath="\" />
+    <None Include="$(SolutionDir)\LICENSE-MIT.txt" Pack="true" PackagePath="\" />
+    <None Include="$(SolutionDir)\LICENSE-APACHE.txt" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <!-- Camille using Newtonsoft.Json. -->

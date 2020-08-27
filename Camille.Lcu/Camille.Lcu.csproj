@@ -4,12 +4,7 @@
     <TargetFrameworks>netstandard2.1;netcoreapp2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <PackageId>Camille.Lcu</PackageId>
     <RootNamespace>Camille.Lcu</RootNamespace>
-    <Version>3.0.0</Version>
-    <Authors>MingweiSamuel</Authors>
-    <Company>MingweiSamuel</Company>
-    <Copyright>MIT 2019 Mingwei Samuel</Copyright>
     <Description>League of Legends Client Update API Library.</Description>
-    <Summary>League of Legends Client Update API Library.</Summary>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />

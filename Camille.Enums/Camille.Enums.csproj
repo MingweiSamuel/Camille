@@ -4,13 +4,7 @@
     <TargetFrameworks>netstandard1.1;net45;netcoreapp2.0;netstandard2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <PackageId>Camille.Enums</PackageId>
     <RootNamespace>Camille.Enums</RootNamespace>
-    <Version>3.0.0</Version>
-    <Authors>MingweiSamuel</Authors>
-    <Company>MingweiSamuel</Company>
-    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
-    <Copyright>LGPLv3 2019</Copyright>
     <Description>Enums for League of Legends and other Riot Games games.</Description>
-    <Summary>Enums for League of Legends and other Riot Games games.</Summary>
   </PropertyGroup>
 
   <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
