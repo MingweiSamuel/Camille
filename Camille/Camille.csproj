@@ -9,8 +9,8 @@
     <Version>0.0.0</Version>
     <Authors>MingweiSamuel</Authors>
     <Company>MingweiSamuel</Company>
-    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
-    <Copyright>LGPLv3 2019</Copyright>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <Copyright>2020 Mingwei Samuel and contributors</Copyright>
     <PackageProjectUrl>https://github.com/MingweiSamuel/Camille</PackageProjectUrl>
     <PackageIconUrl>http://ddragon.leagueoflegends.com/cdn/8.24.1/img/champion/Camille.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/MingweiSamuel/Camille</RepositoryUrl>
