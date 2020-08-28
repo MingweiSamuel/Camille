@@ -1,11 +1,13 @@
-﻿namespace Camille.Enums
+﻿using System;
+
+namespace Camille.Enums
 {
 #if USE_NEWTONSOFT
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
 #elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
 #endif
-    public enum RegionalRoute
+    public enum RegionalRoute: byte
     {
         /// <summary>Americas.</summary>
         AMERICAS = 1,
@@ -22,7 +24,7 @@
 #elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
 #endif
-    public enum PlatformRoute
+    public enum PlatformRoute: byte
     {
         /// <summary>Brazil.</summary>
         BR1 = 16,
@@ -67,7 +69,7 @@
 #elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
 #endif
-    public enum ValPlatformRoute
+    public enum ValPlatformRoute: byte
     {
         /// <summary>Valorant's Asian Pacific platform.</summary>
         AP = 64,
@@ -83,5 +85,39 @@
 
         /// <summary>Valorant's North America platform.</summary>
         NA = 69,
+    }
+
+    public static class RouteUtils
+    {
+        /// <summary>
+        /// Converts the PlatformRoute into its corresponding RegionalRoute. Useful for TftMatchV1
+        /// endpoints which use regional routes, while the rest of the TFT endpoints use platforms.
+        /// </summary>
+        /// <param name="value">This, the PlatformRoute to convert.</param>
+        /// <returns>AMERICAS, ASIA, or EUROPE. Will not return SEA which is only used for LoR.</returns>
+        public static RegionalRoute ToRegional(this PlatformRoute value)
+        {
+            switch (value)
+            {
+                case PlatformRoute.BR1:
+                case PlatformRoute.LA1:
+                case PlatformRoute.LA2:
+                case PlatformRoute.NA1:
+                case PlatformRoute.OC1:
+                case PlatformRoute.PBE1:
+                    return RegionalRoute.AMERICAS;
+
+                case PlatformRoute.JP1:
+                case PlatformRoute.KR:
+                    return RegionalRoute.ASIA;
+
+                case PlatformRoute.EUN1:
+                case PlatformRoute.EUW1:
+                case PlatformRoute.RU:
+                case PlatformRoute.TR1:
+                    return RegionalRoute.EUROPE;
+            }
+            throw new ArgumentException($"Unexpected PlatformRoute value: {value}.");
+        }
     }
 }
