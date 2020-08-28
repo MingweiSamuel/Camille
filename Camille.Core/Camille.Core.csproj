@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(SolutionDir)\common.csproj.xml" />
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.1;net45;netcoreapp2.0;netstandard2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <PackageId>Camille.Core</PackageId>
+    <RootNamespace>Camille.Core</RootNamespace>
+    <Description>Core utilities for Camille packages.</Description>
+  </PropertyGroup>
+</Project>

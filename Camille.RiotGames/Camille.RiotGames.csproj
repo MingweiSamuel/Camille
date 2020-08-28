@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
+    <ProjectReference Include="$(SolutionDir)\Camille.Core\Camille.Core.csproj" />
     <ProjectReference Include="$(SolutionDir)\Camille.Enums\Camille.Enums.csproj" />
   </ItemGroup>
 

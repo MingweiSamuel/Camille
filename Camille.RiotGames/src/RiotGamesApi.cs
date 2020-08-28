@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using Camille.Core;
 using Camille.RiotGames.Util;
 
 #if USE_NEWTONSOFT

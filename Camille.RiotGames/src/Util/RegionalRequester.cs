@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using Camille.Core;
 using Camille.Enums;
 
 namespace Camille.RiotGames.Util
@@ -78,7 +79,9 @@ namespace Camille.RiotGames.Util
                 }
 
                 // Send request, receive response.
-                response = await _client.SendAsync(request, token);
+                // Ensure request is disposed for good measure.
+                using var sentRequest = request;
+                response = await _client.SendAsync(sentRequest, token);
                 foreach (var rateLimit in rateLimits)
                     rateLimit.OnResponse(response, _config.BackoffStrategy(retries, num429s));
 
@@ -89,13 +92,14 @@ namespace Camille.RiotGames.Util
                 if (0 <= Array.IndexOf(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
                 // Failure. 429 and 5xx are retryable. All else exit (break loop).
-                if (429 == (int) response.StatusCode)
-                {
+                var is429 = 429 == (int) response.StatusCode;
+                if (is429)
                     num429s++;
+                if (is429 || HttpStatusCode.InternalServerError <= response.StatusCode)
+                {
+                    request = HttpRequestMessageUtils.Copy(sentRequest);
                     continue;
                 }
-                if (response.StatusCode >= HttpStatusCode.InternalServerError)
-                    continue;
                 break;
             }
             throw new RiotResponseException(

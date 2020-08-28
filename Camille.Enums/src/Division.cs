@@ -2,9 +2,6 @@ using System;
 
 namespace Camille.Enums
 {
-#if USE_SYSTEXTJSON
-  [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum Division : byte
     {
         /// <summary>

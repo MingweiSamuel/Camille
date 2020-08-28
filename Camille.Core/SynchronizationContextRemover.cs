@@ -26,7 +26,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace Camille.Lcu.Util
+namespace Camille.Core
 {
     public struct SynchronizationContextRemover : INotifyCompletion
     {
