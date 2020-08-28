@@ -10,7 +10,7 @@ namespace Camille.RiotGames.Test
         [TestMethod]
         public void TestStrings()
         {
-            foreach (Champion champ in Enum.GetValues(typeof(Champion)))
+            foreach (var champ in (Champion[]) Enum.GetValues(typeof(Champion)))
             {
                 Console.WriteLine(champ.ToString());
                 Assert.AreEqual(champ, Enum.Parse(typeof(Champion), champ.ToString()));
