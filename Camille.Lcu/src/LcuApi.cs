@@ -30,13 +30,7 @@ namespace Camille.Lcu
             await new SynchronizationContextRemover();
             var content = await _requester.SendAsync(request, token.GetValueOrDefault());
             if (null == content) return default!; // TODO: throw exception on unexpected null.
-#if USE_NEWTONSOFT
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content);
-#elif USE_SYSTEXTJSON
-            return System.Text.Json.JsonSerializer.Deserialize<T>(content);
-#else
-#error One of USE_NEWTONSOFT or USE_SYSTEXTJSON must be defined.
-#endif
+            return JsonHandler.Deserialize<T>(content);
         }
 
         /// <inheritdoc/>

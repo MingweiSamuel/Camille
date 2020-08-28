@@ -9,11 +9,11 @@ namespace Camille.Lcu.Test
     [Ignore("Required LCU to be running.")]
     public class UnitTest1
     {
-        [TestMethod]
-        public async Task TestLcuRest()
-        {
+        //[TestMethod]
+        //public async Task TestLcuRest()
+        //{
 
-        }
+        //}
 
         [TestMethod]
         public async Task TestMethod1()

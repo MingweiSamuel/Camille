@@ -19,16 +19,5 @@ namespace Camille.Lcu
         {
             this.@base = @base;
         }
-
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        protected static string JsonSerialize(object value)
-        {
-#if USE_NEWTONSOFT
-            return Newtonsoft.Json.JsonConvert.SerializeObject(value);
-#endif
-#if USE_SYSTEXTJSON
-            return System.Text.Json.JsonSerializer.Serialize(value);
-#endif
-        }
     }
 }

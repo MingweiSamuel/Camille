@@ -1,4 +1,5 @@
-﻿using Camille.RiotGames.SummonerV4;
+﻿using Camille.Core;
+using Camille.RiotGames.SummonerV4;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Camille.RiotGames.Test
@@ -20,7 +21,7 @@ namespace Camille.RiotGames.Test
     'summonerLevel': 111
 }".Replace('\'', '"');
 
-            var summoner = RiotGamesApi.Deserialize<Summoner>(str);
+            var summoner = JsonHandler.Deserialize<Summoner>(str);
             Assert.AreEqual(1, summoner._AdditionalProperties.Count);
             Assert.IsTrue(summoner._AdditionalProperties.ContainsKey("oopsExtraField"));
             Assert.AreEqual("spooky rito", summoner._AdditionalProperties["oopsExtraField"].ToString());

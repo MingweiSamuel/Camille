@@ -12,6 +12,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Camille.Core;
 using Camille.Enums;
 
 {{= it.usings.join('\r\n') }}
@@ -187,7 +188,7 @@ namespace Camille.{{= it.namespace }}
             var request = new HttpRequestMessage({{= httpMethodShimmed }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
 {{?}}
 {{? bodyType }}
-            request.Content = new StringContent(JsonSerialize(body), Encoding.UTF8, "application/json");
+            request.Content = new StringContent(JsonHandler.Serialize(body), Encoding.UTF8, "application/json");
 {{?}}
 {{?}}
             {{= methodExpr }};
