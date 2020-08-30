@@ -58,7 +58,9 @@ namespace Camille.Lcu
                     }
                 }
 
-                var response = await _client.SendAsync(request);
+                HttpResponseMessage response;
+                using (request)
+                    response = await _client.SendAsync(request);
                 return await response.Content.ReadAsStringAsync();
             }
             finally

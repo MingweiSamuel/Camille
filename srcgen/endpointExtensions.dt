@@ -12,9 +12,8 @@ namespace Camille.{{= it.namespace }}
 {{
     const endpointGroups = {};
     for (let path of Object.entries(it.spec.paths)) {
-        let ep = path[1]['x-endpoint'];
-        if (!ep)
-            continue;
+        let ep = path[1]['x-endpoint'] || it.defaultEndpoint;
+        if (!ep) continue;
         endpointGroups[ep] = endpointGroups[ep] || [];
         endpointGroups[ep].push(path);
     }

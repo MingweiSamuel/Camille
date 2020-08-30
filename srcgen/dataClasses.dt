@@ -34,11 +34,14 @@ using JsonExtensionDataAttribute = System.Text.Json.Serialization.JsonExtensionD
         if (!it.useSchema(schemaKey)) {
             continue;
         }
-        const schemaName = dotUtils.normalizeSchemaName(schemaKey.split('.')[1]);
+        const scheamKeySegs = schemaKey.split('.');
+        const schemaName = dotUtils.normalizeSchemaName(scheamKeySegs.pop());
         const props = schema.properties;
         const enums = !props && schema.enum;
+        const endpointRawName = scheamKeySegs.join('.') || it.defaultEndpoint;
+        if (!endpointRawName) throw Error('Failed to get endpoint name');
 }}
-namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(schemaKey.split('.')[0]) }}
+namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpointRawName) }}
 {
     /// <summary>
     /// {{= schemaName }} data object. This class is automatically generated.<para />

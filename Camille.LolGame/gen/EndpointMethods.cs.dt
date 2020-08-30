@@ -1,0 +1,11 @@
+﻿{{
+    const spec = require(it.path + '/.spec.json');
+    const dotUtils = require('./dotUtils.js');
+    const namespace = 'LolGame';
+    const useMethod = ([ route, path ]) => true; /*path.get && path.get.responses['200'];*/
+    const formatSendArgs = operation => 'request, cancellationToken';
+    const usings = [];
+}}
+{{= it.templates.endpointMethods({
+    spec, namespace, useMethod, formatSendArgs, usings
+}) }}

@@ -27,7 +27,8 @@ namespace Camille.{{= it.namespace }}
     for (let routePath of Object.entries(it.spec.paths)) {
         if (!it.useMethod(routePath))
             continue;
-        let ep = routePath[1]['x-endpoint'];
+        let ep = routePath[1]['x-endpoint'] || it.defaultEndpoint;
+        if (!ep) throw Error('Failed to get endpoint for route: ' + routePath);
         (endpointGroups[ep] = endpointGroups[ep] || []).push(routePath);
     }
 }}

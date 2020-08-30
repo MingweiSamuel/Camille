@@ -64,8 +64,8 @@ function stringifyType(prop, endpoint = null) {
 
   switch (prop.type) {
     case 'boolean': return 'bool';
-    case 'integer': return ('int32' === prop.format ? 'int' : 'long');
-    case 'number': return prop.format;
+    case 'integer': return ((!prop.format || 'int32' === prop.format) ? 'int' : 'long');
+    case 'number': return prop.format || 'double';
     case 'array': return stringifyType(prop.items, endpoint) + '[]';
     case 'object': {
       const keyType = prop['x-key'] ? stringifyType(prop['x-key'], endpoint) : 'string';
@@ -90,7 +90,7 @@ function replaceEnumCasts(input) {
 }
 
 function formatJsonProperty(name) {
-  return `[JsonProperty(\"${name}\")]`;
+  return `[JsonProperty("${name}")]`;
 }
 
 function formatQueryParamStringify(expr, prop) {

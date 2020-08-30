@@ -1,0 +1,13 @@
+﻿{{
+    const dotUtils = require('./dotUtils.js');
+
+    const spec = require(it.path + '/.spec.json');
+    const header = `// http://www.mingweisamuel.com/lolgameapi-schema/tool/\r\n`;
+    const usings = []; /* 'using Camille.RiotGames.Enums;' ]; */
+    const useSchema = (schemaKey) => true;
+    const namespace = 'LolGame';
+}}
+
+{{= it.templates.dataClasses({
+    spec, header, usings, useSchema, namespace
+}) }}

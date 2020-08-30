@@ -1,5 +1,4 @@
 ﻿using System.Net.Http;
-using System.Runtime.CompilerServices;
 
 namespace Camille.Lcu
 {

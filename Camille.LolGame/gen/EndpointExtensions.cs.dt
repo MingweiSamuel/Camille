@@ -1,0 +1,8 @@
+﻿{{
+    const spec = require(it.path + '/.spec.json');
+
+    const namespace = 'LolGame';
+}}
+{{= it.templates.endpointExtensions({
+    spec, namespace
+}) }}

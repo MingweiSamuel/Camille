@@ -17,7 +17,7 @@ namespace Camille.RiotGames.Util
     public class RegionalRequester
     {
         /// <summary>Root url for Riot API requests.</summary>
-        private const string RiotRootUrl = ".api.riotgames.com";
+        private const string RiotRootUrl = ".api.riotgames.com"; // TODO: configure in settings?
         /// <summary>Request header name for the Riot API key.</summary>
         private const string RiotKeyHeader = "X-Riot-Token";
 
