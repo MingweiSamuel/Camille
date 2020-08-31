@@ -20,7 +20,7 @@ Data classes are automatically generated from the
 
 ## Installation
 
-[Install via NuGet](https://www.nuget.org/packages/MingweiSamuel.Camille/) (`MingweiSamuel.Camille`).
+[Install via NuGet](https://www.nuget.org/packages?q=Camille&prerel=true) (`MingweiSamuel.Camille`).
 
 ## Usage
 
