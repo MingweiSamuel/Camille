@@ -17303,90 +17303,90 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Matchlist.ToString
   nameWithType: Matchlist.ToString
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference
-  name: MatchReference
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html
-  commentId: T:MingweiSamuel.Camille.ValMatchV1.MatchReference
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference
-  nameWithType: MatchReference
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.#ctor
-  name: MatchReference()
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference__ctor
-  commentId: M:MingweiSamuel.Camille.ValMatchV1.MatchReference.#ctor
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchReference()
-  nameWithType: MatchReference.MatchReference()
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.#ctor*
-  name: MatchReference
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference__ctor_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.#ctor
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry
+  name: MatchlistEntry
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html
+  commentId: T:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry
+  nameWithType: MatchlistEntry
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.#ctor
+  name: MatchlistEntry()
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry__ctor
+  commentId: M:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.#ctor
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchlistEntry()
+  nameWithType: MatchlistEntry.MatchlistEntry()
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.#ctor*
+  name: MatchlistEntry
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry__ctor_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.#ctor
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchReference
-  nameWithType: MatchReference.MatchReference
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchlistEntry
+  nameWithType: MatchlistEntry.MatchlistEntry
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties
   name: _AdditionalProperties
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference__AdditionalProperties
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
-  nameWithType: MatchReference._AdditionalProperties
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties*
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties
+  nameWithType: MatchlistEntry._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties*
   name: _AdditionalProperties
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference__AdditionalProperties_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference._AdditionalProperties
-  nameWithType: MatchReference._AdditionalProperties
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry._AdditionalProperties
+  nameWithType: MatchlistEntry._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis
   name: GameStartTimeMillis
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTimeMillis
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
-  nameWithType: MatchReference.GameStartTimeMillis
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis*
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_GameStartTimeMillis
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis
+  nameWithType: MatchlistEntry.GameStartTimeMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis*
   name: GameStartTimeMillis
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_GameStartTimeMillis_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_GameStartTimeMillis_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.GameStartTimeMillis
-  nameWithType: MatchReference.GameStartTimeMillis
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.GameStartTimeMillis
+  nameWithType: MatchlistEntry.GameStartTimeMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
   name: MatchId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_MatchId
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
-  nameWithType: MatchReference.MatchId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId*
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_MatchId
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
+  nameWithType: MatchlistEntry.MatchId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId*
   name: MatchId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_MatchId_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_MatchId_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.MatchId
-  nameWithType: MatchReference.MatchId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
+  nameWithType: MatchlistEntry.MatchId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
   name: TeamId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_TeamId
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId
-  nameWithType: MatchReference.TeamId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId*
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_TeamId
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
+  nameWithType: MatchlistEntry.TeamId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId*
   name: TeamId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_TeamId_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_TeamId_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.TeamId
-  nameWithType: MatchReference.TeamId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
+  nameWithType: MatchlistEntry.TeamId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString
   name: ToString()
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_ToString
-  commentId: M:MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString()
-  nameWithType: MatchReference.ToString()
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString*
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_ToString
+  commentId: M:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString()
+  nameWithType: MatchlistEntry.ToString()
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString*
   name: ToString
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html#MingweiSamuel_Camille_ValMatchV1_MatchReference_ToString_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_ToString_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchReference.ToString
-  nameWithType: MatchReference.ToString
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString
+  nameWithType: MatchlistEntry.ToString
 - uid: MingweiSamuel.Camille.ValMatchV1.Player
   name: Player
   href: api/MingweiSamuel.Camille.ValMatchV1.Player.html

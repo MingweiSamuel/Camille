@@ -1805,11 +1805,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchReference.yml",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Matchlist.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchReference.html",
-          "hash": "hU2IaacdAQWuG7Pr7aU0Mg=="
+          "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Matchlist.html",
+          "hash": "rIignhZuyxAuDBirOSsS4A=="
         }
       },
       "is_incremental": false,
@@ -1817,11 +1817,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Matchlist.yml",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Matchlist.html",
-          "hash": "hTq70SYFCrdRtRSSg8p2Nw=="
+          "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html",
+          "hash": "2fpV173APNBBNgGB1zvN1g=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.html",
-          "hash": "535zsgK0tVmqSPzSR5Byhw=="
+          "hash": "MFK2YY+VhFYD1plkYvClMQ=="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/QVvsRRrU/+9PBrrCgTlVA=="
+          "hash": "g5Ols/6FhB4xez7z+7FExw=="
         }
       },
       "is_incremental": false,
