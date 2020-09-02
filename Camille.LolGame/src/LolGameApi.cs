@@ -43,7 +43,7 @@ namespace Camille.LolGame
 
             _client = new HttpClient(_clientHandler)
             {
-                BaseAddress = new Uri("https://127.0.0.1:2999")
+                BaseAddress = _config.BaseAddress
             };
         }
 
