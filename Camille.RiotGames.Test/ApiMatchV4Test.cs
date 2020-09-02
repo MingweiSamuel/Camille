@@ -7,7 +7,7 @@ using System.Linq;
 namespace Camille.RiotGames.Test
 {
     [TestClass]
-    public class ApiMatchTestV4 : ApiTest
+    public class ApiMatchV4Test : ApiTest
     {
         public static long[] MatchIds =
         {
