@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="$(SolutionDir)\common.csproj.xml" />
+  <Import Project="..\common.csproj.xml" />
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;netcoreapp2.1;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <PackageId>Camille.Lcu</PackageId>
