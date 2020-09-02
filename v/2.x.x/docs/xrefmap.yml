@@ -1943,6 +1943,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.RYZE
   fullName: MingweiSamuel.Camille.Enums.Champion.RYZE
   nameWithType: Champion.RYZE
+- uid: MingweiSamuel.Camille.Enums.Champion.SAMIRA
+  name: SAMIRA
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_SAMIRA
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.SAMIRA
+  fullName: MingweiSamuel.Camille.Enums.Champion.SAMIRA
+  nameWithType: Champion.SAMIRA
 - uid: MingweiSamuel.Camille.Enums.Champion.SEJUANI
   name: SEJUANI
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_SEJUANI
@@ -2849,6 +2855,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Ryze
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Ryze
   nameWithType: ChampionId.Ryze
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Samira
+  name: Samira
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Samira
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Samira
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Samira
+  nameWithType: ChampionId.Samira
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Sejuani
   name: Sejuani
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Sejuani
@@ -8874,6 +8886,45 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.SightWardsBoughtInGame
   nameWithType: ParticipantStats.SightWardsBoughtInGame
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0
+  name: StatPerk0
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk0
+  commentId: P:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0
+  nameWithType: ParticipantStats.StatPerk0
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0*
+  name: StatPerk0
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk0_
+  commentId: Overload:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk0
+  nameWithType: ParticipantStats.StatPerk0
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1
+  name: StatPerk1
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk1
+  commentId: P:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1
+  nameWithType: ParticipantStats.StatPerk1
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1*
+  name: StatPerk1
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk1_
+  commentId: Overload:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk1
+  nameWithType: ParticipantStats.StatPerk1
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2
+  name: StatPerk2
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk2
+  commentId: P:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2
+  nameWithType: ParticipantStats.StatPerk2
+- uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2*
+  name: StatPerk2
+  href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_StatPerk2_
+  commentId: Overload:MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV4.ParticipantStats.StatPerk2
+  nameWithType: ParticipantStats.StatPerk2
 - uid: MingweiSamuel.Camille.MatchV4.ParticipantStats.TeamObjective
   name: TeamObjective
   href: api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html#MingweiSamuel_Camille_MatchV4_ParticipantStats_TeamObjective
@@ -16837,6 +16888,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
   nameWithType: Kill.RoundTime
+- uid: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
+  name: TimeSinceGameStartMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_TimeSinceGameStartMillis
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
+  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
+  nameWithType: Kill.TimeSinceGameStartMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis*
+  name: TimeSinceGameStartMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_TimeSinceGameStartMillis_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
+  nameWithType: Kill.TimeSinceGameStartMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis
+  name: TimeSinceRoundStartMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_TimeSinceRoundStartMillis
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis
+  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis
+  nameWithType: Kill.TimeSinceRoundStartMillis
+- uid: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis*
+  name: TimeSinceRoundStartMillis
+  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_TimeSinceRoundStartMillis_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceRoundStartMillis
+  nameWithType: Kill.TimeSinceRoundStartMillis
 - uid: MingweiSamuel.Camille.ValMatchV1.Kill.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_ToString
