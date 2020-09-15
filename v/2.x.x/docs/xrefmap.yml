@@ -18376,3 +18376,35 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1Endpoints.GetMatchlistAsync
   nameWithType: ValMatchV1Endpoints.GetMatchlistAsync
+- uid: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetRecent(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ValMatchV1Endpoints.html#MingweiSamuel_Camille_ValMatchV1Endpoints_GetRecent_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRecent(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValMatchV1Endpoints.GetRecent(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValMatchV1Endpoints.GetRecent(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent*
+  name: GetRecent
+  href: api/MingweiSamuel.Camille.ValMatchV1Endpoints.html#MingweiSamuel_Camille_ValMatchV1Endpoints_GetRecent_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecent
+  nameWithType: ValMatchV1Endpoints.GetRecent
+- uid: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetRecentAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ValMatchV1Endpoints.html#MingweiSamuel_Camille_ValMatchV1Endpoints_GetRecentAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRecentAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValMatchV1Endpoints.GetRecentAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValMatchV1Endpoints.GetRecentAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync*
+  name: GetRecentAsync
+  href: api/MingweiSamuel.Camille.ValMatchV1Endpoints.html#MingweiSamuel_Camille_ValMatchV1Endpoints_GetRecentAsync_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1Endpoints.GetRecentAsync
+  nameWithType: ValMatchV1Endpoints.GetRecentAsync
