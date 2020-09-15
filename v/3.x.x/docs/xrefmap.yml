@@ -734,6 +734,12 @@ references:
   commentId: F:Camille.Enums.Champion.RYZE
   fullName: Camille.Enums.Champion.RYZE
   nameWithType: Champion.RYZE
+- uid: Camille.Enums.Champion.SAMIRA
+  name: SAMIRA
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SAMIRA
+  commentId: F:Camille.Enums.Champion.SAMIRA
+  fullName: Camille.Enums.Champion.SAMIRA
+  nameWithType: Champion.SAMIRA
 - uid: Camille.Enums.Champion.SEJUANI
   name: SEJUANI
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SEJUANI
@@ -11782,6 +11788,12 @@ references:
   commentId: T:Camille.LolGame.LolGameConfig
   fullName: Camille.LolGame.LolGameConfig
   nameWithType: LolGameConfig
+- uid: Camille.LolGame.LolGameConfig.BaseAddress
+  name: BaseAddress
+  href: api/Camille.LolGame.LolGameConfig.html#Camille_LolGame_LolGameConfig_BaseAddress
+  commentId: F:Camille.LolGame.LolGameConfig.BaseAddress
+  fullName: Camille.LolGame.LolGameConfig.BaseAddress
+  nameWithType: LolGameConfig.BaseAddress
 - uid: Camille.LolGame.LolGameConfig.CertificateValidationCallback
   name: CertificateValidationCallback
   href: api/Camille.LolGame.LolGameConfig.html#Camille_LolGame_LolGameConfig_CertificateValidationCallback
@@ -18163,6 +18175,45 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV4.ParticipantStats.SightWardsBoughtInGame
   nameWithType: ParticipantStats.SightWardsBoughtInGame
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0
+  name: StatPerk0
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk0
+  commentId: P:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0
+  nameWithType: ParticipantStats.StatPerk0
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0*
+  name: StatPerk0
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk0_
+  commentId: Overload:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk0
+  nameWithType: ParticipantStats.StatPerk0
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1
+  name: StatPerk1
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk1
+  commentId: P:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1
+  nameWithType: ParticipantStats.StatPerk1
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1*
+  name: StatPerk1
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk1_
+  commentId: Overload:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk1
+  nameWithType: ParticipantStats.StatPerk1
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2
+  name: StatPerk2
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk2
+  commentId: P:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2
+  nameWithType: ParticipantStats.StatPerk2
+- uid: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2*
+  name: StatPerk2
+  href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_StatPerk2_
+  commentId: Overload:Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV4.ParticipantStats.StatPerk2
+  nameWithType: ParticipantStats.StatPerk2
 - uid: Camille.RiotGames.MatchV4.ParticipantStats.TeamObjective
   name: TeamObjective
   href: api/Camille.RiotGames.MatchV4.ParticipantStats.html#Camille_RiotGames_MatchV4_ParticipantStats_TeamObjective
@@ -27825,3 +27876,35 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1Endpoints.GetMatchlistAsync
   nameWithType: ValMatchV1Endpoints.GetMatchlistAsync
+- uid: Camille.RiotGames.ValMatchV1Endpoints.GetRecent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetRecent(ValPlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValMatchV1Endpoints.html#Camille_RiotGames_ValMatchV1Endpoints_GetRecent_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValMatchV1Endpoints.GetRecent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRecent(ValPlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValMatchV1Endpoints.GetRecent(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValMatchV1Endpoints.GetRecent(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValMatchV1Endpoints.GetRecent(ValPlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValMatchV1Endpoints.GetRecent(ValPlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValMatchV1Endpoints.GetRecent*
+  name: GetRecent
+  href: api/Camille.RiotGames.ValMatchV1Endpoints.html#Camille_RiotGames_ValMatchV1Endpoints_GetRecent_
+  commentId: Overload:Camille.RiotGames.ValMatchV1Endpoints.GetRecent
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1Endpoints.GetRecent
+  nameWithType: ValMatchV1Endpoints.GetRecent
+- uid: Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetRecentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValMatchV1Endpoints.html#Camille_RiotGames_ValMatchV1Endpoints_GetRecentAsync_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRecentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync*
+  name: GetRecentAsync
+  href: api/Camille.RiotGames.ValMatchV1Endpoints.html#Camille_RiotGames_ValMatchV1Endpoints_GetRecentAsync_
+  commentId: Overload:Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync
+  nameWithType: ValMatchV1Endpoints.GetRecentAsync
