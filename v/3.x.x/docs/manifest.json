@@ -3065,6 +3065,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.RecentMatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.RecentMatches.html",
+          "hash": "PlaqtOz1kIP7CQpt9AANUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Camille.RiotGames.ValMatchV1.RoundResult.yml",
       "output": {
         ".html": {
@@ -3093,7 +3105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.html",
-          "hash": "fZRXCO3BBwfEqqFZuwjIHA=="
+          "hash": "NwrRLsPN0H1Hw0Ty2lBJvQ=="
         }
       },
       "is_incremental": false,
@@ -3105,7 +3117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1Endpoints.html",
-          "hash": "yYn9CvKGCQBAZBVi70a52Q=="
+          "hash": "0ZLVdNrv0aYRkP2QtwK5Jw=="
         }
       },
       "is_incremental": false,
@@ -3141,7 +3153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OvC55K5cXUUt9R/38QGM0w=="
+          "hash": "d8OehzHjHy1BFQEFGNzkCA=="
         }
       },
       "is_incremental": false,
@@ -3192,7 +3204,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 259,
+          "total_file_count": 260,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
