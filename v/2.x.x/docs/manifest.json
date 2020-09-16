@@ -1877,6 +1877,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.RecentMatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.RecentMatches.html",
+          "hash": "00aNc39TQTF9Yt9m/Zuv/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MingweiSamuel.Camille.ValMatchV1.RoundResult.yml",
       "output": {
         ".html": {
@@ -1905,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.html",
-          "hash": "MFK2YY+VhFYD1plkYvClMQ=="
+          "hash": "It/JaFUKAwOLaO6EQGowKQ=="
         }
       },
       "is_incremental": false,
@@ -1917,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1Endpoints.html",
-          "hash": "SwPR1JJOfbv0SkxIFfUbNw=="
+          "hash": "ehwUHAK0uyaY9oTIEnPnHQ=="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "g5Ols/6FhB4xez7z+7FExw=="
+          "hash": "oB0km4fCdpfso5FHU1FNvg=="
         }
       },
       "is_incremental": false,
@@ -2004,7 +2016,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 160,
+          "total_file_count": 161,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
