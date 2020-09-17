@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MingweiSamuel.Camille.Enums
 {
@@ -7,14 +8,22 @@ namespace MingweiSamuel.Camille.Enums
     {
         #region instance creation
         /// <summary>
-        /// Dictionary containing known instnaces.
+        /// Dictionary containing known non-Valorant instances.
         /// This must be listed above the `Register(...)` calls.
         /// </summary>
-        private static readonly ConcurrentDictionary<string, Region> Regions =
-            new ConcurrentDictionary<string, Region>(StringComparer.OrdinalIgnoreCase);
+        private static readonly Dictionary<string, Region> Regions =
+            new Dictionary<string, Region>(StringComparer.OrdinalIgnoreCase);
+
+        /// <summary>
+        /// Dictionary containing Valorant instnaces.
+        /// This must be listed above the `Register(...)` calls.
+        /// </summary>
+        private static readonly Dictionary<string, Region> RegionsValorant =
+            new Dictionary<string, Region>(StringComparer.OrdinalIgnoreCase);
 
         /// <summary>
         /// Gets the Region associated with the given region key or platform ID. Throws a KeyNotFoundException if not found.
+        /// Does not return Valorant regions, for that use GetValorant().
         /// </summary>
         /// <param name="name">Region key or platform ID.</param>
         /// <exception cref="System.Collections.Generic.KeyNotFoundException">If region not found.</exception>
@@ -25,7 +34,18 @@ namespace MingweiSamuel.Camille.Enums
         }
 
         /// <summary>
-        /// Create region instance and register in Regions dictionary. Private.
+        /// Gets the Valorant Region associated with the given region key or platform ID. Throws a KeyNotFoundException if not found.
+        /// </summary>
+        /// <param name="name">Region key or platform ID.</param>
+        /// <exception cref="System.Collections.Generic.KeyNotFoundException">If region not found.</exception>
+        /// <returns>Matching region.</returns>
+        public static Region GetValorant(string name)
+        {
+            return RegionsValorant[name];
+        }
+
+        /// <summary>
+        /// Create non-Valorant region instance and register in Regions dictionary. Private.
         /// </summary>
         private static Region Register(string key, string? platform)
         {
@@ -35,6 +55,20 @@ namespace MingweiSamuel.Camille.Enums
             Regions[key] = region;
             if (platform != null)
                 Regions[platform] = region;
+            return region;
+        }
+
+        /// <summary>
+        /// Create Valorant region instance and register in Regions dictionary. Private.
+        /// </summary>
+        private static Region RegisterValorant(string key, string? platform)
+        {
+#pragma warning disable 618
+            var region = new Region(key, platform);
+#pragma warning restore 618
+            RegionsValorant[key] = region;
+            if (platform != null)
+                RegionsValorant[platform] = region;
             return region;
         }
         #endregion
@@ -77,19 +111,19 @@ namespace MingweiSamuel.Camille.Enums
 
         #region valorant regions
         /// <summary>Valorant Asian Pacific platform.</summary>
-        public static readonly Region VAL_AP = Register("AP", "AP");
+        public static readonly Region VAL_AP = RegisterValorant("AP", "AP");
         /// <summary>Valorant Brazil platform.</summary>
-        public static readonly Region VAL_BR = Register("BR", "BR");
+        public static readonly Region VAL_BR = RegisterValorant("BR", "BR");
         /// <summary>Valorant Europe platform.</summary>
-        public static readonly Region VAL_EU = Register("EU", "EU");
+        public static readonly Region VAL_EU = RegisterValorant("EU", "EU");
         /// <summary>Valorant Korea platform.</summary>
-        public static readonly Region VAL_KR = Register("KR", "KR");
+        public static readonly Region VAL_KR = RegisterValorant("KR", "KR");
         /// <summary>Valorant Latin America platform.</summary>
-        public static readonly Region VAL_LATAM = Register("LATAM", "LATAM");
+        public static readonly Region VAL_LATAM = RegisterValorant("LATAM", "LATAM");
         /// <summary>Valorant North America platform.</summary>
-        public static readonly Region VAL_NA = Register("NA", "NA");
+        public static readonly Region VAL_NA = RegisterValorant("NA", "NA");
         /// <summary>Valorant Public Beta Environment platform.</summary>
-        public static readonly Region VAL_PBE = Register("PBE", "PBE1");
+        public static readonly Region VAL_PBE = RegisterValorant("PBE", "PBE1");
         #endregion
 
         #region regional proxies
@@ -124,6 +158,11 @@ namespace MingweiSamuel.Camille.Enums
         {
             Key = key;
             Platform = platform;
+        }
+
+        public override string ToString()
+        {
+            return $"Region({Key},{Platform})";
         }
     }
 }

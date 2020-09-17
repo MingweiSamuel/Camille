@@ -27,7 +27,6 @@ namespace MingweiSamuel.Camille.Test
 
             Assert.IsNotNull(leagueList);
             Assert.IsNotNull(leagueList.Entries);
-            Assert.IsTrue(leagueList.Entries.Length > 10);
         }
     }
 }
