@@ -7,7 +7,6 @@ using MingweiSamuel.Camille.TftLeagueV1;
 namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
-    [Ignore("API key doesn't include TFT APIs.")]
     public class ApiTftLeagueV1Test : ApiTest
     {
 
@@ -20,6 +19,12 @@ namespace MingweiSamuel.Camille.Test
         public static void CheckGetChallenger(LeagueList leagueList)
         {
             Console.WriteLine(leagueList);
+            if (null == leagueList)
+            {
+                Console.WriteLine("No one in TFT Challenger!");
+                return;
+            }
+
             Assert.IsNotNull(leagueList);
             Assert.IsNotNull(leagueList.Entries);
             Assert.IsTrue(leagueList.Entries.Length > 10);

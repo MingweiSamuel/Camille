@@ -7,7 +7,6 @@ using MingweiSamuel.Camille.TftSummonerV1;
 namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
-    [Ignore("API key doesn't include TFT APIs.")]
     public class ApiTftSummonerV1Test : ApiTest
     {
 

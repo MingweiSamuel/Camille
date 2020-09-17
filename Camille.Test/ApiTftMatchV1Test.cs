@@ -7,7 +7,6 @@ using MingweiSamuel.Camille.TftMatchV1;
 namespace MingweiSamuel.Camille.Test
 {
     [TestClass]
-    [Ignore("API key doesn't include TFT APIs.")]
     public class ApiTftMatchV1Test : ApiTest
     {
         [TestMethod]
@@ -20,6 +19,18 @@ namespace MingweiSamuel.Camille.Test
         {
             Console.WriteLine(match);
             Assert.IsNotNull(match);
+        }
+
+        [TestMethod]
+        public async Task GetMatchIdsByPUUID()
+        {
+            var summoner = await Api.TftSummonerV1.GetBySummonerNameAsync(Region.NA, "Kranos");
+            CheckGetMatchIdsByPUUID(await Api.TftMatchV1.GetMatchIdsByPUUIDAsync(Region.Americas, summoner.Puuid));
+        }
+
+        public static void CheckGetMatchIdsByPUUID(string[] matchIds)
+        {
+            Assert.IsNotNull(matchIds);
         }
     }
 }
