@@ -14904,6 +14904,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolStatusV3.Message.CreatedAt
   nameWithType: Message.CreatedAt
+- uid: Camille.RiotGames.LolStatusV3.Message.Heading
+  name: Heading
+  href: api/Camille.RiotGames.LolStatusV3.Message.html#Camille_RiotGames_LolStatusV3_Message_Heading
+  commentId: P:Camille.RiotGames.LolStatusV3.Message.Heading
+  fullName: Camille.RiotGames.LolStatusV3.Message.Heading
+  nameWithType: Message.Heading
+- uid: Camille.RiotGames.LolStatusV3.Message.Heading*
+  name: Heading
+  href: api/Camille.RiotGames.LolStatusV3.Message.html#Camille_RiotGames_LolStatusV3_Message_Heading_
+  commentId: Overload:Camille.RiotGames.LolStatusV3.Message.Heading
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolStatusV3.Message.Heading
+  nameWithType: Message.Heading
 - uid: Camille.RiotGames.LolStatusV3.Message.Id
   name: Id
   href: api/Camille.RiotGames.LolStatusV3.Message.html#Camille_RiotGames_LolStatusV3_Message_Id
@@ -15234,19 +15247,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolStatusV3.Translation.Content
   nameWithType: Translation.Content
-- uid: Camille.RiotGames.LolStatusV3.Translation.Heading
-  name: Heading
-  href: api/Camille.RiotGames.LolStatusV3.Translation.html#Camille_RiotGames_LolStatusV3_Translation_Heading
-  commentId: P:Camille.RiotGames.LolStatusV3.Translation.Heading
-  fullName: Camille.RiotGames.LolStatusV3.Translation.Heading
-  nameWithType: Translation.Heading
-- uid: Camille.RiotGames.LolStatusV3.Translation.Heading*
-  name: Heading
-  href: api/Camille.RiotGames.LolStatusV3.Translation.html#Camille_RiotGames_LolStatusV3_Translation_Heading_
-  commentId: Overload:Camille.RiotGames.LolStatusV3.Translation.Heading
-  isSpec: "True"
-  fullName: Camille.RiotGames.LolStatusV3.Translation.Heading
-  nameWithType: Translation.Heading
 - uid: Camille.RiotGames.LolStatusV3.Translation.Locale
   name: Locale
   href: api/Camille.RiotGames.LolStatusV3.Translation.html#Camille_RiotGames_LolStatusV3_Translation_Locale
@@ -15273,6 +15273,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolStatusV3.Translation.ToString
   nameWithType: Translation.ToString
+- uid: Camille.RiotGames.LolStatusV3.Translation.UpdatedAt
+  name: UpdatedAt
+  href: api/Camille.RiotGames.LolStatusV3.Translation.html#Camille_RiotGames_LolStatusV3_Translation_UpdatedAt
+  commentId: P:Camille.RiotGames.LolStatusV3.Translation.UpdatedAt
+  fullName: Camille.RiotGames.LolStatusV3.Translation.UpdatedAt
+  nameWithType: Translation.UpdatedAt
+- uid: Camille.RiotGames.LolStatusV3.Translation.UpdatedAt*
+  name: UpdatedAt
+  href: api/Camille.RiotGames.LolStatusV3.Translation.html#Camille_RiotGames_LolStatusV3_Translation_UpdatedAt_
+  commentId: Overload:Camille.RiotGames.LolStatusV3.Translation.UpdatedAt
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolStatusV3.Translation.UpdatedAt
+  nameWithType: Translation.UpdatedAt
 - uid: Camille.RiotGames.LolStatusV3Endpoints
   name: LolStatusV3Endpoints
   href: api/Camille.RiotGames.LolStatusV3Endpoints.html
@@ -25405,6 +25418,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValContentV1.ContentItem.AssetName
   nameWithType: ContentItem.AssetName
+- uid: Camille.RiotGames.ValContentV1.ContentItem.AssetPath
+  name: AssetPath
+  href: api/Camille.RiotGames.ValContentV1.ContentItem.html#Camille_RiotGames_ValContentV1_ContentItem_AssetPath
+  commentId: P:Camille.RiotGames.ValContentV1.ContentItem.AssetPath
+  fullName: Camille.RiotGames.ValContentV1.ContentItem.AssetPath
+  nameWithType: ContentItem.AssetPath
+- uid: Camille.RiotGames.ValContentV1.ContentItem.AssetPath*
+  name: AssetPath
+  href: api/Camille.RiotGames.ValContentV1.ContentItem.html#Camille_RiotGames_ValContentV1_ContentItem_AssetPath_
+  commentId: Overload:Camille.RiotGames.ValContentV1.ContentItem.AssetPath
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.ContentItem.AssetPath
+  nameWithType: ContentItem.AssetPath
+- uid: Camille.RiotGames.ValContentV1.ContentItem.Id
+  name: Id
+  href: api/Camille.RiotGames.ValContentV1.ContentItem.html#Camille_RiotGames_ValContentV1_ContentItem_Id
+  commentId: P:Camille.RiotGames.ValContentV1.ContentItem.Id
+  fullName: Camille.RiotGames.ValContentV1.ContentItem.Id
+  nameWithType: ContentItem.Id
+- uid: Camille.RiotGames.ValContentV1.ContentItem.Id*
+  name: Id
+  href: api/Camille.RiotGames.ValContentV1.ContentItem.html#Camille_RiotGames_ValContentV1_ContentItem_Id_
+  commentId: Overload:Camille.RiotGames.ValContentV1.ContentItem.Id
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.ContentItem.Id
+  nameWithType: ContentItem.Id
 - uid: Camille.RiotGames.ValContentV1.ContentItem.LocalizedNames
   name: LocalizedNames
   href: api/Camille.RiotGames.ValContentV1.ContentItem.html#Camille_RiotGames_ValContentV1_ContentItem_LocalizedNames
@@ -26336,19 +26375,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Kill.FinishingDamage
   nameWithType: Kill.FinishingDamage
-- uid: Camille.RiotGames.ValMatchV1.Kill.GameTime
-  name: GameTime
-  href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_GameTime
-  commentId: P:Camille.RiotGames.ValMatchV1.Kill.GameTime
-  fullName: Camille.RiotGames.ValMatchV1.Kill.GameTime
-  nameWithType: Kill.GameTime
-- uid: Camille.RiotGames.ValMatchV1.Kill.GameTime*
-  name: GameTime
-  href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_GameTime_
-  commentId: Overload:Camille.RiotGames.ValMatchV1.Kill.GameTime
-  isSpec: "True"
-  fullName: Camille.RiotGames.ValMatchV1.Kill.GameTime
-  nameWithType: Kill.GameTime
 - uid: Camille.RiotGames.ValMatchV1.Kill.Killer
   name: Killer
   href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_Killer
@@ -26375,19 +26401,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Kill.PlayerLocations
   nameWithType: Kill.PlayerLocations
-- uid: Camille.RiotGames.ValMatchV1.Kill.RoundTime
-  name: RoundTime
-  href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_RoundTime
-  commentId: P:Camille.RiotGames.ValMatchV1.Kill.RoundTime
-  fullName: Camille.RiotGames.ValMatchV1.Kill.RoundTime
-  nameWithType: Kill.RoundTime
-- uid: Camille.RiotGames.ValMatchV1.Kill.RoundTime*
-  name: RoundTime
-  href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_RoundTime_
-  commentId: Overload:Camille.RiotGames.ValMatchV1.Kill.RoundTime
-  isSpec: "True"
-  fullName: Camille.RiotGames.ValMatchV1.Kill.RoundTime
-  nameWithType: Kill.RoundTime
 - uid: Camille.RiotGames.ValMatchV1.Kill.TimeSinceGameStartMillis
   name: TimeSinceGameStartMillis
   href: api/Camille.RiotGames.ValMatchV1.Kill.html#Camille_RiotGames_ValMatchV1_Kill_TimeSinceGameStartMillis
