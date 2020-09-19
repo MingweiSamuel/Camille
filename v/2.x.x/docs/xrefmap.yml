@@ -5641,6 +5641,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Message.CreatedAt
   nameWithType: Message.CreatedAt
+- uid: MingweiSamuel.Camille.LolStatusV3.Message.Heading
+  name: Heading
+  href: api/MingweiSamuel.Camille.LolStatusV3.Message.html#MingweiSamuel_Camille_LolStatusV3_Message_Heading
+  commentId: P:MingweiSamuel.Camille.LolStatusV3.Message.Heading
+  fullName: MingweiSamuel.Camille.LolStatusV3.Message.Heading
+  nameWithType: Message.Heading
+- uid: MingweiSamuel.Camille.LolStatusV3.Message.Heading*
+  name: Heading
+  href: api/MingweiSamuel.Camille.LolStatusV3.Message.html#MingweiSamuel_Camille_LolStatusV3_Message_Heading_
+  commentId: Overload:MingweiSamuel.Camille.LolStatusV3.Message.Heading
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolStatusV3.Message.Heading
+  nameWithType: Message.Heading
 - uid: MingweiSamuel.Camille.LolStatusV3.Message.Id
   name: Id
   href: api/MingweiSamuel.Camille.LolStatusV3.Message.html#MingweiSamuel_Camille_LolStatusV3_Message_Id
@@ -5971,19 +5984,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Translation.Content
   nameWithType: Translation.Content
-- uid: MingweiSamuel.Camille.LolStatusV3.Translation.Heading
-  name: Heading
-  href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_Heading
-  commentId: P:MingweiSamuel.Camille.LolStatusV3.Translation.Heading
-  fullName: MingweiSamuel.Camille.LolStatusV3.Translation.Heading
-  nameWithType: Translation.Heading
-- uid: MingweiSamuel.Camille.LolStatusV3.Translation.Heading*
-  name: Heading
-  href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_Heading_
-  commentId: Overload:MingweiSamuel.Camille.LolStatusV3.Translation.Heading
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LolStatusV3.Translation.Heading
-  nameWithType: Translation.Heading
 - uid: MingweiSamuel.Camille.LolStatusV3.Translation.Locale
   name: Locale
   href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_Locale
@@ -6010,6 +6010,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3.Translation.ToString
   nameWithType: Translation.ToString
+- uid: MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt
+  name: UpdatedAt
+  href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_UpdatedAt
+  commentId: P:MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt
+  fullName: MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt
+  nameWithType: Translation.UpdatedAt
+- uid: MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt*
+  name: UpdatedAt
+  href: api/MingweiSamuel.Camille.LolStatusV3.Translation.html#MingweiSamuel_Camille_LolStatusV3_Translation_UpdatedAt_
+  commentId: Overload:MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolStatusV3.Translation.UpdatedAt
+  nameWithType: Translation.UpdatedAt
 - uid: MingweiSamuel.Camille.LolStatusV3Endpoints
   name: LolStatusV3Endpoints
   href: api/MingweiSamuel.Camille.LolStatusV3Endpoints.html
@@ -15931,6 +15944,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValContentV1.ContentItem.AssetName
   nameWithType: ContentItem.AssetName
+- uid: MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath
+  name: AssetPath
+  href: api/MingweiSamuel.Camille.ValContentV1.ContentItem.html#MingweiSamuel_Camille_ValContentV1_ContentItem_AssetPath
+  commentId: P:MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath
+  fullName: MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath
+  nameWithType: ContentItem.AssetPath
+- uid: MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath*
+  name: AssetPath
+  href: api/MingweiSamuel.Camille.ValContentV1.ContentItem.html#MingweiSamuel_Camille_ValContentV1_ContentItem_AssetPath_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.ContentItem.AssetPath
+  nameWithType: ContentItem.AssetPath
+- uid: MingweiSamuel.Camille.ValContentV1.ContentItem.Id
+  name: Id
+  href: api/MingweiSamuel.Camille.ValContentV1.ContentItem.html#MingweiSamuel_Camille_ValContentV1_ContentItem_Id
+  commentId: P:MingweiSamuel.Camille.ValContentV1.ContentItem.Id
+  fullName: MingweiSamuel.Camille.ValContentV1.ContentItem.Id
+  nameWithType: ContentItem.Id
+- uid: MingweiSamuel.Camille.ValContentV1.ContentItem.Id*
+  name: Id
+  href: api/MingweiSamuel.Camille.ValContentV1.ContentItem.html#MingweiSamuel_Camille_ValContentV1_ContentItem_Id_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.ContentItem.Id
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.ContentItem.Id
+  nameWithType: ContentItem.Id
 - uid: MingweiSamuel.Camille.ValContentV1.ContentItem.LocalizedNames
   name: LocalizedNames
   href: api/MingweiSamuel.Camille.ValContentV1.ContentItem.html#MingweiSamuel_Camille_ValContentV1_ContentItem_LocalizedNames
@@ -16862,19 +16901,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Kill.FinishingDamage
   nameWithType: Kill.FinishingDamage
-- uid: MingweiSamuel.Camille.ValMatchV1.Kill.GameTime
-  name: GameTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_GameTime
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.Kill.GameTime
-  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.GameTime
-  nameWithType: Kill.GameTime
-- uid: MingweiSamuel.Camille.ValMatchV1.Kill.GameTime*
-  name: GameTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_GameTime_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Kill.GameTime
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.GameTime
-  nameWithType: Kill.GameTime
 - uid: MingweiSamuel.Camille.ValMatchV1.Kill.Killer
   name: Killer
   href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_Killer
@@ -16901,19 +16927,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Kill.PlayerLocations
   nameWithType: Kill.PlayerLocations
-- uid: MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
-  name: RoundTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_RoundTime
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
-  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
-  nameWithType: Kill.RoundTime
-- uid: MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime*
-  name: RoundTime
-  href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_RoundTime_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.Kill.RoundTime
-  nameWithType: Kill.RoundTime
 - uid: MingweiSamuel.Camille.ValMatchV1.Kill.TimeSinceGameStartMillis
   name: TimeSinceGameStartMillis
   href: api/MingweiSamuel.Camille.ValMatchV1.Kill.html#MingweiSamuel_Camille_ValMatchV1_Kill_TimeSinceGameStartMillis
