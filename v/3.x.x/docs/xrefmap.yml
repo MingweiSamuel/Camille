@@ -15324,6 +15324,127 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolStatusV3Endpoints.GetShardDataAsync
   nameWithType: LolStatusV3Endpoints.GetShardDataAsync
+- uid: Camille.RiotGames.LorMatchV1
+  name: Camille.RiotGames.LorMatchV1
+  href: api/Camille.RiotGames.LorMatchV1.html
+  commentId: N:Camille.RiotGames.LorMatchV1
+  fullName: Camille.RiotGames.LorMatchV1
+  nameWithType: Camille.RiotGames.LorMatchV1
+- uid: Camille.RiotGames.LorMatchV1.Match
+  name: Match
+  href: api/Camille.RiotGames.LorMatchV1.Match.html
+  commentId: T:Camille.RiotGames.LorMatchV1.Match
+  fullName: Camille.RiotGames.LorMatchV1.Match
+  nameWithType: Match
+- uid: Camille.RiotGames.LorMatchV1.Match.#ctor
+  name: Match()
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match__ctor
+  commentId: M:Camille.RiotGames.LorMatchV1.Match.#ctor
+  fullName: Camille.RiotGames.LorMatchV1.Match.Match()
+  nameWithType: Match.Match()
+- uid: Camille.RiotGames.LorMatchV1.Match.#ctor*
+  name: Match
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match__ctor_
+  commentId: Overload:Camille.RiotGames.LorMatchV1.Match.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1.Match.Match
+  nameWithType: Match.Match
+- uid: Camille.RiotGames.LorMatchV1.Match._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match__AdditionalProperties
+  commentId: P:Camille.RiotGames.LorMatchV1.Match._AdditionalProperties
+  fullName: Camille.RiotGames.LorMatchV1.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: Camille.RiotGames.LorMatchV1.Match._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.LorMatchV1.Match._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: Camille.RiotGames.LorMatchV1.Match.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match_ToString
+  commentId: M:Camille.RiotGames.LorMatchV1.Match.ToString
+  fullName: Camille.RiotGames.LorMatchV1.Match.ToString()
+  nameWithType: Match.ToString()
+- uid: Camille.RiotGames.LorMatchV1.Match.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.LorMatchV1.Match.html#Camille_RiotGames_LorMatchV1_Match_ToString_
+  commentId: Overload:Camille.RiotGames.LorMatchV1.Match.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1.Match.ToString
+  nameWithType: Match.ToString
+- uid: Camille.RiotGames.LorMatchV1Endpoints
+  name: LorMatchV1Endpoints
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html
+  commentId: T:Camille.RiotGames.LorMatchV1Endpoints
+  fullName: Camille.RiotGames.LorMatchV1Endpoints
+  nameWithType: LorMatchV1Endpoints
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatch(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatch(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatch_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorMatchV1Endpoints.GetMatch(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatch(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatch(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorMatchV1Endpoints.GetMatch(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatch(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatch(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatch*
+  name: GetMatch
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatch_
+  commentId: Overload:Camille.RiotGames.LorMatchV1Endpoints.GetMatch
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatch
+  nameWithType: LorMatchV1Endpoints.GetMatch
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync*
+  name: GetMatchAsync
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchAsync_
+  commentId: Overload:Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchAsync
+  nameWithType: LorMatchV1Endpoints.GetMatchAsync
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUID(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchIdsByPUUID_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUID(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchIdsByPUUID(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID*
+  name: GetMatchIdsByPUUID
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchIdsByPUUID_
+  commentId: Overload:Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUID
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUID
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchIdsByPUUIDAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync*
+  name: GetMatchIdsByPUUIDAsync
+  href: api/Camille.RiotGames.LorMatchV1Endpoints.html#Camille_RiotGames_LorMatchV1Endpoints_GetMatchIdsByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
 - uid: Camille.RiotGames.LorRankedV1
   name: Camille.RiotGames.LorRankedV1
   href: api/Camille.RiotGames.LorRankedV1.html
@@ -19729,6 +19850,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.RiotGamesExtensions.LolStatusV3
   nameWithType: RiotGamesExtensions.LolStatusV3
+- uid: Camille.RiotGames.RiotGamesExtensions.LorMatchV1(Camille.RiotGames.IRiotGamesApi)
+  name: LorMatchV1(IRiotGamesApi)
+  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_LorMatchV1_Camille_RiotGames_IRiotGamesApi_
+  commentId: M:Camille.RiotGames.RiotGamesExtensions.LorMatchV1(Camille.RiotGames.IRiotGamesApi)
+  fullName: Camille.RiotGames.RiotGamesExtensions.LorMatchV1(Camille.RiotGames.IRiotGamesApi)
+  nameWithType: RiotGamesExtensions.LorMatchV1(IRiotGamesApi)
+- uid: Camille.RiotGames.RiotGamesExtensions.LorMatchV1*
+  name: LorMatchV1
+  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_LorMatchV1_
+  commentId: Overload:Camille.RiotGames.RiotGamesExtensions.LorMatchV1
+  isSpec: "True"
+  fullName: Camille.RiotGames.RiotGamesExtensions.LorMatchV1
+  nameWithType: RiotGamesExtensions.LorMatchV1
 - uid: Camille.RiotGames.RiotGamesExtensions.LorRankedV1(Camille.RiotGames.IRiotGamesApi)
   name: LorRankedV1(IRiotGamesApi)
   href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_LorRankedV1_Camille_RiotGames_IRiotGamesApi_
