@@ -6061,6 +6061,127 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolStatusV3Endpoints.GetShardDataAsync
   nameWithType: LolStatusV3Endpoints.GetShardDataAsync
+- uid: MingweiSamuel.Camille.LorMatchV1
+  name: MingweiSamuel.Camille.LorMatchV1
+  href: api/MingweiSamuel.Camille.LorMatchV1.html
+  commentId: N:MingweiSamuel.Camille.LorMatchV1
+  fullName: MingweiSamuel.Camille.LorMatchV1
+  nameWithType: MingweiSamuel.Camille.LorMatchV1
+- uid: MingweiSamuel.Camille.LorMatchV1.Match
+  name: Match
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html
+  commentId: T:MingweiSamuel.Camille.LorMatchV1.Match
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match
+  nameWithType: Match
+- uid: MingweiSamuel.Camille.LorMatchV1.Match.#ctor
+  name: Match()
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match__ctor
+  commentId: M:MingweiSamuel.Camille.LorMatchV1.Match.#ctor
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match.Match()
+  nameWithType: Match.Match()
+- uid: MingweiSamuel.Camille.LorMatchV1.Match.#ctor*
+  name: Match
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1.Match.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match.Match
+  nameWithType: Match.Match
+- uid: MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: MingweiSamuel.Camille.LorMatchV1.Match.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match_ToString
+  commentId: M:MingweiSamuel.Camille.LorMatchV1.Match.ToString
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match.ToString()
+  nameWithType: Match.ToString()
+- uid: MingweiSamuel.Camille.LorMatchV1.Match.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LorMatchV1.Match.html#MingweiSamuel_Camille_LorMatchV1_Match_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1.Match.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1.Match.ToString
+  nameWithType: Match.ToString
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints
+  name: LorMatchV1Endpoints
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html
+  commentId: T:MingweiSamuel.Camille.LorMatchV1Endpoints
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints
+  nameWithType: LorMatchV1Endpoints
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatch(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatch_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatch(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatch(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatch(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch*
+  name: GetMatch
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatch_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatch
+  nameWithType: LorMatchV1Endpoints.GetMatch
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync*
+  name: GetMatchAsync
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchAsync_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchAsync
+  nameWithType: LorMatchV1Endpoints.GetMatchAsync
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUID(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchIdsByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUID(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID*
+  name: GetMatchIdsByPUUID
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchIdsByPUUID_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUID
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUID
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchIdsByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync*
+  name: GetMatchIdsByPUUIDAsync
+  href: api/MingweiSamuel.Camille.LorMatchV1Endpoints.html#MingweiSamuel_Camille_LorMatchV1Endpoints_GetMatchIdsByPUUIDAsync_
+  commentId: Overload:MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
+  nameWithType: LorMatchV1Endpoints.GetMatchIdsByPUUIDAsync
 - uid: MingweiSamuel.Camille.LorRankedV1
   name: MingweiSamuel.Camille.LorRankedV1
   href: api/MingweiSamuel.Camille.LorRankedV1.html
@@ -10196,6 +10317,12 @@ references:
   commentId: F:MingweiSamuel.Camille.RiotApi.LolStatusV3
   fullName: MingweiSamuel.Camille.RiotApi.LolStatusV3
   nameWithType: RiotApi.LolStatusV3
+- uid: MingweiSamuel.Camille.RiotApi.LorMatchV1
+  name: LorMatchV1
+  href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_LorMatchV1
+  commentId: F:MingweiSamuel.Camille.RiotApi.LorMatchV1
+  fullName: MingweiSamuel.Camille.RiotApi.LorMatchV1
+  nameWithType: RiotApi.LorMatchV1
 - uid: MingweiSamuel.Camille.RiotApi.LorRankedV1
   name: LorRankedV1
   href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_LorRankedV1
