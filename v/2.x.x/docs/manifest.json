@@ -569,11 +569,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Info.html",
+          "hash": "l99eOLBsjB7mG+AVTrAC3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Match.yml",
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Match.html",
-          "hash": "Mo4a3WlxX4/fnygNwqY5OA=="
+          "hash": "Un00A/7O5dhjOBFOaw7h9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Metadata.html",
+          "hash": "PPTYw8T1sg/wAR2pikgVsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.LorMatchV1.Player.html",
+          "hash": "tAdd+TzA7RGsMwn6p7C5OQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.LorMatchV1.html",
-          "hash": "PbkwROPsgEVpVHF6oiaYsA=="
+          "hash": "hN3rsyHAQL7VV0nLLYp24A=="
         }
       },
       "is_incremental": false,
@@ -609,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Leaderboard.html",
-          "hash": "8gdUkfeQO9evf2rgXVVHOA=="
+          "hash": "65ksFLDTtACSMdq3z9saig=="
         }
       },
       "is_incremental": false,
@@ -621,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.LorRankedV1.Player.html",
-          "hash": "AhpcCHkOQPu+azzJpEtvFQ=="
+          "hash": "hjL+8UGH3nvpS9+/qKmmBA=="
         }
       },
       "is_incremental": false,
@@ -657,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Mastery.html",
-          "hash": "WQI41Mu4ojlGS8mzS4kN5Q=="
+          "hash": "/hgAyIEVDb9ceQ5DuNwNfw=="
         }
       },
       "is_incremental": false,
@@ -669,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Match.html",
-          "hash": "8wZo5Khok9qBGUg3y/fWdw=="
+          "hash": "gBoGDDt26EXMmYdYtHsivw=="
         }
       },
       "is_incremental": false,
@@ -681,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchEvent.html",
-          "hash": "q55P43VRyGGvc4HE0RQ6tg=="
+          "hash": "0KJRHm+XcmKIMvd6mQSjQw=="
         }
       },
       "is_incremental": false,
@@ -693,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchFrame.html",
-          "hash": "Mdn1S7yiE5KG3ielwZsvmA=="
+          "hash": "eM90HJIX1+5eASh8O8K/cw=="
         }
       },
       "is_incremental": false,
@@ -705,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchParticipantFrame.html",
-          "hash": "cLXYdHbSzdJwYPe2uAGUEg=="
+          "hash": "X2HOTJr1CYmZLPzmP2ol0Q=="
         }
       },
       "is_incremental": false,
@@ -717,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchPosition.html",
-          "hash": "GVJ0LRuteL7Iwj8FH8HREw=="
+          "hash": "Xu9J6L/NoxSWBd8SGGJofw=="
         }
       },
       "is_incremental": false,
@@ -729,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchReference.html",
-          "hash": "sOBJNXxFE7mtLHCudegyxQ=="
+          "hash": "30qhi8WoHbZVBILwvHgkbQ=="
         }
       },
       "is_incremental": false,
@@ -741,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.MatchTimeline.html",
-          "hash": "8RQGgRfrk0ujlR14+SA/tg=="
+          "hash": "UJstSoxouTOO8VRhV09DYg=="
         }
       },
       "is_incremental": false,
@@ -753,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Matchlist.html",
-          "hash": "qA3zPnND4C3Udle2+KERzg=="
+          "hash": "RSCxLY3FVuvbPAliDz7K0g=="
         }
       },
       "is_incremental": false,
@@ -765,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Participant.html",
-          "hash": "jR9O56bMw2jipO8JnyYykQ=="
+          "hash": "5A7AZ6c5pJLFAf04PEqPLQ=="
         }
       },
       "is_incremental": false,
@@ -777,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantIdentity.html",
-          "hash": "JQu3sDFF/+IEhat8WVEqPQ=="
+          "hash": "DdxtE/g8Xm3DBaglM4mj9w=="
         }
       },
       "is_incremental": false,
@@ -789,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantStats.html",
-          "hash": "6uI1SaZ2zfP3uROqqkFLpg=="
+          "hash": "alT88VDBF6ZYUlmUrhDwAQ=="
         }
       },
       "is_incremental": false,
@@ -801,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.ParticipantTimeline.html",
-          "hash": "bbUpP7Y9uc9xLyYhJuU4ew=="
+          "hash": "jIMR9YfKUHyeg7RWiJwqVQ=="
         }
       },
       "is_incremental": false,
@@ -813,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Player.html",
-          "hash": "zXncm/DEHmZYXktmxrlNUQ=="
+          "hash": "qpt95PUflQ9rqFDcxj940Q=="
         }
       },
       "is_incremental": false,
@@ -825,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.Rune.html",
-          "hash": "orpczHy2Z9YYCi7Go3cwzQ=="
+          "hash": "EIQmoiPMfUTXMr8kEKYtPg=="
         }
       },
       "is_incremental": false,
@@ -837,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamBans.html",
-          "hash": "A+LINoyvZs5X3ZavDyG6eA=="
+          "hash": "dIXtu9q9Lw+P/jownH0JKg=="
         }
       },
       "is_incremental": false,
@@ -849,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.MatchV4.TeamStats.html",
-          "hash": "qU73V3UhUTvLGrb+iRIOyA=="
+          "hash": "jK187+aVPT++A4uDgucbyA=="
         }
       },
       "is_incremental": false,
@@ -921,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.BannedChampion.html",
-          "hash": "RoNKC+1Zv3/IQ6OJ+sSAtA=="
+          "hash": "aNZr1SPrIbvxMKfakqc8Aw=="
         }
       },
       "is_incremental": false,
@@ -933,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameInfo.html",
-          "hash": "VUtGBAZupu9JYy7fMwiDzw=="
+          "hash": "XIL4mO69p/d0cpr0qZofTQ=="
         }
       },
       "is_incremental": false,
@@ -945,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.CurrentGameParticipant.html",
-          "hash": "S8UFVsO0ZrsI7ecOyW3HXg=="
+          "hash": "MmhOixTl2vBkUtNNULsa6Q=="
         }
       },
       "is_incremental": false,
@@ -957,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGameInfo.html",
-          "hash": "mpR+Hay73wyLQNgQiMvqCA=="
+          "hash": "tBpbiZm8smksQQhoPm+s/w=="
         }
       },
       "is_incremental": false,
@@ -969,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.FeaturedGames.html",
-          "hash": "nSfgCXEeLb8PY9XnOFUm9w=="
+          "hash": "fmBNMJgfQjYdYQdi9pHWqQ=="
         }
       },
       "is_incremental": false,
@@ -981,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.GameCustomizationObject.html",
-          "hash": "bbabgz91tMNzLs8qudbTkA=="
+          "hash": "lk07fpfct3UKC1cxF7038w=="
         }
       },
       "is_incremental": false,
@@ -993,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Observer.html",
-          "hash": "3snhl2I+m1H4/8kntrTsDg=="
+          "hash": "uyUJDsQM+BLZEJxg6+qcuQ=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Participant.html",
-          "hash": "9r1sg3/iY8l4ofZnoDz1kQ=="
+          "hash": "O3tRwpY3Hk80aZ2wrxba+w=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SpectatorV4.Perks.html",
-          "hash": "vDrPhyx/KcxLLkDBpIiGwQ=="
+          "hash": "EAW7W+ZA87EalOeuj5Pe/Q=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.SummonerV4.Summoner.html",
-          "hash": "L5gylPH7YUHXR1DG2AXXLA=="
+          "hash": "cvBG2mYVykgpSve+R90EnA=="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html",
-          "hash": "cQEm186c7AsLcDbR2Q/RCQ=="
+          "hash": "XNv2xk0bkpMrwQoyUKAF4Q=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueItem.html",
-          "hash": "2Bz4jjy/4+n9Fo6BCdOb/Q=="
+          "hash": "wnoy4bSnqyxEMbNBW01U2Q=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.LeagueList.html",
-          "hash": "fvLXrG0NqB4flxBuDyx8tg=="
+          "hash": "OEgz6xHNlVZsakSCnHkfbg=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftLeagueV1.MiniSeries.html",
-          "hash": "aav3H/KqSRl/E5DLv/jknA=="
+          "hash": "M+JDw1odp5o55keRvu1aVw=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Companion.html",
-          "hash": "o2oGNu3quEzXunWmxy0C5g=="
+          "hash": "fkTkjYNmLw3HftU323aS4g=="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Info.html",
-          "hash": "nlXP8EEj8OD5qwvR9uqWdw=="
+          "hash": "O63ipp1LwyP57xiOp940sQ=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Match.html",
-          "hash": "KmvuwK/HBs8p2XNSVo3KAw=="
+          "hash": "knHQmHTfgL9rkAumVtwY7g=="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Metadata.html",
-          "hash": "aZGlLQtZbt/6JpIvqaSUvQ=="
+          "hash": "oWGypwLNWKMHO3+2efEwYQ=="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Participant.html",
-          "hash": "170tK9/F1jmtfdbRzyJBpQ=="
+          "hash": "W9SIR3+gfUlLSwy3d1OqKg=="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Trait.html",
-          "hash": "5RvMohWpUwlxXqY1HUmZSQ=="
+          "hash": "PuIOuhsRne8OjWXiRI1jOQ=="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftMatchV1.Unit.html",
-          "hash": "q6JoSMTfCfontSHHHgKDWA=="
+          "hash": "mXnf5HFjp6yEee8kx+rcqA=="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TftSummonerV1.Summoner.html",
-          "hash": "r8EJ5m+8Tl1opv/rs4Dfvw=="
+          "hash": "xqabm+WHRNO0fl8Hdj+O8g=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.html",
-          "hash": "EoZFRHBRCgXZn3n8iRSa6A=="
+          "hash": "TJCxhy+kiYs4P9+ssVzMIw=="
         }
       },
       "is_incremental": false,
@@ -1329,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEventWrapper.html",
-          "hash": "NzPDl66OKWzNT58e6OnjBw=="
+          "hash": "Jayk46XCZS6+a1WI49sxMg=="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.ProviderRegistrationParameters.html",
-          "hash": "kC0xxfS3Qsc2k804h78FRw=="
+          "hash": "Lzpa4nDyyEYlaWxBbdQcww=="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentCodeParameters.html",
-          "hash": "AegUUcJvmG9UfxB0oIb60g=="
+          "hash": "zi0Bi+4hNhe/SEEYmguLHw=="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.TournamentRegistrationParameters.html",
-          "hash": "KNgGHtEBF/UiXbxuIzRgHw=="
+          "hash": "XAxccXugP856uS4Kdeoa7Q=="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEvent.html",
-          "hash": "EN5rxJ08KP4jgO/4jEk0qQ=="
+          "hash": "bRpLvxpjz7ustsPvtZM+JQ=="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.LobbyEventWrapper.html",
-          "hash": "Kd6Sesr9Slmmu4edz6v5uQ=="
+          "hash": "hVtQXxkF78T2Z4Py+0l+Rg=="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.ProviderRegistrationParameters.html",
-          "hash": "GlrN+NsUDex2aGSw9BxqVQ=="
+          "hash": "ZrXbL15c5GzRbjZUtnoJFg=="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCode.html",
-          "hash": "WwNTA4rTyi/Cc8IZgu4NcA=="
+          "hash": "gYAvI8oxv+JSCfLbuqiu9w=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeParameters.html",
-          "hash": "aWsEpbmjZgGc7efy98WMIA=="
+          "hash": "Fko9TUbeINP+hlvWjXv/NA=="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentCodeUpdateParameters.html",
-          "hash": "AoJn4EF7f9TE4C9D6sQWCg=="
+          "hash": "Kqodq9tw/B7pHw05aa8xOw=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4.TournamentRegistrationParameters.html",
-          "hash": "OGwm0xt25+uiIjpCuM9pFw=="
+          "hash": "q1rBst1JyJPKUHs5qYGKLQ=="
         }
       },
       "is_incremental": false,
@@ -1677,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValContentV1.Content.html",
-          "hash": "2VJAYbLg7cdg9F7BjcsrQw=="
+          "hash": "oEn/iPyauSSVDljGRONq+Q=="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValContentV1.ContentItem.html",
-          "hash": "S7b5u+XsBqmE3AteHKXjMw=="
+          "hash": "RciOilTAFpOtdjqGU5CsdA=="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValContentV1.LocalizedNames.html",
-          "hash": "6QLE5cQe0uS5kaMkdA6lfQ=="
+          "hash": "fZo0B3px9mVGwHY62/7urQ=="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Ability.html",
-          "hash": "Vn/oBndcKQ4F7pX2sNektA=="
+          "hash": "mZk1o6iJKu06gQEGxPr0wQ=="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.AbilityCasts.html",
-          "hash": "+JhDnCllkP6+iDuK27b9Zg=="
+          "hash": "7oGHKxYP5wCUjsBCoh2F4g=="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Damage.html",
-          "hash": "IFBAN9E+hTsoYwbkTbF5Gg=="
+          "hash": "N1snSvqbk0m6hP0h9QDdcg=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Economy.html",
-          "hash": "ZMWfAew6fMUiBd+PyxSA4w=="
+          "hash": "EVpqYpLOE4GsQbccqN7N/A=="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.FinishingDamage.html",
-          "hash": "eehsjQLUAUrmLoqKk5F2mw=="
+          "hash": "Jtal/KjSY7uq83XIplmOLA=="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Kill.html",
-          "hash": "AAk5LJoZz2xc1NG12rUPaA=="
+          "hash": "trzlUbgiadlw2ad07JClBQ=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Location.html",
-          "hash": "xUN7ssALlRbdwDZGQKkaBQ=="
+          "hash": "f/maIWebKYZDEsaS+qjeYA=="
         }
       },
       "is_incremental": false,
@@ -1821,7 +1857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Match.html",
-          "hash": "w7oe91Y/yr8xxRffqrWGxA=="
+          "hash": "MP4EiWGQ+Zp4Znh3HBP7yA=="
         }
       },
       "is_incremental": false,
@@ -1833,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchInfo.html",
-          "hash": "Lh60I1pO0/Un0KmrnslZBA=="
+          "hash": "NMHkrmJnR1BvI6vCe9O3Kw=="
         }
       },
       "is_incremental": false,
@@ -1845,7 +1881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Matchlist.html",
-          "hash": "+unOM35fxS6//jzvNij+ZQ=="
+          "hash": "UhQhYZ2QEeh+Sxrz9n66Qw=="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html",
-          "hash": "ubdVkU1ICUQ/8vB2eKp9jQ=="
+          "hash": "yi/O6U7Ibz/PvBZVLnsdGw=="
         }
       },
       "is_incremental": false,
@@ -1869,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Player.html",
-          "hash": "br/K2hDSyEX/eIXTIqyb7g=="
+          "hash": "SYc9fsIh/ofZ0r2hwpoAuQ=="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.PlayerLocations.html",
-          "hash": "jTAqNNLljK7MdyWtocq4kw=="
+          "hash": "/ABvgwlUi7VJ0SZ1W34Aig=="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.PlayerRoundStats.html",
-          "hash": "oZbB77KeMMMz/5KaNOL4Pg=="
+          "hash": "+SOjh8A/qlvR8pbL04ROJA=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.PlayerStats.html",
-          "hash": "NIBcxcsGo0o69klplJl9FA=="
+          "hash": "9G4L1IQSmXjcUdW/EA5+gA=="
         }
       },
       "is_incremental": false,
@@ -1917,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.RecentMatches.html",
-          "hash": "2m80MEyJOqZA09sjlU6kEA=="
+          "hash": "94CMCS952vmHQmKsiXpiYw=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.RoundResult.html",
-          "hash": "vdl1TUgngfMogitFBy5NWA=="
+          "hash": "7rA+Tzw2yche/9pf2DJCiA=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1.Team.html",
-          "hash": "8hriWYH+Wwvl7c3qNrJNkQ=="
+          "hash": "9f8QIzzGxJEHBG5ERC52VA=="
         }
       },
       "is_incremental": false,
@@ -2001,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "f12TCQ1JBL4U5Ynn3hDB6A=="
+          "hash": "BvZSfmySl4L7fzFhCULxAw=="
         }
       },
       "is_incremental": false,
@@ -2052,7 +2088,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 164,
+          "total_file_count": 167,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
