@@ -752,6 +752,12 @@ references:
   commentId: F:Camille.Enums.Champion.SENNA
   fullName: Camille.Enums.Champion.SENNA
   nameWithType: Champion.SENNA
+- uid: Camille.Enums.Champion.SERAPHINE
+  name: SERAPHINE
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SERAPHINE
+  commentId: F:Camille.Enums.Champion.SERAPHINE
+  fullName: Camille.Enums.Champion.SERAPHINE
+  nameWithType: Champion.SERAPHINE
 - uid: Camille.Enums.Champion.SETT
   name: SETT
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SETT
@@ -1076,12 +1082,12 @@ references:
   commentId: F:Camille.Enums.Division.IV
   fullName: Camille.Enums.Division.IV
   nameWithType: Division.IV
-- uid: Camille.Enums.Division.NA
-  name: NA
-  href: api/Camille.Enums.Division.html#Camille_Enums_Division_NA
-  commentId: F:Camille.Enums.Division.NA
-  fullName: Camille.Enums.Division.NA
-  nameWithType: Division.NA
+- uid: Camille.Enums.Division.NONE
+  name: NONE
+  href: api/Camille.Enums.Division.html#Camille_Enums_Division_NONE
+  commentId: F:Camille.Enums.Division.NONE
+  fullName: Camille.Enums.Division.NONE
+  nameWithType: Division.NONE
 - uid: Camille.Enums.Division.V
   name: V
   href: api/Camille.Enums.Division.html#Camille_Enums_Division_V
@@ -23332,6 +23338,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Unit.CharacterId
   nameWithType: Unit.CharacterId
+- uid: Camille.RiotGames.TftMatchV1.Unit.Chosen
+  name: Chosen
+  href: api/Camille.RiotGames.TftMatchV1.Unit.html#Camille_RiotGames_TftMatchV1_Unit_Chosen
+  commentId: P:Camille.RiotGames.TftMatchV1.Unit.Chosen
+  fullName: Camille.RiotGames.TftMatchV1.Unit.Chosen
+  nameWithType: Unit.Chosen
+- uid: Camille.RiotGames.TftMatchV1.Unit.Chosen*
+  name: Chosen
+  href: api/Camille.RiotGames.TftMatchV1.Unit.html#Camille_RiotGames_TftMatchV1_Unit_Chosen_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Unit.Chosen
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Unit.Chosen
+  nameWithType: Unit.Chosen
 - uid: Camille.RiotGames.TftMatchV1.Unit.Items
   name: Items
   href: api/Camille.RiotGames.TftMatchV1.Unit.html#Camille_RiotGames_TftMatchV1_Unit_Items
