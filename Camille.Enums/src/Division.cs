@@ -2,12 +2,17 @@ using System;
 
 namespace Camille.Enums
 {
+#if USE_NEWTONSOFT
+    [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
+#elif USE_SYSTEXTJSON
+    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+#endif
     public enum Division : byte
     {
         /// <summary>
-        /// "N/A", none available.
+        /// "NONE", none available.
         /// </summary>
-        NA = 0,
+        NONE = 0,
 
         I = 1,
         II = 2,
