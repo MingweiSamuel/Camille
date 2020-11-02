@@ -13891,6 +13891,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Unit.CharacterId
   nameWithType: Unit.CharacterId
+- uid: MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
+  name: Chosen
+  href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_Chosen
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
+  fullName: MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
+  nameWithType: Unit.Chosen
+- uid: MingweiSamuel.Camille.TftMatchV1.Unit.Chosen*
+  name: Chosen
+  href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_Chosen_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
+  nameWithType: Unit.Chosen
 - uid: MingweiSamuel.Camille.TftMatchV1.Unit.Items
   name: Items
   href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_Items
