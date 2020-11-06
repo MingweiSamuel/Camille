@@ -25655,6 +25655,103 @@ references:
   commentId: N:Camille.RiotGames.ValContentV1
   fullName: Camille.RiotGames.ValContentV1
   nameWithType: Camille.RiotGames.ValContentV1
+- uid: Camille.RiotGames.ValContentV1.Act
+  name: Act
+  href: api/Camille.RiotGames.ValContentV1.Act.html
+  commentId: T:Camille.RiotGames.ValContentV1.Act
+  fullName: Camille.RiotGames.ValContentV1.Act
+  nameWithType: Act
+- uid: Camille.RiotGames.ValContentV1.Act.#ctor
+  name: Act()
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act__ctor
+  commentId: M:Camille.RiotGames.ValContentV1.Act.#ctor
+  fullName: Camille.RiotGames.ValContentV1.Act.Act()
+  nameWithType: Act.Act()
+- uid: Camille.RiotGames.ValContentV1.Act.#ctor*
+  name: Act
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act__ctor_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.Act
+  nameWithType: Act.Act
+- uid: Camille.RiotGames.ValContentV1.Act._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act__AdditionalProperties
+  commentId: P:Camille.RiotGames.ValContentV1.Act._AdditionalProperties
+  fullName: Camille.RiotGames.ValContentV1.Act._AdditionalProperties
+  nameWithType: Act._AdditionalProperties
+- uid: Camille.RiotGames.ValContentV1.Act._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act._AdditionalProperties
+  nameWithType: Act._AdditionalProperties
+- uid: Camille.RiotGames.ValContentV1.Act.Id
+  name: Id
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_Id
+  commentId: P:Camille.RiotGames.ValContentV1.Act.Id
+  fullName: Camille.RiotGames.ValContentV1.Act.Id
+  nameWithType: Act.Id
+- uid: Camille.RiotGames.ValContentV1.Act.Id*
+  name: Id
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_Id_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.Id
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.Id
+  nameWithType: Act.Id
+- uid: Camille.RiotGames.ValContentV1.Act.IsActive
+  name: IsActive
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_IsActive
+  commentId: P:Camille.RiotGames.ValContentV1.Act.IsActive
+  fullName: Camille.RiotGames.ValContentV1.Act.IsActive
+  nameWithType: Act.IsActive
+- uid: Camille.RiotGames.ValContentV1.Act.IsActive*
+  name: IsActive
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_IsActive_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.IsActive
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.IsActive
+  nameWithType: Act.IsActive
+- uid: Camille.RiotGames.ValContentV1.Act.LocalizedNames
+  name: LocalizedNames
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_LocalizedNames
+  commentId: P:Camille.RiotGames.ValContentV1.Act.LocalizedNames
+  fullName: Camille.RiotGames.ValContentV1.Act.LocalizedNames
+  nameWithType: Act.LocalizedNames
+- uid: Camille.RiotGames.ValContentV1.Act.LocalizedNames*
+  name: LocalizedNames
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_LocalizedNames_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.LocalizedNames
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.LocalizedNames
+  nameWithType: Act.LocalizedNames
+- uid: Camille.RiotGames.ValContentV1.Act.Name
+  name: Name
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_Name
+  commentId: P:Camille.RiotGames.ValContentV1.Act.Name
+  fullName: Camille.RiotGames.ValContentV1.Act.Name
+  nameWithType: Act.Name
+- uid: Camille.RiotGames.ValContentV1.Act.Name*
+  name: Name
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_Name_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.Name
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.Name
+  nameWithType: Act.Name
+- uid: Camille.RiotGames.ValContentV1.Act.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_ToString
+  commentId: M:Camille.RiotGames.ValContentV1.Act.ToString
+  fullName: Camille.RiotGames.ValContentV1.Act.ToString()
+  nameWithType: Act.ToString()
+- uid: Camille.RiotGames.ValContentV1.Act.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.ValContentV1.Act.html#Camille_RiotGames_ValContentV1_Act_ToString_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Act.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Act.ToString
+  nameWithType: Act.ToString
 - uid: Camille.RiotGames.ValContentV1.Content
   name: Content
   href: api/Camille.RiotGames.ValContentV1.Content.html
@@ -25687,6 +25784,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValContentV1.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
+- uid: Camille.RiotGames.ValContentV1.Content.Acts
+  name: Acts
+  href: api/Camille.RiotGames.ValContentV1.Content.html#Camille_RiotGames_ValContentV1_Content_Acts
+  commentId: P:Camille.RiotGames.ValContentV1.Content.Acts
+  fullName: Camille.RiotGames.ValContentV1.Content.Acts
+  nameWithType: Content.Acts
+- uid: Camille.RiotGames.ValContentV1.Content.Acts*
+  name: Acts
+  href: api/Camille.RiotGames.ValContentV1.Content.html#Camille_RiotGames_ValContentV1_Content_Acts_
+  commentId: Overload:Camille.RiotGames.ValContentV1.Content.Acts
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValContentV1.Content.Acts
+  nameWithType: Content.Acts
 - uid: Camille.RiotGames.ValContentV1.Content.Characters
   name: Characters
   href: api/Camille.RiotGames.ValContentV1.Content.html#Camille_RiotGames_ValContentV1_Content_Characters
