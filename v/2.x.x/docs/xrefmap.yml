@@ -16180,6 +16180,103 @@ references:
   commentId: N:MingweiSamuel.Camille.ValContentV1
   fullName: MingweiSamuel.Camille.ValContentV1
   nameWithType: MingweiSamuel.Camille.ValContentV1
+- uid: MingweiSamuel.Camille.ValContentV1.Act
+  name: Act
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html
+  commentId: T:MingweiSamuel.Camille.ValContentV1.Act
+  fullName: MingweiSamuel.Camille.ValContentV1.Act
+  nameWithType: Act
+- uid: MingweiSamuel.Camille.ValContentV1.Act.#ctor
+  name: Act()
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act__ctor
+  commentId: M:MingweiSamuel.Camille.ValContentV1.Act.#ctor
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Act()
+  nameWithType: Act.Act()
+- uid: MingweiSamuel.Camille.ValContentV1.Act.#ctor*
+  name: Act
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act__ctor_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Act
+  nameWithType: Act.Act
+- uid: MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties
+  nameWithType: Act._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act._AdditionalProperties
+  nameWithType: Act._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValContentV1.Act.Id
+  name: Id
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_Id
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Act.Id
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Id
+  nameWithType: Act.Id
+- uid: MingweiSamuel.Camille.ValContentV1.Act.Id*
+  name: Id
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_Id_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.Id
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Id
+  nameWithType: Act.Id
+- uid: MingweiSamuel.Camille.ValContentV1.Act.IsActive
+  name: IsActive
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_IsActive
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Act.IsActive
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.IsActive
+  nameWithType: Act.IsActive
+- uid: MingweiSamuel.Camille.ValContentV1.Act.IsActive*
+  name: IsActive
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_IsActive_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.IsActive
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.IsActive
+  nameWithType: Act.IsActive
+- uid: MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames
+  name: LocalizedNames
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_LocalizedNames
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames
+  nameWithType: Act.LocalizedNames
+- uid: MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames*
+  name: LocalizedNames
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_LocalizedNames_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.LocalizedNames
+  nameWithType: Act.LocalizedNames
+- uid: MingweiSamuel.Camille.ValContentV1.Act.Name
+  name: Name
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_Name
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Act.Name
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Name
+  nameWithType: Act.Name
+- uid: MingweiSamuel.Camille.ValContentV1.Act.Name*
+  name: Name
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_Name_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.Name
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.Name
+  nameWithType: Act.Name
+- uid: MingweiSamuel.Camille.ValContentV1.Act.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_ToString
+  commentId: M:MingweiSamuel.Camille.ValContentV1.Act.ToString
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.ToString()
+  nameWithType: Act.ToString()
+- uid: MingweiSamuel.Camille.ValContentV1.Act.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.ValContentV1.Act.html#MingweiSamuel_Camille_ValContentV1_Act_ToString_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Act.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Act.ToString
+  nameWithType: Act.ToString
 - uid: MingweiSamuel.Camille.ValContentV1.Content
   name: Content
   href: api/MingweiSamuel.Camille.ValContentV1.Content.html
@@ -16212,6 +16309,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValContentV1.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValContentV1.Content.Acts
+  name: Acts
+  href: api/MingweiSamuel.Camille.ValContentV1.Content.html#MingweiSamuel_Camille_ValContentV1_Content_Acts
+  commentId: P:MingweiSamuel.Camille.ValContentV1.Content.Acts
+  fullName: MingweiSamuel.Camille.ValContentV1.Content.Acts
+  nameWithType: Content.Acts
+- uid: MingweiSamuel.Camille.ValContentV1.Content.Acts*
+  name: Acts
+  href: api/MingweiSamuel.Camille.ValContentV1.Content.html#MingweiSamuel_Camille_ValContentV1_Content_Acts_
+  commentId: Overload:MingweiSamuel.Camille.ValContentV1.Content.Acts
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValContentV1.Content.Acts
+  nameWithType: Content.Acts
 - uid: MingweiSamuel.Camille.ValContentV1.Content.Characters
   name: Characters
   href: api/MingweiSamuel.Camille.ValContentV1.Content.html#MingweiSamuel_Camille_ValContentV1_Content_Characters
