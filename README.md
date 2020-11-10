@@ -182,7 +182,7 @@ Match history for LugnutsK:
 
 ### API Reference
 
-[Automatically generated API Reference](http://www.mingweisamuel.com/Camille/api/index.html)
+[Automatically generated API Reference](http://www.mingweisamuel.com/Camille/)
 
 ## Source Code
 
