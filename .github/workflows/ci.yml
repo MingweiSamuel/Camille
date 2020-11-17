@@ -43,9 +43,9 @@ jobs:
           ACTION_DISPATCH_DEPLOY: ${{ github.event.inputs.dispatchDeploy }}
         run: |
           Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/gh-actions/SetEnv.ps1" | Invoke-Expression
-          Write-Host "::set-env name=CAMI_DO_DEPLOY::$env:CAMI_DO_DEPLOY"
-          Write-Host "::set-env name=CAMI_VERSION::$env:CAMI_VERSION"
-          Write-Host "::set-env name=CAMI_SPEC_HASH::$env:CAMI_SPEC_HASH"
+          Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY" | Out-File -Append -FilePath $env:GITHUB_ENV
+          Write-Output "CAMI_VERSION=$env:CAMI_VERSION"     | Out-File -Append -FilePath $env:GITHUB_ENV
+          Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH" | Out-File -Append -FilePath $env:GITHUB_ENV
 
       - name: Install dependencies
         run: dotnet restore
@@ -60,9 +60,9 @@ jobs:
         shell: pwsh
         run: |
           Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/$env:GITHUB_REPOSITORY/gh-actions/Docs.ps1" | Invoke-Expression
-          Write-Host "::set-env name=CAMI_DO_DEPLOY::$env:CAMI_DO_DEPLOY"
-          Write-Host "::set-env name=CAMI_VERSION::$env:CAMI_VERSION"
-          Write-Host "::set-env name=CAMI_SPEC_HASH::$env:CAMI_SPEC_HASH"
+          Write-Output "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY" | Out-File -Append -FilePath $env:GITHUB_ENV
+          Write-Output "CAMI_VERSION=$env:CAMI_VERSION"     | Out-File -Append -FilePath $env:GITHUB_ENV
+          Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH" | Out-File -Append -FilePath $env:GITHUB_ENV
 
       - name: Publish to NuGet
         if: ${{ success() && env.CAMI_DO_DEPLOY }}
