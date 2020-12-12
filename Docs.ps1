@@ -63,23 +63,29 @@ Push-Location 'docs'
 git diff --quiet -- $(Resolve-Path -Relative ..\$HASHFILE)
 $UNCHANGED = 0 -Eq $LastExitCode
 
-If ($env:CAMI_DO_DEPLOY -Ne 'true') {
-    Write-Host 'CAMI_DO_DEPLOY not set to true, exiting.'
-    $env:CAMI_DO_DEPLOY = ''
+# Normal deploy conditions.
+If ($env:CAMI_DO_DEPLOY -Eq 'true') {
+    Write-Host 'CAMI_DO_DEPLOY set to true.'
+    If ($UNCHANGED) {
+        Write-Host 'There are no substantial changes, not deploying.'
+        # Turn off NuGet deploy.
+        $env:CAMI_DO_DEPLOY = ''
+    }
+    Else {
+        Write-Host 'CAMI_DO_DEPLOY set to true, has substantial changes.'
+    }
 }
-ElseIf ($IS_STABLE) {
-    Write-Host "Releasing stable version. Nightly spec hash unchanged: $UNCHANGED."
-}
-ElseIf ($UNCHANGED) {
-    Write-Host 'No substantial changes, exiting.'
-    # Turn off NuGet deploy.
-    $env:CAMI_DO_DEPLOY = ''
+ElseIf ($env:CAMI_DO_DEPLOY -Eq 'force') {
+    Write-Host 'CAMI_DO_DEPLOY set to "force", force-deploying.'
 }
 Else {
-    Write-Host 'CAMI_DO_DEPLOY set to true, has substantial changes.'
+    Write-Host 'CAMI_DO_DEPLOY not set to "true" or "force", not deploying.'
+    $env:CAMI_DO_DEPLOY = ''
 }
 
-If ($env:CAMI_DO_DEPLOY -Eq 'true') {
+If ($env:CAMI_DO_DEPLOY) {
+    Write-Host "Releasing version. Is stable: $IS_STABLE. Is nightly spec hash unchanged: $UNCHANGED."
+
     git add -A
     git -c 'user.name=github-actions[bot]' `
         -c 'user.email=41898282+github-actions[bot]@users.noreply.github.com' `

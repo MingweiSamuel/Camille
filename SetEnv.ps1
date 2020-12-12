@@ -6,17 +6,20 @@ $DISPATCHED_BUILD = $env:GITHUB_EVENT_NAME -Eq 'workflow_dispatch'
 $REPO_TAG = If ($env:ACTION_REF -Match '^refs/tags/') { $env:ACTION_REF -Replace '^refs/tags/' } Else { $null }
 
 # Assume we are on a valid ref; we control when this is called in gh-actions.
-$DO_DEPLOY = `
+$env:CAMI_DO_DEPLOY = `
     # If this is a dispatched build, only deploy if flag is set.
     If ($DISPATCHED_BUILD) {
-        'true' -Eq $env:ACTION_DISPATCH_DEPLOY
+        # Can be 'true' or 'force'
+        $env:ACTION_DISPATCH_DEPLOY
     }
     # Otherwise, check normal deploy conditions.
-    Else {
-        ($COMMIT_MESSAGE -NotMatch '\[no deploy\]') `
-        -Or $SCHEDULED_BUILD -Or $REPO_TAG
+    ElseIf (($COMMIT_MESSAGE -NotMatch '\[no deploy\]') -Or $SCHEDULED_BUILD -Or $REPO_TAG) {
+        'true'
     }
-$env:CAMI_DO_DEPLOY = If ($DO_DEPLOY) { 'true' } Else { '' }
+    # False, no-deploy case.
+    Else {
+        ''
+    }
 
 # Set CAMI_VERSION
 # Get latest tagged version.
