@@ -704,6 +704,12 @@ references:
   commentId: F:Camille.Enums.Champion.REKSAI
   fullName: Camille.Enums.Champion.REKSAI
   nameWithType: Champion.REKSAI
+- uid: Camille.Enums.Champion.RELL
+  name: RELL
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_RELL
+  commentId: F:Camille.Enums.Champion.RELL
+  fullName: Camille.Enums.Champion.RELL
+  nameWithType: Champion.RELL
 - uid: Camille.Enums.Champion.RENEKTON
   name: RENEKTON
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_RENEKTON
