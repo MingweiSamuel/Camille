@@ -950,6 +950,12 @@ references:
   commentId: F:Camille.Enums.Champion.VI
   fullName: Camille.Enums.Champion.VI
   nameWithType: Champion.VI
+- uid: Camille.Enums.Champion.VIEGO
+  name: VIEGO
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VIEGO
+  commentId: F:Camille.Enums.Champion.VIEGO
+  fullName: Camille.Enums.Champion.VIEGO
+  nameWithType: Champion.VIEGO
 - uid: Camille.Enums.Champion.VIKTOR
   name: VIKTOR
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VIKTOR
