@@ -2159,6 +2159,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.VI
   fullName: MingweiSamuel.Camille.Enums.Champion.VI
   nameWithType: Champion.VI
+- uid: MingweiSamuel.Camille.Enums.Champion.VIEGO
+  name: VIEGO
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_VIEGO
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.VIEGO
+  fullName: MingweiSamuel.Camille.Enums.Champion.VIEGO
+  nameWithType: Champion.VIEGO
 - uid: MingweiSamuel.Camille.Enums.Champion.VIKTOR
   name: VIKTOR
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_VIKTOR
@@ -3083,6 +3089,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Vi
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Vi
   nameWithType: ChampionId.Vi
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Viego
+  name: Viego
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Viego
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Viego
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Viego
+  nameWithType: ChampionId.Viego
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Viktor
   name: Viktor
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Viktor
