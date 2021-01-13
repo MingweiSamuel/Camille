@@ -96,8 +96,8 @@ namespace Camille.Lcu.Util
                     }
                     break;
                 default:
-                    Console.WriteLine("Unhandled message type: " + messageType);
-                    Console.WriteLine('[' + string.Join(", ", message.Select(m => m.ToString())) + ']');
+                    //Console.WriteLine("Unhandled message type: " + messageType);
+                    //Console.WriteLine('[' + string.Join(", ", message.Select(m => m.ToString())) + ']');
                     break;
             }
         }
@@ -117,7 +117,6 @@ namespace Camille.Lcu.Util
 #elif USE_SYSTEXTJSON
             var message = System.Text.Json.JsonSerializer.Serialize(data);
 #endif
-            //Console.WriteLine("sub: " + message); // TDOO remove this line.
             var buffer = new ArraySegment<byte>(Encoding.UTF8.GetBytes(message));
             await _eventSocket.SendAsync(buffer, System.Net.WebSockets.WebSocketMessageType.Text, true, token);
         }

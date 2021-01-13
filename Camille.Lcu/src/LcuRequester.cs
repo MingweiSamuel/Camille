@@ -39,8 +39,6 @@ namespace Camille.Lcu
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
                 "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
             _client.BaseAddress = new UriBuilder(lockfile.Protocol, config.Hostname, lockfile.Port).Uri;
-
-            Console.WriteLine(Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
         }
 
         public async Task<string> SendAsync(HttpRequestMessage request, CancellationToken token)
