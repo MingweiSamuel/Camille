@@ -38,6 +38,9 @@ namespace Camille.Core
         public static readonly RemoteCertificateValidationCallback CertificateValidationCallback =
             (obj, cert, chain, polErrs) =>
             {
+                if (null == cert)
+                    return false;
+
                 X509Certificate2 cert2 = cert as X509Certificate2 ?? new X509Certificate2(cert);
 
                 // Normal verification.
