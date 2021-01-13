@@ -37,7 +37,7 @@ namespace Camille.Lcu
             _client = new HttpClient(_clientHandler);
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
                 "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
-            _client.BaseAddress = new UriBuilder(lockfile.Protocol, "127.0.0.1", lockfile.Port).Uri;
+            _client.BaseAddress = new UriBuilder(lockfile.Protocol, config.Hostname, lockfile.Port).Uri;
 
             Console.WriteLine(Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
         }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 using System.Net;
@@ -18,6 +17,11 @@ using JsonToken = System.Text.Json.JsonElement;
 
 namespace Camille.Lcu.Util
 {
+    /// <summary>
+    /// For interacting with the Web Application Messaging Protocol (WAMP) pub-sub standard.
+    ///
+    /// This class is UNSTABLE and subject to change.
+    /// </summary>
     public class Wamp : IDisposable
     {
         private readonly ImmutableHashSet<Func<JsonToken, Task<HandlerResult>>> EMPTY =

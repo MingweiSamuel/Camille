@@ -1,5 +1,8 @@
 ﻿namespace Camille.Lcu.Util
 {
+    /// <summary>
+    /// Enum of message type IDs for WAMP messages.
+    /// </summary>
     enum WampMessageType : int
     {
         Welcome = 0,

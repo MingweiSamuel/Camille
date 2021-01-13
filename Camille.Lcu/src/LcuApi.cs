@@ -7,6 +7,11 @@ using Camille.Core;
 
 namespace Camille.Lcu
 {
+    /// <summary>
+    /// For interacting with the LCU (League Client Update) API.
+    ///
+    /// This class is UNSTABLE and subject to change.
+    /// </summary>
     public class LcuApi : ILcuApi, IDisposable
     {
         private readonly LcuRequester _requester;
