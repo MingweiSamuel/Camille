@@ -87,7 +87,8 @@ namespace Camille.Core
 
         public static T Deserialize<T>(string content)
         {
-            return System.Text.Json.JsonSerializer.Deserialize<T>(content, jsonOptions);
+            return System.Text.Json.JsonSerializer.Deserialize<T>(content, jsonOptions)
+                ?? throw new ArgumentException("Deserialized JSON content is null.");
         }
 
         public static string Serialize<T>(T value)

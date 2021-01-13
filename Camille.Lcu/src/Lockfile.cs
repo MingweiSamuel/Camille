@@ -24,12 +24,13 @@ namespace Camille.Lcu
         public static Lockfile GetFromProcess(string processName = "LeagueClient")
         {
             var processes = Process.GetProcessesByName(processName);
-            if (processes.Length <= 0)
-                throw new InvalidOperationException($"Process \"{processName}\" not found.");
-            if (processes.Length > 1)
-                throw new InvalidOperationException($"Multiple processes with name \"{processName}\" found.");
+            if (1 != processes.Length)
+                throw new InvalidOperationException($"{processes.Length} processes with name \"{processName}\" found, exactly 1 needed.");
 
             var process = processes[0];
+            if (null == process.MainModule)
+                throw new InvalidOperationException($"MainModule of process with name \"{processName}\" is null.");
+
             var path = Path.GetDirectoryName(process.MainModule.FileName);
             Debug.Assert(null != path);
             var lockfilePath = Path.Combine(path, "lockfile");
