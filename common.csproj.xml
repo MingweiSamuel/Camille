@@ -72,9 +72,14 @@
   <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0'">
     <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
   </PropertyGroup>
-  <!-- HttpRequestMessage.Options in net5.0. https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httprequestoptions?view=net-5.0 -->
+  <!--
+    HttpRequestMessage.Options in net5.0.
+    https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httprequestoptions?view=net-5.0
+    HttpContent.ReadAsStringAsync with CancellationToken in net5.0.
+    https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpcontent.readasstringasync?view=net-5.0#System_Net_Http_HttpContent_ReadAsStringAsync_System_Threading_CancellationToken_
+  -->
   <PropertyGroup Condition="'$(TargetFramework)' == 'net5.0'">
-    <DefineConstants>$(DefineConstants);USE_HTTPREQUESTMESSAGE_OPTIONS</DefineConstants>
+    <DefineConstants>$(DefineConstants);USE_HTTPREQUESTMESSAGE_OPTIONS;USE_HTTPCONTENT_READASSTRINGASYNC_CANCELLATIONTOKEN</DefineConstants>
   </PropertyGroup>
 
   <!-- Newtonsoft from NuGet. -->

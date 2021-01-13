@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 using MingweiSamuel.TokenBucket;
+using Camille.Core;
 
 namespace Camille.Lcu
 {
@@ -60,8 +61,13 @@ namespace Camille.Lcu
 
                 HttpResponseMessage response;
                 using (request)
-                    response = await _client.SendAsync(request);
+                    response = await _client.SendAsync(request, token);
+
+#if USE_HTTPCONTENT_READASSTRINGASYNC_CANCELLATIONTOKEN
+                return await response.Content.ReadAsStringAsync(token);
+#else
                 return await response.Content.ReadAsStringAsync();
+#endif
             }
             finally
             {

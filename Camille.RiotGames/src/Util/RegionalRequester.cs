@@ -87,7 +87,13 @@ namespace Camille.RiotGames.Util
 
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
+                {
+#if USE_HTTPCONTENT_READASSTRINGASYNC_CANCELLATIONTOKEN
+                    return await response.Content.ReadAsStringAsync(token);
+#else
                     return await response.Content.ReadAsStringAsync();
+#endif
+                }
                 // Null success (no body).
                 if (0 <= Array.IndexOf(NullSuccessStatusCodes, (int) response.StatusCode))
                     return default;
