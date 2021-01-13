@@ -3,7 +3,7 @@ Set-Location $PSScriptRoot
 $mtx = New-Object System.Threading.Mutex($False, 'CamilleNpmMutex')
 
 If (-Not ($mtx.WaitOne(30000))) {
-    Write-Output 'Failed to acquire mutex.'
+    Write-Error 'Failed to acquire mutex.'
     Exit 10
 }
 
