@@ -72,6 +72,10 @@
   <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0'">
     <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
   </PropertyGroup>
+  <!-- HttpRequestMessage.Options in net5.0. https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httprequestoptions?view=net-5.0 -->
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net5.0'">
+    <DefineConstants>$(DefineConstants);USE_HTTPREQUESTMESSAGE_OPTIONS</DefineConstants>
+  </PropertyGroup>
 
   <!-- Newtonsoft from NuGet. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp3.0'">

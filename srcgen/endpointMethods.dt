@@ -172,7 +172,7 @@ namespace Camille.{{= it.namespace }}
         {
 {{? isAsync }}
 {{? queryParams.length }}
-            var queryParams = new List<KeyValuePair<string, string>>();
+            var queryParams = new List<KeyValuePair<string?, string?>>();
 {{
                     for (let queryParam of queryParams)
                     { 

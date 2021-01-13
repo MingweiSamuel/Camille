@@ -66,9 +66,11 @@ namespace Camille.Lcu.Util
             message = Newtonsoft.Json.JsonConvert.DeserializeObject<JsonToken[]>(Encoding.UTF8.GetString(buffer));
             messageType = (WampMessageType) message[0].ToObject<int>();
 #elif USE_SYSTEXTJSON
-            message = System.Text.Json.JsonSerializer.Deserialize<JsonToken[]>(buffer);
+            message = System.Text.Json.JsonSerializer.Deserialize<JsonToken[]>(buffer)
+                ?? throw new InvalidOperationException("Received null message.");
             messageType = (WampMessageType) message[0].GetInt32();
 #endif
+
             switch (messageType)
             {
                 case WampMessageType.Welcome: // session, protocolVersion, details.
@@ -79,7 +81,7 @@ namespace Camille.Lcu.Util
 #if USE_NEWTONSOFT
                     topic = message[1].ToObject<string>();
 #elif USE_SYSTEXTJSON
-                    topic = message[1].GetString();
+                    topic = message[1].GetString() ?? throw new InvalidOperationException("Topic is null.");
 #endif
                     //Console.WriteLine($"Event: {topic} {payload}.");
 

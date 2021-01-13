@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 
 namespace Camille.Core
@@ -29,8 +30,14 @@ namespace Camille.Core
 
             copy.Version = msg.Version;
 
+#if USE_HTTPREQUESTMESSAGE_OPTIONS
+            IDictionary<string, object?> opts = copy.Options;
+            foreach (var opt in msg.Options)
+                opts.Add(opt.Key, opt.Value);
+#else
             foreach (var prop in msg.Properties)
                 copy.Properties.Add(prop);
+#endif
 
             foreach (var header in msg.Headers)
                 copy.Headers.TryAddWithoutValidation(header.Key, header.Value);
