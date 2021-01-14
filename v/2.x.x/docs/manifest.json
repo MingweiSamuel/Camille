@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.Endpoints.html",
-          "hash": "5d814I7H5I8U4AHU0xckTw=="
+          "hash": "SoC9VeYf1R/ruvp4HfDp8w=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.RiotApi.html",
-          "hash": "tDF4h4J2LJjsNh0OnbFT/w=="
+          "hash": "yjugr9+wKqYRMjBkWq6ejA=="
         }
       },
       "is_incremental": false,
@@ -2165,11 +2165,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html",
+          "hash": "tuum1h6ucGJTSNAJxJl6gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValRankedV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ValRankedV1.Player.html",
+          "hash": "klzrE+nXT/iK2fCcbLROQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValRankedV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ValRankedV1.html",
+          "hash": "gPbZzpAcLlVdqC+aB95rng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MingweiSamuel.Camille.ValRankedV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MingweiSamuel.Camille.ValRankedV1Endpoints.html",
+          "hash": "t405L3Mq7gvfCZrmlUQ0NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MingweiSamuel.Camille.ValStatusV1.Content.yml",
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1.Content.html",
-          "hash": "zkkZ64XNKfubT84KE/3Uag=="
+          "hash": "/kHKM+O14xHAxMqVHLbyHw=="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1.PlatformData.html",
-          "hash": "CT5MBm/S/PNV6tuZxOWZbw=="
+          "hash": "08fDSOcUOz3fNkJ0we0vpA=="
         }
       },
       "is_incremental": false,
@@ -2193,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1.Status.html",
-          "hash": "aShweLi/AqL3jsdJ4vqqfg=="
+          "hash": "456acHF9l9YZGa83cMfe0g=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1.Update.html",
-          "hash": "oyAMBV4sizQrRmMJ6lfkRQ=="
+          "hash": "QX0z6Id224Kft3kk1KOIYA=="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1Endpoints.html",
-          "hash": "wjUo6Oq0AGDNEzZ9CzZFSg=="
+          "hash": "71TXKJmx0Y+reHghOzRT+w=="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.html",
-          "hash": "M4vofluP4nMyViik8wNhSg=="
+          "hash": "20MqY9HlgyG5FrQFjOzdxw=="
         }
       },
       "is_incremental": false,
@@ -2265,7 +2313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IkTKSnJH1J9wZ5FMr54iEA=="
+          "hash": "XXr8atIlO734ILNIBAia+g=="
         }
       },
       "is_incremental": false,
@@ -2316,7 +2364,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 186,
+          "total_file_count": 190,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
