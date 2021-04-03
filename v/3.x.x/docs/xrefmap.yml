@@ -356,6 +356,12 @@ references:
   commentId: F:Camille.Enums.Champion.GRAVES
   fullName: Camille.Enums.Champion.GRAVES
   nameWithType: Champion.GRAVES
+- uid: Camille.Enums.Champion.GWEN
+  name: GWEN
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_GWEN
+  commentId: F:Camille.Enums.Champion.GWEN
+  fullName: Camille.Enums.Champion.GWEN
+  nameWithType: Champion.GWEN
 - uid: Camille.Enums.Champion.HECARIM
   name: HECARIM
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_HECARIM
@@ -28770,6 +28776,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Player.CompetitiveTier
   nameWithType: Player.CompetitiveTier
+- uid: Camille.RiotGames.ValMatchV1.Player.GameName
+  name: GameName
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_GameName
+  commentId: P:Camille.RiotGames.ValMatchV1.Player.GameName
+  fullName: Camille.RiotGames.ValMatchV1.Player.GameName
+  nameWithType: Player.GameName
+- uid: Camille.RiotGames.ValMatchV1.Player.GameName*
+  name: GameName
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_GameName_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Player.GameName
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Player.GameName
+  nameWithType: Player.GameName
 - uid: Camille.RiotGames.ValMatchV1.Player.PartyId
   name: PartyId
   href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_PartyId
@@ -28835,6 +28854,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Player.Stats
   nameWithType: Player.Stats
+- uid: Camille.RiotGames.ValMatchV1.Player.TagLine
+  name: TagLine
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_TagLine
+  commentId: P:Camille.RiotGames.ValMatchV1.Player.TagLine
+  fullName: Camille.RiotGames.ValMatchV1.Player.TagLine
+  nameWithType: Player.TagLine
+- uid: Camille.RiotGames.ValMatchV1.Player.TagLine*
+  name: TagLine
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_TagLine_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Player.TagLine
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Player.TagLine
+  nameWithType: Player.TagLine
 - uid: Camille.RiotGames.ValMatchV1.Player.TeamId
   name: TeamId
   href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_TeamId
