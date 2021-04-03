@@ -1571,6 +1571,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.GRAVES
   fullName: MingweiSamuel.Camille.Enums.Champion.GRAVES
   nameWithType: Champion.GRAVES
+- uid: MingweiSamuel.Camille.Enums.Champion.GWEN
+  name: GWEN
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_GWEN
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.GWEN
+  fullName: MingweiSamuel.Camille.Enums.Champion.GWEN
+  nameWithType: Champion.GWEN
 - uid: MingweiSamuel.Camille.Enums.Champion.HECARIM
   name: HECARIM
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_HECARIM
@@ -2501,6 +2507,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Graves
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Graves
   nameWithType: ChampionId.Graves
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Gwen
+  name: Gwen
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Gwen
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Gwen
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Gwen
+  nameWithType: ChampionId.Gwen
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Hecarim
   name: Hecarim
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Hecarim
@@ -19273,6 +19285,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Player.CompetitiveTier
   nameWithType: Player.CompetitiveTier
+- uid: MingweiSamuel.Camille.ValMatchV1.Player.GameName
+  name: GameName
+  href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_GameName
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.Player.GameName
+  fullName: MingweiSamuel.Camille.ValMatchV1.Player.GameName
+  nameWithType: Player.GameName
+- uid: MingweiSamuel.Camille.ValMatchV1.Player.GameName*
+  name: GameName
+  href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_GameName_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Player.GameName
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1.Player.GameName
+  nameWithType: Player.GameName
 - uid: MingweiSamuel.Camille.ValMatchV1.Player.PartyId
   name: PartyId
   href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_PartyId
@@ -19338,6 +19363,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.Player.Stats
   nameWithType: Player.Stats
+- uid: MingweiSamuel.Camille.ValMatchV1.Player.TagLine
+  name: TagLine
+  href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_TagLine
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.Player.TagLine
+  fullName: MingweiSamuel.Camille.ValMatchV1.Player.TagLine
+  nameWithType: Player.TagLine
+- uid: MingweiSamuel.Camille.ValMatchV1.Player.TagLine*
+  name: TagLine
+  href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_TagLine_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.Player.TagLine
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValMatchV1.Player.TagLine
+  nameWithType: Player.TagLine
 - uid: MingweiSamuel.Camille.ValMatchV1.Player.TeamId
   name: TeamId
   href: api/MingweiSamuel.Camille.ValMatchV1.Player.html#MingweiSamuel_Camille_ValMatchV1_Player_TeamId
