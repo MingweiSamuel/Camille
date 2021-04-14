@@ -27754,6 +27754,77 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.AbilityCasts.UltimateCasts
   nameWithType: AbilityCasts.UltimateCasts
+- uid: Camille.RiotGames.ValMatchV1.Coach
+  name: Coach
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html
+  commentId: T:Camille.RiotGames.ValMatchV1.Coach
+  fullName: Camille.RiotGames.ValMatchV1.Coach
+  nameWithType: Coach
+- uid: Camille.RiotGames.ValMatchV1.Coach.#ctor
+  name: Coach()
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach__ctor
+  commentId: M:Camille.RiotGames.ValMatchV1.Coach.#ctor
+  fullName: Camille.RiotGames.ValMatchV1.Coach.Coach()
+  nameWithType: Coach.Coach()
+- uid: Camille.RiotGames.ValMatchV1.Coach.#ctor*
+  name: Coach
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach__ctor_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Coach.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Coach.Coach
+  nameWithType: Coach.Coach
+- uid: Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach__AdditionalProperties
+  commentId: P:Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties
+  fullName: Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties
+  nameWithType: Coach._AdditionalProperties
+- uid: Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Coach._AdditionalProperties
+  nameWithType: Coach._AdditionalProperties
+- uid: Camille.RiotGames.ValMatchV1.Coach.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_Puuid
+  commentId: P:Camille.RiotGames.ValMatchV1.Coach.Puuid
+  fullName: Camille.RiotGames.ValMatchV1.Coach.Puuid
+  nameWithType: Coach.Puuid
+- uid: Camille.RiotGames.ValMatchV1.Coach.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_Puuid_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Coach.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Coach.Puuid
+  nameWithType: Coach.Puuid
+- uid: Camille.RiotGames.ValMatchV1.Coach.TeamId
+  name: TeamId
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_TeamId
+  commentId: P:Camille.RiotGames.ValMatchV1.Coach.TeamId
+  fullName: Camille.RiotGames.ValMatchV1.Coach.TeamId
+  nameWithType: Coach.TeamId
+- uid: Camille.RiotGames.ValMatchV1.Coach.TeamId*
+  name: TeamId
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_TeamId_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Coach.TeamId
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Coach.TeamId
+  nameWithType: Coach.TeamId
+- uid: Camille.RiotGames.ValMatchV1.Coach.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_ToString
+  commentId: M:Camille.RiotGames.ValMatchV1.Coach.ToString
+  fullName: Camille.RiotGames.ValMatchV1.Coach.ToString()
+  nameWithType: Coach.ToString()
+- uid: Camille.RiotGames.ValMatchV1.Coach.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.ValMatchV1.Coach.html#Camille_RiotGames_ValMatchV1_Coach_ToString_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Coach.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Coach.ToString
+  nameWithType: Coach.ToString
 - uid: Camille.RiotGames.ValMatchV1.Damage
   name: Damage
   href: api/Camille.RiotGames.ValMatchV1.Damage.html
@@ -28310,6 +28381,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Match._AdditionalProperties
   nameWithType: Match._AdditionalProperties
+- uid: Camille.RiotGames.ValMatchV1.Match.Coaches
+  name: Coaches
+  href: api/Camille.RiotGames.ValMatchV1.Match.html#Camille_RiotGames_ValMatchV1_Match_Coaches
+  commentId: P:Camille.RiotGames.ValMatchV1.Match.Coaches
+  fullName: Camille.RiotGames.ValMatchV1.Match.Coaches
+  nameWithType: Match.Coaches
+- uid: Camille.RiotGames.ValMatchV1.Match.Coaches*
+  name: Coaches
+  href: api/Camille.RiotGames.ValMatchV1.Match.html#Camille_RiotGames_ValMatchV1_Match_Coaches_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Match.Coaches
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Match.Coaches
+  nameWithType: Match.Coaches
 - uid: Camille.RiotGames.ValMatchV1.Match.MatchInfo
   name: MatchInfo
   href: api/Camille.RiotGames.ValMatchV1.Match.html#Camille_RiotGames_ValMatchV1_Match_MatchInfo
