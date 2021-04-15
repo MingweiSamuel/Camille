@@ -11719,6 +11719,204 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV4Endpoints.GetMatchTimelineAsync
   nameWithType: MatchV4Endpoints.GetMatchTimelineAsync
+- uid: MingweiSamuel.Camille.MatchV5
+  name: MingweiSamuel.Camille.MatchV5
+  href: api/MingweiSamuel.Camille.MatchV5.html
+  commentId: N:MingweiSamuel.Camille.MatchV5
+  fullName: MingweiSamuel.Camille.MatchV5
+  nameWithType: MingweiSamuel.Camille.MatchV5
+- uid: MingweiSamuel.Camille.MatchV5.Match
+  name: Match
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html
+  commentId: T:MingweiSamuel.Camille.MatchV5.Match
+  fullName: MingweiSamuel.Camille.MatchV5.Match
+  nameWithType: Match
+- uid: MingweiSamuel.Camille.MatchV5.Match.#ctor
+  name: Match()
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match__ctor
+  commentId: M:MingweiSamuel.Camille.MatchV5.Match.#ctor
+  fullName: MingweiSamuel.Camille.MatchV5.Match.Match()
+  nameWithType: Match.Match()
+- uid: MingweiSamuel.Camille.MatchV5.Match.#ctor*
+  name: Match
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match__ctor_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Match.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Match.Match
+  nameWithType: Match.Match
+- uid: MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: MingweiSamuel.Camille.MatchV5.Match.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match_ToString
+  commentId: M:MingweiSamuel.Camille.MatchV5.Match.ToString
+  fullName: MingweiSamuel.Camille.MatchV5.Match.ToString()
+  nameWithType: Match.ToString()
+- uid: MingweiSamuel.Camille.MatchV5.Match.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.MatchV5.Match.html#MingweiSamuel_Camille_MatchV5_Match_ToString_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Match.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Match.ToString
+  nameWithType: Match.ToString
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline
+  name: MatchTimeline
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html
+  commentId: T:MingweiSamuel.Camille.MatchV5.MatchTimeline
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline
+  nameWithType: MatchTimeline
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline.#ctor
+  name: MatchTimeline()
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline__ctor
+  commentId: M:MingweiSamuel.Camille.MatchV5.MatchTimeline.#ctor
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline.MatchTimeline()
+  nameWithType: MatchTimeline.MatchTimeline()
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline.#ctor*
+  name: MatchTimeline
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline__ctor_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchTimeline.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline.MatchTimeline
+  nameWithType: MatchTimeline.MatchTimeline
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties
+  nameWithType: MatchTimeline._AdditionalProperties
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline._AdditionalProperties
+  nameWithType: MatchTimeline._AdditionalProperties
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline_ToString
+  commentId: M:MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString()
+  nameWithType: MatchTimeline.ToString()
+- uid: MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.MatchV5.MatchTimeline.html#MingweiSamuel_Camille_MatchV5_MatchTimeline_ToString_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchTimeline.ToString
+  nameWithType: MatchTimeline.ToString
+- uid: MingweiSamuel.Camille.MatchV5Endpoints
+  name: MatchV5Endpoints
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html
+  commentId: T:MingweiSamuel.Camille.MatchV5Endpoints
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints
+  nameWithType: MatchV5Endpoints
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatch(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatch_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatch(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetMatch(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatch(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatch(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatch*
+  name: GetMatch
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatch_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetMatch
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatch
+  nameWithType: MatchV5Endpoints.GetMatch
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync*
+  name: GetMatchAsync
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchAsync_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchAsync
+  nameWithType: MatchV5Endpoints.GetMatchAsync
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchIdsByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID*
+  name: GetMatchIdsByPUUID
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchIdsByPUUID_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUID
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUID
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchIdsByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync*
+  name: GetMatchIdsByPUUIDAsync
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetMatchIdsByPUUIDAsync_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTimeline(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetTimeline_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTimeline(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetTimeline(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetTimeline(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline*
+  name: GetTimeline
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetTimeline_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetTimeline
+  nameWithType: MatchV5Endpoints.GetTimeline
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTimelineAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetTimelineAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTimelineAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetTimelineAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetTimelineAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync*
+  name: GetTimelineAsync
+  href: api/MingweiSamuel.Camille.MatchV5Endpoints.html#MingweiSamuel_Camille_MatchV5Endpoints_GetTimelineAsync_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5Endpoints.GetTimelineAsync
+  nameWithType: MatchV5Endpoints.GetTimelineAsync
 - uid: MingweiSamuel.Camille.RiotApi
   name: RiotApi
   href: api/MingweiSamuel.Camille.RiotApi.html
@@ -11797,6 +11995,12 @@ references:
   commentId: F:MingweiSamuel.Camille.RiotApi.MatchV4
   fullName: MingweiSamuel.Camille.RiotApi.MatchV4
   nameWithType: RiotApi.MatchV4
+- uid: MingweiSamuel.Camille.RiotApi.MatchV5
+  name: MatchV5
+  href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_MatchV5
+  commentId: F:MingweiSamuel.Camille.RiotApi.MatchV5
+  fullName: MingweiSamuel.Camille.RiotApi.MatchV5
+  nameWithType: RiotApi.MatchV5
 - uid: MingweiSamuel.Camille.RiotApi.NewInstance(MingweiSamuel.Camille.IRiotApiConfig)
   name: NewInstance(IRiotApiConfig)
   href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_NewInstance_MingweiSamuel_Camille_IRiotApiConfig_
