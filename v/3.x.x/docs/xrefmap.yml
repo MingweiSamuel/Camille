@@ -20964,6 +20964,204 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV4Endpoints.GetMatchTimelineAsync
   nameWithType: MatchV4Endpoints.GetMatchTimelineAsync
+- uid: Camille.RiotGames.MatchV5
+  name: Camille.RiotGames.MatchV5
+  href: api/Camille.RiotGames.MatchV5.html
+  commentId: N:Camille.RiotGames.MatchV5
+  fullName: Camille.RiotGames.MatchV5
+  nameWithType: Camille.RiotGames.MatchV5
+- uid: Camille.RiotGames.MatchV5.Match
+  name: Match
+  href: api/Camille.RiotGames.MatchV5.Match.html
+  commentId: T:Camille.RiotGames.MatchV5.Match
+  fullName: Camille.RiotGames.MatchV5.Match
+  nameWithType: Match
+- uid: Camille.RiotGames.MatchV5.Match.#ctor
+  name: Match()
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match__ctor
+  commentId: M:Camille.RiotGames.MatchV5.Match.#ctor
+  fullName: Camille.RiotGames.MatchV5.Match.Match()
+  nameWithType: Match.Match()
+- uid: Camille.RiotGames.MatchV5.Match.#ctor*
+  name: Match
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match__ctor_
+  commentId: Overload:Camille.RiotGames.MatchV5.Match.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Match.Match
+  nameWithType: Match.Match
+- uid: Camille.RiotGames.MatchV5.Match._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match__AdditionalProperties
+  commentId: P:Camille.RiotGames.MatchV5.Match._AdditionalProperties
+  fullName: Camille.RiotGames.MatchV5.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Match._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.MatchV5.Match._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Match._AdditionalProperties
+  nameWithType: Match._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Match.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match_ToString
+  commentId: M:Camille.RiotGames.MatchV5.Match.ToString
+  fullName: Camille.RiotGames.MatchV5.Match.ToString()
+  nameWithType: Match.ToString()
+- uid: Camille.RiotGames.MatchV5.Match.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.MatchV5.Match.html#Camille_RiotGames_MatchV5_Match_ToString_
+  commentId: Overload:Camille.RiotGames.MatchV5.Match.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Match.ToString
+  nameWithType: Match.ToString
+- uid: Camille.RiotGames.MatchV5.MatchTimeline
+  name: MatchTimeline
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html
+  commentId: T:Camille.RiotGames.MatchV5.MatchTimeline
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline
+  nameWithType: MatchTimeline
+- uid: Camille.RiotGames.MatchV5.MatchTimeline.#ctor
+  name: MatchTimeline()
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline__ctor
+  commentId: M:Camille.RiotGames.MatchV5.MatchTimeline.#ctor
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline.MatchTimeline()
+  nameWithType: MatchTimeline.MatchTimeline()
+- uid: Camille.RiotGames.MatchV5.MatchTimeline.#ctor*
+  name: MatchTimeline
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline__ctor_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimeline.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline.MatchTimeline
+  nameWithType: MatchTimeline.MatchTimeline
+- uid: Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline__AdditionalProperties
+  commentId: P:Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties
+  nameWithType: MatchTimeline._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline._AdditionalProperties
+  nameWithType: MatchTimeline._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.MatchTimeline.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline_ToString
+  commentId: M:Camille.RiotGames.MatchV5.MatchTimeline.ToString
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline.ToString()
+  nameWithType: MatchTimeline.ToString()
+- uid: Camille.RiotGames.MatchV5.MatchTimeline.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.MatchV5.MatchTimeline.html#Camille_RiotGames_MatchV5_MatchTimeline_ToString_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimeline.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimeline.ToString
+  nameWithType: MatchTimeline.ToString
+- uid: Camille.RiotGames.MatchV5Endpoints
+  name: MatchV5Endpoints
+  href: api/Camille.RiotGames.MatchV5Endpoints.html
+  commentId: T:Camille.RiotGames.MatchV5Endpoints
+  fullName: Camille.RiotGames.MatchV5Endpoints
+  nameWithType: MatchV5Endpoints
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatch(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatch(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatch_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetMatch(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatch(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatch(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetMatch(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatch(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatch(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatch*
+  name: GetMatch
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatch_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetMatch
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatch
+  nameWithType: MatchV5Endpoints.GetMatch
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetMatchAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchAsync(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetMatchAsync(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchAsync*
+  name: GetMatchAsync
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchAsync_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetMatchAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchAsync
+  nameWithType: MatchV5Endpoints.GetMatchAsync
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUID(RegionalRoute, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchIdsByPUUID_RegionalRoute_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUID(RegionalRoute, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchIdsByPUUID(RegionalRoute, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID*
+  name: GetMatchIdsByPUUID
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchIdsByPUUID_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUID
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUID
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchIdsByPUUIDAsync_RegionalRoute_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable<Int32>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetMatchIdsByPUUIDAsync(RegionalRoute, String, Nullable(Of Int32), Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync*
+  name: GetMatchIdsByPUUIDAsync
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetMatchIdsByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+  nameWithType: MatchV5Endpoints.GetMatchIdsByPUUIDAsync
+- uid: Camille.RiotGames.MatchV5Endpoints.GetTimeline(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTimeline(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetTimeline_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetTimeline(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTimeline(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetTimeline(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetTimeline(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetTimeline(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetTimeline(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetTimeline*
+  name: GetTimeline
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetTimeline_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetTimeline
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetTimeline
+  nameWithType: MatchV5Endpoints.GetTimeline
+- uid: Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTimelineAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetTimelineAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTimelineAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MatchV5Endpoints.GetTimelineAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: MatchV5Endpoints.GetTimelineAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync*
+  name: GetTimelineAsync
+  href: api/Camille.RiotGames.MatchV5Endpoints.html#Camille_RiotGames_MatchV5Endpoints_GetTimelineAsync_
+  commentId: Overload:Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5Endpoints.GetTimelineAsync
+  nameWithType: MatchV5Endpoints.GetTimelineAsync
 - uid: Camille.RiotGames.RiotGamesApi
   name: RiotGamesApi
   href: api/Camille.RiotGames.RiotGamesApi.html
@@ -21347,6 +21545,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.RiotGamesExtensions.MatchV4
   nameWithType: RiotGamesExtensions.MatchV4
+- uid: Camille.RiotGames.RiotGamesExtensions.MatchV5(Camille.RiotGames.IRiotGamesApi)
+  name: MatchV5(IRiotGamesApi)
+  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_MatchV5_Camille_RiotGames_IRiotGamesApi_
+  commentId: M:Camille.RiotGames.RiotGamesExtensions.MatchV5(Camille.RiotGames.IRiotGamesApi)
+  fullName: Camille.RiotGames.RiotGamesExtensions.MatchV5(Camille.RiotGames.IRiotGamesApi)
+  nameWithType: RiotGamesExtensions.MatchV5(IRiotGamesApi)
+- uid: Camille.RiotGames.RiotGamesExtensions.MatchV5*
+  name: MatchV5
+  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_MatchV5_
+  commentId: Overload:Camille.RiotGames.RiotGamesExtensions.MatchV5
+  isSpec: "True"
+  fullName: Camille.RiotGames.RiotGamesExtensions.MatchV5
+  nameWithType: RiotGamesExtensions.MatchV5
 - uid: Camille.RiotGames.RiotGamesExtensions.SpectatorV4(Camille.RiotGames.IRiotGamesApi)
   name: SpectatorV4(IRiotGamesApi)
   href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_SpectatorV4_Camille_RiotGames_IRiotGamesApi_
