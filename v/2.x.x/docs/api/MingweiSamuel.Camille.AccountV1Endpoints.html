@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AccountV1Endpoints
    ">
-    <meta name="generator" content="docfx 2.57.1.0">
+    <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -136,7 +136,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ActiveShard GetActiveShard(Region region, string puuid, string game, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public ActiveShard GetActiveShard(Region region, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,13 +156,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">puuid</span></td>
+        <td><span class="parametername">game</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">game</span></td>
+        <td><span class="parametername">puuid</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
@@ -204,7 +204,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ActiveShard&gt; GetActiveShardAsync(Region region, string puuid, string game, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ActiveShard&gt; GetActiveShardAsync(Region region, string game, string puuid, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -224,13 +224,13 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#ac
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">puuid</span></td>
+        <td><span class="parametername">game</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">game</span></td>
+        <td><span class="parametername">puuid</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
