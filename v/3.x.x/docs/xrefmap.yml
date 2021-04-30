@@ -23276,6 +23276,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.Rank
   nameWithType: LeagueEntry.Rank
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating
+  name: RatedRating
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_RatedRating
+  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating
+  nameWithType: LeagueEntry.RatedRating
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating*
+  name: RatedRating
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_RatedRating_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedRating
+  nameWithType: LeagueEntry.RatedRating
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier
+  name: RatedTier
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_RatedTier
+  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier
+  nameWithType: LeagueEntry.RatedTier
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier*
+  name: RatedTier
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_RatedTier_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.RatedTier
+  nameWithType: LeagueEntry.RatedTier
 - uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerId
   name: SummonerId
   href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_SummonerId
@@ -23749,6 +23775,129 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.MiniSeries.Wins
   nameWithType: MiniSeries.Wins
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry
+  name: TopRatedLadderEntry
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html
+  commentId: T:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry
+  nameWithType: TopRatedLadderEntry
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.#ctor
+  name: TopRatedLadderEntry()
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry__ctor
+  commentId: M:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.#ctor
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.TopRatedLadderEntry()
+  nameWithType: TopRatedLadderEntry.TopRatedLadderEntry()
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.#ctor*
+  name: TopRatedLadderEntry
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry__ctor_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.TopRatedLadderEntry
+  nameWithType: TopRatedLadderEntry.TopRatedLadderEntry
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry__AdditionalProperties
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  nameWithType: TopRatedLadderEntry._AdditionalProperties
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  nameWithType: TopRatedLadderEntry._AdditionalProperties
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  name: PreviousUpdateLadderPosition
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_PreviousUpdateLadderPosition
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  nameWithType: TopRatedLadderEntry.PreviousUpdateLadderPosition
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition*
+  name: PreviousUpdateLadderPosition
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_PreviousUpdateLadderPosition_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  nameWithType: TopRatedLadderEntry.PreviousUpdateLadderPosition
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  name: RatedRating
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_RatedRating
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  nameWithType: TopRatedLadderEntry.RatedRating
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating*
+  name: RatedRating
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_RatedRating_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  nameWithType: TopRatedLadderEntry.RatedRating
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  name: RatedTier
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_RatedTier
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  nameWithType: TopRatedLadderEntry.RatedTier
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier*
+  name: RatedTier
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_RatedTier_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  nameWithType: TopRatedLadderEntry.RatedTier
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  name: SummonerId
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerId
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  nameWithType: TopRatedLadderEntry.SummonerId
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId*
+  name: SummonerId
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerId_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  nameWithType: TopRatedLadderEntry.SummonerId
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  name: SummonerName
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerName
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  nameWithType: TopRatedLadderEntry.SummonerName
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName*
+  name: SummonerName
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerName_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  nameWithType: TopRatedLadderEntry.SummonerName
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_ToString
+  commentId: M:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString()
+  nameWithType: TopRatedLadderEntry.ToString()
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_ToString_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString
+  nameWithType: TopRatedLadderEntry.ToString
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins
+  name: Wins
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_Wins
+  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins
+  nameWithType: TopRatedLadderEntry.Wins
+- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins*
+  name: Wins
+  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_Wins_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.Wins
+  nameWithType: TopRatedLadderEntry.Wins
 - uid: Camille.RiotGames.TftLeagueV1Endpoints
   name: TftLeagueV1Endpoints
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html
@@ -23947,6 +24096,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync
   nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadder(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadder(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder*
+  name: GetTopRatedLadder
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadderAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadderAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync*
+  name: GetTopRatedLadderAsync
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync
 - uid: Camille.RiotGames.TftMatchV1
   name: Camille.RiotGames.TftMatchV1
   href: api/Camille.RiotGames.TftMatchV1.html
