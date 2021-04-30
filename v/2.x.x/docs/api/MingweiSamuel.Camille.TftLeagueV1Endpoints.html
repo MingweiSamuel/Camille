@@ -632,7 +632,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntriesForSummoner(Region region, string encryptedSummonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntriesForSummoner(Region region, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -652,7 +652,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">encryptedSummonerId</span></td>
+        <td><span class="parametername">summonerId</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
@@ -694,7 +694,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesForSummonerAsync(Region region, string encryptedSummonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesForSummonerAsync(Region region, string summonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -714,7 +714,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">encryptedSummonerId</span></td>
+        <td><span class="parametername">summonerId</span></td>
         <td><p>(required)</p>
 </td>
       </tr>
@@ -849,6 +849,130 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tf
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="MingweiSamuel.Camille.TftLeagueV1.LeagueList.html">LeagueList</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/2.x.x/apiSpec/new?filename=MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadder_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/2.x.x/Camille/gen/EndpointMethods.cs/#L1433">View Source</a>
+  </span>
+  <a id="MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadder_" data-uid="MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder*"></a>
+  <h4 id="MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadder_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTopRatedLadder(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get the top rated ladder for given queue<p>
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tft-league-v1/GET_getTopRatedLadder">https://developer.riotgames.com/api-methods/#tft-league-v1/GET_getTopRatedLadder</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TopRatedLadderEntry[] GetTopRatedLadder(Region region, string queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MingweiSamuel.Camille.Enums.Region.html">Region</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>Region to query.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">queue</span></td>
+        <td><p>(required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html">TopRatedLadderEntry</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/2.x.x/apiSpec/new?filename=MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadderAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/2.x.x/Camille/gen/EndpointMethods.cs/#L1446">View Source</a>
+  </span>
+  <a id="MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadderAsync_" data-uid="MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync*"></a>
+  <h4 id="MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadderAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})">GetTopRatedLadderAsync(Region, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get the top rated ladder for given queue<p>
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tft-league-v1/GET_getTopRatedLadder">https://developer.riotgames.com/api-methods/#tft-league-v1/GET_getTopRatedLadder</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TopRatedLadderEntry[]&gt; GetTopRatedLadderAsync(Region region, string queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MingweiSamuel.Camille.Enums.Region.html">Region</a></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>Region to query.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">queue</span></td>
+        <td><p>(required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html">TopRatedLadderEntry</a>[]&gt;</td>
         <td></td>
       </tr>
     </tbody>

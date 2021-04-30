@@ -13806,6 +13806,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.Rank
   nameWithType: LeagueEntry.Rank
+- uid: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating
+  name: RatedRating
+  href: api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html#MingweiSamuel_Camille_TftLeagueV1_LeagueEntry_RatedRating
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating
+  fullName: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating
+  nameWithType: LeagueEntry.RatedRating
+- uid: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating*
+  name: RatedRating
+  href: api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html#MingweiSamuel_Camille_TftLeagueV1_LeagueEntry_RatedRating_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedRating
+  nameWithType: LeagueEntry.RatedRating
+- uid: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier
+  name: RatedTier
+  href: api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html#MingweiSamuel_Camille_TftLeagueV1_LeagueEntry_RatedTier
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier
+  fullName: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier
+  nameWithType: LeagueEntry.RatedTier
+- uid: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier*
+  name: RatedTier
+  href: api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html#MingweiSamuel_Camille_TftLeagueV1_LeagueEntry_RatedTier_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.RatedTier
+  nameWithType: LeagueEntry.RatedTier
 - uid: MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.SummonerId
   name: SummonerId
   href: api/MingweiSamuel.Camille.TftLeagueV1.LeagueEntry.html#MingweiSamuel_Camille_TftLeagueV1_LeagueEntry_SummonerId
@@ -14279,6 +14305,129 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftLeagueV1.MiniSeries.Wins
   nameWithType: MiniSeries.Wins
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry
+  name: TopRatedLadderEntry
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html
+  commentId: T:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry
+  nameWithType: TopRatedLadderEntry
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.#ctor
+  name: TopRatedLadderEntry()
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry__ctor
+  commentId: M:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.#ctor
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.TopRatedLadderEntry()
+  nameWithType: TopRatedLadderEntry.TopRatedLadderEntry()
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.#ctor*
+  name: TopRatedLadderEntry
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry__ctor_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.TopRatedLadderEntry
+  nameWithType: TopRatedLadderEntry.TopRatedLadderEntry
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  nameWithType: TopRatedLadderEntry._AdditionalProperties
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry._AdditionalProperties
+  nameWithType: TopRatedLadderEntry._AdditionalProperties
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  name: PreviousUpdateLadderPosition
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_PreviousUpdateLadderPosition
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  nameWithType: TopRatedLadderEntry.PreviousUpdateLadderPosition
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition*
+  name: PreviousUpdateLadderPosition
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_PreviousUpdateLadderPosition_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.PreviousUpdateLadderPosition
+  nameWithType: TopRatedLadderEntry.PreviousUpdateLadderPosition
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  name: RatedRating
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_RatedRating
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  nameWithType: TopRatedLadderEntry.RatedRating
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating*
+  name: RatedRating
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_RatedRating_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedRating
+  nameWithType: TopRatedLadderEntry.RatedRating
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  name: RatedTier
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_RatedTier
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  nameWithType: TopRatedLadderEntry.RatedTier
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier*
+  name: RatedTier
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_RatedTier_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.RatedTier
+  nameWithType: TopRatedLadderEntry.RatedTier
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  name: SummonerId
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_SummonerId
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  nameWithType: TopRatedLadderEntry.SummonerId
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId*
+  name: SummonerId
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_SummonerId_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerId
+  nameWithType: TopRatedLadderEntry.SummonerId
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  name: SummonerName
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_SummonerName
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  nameWithType: TopRatedLadderEntry.SummonerName
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName*
+  name: SummonerName
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_SummonerName_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.SummonerName
+  nameWithType: TopRatedLadderEntry.SummonerName
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_ToString
+  commentId: M:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString()
+  nameWithType: TopRatedLadderEntry.ToString()
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_ToString_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.ToString
+  nameWithType: TopRatedLadderEntry.ToString
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins
+  name: Wins
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_Wins
+  commentId: P:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins
+  nameWithType: TopRatedLadderEntry.Wins
+- uid: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins*
+  name: Wins
+  href: api/MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.html#MingweiSamuel_Camille_TftLeagueV1_TopRatedLadderEntry_Wins_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1.TopRatedLadderEntry.Wins
+  nameWithType: TopRatedLadderEntry.Wins
 - uid: MingweiSamuel.Camille.TftLeagueV1Endpoints
   name: TftLeagueV1Endpoints
   href: api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html
@@ -14477,6 +14626,38 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetMasterLeagueAsync
   nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync
+- uid: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadder(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html#MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadder_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadder(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder*
+  name: GetTopRatedLadder
+  href: api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html#MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadder_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadder
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder
+- uid: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadderAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html#MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadderAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadderAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync*
+  name: GetTopRatedLadderAsync
+  href: api/MingweiSamuel.Camille.TftLeagueV1Endpoints.html#MingweiSamuel_Camille_TftLeagueV1Endpoints_GetTopRatedLadderAsync_
+  commentId: Overload:MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftLeagueV1Endpoints.GetTopRatedLadderAsync
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync
 - uid: MingweiSamuel.Camille.TftMatchV1
   name: MingweiSamuel.Camille.TftMatchV1
   href: api/MingweiSamuel.Camille.TftMatchV1.html
