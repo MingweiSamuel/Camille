@@ -18,7 +18,9 @@ namespace Camille.Enums
         RANKED_FLEX_SR = 440,
         /// <summary>Ranked flex pick, 3v3 on Twisted Treeline.</summary>
         RANKED_FLEX_TT = 470,
-        /// <summary>Replace with dedicated TFT endpoints in RiotApi. Used in LCU.</summary>
-        RANKED_TFT = 1100
+        /// <summary>Ranked Teamfight Tactics.</summary>
+        RANKED_TFT = 1100,
+        /// <summary>Ranked Teamfight Tactics, Hyper Roll game mode.</summary>
+        RANKED_TFT_TURBO = 1130,
     }
 }
