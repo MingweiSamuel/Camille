@@ -2162,6 +2162,12 @@ references:
   commentId: F:Camille.Enums.QueueType.RANKED_TFT
   fullName: Camille.Enums.QueueType.RANKED_TFT
   nameWithType: QueueType.RANKED_TFT
+- uid: Camille.Enums.QueueType.RANKED_TFT_TURBO
+  name: RANKED_TFT_TURBO
+  href: api/Camille.Enums.QueueType.html#Camille_Enums_QueueType_RANKED_TFT_TURBO
+  commentId: F:Camille.Enums.QueueType.RANKED_TFT_TURBO
+  fullName: Camille.Enums.QueueType.RANKED_TFT_TURBO
+  nameWithType: QueueType.RANKED_TFT_TURBO
 - uid: Camille.Enums.RegionalRoute
   name: RegionalRoute
   href: api/Camille.Enums.RegionalRoute.html
@@ -24096,15 +24102,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync
   nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetTopRatedLadder(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTopRatedLadder(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadder(PlatformRoute, QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadder(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder*
   name: GetTopRatedLadder
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_
@@ -24112,15 +24118,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder
   nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetTopRatedLadderAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTopRatedLadderAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync*
   name: GetTopRatedLadderAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_
