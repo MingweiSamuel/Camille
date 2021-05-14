@@ -377,7 +377,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#va
   <h4 id="Camille_RiotGames_ValMatchV1Endpoints_GetRecent_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ValMatchV1Endpoints.GetRecent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetRecent(ValPlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get recent matches</p>
 <p><h4>Implementation Notes</h4>
-Returns a list of match ids that have completed in the last 10 minutes. NA/LATAM/BR share a match history deployment. As such, recent matches will return a combined list of matches from those three regions. Requests are load balanced so you may see some inconsistencies as matches are added/removed from the list.
+Returns a list of match ids that have completed in the last 10 minutes for live regions and 12 hours for the esports routing value. NA/LATAM/BR share a match history deployment. As such, recent matches will return a combined list of matches from those three regions. Requests are load balanced so you may see some inconsistencies as matches are added/removed from the list.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#val-match-v1/GET_getRecent">https://developer.riotgames.com/api-methods/#val-match-v1/GET_getRecent</a>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -441,7 +441,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#va
   <h4 id="Camille_RiotGames_ValMatchV1Endpoints_GetRecentAsync_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ValMatchV1Endpoints.GetRecentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetRecentAsync(ValPlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get recent matches</p>
 <p><h4>Implementation Notes</h4>
-Returns a list of match ids that have completed in the last 10 minutes. NA/LATAM/BR share a match history deployment. As such, recent matches will return a combined list of matches from those three regions. Requests are load balanced so you may see some inconsistencies as matches are added/removed from the list.
+Returns a list of match ids that have completed in the last 10 minutes for live regions and 12 hours for the esports routing value. NA/LATAM/BR share a match history deployment. As such, recent matches will return a combined list of matches from those three regions. Requests are load balanced so you may see some inconsistencies as matches are added/removed from the list.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#val-match-v1/GET_getRecent">https://developer.riotgames.com/api-methods/#val-match-v1/GET_getRecent</a>
 </div>
   <div class="markdown level1 conceptual"></div>
