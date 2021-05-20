@@ -44,8 +44,11 @@ namespace MingweiSamuel.Camille
         for (let [ route, path ] of endpointMethods)
         {
             let get = path.get;
-            if (!get)
+            if (!get) /* Only support GET parameters. */
                 continue;
+            if ((get.parameters || []).some(p => 'header' === p.in)) /* Do not support header parameter methods. */
+                continue;
+
             let operationId = get.operationId;
             let method = dotUtils.capitalize(operationId.slice(operationId.indexOf('.') + 1));
 
