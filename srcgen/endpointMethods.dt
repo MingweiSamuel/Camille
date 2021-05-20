@@ -98,25 +98,32 @@ namespace Camille.{{= it.namespace }}
                 const argBuilder = extraParams.flatMap(({ name, type }) => [ type, ' ', name, ', ' ]);
                 const argForward = extraParams.flatMap(({ name }) => [ name, ', ' ]);
 
-                const allParams = operation.parameters;
-                let queryParams = [];
+                /* Add body params after path/query. */
                 if (bodyType) {
                     argBuilder.push(bodyType, ' body, ');
                     argForward.push('body, ');
                 }
+
+                const allParams = operation.parameters;
+                let queryParams = [];
+                let headerParams = [];
                 if (allParams && allParams.length)
                 {
-                    let pathParams = allParams.filter(p => 'path' === p.in)
+                    const pathParams = allParams.filter(p => 'path' === p.in)
                         .sortBy(({ name }) => route.indexOf(name));
-                    let reqParams = allParams.filter(p => 'path' !== p.in && p.required);
-                    let optParams = allParams.filter(p => 'path' !== p.in && !p.required)
+
+                    const reqQueryParams = allParams.filter(p => 'query' === p.in && p.required);
+                    const optQueryParams = allParams.filter(p => 'query' === p.in && !p.required)
                         .sortBy(({ name }) => {
                             let match = /(^[a-z]+|[A-Z]+(?![a-z])|[A-Z][a-z]+)/.exec(name);
                             return match.slice(1).reverse().join('');
                         });
-                    queryParams = reqParams.concat(optParams);
+                    queryParams = reqQueryParams.concat(optQueryParams);
 
-                    for (let paramList of [ pathParams, reqParams, optParams ])
+                    headerParams = allParams.filter(p => 'header' === p.in);
+
+                    /* Add path, query, and header params. */
+                    for (let paramList of [ pathParams, reqQueryParams, optQueryParams, headerParams ])
                     {
                         for (let param of paramList)
                         {
@@ -130,6 +137,7 @@ namespace Camille.{{= it.namespace }}
                         }
                     }
                 }
+
                 argBuilder.push('CancellationToken? cancellationToken = null');
                 argForward.push('cancellationToken');
 
@@ -158,7 +166,7 @@ namespace Camille.{{= it.namespace }}
                     extraParams.forEach(param => param.required = true);
                     for (const param of extraParams.concat(allParams || []))
                     {
-                        const paramDesc = `${param.description || ''} (${param.required ? 'required' : 'optional'})`.trim();
+                        const paramDesc = `${param.description || ''} (${param.required ? 'required' : 'optional'}${param.in ? `, in ${param.in}` : ''})`.trim();
 }}
         /// <param name="{{= param.name }}">{{= paramDesc }}</param>
 {{
@@ -174,7 +182,7 @@ namespace Camille.{{= it.namespace }}
 {{? queryParams.length }}
             var queryParams = new List<KeyValuePair<string?, string?>>();
 {{
-                    for (let queryParam of queryParams)
+                    for (const queryParam of queryParams)
                     { 
 }}
             {{= dotUtils.formatAddQueryParam(queryParam) }};
@@ -185,9 +193,17 @@ namespace Camille.{{= it.namespace }}
             using (var content = new FormUrlEncodedContent(queryParams))
                 request = new HttpRequestMessage({{= httpMethodShimmed }}, $"{{= dotUtils.replaceEnumCasts(route) }}?{content.ReadAsStringAsync().Result}");
 {{?}}
-{{? !queryParams.length}}
+{{? !queryParams.length }}
             var request = new HttpRequestMessage({{= httpMethodShimmed }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
 {{?}}
+{{
+                    for (const headerParam of headerParams)
+                    {
+}}
+            request.Headers.Add(nameof({{= headerParam.name }}), {{= headerParam.name }});
+{{
+                    }
+}}
 {{? bodyType }}
             request.Content = new StringContent(JsonHandler.Serialize(body), Encoding.UTF8, "application/json");
 {{?}}
