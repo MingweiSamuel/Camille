@@ -6638,37 +6638,18 @@ references:
   commentId: N:MingweiSamuel.Camille.LorDeckV1
   fullName: MingweiSamuel.Camille.LorDeckV1
   nameWithType: MingweiSamuel.Camille.LorDeckV1
-- uid: MingweiSamuel.Camille.LorDeckV1.deck
-  name: deck
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html
-  commentId: T:MingweiSamuel.Camille.LorDeckV1.deck
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck
-  nameWithType: deck
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck
   name: Deck
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html
   commentId: T:MingweiSamuel.Camille.LorDeckV1.Deck
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck
   nameWithType: Deck
-- uid: MingweiSamuel.Camille.LorDeckV1.deck.#ctor
-  name: deck()
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck__ctor
-  commentId: M:MingweiSamuel.Camille.LorDeckV1.deck.#ctor
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck.deck()
-  nameWithType: deck.deck()
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck.#ctor
   name: Deck()
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck__ctor
   commentId: M:MingweiSamuel.Camille.LorDeckV1.Deck.#ctor
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck.Deck()
   nameWithType: Deck.Deck()
-- uid: MingweiSamuel.Camille.LorDeckV1.deck.#ctor*
-  name: deck
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck__ctor_
-  commentId: Overload:MingweiSamuel.Camille.LorDeckV1.deck.#ctor
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck.deck
-  nameWithType: deck.deck
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck.#ctor*
   name: Deck
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck__ctor_
@@ -6676,25 +6657,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck.Deck
   nameWithType: Deck.Deck
-- uid: MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck__AdditionalProperties
-  commentId: P:MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties
-  nameWithType: deck._AdditionalProperties
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck._AdditionalProperties
   name: _AdditionalProperties
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck__AdditionalProperties
   commentId: P:MingweiSamuel.Camille.LorDeckV1.Deck._AdditionalProperties
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck._AdditionalProperties
   nameWithType: Deck._AdditionalProperties
-- uid: MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck__AdditionalProperties_
-  commentId: Overload:MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck._AdditionalProperties
-  nameWithType: deck._AdditionalProperties
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck._AdditionalProperties*
   name: _AdditionalProperties
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck__AdditionalProperties_
@@ -6741,25 +6709,12 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck.Name
   nameWithType: Deck.Name
-- uid: MingweiSamuel.Camille.LorDeckV1.deck.ToString
-  name: ToString()
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck_ToString
-  commentId: M:MingweiSamuel.Camille.LorDeckV1.deck.ToString
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck.ToString()
-  nameWithType: deck.ToString()
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck_ToString
   commentId: M:MingweiSamuel.Camille.LorDeckV1.Deck.ToString
   fullName: MingweiSamuel.Camille.LorDeckV1.Deck.ToString()
   nameWithType: Deck.ToString()
-- uid: MingweiSamuel.Camille.LorDeckV1.deck.ToString*
-  name: ToString
-  href: api/MingweiSamuel.Camille.LorDeckV1.deck_1.html#MingweiSamuel_Camille_LorDeckV1_deck_ToString_
-  commentId: Overload:MingweiSamuel.Camille.LorDeckV1.deck.ToString
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.LorDeckV1.deck.ToString
-  nameWithType: deck.ToString
 - uid: MingweiSamuel.Camille.LorDeckV1.Deck.ToString*
   name: ToString
   href: api/MingweiSamuel.Camille.LorDeckV1.Deck.html#MingweiSamuel_Camille_LorDeckV1_Deck_ToString_
