@@ -15921,37 +15921,18 @@ references:
   commentId: N:Camille.RiotGames.LorDeckV1
   fullName: Camille.RiotGames.LorDeckV1
   nameWithType: Camille.RiotGames.LorDeckV1
-- uid: Camille.RiotGames.LorDeckV1.deck
-  name: deck
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html
-  commentId: T:Camille.RiotGames.LorDeckV1.deck
-  fullName: Camille.RiotGames.LorDeckV1.deck
-  nameWithType: deck
 - uid: Camille.RiotGames.LorDeckV1.Deck
   name: Deck
   href: api/Camille.RiotGames.LorDeckV1.Deck.html
   commentId: T:Camille.RiotGames.LorDeckV1.Deck
   fullName: Camille.RiotGames.LorDeckV1.Deck
   nameWithType: Deck
-- uid: Camille.RiotGames.LorDeckV1.deck.#ctor
-  name: deck()
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck__ctor
-  commentId: M:Camille.RiotGames.LorDeckV1.deck.#ctor
-  fullName: Camille.RiotGames.LorDeckV1.deck.deck()
-  nameWithType: deck.deck()
 - uid: Camille.RiotGames.LorDeckV1.Deck.#ctor
   name: Deck()
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck__ctor
   commentId: M:Camille.RiotGames.LorDeckV1.Deck.#ctor
   fullName: Camille.RiotGames.LorDeckV1.Deck.Deck()
   nameWithType: Deck.Deck()
-- uid: Camille.RiotGames.LorDeckV1.deck.#ctor*
-  name: deck
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck__ctor_
-  commentId: Overload:Camille.RiotGames.LorDeckV1.deck.#ctor
-  isSpec: "True"
-  fullName: Camille.RiotGames.LorDeckV1.deck.deck
-  nameWithType: deck.deck
 - uid: Camille.RiotGames.LorDeckV1.Deck.#ctor*
   name: Deck
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck__ctor_
@@ -15959,25 +15940,12 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LorDeckV1.Deck.Deck
   nameWithType: Deck.Deck
-- uid: Camille.RiotGames.LorDeckV1.deck._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck__AdditionalProperties
-  commentId: P:Camille.RiotGames.LorDeckV1.deck._AdditionalProperties
-  fullName: Camille.RiotGames.LorDeckV1.deck._AdditionalProperties
-  nameWithType: deck._AdditionalProperties
 - uid: Camille.RiotGames.LorDeckV1.Deck._AdditionalProperties
   name: _AdditionalProperties
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck__AdditionalProperties
   commentId: P:Camille.RiotGames.LorDeckV1.Deck._AdditionalProperties
   fullName: Camille.RiotGames.LorDeckV1.Deck._AdditionalProperties
   nameWithType: Deck._AdditionalProperties
-- uid: Camille.RiotGames.LorDeckV1.deck._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck__AdditionalProperties_
-  commentId: Overload:Camille.RiotGames.LorDeckV1.deck._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.RiotGames.LorDeckV1.deck._AdditionalProperties
-  nameWithType: deck._AdditionalProperties
 - uid: Camille.RiotGames.LorDeckV1.Deck._AdditionalProperties*
   name: _AdditionalProperties
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck__AdditionalProperties_
@@ -16024,25 +15992,12 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LorDeckV1.Deck.Name
   nameWithType: Deck.Name
-- uid: Camille.RiotGames.LorDeckV1.deck.ToString
-  name: ToString()
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck_ToString
-  commentId: M:Camille.RiotGames.LorDeckV1.deck.ToString
-  fullName: Camille.RiotGames.LorDeckV1.deck.ToString()
-  nameWithType: deck.ToString()
 - uid: Camille.RiotGames.LorDeckV1.Deck.ToString
   name: ToString()
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck_ToString
   commentId: M:Camille.RiotGames.LorDeckV1.Deck.ToString
   fullName: Camille.RiotGames.LorDeckV1.Deck.ToString()
   nameWithType: Deck.ToString()
-- uid: Camille.RiotGames.LorDeckV1.deck.ToString*
-  name: ToString
-  href: api/Camille.RiotGames.LorDeckV1.deck_1.html#Camille_RiotGames_LorDeckV1_deck_ToString_
-  commentId: Overload:Camille.RiotGames.LorDeckV1.deck.ToString
-  isSpec: "True"
-  fullName: Camille.RiotGames.LorDeckV1.deck.ToString
-  nameWithType: deck.ToString
 - uid: Camille.RiotGames.LorDeckV1.Deck.ToString*
   name: ToString
   href: api/Camille.RiotGames.LorDeckV1.Deck.html#Camille_RiotGames_LorDeckV1_Deck_ToString_
@@ -16127,15 +16082,15 @@ references:
   commentId: T:Camille.RiotGames.LorDeckV1Endpoints
   fullName: Camille.RiotGames.LorDeckV1Endpoints
   nameWithType: LorDeckV1Endpoints
-- uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute,Camille.RiotGames.LorDeckV1.deck,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: CreateDeck(RegionalRoute, deck, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeck_RegionalRoute_Camille_RiotGames_LorDeckV1_deck_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute,Camille.RiotGames.LorDeckV1.deck,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: CreateDeck(RegionalRoute, deck, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute, Camille.RiotGames.LorDeckV1.deck, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute, Camille.RiotGames.LorDeckV1.deck, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LorDeckV1Endpoints.CreateDeck(RegionalRoute, deck, String, Nullable<CancellationToken>)
-  nameWithType.vb: LorDeckV1Endpoints.CreateDeck(RegionalRoute, deck, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute,Camille.RiotGames.LorDeckV1.NewDeck,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: CreateDeck(RegionalRoute, NewDeck, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeck_RegionalRoute_Camille_RiotGames_LorDeckV1_NewDeck_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute,Camille.RiotGames.LorDeckV1.NewDeck,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: CreateDeck(RegionalRoute, NewDeck, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute, Camille.RiotGames.LorDeckV1.NewDeck, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck(RegionalRoute, Camille.RiotGames.LorDeckV1.NewDeck, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorDeckV1Endpoints.CreateDeck(RegionalRoute, NewDeck, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorDeckV1Endpoints.CreateDeck(RegionalRoute, NewDeck, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck*
   name: CreateDeck
   href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeck_
@@ -16143,15 +16098,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LorDeckV1Endpoints.CreateDeck
   nameWithType: LorDeckV1Endpoints.CreateDeck
-- uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute,Camille.RiotGames.LorDeckV1.deck,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: CreateDeckAsync(RegionalRoute, deck, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeckAsync_RegionalRoute_Camille_RiotGames_LorDeckV1_deck_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute,Camille.RiotGames.LorDeckV1.deck,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: CreateDeckAsync(RegionalRoute, deck, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, Camille.RiotGames.LorDeckV1.deck, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, Camille.RiotGames.LorDeckV1.deck, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, deck, String, Nullable<CancellationToken>)
-  nameWithType.vb: LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, deck, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute,Camille.RiotGames.LorDeckV1.NewDeck,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: CreateDeckAsync(RegionalRoute, NewDeck, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeckAsync_RegionalRoute_Camille_RiotGames_LorDeckV1_NewDeck_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute,Camille.RiotGames.LorDeckV1.NewDeck,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: CreateDeckAsync(RegionalRoute, NewDeck, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, Camille.RiotGames.LorDeckV1.NewDeck, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, Camille.RiotGames.LorDeckV1.NewDeck, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, NewDeck, String, Nullable<CancellationToken>)
+  nameWithType.vb: LorDeckV1Endpoints.CreateDeckAsync(RegionalRoute, NewDeck, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LorDeckV1Endpoints.CreateDeckAsync*
   name: CreateDeckAsync
   href: api/Camille.RiotGames.LorDeckV1Endpoints.html#Camille_RiotGames_LorDeckV1Endpoints_CreateDeckAsync_
