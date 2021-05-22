@@ -98,7 +98,7 @@ namespace Camille.{{= it.namespace }}
                 const argBuilder = extraParams.flatMap(({ name, type }) => [ type, ' ', name, ', ' ]);
                 const argForward = extraParams.flatMap(({ name }) => [ name, ', ' ]);
 
-                /* Add body params after path/query. */
+                /* Add body params before path/query. */
                 if (bodyType) {
                     argBuilder.push(bodyType, ' body, ');
                     argForward.push('body, ');
