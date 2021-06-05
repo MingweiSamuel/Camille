@@ -97,9 +97,9 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpoin
         {
             return "{{= schemaName }}("
 {{
-        for (let [ propKey, prop ] of Object.entries(props))
+        for (const [ propKey, prop ] of Object.entries(props))
         {
-            let propName = dotUtils.normalizePropName(propKey, schemaName, prop);
+            const propName = dotUtils.normalizePropName(propKey, schemaName, prop);
 }}
                 + "{{= propName}}: " + {{= propName }} + ", "
 {{
