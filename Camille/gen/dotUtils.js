@@ -30,8 +30,10 @@ function normalizeArgName(name) {
 }
 
 function normalizePropName(propName, schemaName, value) {
-  var tokens = propName.split(/[_-]/g);
-  var name = tokens.map(capitalize).join('');
+  if (/^\d/.test(propName)) // No leading digits.
+    propName = 'x' + propName;
+  const tokens = propName.split(/[_-]/g);
+  let name = tokens.map(capitalize).join('');
   if (name === schemaName)
     name += stringifyType(value);
   return name;

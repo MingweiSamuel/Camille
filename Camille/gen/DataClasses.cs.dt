@@ -54,7 +54,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 {{
         for (let [ propKey, prop ] of Object.entries(props))
         {
-            let name = dotUtils.normalizePropName(propKey, schemaName, prop);
+            const name = dotUtils.normalizePropName(propKey, schemaName, prop);
 }}
 {{? prop.description }}
         /// <summary>
