@@ -12260,6 +12260,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.MatchInfo.ToString
   nameWithType: MatchInfo.ToString
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode
+  name: TournamentCode
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfo.html#MingweiSamuel_Camille_MatchV5_MatchInfo_TournamentCode
+  commentId: P:MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode
+  nameWithType: MatchInfo.TournamentCode
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode*
+  name: TournamentCode
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfo.html#MingweiSamuel_Camille_MatchV5_MatchInfo_TournamentCode_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfo.TournamentCode
+  nameWithType: MatchInfo.TournamentCode
 - uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant
   name: MatchInfoParticipant
   href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html
