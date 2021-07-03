@@ -21639,6 +21639,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.MatchInfo.ToString
   nameWithType: MatchInfo.ToString
+- uid: Camille.RiotGames.MatchV5.MatchInfo.TournamentCode
+  name: TournamentCode
+  href: api/Camille.RiotGames.MatchV5.MatchInfo.html#Camille_RiotGames_MatchV5_MatchInfo_TournamentCode
+  commentId: P:Camille.RiotGames.MatchV5.MatchInfo.TournamentCode
+  fullName: Camille.RiotGames.MatchV5.MatchInfo.TournamentCode
+  nameWithType: MatchInfo.TournamentCode
+- uid: Camille.RiotGames.MatchV5.MatchInfo.TournamentCode*
+  name: TournamentCode
+  href: api/Camille.RiotGames.MatchV5.MatchInfo.html#Camille_RiotGames_MatchV5_MatchInfo_TournamentCode_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchInfo.TournamentCode
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchInfo.TournamentCode
+  nameWithType: MatchInfo.TournamentCode
 - uid: Camille.RiotGames.MatchV5.MatchInfoParticipant
   name: MatchInfoParticipant
   href: api/Camille.RiotGames.MatchV5.MatchInfoParticipant.html
