@@ -1367,6 +1367,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.AKALI
   fullName: MingweiSamuel.Camille.Enums.Champion.AKALI
   nameWithType: Champion.AKALI
+- uid: MingweiSamuel.Camille.Enums.Champion.AKSHAN
+  name: AKSHAN
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_AKSHAN
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.AKSHAN
+  fullName: MingweiSamuel.Camille.Enums.Champion.AKSHAN
+  nameWithType: Champion.AKSHAN
 - uid: MingweiSamuel.Camille.Enums.Champion.ALISTAR
   name: ALISTAR
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_ALISTAR
@@ -2303,6 +2309,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Akali
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Akali
   nameWithType: ChampionId.Akali
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Akshan
+  name: Akshan
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Akshan
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Akshan
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Akshan
+  nameWithType: ChampionId.Akshan
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Alistar
   name: Alistar
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Alistar
