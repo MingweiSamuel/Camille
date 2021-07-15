@@ -152,6 +152,12 @@ references:
   commentId: F:Camille.Enums.Champion.AKALI
   fullName: Camille.Enums.Champion.AKALI
   nameWithType: Champion.AKALI
+- uid: Camille.Enums.Champion.AKSHAN
+  name: AKSHAN
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AKSHAN
+  commentId: F:Camille.Enums.Champion.AKSHAN
+  fullName: Camille.Enums.Champion.AKSHAN
+  nameWithType: Champion.AKSHAN
 - uid: Camille.Enums.Champion.ALISTAR
   name: ALISTAR
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_ALISTAR
@@ -1244,6 +1250,12 @@ references:
   commentId: F:Camille.Enums.GameMode.TUTORIAL_MODULE_3
   fullName: Camille.Enums.GameMode.TUTORIAL_MODULE_3
   nameWithType: GameMode.TUTORIAL_MODULE_3
+- uid: Camille.Enums.GameMode.ULTBOOK
+  name: ULTBOOK
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_ULTBOOK
+  commentId: F:Camille.Enums.GameMode.ULTBOOK
+  fullName: Camille.Enums.GameMode.ULTBOOK
+  nameWithType: GameMode.ULTBOOK
 - uid: Camille.Enums.GameMode.URF
   name: URF
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_URF
@@ -2042,6 +2054,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_3
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_TUTORIAL_3
   nameWithType: Queue.SUMMONERS_RIFT_TUTORIAL_3
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
+  name: SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
+  nameWithType: Queue.SUMMONERS_RIFT_ULTIMATE_SPELLBOOK
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_ULTRA_RAPID_FIRE
   name: SUMMONERS_RIFT_ULTRA_RAPID_FIRE
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_ULTRA_RAPID_FIRE
