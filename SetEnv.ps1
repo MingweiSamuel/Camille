@@ -43,7 +43,7 @@ If ($VERSION_TAG -Ne $REPO_TAG -Or -Not ($env:CAMI_VERSION -As [Version])) {
 
 # Set CAMI_SPEC_HASH
 $env:CAMI_SPEC_HASH = (
-    Invoke-RestMethod -Uri 'http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.min.json').Info.Version
+    Invoke-RestMethod -Uri 'http://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.min.json').info.'x-hash'
 
 Write-Host "CAMI_DO_DEPLOY=$env:CAMI_DO_DEPLOY"
 Write-Host "CAMI_VERSION=$env:CAMI_VERSION"
