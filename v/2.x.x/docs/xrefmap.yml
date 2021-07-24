@@ -12681,6 +12681,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorsLost
   nameWithType: MatchInfoParticipant.InhibitorsLost
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns
+  name: InhibitorTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_InhibitorTakedowns
+  commentId: P:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns
+  nameWithType: MatchInfoParticipant.InhibitorTakedowns
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns*
+  name: InhibitorTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_InhibitorTakedowns_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.InhibitorTakedowns
+  nameWithType: MatchInfoParticipant.InhibitorTakedowns
 - uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.Item0
   name: Item0
   href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_Item0
@@ -12954,6 +12967,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusLost
   nameWithType: MatchInfoParticipant.NexusLost
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns
+  name: NexusTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_NexusTakedowns
+  commentId: P:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns
+  nameWithType: MatchInfoParticipant.NexusTakedowns
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns*
+  name: NexusTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_NexusTakedowns_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.NexusTakedowns
+  nameWithType: MatchInfoParticipant.NexusTakedowns
 - uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.ObjectivesStolen
   name: ObjectivesStolen
   href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_ObjectivesStolen
@@ -13578,6 +13604,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretsLost
   nameWithType: MatchInfoParticipant.TurretsLost
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns
+  name: TurretTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_TurretTakedowns
+  commentId: P:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns
+  nameWithType: MatchInfoParticipant.TurretTakedowns
+- uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns*
+  name: TurretTakedowns
+  href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_TurretTakedowns_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.TurretTakedowns
+  nameWithType: MatchInfoParticipant.TurretTakedowns
 - uid: MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.UnrealKills
   name: UnrealKills
   href: api/MingweiSamuel.Camille.MatchV5.MatchInfoParticipant.html#MingweiSamuel_Camille_MatchV5_MatchInfoParticipant_UnrealKills
