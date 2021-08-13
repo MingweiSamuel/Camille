@@ -16,4 +16,8 @@
   <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
     <DefineConstants>$(DefineConstants);USE_HTTPMETHOD_PATCH_SHIM</DefineConstants>
   </PropertyGroup>
+
+  <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/lcu-schema/lcu/openapi.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+  </Target>
 </Project>

@@ -1,5 +1,5 @@
 ﻿const dotUtils = require('../../srcgen/dotUtils.js'); // Evil relative path.
-const spec = require('./spec.json');
+const spec = require('./.spec.json');
 const lcuTypeToCamilleEnum = {
   "LolRankedLeagueQueueType": { "x-enum": "queueType", "x-type": "int" },
   "LolRankedLeagueTier": { "x-enum": "tier", "x-type": "string" },
