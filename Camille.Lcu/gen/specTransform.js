@@ -88,7 +88,7 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}, lcuTypeT
   (endpoints
     ? endpoints.map(ep => spec.paths[ep])
     : Object.values(spec.paths))
-    .forEach(path => Object.entries(path)
+    .forEach(path => Object.entries(path || {})
       .forEach(([ verb, op ]) => {
         // TODO.
         if (!(op.tags && op.tags.length)) throw new Error("Can't handle missing tags.");
