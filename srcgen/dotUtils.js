@@ -138,6 +138,10 @@ function formatAddQueryParam(param) {
   }
 }
 
+function formatComment(comment, indent) {
+  return comment.split('\n').map(x => x.trim()).join(`<para />\r\n${' '.repeat(indent)}/// `)
+}
+
 module.exports = {
   capitalize,
   decapitalize,
@@ -151,5 +155,6 @@ module.exports = {
   stringifyParam,
   replaceEnumCasts,
   formatJsonProperty,
-  formatAddQueryParam
+  formatAddQueryParam,
+  formatComment
 };
