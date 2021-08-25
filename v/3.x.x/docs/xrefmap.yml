@@ -2887,6 +2887,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectAction.Id
   nameWithType: ChampSelectAction.Id
+- uid: Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction
+  name: IsAllyAction
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectAction.html#Camille_Lcu_LolChampSelect_ChampSelectAction_IsAllyAction
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction
+  nameWithType: ChampSelectAction.IsAllyAction
+- uid: Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction*
+  name: IsAllyAction
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectAction.html#Camille_Lcu_LolChampSelect_ChampSelectAction_IsAllyAction_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectAction.IsAllyAction
+  nameWithType: ChampSelectAction.IsAllyAction
 - uid: Camille.Lcu.LolChampSelect.ChampSelectAction.ToString
   name: ToString()
   href: api/Camille.Lcu.LolChampSelect.ChampSelectAction.html#Camille_Lcu_LolChampSelect_ChampSelectAction_ToString
@@ -2913,64 +2926,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectAction.Type
   nameWithType: ChampSelectAction.Type
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions
-  name: ChampSelectBannableChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html
-  commentId: T:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions
-  nameWithType: ChampSelectBannableChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.#ctor
-  name: ChampSelectBannableChampions()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions__ctor
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.#ctor
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampSelectBannableChampions()
-  nameWithType: ChampSelectBannableChampions.ChampSelectBannableChampions()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.#ctor*
-  name: ChampSelectBannableChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions__ctor_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampSelectBannableChampions
-  nameWithType: ChampSelectBannableChampions.ChampSelectBannableChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions__AdditionalProperties
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties
-  nameWithType: ChampSelectBannableChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions._AdditionalProperties
-  nameWithType: ChampSelectBannableChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions_ChampionIds
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds
-  nameWithType: ChampSelectBannableChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds*
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions_ChampionIds_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ChampionIds
-  nameWithType: ChampSelectBannableChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions_ToString
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString()
-  nameWithType: ChampSelectBannableChampions.ToString()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectBannableChampions_ToString_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectBannableChampions.ToString
-  nameWithType: ChampSelectBannableChampions.ToString
 - uid: Camille.Lcu.LolChampSelect.ChampSelectBannedChampions
   name: ChampSelectBannedChampions
   href: api/Camille.Lcu.LolChampSelect.ChampSelectBannedChampions.html
@@ -3126,64 +3081,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectChatRoomDetails.ToString
   nameWithType: ChampSelectChatRoomDetails.ToString
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions
-  name: ChampSelectDisabledChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html
-  commentId: T:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions
-  nameWithType: ChampSelectDisabledChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.#ctor
-  name: ChampSelectDisabledChampions()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions__ctor
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.#ctor
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampSelectDisabledChampions()
-  nameWithType: ChampSelectDisabledChampions.ChampSelectDisabledChampions()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.#ctor*
-  name: ChampSelectDisabledChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions__ctor_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampSelectDisabledChampions
-  nameWithType: ChampSelectDisabledChampions.ChampSelectDisabledChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions__AdditionalProperties
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties
-  nameWithType: ChampSelectDisabledChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions._AdditionalProperties
-  nameWithType: ChampSelectDisabledChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions_ChampionIds
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds
-  nameWithType: ChampSelectDisabledChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds*
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions_ChampionIds_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ChampionIds
-  nameWithType: ChampSelectDisabledChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions_ToString
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString()
-  nameWithType: ChampSelectDisabledChampions.ToString()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.html#Camille_Lcu_LolChampSelect_ChampSelectDisabledChampions_ToString_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectDisabledChampions.ToString
-  nameWithType: ChampSelectDisabledChampions.ToString
 - uid: Camille.Lcu.LolChampSelect.ChampSelectMySelection
   name: ChampSelectMySelection
   href: api/Camille.Lcu.LolChampSelect.ChampSelectMySelection.html
@@ -3281,122 +3178,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectMySelection.WardSkinId
   nameWithType: ChampSelectMySelection.WardSkinId
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions
-  name: ChampSelectPickableChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html
-  commentId: T:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions
-  nameWithType: ChampSelectPickableChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.#ctor
-  name: ChampSelectPickableChampions()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions__ctor
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.#ctor
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampSelectPickableChampions()
-  nameWithType: ChampSelectPickableChampions.ChampSelectPickableChampions()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.#ctor*
-  name: ChampSelectPickableChampions
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions__ctor_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampSelectPickableChampions
-  nameWithType: ChampSelectPickableChampions.ChampSelectPickableChampions
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions__AdditionalProperties
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties
-  nameWithType: ChampSelectPickableChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions._AdditionalProperties
-  nameWithType: ChampSelectPickableChampions._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions_ChampionIds
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds
-  nameWithType: ChampSelectPickableChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds*
-  name: ChampionIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions_ChampionIds_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ChampionIds
-  nameWithType: ChampSelectPickableChampions.ChampionIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions_ToString
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString()
-  nameWithType: ChampSelectPickableChampions.ToString()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.html#Camille_Lcu_LolChampSelect_ChampSelectPickableChampions_ToString_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableChampions.ToString
-  nameWithType: ChampSelectPickableChampions.ToString
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins
-  name: ChampSelectPickableSkins
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html
-  commentId: T:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins
-  nameWithType: ChampSelectPickableSkins
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.#ctor
-  name: ChampSelectPickableSkins()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins__ctor
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.#ctor
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ChampSelectPickableSkins()
-  nameWithType: ChampSelectPickableSkins.ChampSelectPickableSkins()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.#ctor*
-  name: ChampSelectPickableSkins
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins__ctor_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ChampSelectPickableSkins
-  nameWithType: ChampSelectPickableSkins.ChampSelectPickableSkins
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins__AdditionalProperties
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties
-  nameWithType: ChampSelectPickableSkins._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins._AdditionalProperties
-  nameWithType: ChampSelectPickableSkins._AdditionalProperties
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds
-  name: SkinIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins_SkinIds
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds
-  nameWithType: ChampSelectPickableSkins.SkinIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds*
-  name: SkinIds
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins_SkinIds_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.SkinIds
-  nameWithType: ChampSelectPickableSkins.SkinIds
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins_ToString
-  commentId: M:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString()
-  nameWithType: ChampSelectPickableSkins.ToString()
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.html#Camille_Lcu_LolChampSelect_ChampSelectPickableSkins_ToString_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPickableSkins.ToString
-  nameWithType: ChampSelectPickableSkins.ToString
 - uid: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection
   name: ChampSelectPlayerSelection
   href: api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html
@@ -3494,19 +3275,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.EntitledFeatureType
   nameWithType: ChampSelectPlayerSelection.EntitledFeatureType
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType
-  name: PlayerType
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html#Camille_Lcu_LolChampSelect_ChampSelectPlayerSelection_PlayerType
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType
-  nameWithType: ChampSelectPlayerSelection.PlayerType
-- uid: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType*
-  name: PlayerType
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html#Camille_Lcu_LolChampSelect_ChampSelectPlayerSelection_PlayerType_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.PlayerType
-  nameWithType: ChampSelectPlayerSelection.PlayerType
 - uid: Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.SelectedSkinId
   name: SelectedSkinId
   href: api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html#Camille_Lcu_LolChampSelect_ChampSelectPlayerSelection_SelectedSkinId
@@ -3799,6 +3567,58 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.EntitledFeatureState
   nameWithType: ChampSelectSession.EntitledFeatureState
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.GameId
+  name: GameId
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_GameId
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectSession.GameId
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.GameId
+  nameWithType: ChampSelectSession.GameId
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.GameId*
+  name: GameId
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_GameId_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectSession.GameId
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.GameId
+  nameWithType: ChampSelectSession.GameId
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans
+  name: HasSimultaneousBans
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_HasSimultaneousBans
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans
+  nameWithType: ChampSelectSession.HasSimultaneousBans
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans*
+  name: HasSimultaneousBans
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_HasSimultaneousBans_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousBans
+  nameWithType: ChampSelectSession.HasSimultaneousBans
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks
+  name: HasSimultaneousPicks
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_HasSimultaneousPicks
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks
+  nameWithType: ChampSelectSession.HasSimultaneousPicks
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks*
+  name: HasSimultaneousPicks
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_HasSimultaneousPicks_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.HasSimultaneousPicks
+  nameWithType: ChampSelectSession.HasSimultaneousPicks
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame
+  name: IsCustomGame
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_IsCustomGame
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame
+  nameWithType: ChampSelectSession.IsCustomGame
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame*
+  name: IsCustomGame
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_IsCustomGame_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.IsCustomGame
+  nameWithType: ChampSelectSession.IsCustomGame
 - uid: Camille.Lcu.LolChampSelect.ChampSelectSession.IsSpectating
   name: IsSpectating
   href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_IsSpectating
@@ -3851,6 +3671,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.MyTeam
   nameWithType: ChampSelectSession.MyTeam
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter
+  name: RecoveryCounter
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_RecoveryCounter
+  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter
+  nameWithType: ChampSelectSession.RecoveryCounter
+- uid: Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter*
+  name: RecoveryCounter
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_RecoveryCounter_
+  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter
+  isSpec: "True"
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectSession.RecoveryCounter
+  nameWithType: ChampSelectSession.RecoveryCounter
 - uid: Camille.Lcu.LolChampSelect.ChampSelectSession.RerollsRemaining
   name: RerollsRemaining
   href: api/Camille.Lcu.LolChampSelect.ChampSelectSession.html#Camille_Lcu_LolChampSelect_ChampSelectSession_RerollsRemaining
@@ -3974,19 +3807,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhase
   nameWithType: ChampSelectTimer.AdjustedTimeLeftInPhase
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-  name: AdjustedTimeLeftInPhaseInSec
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_AdjustedTimeLeftInPhaseInSec
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-  nameWithType: ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec*
-  name: AdjustedTimeLeftInPhaseInSec
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_AdjustedTimeLeftInPhaseInSec_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
-  nameWithType: ChampSelectTimer.AdjustedTimeLeftInPhaseInSec
 - uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.InternalNowInEpochMs
   name: InternalNowInEpochMs
   href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_InternalNowInEpochMs
@@ -4026,32 +3846,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.Phase
   nameWithType: ChampSelectTimer.Phase
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase
-  name: TimeLeftInPhase
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_TimeLeftInPhase
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase
-  nameWithType: ChampSelectTimer.TimeLeftInPhase
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase*
-  name: TimeLeftInPhase
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_TimeLeftInPhase_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhase
-  nameWithType: ChampSelectTimer.TimeLeftInPhase
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec
-  name: TimeLeftInPhaseInSec
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_TimeLeftInPhaseInSec
-  commentId: P:Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec
-  nameWithType: ChampSelectTimer.TimeLeftInPhaseInSec
-- uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec*
-  name: TimeLeftInPhaseInSec
-  href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_TimeLeftInPhaseInSec_
-  commentId: Overload:Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelect.ChampSelectTimer.TimeLeftInPhaseInSec
-  nameWithType: ChampSelectTimer.TimeLeftInPhaseInSec
 - uid: Camille.Lcu.LolChampSelect.ChampSelectTimer.ToString
   name: ToString()
   href: api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html#Camille_Lcu_LolChampSelect_ChampSelectTimer_ToString
@@ -4168,6 +3962,12 @@ references:
   commentId: T:Camille.Lcu.LolChampSelect.ChampSelectTradeState
   fullName: Camille.Lcu.LolChampSelect.ChampSelectTradeState
   nameWithType: ChampSelectTradeState
+- uid: Camille.Lcu.LolChampSelect.ChampSelectTradeState.ACCEPTED
+  name: ACCEPTED
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html#Camille_Lcu_LolChampSelect_ChampSelectTradeState_ACCEPTED
+  commentId: F:Camille.Lcu.LolChampSelect.ChampSelectTradeState.ACCEPTED
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectTradeState.ACCEPTED
+  nameWithType: ChampSelectTradeState.ACCEPTED
 - uid: Camille.Lcu.LolChampSelect.ChampSelectTradeState.AVAILABLE
   name: AVAILABLE
   href: api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html#Camille_Lcu_LolChampSelect_ChampSelectTradeState_AVAILABLE
@@ -4180,6 +3980,18 @@ references:
   commentId: F:Camille.Lcu.LolChampSelect.ChampSelectTradeState.BUSY
   fullName: Camille.Lcu.LolChampSelect.ChampSelectTradeState.BUSY
   nameWithType: ChampSelectTradeState.BUSY
+- uid: Camille.Lcu.LolChampSelect.ChampSelectTradeState.CANCELLED
+  name: CANCELLED
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html#Camille_Lcu_LolChampSelect_ChampSelectTradeState_CANCELLED
+  commentId: F:Camille.Lcu.LolChampSelect.ChampSelectTradeState.CANCELLED
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectTradeState.CANCELLED
+  nameWithType: ChampSelectTradeState.CANCELLED
+- uid: Camille.Lcu.LolChampSelect.ChampSelectTradeState.DECLINED
+  name: DECLINED
+  href: api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html#Camille_Lcu_LolChampSelect_ChampSelectTradeState_DECLINED
+  commentId: F:Camille.Lcu.LolChampSelect.ChampSelectTradeState.DECLINED
+  fullName: Camille.Lcu.LolChampSelect.ChampSelectTradeState.DECLINED
+  nameWithType: ChampSelectTradeState.DECLINED
 - uid: Camille.Lcu.LolChampSelect.ChampSelectTradeState.INVALID
   name: INVALID
   href: api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html#Camille_Lcu_LolChampSelect_ChampSelectTradeState_INVALID
@@ -4411,38 +4223,6 @@ references:
   commentId: T:Camille.Lcu.LolChampSelectEndpoints
   fullName: Camille.Lcu.LolChampSelectEndpoints
   nameWithType: LolChampSelectEndpoints
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name: GetBannableChampionsV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetBannableChampionsV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetBannableChampionsV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetBannableChampionsV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetBannableChampionsV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1*
-  name: GetBannableChampionsV1
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetBannableChampionsV1_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1
-  nameWithType: LolChampSelectEndpoints.GetBannableChampionsV1
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: GetBannableChampionsV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetBannableChampionsV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetBannableChampionsV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetBannableChampionsV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetBannableChampionsV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async*
-  name: GetBannableChampionsV1Async
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetBannableChampionsV1Async_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetBannableChampionsV1Async
-  nameWithType: LolChampSelectEndpoints.GetBannableChampionsV1Async
 - uid: Camille.Lcu.LolChampSelectEndpoints.GetCurrentChampionV1(System.Nullable{System.Threading.CancellationToken})
   name: GetCurrentChampionV1(Nullable<CancellationToken>)
   href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetCurrentChampionV1_System_Nullable_System_Threading_CancellationToken__
@@ -4475,102 +4255,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolChampSelectEndpoints.GetCurrentChampionV1Async
   nameWithType: LolChampSelectEndpoints.GetCurrentChampionV1Async
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name: GetDisabledChampionsV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetDisabledChampionsV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetDisabledChampionsV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetDisabledChampionsV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetDisabledChampionsV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1*
-  name: GetDisabledChampionsV1
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetDisabledChampionsV1_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1
-  nameWithType: LolChampSelectEndpoints.GetDisabledChampionsV1
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: GetDisabledChampionsV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetDisabledChampionsV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetDisabledChampionsV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetDisabledChampionsV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetDisabledChampionsV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async*
-  name: GetDisabledChampionsV1Async
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetDisabledChampionsV1Async_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetDisabledChampionsV1Async
-  nameWithType: LolChampSelectEndpoints.GetDisabledChampionsV1Async
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name: GetPickableChampionsV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableChampionsV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPickableChampionsV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetPickableChampionsV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetPickableChampionsV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1*
-  name: GetPickableChampionsV1
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableChampionsV1_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1
-  nameWithType: LolChampSelectEndpoints.GetPickableChampionsV1
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: GetPickableChampionsV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableChampionsV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPickableChampionsV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetPickableChampionsV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetPickableChampionsV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async*
-  name: GetPickableChampionsV1Async
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableChampionsV1Async_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableChampionsV1Async
-  nameWithType: LolChampSelectEndpoints.GetPickableChampionsV1Async
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1(System.Nullable{System.Threading.CancellationToken})
-  name: GetPickableSkinsV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableSkinsV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPickableSkinsV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetPickableSkinsV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetPickableSkinsV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1*
-  name: GetPickableSkinsV1
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableSkinsV1_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1
-  nameWithType: LolChampSelectEndpoints.GetPickableSkinsV1
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: GetPickableSkinsV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableSkinsV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPickableSkinsV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChampSelectEndpoints.GetPickableSkinsV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolChampSelectEndpoints.GetPickableSkinsV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async*
-  name: GetPickableSkinsV1Async
-  href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetPickableSkinsV1Async_
-  commentId: Overload:Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async
-  isSpec: "True"
-  fullName: Camille.Lcu.LolChampSelectEndpoints.GetPickableSkinsV1Async
-  nameWithType: LolChampSelectEndpoints.GetPickableSkinsV1Async
 - uid: Camille.Lcu.LolChampSelectEndpoints.GetSessionTimerV1(System.Nullable{System.Threading.CancellationToken})
   name: GetSessionTimerV1(Nullable<CancellationToken>)
   href: api/Camille.Lcu.LolChampSelectEndpoints.html#Camille_Lcu_LolChampSelectEndpoints_GetSessionTimerV1_System_Nullable_System_Threading_CancellationToken__
@@ -5802,6 +5486,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.MaxLeagueSize
   nameWithType: LeagueDivisionInfo.MaxLeagueSize
+- uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier
+  name: MinLpForApexTier
+  href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_MinLpForApexTier
+  commentId: P:Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier
+  fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier
+  nameWithType: LeagueDivisionInfo.MinLpForApexTier
+- uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier*
+  name: MinLpForApexTier
+  href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_MinLpForApexTier_
+  commentId: Overload:Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.MinLpForApexTier
+  nameWithType: LeagueDivisionInfo.MinLpForApexTier
 - uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.Standings
   name: Standings
   href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_Standings
@@ -5828,6 +5525,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.Tier
   nameWithType: LeagueDivisionInfo.Tier
+- uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers
+  name: TopNumberOfPlayers
+  href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_TopNumberOfPlayers
+  commentId: P:Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers
+  fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers
+  nameWithType: LeagueDivisionInfo.TopNumberOfPlayers
+- uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers*
+  name: TopNumberOfPlayers
+  href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_TopNumberOfPlayers_
+  commentId: Overload:Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.LeagueDivisionInfo.TopNumberOfPlayers
+  nameWithType: LeagueDivisionInfo.TopNumberOfPlayers
 - uid: Camille.Lcu.LolRanked.LeagueDivisionInfo.ToString
   name: ToString()
   href: api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html#Camille_Lcu_LolRanked_LeagueDivisionInfo_ToString
@@ -6204,19 +5914,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.LeagueStanding.RankedRegaliaLevel
   nameWithType: LeagueStanding.RankedRegaliaLevel
-- uid: Camille.Lcu.LolRanked.LeagueStanding.RivalName
-  name: RivalName
-  href: api/Camille.Lcu.LolRanked.LeagueStanding.html#Camille_Lcu_LolRanked_LeagueStanding_RivalName
-  commentId: P:Camille.Lcu.LolRanked.LeagueStanding.RivalName
-  fullName: Camille.Lcu.LolRanked.LeagueStanding.RivalName
-  nameWithType: LeagueStanding.RivalName
-- uid: Camille.Lcu.LolRanked.LeagueStanding.RivalName*
-  name: RivalName
-  href: api/Camille.Lcu.LolRanked.LeagueStanding.html#Camille_Lcu_LolRanked_LeagueStanding_RivalName_
-  commentId: Overload:Camille.Lcu.LolRanked.LeagueStanding.RivalName
-  isSpec: "True"
-  fullName: Camille.Lcu.LolRanked.LeagueStanding.RivalName
-  nameWithType: LeagueStanding.RivalName
 - uid: Camille.Lcu.LolRanked.LeagueStanding.SummonerId
   name: SummonerId
   href: api/Camille.Lcu.LolRanked.LeagueStanding.html#Camille_Lcu_LolRanked_LeagueStanding_SummonerId
@@ -6565,6 +6262,32 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.RankedQueueStats.QueueType
   nameWithType: RankedQueueStats.QueueType
+- uid: Camille.Lcu.LolRanked.RankedQueueStats.RatedRating
+  name: RatedRating
+  href: api/Camille.Lcu.LolRanked.RankedQueueStats.html#Camille_Lcu_LolRanked_RankedQueueStats_RatedRating
+  commentId: P:Camille.Lcu.LolRanked.RankedQueueStats.RatedRating
+  fullName: Camille.Lcu.LolRanked.RankedQueueStats.RatedRating
+  nameWithType: RankedQueueStats.RatedRating
+- uid: Camille.Lcu.LolRanked.RankedQueueStats.RatedRating*
+  name: RatedRating
+  href: api/Camille.Lcu.LolRanked.RankedQueueStats.html#Camille_Lcu_LolRanked_RankedQueueStats_RatedRating_
+  commentId: Overload:Camille.Lcu.LolRanked.RankedQueueStats.RatedRating
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.RankedQueueStats.RatedRating
+  nameWithType: RankedQueueStats.RatedRating
+- uid: Camille.Lcu.LolRanked.RankedQueueStats.RatedTier
+  name: RatedTier
+  href: api/Camille.Lcu.LolRanked.RankedQueueStats.html#Camille_Lcu_LolRanked_RankedQueueStats_RatedTier
+  commentId: P:Camille.Lcu.LolRanked.RankedQueueStats.RatedTier
+  fullName: Camille.Lcu.LolRanked.RankedQueueStats.RatedTier
+  nameWithType: RankedQueueStats.RatedTier
+- uid: Camille.Lcu.LolRanked.RankedQueueStats.RatedTier*
+  name: RatedTier
+  href: api/Camille.Lcu.LolRanked.RankedQueueStats.html#Camille_Lcu_LolRanked_RankedQueueStats_RatedTier_
+  commentId: Overload:Camille.Lcu.LolRanked.RankedQueueStats.RatedTier
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.RankedQueueStats.RatedTier
+  nameWithType: RankedQueueStats.RatedTier
 - uid: Camille.Lcu.LolRanked.RankedQueueStats.Tier
   name: Tier
   href: api/Camille.Lcu.LolRanked.RankedQueueStats.html#Camille_Lcu_LolRanked_RankedQueueStats_Tier
@@ -6649,19 +6372,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.RankedQueueWarnings._AdditionalProperties
   nameWithType: RankedQueueWarnings._AdditionalProperties
-- uid: Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay
-  name: ApexDaysUntilDecay
-  href: api/Camille.Lcu.LolRanked.RankedQueueWarnings.html#Camille_Lcu_LolRanked_RankedQueueWarnings_ApexDaysUntilDecay
-  commentId: P:Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay
-  fullName: Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay
-  nameWithType: RankedQueueWarnings.ApexDaysUntilDecay
-- uid: Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay*
-  name: ApexDaysUntilDecay
-  href: api/Camille.Lcu.LolRanked.RankedQueueWarnings.html#Camille_Lcu_LolRanked_RankedQueueWarnings_ApexDaysUntilDecay_
-  commentId: Overload:Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay
+- uid: Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay
+  name: DaysUntilDecay
+  href: api/Camille.Lcu.LolRanked.RankedQueueWarnings.html#Camille_Lcu_LolRanked_RankedQueueWarnings_DaysUntilDecay
+  commentId: P:Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay
+  fullName: Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay
+  nameWithType: RankedQueueWarnings.DaysUntilDecay
+- uid: Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay*
+  name: DaysUntilDecay
+  href: api/Camille.Lcu.LolRanked.RankedQueueWarnings.html#Camille_Lcu_LolRanked_RankedQueueWarnings_DaysUntilDecay_
+  commentId: Overload:Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay
   isSpec: "True"
-  fullName: Camille.Lcu.LolRanked.RankedQueueWarnings.ApexDaysUntilDecay
-  nameWithType: RankedQueueWarnings.ApexDaysUntilDecay
+  fullName: Camille.Lcu.LolRanked.RankedQueueWarnings.DaysUntilDecay
+  nameWithType: RankedQueueWarnings.DaysUntilDecay
 - uid: Camille.Lcu.LolRanked.RankedQueueWarnings.DemotionWarning
   name: DemotionWarning
   href: api/Camille.Lcu.LolRanked.RankedQueueWarnings.html#Camille_Lcu_LolRanked_RankedQueueWarnings_DemotionWarning
@@ -6824,6 +6547,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.RankedStats.HighestRankedEntry
   nameWithType: RankedStats.HighestRankedEntry
+- uid: Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR
+  name: HighestRankedEntrySR
+  href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_HighestRankedEntrySR
+  commentId: P:Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR
+  fullName: Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR
+  nameWithType: RankedStats.HighestRankedEntrySR
+- uid: Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR*
+  name: HighestRankedEntrySR
+  href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_HighestRankedEntrySR_
+  commentId: Overload:Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.RankedStats.HighestRankedEntrySR
+  nameWithType: RankedStats.HighestRankedEntrySR
 - uid: Camille.Lcu.LolRanked.RankedStats.QueueMap
   name: QueueMap
   href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_QueueMap
@@ -6863,6 +6599,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.RankedStats.RankedRegaliaLevel
   nameWithType: RankedStats.RankedRegaliaLevel
+- uid: Camille.Lcu.LolRanked.RankedStats.Seasons
+  name: Seasons
+  href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_Seasons
+  commentId: P:Camille.Lcu.LolRanked.RankedStats.Seasons
+  fullName: Camille.Lcu.LolRanked.RankedStats.Seasons
+  nameWithType: RankedStats.Seasons
+- uid: Camille.Lcu.LolRanked.RankedStats.Seasons*
+  name: Seasons
+  href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_Seasons_
+  commentId: Overload:Camille.Lcu.LolRanked.RankedStats.Seasons
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.RankedStats.Seasons
+  nameWithType: RankedStats.Seasons
 - uid: Camille.Lcu.LolRanked.RankedStats.SplitsProgress
   name: SplitsProgress
   href: api/Camille.Lcu.LolRanked.RankedStats.html#Camille_Lcu_LolRanked_RankedStats_SplitsProgress
@@ -6889,6 +6638,132 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRanked.RankedStats.ToString
   nameWithType: RankedStats.ToString
+- uid: Camille.Lcu.LolRanked.RatedTier
+  name: RatedTier
+  href: api/Camille.Lcu.LolRanked.RatedTier.html
+  commentId: T:Camille.Lcu.LolRanked.RatedTier
+  fullName: Camille.Lcu.LolRanked.RatedTier
+  nameWithType: RatedTier
+- uid: Camille.Lcu.LolRanked.RatedTier.BLUE
+  name: BLUE
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_BLUE
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.BLUE
+  fullName: Camille.Lcu.LolRanked.RatedTier.BLUE
+  nameWithType: RatedTier.BLUE
+- uid: Camille.Lcu.LolRanked.RatedTier.GRAY
+  name: GRAY
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_GRAY
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.GRAY
+  fullName: Camille.Lcu.LolRanked.RatedTier.GRAY
+  nameWithType: RatedTier.GRAY
+- uid: Camille.Lcu.LolRanked.RatedTier.GREEN
+  name: GREEN
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_GREEN
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.GREEN
+  fullName: Camille.Lcu.LolRanked.RatedTier.GREEN
+  nameWithType: RatedTier.GREEN
+- uid: Camille.Lcu.LolRanked.RatedTier.NONE
+  name: NONE
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_NONE
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.NONE
+  fullName: Camille.Lcu.LolRanked.RatedTier.NONE
+  nameWithType: RatedTier.NONE
+- uid: Camille.Lcu.LolRanked.RatedTier.ORANGE
+  name: ORANGE
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_ORANGE
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.ORANGE
+  fullName: Camille.Lcu.LolRanked.RatedTier.ORANGE
+  nameWithType: RatedTier.ORANGE
+- uid: Camille.Lcu.LolRanked.RatedTier.PURPLE
+  name: PURPLE
+  href: api/Camille.Lcu.LolRanked.RatedTier.html#Camille_Lcu_LolRanked_RatedTier_PURPLE
+  commentId: F:Camille.Lcu.LolRanked.RatedTier.PURPLE
+  fullName: Camille.Lcu.LolRanked.RatedTier.PURPLE
+  nameWithType: RatedTier.PURPLE
+- uid: Camille.Lcu.LolRanked.Season
+  name: Season
+  href: api/Camille.Lcu.LolRanked.Season.html
+  commentId: T:Camille.Lcu.LolRanked.Season
+  fullName: Camille.Lcu.LolRanked.Season
+  nameWithType: Season
+- uid: Camille.Lcu.LolRanked.Season.#ctor
+  name: Season()
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season__ctor
+  commentId: M:Camille.Lcu.LolRanked.Season.#ctor
+  fullName: Camille.Lcu.LolRanked.Season.Season()
+  nameWithType: Season.Season()
+- uid: Camille.Lcu.LolRanked.Season.#ctor*
+  name: Season
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season__ctor_
+  commentId: Overload:Camille.Lcu.LolRanked.Season.#ctor
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season.Season
+  nameWithType: Season.Season
+- uid: Camille.Lcu.LolRanked.Season._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season__AdditionalProperties
+  commentId: P:Camille.Lcu.LolRanked.Season._AdditionalProperties
+  fullName: Camille.Lcu.LolRanked.Season._AdditionalProperties
+  nameWithType: Season._AdditionalProperties
+- uid: Camille.Lcu.LolRanked.Season._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season__AdditionalProperties_
+  commentId: Overload:Camille.Lcu.LolRanked.Season._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season._AdditionalProperties
+  nameWithType: Season._AdditionalProperties
+- uid: Camille.Lcu.LolRanked.Season.CurrentSeasonEnd
+  name: CurrentSeasonEnd
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_CurrentSeasonEnd
+  commentId: P:Camille.Lcu.LolRanked.Season.CurrentSeasonEnd
+  fullName: Camille.Lcu.LolRanked.Season.CurrentSeasonEnd
+  nameWithType: Season.CurrentSeasonEnd
+- uid: Camille.Lcu.LolRanked.Season.CurrentSeasonEnd*
+  name: CurrentSeasonEnd
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_CurrentSeasonEnd_
+  commentId: Overload:Camille.Lcu.LolRanked.Season.CurrentSeasonEnd
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season.CurrentSeasonEnd
+  nameWithType: Season.CurrentSeasonEnd
+- uid: Camille.Lcu.LolRanked.Season.CurrentSeasonId
+  name: CurrentSeasonId
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_CurrentSeasonId
+  commentId: P:Camille.Lcu.LolRanked.Season.CurrentSeasonId
+  fullName: Camille.Lcu.LolRanked.Season.CurrentSeasonId
+  nameWithType: Season.CurrentSeasonId
+- uid: Camille.Lcu.LolRanked.Season.CurrentSeasonId*
+  name: CurrentSeasonId
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_CurrentSeasonId_
+  commentId: Overload:Camille.Lcu.LolRanked.Season.CurrentSeasonId
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season.CurrentSeasonId
+  nameWithType: Season.CurrentSeasonId
+- uid: Camille.Lcu.LolRanked.Season.NextSeasonStart
+  name: NextSeasonStart
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_NextSeasonStart
+  commentId: P:Camille.Lcu.LolRanked.Season.NextSeasonStart
+  fullName: Camille.Lcu.LolRanked.Season.NextSeasonStart
+  nameWithType: Season.NextSeasonStart
+- uid: Camille.Lcu.LolRanked.Season.NextSeasonStart*
+  name: NextSeasonStart
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_NextSeasonStart_
+  commentId: Overload:Camille.Lcu.LolRanked.Season.NextSeasonStart
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season.NextSeasonStart
+  nameWithType: Season.NextSeasonStart
+- uid: Camille.Lcu.LolRanked.Season.ToString
+  name: ToString()
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_ToString
+  commentId: M:Camille.Lcu.LolRanked.Season.ToString
+  fullName: Camille.Lcu.LolRanked.Season.ToString()
+  nameWithType: Season.ToString()
+- uid: Camille.Lcu.LolRanked.Season.ToString*
+  name: ToString
+  href: api/Camille.Lcu.LolRanked.Season.html#Camille_Lcu_LolRanked_Season_ToString_
+  commentId: Overload:Camille.Lcu.LolRanked.Season.ToString
+  isSpec: "True"
+  fullName: Camille.Lcu.LolRanked.Season.ToString
+  nameWithType: Season.ToString
 - uid: Camille.Lcu.LolRankedEndpoints
   name: LolRankedEndpoints
   href: api/Camille.Lcu.LolRankedEndpoints.html
@@ -7093,64 +6968,6 @@ references:
   commentId: N:Camille.Lcu.LolSummoner
   fullName: Camille.Lcu.LolSummoner
   nameWithType: Camille.Lcu.LolSummoner
-- uid: Camille.Lcu.LolSummoner.AutoFill
-  name: AutoFill
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html
-  commentId: T:Camille.Lcu.LolSummoner.AutoFill
-  fullName: Camille.Lcu.LolSummoner.AutoFill
-  nameWithType: AutoFill
-- uid: Camille.Lcu.LolSummoner.AutoFill.#ctor
-  name: AutoFill()
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill__ctor
-  commentId: M:Camille.Lcu.LolSummoner.AutoFill.#ctor
-  fullName: Camille.Lcu.LolSummoner.AutoFill.AutoFill()
-  nameWithType: AutoFill.AutoFill()
-- uid: Camille.Lcu.LolSummoner.AutoFill.#ctor*
-  name: AutoFill
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill__ctor_
-  commentId: Overload:Camille.Lcu.LolSummoner.AutoFill.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.AutoFill.AutoFill
-  nameWithType: AutoFill.AutoFill
-- uid: Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill__AdditionalProperties
-  commentId: P:Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties
-  fullName: Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties
-  nameWithType: AutoFill._AdditionalProperties
-- uid: Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.AutoFill._AdditionalProperties
-  nameWithType: AutoFill._AdditionalProperties
-- uid: Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues
-  name: AutoFillQueues
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill_AutoFillQueues
-  commentId: P:Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues
-  fullName: Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues
-  nameWithType: AutoFill.AutoFillQueues
-- uid: Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues*
-  name: AutoFillQueues
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill_AutoFillQueues_
-  commentId: Overload:Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.AutoFill.AutoFillQueues
-  nameWithType: AutoFill.AutoFillQueues
-- uid: Camille.Lcu.LolSummoner.AutoFill.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill_ToString
-  commentId: M:Camille.Lcu.LolSummoner.AutoFill.ToString
-  fullName: Camille.Lcu.LolSummoner.AutoFill.ToString()
-  nameWithType: AutoFill.ToString()
-- uid: Camille.Lcu.LolSummoner.AutoFill.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolSummoner.AutoFill.html#Camille_Lcu_LolSummoner_AutoFill_ToString_
-  commentId: Overload:Camille.Lcu.LolSummoner.AutoFill.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.AutoFill.ToString
-  nameWithType: AutoFill.ToString
 - uid: Camille.Lcu.LolSummoner.AutoFillQueue
   name: AutoFillQueue
   href: api/Camille.Lcu.LolSummoner.AutoFillQueue.html
@@ -7248,181 +7065,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.AutoFillQueue.ToString
   nameWithType: AutoFillQueue.ToString
-- uid: Camille.Lcu.LolSummoner.InternalSummoner
-  name: InternalSummoner
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html
-  commentId: T:Camille.Lcu.LolSummoner.InternalSummoner
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner
-  nameWithType: InternalSummoner
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.#ctor
-  name: InternalSummoner()
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner__ctor
-  commentId: M:Camille.Lcu.LolSummoner.InternalSummoner.#ctor
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.InternalSummoner()
-  nameWithType: InternalSummoner.InternalSummoner()
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.#ctor*
-  name: InternalSummoner
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner__ctor_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.InternalSummoner
-  nameWithType: InternalSummoner.InternalSummoner
-- uid: Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner__AdditionalProperties
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties
-  nameWithType: InternalSummoner._AdditionalProperties
-- uid: Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner._AdditionalProperties
-  nameWithType: InternalSummoner._AdditionalProperties
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.AccountId
-  name: AccountId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_AccountId
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.AccountId
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.AccountId
-  nameWithType: InternalSummoner.AccountId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.AccountId*
-  name: AccountId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_AccountId_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.AccountId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.AccountId
-  nameWithType: InternalSummoner.AccountId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag
-  name: AdvancedTutorialFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_AdvancedTutorialFlag
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag
-  nameWithType: InternalSummoner.AdvancedTutorialFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag*
-  name: AdvancedTutorialFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_AdvancedTutorialFlag_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.AdvancedTutorialFlag
-  nameWithType: InternalSummoner.AdvancedTutorialFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag
-  name: DisplayEloQuestionaireFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_DisplayEloQuestionaireFlag
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag
-  nameWithType: InternalSummoner.DisplayEloQuestionaireFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag*
-  name: DisplayEloQuestionaireFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_DisplayEloQuestionaireFlag_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.DisplayEloQuestionaireFlag
-  nameWithType: InternalSummoner.DisplayEloQuestionaireFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.DisplayName
-  name: DisplayName
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_DisplayName
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.DisplayName
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.DisplayName
-  nameWithType: InternalSummoner.DisplayName
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.DisplayName*
-  name: DisplayName
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_DisplayName_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.DisplayName
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.DisplayName
-  nameWithType: InternalSummoner.DisplayName
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag
-  name: HelpFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_HelpFlag
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag
-  nameWithType: InternalSummoner.HelpFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag*
-  name: HelpFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_HelpFlag_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.HelpFlag
-  nameWithType: InternalSummoner.HelpFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.InternalName
-  name: InternalName
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_InternalName
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.InternalName
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.InternalName
-  nameWithType: InternalSummoner.InternalName
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.InternalName*
-  name: InternalName
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_InternalName_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.InternalName
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.InternalName
-  nameWithType: InternalSummoner.InternalName
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag
-  name: NameChangeFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_NameChangeFlag
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag
-  nameWithType: InternalSummoner.NameChangeFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag*
-  name: NameChangeFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_NameChangeFlag_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.NameChangeFlag
-  nameWithType: InternalSummoner.NameChangeFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId
-  name: ProfileIconId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_ProfileIconId
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId
-  nameWithType: InternalSummoner.ProfileIconId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId*
-  name: ProfileIconId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_ProfileIconId_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.ProfileIconId
-  nameWithType: InternalSummoner.ProfileIconId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.SummonerId
-  name: SummonerId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_SummonerId
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.SummonerId
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.SummonerId
-  nameWithType: InternalSummoner.SummonerId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.SummonerId*
-  name: SummonerId
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_SummonerId_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.SummonerId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.SummonerId
-  nameWithType: InternalSummoner.SummonerId
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_ToString
-  commentId: M:Camille.Lcu.LolSummoner.InternalSummoner.ToString
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.ToString()
-  nameWithType: InternalSummoner.ToString()
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_ToString_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.ToString
-  nameWithType: InternalSummoner.ToString
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag
-  name: TutorialFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_TutorialFlag
-  commentId: P:Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag
-  nameWithType: InternalSummoner.TutorialFlag
-- uid: Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag*
-  name: TutorialFlag
-  href: api/Camille.Lcu.LolSummoner.InternalSummoner.html#Camille_Lcu_LolSummoner_InternalSummoner_TutorialFlag_
-  commentId: Overload:Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag
-  isSpec: "True"
-  fullName: Camille.Lcu.LolSummoner.InternalSummoner.TutorialFlag
-  nameWithType: InternalSummoner.TutorialFlag
 - uid: Camille.Lcu.LolSummoner.Summoner
   name: Summoner
   href: api/Camille.Lcu.LolSummoner.Summoner.html
@@ -7494,6 +7136,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.Summoner.InternalName
   nameWithType: Summoner.InternalName
+- uid: Camille.Lcu.LolSummoner.Summoner.NameChangeFlag
+  name: NameChangeFlag
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_NameChangeFlag
+  commentId: P:Camille.Lcu.LolSummoner.Summoner.NameChangeFlag
+  fullName: Camille.Lcu.LolSummoner.Summoner.NameChangeFlag
+  nameWithType: Summoner.NameChangeFlag
+- uid: Camille.Lcu.LolSummoner.Summoner.NameChangeFlag*
+  name: NameChangeFlag
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_NameChangeFlag_
+  commentId: Overload:Camille.Lcu.LolSummoner.Summoner.NameChangeFlag
+  isSpec: "True"
+  fullName: Camille.Lcu.LolSummoner.Summoner.NameChangeFlag
+  nameWithType: Summoner.NameChangeFlag
 - uid: Camille.Lcu.LolSummoner.Summoner.PercentCompleteForNextLevel
   name: PercentCompleteForNextLevel
   href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_PercentCompleteForNextLevel
@@ -7585,6 +7240,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.Summoner.ToString
   nameWithType: Summoner.ToString
+- uid: Camille.Lcu.LolSummoner.Summoner.Unnamed
+  name: Unnamed
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_Unnamed
+  commentId: P:Camille.Lcu.LolSummoner.Summoner.Unnamed
+  fullName: Camille.Lcu.LolSummoner.Summoner.Unnamed
+  nameWithType: Summoner.Unnamed
+- uid: Camille.Lcu.LolSummoner.Summoner.Unnamed*
+  name: Unnamed
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_Unnamed_
+  commentId: Overload:Camille.Lcu.LolSummoner.Summoner.Unnamed
+  isSpec: "True"
+  fullName: Camille.Lcu.LolSummoner.Summoner.Unnamed
+  nameWithType: Summoner.Unnamed
 - uid: Camille.Lcu.LolSummoner.Summoner.XpSinceLastLevel
   name: XpSinceLastLevel
   href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_XpSinceLastLevel
@@ -7643,6 +7311,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.SummonerIcon._AdditionalProperties
   nameWithType: SummonerIcon._AdditionalProperties
+- uid: Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken
+  name: InventoryToken
+  href: api/Camille.Lcu.LolSummoner.SummonerIcon.html#Camille_Lcu_LolSummoner_SummonerIcon_InventoryToken
+  commentId: P:Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken
+  fullName: Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken
+  nameWithType: SummonerIcon.InventoryToken
+- uid: Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken*
+  name: InventoryToken
+  href: api/Camille.Lcu.LolSummoner.SummonerIcon.html#Camille_Lcu_LolSummoner_SummonerIcon_InventoryToken_
+  commentId: Overload:Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken
+  isSpec: "True"
+  fullName: Camille.Lcu.LolSummoner.SummonerIcon.InventoryToken
+  nameWithType: SummonerIcon.InventoryToken
 - uid: Camille.Lcu.LolSummoner.SummonerIcon.ProfileIconId
   name: ProfileIconId
   href: api/Camille.Lcu.LolSummoner.SummonerIcon.html#Camille_Lcu_LolSummoner_SummonerIcon_ProfileIconId
@@ -25535,77 +25216,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameDamageStats.TrueDamageTaken
   nameWithType: MatchTimelineInfoFrameParticipantFrameDamageStats.TrueDamageTaken
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition
-  name: MatchTimelineInfoFrameParticipantFramePosition
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html
-  commentId: T:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.#ctor
-  name: MatchTimelineInfoFrameParticipantFramePosition()
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition__ctor
-  commentId: M:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.#ctor
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.MatchTimelineInfoFrameParticipantFramePosition()
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.MatchTimelineInfoFrameParticipantFramePosition()
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.#ctor*
-  name: MatchTimelineInfoFrameParticipantFramePosition
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition__ctor_
-  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.#ctor
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.MatchTimelineInfoFrameParticipantFramePosition
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.MatchTimelineInfoFrameParticipantFramePosition
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition__AdditionalProperties
-  commentId: P:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition__AdditionalProperties_
-  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition._AdditionalProperties
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString
-  name: ToString()
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_ToString
-  commentId: M:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString()
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.ToString()
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString*
-  name: ToString
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_ToString_
-  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.ToString
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.ToString
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X
-  name: X
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_X
-  commentId: P:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.X
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X*
-  name: X
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_X_
-  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.X
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.X
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y
-  name: Y
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_Y
-  commentId: P:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.Y
-- uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y*
-  name: Y
-  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.html#Camille_RiotGames_MatchV5_MatchTimelineInfoFrameParticipantFramePosition_Y_
-  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFramePosition.Y
-  nameWithType: MatchTimelineInfoFrameParticipantFramePosition.Y
 - uid: Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrames
   name: MatchTimelineInfoFrameParticipantFrames
   href: api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrames.html
@@ -25852,6 +25462,77 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.MatchTimelineInfoParticipant.ToString
   nameWithType: MatchTimelineInfoParticipant.ToString
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition
+  name: MatchTimelinePosition
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html
+  commentId: T:Camille.RiotGames.MatchV5.MatchTimelinePosition
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition
+  nameWithType: MatchTimelinePosition
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.#ctor
+  name: MatchTimelinePosition()
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition__ctor
+  commentId: M:Camille.RiotGames.MatchV5.MatchTimelinePosition.#ctor
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.MatchTimelinePosition()
+  nameWithType: MatchTimelinePosition.MatchTimelinePosition()
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.#ctor*
+  name: MatchTimelinePosition
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition__ctor_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelinePosition.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.MatchTimelinePosition
+  nameWithType: MatchTimelinePosition.MatchTimelinePosition
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition__AdditionalProperties
+  commentId: P:Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties
+  nameWithType: MatchTimelinePosition._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition._AdditionalProperties
+  nameWithType: MatchTimelinePosition._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_ToString
+  commentId: M:Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString()
+  nameWithType: MatchTimelinePosition.ToString()
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_ToString_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.ToString
+  nameWithType: MatchTimelinePosition.ToString
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.X
+  name: X
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_X
+  commentId: P:Camille.RiotGames.MatchV5.MatchTimelinePosition.X
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.X
+  nameWithType: MatchTimelinePosition.X
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.X*
+  name: X
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_X_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelinePosition.X
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.X
+  nameWithType: MatchTimelinePosition.X
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.Y
+  name: Y
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_Y
+  commentId: P:Camille.RiotGames.MatchV5.MatchTimelinePosition.Y
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.Y
+  nameWithType: MatchTimelinePosition.Y
+- uid: Camille.RiotGames.MatchV5.MatchTimelinePosition.Y*
+  name: Y
+  href: api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html#Camille_RiotGames_MatchV5_MatchTimelinePosition_Y_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelinePosition.Y
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelinePosition.Y
+  nameWithType: MatchTimelinePosition.Y
 - uid: Camille.RiotGames.MatchV5Endpoints
   name: MatchV5Endpoints
   href: api/Camille.RiotGames.MatchV5Endpoints.html
