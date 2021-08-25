@@ -45,7 +45,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 #nullable disable
     /// <summary>
     /// {{= schemaName }} data object. This class is automatically generated.<para />
-    /// {{= schema.description || '' }}
+    /// {{= dotUtils.formatComment(schema.description || '', 4) }}
     /// </summary>
     public class {{= schemaName }}
     {
@@ -58,7 +58,7 @@ namespace MingweiSamuel.Camille.{{= dotUtils.normalizeEndpointName(endpoint) }}
 }}
 {{? prop.description }}
         /// <summary>
-        /// {{= prop.description.split('\n').map(x => x.trim()).join('<para />\r\n        /// ') }}
+        /// {{= dotUtils.formatComment(prop.description, 8) }}
         /// </summary>
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
