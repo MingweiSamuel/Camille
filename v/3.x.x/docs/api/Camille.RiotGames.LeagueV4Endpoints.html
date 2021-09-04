@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LeagueV4Endpoints
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -133,7 +133,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueList GetChallengerLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueList GetChallengerLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,7 +195,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetChallengerLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetChallengerLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,7 +257,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueList GetGrandmasterLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueList GetGrandmasterLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,7 +319,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetGrandmasterLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetGrandmasterLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -381,7 +381,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueList GetLeagueById(PlatformRoute route, string leagueId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueList GetLeagueById(PlatformRoute route, string leagueId, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -443,7 +443,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetLeagueByIdAsync(PlatformRoute route, string leagueId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetLeagueByIdAsync(PlatformRoute route, string leagueId, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -505,7 +505,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntries(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = null, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -585,7 +585,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = default(int? ), CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesAsync(PlatformRoute route, QueueType queue, Tier tier, Division division, int? page = null, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -665,7 +665,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntriesForSummoner(PlatformRoute route, string encryptedSummonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueEntry[] GetLeagueEntriesForSummoner(PlatformRoute route, string encryptedSummonerId, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -727,7 +727,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesForSummonerAsync(PlatformRoute route, string encryptedSummonerId, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueEntry[]&gt; GetLeagueEntriesForSummonerAsync(PlatformRoute route, string encryptedSummonerId, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -789,7 +789,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueList GetMasterLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public LeagueList GetMasterLeague(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -851,7 +851,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#le
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetMasterLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LeagueList&gt; GetMasterLeagueAsync(PlatformRoute route, QueueType queue, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

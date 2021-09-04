@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "YQhQpAhG79bVU+STF33Awl8zD+hdYbM1K98OvDrfa40="
+          "hash": "R/EWXdUUWChgW3Uw3ZU4T/fIng1G4scxnv01XUp6UkM="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Core.HttpRequestMessageUtils.html",
-          "hash": "ub91xBh8KUnul3gtywpbZdoIVAVhiLeV+dS1LXcm6Po="
+          "hash": "7GXWxOFDTMEi+VIDmivK728ArbePf+39w3RX1CHFtZA="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Core.JsonHandler.html",
-          "hash": "W4d3ZymoRdaLH38NnGrBs8msQTK3VnrhdAgWajbieWA="
+          "hash": "Uem2ZkOzeV+ha+w3bvmsL+XCSUm0/VJNGoX5u6awydA="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Core.SynchronizationContextRemover.html",
-          "hash": "ybhIWP6avECjluaVZPwVYMceHz7ZzdiBiLajiSlZVWU="
+          "hash": "daoKASIELx0Rr19GoUd8rbClxPmWdzSBIqUpYujr4cY="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Core.html",
-          "hash": "YYsT1/UtJSekwwIPbnDjWxkqZOJbSkD7d8oJzcHHJMQ="
+          "hash": "CSoeVQnpwLr5i7LJZXMTRkuEtOUs4wbx6ns9ChngMD8="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Champion.html",
-          "hash": "PgYSUKZLtX/LxgIiUMlGJ04EylSn/PMTBVVtgaxy5Ag="
+          "hash": "/8OlXD2SR7vhpYUhZGo8hI5HXO2R3CakOrnAxy/D/Dc="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Division.html",
-          "hash": "6fogXshduYKTgA0XBgW0W7MPDSZeo1WFm7X+SMkciLs="
+          "hash": "TmjJuKJ6tN7dNQY68Rc5Azf63cGuOcKScBruLXLBBTA="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.GameMode.html",
-          "hash": "IhgbAsvYfG85rXawxWmjYQjmIO+QYBZztYNgjSe/z7w="
+          "hash": "CF4UC5aR/woOW9z7N6oU0c2DpOParK4Tpns+n+/H+6k="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.GameType.html",
-          "hash": "vPTBEEQJxVjq6STxFvAtXIYiaHNpsXPFuPXQwkFPIiA="
+          "hash": "LtAnKICzF2YxsUYVAroRxPm8GEKGqWOyZB1v1QU7g8Q="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Locale.html",
-          "hash": "by9x89YUFSaVLFpc1HKThi2iPvsgsAz1/+cBOqkQHxE="
+          "hash": "C23T21I2uuQEza1hQUlv+kwhXXP51DE2buG9txXlcTo="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Map.html",
-          "hash": "vjwj1OtlAXGnO9q/dDpwgygejGl8TJAkoHoNANeXEbo="
+          "hash": "SIXDk3Erx/yNx+ZMkLCVnWVsTK6dWLERAHqzJWjqcpE="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.PlatformRoute.html",
-          "hash": "c+WY+PeKaETPh2bVWIJ3XaxxEBcS4vr0Da/1JBV3+Tc="
+          "hash": "F07lp0xX/BfWayn5UhG6ZXLhBwxMxCGbsiqqcOdXP6s="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Queue.html",
-          "hash": "ZbUTVRZxjZwkqcSzTEJLke/oF3I8pY2YBq232hiYq2o="
+          "hash": "nFwoIjMdBNKm5EwAOxeWS+qWCcqFfBTku/8X9ZWVFdI="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.QueueType.html",
-          "hash": "XsHB5ahYlrxwoGcsbQA1yRGusrIw6UbCaZM5q3HTNxU="
+          "hash": "3MaPcOirNM28YnRl8yiXx51iU9d8yTOyddTg+K8SXqw="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.RegionalRoute.html",
-          "hash": "ErC3WFOV6EBmEm9tMaSrR8sYe6+W1a8Mnf3pcGGtOnk="
+          "hash": "vuboPFNRjxOPhonaeYSvRLZNFC/YYpLWUrIDWyWt/ZY="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.RouteUtils.html",
-          "hash": "FR31Ec30aleSkPizaQodrZ2FCS8Ct2nKBKmLfQEfxww="
+          "hash": "kzTvFL/e7pgIj86Ot5BPeHJBj6Aho6xPI0jWmSw3y2U="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Season.html",
-          "hash": "Am7XPiVrhWN1ttlAq3Ka4zCanIgIieJxqZzqb3efN6c="
+          "hash": "E3zvgooDFhI2Z9sresyuIlXI2P1S4JyZ3/IPMwiCKeU="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.Tier.html",
-          "hash": "5sBl7GvRSLdWm6vl3R85CQH5jzkezEq56HFXY8iN/DI="
+          "hash": "TinY+XtsdfaIoovCjPZPee1K18hRhWIiWY3J7ZT+u2I="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.ValPlatformRoute.html",
-          "hash": "Uw5eCBBXpA2q7vMredSgJKe8Anisra04ViEu7Nk+PgU="
+          "hash": "4WHaVZYRpzBo1ssO9qWYfwHkNaZAlCK5vZbXdsAcQVc="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Enums.html",
-          "hash": "sJGUCVQDZv41uA0tSvhOP8KLZYI+HD5pFLTy6rG56Uw="
+          "hash": "MV5av0S3OZwHgVwYiod0CA80qe9/kt+PAjFimN4c2XM="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Endpoints.html",
-          "hash": "Ide8xnLo4vEwtAHyXZF/w47IOmKJqvTfpPzoyEysZvc="
+          "hash": "ZcMgkp426rr+t+AZO8OkzCi52Q7pVL3RwU2vpoThq3Q="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.ILcuApi.html",
-          "hash": "h5tBAV3CwzUWz++dT3zlUizCuR2NU1Ex8bu9AQDQYic="
+          "hash": "dBnms8kDD+sUAAujuLTsGyLGYscqZS695nFODQJ7R1E="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LcuApi.html",
-          "hash": "3UfhIBoBpvEK1WD3vXtt/gU4U81EWoUJw2do9739dW8="
+          "hash": "7kStec5AALMbL7idNDQkdAKrb+HZiY7oZHQxT88JpN0="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LcuConfig.html",
-          "hash": "1pNNk9GuOnCgQTgPxrNvywHxZXQmPNuU5xE2jlGzlYQ="
+          "hash": "UMK9LtYT8GxLEXcxeR5zChdP+K+oDsHyHSkU9aLz3UY="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LcuExtensions.html",
-          "hash": "f5J6GVV/U/mCxJOvTH3qIt1XZxj9OiGAsnoqzEZrDZY="
+          "hash": "QDfTWdFqKtCjZ8k0au787QHQVNHgL8Yci7GeI5DqlXo="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LcuRequester.html",
-          "hash": "TnWSCoJS9f3bTwtIyvKeTPa3DsIPqzu8O52Z7+PBNxU="
+          "hash": "TT/XnOjEMAxqJmpSGJzmkLlQYea1kBJOaebEGJTFaNc="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Lockfile.html",
-          "hash": "MRux2WKWHl72r0JnCtFh41FTbNdgmp+Yx8d/85G5TYc="
+          "hash": "RXAi8QOvqDrJ6lYs7hwyaBgvJ+Oy87Vve99Gl9L63eM="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectAction.html",
-          "hash": "C9uDH+gySb6HqICPhmBV1Pxe3wMaaPMzzZLXgr2dfY8="
+          "hash": "LcBvF88KUZofvrH+2rmcxDY2XwHX4F4pb+4j1nrMpsY="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectBannedChampions.html",
-          "hash": "NNQbUSJOpqhz3u3Rkm2hcG6G7GBUOhVOy758pKH1cKQ="
+          "hash": "o5JSQ+1zZxLOZfQ+UG/JLZWXcbf8t3p8f1QRlx0eNLE="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectChatRoomDetails.html",
-          "hash": "wKBWmWH/vwmvzJ0uo/zyLQnRRL10npPm5CAJGWgeIzg="
+          "hash": "Yez5uIRru1iWVvsXQuWluGQFaKxS0fDjtWWFKra5egI="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectMySelection.html",
-          "hash": "WccFhlR7tV/iSZMxDDh/x93UHVzTlt9qt0/a0ECKhXw="
+          "hash": "Y73zsexr9/KnTGV4HwZs6t9+t1ACogRhqt41Z9g99m8="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html",
-          "hash": "ZJOPcSa8AcKOXqoX1J6iTtgHw025KODu35+iGHpDzcQ="
+          "hash": "cMgE0dk96+lqnpOmpbtuzjeTGjugyLpG15kBo33jugU="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectSession.html",
-          "hash": "JtkxX8559KtWYqUn48TKndfNgJ7o+vnd6alOTj4cTio="
+          "hash": "G4Lr1aOA+h2fVvLKJq73Romgp8Vaa2Jva0lsDxV9NcY="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html",
-          "hash": "YbnW46qzMhLUohljNiJWufpCuti7AuwhswRJoIKG2+Q="
+          "hash": "oyvDZ3JNCnXjlX198vsxzwS6H3ijCHC68Q6LaDR+hWY="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeContract.html",
-          "hash": "OtV/zHhccKLP9fhjKSoVbiwAul+zFVS9aNJa9+gK8Ps="
+          "hash": "WCiHZhlgwee64Wpk4b2UPVafLxxzpR1sqyZS/bvSylM="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html",
-          "hash": "U7Pli0a+ul8pNQGM+Sw2+YN+sSF8DNLt09rEMchTQfg="
+          "hash": "oISUiV4AHkQFnwDmO9vrwN/rMiC1bfBLCk4R0k3Q+8w="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.EntitledFeatureState.html",
-          "hash": "BUgTLlYHP3qgxCh21IRZ44XnRK0RRPKZ32GoGq5OzW0="
+          "hash": "WC52GxsIwj2r/Jg5iEM3edWxUANSuKsGlFLpTqQ7kDo="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.TeamBoost.html",
-          "hash": "p+JsxSsBr1XG1CW3u3BbxAOAOQM5dLY3nvn6zoBMygU="
+          "hash": "XI38TnkQ49giMUatH5593+0y4cctIxz5/cQ6RE60Ohs="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelect.html",
-          "hash": "iKGShYG4Ua3A5qAtXq/nYQWuiZDfIb6Xhi+qNFQsWtA="
+          "hash": "lkl425W9ML/t/+n3f0jDb14SrQdiityN6YeTUgukyBw="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolChampSelectEndpoints.html",
-          "hash": "BF7Mn8dPGf27kltSwGoKMtTLddF/vWawB58mr9bYP7o="
+          "hash": "kJaDMmzFdEskJLWukHE+4gx8VuaQsup5YFwW03KfAVA="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLogin.LoginError.html",
-          "hash": "thG8XeIRCU/Rk5OPTpblynHYyq1WWe8n1HgJLWI/8Vc="
+          "hash": "M03qePS5ZxSs587HL866LpRWX1e8+0nz48OIDlNwrX4="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLogin.LoginSession.html",
-          "hash": "Z2rS+k1q126gknu12BVV5tGxawIBufXblKA3cGLEmnE="
+          "hash": "MXIR9nb7DEGv+0oynrQv3OnhXqsZdJHe3syNxm1hd+w="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLogin.LoginSessionStates.html",
-          "hash": "fwqsqh6NGYQEm+TQHP0u110L+gAeL+boIrWELyhpDyk="
+          "hash": "qywsrBNPXNWQ1ZAPTUKzHH6EqZsvFCDDFtSsFZVKChA="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLogin.UsernameAndPassword.html",
-          "hash": "NDpW1CM/FzEp0GkyhyqFJLkq36lO/o67jNsUDodJj/4="
+          "hash": "in7dcUCCd2c+Q42acWn3I9kqEqy+UWJ9HqSIpYcjdiU="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLogin.html",
-          "hash": "o8vWo1kmryAU/CQjtVT/QuqOBj8Jn9aHjM6VfhEPfpY="
+          "hash": "GGfmhsCCpqRD3Sy5x3vXuXdQ/OYk+h09QprshrKn+xE="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolLoginEndpoints.html",
-          "hash": "wC71NRQKJ1AQ29OEOhM0vyt5Dp3x8sWWqfNtsBTIknA="
+          "hash": "qf/XnjzXBcSlZq71kZBeDMcchePjp14iGz25ZTG2+8k="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.AchievedTier.html",
-          "hash": "eHC4DyEFrt22PdbVofERqulHHT2PpB4HApzOJAEruG0="
+          "hash": "szCmHoBPJ29X9MRtXDQ9T57XgxtFKP0GgQPW6AOpHpU="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html",
-          "hash": "hoWZ3SIx5fsYg3xYzd4ImXxComBLiR9EvYKtbOMB3lo="
+          "hash": "P/WK4iwmbvA8PqBmN+fyAKaT3KtxMwrIRdC77np0jBc="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.LeagueLadderInfo.html",
-          "hash": "7XjD/oF6GSaw2YgFf8d27jwBJJXi7Vy7PWoFkouFGAg="
+          "hash": "pLBJXWAgr3hT917OGYcgoKhTOlP8I1yxYym9FBZnrGg="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.LeagueStanding.html",
-          "hash": "oiA63cK2JAt/+WbM5QqO2w1IAdpbIm/WRV+dY+r2Jbw="
+          "hash": "VpmajXAxQSpu6bB62myeaEp2HyR0le50qyin2DKnS1w="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.Miniseries.html",
-          "hash": "9Cv0pHq792WCZ+vNfc6tKxvR8rAFHMKXa0dGcDOqXG8="
+          "hash": "zmMV/gACkI76ZUH4280BdhOO0QSjDKGkOc8CDjyRFPo="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.ParticipantTiers.html",
-          "hash": "YWa4N5SarElLvvw6Lx3kOWlyjAHKHPZPLB7Yt29UslI="
+          "hash": "zJuhrAClMp2DZJVvKN+wYGJ1qVKP6mgbBcwzbcch+OA="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.RankedQueueStats.html",
-          "hash": "lxVTWJpbMcbfOL+iqOuwAA1cfH+O6yPPPWJYA4E+PIQ="
+          "hash": "n3UEPZqKCUay7LJX5a0nsjoS0mITiCzIVFPUa8YiMVQ="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.RankedQueueWarnings.html",
-          "hash": "YJ9PNe32gJb3Rrw36jj3NYwUQr1/jukRKiRNRty+Qmc="
+          "hash": "iKukSspDErklVT1XduXlZ6AzR0X8XEm/cg0liuzAMgE="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.RankedStats.html",
-          "hash": "cX/h86/6UVi453hKralhVwwXiSHwRWJ3apIu6YxTAjk="
+          "hash": "wdlKiYzq8evXEm3+Odr3qrUj+cMYbT2HUo+rMgoBtsU="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.RatedTier.html",
-          "hash": "pFlScSTu/iIYQLNjFOSolywBhgneaVKEvAL4U37V67A="
+          "hash": "Or1088aV8LJ9wnGiVlfC71nBV9piNNJ83Nh+dqOshRs="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.Season.html",
-          "hash": "t+GDFfv1VdgLn1Dge5mTebxAvGZkSBDGQroKXzhN42Y="
+          "hash": "q69p+Y2KNXsZrlQ+RsWXB/jGw0E2pjtUW49/A2YnEHA="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRanked.html",
-          "hash": "RwoRsJ5uSIeYdkV7FCmtPjOCKa5V++ZDx9D+3RrngfY="
+          "hash": "412XCsemm4v/Ou/oFLl4tGAaqm7Pc4WkE/E3F88Z4hw="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolRankedEndpoints.html",
-          "hash": "ocnvj4vv9m4BcWN66UZbzTOCOykuq4a8gAB9SipzNdQ="
+          "hash": "iyT5TnHND++xvJ0xSrsgHQLO0h92GXcxzEapZmZYmYA="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.AutoFillQueue.html",
-          "hash": "aD2bURkI9397gaYzJCQoxKNRCTitlzMzH/sYFj87ok4="
+          "hash": "XL0+ZuibUJ+aaYeKxF0/R/SufTDJI5Htc1j8rHBCDtc="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.Summoner.html",
-          "hash": "feOTz/RU+CNAU5mzVKE3LucYedP3IVlNI1GG7ivr5iU="
+          "hash": "NJlO1ET/I6HM1q4Wz40qwB1zTDGPOrlvqVut+pm9BOc="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.SummonerIcon.html",
-          "hash": "5szQivhmGyjvNqsv5y4IY3iY1hiRB6qDbGwYGNyI7zg="
+          "hash": "7WG4p4yTyd0UkWRZyo1p7Ix55PGtO7uEB3jLpxYh08k="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.SummonerProfileUpdate.html",
-          "hash": "81Gk4TbMRLHqfvfbZygFC9By1aoApAJh2WaNsC8/MSw="
+          "hash": "IjtxuEFdutGxao4zVCSzW7m+lhShjXr1B66HTbf5Mlo="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.SummonerRequestedName.html",
-          "hash": "ZrMGAtprw7W/zU2LYVSovNNDl0T8zj5a1KsjnR/iCfs="
+          "hash": "eEv/F9+38TnUMu9+6FgLVYzpnxtcV5iG4qodRDzZz8o="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.SummonerRerollPoints.html",
-          "hash": "HzBVD8EC/6mFNjdeZW4mCcriNfW5rc163IT/QmSCZz4="
+          "hash": "VPSlpPciZ5e6L7SUV/YhPqPSywYmdBs1JH3X14u0+/g="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummoner.html",
-          "hash": "IkOgDJzIAnL5kZqFykv3G8ZuUMy/TUCzml34cZffXuM="
+          "hash": "m4HXM7Qfd0XLbrJmU5GkcgJlSU6nS3KQqU6eK+j0/oE="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.LolSummonerEndpoints.html",
-          "hash": "tvaWGoOdeOFulnJs7V7aqL7Pi+bHFm89ZnL5Svo/FO0="
+          "hash": "aXaC/8A2RwOTm3IFqyWXGwpfcsMdEHmONkA61O+ye0U="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.RiotClient.RegionLocale.html",
-          "hash": "ulMZyR+OvtgzpmPr89+Yj7TP5+/F4sy5wirbF0h0f/A="
+          "hash": "BPAGajRPnoH4uB6E3ZXu30fQk1h1BEwle3R5X7rGQ84="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.RiotClient.html",
-          "hash": "EvQJt4UQKxITjz6NgFN4zhq1lPNndnQ+aKbpijPa1to="
+          "hash": "yar/CCe17NLw05D/ORQeQuuUGG9TVimALLrSvGeoYFU="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.RiotClientEndpoints.html",
-          "hash": "863fklVgu2luTjM/RWtHdgnU2KUAN4K1xSagX+eUj24="
+          "hash": "76TkjM3d/hCAEy/Yfe0PBpDkSayeFpf9iRHqQ3VpEb4="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Util.EventWebSocket.html",
-          "hash": "odyDlvNLaTaFzb7gRJd6Qyus+KNfU3z+Q9wTTizJza8="
+          "hash": "7odwmj866gKM9MtJ1dRT7PVVb3smVdwERSseuFD3WZE="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Util.HandlerResult.html",
-          "hash": "xC6RHyRmx62JbDO/jNX+Yjp+xLulCPEgRdTqm3cfZ4k="
+          "hash": "j8OhB3pWJg1wX2hYCL8grQMcDFO/b94As7WCGzGQIY0="
         }
       },
       "is_incremental": false,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Util.Wamp.html",
-          "hash": "0hw7Bdh1ctGK6lEjQBKzwSH1atYl+YLFwE65Uir7ats="
+          "hash": "yCfZVS1+5OjK3YoTsV4RfxLqT3k1CwQJJfhICLElXr0="
         }
       },
       "is_incremental": false,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.Util.html",
-          "hash": "4+Cx9lZgQN3T3zoxFc9Qjzbkvz8oT2k6rWUOzOQssuk="
+          "hash": "+cK61hPA7ll2WfHeNI8Tzc+CqAJMCWs/x2oP99Bah60="
         }
       },
       "is_incremental": false,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.Lcu.html",
-          "hash": "bfb+vPtX7BwyRwWLv5WdJizTm/Sy2Heg5wtIDZQ7OvQ="
+          "hash": "Jovfn0q0fXNh3w93S5GPNxRpX+4Sx0yK5P+C7mDyPqE="
         }
       },
       "is_incremental": false,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.Endpoints.html",
-          "hash": "gq9A5GEg7lCni8+vcrGFHxEy2RWKv2OvabhzNp8f970="
+          "hash": "4yzX0BX0SEZpTrbbDgCTFEP4ytI9mlFbJn7Ly7i6Ex4="
         }
       },
       "is_incremental": false,
@@ -921,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.ILolGameApi.html",
-          "hash": "FhtVMD6tErGRTmDWIwVJwmvQB148wSauRVySjZHe7d4="
+          "hash": "wtnZJbZOTKpB+N0YXTsHbeQesApTVI/HZhAypNHUYtY="
         }
       },
       "is_incremental": false,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayer.html",
-          "hash": "bVKKVVfiX+XDJxfCzqG5vrqCvHbz7DebiDLUEfPtbj4="
+          "hash": "TjxCkzBt+BuFl46y6o5Hkcb88G0w1g77g2NBjd5K+EE="
         }
       },
       "is_incremental": false,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbilities.html",
-          "hash": "2eYyU5zpZzRDOULfbMZNrRy9ZDQjodFYtqBpnV1jNoQ="
+          "hash": "CCXK6Mukkx6B7YGD+f2Z6b31X+d336kiYmQrkGfPOFM="
         }
       },
       "is_incremental": false,
@@ -957,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbility.html",
-          "hash": "KrWYTuZAlB5lGfd9cJk2+Di/E5/03pBeK/Bx4Mjye5E="
+          "hash": "Q48xoAGUBQCL0PGK0lgZdClbx4RArW2/lmOUb004NZU="
         }
       },
       "is_incremental": false,
@@ -969,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerChampionStats.html",
-          "hash": "4IwvQCGVEYg4oNVbJQAPXCKn7xx3ysMz1lfmo8gvGbI="
+          "hash": "7YqXVFi3kup3XYFMyDLBWpcgwQqTmBJGC/1ZlvR3V/0="
         }
       },
       "is_incremental": false,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerPassiveAbility.html",
-          "hash": "a3Te+p3vtzMHZQrpcPYyuBC57vpTAJ+Zgbfmi/luwb4="
+          "hash": "Wz+qfbjQp0j3KFPCLaDDGdHwBTvAYZ4Ghb2b6h762N4="
         }
       },
       "is_incremental": false,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerRunes.html",
-          "hash": "y4XfRgXXyfx4DQmD+opmnMszAwnhSl2mH4FWHWvhUU8="
+          "hash": "kF17XmixPE/jikZW+NLv++S20ytxE8WkgEjx9dYBrYw="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerStatRune.html",
-          "hash": "nw47l2DDTzId4YRwxGAc4ryCBYVdHYwLF9f6DINjEqw="
+          "hash": "a8+MjJn5/76nOgq/KCxukH6sIjK9S8lQaAEWbE1nTh8="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.AllGameData.html",
-          "hash": "bJGjdkBg2zVrgErZiVRtbc9DyuqmPQ5ACbyGKlrCzpo="
+          "hash": "YZqSbBZRpfY5li2+wdhXJDIizbGZXNbujWae+Xpj7AI="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.Event.html",
-          "hash": "KEcY+IQSaEh669uW0Dqo4WuKrBAjaiHEAIrvqqvJcyE="
+          "hash": "YzPZSCaW77WGl6HJ7YsC0Ozl4Cu8OP4BXd1dDKfMkgs="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.EventData.html",
-          "hash": "pJqjAsKwNfYDSmKfwSdQYnfJRiIC5PPODFSuXfSauxA="
+          "hash": "c7jXPgXBTAGjD9I2FavlkSb8se0cv9a0dKIQYoltlKQ="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.GameStats.html",
-          "hash": "VUwGG1g5gSrHrXWm1a0zbP1l381gBA5Mq5g5NIoNqho="
+          "hash": "bLbrLf8YpJhAsNxM2PMqXYL/ceiIOtOZx/NSJCEO1tk="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.Player.html",
-          "hash": "m6UPWEgXU1LDCU1dvXAv1uMbemE3jZwGEtlORrbOsHQ="
+          "hash": "KLqeesp3dzeMaprtwdCcf+TW2ioQhbaUXGMT/BAJ5qc="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerItem.html",
-          "hash": "5BEq9Yn5tKrrLx1f3zhrVbb/Mj61SnYU1bdiYJRPfzU="
+          "hash": "sgoqhNduo6coeJ/GYDuuq/uWkiYMzdUaQ9+wsy5xCvw="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerRune.html",
-          "hash": "dAnUkg5hF5M/fZVSa3XSxwwz5DYPNNXBsvHydUrYpCU="
+          "hash": "ZycJIyCF3s2lDYreq/WI/TwR9lONGI5TSxA8SmudGpc="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerRunes.html",
-          "hash": "vRYS2MNDeMJyr+6UlR49hS4nVdyP/fjwYuYaB/y3QeQ="
+          "hash": "s/IhH8ed5C7DAG5TCD0vmA7oICNSuom3B1M+1Dydsys="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerScores.html",
-          "hash": "aDSDpsnyOeP5HydEIwvpdRmJOEuexEXUCMrDM6KNwR0="
+          "hash": "GdlI4Enb/hAHbpEtrNdW7JPRtkfiM3lYW3R7+yQr6ZU="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpell.html",
-          "hash": "6F/ZQ1TQo8DXVmyN2yybtBsx26XL0DpMwwM0lYA3nGM="
+          "hash": "StrDdT+G9bB9FtfVKxDAfMV1fUXa38ePG5/kzKiV6Xs="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpells.html",
-          "hash": "k3FHEbUWmOtHxiBAYlCuWkCER99Ti204QewBt9gXofY="
+          "hash": "HgaFYzrIxK7HE6YBgyF0R7skowysvhtRhZi/8Wse/c4="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.html",
-          "hash": "1YBC1E3KZo1OZzjXARfWiseOurUzqdEe6nwDb2vnYsE="
+          "hash": "DBfSvLMAyg3/ysTiI+DQXW6YFjQSz8OOixQ9PfgCE/c="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientDataEndpoints.html",
-          "hash": "jm7NYH7ER4gnp6EqLhzbhOSY4PDvyLyQaf2H6r6Y3/U="
+          "hash": "JGK7p3MJ394KjdY91XrUrq4UvNLyaMQnnWki/4luAh8="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LolGameApi.html",
-          "hash": "PCoVn/COzPbiMYOTuM2B5Wtctv06j+EfNdnwe714RUM="
+          "hash": "Pyecn6uXiegxs09sywtIWOgZD8yx8SiNPiXpiqfN774="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LolGameConfig.html",
-          "hash": "jm+ZdCfXkGjVzy/r3hfa7DcbzZyOdDlXgI9qZdseV7E="
+          "hash": "uPJ6pbX6/lC2m8oxFeBT+liV4AVKsp7u5kAuehw5/+Y="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LolGameErrorMessage.html",
-          "hash": "RrJ5Xj/FjNByD2eCswEcMc2sQ43rRubXLq5wNEHniSU="
+          "hash": "3E4DpzxZcMMYqnlU59qk4M5WCXusRPeYHRLwWrH0Q+8="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LolGameException.html",
-          "hash": "WafjSRQt4xF5V33XeqtlQSBQCuBV38UaL5+phEJWqLI="
+          "hash": "bD+TlqYwXnHlGs+ImXUOhuzAdEiBQAjowDQkj2zyw+U="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LolGameExtensions.html",
-          "hash": "5Q6oKR7QzBUB/m2nGhIv9dTCleXHbqVjX585XyTVdU4="
+          "hash": "3y1BzePsam+KRljNlTtwZfT+EvWQV1xMsFXuyKdeVxk="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.html",
-          "hash": "rVTHd190zUeMxVViusSJLvdzU6Dqg2ljIZjvUaIWkkM="
+          "hash": "vIJhrTTIacVFlM314GMC9+TvAZZjbp6x66SzTbRDd0Y="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.AccountV1.Account.html",
-          "hash": "jexP+uiceONSDR/CT3hHL7y7lynAs+eLPgDf6Oziyko="
+          "hash": "Aiv5SHUcsALE6hwuk0sExRbrHgNxnOksq+oq9Afj9Cg="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.AccountV1.ActiveShard.html",
-          "hash": "d08EhDzI+8ri02bfX3Xz6ajb61n+UFutuKvQnf2d2Eg="
+          "hash": "1x2o9JJlpM/GQLB3XaZVUQ1Qc45d7S7AX6R7oATeFgY="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.AccountV1.html",
-          "hash": "eYlBMD/10eKy5Audo3jSFh563e0oMoQQWxni5ULTUhI="
+          "hash": "RhGJPFg6RvbX6bwasPNt1U0tLZHdbGPbor3FFqeXOsE="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.AccountV1Endpoints.html",
-          "hash": "OKcagemtY7sfu6hM3yhp/ayS2+UYfHKMlaMaS9xlVzQ="
+          "hash": "S7OwRFpXGV/Ku3O85swL1fIzBMRBwr4TDz1GAqtemB4="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html",
-          "hash": "v0CcJDcvvpj9U+RkroD2xnanO8A5AZkq3RG/fDtTTiw="
+          "hash": "aNF5/oZUEsCdyBno4mdohKo7Qj3E4L9Vpr2+83ejnlA="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionMasteryV4.html",
-          "hash": "RD/uBB2um5LH0D2n07hvXscIzH8qfy5xZxeapdOSViM="
+          "hash": "EEmm4C8XuB0bnfoCHx0n0FNcmz76PpI1ibLSNEBoCTQ="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionMasteryV4Endpoints.html",
-          "hash": "qwlRLeRwDM0gSDXmkk9t5AInAa0nSjQfCMzGFOc7BOQ="
+          "hash": "dnNiWwta5QK6wcCsMNWvZh+QI7yBFhORfbBSIVos//E="
         }
       },
       "is_incremental": false,
@@ -1329,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionV3.ChampionInfo.html",
-          "hash": "UaHRhOiLAZ1WWom5rCdhjOv9wzgH7xJt1MPoHEVMX5I="
+          "hash": "Cw+2NDqbCwgQoKgyk1Z3wJHc2/cyINLMox+2+y9e93g="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionV3.html",
-          "hash": "CeCeD6h1anQIgcYG/PSRHnexKbHC2R9Z53CJ25nG9Ww="
+          "hash": "vsx9Ghq2wBFuq8GpfP9Z5538LAyj1VenR6rlB842bbk="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ChampionV3Endpoints.html",
-          "hash": "TYiCMhjV+8ZZOun9jSDYocNRF1fsDEB9An4j0E9Uhhs="
+          "hash": "tRY8M6n47qU8sqkN2uwwBEvsJiOQty/6tK4V+f4Fv1A="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1.Player.html",
-          "hash": "dCg3lWsfMXG+Oig9P+Q8Opxxys6Xr7lTitSiF2vaPqc="
+          "hash": "A4yAeaYhcXnoIEWXgwUsxMd2DRulvEk3Hm7lIpyfTw4="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1.Team.html",
-          "hash": "nZU4AxUAOfjEGWv41p7Tq1bgsPnXwzXzkqFwQ6gG7Ns="
+          "hash": "9IT1fMQ7A/9Eps6QfIYMuMq0m1H26kYL9BQMMacgDVk="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1.Tournament.html",
-          "hash": "9GoCpoCI5BumT/quz2ZVpNte/Q/G37mveOBiGit3h9k="
+          "hash": "Sb0tqntEIYJY12Ltu1QHbenPydydlDTianYmoIjsOIw="
         }
       },
       "is_incremental": false,
@@ -1401,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1.TournamentPhase.html",
-          "hash": "wpGRqf2q8sU3UpLPV/NGdk3rBKX8UcANsKZyrFQ4tXo="
+          "hash": "ZI9ekeheNnvzMDEpDykV41lNbUFWWawDoa+pljKgGa0="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1.html",
-          "hash": "u/Ks6/K6fwmLfIKqVyLc/r+SnT1xJprYCmLIy/BW3Ck="
+          "hash": "EBakbsnlTkFXXmmh3N2gHvvXUChGhpiVTnO3chU5y54="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ClashV1Endpoints.html",
-          "hash": "OUDv8y6QaNq/9IRvkRsBGRzBituCv9pRiji4JDiqO/s="
+          "hash": "sxTyYtJFPE/zPoR8JqsALkC40sWu/MkO8w0CXf1d5kk="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Endpoints.html",
-          "hash": "tEGQl0q6SbZPSwP0GUN7N2piv+9VW9LnXDU7+7VgxBI="
+          "hash": "tIUrehIsvfcCCB+x31x9/hNaWnY4bP/77uxXDsZx80g="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Enums.GameResult.html",
-          "hash": "tlVeVCWoJ09AnoxsJgEbCjS1z8JVxmyY0DQoJ/1xZuQ="
+          "hash": "EbVe25H0g2yEuS8UwaDp4KIGxlh6zVH5e2ZFTTxu+Oc="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Enums.Position.html",
-          "hash": "+oW4790X6v7EmgX2mN2HrPdh+uIAvVKUxdJXdkOWRpQ="
+          "hash": "uSM3fnLCICMPF1HQ7HyaR4rE7VHv5A3/4qfzC7S03Mc="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Enums.Team.html",
-          "hash": "xcBL7BjlVILr5EBUGcKGKKbOh20NCBReGEC9HhxWO9w="
+          "hash": "+HlIxIU2SHI54Fn8+STcdA1Owrf9zqWgSpERUaRkPQU="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Enums.html",
-          "hash": "HIK6//twcdTikWGaLa9ZdzW0bPAYCUsit5ViP0Wea+I="
+          "hash": "zk2buWgeqW8Jsl/U7PXtFm5+F1sRpvDSaK+AIcxaBJg="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.IRiotGamesApi.html",
-          "hash": "fDYYZuchLMBuy9ne2tW+PlPqdOmzeeeFghjXJXbl7As="
+          "hash": "3zY/i6SmbIgxFeuSC8ETaAFPqiZ0x8Z2VaTZGicpMpU="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.IRiotGamesApiConfig.html",
-          "hash": "cEDmd74B9AJJunpIVIFxTNT6SPnN2/Ky2KZt7a8/6zg="
+          "hash": "cAe2/Ar4DVJ+chDigQpOv1yAdJHbHu2IPHx5C8PWDfg="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html",
-          "hash": "lpsf73ZwTuMFqv+J8m1nQIY49FmUkih9YM2/S9mn6xk="
+          "hash": "DkmOqBsSB9KWALHQsMr688BY6nqK0RyJL2E/dsRzIVw="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueExpV4.MiniSeries.html",
-          "hash": "bgCi6VUCV1lm61nMqcF7NxGg6B9mYHlEA2bh9HAIDO8="
+          "hash": "vBxqltXEb/ZX3bOlSH4o84zlkJiFirKe1/1ZC+OwXPk="
         }
       },
       "is_incremental": false,
@@ -1545,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueExpV4.html",
-          "hash": "3uHi5tCwxJOOkMuP+mz8bC05kVZpvxTc8omyx09/ND0="
+          "hash": "MBGo/CF6XoR9H4cdfv0PFqLFPIKmCpDzT8OMYYpk2SI="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueExpV4Endpoints.html",
-          "hash": "LPwNDQYUcxSsxVZkDpo29AfkmLFqz+dWBbbkORUDZns="
+          "hash": "4GOuQ/pnQ9jkCMTpTn+8aUrdSTTQkLJaCDRtM5s2ydM="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueEntry.html",
-          "hash": "gSd1PV1u8VasE0t8XHzDb9BNQGkZweSgfI0wqnin2ok="
+          "hash": "qHXBrt9g6BFg/YepLunCnBdPskS8ER/W+rdR5pEJ6oU="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueItem.html",
-          "hash": "B5942hXsmYpdnMmUcx4oi70JZec97fQnQexjOpj6vmo="
+          "hash": "DKHQNUtr4h0DpkGagZbo5oNRUsg/v/HinAzDm3kI7Mw="
         }
       },
       "is_incremental": false,
@@ -1593,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueList.html",
-          "hash": "1/zw0S8DZptLIK51VDF96g1drQpBwb2FJ2LUqdLGlbQ="
+          "hash": "NayvN89CSpxINwWRt0Eom+qMZCwDItk3+Y8MzT67R/Y="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4.MiniSeries.html",
-          "hash": "VpNIptAJ+6OWf+ySd7xwS4Ac2scrCR231sNQK20AfqY="
+          "hash": "u9eWAMC5yUGIBhiF9v7BCGKODpAMktdh52K3TgzUe2I="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4.html",
-          "hash": "Xp7bUx81cTog7oqOl/AnSyne741iFmxQ5Ze9+aQVbyg="
+          "hash": "EO+zNeO9rUtYS8vted9X957zHjtpYYFnI7tV12JqShY="
         }
       },
       "is_incremental": false,
@@ -1629,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LeagueV4Endpoints.html",
-          "hash": "Bvx2PD7tHXPiVkyYqfiy6j8xUFzBiw8RTv6jbS4Bgns="
+          "hash": "khc9pRg4t09ylZuI0mjNVw7KreteiStci14rrI2tghA="
         }
       },
       "is_incremental": false,
@@ -1641,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.Incident.html",
-          "hash": "X0FqFwynpl4haU3rj+oHaDiKSAux+I5Tc+JCJKy7HXY="
+          "hash": "JZEMmneWD4azJ46f3c8CDaP3lKKFQE0SO3TqX878Sv4="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.Message.html",
-          "hash": "FvPM0ne4VMGlkIRAl/UtNhNo8ILYwIuib1Va2ar9/aI="
+          "hash": "u71na7wt6WjyX/COwBYe4eHU45hD5w1sqgbV3AehBu0="
         }
       },
       "is_incremental": false,
@@ -1665,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.Service.html",
-          "hash": "saOE48YTFRP/yybi3mALDX9o/bs5sLULw+OogTbjohc="
+          "hash": "jYUiy7LM5VaIeG1ZYrZEIrdHpEAhjW6zciWMv2UpBs8="
         }
       },
       "is_incremental": false,
@@ -1677,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.ShardStatus.html",
-          "hash": "JBIutQNOeNYLIjKmsjOK5rdn70+kMpZEVcTLuHDP/Ks="
+          "hash": "NbmwRgH3KMOTgkE0JfJva37qBPG8cODRsunTx+UY8ck="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.Translation.html",
-          "hash": "KXyawxjYybRHr68ZalWbnpHKabLmm9FiFWwLvzsoy5U="
+          "hash": "HukVkNfG+LHCDTV1joeFq2xRnm5g6OLHqnG+ZjquuIM="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3.html",
-          "hash": "tXumBUEgcz/NjfwIjWPymlyy8ujrV/+UgK8Yj42OWB4="
+          "hash": "SnBbGYxpyyvJjuA4ppGIj6XtniZHg+jq2IXxd5glzr4="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV3Endpoints.html",
-          "hash": "UUau7dq+w8dV33JwY+TO4g4Z/yWQ1M7uT+qq12TbT84="
+          "hash": "2tOkjQFz6YzeMxjL1f8GBmwjair0HU6lLMUwFIN95n0="
         }
       },
       "is_incremental": false,
@@ -1725,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4.Content.html",
-          "hash": "Mam1pXe38FOxZCg1WODes7pMLPYIHi96HK43J8B5Wao="
+          "hash": "x6xBBbosxeQ6bAyCux1EUElcLuRck52SmcBnjakuZXU="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4.PlatformData.html",
-          "hash": "CgihAihvWJtKGjkdDbTS1Pb7aUYteevkb/LMOTx5Y70="
+          "hash": "FBtc2ojscfTtPezsWnFZwDrjwKBy9aQF9osXX4udJvE="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4.Status.html",
-          "hash": "95x6/ztIjOHpmLg8xw4UZliKeePlDbmPSAWmgUWUI2Q="
+          "hash": "luJJNs08hAGsUgagoXEwacIUlEVKB6sLOule/IG+3UM="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4.Update.html",
-          "hash": "r2e79hsLCpoWt1FUFJhLeTqr5tfXxIvDLiPCgygQNv4="
+          "hash": "43aJZakHqiHl4s/eagg4B3izddjRdqiLK6nSnHHhALk="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4.html",
-          "hash": "16K2rJqwbnk4UoNfrI8D7vcEKypzb8xevdUYawnVWoM="
+          "hash": "tKWGGDJopBBhoN8trhg1M6klSzkPMU0ULwUUWcaAEiw="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LolStatusV4Endpoints.html",
-          "hash": "WcrwlNZOgqJgp99OLQrLJaJTTTcW2EE2HrCRO+5ZOk0="
+          "hash": "cs+G04dWfd44L0BdFTbszA2bhnIfC2eS54H+Rk4J3qc="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorDeckV1.Deck.html",
-          "hash": "pCQ3zioDMNu3W6u4NLBjRQnEJfpOaE+HLIL8nB2Y9ig="
+          "hash": "nXxNEFdtThgzu+QGBKUri8px6OtQgA3nNULrPH7pFBs="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorDeckV1.NewDeck.html",
-          "hash": "0Z33F4KL58waZvDSlVs0+nL8KQh4QjZ3eX4/Rg2eyCY="
+          "hash": "/A+rpKb6jWcf+8qmltLmJYTrsRshC9PvwceHR7Jv+qY="
         }
       },
       "is_incremental": false,
@@ -1821,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorDeckV1.html",
-          "hash": "imdwE3w71LKnFk9O2CqPBzInmuHTKtPJm3gJ0olSlcw="
+          "hash": "RZowdKFLjZwSwH7pFJKHzgJ81U5ueWLWq3Ff8hWc2Dk="
         }
       },
       "is_incremental": false,
@@ -1833,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorDeckV1Endpoints.html",
-          "hash": "l/vE1yU+1xizDxebPMT66F5uaeSVqtelWAunU08aE3c="
+          "hash": "yGOmahQpuxGbS50TG1Wwag9bXy9+NHJcnXm98Izf7jI="
         }
       },
       "is_incremental": false,
@@ -1845,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorInventoryV1.Card.html",
-          "hash": "Tx081IUYfkIEchSmQWHkV9sjQTZdLuFloEdZA+IyASI="
+          "hash": "zZg/i6XFDxe/EVJNwkVykmtJ8Q6wi0rtJrsp6saejOg="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorInventoryV1.html",
-          "hash": "8JQmTTCbKo5dx0DSyZ3XPnig7F1RBB4iDeW7YxCPjXE="
+          "hash": "TAq9yPFEQppO0fpPJODa7pshnBJBXtDN/8oFLglNHZs="
         }
       },
       "is_incremental": false,
@@ -1869,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorInventoryV1Endpoints.html",
-          "hash": "NX1+5SoMti7vhmQLetkJDTajpuCv/VuWKcu31ZNqkgY="
+          "hash": "gpBwRdEUjHRdFa2Jyh/yS1/sbJqwOT9k+0SbGzvWprA="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1.Info.html",
-          "hash": "XOgML2glNxFOse/ymkJh1eSnNBd64hVaPdFh49h0YA0="
+          "hash": "qhAZmG9dzQ0tTnlcGeVAKiVw4kvg2Koej4PDillbwwM="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1.Match.html",
-          "hash": "tcH5pOkooMlj/QjqW+iAflyi7d1WWtnDsT3jT5UplIw="
+          "hash": "dREdCwtlLnAhD7iyO8yiK3kbqx9yExpKN3Koy5/vV7E="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1.Metadata.html",
-          "hash": "n356+0RW3L98/6+14PfdQDmc7W+RrDU4wExffjq0YOI="
+          "hash": "lJOp10gugtUsuXSbGfoG3OlCkwwuzmfQ4WcClxFb74g="
         }
       },
       "is_incremental": false,
@@ -1917,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1.Player.html",
-          "hash": "J5YqgAEjQT+flkL/PzJJ9cvYaDF70xhoeTAA/ikeMso="
+          "hash": "cni50nlD3fh3Ye3M4ln31n9KNMljkbwE3+O8Zreu6Ns="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1.html",
-          "hash": "omzRVn9oTe2Far/HfT9bzsskow08djcSKo8YFJbu7VA="
+          "hash": "hNTBC1FnQHx+Z+WIMG066hlEX8Hqr3fDGHCUfaJx35E="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorMatchV1Endpoints.html",
-          "hash": "L6HrRQ7ywnOR7q2O7t2YJRGEWm6un8/3TRkli3iD2Z4="
+          "hash": "6Z3JkG4J5itGL0W0EEF78BQNaF4EwkezM/8ymCfdm7M="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorRankedV1.Leaderboard.html",
-          "hash": "4BoTYcTUy8Kcp7DYKHBfCjvIQ1oqlwA1iZyS7xOh0ls="
+          "hash": "KhRkW+PEGPQ7UjMp4Gc5Jwl2lpjG2oLv2c0/Y02ylho="
         }
       },
       "is_incremental": false,
@@ -1965,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorRankedV1.Player.html",
-          "hash": "X5ZGOEG50IwPeyq2QAVGbjitTBdSpGVSigB/SDFuL+o="
+          "hash": "qflAhXOnag0uDtmW+tTnXctef4VChzviqDZtOR2Brz0="
         }
       },
       "is_incremental": false,
@@ -1977,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorRankedV1.html",
-          "hash": "xWI0nqpGlwGFUqNQ3L9iNIfnFtpaNHHoTGoX3gm4kw0="
+          "hash": "nu4eaF664NT8emvkaUt2LaVIzIlZaf4VDj72gOhxtbU="
         }
       },
       "is_incremental": false,
@@ -1989,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorRankedV1Endpoints.html",
-          "hash": "Tj0KSdKhKZnwqcTI7sN2zJP9G4vi8dwAlPylAPAfE38="
+          "hash": "UoyfCs/vl2eGTTHqieK9G8OU7GE0nZtV6pRBEITVP6M="
         }
       },
       "is_incremental": false,
@@ -2001,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1.Content.html",
-          "hash": "pNDGylf83l3OVMmEh/xhCE4X4ab2g6/ekbFaab/kb2c="
+          "hash": "MCYAH9Fj+HvsS1sKIkgudHgQxmK8FaR2La7CG7q8OyQ="
         }
       },
       "is_incremental": false,
@@ -2013,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1.PlatformData.html",
-          "hash": "XJRt4NEMsxhKN2C//C9+8CiHifDaDbKUDpr/TbGLd4g="
+          "hash": "N3w6Dh7XuRbkBZQiM/sJxJZXRflOfSciYTn9etmtaJQ="
         }
       },
       "is_incremental": false,
@@ -2025,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1.Status.html",
-          "hash": "Cro80fMdrOoIikxHS80D6cIGS175mlv/MNiu8doJ4Rk="
+          "hash": "cjMK5f7cYtU77eoCsubAoJNmr2SGPZgQKF119RuErYQ="
         }
       },
       "is_incremental": false,
@@ -2037,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1.Update.html",
-          "hash": "fw9FICYxIjSTbPH7ZsK+LYyY+1RE5YJK44t6I4Rm7tI="
+          "hash": "GLkJhNm+hcJEgzMy3dObSK0WXiZMMOggoZrV2bCIE4g="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1.html",
-          "hash": "3Ck/sZlhGfIUt/qJ7lXHalKCY8iPbfTGEpDwv6lQelE="
+          "hash": "NxWkEyjhdlCVJX43KCkYIGrKCty9VRssKZLXgNuL+X8="
         }
       },
       "is_incremental": false,
@@ -2061,7 +2061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.LorStatusV1Endpoints.html",
-          "hash": "TwHhIT7wLk5ZT7xK6+BNvnhOXWptL1p4KbLlJgB+5UI="
+          "hash": "TY3hZ04scQRZTQP9ZKWKtSgvOVuk5U+0E4uZmSH8RtM="
         }
       },
       "is_incremental": false,
@@ -2073,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Mastery.html",
-          "hash": "JHZ60wv7pRHV97l/L+p7EDMULIBWryKZx5aeePbje6g="
+          "hash": "olxWJGTvBRTsJqcV0+fzavLcEJCVkHIK7N3Rsz/BmTY="
         }
       },
       "is_incremental": false,
@@ -2085,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Match.html",
-          "hash": "dATAF/+vQNAWoqEVh8GEPKBkWwFXmlAQivxMKLLKi8Y="
+          "hash": "qbyEjx+bEtAkk3qp2H9eUv7b1xBdajexFiVpAh2nl78="
         }
       },
       "is_incremental": false,
@@ -2097,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchEvent.html",
-          "hash": "pMwBoZh1Z/fFHkX6ofu38Lh2Gi68V/jCy+dKvxVXpPw="
+          "hash": "MiZkFubf15UwHEb4nGJn3x3RJu6Bq6JBaO7ZlONacqA="
         }
       },
       "is_incremental": false,
@@ -2109,7 +2109,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchFrame.html",
-          "hash": "z5neFhT4YYUVUlNW47cAv5DMAT44nf1j1oxKKH75Y8I="
+          "hash": "XCDOAlAChxokLpePEmKSNzQas0sUJsQbtD4OnlpB3qY="
         }
       },
       "is_incremental": false,
@@ -2121,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchParticipantFrame.html",
-          "hash": "vgROdmpQRi3CrYpCW2FCyY8nDAKVpICx5qPrLMJEudY="
+          "hash": "UE/rAw3x/HoU2FwbIoQanDVS5c7EgD20MoAFvLTek30="
         }
       },
       "is_incremental": false,
@@ -2133,7 +2133,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchPosition.html",
-          "hash": "Qau0CGcNUV5PF+1l4KCU+jB1ps46JMEN5RjiYKQ1xK0="
+          "hash": "dv7iO2MXPd/rAijxXn+5UKQ4zjCbpSLpc2UE9LdjExE="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2145,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchReference.html",
-          "hash": "wRGQhqatGcXtO7w7QpfNSwb0f48uIZvxHFT7NsRu7KQ="
+          "hash": "hrIUDTWDm1mE2AnCJ3eunqDxmaspYXfsamrDnCw1sZM="
         }
       },
       "is_incremental": false,
@@ -2157,7 +2157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.MatchTimeline.html",
-          "hash": "yvVgMULXkYS3tekmWsz3JLowb6SNi5F2e7zjuFOSQ2U="
+          "hash": "JuFiSBHURm7lpADE82cCQ0OkTBCp7+u7lOY8Wkpgd6c="
         }
       },
       "is_incremental": false,
@@ -2169,7 +2169,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Matchlist.html",
-          "hash": "REVxh1c56CbMKWSVMjBZKYIejZgkT/A78OBcQoDbkuI="
+          "hash": "qkTZMGYogPoojQQ/eEg8rgiF9wu/u1crbtl+7achf6s="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Participant.html",
-          "hash": "WzmSpWNpwvwrr4nS05i61kjW3MiCxrZ+rz1wvU+1mDo="
+          "hash": "TiKyNL+hxuT5ngfik91nhFJK5aiG/tQ7wa04xI6i0wU="
         }
       },
       "is_incremental": false,
@@ -2193,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.ParticipantIdentity.html",
-          "hash": "e7CjWmnkPlFuV726dZKpoef+E+7ioNmcWVDPgyGKFVU="
+          "hash": "OtkKOp9dR5y/VBzaSRDfyN40jVKobDgJ6nSxge83ZsQ="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.ParticipantStats.html",
-          "hash": "jJIALhNFYoA/F9fSGxKC1lgkU21CeCg2jhPf987vrR0="
+          "hash": "3/+1Nc0M9CKqVU2x8KBIgbwiPN7MussmWi6VfT9vtz0="
         }
       },
       "is_incremental": false,
@@ -2217,7 +2217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.ParticipantTimeline.html",
-          "hash": "dUyB8PD25c4yjdMoOyuKieqWlfah2AVIy3t3EZUr/tw="
+          "hash": "50wDx+TyRnUOtM+z8crXKawir2pEQfrLPHXugqSb3so="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Player.html",
-          "hash": "Mevxs9atRmVE1MDo9T+AfL2ldepJtI4GvtDl/Wetv2A="
+          "hash": "s+6cAuPKEYlO75fOFVuQ0Rv6qeBCf2ROLEp+1cB8r7A="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.Rune.html",
-          "hash": "lUwlGmjdlriKcq8kro9qwgvwFL8NNSRQJv+Kg2QBPK8="
+          "hash": "0NndXI7Ydzr19OMk3OFbtYfAZEqt4DJt44HO5wuD7iM="
         }
       },
       "is_incremental": false,
@@ -2253,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.TeamBans.html",
-          "hash": "fyQvZ/pOs1IGPYiPR9wHRXaSwvnwNFK+RwqZEfVfVoU="
+          "hash": "WMXUXOoa0p6t3nymlq9aNy3GqbEW3fr41G498yMEVo4="
         }
       },
       "is_incremental": false,
@@ -2265,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.TeamStats.html",
-          "hash": "vmS6m+jw/uCU+X8+5QA7F8iWxIvb90oGe2+4Qe0NxMM="
+          "hash": "MvIA0gjAy+gDHM7XFypFK4Sm+53hkaphbKFgTZDzmrI="
         }
       },
       "is_incremental": false,
@@ -2277,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4.html",
-          "hash": "erMz5x1Tcf1Fs0/L/b5UFQcPtoieZPieckrtOR0bc8E="
+          "hash": "shKjIB0RZ+HVvVfxVogU3h558IaPLTrkJbgb2V7teqs="
         }
       },
       "is_incremental": false,
@@ -2289,7 +2289,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV4Endpoints.html",
-          "hash": "tvu4sNkDdB/NGuD1/Hl7TLJtVLK2iCwB4LCy5Mbd4oI="
+          "hash": "P2T6D+btQ+49yzt5zLUPUF7LtSYq2aCCalsTSvko1Sw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Ban.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Ban.html",
+          "hash": "RkomWwzHM0hBxyh/3lbsDMPH4beVZaThMTtBQHGAsOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Info.html",
+          "hash": "I1F5uLEzGKKkh7WoWIrDxi1fp9J8lKR3XtDg+RFb4Bw="
         }
       },
       "is_incremental": false,
@@ -2301,139 +2325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.Match.html",
-          "hash": "qMo/ZqchnvgefHTR8buxG4FOR/HoYX+LKjGu+wGpb5A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfo.html",
-          "hash": "G+lqUSLvQXUBgWgRk5M84lVb3frjgaIfunGhAw4qXkc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipant.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipant.html",
-          "hash": "eIJ4f2AvPn5ZrKSg5cE2iaUUl1FW/q0gohw7gw7UzGk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerks.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerks.html",
-          "hash": "gXUFAY9XGXwERdZ5qTYBdMuN4a6Gig2V17tNWEm7How="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStatPerks.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStatPerks.html",
-          "hash": "H++HHJ1T3QUPx23dEwQEtKmywip0Rgd3T5BeBU1F+4Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStyle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStyle.html",
-          "hash": "9haHRSpv776p9bqz618BFue0woTHwolcn3toEInIREg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStyleSelection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoParticipantPerksStyleSelection.html",
-          "hash": "ZQbhu75RpoqJ9pLaNhL618jk+I6AvK7nox9PEAx7ca0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeam.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeam.html",
-          "hash": "Ht9fu3AsJW/UmCXwnHUzqILE93b3VMpCYIc21wVdZUY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamBan.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamBan.html",
-          "hash": "+psJu2HjZTAByokWee7q5OHY4xzqu55Z+USytmXv19A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamObjective.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamObjective.html",
-          "hash": "dZZBwTqUdP22gmZ+c0y4DuuTbeZ+kNN/5QAVKvfEa2k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamObjectives.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchInfoTeamObjectives.html",
-          "hash": "sw52eSdjQjr0BPQZ2j1N69v994tHRd1Fx8OymGT3EEc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.RiotGames.MatchV5.MatchMetadata.html",
-          "hash": "ffxZXY7LUeuFY/IjivlG0wYdcA9DNs0gLNEFEHOq3Js="
+          "hash": "lYVRKbmwBdC5Mehdc/ArQih7lseI0TorkUyE4cODLwg="
         }
       },
       "is_incremental": false,
@@ -2445,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimeline.html",
-          "hash": "7+bnTU1O3Pi22xnxA4Y2YPb7kKMHdx9VESbhNszSFu8="
+          "hash": "ap8RbM/GCCFDxZHgxhlmzJdDSfcwnqowAhFf/EBS9a0="
         }
       },
       "is_incremental": false,
@@ -2457,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfo.html",
-          "hash": "v7DCKI3kUp0Z9rZUKabjwTM2/3gC1ktDmdoCoeZs+6g="
+          "hash": "W+n0HaZjYkk01kmxNd7otTDqS817XcrPb5KgCZ+bf+Y="
         }
       },
       "is_incremental": false,
@@ -2469,7 +2361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrame.html",
-          "hash": "rW6QBOPVv+ip4MVvmwNNp8nH3enR5NOkcTn15I2o8jg="
+          "hash": "1WmgdK2qrdA2tsT8vcttpn2c4FOu8SzkBEQZh67QIw4="
         }
       },
       "is_incremental": false,
@@ -2481,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEvent.html",
-          "hash": "SUhbloSsQBk4Qia1pbRR8PIAKYqFt4jKW4/ZQR7Yz6A="
+          "hash": "2VaR3pre54of1nNwGe5+k9y6HSxN+yrYs1YLCQCqh9Q="
         }
       },
       "is_incremental": false,
@@ -2493,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEventVictimDamageDealt.html",
-          "hash": "BvOS2NfNwfA7Si4dB1POX+aEdcWWoGDvLEPSSaJ8jJg="
+          "hash": "bODg1Lh3LnSyYvj3hC1wcBgnK1GxBQQL5mBZzr9QYgc="
         }
       },
       "is_incremental": false,
@@ -2505,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrame.html",
-          "hash": "HKn6htNsE9VVktNZ8KVGNoL9fAxuS3XiCDzrAiVU/h0="
+          "hash": "MIIFFHcyQ3sXuRLT5ULMGvNbHHkaGBfiFhwhJAMm9uU="
         }
       },
       "is_incremental": false,
@@ -2517,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameChampionStats.html",
-          "hash": "FG2Lpy6au0s0B0EdwoGaioaV0okandPSC8LFp5jsWbo="
+          "hash": "Xsp3/WawcZk8PX7QEWWT/ceZXquyUz1NW85LdzuaRA8="
         }
       },
       "is_incremental": false,
@@ -2529,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameDamageStats.html",
-          "hash": "GYfBp5hA/YpChzYvd36IOl75qD5FwGTwUq18ZgFI/j8="
+          "hash": "QUqNArm7VhGFnRr0IIC2/PCZQBXbVNEE0ietnTAyi9A="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrames.html",
-          "hash": "mnXUB2xUXahCfFJ3jXTgmIEOJV9ps11faq8hZzakfAs="
+          "hash": "QvU+tEIBd8LKbIs8bLABpsF3VdFtdNy06TIBrZdq5mw="
         }
       },
       "is_incremental": false,
@@ -2553,7 +2445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoParticipant.html",
-          "hash": "C0BhdNRvlpnOASRFmwDv50eJvBmFNNaKyiZwmSrjUIA="
+          "hash": "sHNQJVcYPawOff9FjBNm3nBMtef6d9OkSbS9GYelEws="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2457,115 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html",
-          "hash": "xnPrz9XRU6zGFD2XiTntmIyde2VOnyl8JgGLzxp+OiA="
+          "hash": "a1+ScfyQuwmkGwrxFoS7PlHM53zUupqxYlAjDC0pw54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Metadata.html",
+          "hash": "rNCFID2es2KMLRoTrMl/FSvH/3jPK38IQx20rPo5s/I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Objective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Objective.html",
+          "hash": "GQO1zOAAN7wlu3pAKXNR65FMHLHI31zeP34D3OrK6xA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Objectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Objectives.html",
+          "hash": "C1snLXq+gPYnx8Bbjat1u9L4G0VmqSaOnY47el089/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Participant.html",
+          "hash": "0R6yqMAIE+CeoHg2Co0jF9Vd7NtKgNCBOOlx1d8JnBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStats.html",
+          "hash": "iT8Qgs4yBUD6feejyZBXxsVlIu3iOF2WKgnWnGmOhu4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStyle.html",
+          "hash": "yVsZV8NAWhzUIfVW91PYgeCz8UsSZYYMwP6RgAhYQcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStyleSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStyleSelection.html",
+          "hash": "Gcpetn3Te2CLoMVOrNIncQAJqwH2RVCcg9C+FZ3UWwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Perks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Perks.html",
+          "hash": "iq0U6rN/v/xFDx6hBtJQzNPNWTdm/sOVEibt12VgxrE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Team.html",
+          "hash": "tIM/w4N3YFbYklr39mmly4el+QKEXo30OJcM6Ysh5N4="
         }
       },
       "is_incremental": false,
@@ -2577,7 +2577,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5.html",
-          "hash": "yaYJdNIOBp6pTRQ4I/oahU7rHvb8C+PsXi6l0wvQDmU="
+          "hash": "5I+RqJZIrqx/akEe8UtqYYHquEKgQWQ4jlyZzy6+0O4="
         }
       },
       "is_incremental": false,
@@ -2589,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.MatchV5Endpoints.html",
-          "hash": "vJh3dfHomwiEOQyshzwhfs7g18CWdNytgaqY7KY7U2o="
+          "hash": "RYFEE95ZnYVHvayfd4i6LNyRU+PfWCA/GGl1V9kW5cU="
         }
       },
       "is_incremental": false,
@@ -2601,7 +2601,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.RiotGamesApi.html",
-          "hash": "i4QUXyATZHb1TKTSzXCRaS4uV0UwIOV4QTHj5MoD50Q="
+          "hash": "pZV8cFUTBhlZG/R9CAfwI0P0hNnDKgtrycE3VSx2Z40="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.Builder.html",
-          "hash": "cmw+2dhXrUJBpYwpGGye7EpT+OfElTRyLW+pYBD2Bu8="
+          "hash": "VL+AHow0Hs0uf7IFBgaJzfZz0DPbBYxVg0dSEzg60VM="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.html",
-          "hash": "VRrZ/ORvMcIucLJYVXHrInWJTQ/4x4HbfXRzSwCzYLU="
+          "hash": "TlzRexrH73Vfy+if0Ans84WBKK3xvMUR6KsKYSoC7PI="
         }
       },
       "is_incremental": false,
@@ -2637,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.RiotGamesExtensions.html",
-          "hash": "S7W8GyBK01Tp1yCVUYXgVElhK8cZMmvL4fYhbh4qo5s="
+          "hash": "CAbAz/vR34pbO6Wpp+IDjnGR/3QXO0LL2ITr3VIveTI="
         }
       },
       "is_incremental": false,
@@ -2649,7 +2649,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.BannedChampion.html",
-          "hash": "PH+cl+G/F3fCdi9PvoXLJVrDMMIsdmGeRMSMBiQrSO8="
+          "hash": "OjKJbHC2fnd7KeTXq7s8qir0Swv/nTkEvmzC9bL+JZI="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameInfo.html",
-          "hash": "1IjB4Sq0l/59NljMNDRjUxUbSWmviLuzSu8AkeOOUxU="
+          "hash": "wIajHVycfrCfTckORusMf4uTd2TAg0/5x/QsIeI6ST4="
         }
       },
       "is_incremental": false,
@@ -2673,7 +2673,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.html",
-          "hash": "7FJwEqIel6JPFTNoYhOmKL8gqvPRCVYTlt/PvNtZpMY="
+          "hash": "rps2YvUzoGuEpRJixoc44Oe22rNodVHKiiGwvbWuk78="
         }
       },
       "is_incremental": false,
@@ -2685,7 +2685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.html",
-          "hash": "cobrlUs8yhZM/CQ9q53+JxYFeDNVxuXPZRwknErp0Js="
+          "hash": "WH4UE11LDI0mjUEXZsYVymFFK0Or5et42+oBDw96zwg="
         }
       },
       "is_incremental": false,
@@ -2697,7 +2697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGames.html",
-          "hash": "VwhlIrqu+Tr6Ry/MxeYPlv7VZ8UKLE4X9A5vvn868X4="
+          "hash": "Mw9eicEln+g4Yy4ZaMOUUfRdKQMr8pa+kBbEDUDhnLg="
         }
       },
       "is_incremental": false,
@@ -2709,7 +2709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.GameCustomizationObject.html",
-          "hash": "Vw1zffza+etmTvWK6EwjwlCw4rxbCYnpVoa6Hzjf2oE="
+          "hash": "eyzqVJmLCMXYCjr4vJCpzn1+MIRFxmaMDVLdy4qqzAk="
         }
       },
       "is_incremental": false,
@@ -2721,7 +2721,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.Observer.html",
-          "hash": "uBFeWVUHQLCwGO644zTHV8qeNPgWQk9dWDEOgAeqoVg="
+          "hash": "43Hhkuml+/YLvu/YQ7kVDrNmiFCII1MLdIFxbgG9/PM="
         }
       },
       "is_incremental": false,
@@ -2733,7 +2733,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.Participant.html",
-          "hash": "XDURaHBgmqi0ieDjrr72dprL7kLQYC0EZBKoEJ605SM="
+          "hash": "qAMIsWTIbY3gviim+r5l6MXPh7+2VajpY5cyfXQ5Y6Q="
         }
       },
       "is_incremental": false,
@@ -2745,7 +2745,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.Perks.html",
-          "hash": "vSvfuGyamrpsqqkGSgX36HgCqEhZJ2Tta13LNNLKd00="
+          "hash": "83SNmJ6TzAzGVpxSDJvMNK8EkJPE1CGusKFqOmEHzGA="
         }
       },
       "is_incremental": false,
@@ -2757,7 +2757,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4.html",
-          "hash": "twVvOutQAfjF2VRNMuf1QxGNghI6PdRGjMbhgSYBcOI="
+          "hash": "EAjeocT7DkE7ETb1WOZ/Z0+zVHMlRCHdbN55vi8xBPk="
         }
       },
       "is_incremental": false,
@@ -2769,7 +2769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SpectatorV4Endpoints.html",
-          "hash": "pMaSfT6OgSl8WjqedpemhTfTT0sIslzQivMWMDON1nI="
+          "hash": "u5WKLvIy41QwuSSghkTW4L59gdL5usuJq6ZQ/tkXEoY="
         }
       },
       "is_incremental": false,
@@ -2781,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SummonerV4.Summoner.html",
-          "hash": "VXdY4mJyvYzKnEZ5qCpejNNIk8op3BBSJiVFiyStfrE="
+          "hash": "WZHF16luR0HUsye2x1OlksnG6L9eqGDB4nDZhbXLVXI="
         }
       },
       "is_incremental": false,
@@ -2793,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SummonerV4.html",
-          "hash": "2QZ9aLUeZMVedsUchVir0JiGYJMhF/JYJ03ccGVyF6M="
+          "hash": "zhcspb/0fDsP1BjVLIiNriRpMjvJCFUWy7RsXT5RWTg="
         }
       },
       "is_incremental": false,
@@ -2805,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.SummonerV4Endpoints.html",
-          "hash": "btKDEH5AZuxbviJWXaMQhh0K+veMHJ1KXQDcV7cEX1Q="
+          "hash": "zE2S4fgRGIHyD4qVpJCDu7JRl0t9rshwMsxKNbxCHKI="
         }
       },
       "is_incremental": false,
@@ -2817,7 +2817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html",
-          "hash": "Qn0gqDlPZZVeLi0NZXmsRvGU2RMQnrsNMys8949zlSE="
+          "hash": "wXYuYqDdoTT7/cpQUeLcB1T6YtE36ZINfrW7DHm+vUk="
         }
       },
       "is_incremental": false,
@@ -2829,7 +2829,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueItem.html",
-          "hash": "zQaQNQZeER4IN4PhlAAhvNFrILxHKpUWkFaQ9TDMK+Y="
+          "hash": "Wyn4aUeVSw/uF4yX2gKnpT/FjYExeTwIjxrjC0Fvg9I="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueList.html",
-          "hash": "NnIk14ta0cZFmqSDWGd/9QOsrpxgQZMC4zBZxaweux8="
+          "hash": "I7NSGIFzxye5E27B55FdO4HFC+uvJLszM7jZEimLGzM="
         }
       },
       "is_incremental": false,
@@ -2853,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.MiniSeries.html",
-          "hash": "oVYi2hP3ofapzzEU5CgTQpc1RJzDtaHkkCkxKLshp10="
+          "hash": "iqXB/XBfYN91tY4zNwyMqU65ruWz0cGtuidz1wjoYL8="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2865,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html",
-          "hash": "n4s2yAa35Y718Pvfrj8XCC91w7TiMEERRigfdrSwje0="
+          "hash": "uLY57nanVRXSQuU51GL0Icg24CzTmxR6i10xP12GYNg="
         }
       },
       "is_incremental": false,
@@ -2877,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1.html",
-          "hash": "CUJN1zvyZav/Vav7tEyyCZTkuDMN5QKxX2FtRxPkeFg="
+          "hash": "9eZFOya7Eu4NqEuV03TzC4J/3J8e8imZa80sFaHAd9w="
         }
       },
       "is_incremental": false,
@@ -2889,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftLeagueV1Endpoints.html",
-          "hash": "jiyVeNng3Op6YEvEvrrkg5Upesaugj7R49NrQAG1oS4="
+          "hash": "hUrYnzgCGrrVimb6hvrmaDQztBjWh3G46MaJ1ly3vf0="
         }
       },
       "is_incremental": false,
@@ -2901,7 +2901,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Companion.html",
-          "hash": "3+To0Ml3lNGkuDfvtALowdMaXprwW3LCb9By3zeMZqA="
+          "hash": "+3kEgtz10scWsH+e3EGfWchYYypTHzyIvZUXzL2PQwo="
         }
       },
       "is_incremental": false,
@@ -2913,7 +2913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Info.html",
-          "hash": "nPIHVNMjX63aRcEG9rfIqK7AeujheK6EcYKBIqkZ/2s="
+          "hash": "4B2T7EVdGueP1tIPm3YnpSy+GV48AaSoy9CE/u4Ujvk="
         }
       },
       "is_incremental": false,
@@ -2925,7 +2925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Match.html",
-          "hash": "MCMeo50z8sSxl6Y/dlexiGg1mEvD9/lHzIcO9RtPADc="
+          "hash": "K214vvvVbceIoPY9ek5hB/4KnSKk5EJLlfq2LqhyjQ8="
         }
       },
       "is_incremental": false,
@@ -2937,7 +2937,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Metadata.html",
-          "hash": "0PEFrF0P7TIwGtJmJCAC1eSZkPqyn3WKJuaUEHGray4="
+          "hash": "3/ftfySf8Q513Pf6Jk/Wb8qepgrJWBeitktmhtBYUbM="
         }
       },
       "is_incremental": false,
@@ -2949,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Participant.html",
-          "hash": "WkALep/jKJf8FfeASy7NafwVW0KZINlHGMDVV5Hj/4I="
+          "hash": "bjBfwlrAcyHJqWImg2i4DiXr+yObkNd62RB0rGJxcVo="
         }
       },
       "is_incremental": false,
@@ -2961,7 +2961,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Trait.html",
-          "hash": "6Lp/tdZUTHMgWX2Xalc3c9osLBxNWlrYBUi/qOmp/Ng="
+          "hash": "WhxawoBujzuUC/VwSz/wq4CUoYwQOAwOumrFVubxZag="
         }
       },
       "is_incremental": false,
@@ -2973,7 +2973,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.Unit.html",
-          "hash": "hXYnIF0YYTW6R9E/a/Dx4TM9TAKYEzV+ngxHUJB7/vg="
+          "hash": "qQ8f1HUc+GLU/JKpOj1LC7FfZwCpCDJYTPHcqiZx10g="
         }
       },
       "is_incremental": false,
@@ -2985,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1.html",
-          "hash": "CiG2bu/5lPCMh7k19e1b9+bamfPACKMyHRR8ih9+WMc="
+          "hash": "wC261Ou3FxPzMEYSl4qrdzaGvXCp/LFt+RyMLAX+46I="
         }
       },
       "is_incremental": false,
@@ -2997,7 +2997,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftMatchV1Endpoints.html",
-          "hash": "uca6XUQtDiKKyYtqCk1w/ae40r6H8PiuQ9LtQsm37+E="
+          "hash": "HBsZMSRs864+9UssSzacqgcTgfWiIGKXbeZQ9VpOyps="
         }
       },
       "is_incremental": false,
@@ -3009,7 +3009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftSummonerV1.Summoner.html",
-          "hash": "PD1aoKln9s6rcvnmAlsdkN91CHajikEqNd/2+sBp4mU="
+          "hash": "SvBW6HJJVZEb73otYIAJEhihnBQ0394biyVs9y1cIBM="
         }
       },
       "is_incremental": false,
@@ -3021,7 +3021,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftSummonerV1.html",
-          "hash": "avnX9lnTpesPLOoWnOEsbZy5fenNT9QbGaNj8A8gd9g="
+          "hash": "M1U2rdlnKLxwxOHXok+iZFzsoNj2t8eZaHkJMj9QB7E="
         }
       },
       "is_incremental": false,
@@ -3033,7 +3033,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TftSummonerV1Endpoints.html",
-          "hash": "MOyu+CYDNoKxkkAMNmuFXSoqNZNIUv7OYX4DtnV20b8="
+          "hash": "ExbJ41kJ5RzJH1phck97ph29PYv8hZX850UsUjZei1k="
         }
       },
       "is_incremental": false,
@@ -3045,7 +3045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html",
-          "hash": "nKxD1WIebUATM0YhC4f3MI/kYbxeGDyZ1sxhZZlRVIc="
+          "hash": "Mp55tUxBCK3XdEkE0iuT4U+bvEdF57mJiz0s4//pLBM="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3057,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEvent.html",
-          "hash": "DZVUI6kIWe4+8xqj8PEF9CZMIprfMwTpgJiEd+hL2B0="
+          "hash": "Hbf2QjfOZ9Cl8DH0OFvYX49lEFmX0iNTRW06gsOqq+U="
         }
       },
       "is_incremental": false,
@@ -3069,7 +3069,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEventWrapper.html",
-          "hash": "dI91buuA7lfOg6p7q1VUFE5n5xTcaxYdUrOp9wQgb88="
+          "hash": "s06T3Pd9h8X/WkDNQAw0r2kb7o4Y21hSplTVblq2urI="
         }
       },
       "is_incremental": false,
@@ -3081,7 +3081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.ProviderRegistrationParameters.html",
-          "hash": "H0DMSpkI4gTVOR4jQoH59Tx+Lwx9P0iBqNDXMCmx0bI="
+          "hash": "9dE6Zv5e9zE8itsxDq+FVESHpBFkYrDSICVc15RNDYo="
         }
       },
       "is_incremental": false,
@@ -3093,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentCodeParameters.html",
-          "hash": "nW2v6LiKGPk87RMyL+7nN1AiNKukcfebgeXpEZ3pbuc="
+          "hash": "HusWtC8IuqZoB6xyHnuYF1GcenESy17VYd44h91LRQk="
         }
       },
       "is_incremental": false,
@@ -3105,7 +3105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentRegistrationParameters.html",
-          "hash": "w9xYHW2ZhxSG0GEzEEYG0595b5tz2rH7KsplAYa1pUg="
+          "hash": "F64LIRQmVsEMXR1J6hVPljUnPrDXkzs1Kitz0E83PaA="
         }
       },
       "is_incremental": false,
@@ -3117,7 +3117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4.html",
-          "hash": "5YwRNE8FV+TDsSbzAQS2dMz/precRg14zPNBdnf0dCM="
+          "hash": "4Ga/JfIVsv0Gc0zskFnDxFvA/kzO57isIhtkTb4IaMQ="
         }
       },
       "is_incremental": false,
@@ -3129,7 +3129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentStubV4Endpoints.html",
-          "hash": "vdbvC40yUIAl+2g16zj8Q0HBAIJvGZ8mXCYzSmM0Eis="
+          "hash": "ZpSFanbaS6rx1SB4xG3vjZnWT7Zxag1E7G65rRcMEPA="
         }
       },
       "is_incremental": false,
@@ -3141,7 +3141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEvent.html",
-          "hash": "l6Q7PcA8tUG9hyKRzXESltxhdBb4QYu7wWvQ9qK9rCE="
+          "hash": "+X3uIJJGf8Nu6cJQcVFSTnLdyxsuZ6UIduVLebVf4ww="
         }
       },
       "is_incremental": false,
@@ -3153,7 +3153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEventWrapper.html",
-          "hash": "XR+pOvnEjfloA+8Qu0YH7G4GNT5QvObVH87FLWoNN0c="
+          "hash": "9h4+LhhZovO2ebkjKfmtDAWJml7UZFXU02AKJ2Y+HYM="
         }
       },
       "is_incremental": false,
@@ -3165,7 +3165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.ProviderRegistrationParameters.html",
-          "hash": "nkfBTi7BNG4GC4kruIShoZWEeWYFcblstU9+HjtndK0="
+          "hash": "+plv1jhIpq37kv9wVPgM0PAPpK3atuJklaBvS+MEJ+4="
         }
       },
       "is_incremental": false,
@@ -3177,7 +3177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCode.html",
-          "hash": "sOYkC3H33i7uMsoD7StMTbOkKBewqkPW29S+u/OMF/4="
+          "hash": "7C0u+8S6jtgD2o8Fy6CawYx3VBu02JaDRxO7tF+4smU="
         }
       },
       "is_incremental": false,
@@ -3189,7 +3189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeParameters.html",
-          "hash": "lWipC/af3sP/ZGGEnh+JTQKweZ4T6ic9JSH4LqnVEGc="
+          "hash": "Mv67xKoLzdtRtCNO/v2Mgx2c4nyv9WVWYOoN/521174="
         }
       },
       "is_incremental": false,
@@ -3201,7 +3201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeUpdateParameters.html",
-          "hash": "f8BOXcSHAYFvIsAEGmhypoZY+VPVREe2ybFZkbL1I2Q="
+          "hash": "z1zYSiShX5CxE9I0Go2Q2HSoKhQ9Bqw5VxvXGwcbaK8="
         }
       },
       "is_incremental": false,
@@ -3213,7 +3213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentRegistrationParameters.html",
-          "hash": "u2GNkbWx+sUiz4RNr/oPZD5j4VJ4kRFToA/+P8ZPqp8="
+          "hash": "1o4yGYmUg0UBhI7nF8U62CPRZbUAkAiB/lyFolYQJRs="
         }
       },
       "is_incremental": false,
@@ -3225,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4.html",
-          "hash": "elhZinasxUtrelrcwckYOru1QEIYfRQTg32ddGE45DQ="
+          "hash": "xG3UhQrXvX6V0imwa7NMuHdI8w7EdOB7HF41JE8lVQA="
         }
       },
       "is_incremental": false,
@@ -3237,7 +3237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.TournamentV4Endpoints.html",
-          "hash": "3kFWVYqOA/Qe65wcpElbwSZ5wEH4jx2aRIhvRUR1GDI="
+          "hash": "FJ3pbpbyA/1Wgbh0eH0RCtPZGUTLCYBMo5sRc/G4P0Q="
         }
       },
       "is_incremental": false,
@@ -3249,7 +3249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.BackoffStrategy.html",
-          "hash": "787R+2b22cqcn8g/ZjnmrU+l58ZgmexayK6+spA2VIQ="
+          "hash": "8o7rOmec9ULrouZg7uaoFoCRTCyhYGsqBjDuQvFIY9U="
         }
       },
       "is_incremental": false,
@@ -3261,7 +3261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.IRateLimit.html",
-          "hash": "50oc9kvqwir6u6+gPEq8ZFyp55PBcOgFOKFIB4pOaOg="
+          "hash": "plf/6G9Kjfnp3nDrQfbdClu5GsJ+T1mJjWNpBhXK8sw="
         }
       },
       "is_incremental": false,
@@ -3273,7 +3273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RateLimit.html",
-          "hash": "R7XTw5kf3ob1U5HrJzoJqiCMuYuB/TwhsXHwbKScPfk="
+          "hash": "/nQPpoeeBzMgeO8sEI0aDlV6VBZFCC3lgWlL+99+siY="
         }
       },
       "is_incremental": false,
@@ -3285,7 +3285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RateLimitType.html",
-          "hash": "bwmnaQIYQ2fJLggxz/5He0tc+uq3tniJ083bqbBdmdo="
+          "hash": "8nQWc62Yi1x5irx+fnBb/wSOrEYD02QMFbVrEQkVV9k="
         }
       },
       "is_incremental": false,
@@ -3297,7 +3297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RateLimitTypeInfo.html",
-          "hash": "KjKn2zz8h4Q+9b/Ten5PtqZvvSMdd59NGwY47FJ/WIU="
+          "hash": "XlDV8ZhzGVQnDz3gIg0HXN/vHccuRf7t4nfqFl7Z1xo="
         }
       },
       "is_incremental": false,
@@ -3309,7 +3309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RateLimitUtils.html",
-          "hash": "M6/t7ZjIiUHZXCZbkCAn2cOWcrf1eUsExnlw0dcrzM4="
+          "hash": "n2fcgNhdGkYSIjceL7AALuTBpZsJbSTWA0t/w/ETYgk="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RegionalRequester.html",
-          "hash": "u2E8t+aIQhsznDs32Pw+U1Sl9iwMRVB754u5fY00aYE="
+          "hash": "A848opSd5xgswZxFXl5Lwi3/pgjRVkMtkPjGhYwdWWE="
         }
       },
       "is_incremental": false,
@@ -3333,7 +3333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RequestManager.html",
-          "hash": "eW1Gmb9CaZhqNG48Ut+hzB/dUz9UWw1KZ5Jd2Ip26ls="
+          "hash": "nCR8XPDnOvL+nzAlg1s4uHyr6aXdBod4Z2U8SpVFqWI="
         }
       },
       "is_incremental": false,
@@ -3345,7 +3345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.RiotResponseException.html",
-          "hash": "g1b3ZTc9Wb2ZlKouxwCxrLrxLECp/K/XHlwiVW/gRxk="
+          "hash": "iHwtd9uTVZe/RRuoYAOJ6U6VhK/Qr1g4Vc1Nij8ndE0="
         }
       },
       "is_incremental": false,
@@ -3357,7 +3357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.TokenBucketFactory.html",
-          "hash": "axhpimkj/URy37YcssIRkMh/8ufqSq/mrO/RAN/q3LY="
+          "hash": "tOp/+1rK/ecZAaRgTUVkonou3ublst+L8PH6AGE6rF0="
         }
       },
       "is_incremental": false,
@@ -3369,7 +3369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.TokenBucketUtils.html",
-          "hash": "uaWN7VpRgtDHko8wS9e2fromHfMN4sPy1pdrqdWflAM="
+          "hash": "KykIa7j/ABhSlN5Ag8PdyX2TQfjWjDWfv8p26l2pmII="
         }
       },
       "is_incremental": false,
@@ -3381,7 +3381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.Util.html",
-          "hash": "Qojt3ESrC8ic83yymrwAkl6bI6/Q6CMGX6Vnv4qQDzk="
+          "hash": "CmR8RBYgwhxoRSd+hrWX5UT6BauJ3tPLGbcjF+benE0="
         }
       },
       "is_incremental": false,
@@ -3393,7 +3393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1.Act.html",
-          "hash": "d9g8kR0jagcw51SKAdZl8uRQ9616QbFcHbnFUMKkyLk="
+          "hash": "2/v20Ax61jLkrIYUuotQ+NhzqhHc40DZdFauRZHbOV0="
         }
       },
       "is_incremental": false,
@@ -3405,7 +3405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1.Content.html",
-          "hash": "5hPhjwG45mS0yAp73MFMRZpctvzULUN0FOM/ZHj/8Fc="
+          "hash": "7aDQPMPOVURkBRXV1XupB43lsp4sU5tSR/5bXGh5h+E="
         }
       },
       "is_incremental": false,
@@ -3417,7 +3417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1.ContentItem.html",
-          "hash": "vAX2MwhPkubqYb8AHQb3bOverij2AqIvmX13TyaPkYM="
+          "hash": "yZzeQbgUgVd7xk+6Cl02Nb/Yubof4vYz77N1XBBoLGU="
         }
       },
       "is_incremental": false,
@@ -3429,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1.LocalizedNames.html",
-          "hash": "AFlBefratQTPWVcnS0HNdXX4vbvPbvfcmAAIYZRYOQU="
+          "hash": "flUVGevmgEGUIdo9HJxakw9K8kaCWeFg+EmRGWzsgYs="
         }
       },
       "is_incremental": false,
@@ -3441,7 +3441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1.html",
-          "hash": "kX1+hn3Tb/z3A3IhGkkotCmCyN1uy0ex0SqJSTWW7V8="
+          "hash": "iCbXvIYa/Vs5J9RRwqaseXhewUzGNf66sf8LImWAJnE="
         }
       },
       "is_incremental": false,
@@ -3453,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValContentV1Endpoints.html",
-          "hash": "cao7nHBkv+ZJWoIokBDs/HHrTuyQvdF7MZM5l4CW410="
+          "hash": "jdgO2cw1KOMPg+jg8VKc+yMGfrbucH2Wv6SuLMNIFT0="
         }
       },
       "is_incremental": false,
@@ -3465,7 +3465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Ability.html",
-          "hash": "cq0OEFj8WRBGd1ZFk0JLJlDnWds1wKuxV/txiVj80NQ="
+          "hash": "dOtP9LvMgA0JMwjoEjRu2lvy8qO6UJSucc0SrgYXvyw="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.AbilityCasts.html",
-          "hash": "nNbUlGcVRRZEU+QTrLVQieQ15/g64OdqjNsf73kQH0c="
+          "hash": "Of1O9fPfZZFEGaKKq9evhRmYwndiE1pnuD2JA95Ik8s="
         }
       },
       "is_incremental": false,
@@ -3489,7 +3489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Coach.html",
-          "hash": "8s6IT3meExGw4D+pepMYrGnjqU8ePPWpNIVSuA/TfsA="
+          "hash": "kw7Nsoe3y2sM2m1WEjvAQI5EG8aSROrinznzqOFJf1A="
         }
       },
       "is_incremental": false,
@@ -3501,7 +3501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Damage.html",
-          "hash": "ghvH/0LTusKwZMvmjCt6nmOcyXaYWcAn9Hkx3sYaxXw="
+          "hash": "l8jncq4lC2+HLOngBz+SZ9daOc/Gxo9Hz84cGaMrmx4="
         }
       },
       "is_incremental": false,
@@ -3513,7 +3513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Economy.html",
-          "hash": "h6Y5SdDig/Krcuby3WzJmFMSS2dhfEN0l8Asd7BZ/0k="
+          "hash": "iuzAQWZ3E4TVvNhr3pgqCFh/SOhvOyY0MfhvqPEcOVs="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.FinishingDamage.html",
-          "hash": "IAdY+9yTyKf9RuIlazAqYUsOpsFjzdZ91SIWYAw9ONg="
+          "hash": "fhp+J++s0qkrGFUw2IWPcoAcq5nB8hEfLFZeiDPiWrs="
         }
       },
       "is_incremental": false,
@@ -3537,7 +3537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Kill.html",
-          "hash": "jjgdZpjAwdaQv8UVXdRDVC8bwwK0sx1t8vp0a4lNqYc="
+          "hash": "iiINGLw79ZaE+tLsCSxZAmNCQmwWWUOj5ULueykLLRs="
         }
       },
       "is_incremental": false,
@@ -3549,7 +3549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Location.html",
-          "hash": "mXLG86ycGucKV/W3HEoBL2ICCf6OPzf2vTFZgBOkzRY="
+          "hash": "NFxJCdOwH0ORar0aJa6deu8bZRuEaHBG9uDdUun+ch4="
         }
       },
       "is_incremental": false,
@@ -3561,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Match.html",
-          "hash": "IBfXQq8ZYL9BeLyAzPkEWdWngDM5cOOALg5TkMoc77A="
+          "hash": "KodYGdTWPuz5j6taOjmQTE9YTWGkQnp8I1hxtATJV+k="
         }
       },
       "is_incremental": false,
@@ -3573,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.MatchInfo.html",
-          "hash": "ghE4zbRU87miqnnuqQOWR/5qgjpC9afslZC6mgSozA0="
+          "hash": "quZ9q9qMnlpe4VTClToax0JJ5wcSbvMfWamq3lFmQeo="
         }
       },
       "is_incremental": false,
@@ -3585,7 +3585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Matchlist.html",
-          "hash": "SrM5sPPYDhhHgiSuwAjllk5s++maNaU30g8fPSO5TuQ="
+          "hash": "PzHxJShXi5QHHEIfLrwduAh+rBHIOfjeyHivxaYkaKQ="
         }
       },
       "is_incremental": false,
@@ -3597,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.MatchlistEntry.html",
-          "hash": "Q8G3tZm+R1IyAv/rNvcZxXIHL2onW6CCWZwHW2u3fmI="
+          "hash": "CgJgGPbyv1C/vh+6WeZGYWXc5ZAYfzBQtxafl8mlGBo="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Player.html",
-          "hash": "u7S+At+OBw2fhDV057qbZ9pyGaTFQn+XQqAfMeASCfw="
+          "hash": "mPDYciP59N23GJT8qbxoSis5mB3PrbS+rZ30pvp3YQ4="
         }
       },
       "is_incremental": false,
@@ -3621,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerLocations.html",
-          "hash": "V01cZjUjzCMAFCARorqTgYIpHNM5YREKBZPtGWbL4wg="
+          "hash": "v0AximP79MNpWi/KLU97340NMeWhPIBiJv4V3KUn/D4="
         }
       },
       "is_incremental": false,
@@ -3633,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerRoundStats.html",
-          "hash": "h/66WRRhJ2tr/VXlzl2wG2wQJn4cVYc5Ap5KIcp0/44="
+          "hash": "Mfgtyd9S/s/VjdsL9BUNYBsng5jDUCTruWUjb6yX4ck="
         }
       },
       "is_incremental": false,
@@ -3645,7 +3645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerStats.html",
-          "hash": "mEx8L915SkZkFRMmzl+IL8Tg1y7xxuLhmB+I1jARUk0="
+          "hash": "NQWZwjFKHyZikWGVcQNj2Yzh6yWDnFXrMzzAVG3UnY0="
         }
       },
       "is_incremental": false,
@@ -3657,7 +3657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.RecentMatches.html",
-          "hash": "RMLr/I4xQ/p7iS4ydPoaagAcxlf8KxTrxK5TuRgPob0="
+          "hash": "BQRN9/InDhByB/4SjFv0WgkDnDX/Og/5oVcDyz5N1iA="
         }
       },
       "is_incremental": false,
@@ -3669,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.RoundResult.html",
-          "hash": "34jYeL2MaqnsgVqXH/og3TeGGqMcHI3r5/oQm5SueGs="
+          "hash": "p05rVhtCRuREtEMAc79GcIb3RLgEK6pAdz9MlJDhses="
         }
       },
       "is_incremental": false,
@@ -3681,7 +3681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.Team.html",
-          "hash": "LqxAh8BO4gwJNObzahm7o+vDfGcH8v7mGnm+VyfAVlI="
+          "hash": "r+iy+EwIhCUbKb89Mu7ored7UC1sAdm/Odk1xgInsbE="
         }
       },
       "is_incremental": false,
@@ -3693,7 +3693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1.html",
-          "hash": "pPTRMYLv+EhdexH7LjIHtBli5VDAVkPbKArVbI4r/cM="
+          "hash": "s+HaraBB4wgwpQ4sr2cizb1eJVUvLf2JjMU5m9ALIGc="
         }
       },
       "is_incremental": false,
@@ -3705,7 +3705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValMatchV1Endpoints.html",
-          "hash": "qHGeSmiPJ/mzrJaQGyVQ/KOpQxOjAQbvooxlxknp+MY="
+          "hash": "Fh1+iYvB7aNTOhREtxkq2zWhXz07Xs7+cMQGtpre+m0="
         }
       },
       "is_incremental": false,
@@ -3717,7 +3717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValRankedV1.Leaderboard.html",
-          "hash": "2lioHtvglUTS7tHF7al6WjCHxO0xlkk2gS1xme55nuU="
+          "hash": "xCMOhe2oO1+aIFfLxN6i9fCv7Z9z+MWgdK77PFh4BPM="
         }
       },
       "is_incremental": false,
@@ -3729,7 +3729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValRankedV1.Player.html",
-          "hash": "/lu4lDZ1nyWZ0aLYaLT8OOeaZiHA+geFZZu9F9njsiM="
+          "hash": "XK9U3lLHUryqtVg73uYdnAbp1IiZvflw+jdiQfWHOnA="
         }
       },
       "is_incremental": false,
@@ -3741,7 +3741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValRankedV1.html",
-          "hash": "j/jkOMXsTwKsl3TLVgAX6T5dWSMIG11LqpV+aVb8tio="
+          "hash": "grTKNQMBTmaR9xBZeagj/O9Lz9AHY0UsaRF11KnXFxQ="
         }
       },
       "is_incremental": false,
@@ -3753,7 +3753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValRankedV1Endpoints.html",
-          "hash": "u75RpWpb00VdJC1kalCtBSf60Oqh/99hEc9UkjP3Czc="
+          "hash": "BoJILYWurtajfEQgNoQ21TrbXnksTLJFO3laOSvkfc4="
         }
       },
       "is_incremental": false,
@@ -3765,7 +3765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1.Content.html",
-          "hash": "hfHWoEg0uGzlqt8Rd/k0Zgny6q4nXTc02cftsS4rais="
+          "hash": "rMLsfnbc+9T3Gv3qfyxYul8NC3V/OFYSksTYmnHhG1I="
         }
       },
       "is_incremental": false,
@@ -3777,7 +3777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1.PlatformData.html",
-          "hash": "Fl6uiA1fDodHGr3jp6WLaqSrcYcTkQjAN2p6eGl/WGc="
+          "hash": "+6lI6ziBSoMlWz5k7C+4SKxflRYmOHNBxKtfOckjJaA="
         }
       },
       "is_incremental": false,
@@ -3789,7 +3789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1.Status.html",
-          "hash": "DNHeg0RlR6VP8VlHZ2nB6NIg2WxEln1xB42WGbYaX60="
+          "hash": "7NQnwcCigeAJlz3rauhUp/m7KFEhayT2D0aGB1/lJx8="
         }
       },
       "is_incremental": false,
@@ -3801,7 +3801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1.Update.html",
-          "hash": "eTFRDxQhGrfx3JviYYf962tvyh1rlJ7QRVaIciKGqRA="
+          "hash": "YUFMYheuGxkGcoH0jZFIAcMs4N824mlhEM4xAXT4EHU="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1.html",
-          "hash": "Sbzunv/ZL/U/D0rkB4X/m3vDX+lp89rBdF50GkiGFG8="
+          "hash": "kaV3jdO3n9Q0kkas0WI8a30sYOqufNS8qA+TW6w4ZgU="
         }
       },
       "is_incremental": false,
@@ -3825,7 +3825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.ValStatusV1Endpoints.html",
-          "hash": "dTODBg4ks2276RWNMhfv7a9PODj/RaiIclb7q6cWwTk="
+          "hash": "SQm5TpAI/EGSMkK/hmuDpxv8KMw069oQyk4ZEY88Ivo="
         }
       },
       "is_incremental": false,
@@ -3837,7 +3837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.RiotGames.html",
-          "hash": "Hb0xfIlseF0ecrLvFQ96LQUyarmyofXd0+be/qntfSQ="
+          "hash": "fmMhTArmf2O3Bpblz4pq043H+T18OL94JhDcbyWRNE8="
         }
       },
       "is_incremental": false,
@@ -3849,7 +3849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "itQjE1Darmr/P9TgCh4Mi3qdtv8A9OowY/RIAWFqVvA="
+          "hash": "DdccCc7KUxgzQoV84YUDs/Xo2HAresuKE7vmt46xekQ="
         }
       },
       "is_incremental": false,
@@ -3861,7 +3861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5Xsaz0wPbQOdrxftB80yxCfLI996iJK69UZr5hbZ2Os="
+          "hash": "FQz1RJThegVcmNDS7MQu2+TFHGnVlCEgiGR3YDh5X60="
         }
       },
       "is_incremental": false,
@@ -3873,7 +3873,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bFa/yrr4RHhk3KpsWYxFNkRkDdX7apH/oRImjNL31+E="
+          "hash": "pzB01yEfHeUMNqJceyI00tdfFv24jfMc+x2qF2laYSo="
         }
       },
       "is_incremental": false,
