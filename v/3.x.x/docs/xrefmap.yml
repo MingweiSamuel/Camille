@@ -956,6 +956,12 @@ references:
   commentId: F:Camille.Enums.Champion.VELKOZ
   fullName: Camille.Enums.Champion.VELKOZ
   nameWithType: Champion.VELKOZ
+- uid: Camille.Enums.Champion.VEX
+  name: VEX
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VEX
+  commentId: F:Camille.Enums.Champion.VEX
+  fullName: Camille.Enums.Champion.VEX
+  nameWithType: Champion.VEX
 - uid: Camille.Enums.Champion.VI
   name: VI
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_VI
