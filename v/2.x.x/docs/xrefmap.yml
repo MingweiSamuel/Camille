@@ -2165,6 +2165,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.VEL_KOZ
   fullName: MingweiSamuel.Camille.Enums.Champion.VEL_KOZ
   nameWithType: Champion.VEL_KOZ
+- uid: MingweiSamuel.Camille.Enums.Champion.VEX
+  name: VEX
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_VEX
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.VEX
+  fullName: MingweiSamuel.Camille.Enums.Champion.VEX
+  nameWithType: Champion.VEX
 - uid: MingweiSamuel.Camille.Enums.Champion.VI
   name: VI
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_VI
@@ -3107,6 +3113,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.VelKoz
   fullName: MingweiSamuel.Camille.Enums.ChampionId.VelKoz
   nameWithType: ChampionId.VelKoz
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Vex
+  name: Vex
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Vex
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Vex
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Vex
+  nameWithType: ChampionId.Vex
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Vi
   name: Vi
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Vi
