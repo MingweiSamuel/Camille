@@ -1,6 +1,6 @@
 # Camille
 
-[![Github Actions](https://img.shields.io/github/workflow/status/MingweiSamuel/Camille/CI/release/3.x.x?label=release/3.x.x&logo=github&style=flat-square)](https://github.com/MingweiSamuel/Camille/actions?query=workflow%3ACI+branch%3Arelease%2F3.x.x) [![NuGet Stable](https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square)](https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest) [![API Reference](https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square)](http://www.mingweisamuel.com/Camille/)
+[![Github Actions](https://img.shields.io/github/workflow/status/MingweiSamuel/Camille/CI/release/3.x.x?label=release/3.x.x&logo=github&style=flat-square)](https://github.com/MingweiSamuel/Camille/actions?query=workflow%3ACI+branch%3Arelease%2F3.x.x) [![NuGet Stable](https://img.shields.io/nuget/v/Camille.RiotGames.svg?style=flat-square)](https://www.nuget.org/packages/Camille.RiotGames/) [![NuGet Pre Release](https://img.shields.io/nuget/vpre/Camille.RiotGames.svg?style=flat-square)](https://www.nuget.org/packages/Camille.RiotGames/absoluteLatest) [![API Reference](https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square)](http://www.mingweisamuel.com/Camille/)
 
 C# Library for the [Riot Games API](https://developer.riotgames.com/)
 
@@ -20,7 +20,7 @@ Data classes are automatically generated from the
 
 ## Installation
 
-[Install via NuGet](https://www.nuget.org/packages?q=Camille&prerel=true) (`MingweiSamuel.Camille`).
+[Install via NuGet](https://www.nuget.org/packages?sortby=created-desc&q=Camille&prerel=True) (`Camille.RiotGames`).
 
 ## Usage
 
