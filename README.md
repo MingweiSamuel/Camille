@@ -99,85 +99,9 @@ LugnutsK's Top 10 Champs:
   8) Taric                37,916 (6)
   9) Ekko                 35,837 (5)
  10) Poppy                31,457 (5)
- ```
-
- #### Print Summoner Ranked Match History
-
- This example takes advantage of C#'s `async`/`await` tasks to fetch 10 matches all at once.
-
- ```c#
-var summonerNameQuery = "lugnutsk";
-
-// Get summoners data (blocking).
-var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(Region.NA, summonerNameQuery);
-if (null == summonerData)
-{
-    // If a summoner is not found, the response will be null.
-    Console.WriteLine($"Summoner '{summonerNameQuery}' not found.");
-    return;
-}
-
-Console.WriteLine($"Match history for {summonerData.Name}:");
-
-// Get 10 most recent matches (blocking).
-// Queue ID 420 is RANKED_SOLO_5v5 (TODO)
-var matchlist = await riotApi.MatchV4.GetMatchlistAsync(
-    Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
-// Get match results (done asynchronously -> not blocking -> fast).
-var matchDataTasks = matchlist.Matches.Select(
-        matchMetadata => riotApi.MatchV4.GetMatchAsync(Region.NA, matchMetadata.GameId)
-    ).ToArray();
-// Wait for all task requests to complete asynchronously.
-var matchDatas = await Task.WhenAll(matchDataTasks);
-
-for (var i = 0; i < matchDatas.Count(); i++)
-{
-    var matchData = matchDatas[i];
-    // Get this summoner's participant ID info.
-    var participantIdData = matchData.ParticipantIdentities
-        .First(pi => summonerData.Id.Equals(pi.Player.SummonerId));
-    // Find the corresponding participant.
-    var participant = matchData.Participants
-        .First(p => p.ParticipantId == participantIdData.ParticipantId);
-
-    var win = participant.Stats.Win;
-    var champ = (Champion) participant.ChampionId;
-    var k = participant.Stats.Kills;
-    var d = participant.Stats.Deaths;
-    var a = participant.Stats.Assists;
-    var kda = (k + a) / (float) d;
-
-    // Print #, win/loss, champion.
-    Console.WriteLine("{0,3}) {1,-4} ({2})", i + 1, win ? "Win" : "Loss", champ.Name());
-    // Print champion, K/D/A
-    Console.WriteLine("     K/D/A {0}/{1}/{2} ({3:0.00})", k, d, a, kda);
-}
 ```
 
-Output (2019-02-19):
-```
-Match history for LugnutsK:
-  1) Win  (Zyra)
-     K/D/A 2/3/11 (4.33)
-  2) Win  (Zyra)
-     K/D/A 5/1/13 (18.00)
-  3) Loss (Zyra)
-     K/D/A 2/5/1 (0.60)
-  4) Win  (Sona)
-     K/D/A 1/13/23 (1.85)
-  5) Win  (Zyra)
-     K/D/A 3/1/5 (8.00)
-  6) Win  (Zyra)
-     K/D/A 6/3/16 (7.33)
-  7) Win  (Zyra)
-     K/D/A 2/4/7 (2.25)
-  8) Loss (Zyra)
-     K/D/A 1/10/8 (0.90)
-  9) Loss (Zyra)
-     K/D/A 0/11/5 (0.45)
- 10) Win  (Zyra)
-     K/D/A 4/5/15 (3.80)
- ```
+<!-- TODO: #### Print Summoner Ranked Match History -->
 
 ### API Reference
 
