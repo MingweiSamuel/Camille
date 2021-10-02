@@ -7,7 +7,6 @@ using System.Linq;
 namespace Camille.RiotGames.Test
 {
     [TestClass]
-    [Ignore("No access with CI API key")]
     public class ApiMatchV5Test : ApiTest
     {
         public static string[] MatchIds =

@@ -102,6 +102,7 @@ LugnutsK's Top 10 Champs:
  10) Poppy                31,457 (5)
  ```
 
+ <!--
  #### Print Summoner Ranked Match History
 
  This example takes advantage of C#'s `async`/`await` tasks to fetch 10 matches all at once.
@@ -178,7 +179,8 @@ Match history for LugnutsK:
      K/D/A 0/11/5 (0.45)
  10) Win  (Zyra)
      K/D/A 4/5/15 (3.80)
- ```
+```
+-->
 
 ### API Reference
 
