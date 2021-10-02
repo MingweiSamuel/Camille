@@ -8,7 +8,7 @@
     <title>Camille </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Camille ">
-    <meta name="generator" content="docfx 2.58.2.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -62,7 +62,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="camille">Camille</h1>
 
-<p><a href="https://github.com/MingweiSamuel/Camille/actions?query=workflow%3ACI+branch%3Arelease%2F3.x.x"><img src="https://img.shields.io/github/workflow/status/MingweiSamuel/Camille/CI/release/3.x.x?label=release/3.x.x&amp;logo=github&amp;style=flat-square" alt="Github Actions"></a> <a href="https://www.nuget.org/packages/MingweiSamuel.Camille/"><img src="https://img.shields.io/nuget/v/MingweiSamuel.Camille.svg?style=flat-square" alt="NuGet Stable"></a> <a href="https://www.nuget.org/packages/MingweiSamuel.Camille/absoluteLatest"><img src="https://img.shields.io/nuget/vpre/MingweiSamuel.Camille.svg?style=flat-square" alt="NuGet Pre Release"></a> <a href="http://www.mingweisamuel.com/Camille/"><img src="https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square" alt="API Reference"></a></p>
+<p><a href="https://github.com/MingweiSamuel/Camille/actions?query=workflow%3ACI+branch%3Arelease%2F3.x.x"><img src="https://img.shields.io/github/workflow/status/MingweiSamuel/Camille/CI/release/3.x.x?label=release/3.x.x&amp;logo=github&amp;style=flat-square" alt="Github Actions"></a> <a href="https://www.nuget.org/packages/Camille.RiotGames/"><img src="https://img.shields.io/nuget/v/Camille.RiotGames.svg?style=flat-square" alt="NuGet Stable"></a> <a href="https://www.nuget.org/packages/Camille.RiotGames/absoluteLatest"><img src="https://img.shields.io/nuget/vpre/Camille.RiotGames.svg?style=flat-square" alt="NuGet Pre Release"></a> <a href="http://www.mingweisamuel.com/Camille/"><img src="https://img.shields.io/badge/docfx-Camille-brightgreen.svg?style=flat-square" alt="API Reference"></a></p>
 <p>C# Library for the <a href="https://developer.riotgames.com/">Riot Games API</a></p>
 <p>Camille's goals are <em>speed</em>, <em>reliability</em>, and <em>maintainability</em>. Camille handles rate limits and large requests with ease.
 Data classes are automatically generated from the
@@ -78,7 +78,7 @@ Data classes are automatically generated from the
 <li>C# 8 nullable support.</li>
 </ul>
 <h2 id="installation">Installation</h2>
-<p><a href="https://www.nuget.org/packages?q=Camille&amp;prerel=true">Install via NuGet</a> (<code>MingweiSamuel.Camille</code>).</p>
+<p><a href="https://www.nuget.org/packages?sortby=created-desc&amp;q=Camille&amp;prerel=True">Install via NuGet</a> (<code>Camille.RiotGames</code>).</p>
 <h2 id="usage">Usage</h2>
 <p>All API interactions are done using a <code>RiotApi</code> instance.
 <code>RiotApi.NewInstance</code> takes either just an API key (for default settings) or a <code>IRiotApiConfig</code> instance (for custom settings).</p>
@@ -148,57 +148,63 @@ LugnutsK's Top 10 Champs:
   9) Ekko                 35,837 (5)
  10) Poppy                31,457 (5)
 </code></pre>
-<h4 id="print-summoner-ranked-match-history">Print Summoner Ranked Match History</h4>
-<p>This example takes advantage of C#'s <code>async</code>/<code>await</code> tasks to fetch 10 matches all at once.</p>
-<pre><code class="lang-c#">var summonerNameQuery = &quot;lugnutsk&quot;;
+ <!--
+ #### Print Summoner Ranked Match History
+
+ This example takes advantage of C#'s `async`/`await` tasks to fetch 10 matches all at once.
+
+ ```c#
+var summonerNameQuery = "lugnutsk";
 
 // Get summoners data (blocking).
 var summonerData = await riotApi.SummonerV4().GetBySummonerNameAsync(Region.NA, summonerNameQuery);
 if (null == summonerData)
 {
-   // If a summoner is not found, the response will be null.
-   Console.WriteLine($&quot;Summoner '{summonerNameQuery}' not found.&quot;);
-   return;
+    // If a summoner is not found, the response will be null.
+    Console.WriteLine($"Summoner '{summonerNameQuery}' not found.");
+    return;
 }
 
-Console.WriteLine($&quot;Match history for {summonerData.Name}:&quot;);
+Console.WriteLine($"Match history for {summonerData.Name}:");
 
 // Get 10 most recent matches (blocking).
 // Queue ID 420 is RANKED_SOLO_5v5 (TODO)
 var matchlist = await riotApi.MatchV4().GetMatchlistAsync(
-   Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
-// Get match results (done asynchronously -&gt; not blocking -&gt; fast).
+    Region.NA, summonerData.AccountId, queue: new[] { 420 }, endIndex: 10);
+// Get match results (done asynchronously -> not blocking -> fast).
 var matchDataTasks = matchlist.Matches.Select(
-       matchMetadata =&gt; riotApi.MatchV4().GetMatchAsync(Region.NA, matchMetadata.GameId)
-   ).ToArray();
+        matchMetadata => riotApi.MatchV4().GetMatchAsync(Region.NA, matchMetadata.GameId)
+    ).ToArray();
 // Wait for all task requests to complete asynchronously.
 var matchDatas = await Task.WhenAll(matchDataTasks);
 
-for (var i = 0; i &lt; matchDatas.Count(); i++)
+for (var i = 0; i < matchDatas.Count(); i++)
 {
-   var matchData = matchDatas[i];
-   // Get this summoner's participant ID info.
-   var participantIdData = matchData.ParticipantIdentities
-       .First(pi =&gt; summonerData.Id.Equals(pi.Player.SummonerId));
-   // Find the corresponding participant.
-   var participant = matchData.Participants
-       .First(p =&gt; p.ParticipantId == participantIdData.ParticipantId);
+    var matchData = matchDatas[i];
+    // Get this summoner's participant ID info.
+    var participantIdData = matchData.ParticipantIdentities
+        .First(pi => summonerData.Id.Equals(pi.Player.SummonerId));
+    // Find the corresponding participant.
+    var participant = matchData.Participants
+        .First(p => p.ParticipantId == participantIdData.ParticipantId);
 
-   var win = participant.Stats.Win;
-   var champ = (Champion) participant.ChampionId;
-   var k = participant.Stats.Kills;
-   var d = participant.Stats.Deaths;
-   var a = participant.Stats.Assists;
-   var kda = (k + a) / (float) d;
+    var win = participant.Stats.Win;
+    var champ = (Champion) participant.ChampionId;
+    var k = participant.Stats.Kills;
+    var d = participant.Stats.Deaths;
+    var a = participant.Stats.Assists;
+    var kda = (k + a) / (float) d;
 
-   // Print #, win/loss, champion.
-   Console.WriteLine(&quot;{0,3}) {1,-4} ({2})&quot;, i + 1, win ? &quot;Win&quot; : &quot;Loss&quot;, champ.Name());
-   // Print champion, K/D/A
-   Console.WriteLine(&quot;     K/D/A {0}/{1}/{2} ({3:0.00})&quot;, k, d, a, kda);
+    // Print #, win/loss, champion.
+    Console.WriteLine("{0,3}) {1,-4} ({2})", i + 1, win ? "Win" : "Loss", champ.Name());
+    // Print champion, K/D/A
+    Console.WriteLine("     K/D/A {0}/{1}/{2} ({3:0.00})", k, d, a, kda);
 }
-</code></pre>
-<p>Output (2019-02-19):</p>
-<pre><code>Match history for LugnutsK:
+```
+
+Output (2019-02-19):
+```
+Match history for LugnutsK:
   1) Win  (Zyra)
      K/D/A 2/3/11 (4.33)
   2) Win  (Zyra)
@@ -219,7 +225,8 @@ for (var i = 0; i &lt; matchDatas.Count(); i++)
      K/D/A 0/11/5 (0.45)
  10) Win  (Zyra)
      K/D/A 4/5/15 (3.80)
-</code></pre>
+```
+-->
 <h3 id="api-reference">API Reference</h3>
 <p><a href="http://www.mingweisamuel.com/Camille/">Automatically generated API Reference</a></p>
 <h2 id="source-code">Source Code</h2>
