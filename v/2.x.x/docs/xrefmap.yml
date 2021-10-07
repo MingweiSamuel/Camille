@@ -8227,6 +8227,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Info.GameDuration
   nameWithType: Info.GameDuration
+- uid: MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp
+  name: GameEndTimestamp
+  href: api/MingweiSamuel.Camille.MatchV5.Info.html#MingweiSamuel_Camille_MatchV5_Info_GameEndTimestamp
+  commentId: P:MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp
+  fullName: MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp
+  nameWithType: Info.GameEndTimestamp
+- uid: MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp*
+  name: GameEndTimestamp
+  href: api/MingweiSamuel.Camille.MatchV5.Info.html#MingweiSamuel_Camille_MatchV5_Info_GameEndTimestamp_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Info.GameEndTimestamp
+  nameWithType: Info.GameEndTimestamp
 - uid: MingweiSamuel.Camille.MatchV5.Info.GameId
   name: GameId
   href: api/MingweiSamuel.Camille.MatchV5.Info.html#MingweiSamuel_Camille_MatchV5_Info_GameId
