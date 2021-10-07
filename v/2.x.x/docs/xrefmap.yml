@@ -4183,6 +4183,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.TeamId.Lose
   fullName: MingweiSamuel.Camille.Enums.TeamId.Lose
   nameWithType: TeamId.Lose
+- uid: MingweiSamuel.Camille.Enums.TeamId.Other
+  name: Other
+  href: api/MingweiSamuel.Camille.Enums.TeamId.html#MingweiSamuel_Camille_Enums_TeamId_Other
+  commentId: F:MingweiSamuel.Camille.Enums.TeamId.Other
+  fullName: MingweiSamuel.Camille.Enums.TeamId.Other
+  nameWithType: TeamId.Other
 - uid: MingweiSamuel.Camille.Enums.TeamId.Red
   name: Red
   href: api/MingweiSamuel.Camille.Enums.TeamId.html#MingweiSamuel_Camille_Enums_TeamId_Red
