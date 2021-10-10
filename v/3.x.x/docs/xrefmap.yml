@@ -2241,108 +2241,6 @@ references:
   isSpec: "True"
   fullName: Camille.Enums.RouteUtils.ToRegional
   nameWithType: RouteUtils.ToRegional
-- uid: Camille.Enums.Season
-  name: Season
-  href: api/Camille.Enums.Season.html
-  commentId: T:Camille.Enums.Season
-  fullName: Camille.Enums.Season
-  nameWithType: Season
-- uid: Camille.Enums.Season.PRESEASON_2014
-  name: PRESEASON_2014
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2014
-  commentId: F:Camille.Enums.Season.PRESEASON_2014
-  fullName: Camille.Enums.Season.PRESEASON_2014
-  nameWithType: Season.PRESEASON_2014
-- uid: Camille.Enums.Season.PRESEASON_2015
-  name: PRESEASON_2015
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2015
-  commentId: F:Camille.Enums.Season.PRESEASON_2015
-  fullName: Camille.Enums.Season.PRESEASON_2015
-  nameWithType: Season.PRESEASON_2015
-- uid: Camille.Enums.Season.PRESEASON_2016
-  name: PRESEASON_2016
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2016
-  commentId: F:Camille.Enums.Season.PRESEASON_2016
-  fullName: Camille.Enums.Season.PRESEASON_2016
-  nameWithType: Season.PRESEASON_2016
-- uid: Camille.Enums.Season.PRESEASON_2017
-  name: PRESEASON_2017
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2017
-  commentId: F:Camille.Enums.Season.PRESEASON_2017
-  fullName: Camille.Enums.Season.PRESEASON_2017
-  nameWithType: Season.PRESEASON_2017
-- uid: Camille.Enums.Season.PRESEASON_2018
-  name: PRESEASON_2018
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2018
-  commentId: F:Camille.Enums.Season.PRESEASON_2018
-  fullName: Camille.Enums.Season.PRESEASON_2018
-  nameWithType: Season.PRESEASON_2018
-- uid: Camille.Enums.Season.PRESEASON_2019
-  name: PRESEASON_2019
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2019
-  commentId: F:Camille.Enums.Season.PRESEASON_2019
-  fullName: Camille.Enums.Season.PRESEASON_2019
-  nameWithType: Season.PRESEASON_2019
-- uid: Camille.Enums.Season.PRESEASON_2020
-  name: PRESEASON_2020
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_2020
-  commentId: F:Camille.Enums.Season.PRESEASON_2020
-  fullName: Camille.Enums.Season.PRESEASON_2020
-  nameWithType: Season.PRESEASON_2020
-- uid: Camille.Enums.Season.PRESEASON_3
-  name: PRESEASON_3
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_PRESEASON_3
-  commentId: F:Camille.Enums.Season.PRESEASON_3
-  fullName: Camille.Enums.Season.PRESEASON_3
-  nameWithType: Season.PRESEASON_3
-- uid: Camille.Enums.Season.SEASON_2014
-  name: SEASON_2014
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2014
-  commentId: F:Camille.Enums.Season.SEASON_2014
-  fullName: Camille.Enums.Season.SEASON_2014
-  nameWithType: Season.SEASON_2014
-- uid: Camille.Enums.Season.SEASON_2015
-  name: SEASON_2015
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2015
-  commentId: F:Camille.Enums.Season.SEASON_2015
-  fullName: Camille.Enums.Season.SEASON_2015
-  nameWithType: Season.SEASON_2015
-- uid: Camille.Enums.Season.SEASON_2016
-  name: SEASON_2016
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2016
-  commentId: F:Camille.Enums.Season.SEASON_2016
-  fullName: Camille.Enums.Season.SEASON_2016
-  nameWithType: Season.SEASON_2016
-- uid: Camille.Enums.Season.SEASON_2017
-  name: SEASON_2017
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2017
-  commentId: F:Camille.Enums.Season.SEASON_2017
-  fullName: Camille.Enums.Season.SEASON_2017
-  nameWithType: Season.SEASON_2017
-- uid: Camille.Enums.Season.SEASON_2018
-  name: SEASON_2018
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2018
-  commentId: F:Camille.Enums.Season.SEASON_2018
-  fullName: Camille.Enums.Season.SEASON_2018
-  nameWithType: Season.SEASON_2018
-- uid: Camille.Enums.Season.SEASON_2019
-  name: SEASON_2019
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2019
-  commentId: F:Camille.Enums.Season.SEASON_2019
-  fullName: Camille.Enums.Season.SEASON_2019
-  nameWithType: Season.SEASON_2019
-- uid: Camille.Enums.Season.SEASON_2020
-  name: SEASON_2020
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_2020
-  commentId: F:Camille.Enums.Season.SEASON_2020
-  fullName: Camille.Enums.Season.SEASON_2020
-  nameWithType: Season.SEASON_2020
-- uid: Camille.Enums.Season.SEASON_3
-  name: SEASON_3
-  href: api/Camille.Enums.Season.html#Camille_Enums_Season_SEASON_3
-  commentId: F:Camille.Enums.Season.SEASON_3
-  fullName: Camille.Enums.Season.SEASON_3
-  nameWithType: Season.SEASON_3
 - uid: Camille.Enums.Tier
   name: Tier
   href: api/Camille.Enums.Tier.html
@@ -2482,6 +2380,435 @@ references:
   commentId: F:Camille.Lcu.Endpoints.HttpMethodPatch
   fullName: Camille.Lcu.Endpoints.HttpMethodPatch
   nameWithType: Endpoints.HttpMethodPatch
+- uid: Camille.Lcu.Global
+  name: Camille.Lcu.Global
+  href: api/Camille.Lcu.Global.html
+  commentId: N:Camille.Lcu.Global
+  fullName: Camille.Lcu.Global
+  nameWithType: Camille.Lcu.Global
+- uid: Camille.Lcu.Global.RegionLocale
+  name: RegionLocale
+  href: api/Camille.Lcu.Global.RegionLocale.html
+  commentId: T:Camille.Lcu.Global.RegionLocale
+  fullName: Camille.Lcu.Global.RegionLocale
+  nameWithType: RegionLocale
+- uid: Camille.Lcu.Global.RegionLocale.#ctor
+  name: RegionLocale()
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale__ctor
+  commentId: M:Camille.Lcu.Global.RegionLocale.#ctor
+  fullName: Camille.Lcu.Global.RegionLocale.RegionLocale()
+  nameWithType: RegionLocale.RegionLocale()
+- uid: Camille.Lcu.Global.RegionLocale.#ctor*
+  name: RegionLocale
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale__ctor_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.#ctor
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.RegionLocale
+  nameWithType: RegionLocale.RegionLocale
+- uid: Camille.Lcu.Global.RegionLocale._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale__AdditionalProperties
+  commentId: P:Camille.Lcu.Global.RegionLocale._AdditionalProperties
+  fullName: Camille.Lcu.Global.RegionLocale._AdditionalProperties
+  nameWithType: RegionLocale._AdditionalProperties
+- uid: Camille.Lcu.Global.RegionLocale._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale__AdditionalProperties_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale._AdditionalProperties
+  nameWithType: RegionLocale._AdditionalProperties
+- uid: Camille.Lcu.Global.RegionLocale.Locale
+  name: Locale
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_Locale
+  commentId: P:Camille.Lcu.Global.RegionLocale.Locale
+  fullName: Camille.Lcu.Global.RegionLocale.Locale
+  nameWithType: RegionLocale.Locale
+- uid: Camille.Lcu.Global.RegionLocale.Locale*
+  name: Locale
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_Locale_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.Locale
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.Locale
+  nameWithType: RegionLocale.Locale
+- uid: Camille.Lcu.Global.RegionLocale.Region
+  name: Region
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_Region
+  commentId: P:Camille.Lcu.Global.RegionLocale.Region
+  fullName: Camille.Lcu.Global.RegionLocale.Region
+  nameWithType: RegionLocale.Region
+- uid: Camille.Lcu.Global.RegionLocale.Region*
+  name: Region
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_Region_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.Region
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.Region
+  nameWithType: RegionLocale.Region
+- uid: Camille.Lcu.Global.RegionLocale.ToString
+  name: ToString()
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_ToString
+  commentId: M:Camille.Lcu.Global.RegionLocale.ToString
+  fullName: Camille.Lcu.Global.RegionLocale.ToString()
+  nameWithType: RegionLocale.ToString()
+- uid: Camille.Lcu.Global.RegionLocale.ToString*
+  name: ToString
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_ToString_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.ToString
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.ToString
+  nameWithType: RegionLocale.ToString
+- uid: Camille.Lcu.Global.RegionLocale.WebLanguage
+  name: WebLanguage
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_WebLanguage
+  commentId: P:Camille.Lcu.Global.RegionLocale.WebLanguage
+  fullName: Camille.Lcu.Global.RegionLocale.WebLanguage
+  nameWithType: RegionLocale.WebLanguage
+- uid: Camille.Lcu.Global.RegionLocale.WebLanguage*
+  name: WebLanguage
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_WebLanguage_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.WebLanguage
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.WebLanguage
+  nameWithType: RegionLocale.WebLanguage
+- uid: Camille.Lcu.Global.RegionLocale.WebRegion
+  name: WebRegion
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_WebRegion
+  commentId: P:Camille.Lcu.Global.RegionLocale.WebRegion
+  fullName: Camille.Lcu.Global.RegionLocale.WebRegion
+  nameWithType: RegionLocale.WebRegion
+- uid: Camille.Lcu.Global.RegionLocale.WebRegion*
+  name: WebRegion
+  href: api/Camille.Lcu.Global.RegionLocale.html#Camille_Lcu_Global_RegionLocale_WebRegion_
+  commentId: Overload:Camille.Lcu.Global.RegionLocale.WebRegion
+  isSpec: "True"
+  fullName: Camille.Lcu.Global.RegionLocale.WebRegion
+  nameWithType: RegionLocale.WebRegion
+- uid: Camille.Lcu.GlobalEndpoints
+  name: GlobalEndpoints
+  href: api/Camille.Lcu.GlobalEndpoints.html
+  commentId: T:Camille.Lcu.GlobalEndpoints
+  fullName: Camille.Lcu.GlobalEndpoints
+  nameWithType: GlobalEndpoints
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale(System.Nullable{System.Threading.CancellationToken})
+  name: GetRiotclientRegionLocale(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientRegionLocale_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRiotclientRegionLocale(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.GetRiotclientRegionLocale(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.GetRiotclientRegionLocale(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale*
+  name: GetRiotclientRegionLocale
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientRegionLocale_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocale
+  nameWithType: GlobalEndpoints.GetRiotclientRegionLocale
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync(System.Nullable{System.Threading.CancellationToken})
+  name: GetRiotclientRegionLocaleAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientRegionLocaleAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRiotclientRegionLocaleAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.GetRiotclientRegionLocaleAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.GetRiotclientRegionLocaleAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync*
+  name: GetRiotclientRegionLocaleAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientRegionLocaleAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientRegionLocaleAsync
+  nameWithType: GlobalEndpoints.GetRiotclientRegionLocaleAsync
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientUxState(System.Nullable{System.Threading.CancellationToken})
+  name: GetRiotclientUxState(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientUxState_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.GetRiotclientUxState(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRiotclientUxState(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientUxState(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.GetRiotclientUxState(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.GetRiotclientUxState(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.GetRiotclientUxState(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientUxState*
+  name: GetRiotclientUxState
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientUxState_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.GetRiotclientUxState
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientUxState
+  nameWithType: GlobalEndpoints.GetRiotclientUxState
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync(System.Nullable{System.Threading.CancellationToken})
+  name: GetRiotclientUxStateAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientUxStateAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetRiotclientUxStateAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.GetRiotclientUxStateAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.GetRiotclientUxStateAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync*
+  name: GetRiotclientUxStateAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_GetRiotclientUxStateAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.GetRiotclientUxStateAsync
+  nameWithType: GlobalEndpoints.GetRiotclientUxStateAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientKillAndRestartUx(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillAndRestartUx_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientKillAndRestartUx(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientKillAndRestartUx(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientKillAndRestartUx(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx*
+  name: PostRiotclientKillAndRestartUx
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillAndRestartUx_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUx
+  nameWithType: GlobalEndpoints.PostRiotclientKillAndRestartUx
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientKillAndRestartUxAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillAndRestartUxAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientKillAndRestartUxAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientKillAndRestartUxAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync*
+  name: PostRiotclientKillAndRestartUxAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillAndRestartUxAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillAndRestartUxAsync
+  nameWithType: GlobalEndpoints.PostRiotclientKillAndRestartUxAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientKillUx(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillUx_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientKillUx(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientKillUx(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientKillUx(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx*
+  name: PostRiotclientKillUx
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillUx_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUx
+  nameWithType: GlobalEndpoints.PostRiotclientKillUx
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientKillUxAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillUxAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientKillUxAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientKillUxAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientKillUxAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync*
+  name: PostRiotclientKillUxAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientKillUxAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientKillUxAsync
+  nameWithType: GlobalEndpoints.PostRiotclientKillUxAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientLaunchUx(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientLaunchUx_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientLaunchUx(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientLaunchUx(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientLaunchUx(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx*
+  name: PostRiotclientLaunchUx
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientLaunchUx_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUx
+  nameWithType: GlobalEndpoints.PostRiotclientLaunchUx
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientLaunchUxAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientLaunchUxAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientLaunchUxAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientLaunchUxAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientLaunchUxAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync*
+  name: PostRiotclientLaunchUxAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientLaunchUxAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientLaunchUxAsync
+  nameWithType: GlobalEndpoints.PostRiotclientLaunchUxAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUnload(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUnload(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUnload_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUnload(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUnload(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUnload(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUnload(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUnload(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUnload(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUnload*
+  name: PostRiotclientUnload
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUnload_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUnload
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUnload
+  nameWithType: GlobalEndpoints.PostRiotclientUnload
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUnloadAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUnloadAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUnloadAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUnloadAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUnloadAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync*
+  name: PostRiotclientUnloadAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUnloadAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUnloadAsync
+  nameWithType: GlobalEndpoints.PostRiotclientUnloadAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxFlash(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxFlash_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxFlash(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxFlash(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxFlash(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash*
+  name: PostRiotclientUxFlash
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxFlash_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlash
+  nameWithType: GlobalEndpoints.PostRiotclientUxFlash
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxFlashAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxFlashAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxFlashAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxFlashAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxFlashAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync*
+  name: PostRiotclientUxFlashAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxFlashAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxFlashAsync
+  nameWithType: GlobalEndpoints.PostRiotclientUxFlashAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxMinimize(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxMinimize_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxMinimize(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxMinimize(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxMinimize(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize*
+  name: PostRiotclientUxMinimize
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxMinimize_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimize
+  nameWithType: GlobalEndpoints.PostRiotclientUxMinimize
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxMinimizeAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxMinimizeAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxMinimizeAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxMinimizeAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxMinimizeAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync*
+  name: PostRiotclientUxMinimizeAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxMinimizeAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxMinimizeAsync
+  nameWithType: GlobalEndpoints.PostRiotclientUxMinimizeAsync
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxShow(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxShow_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxShow(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxShow(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxShow(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow*
+  name: PostRiotclientUxShow
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxShow_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShow
+  nameWithType: GlobalEndpoints.PostRiotclientUxShow
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync(System.Nullable{System.Threading.CancellationToken})
+  name: PostRiotclientUxShowAsync(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxShowAsync_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostRiotclientUxShowAsync(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PostRiotclientUxShowAsync(Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PostRiotclientUxShowAsync(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync*
+  name: PostRiotclientUxShowAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PostRiotclientUxShowAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PostRiotclientUxShowAsync
+  nameWithType: GlobalEndpoints.PostRiotclientUxShowAsync
+- uid: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale(Camille.Lcu.Global.RegionLocale,System.Nullable{System.Threading.CancellationToken})
+  name: PutRiotclientRegionLocale(RegionLocale, Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PutRiotclientRegionLocale_Camille_Lcu_Global_RegionLocale_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale(Camille.Lcu.Global.RegionLocale,System.Nullable{System.Threading.CancellationToken})
+  name.vb: PutRiotclientRegionLocale(RegionLocale, Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale(Camille.Lcu.Global.RegionLocale, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale(Camille.Lcu.Global.RegionLocale, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PutRiotclientRegionLocale(RegionLocale, Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PutRiotclientRegionLocale(RegionLocale, Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale*
+  name: PutRiotclientRegionLocale
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PutRiotclientRegionLocale_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocale
+  nameWithType: GlobalEndpoints.PutRiotclientRegionLocale
+- uid: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync(Camille.Lcu.Global.RegionLocale,System.Nullable{System.Threading.CancellationToken})
+  name: PutRiotclientRegionLocaleAsync(RegionLocale, Nullable<CancellationToken>)
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PutRiotclientRegionLocaleAsync_Camille_Lcu_Global_RegionLocale_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync(Camille.Lcu.Global.RegionLocale,System.Nullable{System.Threading.CancellationToken})
+  name.vb: PutRiotclientRegionLocaleAsync(RegionLocale, Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync(Camille.Lcu.Global.RegionLocale, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync(Camille.Lcu.Global.RegionLocale, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: GlobalEndpoints.PutRiotclientRegionLocaleAsync(RegionLocale, Nullable<CancellationToken>)
+  nameWithType.vb: GlobalEndpoints.PutRiotclientRegionLocaleAsync(RegionLocale, Nullable(Of CancellationToken))
+- uid: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync*
+  name: PutRiotclientRegionLocaleAsync
+  href: api/Camille.Lcu.GlobalEndpoints.html#Camille_Lcu_GlobalEndpoints_PutRiotclientRegionLocaleAsync_
+  commentId: Overload:Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync
+  isSpec: "True"
+  fullName: Camille.Lcu.GlobalEndpoints.PutRiotclientRegionLocaleAsync
+  nameWithType: GlobalEndpoints.PutRiotclientRegionLocaleAsync
 - uid: Camille.Lcu.ILcuApi
   name: ILcuApi
   href: api/Camille.Lcu.ILcuApi.html
@@ -2618,6 +2945,19 @@ references:
   commentId: T:Camille.Lcu.LcuExtensions
   fullName: Camille.Lcu.LcuExtensions
   nameWithType: LcuExtensions
+- uid: Camille.Lcu.LcuExtensions.Global(Camille.Lcu.ILcuApi)
+  name: Global(ILcuApi)
+  href: api/Camille.Lcu.LcuExtensions.html#Camille_Lcu_LcuExtensions_Global_Camille_Lcu_ILcuApi_
+  commentId: M:Camille.Lcu.LcuExtensions.Global(Camille.Lcu.ILcuApi)
+  fullName: Camille.Lcu.LcuExtensions.Global(Camille.Lcu.ILcuApi)
+  nameWithType: LcuExtensions.Global(ILcuApi)
+- uid: Camille.Lcu.LcuExtensions.Global*
+  name: Global
+  href: api/Camille.Lcu.LcuExtensions.html#Camille_Lcu_LcuExtensions_Global_
+  commentId: Overload:Camille.Lcu.LcuExtensions.Global
+  isSpec: "True"
+  fullName: Camille.Lcu.LcuExtensions.Global
+  nameWithType: LcuExtensions.Global
 - uid: Camille.Lcu.LcuExtensions.LolChampSelect(Camille.Lcu.ILcuApi)
   name: LolChampSelect(ILcuApi)
   href: api/Camille.Lcu.LcuExtensions.html#Camille_Lcu_LcuExtensions_LolChampSelect_Camille_Lcu_ILcuApi_
@@ -2670,19 +3010,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LcuExtensions.LolSummoner
   nameWithType: LcuExtensions.LolSummoner
-- uid: Camille.Lcu.LcuExtensions.RiotClient(Camille.Lcu.ILcuApi)
-  name: RiotClient(ILcuApi)
-  href: api/Camille.Lcu.LcuExtensions.html#Camille_Lcu_LcuExtensions_RiotClient_Camille_Lcu_ILcuApi_
-  commentId: M:Camille.Lcu.LcuExtensions.RiotClient(Camille.Lcu.ILcuApi)
-  fullName: Camille.Lcu.LcuExtensions.RiotClient(Camille.Lcu.ILcuApi)
-  nameWithType: LcuExtensions.RiotClient(ILcuApi)
-- uid: Camille.Lcu.LcuExtensions.RiotClient*
-  name: RiotClient
-  href: api/Camille.Lcu.LcuExtensions.html#Camille_Lcu_LcuExtensions_RiotClient_
-  commentId: Overload:Camille.Lcu.LcuExtensions.RiotClient
-  isSpec: "True"
-  fullName: Camille.Lcu.LcuExtensions.RiotClient
-  nameWithType: LcuExtensions.RiotClient
 - uid: Camille.Lcu.LcuRequester
   name: LcuRequester
   href: api/Camille.Lcu.LcuRequester.html
@@ -6776,15 +7103,15 @@ references:
   commentId: T:Camille.Lcu.LolRankedEndpoints
   fullName: Camille.Lcu.LolRankedEndpoints
   nameWithType: LolRankedEndpoints
-- uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType,Tier,System.Nullable{System.Threading.CancellationToken})
-  name: GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1_QueueType_Tier_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType,Tier,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, Nullable<CancellationToken>)
-  nameWithType.vb: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(QueueType, Tier, Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Camille.Enums.QueueType,Camille.Enums.Tier,System.Nullable{System.Threading.CancellationToken})
+  name: GetApexLeaguesByQueueTypeByTierV1(Enums.QueueType, Enums.Tier, Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1_Camille_Enums_QueueType_Camille_Enums_Tier_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Camille.Enums.QueueType,Camille.Enums.Tier,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetApexLeaguesByQueueTypeByTierV1(Enums.QueueType, Enums.Tier, Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Camille.Enums.QueueType, Camille.Enums.Tier, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Camille.Enums.QueueType, Camille.Enums.Tier, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Enums.QueueType, Enums.Tier, Nullable<CancellationToken>)
+  nameWithType.vb: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1(Enums.QueueType, Enums.Tier, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1*
   name: GetApexLeaguesByQueueTypeByTierV1
   href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1_
@@ -6792,15 +7119,15 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1
   nameWithType: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1
-- uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType,Tier,System.Nullable{System.Threading.CancellationToken})
-  name: GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1Async_QueueType_Tier_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType,Tier,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, Nullable<CancellationToken>)
-  nameWithType.vb: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(QueueType, Tier, Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Camille.Enums.QueueType,Camille.Enums.Tier,System.Nullable{System.Threading.CancellationToken})
+  name: GetApexLeaguesByQueueTypeByTierV1Async(Enums.QueueType, Enums.Tier, Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1Async_Camille_Enums_QueueType_Camille_Enums_Tier_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Camille.Enums.QueueType,Camille.Enums.Tier,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetApexLeaguesByQueueTypeByTierV1Async(Enums.QueueType, Enums.Tier, Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Camille.Enums.QueueType, Camille.Enums.Tier, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Camille.Enums.QueueType, Camille.Enums.Tier, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Enums.QueueType, Enums.Tier, Nullable<CancellationToken>)
+  nameWithType.vb: LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async(Enums.QueueType, Enums.Tier, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LolRankedEndpoints.GetApexLeaguesByQueueTypeByTierV1Async*
   name: GetApexLeaguesByQueueTypeByTierV1Async
   href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetApexLeaguesByQueueTypeByTierV1Async_
@@ -6936,15 +7263,15 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRankedEndpoints.GetRankedStatsV1Async
   nameWithType: LolRankedEndpoints.GetRankedStatsV1Async
-- uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[],QueueType[],System.Nullable{System.Threading.CancellationToken})
-  name: GetTiersV2(Int64[], QueueType[], Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2_System_Int64___QueueType___System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[],QueueType[],System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTiersV2(Int64(), QueueType(), Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[], QueueType[], System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64(), QueueType(), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolRankedEndpoints.GetTiersV2(Int64[], QueueType[], Nullable<CancellationToken>)
-  nameWithType.vb: LolRankedEndpoints.GetTiersV2(Int64(), QueueType(), Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[],Camille.Enums.QueueType[],System.Nullable{System.Threading.CancellationToken})
+  name: GetTiersV2(Int64[], Enums.QueueType[], Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2_System_Int64___Camille_Enums_QueueType___System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[],Camille.Enums.QueueType[],System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTiersV2(Int64(), Enums.QueueType(), Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64[], Camille.Enums.QueueType[], System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetTiersV2(System.Int64(), Camille.Enums.QueueType(), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolRankedEndpoints.GetTiersV2(Int64[], Enums.QueueType[], Nullable<CancellationToken>)
+  nameWithType.vb: LolRankedEndpoints.GetTiersV2(Int64(), Enums.QueueType(), Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2*
   name: GetTiersV2
   href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2_
@@ -6952,15 +7279,15 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolRankedEndpoints.GetTiersV2
   nameWithType: LolRankedEndpoints.GetTiersV2
-- uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[],QueueType[],System.Nullable{System.Threading.CancellationToken})
-  name: GetTiersV2Async(Int64[], QueueType[], Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2Async_System_Int64___QueueType___System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[],QueueType[],System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTiersV2Async(Int64(), QueueType(), Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[], QueueType[], System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64(), QueueType(), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolRankedEndpoints.GetTiersV2Async(Int64[], QueueType[], Nullable<CancellationToken>)
-  nameWithType.vb: LolRankedEndpoints.GetTiersV2Async(Int64(), QueueType(), Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[],Camille.Enums.QueueType[],System.Nullable{System.Threading.CancellationToken})
+  name: GetTiersV2Async(Int64[], Enums.QueueType[], Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2Async_System_Int64___Camille_Enums_QueueType___System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[],Camille.Enums.QueueType[],System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTiersV2Async(Int64(), Enums.QueueType(), Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64[], Camille.Enums.QueueType[], System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async(System.Int64(), Camille.Enums.QueueType(), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolRankedEndpoints.GetTiersV2Async(Int64[], Enums.QueueType[], Nullable<CancellationToken>)
+  nameWithType.vb: LolRankedEndpoints.GetTiersV2Async(Int64(), Enums.QueueType(), Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LolRankedEndpoints.GetTiersV2Async*
   name: GetTiersV2Async
   href: api/Camille.Lcu.LolRankedEndpoints.html#Camille_Lcu_LolRankedEndpoints_GetTiersV2Async_
@@ -7966,435 +8293,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummonerEndpoints.PutCurrentSummonerIconV1Async
   nameWithType: LolSummonerEndpoints.PutCurrentSummonerIconV1Async
-- uid: Camille.Lcu.RiotClient
-  name: Camille.Lcu.RiotClient
-  href: api/Camille.Lcu.RiotClient.html
-  commentId: N:Camille.Lcu.RiotClient
-  fullName: Camille.Lcu.RiotClient
-  nameWithType: Camille.Lcu.RiotClient
-- uid: Camille.Lcu.RiotClient.RegionLocale
-  name: RegionLocale
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html
-  commentId: T:Camille.Lcu.RiotClient.RegionLocale
-  fullName: Camille.Lcu.RiotClient.RegionLocale
-  nameWithType: RegionLocale
-- uid: Camille.Lcu.RiotClient.RegionLocale.#ctor
-  name: RegionLocale()
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale__ctor
-  commentId: M:Camille.Lcu.RiotClient.RegionLocale.#ctor
-  fullName: Camille.Lcu.RiotClient.RegionLocale.RegionLocale()
-  nameWithType: RegionLocale.RegionLocale()
-- uid: Camille.Lcu.RiotClient.RegionLocale.#ctor*
-  name: RegionLocale
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale__ctor_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.RegionLocale
-  nameWithType: RegionLocale.RegionLocale
-- uid: Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale__AdditionalProperties
-  commentId: P:Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties
-  fullName: Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties
-  nameWithType: RegionLocale._AdditionalProperties
-- uid: Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale._AdditionalProperties
-  nameWithType: RegionLocale._AdditionalProperties
-- uid: Camille.Lcu.RiotClient.RegionLocale.Locale
-  name: Locale
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_Locale
-  commentId: P:Camille.Lcu.RiotClient.RegionLocale.Locale
-  fullName: Camille.Lcu.RiotClient.RegionLocale.Locale
-  nameWithType: RegionLocale.Locale
-- uid: Camille.Lcu.RiotClient.RegionLocale.Locale*
-  name: Locale
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_Locale_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.Locale
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.Locale
-  nameWithType: RegionLocale.Locale
-- uid: Camille.Lcu.RiotClient.RegionLocale.Region
-  name: Region
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_Region
-  commentId: P:Camille.Lcu.RiotClient.RegionLocale.Region
-  fullName: Camille.Lcu.RiotClient.RegionLocale.Region
-  nameWithType: RegionLocale.Region
-- uid: Camille.Lcu.RiotClient.RegionLocale.Region*
-  name: Region
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_Region_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.Region
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.Region
-  nameWithType: RegionLocale.Region
-- uid: Camille.Lcu.RiotClient.RegionLocale.ToString
-  name: ToString()
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_ToString
-  commentId: M:Camille.Lcu.RiotClient.RegionLocale.ToString
-  fullName: Camille.Lcu.RiotClient.RegionLocale.ToString()
-  nameWithType: RegionLocale.ToString()
-- uid: Camille.Lcu.RiotClient.RegionLocale.ToString*
-  name: ToString
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_ToString_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.ToString
-  nameWithType: RegionLocale.ToString
-- uid: Camille.Lcu.RiotClient.RegionLocale.WebLanguage
-  name: WebLanguage
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_WebLanguage
-  commentId: P:Camille.Lcu.RiotClient.RegionLocale.WebLanguage
-  fullName: Camille.Lcu.RiotClient.RegionLocale.WebLanguage
-  nameWithType: RegionLocale.WebLanguage
-- uid: Camille.Lcu.RiotClient.RegionLocale.WebLanguage*
-  name: WebLanguage
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_WebLanguage_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.WebLanguage
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.WebLanguage
-  nameWithType: RegionLocale.WebLanguage
-- uid: Camille.Lcu.RiotClient.RegionLocale.WebRegion
-  name: WebRegion
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_WebRegion
-  commentId: P:Camille.Lcu.RiotClient.RegionLocale.WebRegion
-  fullName: Camille.Lcu.RiotClient.RegionLocale.WebRegion
-  nameWithType: RegionLocale.WebRegion
-- uid: Camille.Lcu.RiotClient.RegionLocale.WebRegion*
-  name: WebRegion
-  href: api/Camille.Lcu.RiotClient.RegionLocale.html#Camille_Lcu_RiotClient_RegionLocale_WebRegion_
-  commentId: Overload:Camille.Lcu.RiotClient.RegionLocale.WebRegion
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClient.RegionLocale.WebRegion
-  nameWithType: RegionLocale.WebRegion
-- uid: Camille.Lcu.RiotClientEndpoints
-  name: RiotClientEndpoints
-  href: api/Camille.Lcu.RiotClientEndpoints.html
-  commentId: T:Camille.Lcu.RiotClientEndpoints
-  fullName: Camille.Lcu.RiotClientEndpoints
-  nameWithType: RiotClientEndpoints
-- uid: Camille.Lcu.RiotClientEndpoints.GetRegionLocale(System.Nullable{System.Threading.CancellationToken})
-  name: GetRegionLocale(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetRegionLocale_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.GetRegionLocale(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetRegionLocale(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.GetRegionLocale(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.GetRegionLocale(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.GetRegionLocale(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.GetRegionLocale(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.GetRegionLocale*
-  name: GetRegionLocale
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetRegionLocale_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.GetRegionLocale
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.GetRegionLocale
-  nameWithType: RiotClientEndpoints.GetRegionLocale
-- uid: Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync(System.Nullable{System.Threading.CancellationToken})
-  name: GetRegionLocaleAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetRegionLocaleAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetRegionLocaleAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.GetRegionLocaleAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.GetRegionLocaleAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync*
-  name: GetRegionLocaleAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetRegionLocaleAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.GetRegionLocaleAsync
-  nameWithType: RiotClientEndpoints.GetRegionLocaleAsync
-- uid: Camille.Lcu.RiotClientEndpoints.GetUxState(System.Nullable{System.Threading.CancellationToken})
-  name: GetUxState(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetUxState_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.GetUxState(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetUxState(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.GetUxState(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.GetUxState(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.GetUxState(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.GetUxState(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.GetUxState*
-  name: GetUxState
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetUxState_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.GetUxState
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.GetUxState
-  nameWithType: RiotClientEndpoints.GetUxState
-- uid: Camille.Lcu.RiotClientEndpoints.GetUxStateAsync(System.Nullable{System.Threading.CancellationToken})
-  name: GetUxStateAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetUxStateAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.GetUxStateAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetUxStateAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.GetUxStateAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.GetUxStateAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.GetUxStateAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.GetUxStateAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.GetUxStateAsync*
-  name: GetUxStateAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_GetUxStateAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.GetUxStateAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.GetUxStateAsync
-  nameWithType: RiotClientEndpoints.GetUxStateAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx(System.Nullable{System.Threading.CancellationToken})
-  name: PostKillAndRestartUx(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillAndRestartUx_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostKillAndRestartUx(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostKillAndRestartUx(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostKillAndRestartUx(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx*
-  name: PostKillAndRestartUx
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillAndRestartUx_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUx
-  nameWithType: RiotClientEndpoints.PostKillAndRestartUx
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostKillAndRestartUxAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillAndRestartUxAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostKillAndRestartUxAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostKillAndRestartUxAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostKillAndRestartUxAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync*
-  name: PostKillAndRestartUxAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillAndRestartUxAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillAndRestartUxAsync
-  nameWithType: RiotClientEndpoints.PostKillAndRestartUxAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillUx(System.Nullable{System.Threading.CancellationToken})
-  name: PostKillUx(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillUx_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostKillUx(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostKillUx(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillUx(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostKillUx(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostKillUx(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostKillUx(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillUx*
-  name: PostKillUx
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillUx_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostKillUx
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillUx
-  nameWithType: RiotClientEndpoints.PostKillUx
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostKillUxAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillUxAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostKillUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostKillUxAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillUxAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostKillUxAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostKillUxAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostKillUxAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostKillUxAsync*
-  name: PostKillUxAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostKillUxAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostKillUxAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostKillUxAsync
-  nameWithType: RiotClientEndpoints.PostKillUxAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostLaunchUx(System.Nullable{System.Threading.CancellationToken})
-  name: PostLaunchUx(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostLaunchUx_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostLaunchUx(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostLaunchUx(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostLaunchUx(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostLaunchUx(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostLaunchUx(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostLaunchUx(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostLaunchUx*
-  name: PostLaunchUx
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostLaunchUx_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostLaunchUx
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostLaunchUx
-  nameWithType: RiotClientEndpoints.PostLaunchUx
-- uid: Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostLaunchUxAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostLaunchUxAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostLaunchUxAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostLaunchUxAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostLaunchUxAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync*
-  name: PostLaunchUxAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostLaunchUxAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostLaunchUxAsync
-  nameWithType: RiotClientEndpoints.PostLaunchUxAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostUnload(System.Nullable{System.Threading.CancellationToken})
-  name: PostUnload(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUnload_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUnload(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUnload(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUnload(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUnload(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUnload(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUnload(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUnload*
-  name: PostUnload
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUnload_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUnload
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUnload
-  nameWithType: RiotClientEndpoints.PostUnload
-- uid: Camille.Lcu.RiotClientEndpoints.PostUnloadAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostUnloadAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUnloadAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUnloadAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUnloadAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUnloadAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUnloadAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUnloadAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUnloadAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUnloadAsync*
-  name: PostUnloadAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUnloadAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUnloadAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUnloadAsync
-  nameWithType: RiotClientEndpoints.PostUnloadAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxFlash(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxFlash(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxFlash_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxFlash(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxFlash(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxFlash(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxFlash(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxFlash(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxFlash(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxFlash*
-  name: PostUxFlash
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxFlash_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxFlash
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxFlash
-  nameWithType: RiotClientEndpoints.PostUxFlash
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxFlashAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxFlashAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxFlashAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxFlashAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxFlashAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync*
-  name: PostUxFlashAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxFlashAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxFlashAsync
-  nameWithType: RiotClientEndpoints.PostUxFlashAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxMinimize(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxMinimize(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxMinimize_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxMinimize(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxMinimize(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxMinimize(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxMinimize(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxMinimize(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxMinimize(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxMinimize*
-  name: PostUxMinimize
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxMinimize_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxMinimize
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxMinimize
-  nameWithType: RiotClientEndpoints.PostUxMinimize
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxMinimizeAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxMinimizeAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxMinimizeAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxMinimizeAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxMinimizeAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync*
-  name: PostUxMinimizeAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxMinimizeAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxMinimizeAsync
-  nameWithType: RiotClientEndpoints.PostUxMinimizeAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxShow(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxShow(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxShow_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxShow(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxShow(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxShow(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxShow(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxShow(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxShow(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxShow*
-  name: PostUxShow
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxShow_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxShow
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxShow
-  nameWithType: RiotClientEndpoints.PostUxShow
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxShowAsync(System.Nullable{System.Threading.CancellationToken})
-  name: PostUxShowAsync(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxShowAsync_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PostUxShowAsync(System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostUxShowAsync(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxShowAsync(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PostUxShowAsync(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PostUxShowAsync(Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PostUxShowAsync(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PostUxShowAsync*
-  name: PostUxShowAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PostUxShowAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PostUxShowAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PostUxShowAsync
-  nameWithType: RiotClientEndpoints.PostUxShowAsync
-- uid: Camille.Lcu.RiotClientEndpoints.PutRegionLocale(Camille.Lcu.RiotClient.RegionLocale,System.Nullable{System.Threading.CancellationToken})
-  name: PutRegionLocale(RegionLocale, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PutRegionLocale_Camille_Lcu_RiotClient_RegionLocale_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PutRegionLocale(Camille.Lcu.RiotClient.RegionLocale,System.Nullable{System.Threading.CancellationToken})
-  name.vb: PutRegionLocale(RegionLocale, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PutRegionLocale(Camille.Lcu.RiotClient.RegionLocale, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PutRegionLocale(Camille.Lcu.RiotClient.RegionLocale, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PutRegionLocale(RegionLocale, Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PutRegionLocale(RegionLocale, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PutRegionLocale*
-  name: PutRegionLocale
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PutRegionLocale_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PutRegionLocale
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PutRegionLocale
-  nameWithType: RiotClientEndpoints.PutRegionLocale
-- uid: Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync(Camille.Lcu.RiotClient.RegionLocale,System.Nullable{System.Threading.CancellationToken})
-  name: PutRegionLocaleAsync(RegionLocale, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PutRegionLocaleAsync_Camille_Lcu_RiotClient_RegionLocale_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync(Camille.Lcu.RiotClient.RegionLocale,System.Nullable{System.Threading.CancellationToken})
-  name.vb: PutRegionLocaleAsync(RegionLocale, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync(Camille.Lcu.RiotClient.RegionLocale, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync(Camille.Lcu.RiotClient.RegionLocale, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: RiotClientEndpoints.PutRegionLocaleAsync(RegionLocale, Nullable<CancellationToken>)
-  nameWithType.vb: RiotClientEndpoints.PutRegionLocaleAsync(RegionLocale, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync*
-  name: PutRegionLocaleAsync
-  href: api/Camille.Lcu.RiotClientEndpoints.html#Camille_Lcu_RiotClientEndpoints_PutRegionLocaleAsync_
-  commentId: Overload:Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.RiotClientEndpoints.PutRegionLocaleAsync
-  nameWithType: RiotClientEndpoints.PutRegionLocaleAsync
 - uid: Camille.Lcu.Util
   name: Camille.Lcu.Util
   href: api/Camille.Lcu.Util.html
@@ -12249,15 +12147,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
   nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
-- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute,System.String,Champion,System.Nullable{System.Threading.CancellationToken})
-  name: GetChampionMastery(PlatformRoute, String, Champion, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMastery_PlatformRoute_System_String_Champion_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute,System.String,Champion,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChampionMastery(PlatformRoute, String, Champion, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, System.String, Champion, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, System.String, Champion, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, String, Champion, Nullable<CancellationToken>)
-  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, String, Champion, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMastery(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMastery_PlatformRoute_System_String_Camille_Enums_Champion_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMastery(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery*
   name: GetChampionMastery
   href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMastery_
@@ -12265,15 +12163,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery
   nameWithType: ChampionMasteryV4Endpoints.GetChampionMastery
-- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute,System.String,Champion,System.Nullable{System.Threading.CancellationToken})
-  name: GetChampionMasteryAsync(PlatformRoute, String, Champion, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_PlatformRoute_System_String_Champion_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute,System.String,Champion,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChampionMasteryAsync(PlatformRoute, String, Champion, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, System.String, Champion, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, System.String, Champion, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, String, Champion, Nullable<CancellationToken>)
-  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, String, Champion, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryAsync(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_PlatformRoute_System_String_Camille_Enums_Champion_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryAsync(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryAsync(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync*
   name: GetChampionMasteryAsync
   href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryAsync_
@@ -13097,72 +12995,6 @@ references:
   commentId: N:Camille.RiotGames.Enums
   fullName: Camille.RiotGames.Enums
   nameWithType: Camille.RiotGames.Enums
-- uid: Camille.RiotGames.Enums.GameResult
-  name: GameResult
-  href: api/Camille.RiotGames.Enums.GameResult.html
-  commentId: T:Camille.RiotGames.Enums.GameResult
-  fullName: Camille.RiotGames.Enums.GameResult
-  nameWithType: GameResult
-- uid: Camille.RiotGames.Enums.GameResult.Lose
-  name: Lose
-  href: api/Camille.RiotGames.Enums.GameResult.html#Camille_RiotGames_Enums_GameResult_Lose
-  commentId: F:Camille.RiotGames.Enums.GameResult.Lose
-  fullName: Camille.RiotGames.Enums.GameResult.Lose
-  nameWithType: GameResult.Lose
-- uid: Camille.RiotGames.Enums.GameResult.Win
-  name: Win
-  href: api/Camille.RiotGames.Enums.GameResult.html#Camille_RiotGames_Enums_GameResult_Win
-  commentId: F:Camille.RiotGames.Enums.GameResult.Win
-  fullName: Camille.RiotGames.Enums.GameResult.Win
-  nameWithType: GameResult.Win
-- uid: Camille.RiotGames.Enums.Position
-  name: Position
-  href: api/Camille.RiotGames.Enums.Position.html
-  commentId: T:Camille.RiotGames.Enums.Position
-  fullName: Camille.RiotGames.Enums.Position
-  nameWithType: Position
-- uid: Camille.RiotGames.Enums.Position.APEX
-  name: APEX
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_APEX
-  commentId: F:Camille.RiotGames.Enums.Position.APEX
-  fullName: Camille.RiotGames.Enums.Position.APEX
-  nameWithType: Position.APEX
-- uid: Camille.RiotGames.Enums.Position.BOTTOM
-  name: BOTTOM
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_BOTTOM
-  commentId: F:Camille.RiotGames.Enums.Position.BOTTOM
-  fullName: Camille.RiotGames.Enums.Position.BOTTOM
-  nameWithType: Position.BOTTOM
-- uid: Camille.RiotGames.Enums.Position.JUNGLE
-  name: JUNGLE
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_JUNGLE
-  commentId: F:Camille.RiotGames.Enums.Position.JUNGLE
-  fullName: Camille.RiotGames.Enums.Position.JUNGLE
-  nameWithType: Position.JUNGLE
-- uid: Camille.RiotGames.Enums.Position.MIDDLE
-  name: MIDDLE
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_MIDDLE
-  commentId: F:Camille.RiotGames.Enums.Position.MIDDLE
-  fullName: Camille.RiotGames.Enums.Position.MIDDLE
-  nameWithType: Position.MIDDLE
-- uid: Camille.RiotGames.Enums.Position.NONE
-  name: NONE
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_NONE
-  commentId: F:Camille.RiotGames.Enums.Position.NONE
-  fullName: Camille.RiotGames.Enums.Position.NONE
-  nameWithType: Position.NONE
-- uid: Camille.RiotGames.Enums.Position.TOP
-  name: TOP
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_TOP
-  commentId: F:Camille.RiotGames.Enums.Position.TOP
-  fullName: Camille.RiotGames.Enums.Position.TOP
-  nameWithType: Position.TOP
-- uid: Camille.RiotGames.Enums.Position.UTILITY
-  name: UTILITY
-  href: api/Camille.RiotGames.Enums.Position.html#Camille_RiotGames_Enums_Position_UTILITY
-  commentId: F:Camille.RiotGames.Enums.Position.UTILITY
-  fullName: Camille.RiotGames.Enums.Position.UTILITY
-  nameWithType: Position.UTILITY
 - uid: Camille.RiotGames.Enums.Team
   name: Team
   href: api/Camille.RiotGames.Enums.Team.html
@@ -13175,6 +13007,12 @@ references:
   commentId: F:Camille.RiotGames.Enums.Team.Blue
   fullName: Camille.RiotGames.Enums.Team.Blue
   nameWithType: Team.Blue
+- uid: Camille.RiotGames.Enums.Team.Other
+  name: Other
+  href: api/Camille.RiotGames.Enums.Team.html#Camille_RiotGames_Enums_Team_Other
+  commentId: F:Camille.RiotGames.Enums.Team.Other
+  fullName: Camille.RiotGames.Enums.Team.Other
+  nameWithType: Team.Other
 - uid: Camille.RiotGames.Enums.Team.Red
   name: Red
   href: api/Camille.RiotGames.Enums.Team.html#Camille_RiotGames_Enums_Team_Red
@@ -13645,15 +13483,15 @@ references:
   commentId: T:Camille.RiotGames.LeagueExpV4Endpoints
   fullName: Camille.RiotGames.LeagueExpV4Endpoints
   nameWithType: LeagueExpV4Endpoints
-- uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntries_PlatformRoute_QueueType_Tier_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntries_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueExpV4Endpoints.GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries*
   name: GetLeagueEntries
   href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntries_
@@ -13661,15 +13499,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntries
   nameWithType: LeagueExpV4Endpoints.GetLeagueEntries
-- uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntriesAsync_PlatformRoute_QueueType_Tier_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntriesAsync_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueExpV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueExpV4Endpoints.GetLeagueEntriesAsync*
   name: GetLeagueEntriesAsync
   href: api/Camille.RiotGames.LeagueExpV4Endpoints.html#Camille_RiotGames_LeagueExpV4Endpoints_GetLeagueEntriesAsync_
@@ -14311,15 +14149,15 @@ references:
   commentId: T:Camille.RiotGames.LeagueV4Endpoints
   fullName: Camille.RiotGames.LeagueV4Endpoints
   nameWithType: LeagueV4Endpoints
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengerLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeague_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengerLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengerLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeague_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengerLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetChallengerLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague*
   name: GetChallengerLeague
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeague_
@@ -14327,15 +14165,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeague
   nameWithType: LeagueV4Endpoints.GetChallengerLeague
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengerLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeagueAsync_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengerLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengerLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeagueAsync_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengerLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetChallengerLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync*
   name: GetChallengerLeagueAsync
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetChallengerLeagueAsync_
@@ -14343,15 +14181,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetChallengerLeagueAsync
   nameWithType: LeagueV4Endpoints.GetChallengerLeagueAsync
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetGrandmasterLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeague_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetGrandmasterLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetGrandmasterLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeague_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGrandmasterLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetGrandmasterLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague*
   name: GetGrandmasterLeague
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeague_
@@ -14359,15 +14197,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeague
   nameWithType: LeagueV4Endpoints.GetGrandmasterLeague
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetGrandmasterLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeagueAsync_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetGrandmasterLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetGrandmasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeagueAsync_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGrandmasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetGrandmasterLeagueAsync*
   name: GetGrandmasterLeagueAsync
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetGrandmasterLeagueAsync_
@@ -14407,15 +14245,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueByIdAsync
   nameWithType: LeagueV4Endpoints.GetLeagueByIdAsync
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntries_PlatformRoute_QueueType_Tier_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntries_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntries(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries*
   name: GetLeagueEntries
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntries_
@@ -14423,15 +14261,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntries
   nameWithType: LeagueV4Endpoints.GetLeagueEntries
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesAsync_PlatformRoute_QueueType_Tier_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,QueueType,Tier,Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, QueueType, Tier, Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesAsync_PlatformRoute_Camille_Enums_QueueType_Camille_Enums_Tier_Camille_Enums_Division_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.QueueType,Camille.Enums.Tier,Camille.Enums.Division,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.QueueType, Camille.Enums.Tier, Camille.Enums.Division, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.QueueType, Enums.Tier, Enums.Division, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync*
   name: GetLeagueEntriesAsync
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesAsync_
@@ -14471,15 +14309,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync
   nameWithType: LeagueV4Endpoints.GetLeagueEntriesForSummonerAsync
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetMasterLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeague_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMasterLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetMasterLeague(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetMasterLeague(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetMasterLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeague_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMasterLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetMasterLeague(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetMasterLeague(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague*
   name: GetMasterLeague
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeague_
@@ -14487,15 +14325,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeague
   nameWithType: LeagueV4Endpoints.GetMasterLeague
-- uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetMasterLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeagueAsync_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMasterLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetMasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeagueAsync_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetMasterLeagueAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetMasterLeagueAsync*
   name: GetMasterLeagueAsync
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetMasterLeagueAsync_
@@ -17287,6 +17125,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Info.GameDuration
   nameWithType: Info.GameDuration
+- uid: Camille.RiotGames.MatchV5.Info.GameEndTimestamp
+  name: GameEndTimestamp
+  href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_GameEndTimestamp
+  commentId: P:Camille.RiotGames.MatchV5.Info.GameEndTimestamp
+  fullName: Camille.RiotGames.MatchV5.Info.GameEndTimestamp
+  nameWithType: Info.GameEndTimestamp
+- uid: Camille.RiotGames.MatchV5.Info.GameEndTimestamp*
+  name: GameEndTimestamp
+  href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_GameEndTimestamp_
+  commentId: Overload:Camille.RiotGames.MatchV5.Info.GameEndTimestamp
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Info.GameEndTimestamp
+  nameWithType: Info.GameEndTimestamp
 - uid: Camille.RiotGames.MatchV5.Info.GameId
   name: GameId
   href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_GameId
@@ -24623,15 +24474,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueByIdAsync
   nameWithType: TftLeagueV1Endpoints.GetLeagueByIdAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(PlatformRoute, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_PlatformRoute_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(PlatformRoute, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries*
   name: GetLeagueEntries
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_
@@ -24639,15 +24490,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries
   nameWithType: TftLeagueV1Endpoints.GetLeagueEntries
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntriesAsync(PlatformRoute, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_PlatformRoute_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntriesAsync(PlatformRoute, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, String, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, String, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync*
   name: GetLeagueEntriesAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_
@@ -24719,15 +24570,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync
   nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetTopRatedLadder(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTopRatedLadder(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadder(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadder(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadder(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder*
   name: GetTopRatedLadder
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadder_
@@ -24735,15 +24586,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadder
   nameWithType: TftLeagueV1Endpoints.GetTopRatedLadder
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name: GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_PlatformRoute_QueueType_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,QueueType,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, QueueType, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name: GetTopRatedLadderAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_PlatformRoute_Camille_Enums_QueueType_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute,Camille.Enums.QueueType,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopRatedLadderAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, Camille.Enums.QueueType, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, Enums.QueueType, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetTopRatedLadderAsync(PlatformRoute, Enums.QueueType, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetTopRatedLadderAsync*
   name: GetTopRatedLadderAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetTopRatedLadderAsync_
@@ -28569,15 +28420,15 @@ references:
   commentId: T:Camille.RiotGames.ValContentV1Endpoints
   fullName: Camille.RiotGames.ValContentV1Endpoints
   nameWithType: ValContentV1Endpoints
-- uid: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetContent(ValPlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetContent(ValPlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ValContentV1Endpoints.GetContent(ValPlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ValContentV1Endpoints.GetContent(ValPlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
+  name: GetContent(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_ValPlatformRoute_System_Nullable_Camille_Enums_Locale__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetContent(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.Nullable<Camille.Enums.Locale>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.Nullable(Of Camille.Enums.Locale), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValContentV1Endpoints.GetContent(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
+  nameWithType.vb: ValContentV1Endpoints.GetContent(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ValContentV1Endpoints.GetContent*
   name: GetContent
   href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_
@@ -28585,15 +28436,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent
   nameWithType: ValContentV1Endpoints.GetContent
-- uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetContentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetContentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
+  name: GetContentAsync(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_ValPlatformRoute_System_Nullable_Camille_Enums_Locale__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetContentAsync(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.Nullable<Camille.Enums.Locale>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.Nullable(Of Camille.Enums.Locale), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
+  nameWithType.vb: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync*
   name: GetContentAsync
   href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_
