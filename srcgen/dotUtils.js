@@ -97,9 +97,11 @@ function formatJsonProperty(name) {
 
 function formatQueryParamStringify(expr, prop) {
   if (prop['x-enum']) {
-    if ('int' !== prop['x-type'])
-      throw Error('Unexpected x-enum x-type: ' + prop['x-type']);
-    return `((int) ${expr}).ToString()`;
+    switch (prop['x-type']) {
+        case 'int': return `((int) ${expr}).ToString()`;
+        case 'String': return `${expr}.ToString()`;
+        default: throw Error(`Unexpected x-enum x-type: ${prop['x-type']}\n${JSON.stringify(prop)}`);
+    }
   }
   if (prop['$ref']) {
     const type = prop['$ref'].split('/').pop();

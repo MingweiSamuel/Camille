@@ -89,11 +89,16 @@ function remapNamespaces(spec, endpoints = null, namespaceRenames = {}, lcuTypeT
     ? endpoints.map(ep => spec.paths[ep])
     : Object.values(spec.paths))
     .forEach(path => Object.entries(path || {})
+      .filter(([ verb, _op ]) => !verb.startsWith('x-'))
       .forEach(([ verb, op ]) => {
         // TODO.
-        if (!(op.tags && op.tags.length)) throw new Error("Can't handle missing tags.");
+        if (!(op.tags && op.tags.length)) {
+          console.warn(`Missing tags on ${verb} ${op.operationId}.`);
+        }
 
-        const oldNamespace = dotUtils.normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop());
+        const oldNamespace = (op.tags && op.tags.length)
+          ? dotUtils.normalizeEndpointName(op.tags[op.tags.length - 1].split(' ').pop())
+          : 'global';
         const oldNamespaceRenamed = namespaceRenamed(oldNamespace);
         let namespace = oldNamespace;
 

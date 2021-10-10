@@ -60,7 +60,7 @@ namespace Camille.RiotGames.Test
         [TestMethod]
         public async Task GetContentAsyncWithLocale()
         {
-            var content = await Api.ValContentV1().GetContentAsync(ValPlatformRoute.AP, "ja-JP");
+            var content = await Api.ValContentV1().GetContentAsync(ValPlatformRoute.AP, Locale.ja_JP);
             Assert.IsNotNull(content);
             Assert.IsNotNull(content.Characters);
             Assert.IsTrue(0 < content.Characters.Count());
