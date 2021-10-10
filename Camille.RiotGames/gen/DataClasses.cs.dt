@@ -3,7 +3,7 @@
 
     const spec = require(it.path + '/.spec.json');
     const header = `// http://www.mingweisamuel.com/riotapi-schema/tool/\r\n// Version ${spec.info.version}`;
-    const usings = [ 'using Camille.RiotGames.Enums;' ];
+    const usings = [];
     const useSchema = (schemaKey) => 'Error' !== schemaKey;
     const namespace = 'RiotGames';
 }}

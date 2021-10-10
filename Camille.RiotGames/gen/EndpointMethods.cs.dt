@@ -12,7 +12,7 @@
     ];
     const formatSendArgs = operation
         => `route.ToString(), "${operation.operationId}", request, cancellationToken, ${ !!operation['x-app-rate-limit-excluded'] }`;
-    const usings = [ 'using Camille.RiotGames.Enums;' ];
+    const usings = [];
 }}
 {{= it.templates.endpointMethods({
     spec, namespace, useMethod, extraParamsFn, formatSendArgs, usings

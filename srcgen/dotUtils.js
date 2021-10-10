@@ -1,4 +1,17 @@
-﻿function capitalize(input) {
+﻿const enumTable = {
+  'champion':   'Camille.Enums.Champion',
+  'division':   'Camille.Enums.Division',
+  'gameMode':   'Camille.Enums.GameMode',
+  'gameType':   'Camille.Enums.GameType',
+  'locale':     'Camille.Enums.Locale',
+  'map':        'Camille.Enums.Map',
+  'queueType':  'Camille.Enums.QueueType',
+  'tier':       'Camille.Enums.Tier',
+
+  'team':       'Camille.RiotGames.Enums.Team',
+};
+
+function capitalize(input) {
   return input[0].toUpperCase() + input.slice(1);
 }
 
@@ -59,9 +72,9 @@ function stringifyType(prop, endpoint = null) {
     refType = refType.split('.').pop();
     return (endpoint ? endpoint + '.' : '') + normalizeSchemaName(refType);
   }
-  var enumName = prop['x-enum'];
+  const enumName = enumTable[prop['x-enum']];
   if (enumName !== undefined) {
-    return normalizePropName(enumName, 'placeholder', '') + (prop.type === 'array' ? '[]' : '');
+    return enumName;
   }
 
   switch (prop.type) {

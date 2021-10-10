@@ -3,7 +3,7 @@
 
     const spec = require(it.path + '/.spec.json');
     const header = `// http://www.mingweisamuel.com/lolgameapi-schema/tool/\r\n`;
-    const usings = []; /* 'using Camille.RiotGames.Enums;' ]; */
+    const usings = [];
     const useSchema = (schemaKey) => true;
     const namespace = 'LolGame';
 }}
