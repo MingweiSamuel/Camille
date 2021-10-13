@@ -1,9 +1,11 @@
 Set-Location $PSScriptRoot
 
-$mtx = New-Object System.Threading.Mutex($False, 'CamilleNpmMutex')
+$runId = if ($env:GITHUB_RUN_ID) { $env:GITHUB_RUN_ID } else { "dev" };
+$mtxName = "CamilleNpmMutex-$runId";
+$mtx = New-Object System.Threading.Mutex($False, $mtxName)
 
 If (-Not ($mtx.WaitOne(30000))) {
-    Write-Error 'Failed to acquire mutex.'
+    Write-Error "Failed to acquire mutex '$mtxName'."
     Exit 10
 }
 
