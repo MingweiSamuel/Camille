@@ -1,14 +1,15 @@
 ﻿const enumTable = {
-  'champion':   'Camille.Enums.Champion',
-  'division':   'Camille.Enums.Division',
-  'gameMode':   'Camille.Enums.GameMode',
-  'gameType':   'Camille.Enums.GameType',
-  'locale':     'Camille.Enums.Locale',
-  'map':        'Camille.Enums.Map',
-  'queueType':  'Camille.Enums.QueueType',
-  'tier':       'Camille.Enums.Tier',
+  'champion':           'Camille.Enums.Champion',
+  'division':           'Camille.Enums.Division',
+  'gameMode':           'Camille.Enums.GameMode',
+  'gameType':           'Camille.Enums.GameType',
+  'locale':             'Camille.Enums.Locale',
+  'map':                'Camille.Enums.Map',
+  'gameQueueConfigId':  'Camille.Enums.Queue',
+  'queueType':          'Camille.Enums.QueueType',
+  'tier':               'Camille.Enums.Tier',
 
-  'team':       'Camille.RiotGames.Enums.Team',
+  'team':               'Camille.RiotGames.Enums.Team',
 };
 
 function capitalize(input) {
