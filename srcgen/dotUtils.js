@@ -5,6 +5,7 @@
   'gameType':   'Camille.Enums.GameType',
   'locale':     'Camille.Enums.Locale',
   'map':        'Camille.Enums.Map',
+  'queue':      'Camille.Enums.Queue',
   'queueType':  'Camille.Enums.QueueType',
   'tier':       'Camille.Enums.Tier',
 
