@@ -6,7 +6,7 @@ $mtx = New-Object System.Threading.Mutex($False, $mtxName)
 
 If (-Not ($mtx.WaitOne(30000))) {
     Write-Error "Failed to acquire mutex '$mtxName'."
-    Exit 10
+    Exit 0
 }
 
 Try {
