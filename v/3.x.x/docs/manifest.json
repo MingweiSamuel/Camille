@@ -917,11 +917,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Ability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Ability.html",
+          "hash": "Cj7Vi05M869O8ITYEqCpn91e2LH2VPFuE8uGjL1B0a4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayer.html",
-          "hash": "lEIyXxnYmpEmG252GQ2dz+l4V9wbOdkV0qwyoYUCFwU="
+          "hash": "Z0qshLlZuUz6+yk7rRC4AZZP3C/i7ao1YZ+W7vVjCC0="
         }
       },
       "is_incremental": false,
@@ -933,43 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbilities.html",
-          "hash": "8XPy8tRHnssawTk4IKMInXg0I/7GKcPQwieFmvft4B0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbility.html",
-          "hash": "3+8+2q78z0Z5QRT4erEtwRMOp9cAti2L3UC9A3liC54="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerChampionStats.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerChampionStats.html",
-          "hash": "w+nfs52WgTuBjlv5qAPNXs+dLeSxrhtdPIPVEK+Z7cI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerPassiveAbility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerPassiveAbility.html",
-          "hash": "mX7lT7x9SHYZKoej0fFqR+U5EBXjPq3o5c4mta29vxA="
+          "hash": "L5xjbmPyfvcVDBZJe/mw6dypkatZ4H07+7rOy6SynBc="
         }
       },
       "is_incremental": false,
@@ -981,19 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerRunes.html",
-          "hash": "+zyecPyryM5GP+53VK2ILXaG9FxcVMvuiYV4llYxtlk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerStatRune.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerStatRune.html",
-          "hash": "1JN1t4md41MCYR5pRUwB7x24G6QsmTNdEQJsk+JvLIY="
+          "hash": "3c2zUf3WzmzQ8xjFG88MwsSYHvNa3GnETjpn0oGg09g="
         }
       },
       "is_incremental": false,
@@ -1005,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.AllGameData.html",
-          "hash": "dja6hSJNNknZ8W9dJGAuAZVV1in0cf3ktajMF3CFPrE="
+          "hash": "Ef+wc/xQRqqH3dBpK0SNTAX5FbtK5UGJUT154mP9yP0="
         }
       },
       "is_incremental": false,
@@ -1017,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.Event.html",
-          "hash": "radqs2UaHTt6lCVDAabFaIHHpBc84UiiI1vjlYIbO94="
+          "hash": "D0vCrcXJ8ryaCtgwociRqTt28ZVU6kRXOHPYu0CW2LE="
         }
       },
       "is_incremental": false,
@@ -1029,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.EventData.html",
-          "hash": "6V1MaEqeauOVoEAxSKEWfRaERn2tDv/MHHy1YJ2bqiY="
+          "hash": "fLzguZzRbQ6pYjl90t9xt8nIoztzbVsEmNg3Z/JWbu8="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1005,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.GameStats.html",
-          "hash": "uX5A2M/TOcqiruLgFqyWOslmOC4jn8R6QMbUKpWy3xw="
+          "hash": "+aQDyASkJ6o/p63qP5aUVdHyxyhhxgpE68oglE+T5sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.GeneralRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.GeneralRune.html",
+          "hash": "rFBThk6SDY7JzvlsiFxOZzFvlt3YdmW9oqf+5Zm4sp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Passive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Passive.html",
+          "hash": "PbENfPw884tJVJnU1A7MclP+1HHmdZOG9ptFBjvOE/o="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1041,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.Player.html",
-          "hash": "Y8MkLbGCjut0aeGIB+qr3/DbIv1Qq7g/7E6LwO03VGU="
+          "hash": "pWjsWydVuBBXMm/d1l+DR65r7p6NVy3rZSlNBfK9AW0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerChampionStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerChampionStats.html",
+          "hash": "KUAJNOWvkJThDR2UlKg2ISVClh6IEFb3nrj/elMhPrk="
         }
       },
       "is_incremental": false,
@@ -1065,19 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerItem.html",
-          "hash": "RbTFFBU8Rs7ktoOIMq60iDP7PdZnAzjq5ddnXviHxnA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerRune.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerRune.html",
-          "hash": "ERwePt09muA6hDf2Mdmj5JZ0lWekTpvDyvGkKLH73HY="
+          "hash": "vwWPj155GEoXYqopEH2YKpG8r9SK6z0ibheqx2ykGXA="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerRunes.html",
-          "hash": "YbcY6pz61VBlFmNIs9iDe8b15rFBCxahuVcfQI9cAVc="
+          "hash": "9vb65n/lE8t0nHlOCPtLmVT/iHLTUhmaOnJb9wyGDjE="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerScores.html",
-          "hash": "kcA7uIGi+ht4XOA06RLIpFNxdFb/0IX+GcCGlp85YpA="
+          "hash": "Jo2t5EtowC+gxuspmn45bMJN/pKxBExi4QhhN4iBtkA="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpell.html",
-          "hash": "e12rQHnx6F1AFIe1EStW/ofRrKjf23JiKJ7e2jI9QcA="
+          "hash": "ZfeWGgB2IB6w4PTZ0nOZgJEPWWRdtasUippzXETMxco="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1113,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpells.html",
-          "hash": "zlxQT4MTtmbioT106TKJ9LieOmgpqmcJVC1AaZhK4l4="
+          "hash": "D0Dr1I+Jhm+ilZADPygMVCz9vzY/Vv7Dt0LRZ6MytrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.StatRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.StatRune.html",
+          "hash": "mk24xFVmdRkNXJy2qkaWPWQ94BKF6xogs2BpkCXOg00="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Camille.LolGame.LiveClientData.html",
-          "hash": "y7Z3HQZmG2qZaGQLKTDBCy6hdUaN6enW0j/rqzB02tg="
+          "hash": "SQXxjNVsdRrPi0y8vrZLl2cf1AlgkKt+JqK3qM7ZyZw="
         }
       },
       "is_incremental": false,
@@ -3597,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/qiZKCwhgCOBlUKQaAsPssjR1Flnp27fy0rdiqvsvIE="
+          "hash": "vcR88SBvrR8UdlSI02Dd4SI2dRX7/rCNbkem9LpwBSA="
         }
       },
       "is_incremental": false,
