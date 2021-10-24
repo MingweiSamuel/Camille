@@ -9349,6 +9349,19 @@ references:
   isSpec: "True"
   fullName: Camille.LolGame.LiveClientData.Event.Recipient
   nameWithType: Event.Recipient
+- uid: Camille.LolGame.LiveClientData.Event.Result
+  name: Result
+  href: api/Camille.LolGame.LiveClientData.Event.html#Camille_LolGame_LiveClientData_Event_Result
+  commentId: P:Camille.LolGame.LiveClientData.Event.Result
+  fullName: Camille.LolGame.LiveClientData.Event.Result
+  nameWithType: Event.Result
+- uid: Camille.LolGame.LiveClientData.Event.Result*
+  name: Result
+  href: api/Camille.LolGame.LiveClientData.Event.html#Camille_LolGame_LiveClientData_Event_Result_
+  commentId: Overload:Camille.LolGame.LiveClientData.Event.Result
+  isSpec: "True"
+  fullName: Camille.LolGame.LiveClientData.Event.Result
+  nameWithType: Event.Result
 - uid: Camille.LolGame.LiveClientData.Event.Stolen
   name: Stolen
   href: api/Camille.LolGame.LiveClientData.Event.html#Camille_LolGame_LiveClientData_Event_Stolen
