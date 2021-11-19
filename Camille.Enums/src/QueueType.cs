@@ -22,5 +22,7 @@ namespace Camille.Enums
         RANKED_TFT = 1100,
         /// <summary>Ranked Teamfight Tactics, Hyper Roll game mode.</summary>
         RANKED_TFT_TURBO = 1130,
+        /// <summary>Ranked Teamfight Tactics, Double Up game mode.</summary>
+        RANKED_TFT_PAIRS = 1150,
     }
 }
