@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
-    <DownloadFile SourceUrl="http://www.mingweisamuel.com/lolgameapi-schema/openapi-lcd.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/lolgameapi-schema/openapi-lcd.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
   </Target>
 </Project>
