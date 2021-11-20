@@ -1664,18 +1664,42 @@ references:
   commentId: F:Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS
   fullName: Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS
   nameWithType: Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS
+- uid: Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+  name: CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+  fullName: Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+  nameWithType: Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_DOUBLE_UP_BETA_
+- uid: Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
+  name: CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
+  fullName: Camille.Enums.Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
+  nameWithType: Queue.CONVERGENCE_RANKED_TEAMFIGHT_TACTICS_HYPER_ROLL_
 - uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS
   name: CONVERGENCE_TEAMFIGHT_TACTICS
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS
   commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS
   fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS
   nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS
-- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
-  name: CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
-  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
-  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
-  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
-  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0_TESTING
+- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+  name: CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_1V0
+- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+  name: CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_2V0
+- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+  name: CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
 - uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
   name: CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
@@ -7398,6 +7422,24 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.AutoFillQueue.ToString
   nameWithType: AutoFillQueue.ToString
+- uid: Camille.Lcu.LolSummoner.ProfilePrivacySetting
+  name: ProfilePrivacySetting
+  href: api/Camille.Lcu.LolSummoner.ProfilePrivacySetting.html
+  commentId: T:Camille.Lcu.LolSummoner.ProfilePrivacySetting
+  fullName: Camille.Lcu.LolSummoner.ProfilePrivacySetting
+  nameWithType: ProfilePrivacySetting
+- uid: Camille.Lcu.LolSummoner.ProfilePrivacySetting.PRIVATE
+  name: PRIVATE
+  href: api/Camille.Lcu.LolSummoner.ProfilePrivacySetting.html#Camille_Lcu_LolSummoner_ProfilePrivacySetting_PRIVATE
+  commentId: F:Camille.Lcu.LolSummoner.ProfilePrivacySetting.PRIVATE
+  fullName: Camille.Lcu.LolSummoner.ProfilePrivacySetting.PRIVATE
+  nameWithType: ProfilePrivacySetting.PRIVATE
+- uid: Camille.Lcu.LolSummoner.ProfilePrivacySetting.PUBLIC
+  name: PUBLIC
+  href: api/Camille.Lcu.LolSummoner.ProfilePrivacySetting.html#Camille_Lcu_LolSummoner_ProfilePrivacySetting_PUBLIC
+  commentId: F:Camille.Lcu.LolSummoner.ProfilePrivacySetting.PUBLIC
+  fullName: Camille.Lcu.LolSummoner.ProfilePrivacySetting.PUBLIC
+  nameWithType: ProfilePrivacySetting.PUBLIC
 - uid: Camille.Lcu.LolSummoner.Summoner
   name: Summoner
   href: api/Camille.Lcu.LolSummoner.Summoner.html
@@ -7495,6 +7537,19 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummoner.Summoner.PercentCompleteForNextLevel
   nameWithType: Summoner.PercentCompleteForNextLevel
+- uid: Camille.Lcu.LolSummoner.Summoner.Privacy
+  name: Privacy
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_Privacy
+  commentId: P:Camille.Lcu.LolSummoner.Summoner.Privacy
+  fullName: Camille.Lcu.LolSummoner.Summoner.Privacy
+  nameWithType: Summoner.Privacy
+- uid: Camille.Lcu.LolSummoner.Summoner.Privacy*
+  name: Privacy
+  href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_Privacy_
+  commentId: Overload:Camille.Lcu.LolSummoner.Summoner.Privacy
+  isSpec: "True"
+  fullName: Camille.Lcu.LolSummoner.Summoner.Privacy
+  nameWithType: Summoner.Privacy
 - uid: Camille.Lcu.LolSummoner.Summoner.ProfileIconId
   name: ProfileIconId
   href: api/Camille.Lcu.LolSummoner.Summoner.html#Camille_Lcu_LolSummoner_Summoner_ProfileIconId
