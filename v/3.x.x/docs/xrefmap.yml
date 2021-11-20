@@ -2210,6 +2210,12 @@ references:
   commentId: F:Camille.Enums.QueueType.RANKED_TFT
   fullName: Camille.Enums.QueueType.RANKED_TFT
   nameWithType: QueueType.RANKED_TFT
+- uid: Camille.Enums.QueueType.RANKED_TFT_PAIRS
+  name: RANKED_TFT_PAIRS
+  href: api/Camille.Enums.QueueType.html#Camille_Enums_QueueType_RANKED_TFT_PAIRS
+  commentId: F:Camille.Enums.QueueType.RANKED_TFT_PAIRS
+  fullName: Camille.Enums.QueueType.RANKED_TFT_PAIRS
+  nameWithType: QueueType.RANKED_TFT_PAIRS
 - uid: Camille.Enums.QueueType.RANKED_TFT_TURBO
   name: RANKED_TFT_TURBO
   href: api/Camille.Enums.QueueType.html#Camille_Enums_QueueType_RANKED_TFT_TURBO
