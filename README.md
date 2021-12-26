@@ -20,7 +20,11 @@ Data classes are automatically generated from the
 
 ## Installation
 
-[Install via NuGet](https://www.nuget.org/packages?sortby=created-desc&q=Camille&prerel=True) (`Camille.RiotGames`).
+[Install via NuGet](https://www.nuget.org/packages?sortby=created-desc&q=Camille&prerel=True) (`Camille.RiotGames`). 
+
+Type the following the the package manager console:
+
+    Install-Package Camille.RiotGames -IncludePrerelease
 
 ## Usage
 
