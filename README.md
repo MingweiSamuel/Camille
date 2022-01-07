@@ -22,13 +22,17 @@ Data classes are automatically generated from the
 
 [Install via NuGet](https://www.nuget.org/packages?sortby=created-desc&q=Camille&prerel=True) (`Camille.RiotGames`). 
 
-Type the following in the package manager console:
+Type the following in the **Package Manager** console:
 
     Install-Package Camille.RiotGames -IncludePrerelease
     
-Or use the .NET CLI:
+Or use the **.NET CLI** to reference the **latest nightly build**:
 
-    dotnet add package Camille.RiotGames --prerelease
+    dotnet add package Camille.RiotGames --version 3.0.0-nightly-*
+    
+You can also reference the **latest nightly build** using a **PackageReference**:
+
+    <PackageReference Include="Camille.RiotGames" Version="3.0.0-nightly-*" />
 
 ## Usage
 
