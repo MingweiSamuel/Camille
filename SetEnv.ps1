@@ -38,7 +38,7 @@ If ($VERSION_TAG -Ne $REPO_TAG -Or -Not ($env:CAMI_VERSION -As [Version])) {
     $ver = $ver -Join '.'
     # Append date for ordering, and include commit ID.
     $date = (Get-Date).ToUniversalTime().ToString('o').Substring(0, 10)
-    $env:CAMI_VERSION = "$ver-nightly-$date-$(git rev-parse --short=10 HEAD)"
+    $env:CAMI_VERSION = "$ver-nightly.$date+$(git rev-parse --short=10 HEAD)"
 }
 
 # Set CAMI_SPEC_HASH
