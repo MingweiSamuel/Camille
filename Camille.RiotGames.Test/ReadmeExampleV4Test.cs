@@ -15,7 +15,7 @@ namespace Camille.RiotGames.Test
             // Use existing instance for test.
             var riotApi = Api;
 
-            // Get summoners by name synchronously. (using async is faster).
+            // Get summoners by name synchronously. (Note: async is faster as it allows simultaneous requests).
             var summoners = new[]
             {
                 riotApi.SummonerV4().GetBySummonerName(PlatformRoute.NA1, "jAnna kendrick"),

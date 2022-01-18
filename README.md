@@ -56,11 +56,11 @@ API methods are divided up into respective endpoints, corresponding to the left 
 #### Print Summoner's Top Champions
 
 ```c#
-// Get summoners by name synchronously. (using async is faster).
+// Get summoners by name synchronously. (Note: async is faster as it allows simultaneous requests).
 var summoners = new[]
 {
-    riotApi.SummonerV4().GetBySummonerName(Region.NA, "jAnna kendrick"),
-    riotApi.SummonerV4().GetBySummonerName(Region.NA, "lug nuts k")
+    riotApi.SummonerV4().GetBySummonerName(PlatformRoute.NA1, "jAnna kendrick"),
+    riotApi.SummonerV4().GetBySummonerName(PlatformRoute.NA1, "lug nuts k")
 };
 
 foreach (var summoner in summoners)
@@ -68,7 +68,7 @@ foreach (var summoner in summoners)
     Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
     var masteries =
-        riotApi.ChampionMasteryV4().GetAllChampionMasteries(Region.NA, summoner.Id);
+        riotApi.ChampionMasteryV4().GetAllChampionMasteries(PlatformRoute.NA1, summoner.Id);
 
     for (var i = 0; i < 10; i++)
     {
@@ -76,38 +76,38 @@ foreach (var summoner in summoners)
         // Get champion for this mastery.
         var champ = (Champion) mastery.ChampionId;
         // print i, champ id, champ mastery points, and champ level
-        Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.Name(),
+        Console.WriteLine("{0,3}) {1,-16} {2,10:N0} ({3})", i + 1, champ.ToString(),
             mastery.ChampionPoints, mastery.ChampionLevel);
     }
     Console.WriteLine();
 }
 ```
 
-Output (2019-02-06):
+Output (2022-01-17):
 ```
 Janna Kendrick's Top 10 Champs:
-  1) Ekko              1,280,476 (7)
-  2) Master Yi            89,871 (7)
-  3) Jinx                 59,238 (6)
-  4) Yasuo                58,625 (7)
-  5) Poppy                52,140 (7)
-  6) Maokai               46,567 (6)
-  7) Ezreal               44,604 (6)
-  8) Lulu                 42,794 (6)
-  9) Kennen               42,500 (7)
- 10) Zilean               41,710 (6)
-
+  1) EKKO              1,803,701 (7)
+  2) PYKE                266,410 (7)
+  3) SYLAS               193,439 (7)
+  4) MASTERYI            134,140 (7)
+  5) MORDEKAISER         127,937 (7)
+  6) YASUO                93,904 (7)
+  7) VIEGO                88,267 (7)
+  8) AHRI                 82,106 (7)
+  9) JINX                 76,788 (6)
+ 10) POPPY                74,982 (7)
+    
 LugnutsK's Top 10 Champs:
-  1) Zyra                548,939 (7)
-  2) Soraka               73,675 (6)
-  3) Morgana              59,828 (5)
-  4) Sona                 50,001 (6)
-  5) Nami                 44,775 (6)
-  6) Brand                42,108 (5)
-  7) Janna                41,923 (5)
-  8) Taric                37,916 (6)
-  9) Ekko                 35,837 (5)
- 10) Poppy                31,457 (5)
+  1) ZYRA                841,132 (7)
+  2) SORAKA               81,793 (6)
+  3) MORGANA              62,917 (5)
+  4) SONA                 55,073 (6)
+  5) NAMI                 49,917 (6)
+  6) JANNA                46,563 (5)
+  7) BRAND                46,401 (5)
+  8) TARIC                41,302 (6)
+  9) EKKO                 40,245 (5)
+ 10) POPPY                33,859 (5)
  ```
 
  <!--
