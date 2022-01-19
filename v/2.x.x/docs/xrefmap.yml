@@ -2267,6 +2267,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.ZED
   fullName: MingweiSamuel.Camille.Enums.Champion.ZED
   nameWithType: Champion.ZED
+- uid: MingweiSamuel.Camille.Enums.Champion.ZERI
+  name: ZERI
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_ZERI
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.ZERI
+  fullName: MingweiSamuel.Camille.Enums.Champion.ZERI
+  nameWithType: Champion.ZERI
 - uid: MingweiSamuel.Camille.Enums.Champion.ZIGGS
   name: ZIGGS
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_ZIGGS
@@ -3215,6 +3221,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Zed
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Zed
   nameWithType: ChampionId.Zed
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Zeri
+  name: Zeri
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Zeri
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Zeri
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Zeri
+  nameWithType: ChampionId.Zeri
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Ziggs
   name: Ziggs
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Ziggs
