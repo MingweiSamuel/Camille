@@ -1058,6 +1058,12 @@ references:
   commentId: F:Camille.Enums.Champion.ZED
   fullName: Camille.Enums.Champion.ZED
   nameWithType: Champion.ZED
+- uid: Camille.Enums.Champion.ZERI
+  name: ZERI
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_ZERI
+  commentId: F:Camille.Enums.Champion.ZERI
+  fullName: Camille.Enums.Champion.ZERI
+  nameWithType: Champion.ZERI
 - uid: Camille.Enums.Champion.ZIGGS
   name: ZIGGS
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_ZIGGS
