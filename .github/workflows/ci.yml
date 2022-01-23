@@ -23,7 +23,7 @@ jobs:
       max-parallel: 1
       matrix:
         ref: '${{ fromJson((''schedule'' == github.event_name) && ''[ "refs/heads/release/2.x.x", "refs/heads/release/3.x.x" ]'' || format(''[ {0} ]'', toJson(github.ref))) }}'
-    runs-on: windows-2019
+    runs-on: windows-2022
     env:
       DOTNET_NOLOGO: true
       DOTNET_CLI_TELEMETRY_OPTOUT: true
@@ -47,10 +47,6 @@ jobs:
           Write-Output "CAMI_VERSION=$env:CAMI_VERSION"     | Out-File -Append -FilePath $env:GITHUB_ENV
           Write-Output "CAMI_SPEC_HASH=$env:CAMI_SPEC_HASH" | Out-File -Append -FilePath $env:GITHUB_ENV
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
       - name: Install dependencies
         run: dotnet restore
       - name: Build
