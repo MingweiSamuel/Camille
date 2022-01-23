@@ -60,7 +60,7 @@
   </ItemGroup>
 
   <!-- Include RiotCertificateUtils for LCU or In-Game APIs. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0' Or '$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp2.1' Or '$(TargetFramework)' == 'netcoreapp3.0' Or '$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0' Or '$(TargetFramework)' == 'net6.0'">
     <DefineConstants>$(DefineConstants);INCLUDE_RIOTCERTIFICATEUTILS</DefineConstants>
   </PropertyGroup>
 
@@ -69,7 +69,7 @@
     <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
   </PropertyGroup>
   <!-- Camille using System.Text.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0' Or '$(TargetFramework)' == 'net6.0'">
     <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
   </PropertyGroup>
   <!--
@@ -78,7 +78,7 @@
     HttpContent.ReadAsStringAsync with CancellationToken in net5.0.
     https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpcontent.readasstringasync?view=net-5.0#System_Net_Http_HttpContent_ReadAsStringAsync_System_Threading_CancellationToken_
   -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net5.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net5.0' Or '$(TargetFramework)' == 'net6.0'">
     <DefineConstants>$(DefineConstants);USE_HTTPREQUESTMESSAGE_OPTIONS;USE_HTTPCONTENT_READASSTRINGASYNC_CANCELLATIONTOKEN</DefineConstants>
   </PropertyGroup>
 
