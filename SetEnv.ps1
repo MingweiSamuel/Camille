@@ -2,13 +2,18 @@
 $COMMIT_MESSAGE = git log -1 --pretty=format:%B
 $SCHEDULED_BUILD = $env:GITHUB_EVENT_NAME -Eq 'schedule'
 $DISPATCHED_BUILD = $env:GITHUB_EVENT_NAME -Eq 'workflow_dispatch'
+$PULL_REQUEST_BUILD = $env:GITHUB_EVENT_NAME -Eq 'pull_request'
 # $REPO_BRANCH = If ($env:ACTION_REF -Match '^refs/heads/') { $env:ACTION_REF -Replace '^refs/heads/' } Else { $null }
 $REPO_TAG = If ($env:ACTION_REF -Match '^refs/tags/') { $env:ACTION_REF -Replace '^refs/tags/' } Else { $null }
 
 # Assume we are on a valid ref; we control when this is called in gh-actions.
 $env:CAMI_DO_DEPLOY = `
+    # Don't deploy pull requests.
+    If ($PULL_REQUEST_BUILD) {
+        ''
+    }
     # If this is a dispatched build, only deploy if flag is set.
-    If ($DISPATCHED_BUILD) {
+    ElseIf ($DISPATCHED_BUILD) {
         # Can be 'true' or 'force'
         $env:ACTION_DISPATCH_DEPLOY
     }
