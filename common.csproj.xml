@@ -95,7 +95,7 @@
   </ItemGroup>-->
   <!-- System.Net.Http from Nuget. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
-    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
   <!-- System.Text.Json & System.Collections.Immutable from NuGet. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
