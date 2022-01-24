@@ -60,7 +60,7 @@ namespace Camille.Core
         private static readonly System.Text.Json.JsonSerializerOptions jsonOptions =
             new System.Text.Json.JsonSerializerOptions()
             {
-                IgnoreNullValues = true,
+                DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
             };
 
         private class CustomIntConverter : System.Text.Json.Serialization.JsonConverter<int>

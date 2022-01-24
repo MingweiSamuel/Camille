@@ -65,11 +65,11 @@
   </PropertyGroup>
 
   <!-- Camille using Newtonsoft.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netstandard2.1'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
     <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
   </PropertyGroup>
   <!-- Camille using System.Text.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0' Or '$(TargetFramework)' == 'net6.0'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0' Or '$(TargetFramework)' == 'net6.0'">
     <DefineConstants>$(DefineConstants);USE_SYSTEXTJSON</DefineConstants>
   </PropertyGroup>
   <!--
@@ -83,7 +83,7 @@
   </PropertyGroup>
 
   <!-- Newtonsoft from NuGet. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netstandard2.1'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
   </ItemGroup>
   <!-- Nullable attributes from NuGet. -->
@@ -95,12 +95,11 @@
   </ItemGroup>-->
   <!-- System.Net.Http from Nuget. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
-    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
-  <!-- System.Text.Json & System.Collections.Immutable from NuGet. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-    <PackageReference Include="System.Text.Json" Version="4.6.0" />
-    <PackageReference Include="System.Collections.Immutable" Version="1.6.0" />
+  <!-- System.Text.Json from NuGet, for tagets stricly below net6.0. -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1' Or '$(TargetFramework)' == 'netcoreapp3.1' Or '$(TargetFramework)' == 'net5.0'">
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
   </ItemGroup>
   <!-- System.ComponentModel.DataAnnotations from NuGet. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netstandard2.1'">
