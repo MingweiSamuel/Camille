@@ -12,10 +12,6 @@
     <ProjectReference Include="$(SolutionDir)\Camille.Enums\Camille.Enums.csproj" />
   </ItemGroup>
 
-  <!-- Shim for HttpMethod.Patch -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
-    <DefineConstants>$(DefineConstants);USE_HTTPMETHOD_PATCH_SHIM</DefineConstants>
-  </PropertyGroup>
   <!-- System.Collections.Immutable from NuGet. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
 	<PackageReference Include="System.Collections.Immutable" Version="1.6.0" />

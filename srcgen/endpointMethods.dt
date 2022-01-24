@@ -55,9 +55,6 @@ namespace Camille.{{= it.namespace }}
                 if (verb.startsWith('x-')) continue;
 
                 const httpVerb = dotUtils.capitalize(verb);
-                /* HACK for HttpMethod.Patch not existing. */
-                const httpMethodShimmed = 'HttpMethod' + ('Patch' === httpVerb ? '' : '.') + httpVerb;
-
                 const operationId = operation.operationId;
                 const method = dotUtils.capitalize(operationId.slice(operationId.indexOf('.') + 1));
 
@@ -191,10 +188,10 @@ namespace Camille.{{= it.namespace }}
 }}
             HttpRequestMessage request;
             using (var content = new FormUrlEncodedContent(queryParams))
-                request = new HttpRequestMessage({{= httpMethodShimmed }}, $"{{= dotUtils.replaceEnumCasts(route) }}?{content.ReadAsStringAsync().Result}");
+                request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}?{content.ReadAsStringAsync().Result}");
 {{?}}
 {{? !queryParams.length }}
-            var request = new HttpRequestMessage({{= httpMethodShimmed }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
+            var request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}");
 {{?}}
 {{
                     for (const headerParam of headerParams)

@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\common.csproj.xml" />
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;net45;netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;net45;net461;netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
     <PackageId>Camille.RiotGames</PackageId>
     <RootNamespace>Camille.RiotGames</RootNamespace>
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. Up-to-date nightlies.</Description>
