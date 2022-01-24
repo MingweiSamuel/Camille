@@ -52,7 +52,9 @@ jobs:
         run: dotnet restore
       - name: Build
         run: dotnet build --configuration Release --no-restore -p:version=$env:CAMI_VERSION
+
       - name: Test
+        if: ${{ github.event_name != 'pull_request' }}
         env:
           RGAPI_KEY: ${{ secrets.RGAPI_KEY }}
         run: dotnet test --no-restore --verbosity minimal
