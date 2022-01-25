@@ -1,0 +1,11 @@
+﻿{{
+    const { endpoints, spec, schemasToInclude } = require(it.path + '/specTransform');
+
+    const namespace = 'Lcu';
+    const useMethod = ([ route, path ]) => endpoints.includes(route);
+    const formatSendArgs = operation => 'request, cancellationToken';
+    const usings = [];
+}}
+{{= it.templates.endpointMethods({
+    spec, namespace, useMethod, formatSendArgs, usings
+}) }}

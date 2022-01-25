@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\common.csproj.xml" />
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.1;net45;net461;netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <PackageId>Camille.RiotGames</PackageId>
+    <RootNamespace>Camille.RiotGames</RootNamespace>
+    <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. Up-to-date nightlies.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MingweiSamuel.TokenBucket" Version="1.0.1" />
+    <ProjectReference Include="$(SolutionDir)src\Camille.Core\Camille.Core.csproj" />
+    <ProjectReference Include="$(SolutionDir)src\Camille.Enums\Camille.Enums.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/openapi-3.0.0.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+  </Target>
+</Project>

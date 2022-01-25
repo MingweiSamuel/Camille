@@ -1,26 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		common.csproj.xml = common.csproj.xml
+		.github\dependabot.yml = .github\dependabot.yml
 		LICENSE-APACHE.txt = LICENSE-APACHE.txt
 		LICENSE-MIT.txt = LICENSE-MIT.txt
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotGames", "Camille.RiotGames\Camille.RiotGames.csproj", "{7DB820F1-5E9B-4872-8B78-A1B799DC4B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotGames", "src\Camille.RiotGames\Camille.RiotGames.csproj", "{7DB820F1-5E9B-4872-8B78-A1B799DC4B17}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D0E87959-4FBD-4134-A399-3C29E9CE38A4} = {D0E87959-4FBD-4134-A399-3C29E9CE38A4}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotGames.Test", "Camille.RiotGames.Test\Camille.RiotGames.Test.csproj", "{2798A2CC-31D0-490F-A257-A76E18414334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.RiotGames.Test", "tests\Camille.RiotGames.Test\Camille.RiotGames.Test.csproj", "{2798A2CC-31D0-490F-A257-A76E18414334}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Enums", "Camille.Enums\Camille.Enums.csproj", "{D0E87959-4FBD-4134-A399-3C29E9CE38A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Enums", "src\Camille.Enums\Camille.Enums.csproj", "{D0E87959-4FBD-4134-A399-3C29E9CE38A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F671635E-4AA2-4A6E-90B2-4FD6C1D243BE}"
 	ProjectSection(SolutionItems) = preProject
@@ -34,22 +35,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "srcgen", "srcgen", "{F67163
 		srcgen\polyfill.js = srcgen\polyfill.js
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu", "Camille.Lcu\Camille.Lcu.csproj", "{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu", "src\Camille.Lcu\Camille.Lcu.csproj", "{08A47FDA-EF22-426F-8E9F-6D9706EC4F06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu.Test", "Camille.Lcu.Test\Camille.Lcu.Test.csproj", "{D0B78606-D154-4E27-923E-73ED56977029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Lcu.Test", "tests\Camille.Lcu.Test\Camille.Lcu.Test.csproj", "{D0B78606-D154-4E27-923E-73ED56977029}"
 	ProjectSection(ProjectDependencies) = postProject
 		{08A47FDA-EF22-426F-8E9F-6D9706EC4F06} = {08A47FDA-EF22-426F-8E9F-6D9706EC4F06}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Core", "Camille.Core\Camille.Core.csproj", "{0863FCFE-147A-4B7F-B4EB-BBD1591BDC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Core", "src\Camille.Core\Camille.Core.csproj", "{0863FCFE-147A-4B7F-B4EB-BBD1591BDC24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Core.Test", "Camille.Core.Test\Camille.Core.Test.csproj", "{64BC3F20-8445-42D9-A52C-C77BDB978E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Core.Test", "tests\Camille.Core.Test\Camille.Core.Test.csproj", "{64BC3F20-8445-42D9-A52C-C77BDB978E61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Enums.Test", "Camille.Enums.Test\Camille.Enums.Test.csproj", "{CDBBD9A4-2C43-4108-8962-A4EED66498CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.Enums.Test", "tests\Camille.Enums.Test\Camille.Enums.Test.csproj", "{CDBBD9A4-2C43-4108-8962-A4EED66498CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.LolGame", "Camille.LolGame\Camille.LolGame.csproj", "{9D93F638-25A0-45BA-9448-7C4827412788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.LolGame", "src\Camille.LolGame\Camille.LolGame.csproj", "{9D93F638-25A0-45BA-9448-7C4827412788}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.LolGame.Test", "Camille.LolGame.Test\Camille.LolGame.Test.csproj", "{AD46D622-347F-45E3-A387-8B50F6E16706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camille.LolGame.Test", "tests\Camille.LolGame.Test\Camille.LolGame.Test.csproj", "{AD46D622-347F-45E3-A387-8B50F6E16706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{BDAC64D5-2084-41F8-BA27-4CE796628492}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{942043F9-F73F-43E2-9FA6-9201D9DCF30A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +114,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F671635E-4AA2-4A6E-90B2-4FD6C1D243BE} = {69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}
+		{BDAC64D5-2084-41F8-BA27-4CE796628492} = {69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}
+		{942043F9-F73F-43E2-9FA6-9201D9DCF30A} = {BDAC64D5-2084-41F8-BA27-4CE796628492}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A22938CF-A9E4-423B-84E6-0F0939DBE423}
