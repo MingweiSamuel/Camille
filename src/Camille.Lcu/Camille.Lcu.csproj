@@ -14,7 +14,7 @@
 
   <!-- System.Collections.Immutable from NuGet. -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-	<PackageReference Include="System.Collections.Immutable" Version="1.6.0" />
+	<PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
   </ItemGroup>
 
   <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
