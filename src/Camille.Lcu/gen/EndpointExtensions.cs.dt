@@ -1,0 +1,8 @@
+﻿{{
+    const { spec } = require(it.path + '/specTransform');
+
+    const namespace = 'Lcu';
+}}
+{{= it.templates.endpointExtensions({
+    spec, namespace
+}) }}

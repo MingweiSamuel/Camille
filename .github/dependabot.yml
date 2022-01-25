@@ -5,11 +5,21 @@
 
 version: 2
 updates:
-  - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "nuget"
+    directory: "/src"
     schedule:
       interval: "daily"
-      
+    ignore:
+      - dependency-name: '*'
+        update-types:
+        - version-update:semver-minor
+        - version-update:semver-patch
+
+  - package-ecosystem: "nuget"
+    directory: "/tests"
+    schedule:
+      interval: "daily"
+
   - package-ecosystem: "npm"
     directory: "/srcgen"
     schedule:
