@@ -36,9 +36,14 @@ All API interactions are done using a `RiotApi` instance.
 `RiotApi.NewInstance` takes either just an API key (for default settings) or a `IRiotApiConfig` instance (for custom settings).
 
 ```c#
-var riotApi = RiotApi.NewInstance("RGAPI-12345678-abcd-1234-abcd-123456abcdef");
+using Camille.Enums;
+using Camille.RiotGames;
+```
+
+```c#
+var riotApi = RiotGamesApi.NewInstance("RGAPI-12345678-abcd-1234-abcd-123456abcdef");
 // OR
-var riotApi = RiotApi.NewInstance(
+var riotApi = RiotGamesApi.NewInstance(
     new RiotApiConfig.Builder("RGAPI-12345678-abcd-1234-abcd-123456abcdef")
     {
         MaxConcurrentRequests = 200,
