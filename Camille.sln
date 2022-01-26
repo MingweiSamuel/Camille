@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		common.csproj.xml = common.csproj.xml
+		src\common.csproj.xml = src\common.csproj.xml
 		.github\dependabot.yml = .github\dependabot.yml
 		LICENSE-APACHE.txt = LICENSE-APACHE.txt
 		LICENSE-MIT.txt = LICENSE-MIT.txt
@@ -60,6 +60,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{942043F9-F73F-43E2-9FA6-9201D9DCF30A}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\ci.yml = .github\workflows\ci.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{902902B8-EFA5-4881-B31B-5B8204DE7527}"
+	ProjectSection(SolutionItems) = preProject
+		src\common.csproj.xml = src\common.csproj.xml
 	EndProjectSection
 EndProject
 Global
@@ -116,6 +121,7 @@ Global
 		{F671635E-4AA2-4A6E-90B2-4FD6C1D243BE} = {69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}
 		{BDAC64D5-2084-41F8-BA27-4CE796628492} = {69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}
 		{942043F9-F73F-43E2-9FA6-9201D9DCF30A} = {BDAC64D5-2084-41F8-BA27-4CE796628492}
+		{902902B8-EFA5-4881-B31B-5B8204DE7527} = {69923FA5-A1C1-4BCB-BA3C-393B5548B6DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A22938CF-A9E4-423B-84E6-0F0939DBE423}
