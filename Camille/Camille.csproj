@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;net45;netcoreapp2.1;netstandard2.1;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;net45;netstandard2.1;netcoreapp3.1</TargetFrameworks>
     <LangVersion>8.0</LangVersion>
     <Nullable>enable</Nullable>
     <PackageId>MingweiSamuel.Camille</PackageId>
@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <!-- Camille using Newtonsoft.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netcoreapp2.1'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
     <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
   </PropertyGroup>
   <!-- Camille using System.Text.Json. -->
@@ -44,7 +44,7 @@
   </PropertyGroup>
 
   <!-- Newtonsoft & Nullable attributes from Nuget. -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45' Or '$(TargetFramework)' == 'netcoreapp2.1'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="Nullable" Version="1.1.0">
       <PrivateAssets>all</PrivateAssets>
