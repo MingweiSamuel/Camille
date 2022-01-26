@@ -52,7 +52,7 @@ var riotApi = RiotGamesApi.NewInstance(
     }.Build()
 );
 ```
-You can find all configuration options [here](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs#L7-L27).
+You can find all configuration options [here](https://github.com/MingweiSamuel/Camille/blob/gh-pages/v/3.x.x/_gen/Camille.RiotGames/RiotGamesApiConfig.cs).
 
 API methods are divided up into respective endpoints, corresponding to the left bar of the [API reference](https://developer.riotgames.com/api-methods/).
 
@@ -201,34 +201,15 @@ Match history for LugnutsK:
 
 ## Source Code
 
-Source code is located in the
-[`src/` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/src), corresponding
-to the `MingweiSamuel.Camille` namespace.
-
-[`RiotApi.cs`](https://github.com/MingweiSamuel/Camille/blob/master/Camille.RiotGames/src/RiotApi.cs) is the main
-point of entry for interfacing with Camille, however this source file is only a partial class. The remainder
-of the class is automatically generated and not commited to the `master` branch, but is viewable as described
-below in the "Generated Classes" section.
-
-Files in the
-[`src/util` directory](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/src/Util)/`MingweiSamuel.Camille.Util` namespace
-are internal classes used for sending requests and handling rate limits.
+Projects are located in [`src/`](https://github.com/MingweiSamuel/Camille/tree/release/3.x.x/src).
 
 ### Generated Classes
 
 The majority of the code in Camille is automatically generated. The generated sources are not commited to
-the master branch, but
-[are available in the `gh-pages` branch in the `_gen/` directory](https://github.com/MingweiSamuel/Camille/tree/gh-pages/_gen).
-
-[GeneratedClasses.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/GeneratedClasses.cs) contains all endpoints,
-and therefore endpoint methods, as well as all the data transfer objects corresponding to the JSON returned by the Riot API.
-
-[Champion.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/Champion.cs) is an enum for working with champion IDs.
-
-[RiotApiConfig.cs](https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs) is the configuration builder
-code for creating `RiotApi` instnaces with custom settings.
+the master branch, but can be viewed [in the `gh-pages` branch](https://github.com/MingweiSamuel/Camille/tree/gh-pages/v/3.x.x/_gen)
+or when building locally.
 
 The actual code for generating these classes is in the
-[`src/gen` folder](https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/gen).
+[`srcgen` folder](https://github.com/MingweiSamuel/Camille/tree/release/3.x.x/srcgen).
 The C#-generating code is in `*.cs.dt` files and is written in NodeJS, using
 [doT.js templates](https://olado.github.io/doT/index.html).
