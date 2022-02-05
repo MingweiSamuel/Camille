@@ -64,6 +64,24 @@ references:
   fullName.vb: Camille.Core.JsonHandler.Serialize(Of T)(T)
   nameWithType: JsonHandler.Serialize<T>(T)
   nameWithType.vb: JsonHandler.Serialize(Of T)(T)
+- uid: Camille.Core.RiotCertificateUtils
+  name: RiotCertificateUtils
+  href: api/Camille.Core.RiotCertificateUtils.html
+  commentId: T:Camille.Core.RiotCertificateUtils
+  fullName: Camille.Core.RiotCertificateUtils
+  nameWithType: RiotCertificateUtils
+- uid: Camille.Core.RiotCertificateUtils.CertificateValidationCallback
+  name: CertificateValidationCallback
+  href: api/Camille.Core.RiotCertificateUtils.html#Camille_Core_RiotCertificateUtils_CertificateValidationCallback
+  commentId: F:Camille.Core.RiotCertificateUtils.CertificateValidationCallback
+  fullName: Camille.Core.RiotCertificateUtils.CertificateValidationCallback
+  nameWithType: RiotCertificateUtils.CertificateValidationCallback
+- uid: Camille.Core.RiotCertificateUtils.RiotCertificate
+  name: RiotCertificate
+  href: api/Camille.Core.RiotCertificateUtils.html#Camille_Core_RiotCertificateUtils_RiotCertificate
+  commentId: F:Camille.Core.RiotCertificateUtils.RiotCertificate
+  fullName: Camille.Core.RiotCertificateUtils.RiotCertificate
+  nameWithType: RiotCertificateUtils.RiotCertificate
 - uid: Camille.Core.SynchronizationContextRemover
   name: SynchronizationContextRemover
   href: api/Camille.Core.SynchronizationContextRemover.html
@@ -722,6 +740,12 @@ references:
   commentId: F:Camille.Enums.Champion.RELL
   fullName: Camille.Enums.Champion.RELL
   nameWithType: Champion.RELL
+- uid: Camille.Enums.Champion.RENATAGLASC
+  name: RENATAGLASC
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_RENATAGLASC
+  commentId: F:Camille.Enums.Champion.RENATAGLASC
+  fullName: Camille.Enums.Champion.RENATAGLASC
+  nameWithType: Champion.RENATAGLASC
 - uid: Camille.Enums.Champion.RENEKTON
   name: RENEKTON
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_RENEKTON
@@ -1940,6 +1964,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_ARURF
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_ARURF
   nameWithType: Queue.SUMMONERS_RIFT_ARURF
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_ARURF_DEPRECATED_318
+  name: SUMMONERS_RIFT_ARURF_DEPRECATED_318
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_ARURF_DEPRECATED_318
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_ARURF_DEPRECATED_318
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_ARURF_DEPRECATED_318
+  nameWithType: Queue.SUMMONERS_RIFT_ARURF_DEPRECATED_318
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_BLACK_MARKET_BRAWLERS
   name: SUMMONERS_RIFT_BLACK_MARKET_BRAWLERS
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_BLACK_MARKET_BRAWLERS
@@ -2066,6 +2096,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_ONE_FOR_ALL_DEPRECATED_70
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_ONE_FOR_ALL_DEPRECATED_70
   nameWithType: Queue.SUMMONERS_RIFT_ONE_FOR_ALL_DEPRECATED_70
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_PICK_URF
+  name: SUMMONERS_RIFT_PICK_URF
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_PICK_URF
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_PICK_URF
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_PICK_URF
+  nameWithType: Queue.SUMMONERS_RIFT_PICK_URF
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_SNOW_ARURF
   name: SUMMONERS_RIFT_SNOW_ARURF
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_SNOW_ARURF
@@ -2102,12 +2138,6 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_ULTRA_RAPID_FIRE
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_ULTRA_RAPID_FIRE
   nameWithType: Queue.SUMMONERS_RIFT_ULTRA_RAPID_FIRE
-- uid: Camille.Enums.Queue.SUMMONERS_RIFT_URF
-  name: SUMMONERS_RIFT_URF
-  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_URF
-  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_URF
-  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_URF
-  nameWithType: Queue.SUMMONERS_RIFT_URF
 - uid: Camille.Enums.Queue.TWISTED_TREELINE_3V3_BLIND_PICK
   name: TWISTED_TREELINE_3V3_BLIND_PICK
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_TWISTED_TREELINE_3V3_BLIND_PICK
@@ -2410,12 +2440,6 @@ references:
   commentId: F:Camille.Lcu.Endpoints.base
   fullName: Camille.Lcu.Endpoints.base
   nameWithType: Endpoints.base
-- uid: Camille.Lcu.Endpoints.HttpMethodPatch
-  name: HttpMethodPatch
-  href: api/Camille.Lcu.Endpoints.html#Camille_Lcu_Endpoints_HttpMethodPatch
-  commentId: F:Camille.Lcu.Endpoints.HttpMethodPatch
-  fullName: Camille.Lcu.Endpoints.HttpMethodPatch
-  nameWithType: Endpoints.HttpMethodPatch
 - uid: Camille.Lcu.Global
   name: Camille.Lcu.Global
   href: api/Camille.Lcu.Global.html
@@ -2851,13 +2875,13 @@ references:
   commentId: T:Camille.Lcu.ILcuApi
   fullName: Camille.Lcu.ILcuApi
   nameWithType: ILcuApi
-- uid: Camille.Lcu.ILcuApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.Lcu.ILcuApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.ILcuApi.html#Camille_Lcu_ILcuApi_Send_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.ILcuApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.Lcu.ILcuApi.html#Camille_Lcu_ILcuApi_Send_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.ILcuApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.ILcuApi.Send(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.ILcuApi.Send(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.Lcu.ILcuApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.ILcuApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: ILcuApi.Send(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: ILcuApi.Send(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.ILcuApi.Send*
@@ -2867,13 +2891,13 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.ILcuApi.Send
   nameWithType: ILcuApi.Send
-- uid: Camille.Lcu.ILcuApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.Lcu.ILcuApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.ILcuApi.html#Camille_Lcu_ILcuApi_Send__1_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.ILcuApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.Lcu.ILcuApi.html#Camille_Lcu_ILcuApi_Send__1_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.ILcuApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.ILcuApi.Send<T>(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.ILcuApi.Send(Of T)(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.Lcu.ILcuApi.Send<T>(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.ILcuApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: ILcuApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: ILcuApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LcuApi
@@ -2914,13 +2938,13 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LcuApi.Dispose
   nameWithType: LcuApi.Dispose
-- uid: Camille.Lcu.LcuApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.Lcu.LcuApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi_Send_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LcuApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi_Send_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LcuApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LcuApi.Send(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LcuApi.Send(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.Lcu.LcuApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LcuApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: LcuApi.Send(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: LcuApi.Send(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LcuApi.Send*
@@ -2930,13 +2954,13 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LcuApi.Send
   nameWithType: LcuApi.Send
-- uid: Camille.Lcu.LcuApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.Lcu.LcuApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi_Send__1_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LcuApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi_Send__1_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LcuApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LcuApi.Send<T>(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LcuApi.Send(Of T)(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.Lcu.LcuApi.Send<T>(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LcuApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: LcuApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: LcuApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.LcuApi.wamp
@@ -3078,11 +3102,11 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LcuRequester.Dispose
   nameWithType: LcuRequester.Dispose
-- uid: Camille.Lcu.LcuRequester.SendAsync(HttpRequestMessage,System.Threading.CancellationToken)
+- uid: Camille.Lcu.LcuRequester.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   name: SendAsync(HttpRequestMessage, CancellationToken)
-  href: api/Camille.Lcu.LcuRequester.html#Camille_Lcu_LcuRequester_SendAsync_HttpRequestMessage_System_Threading_CancellationToken_
-  commentId: M:Camille.Lcu.LcuRequester.SendAsync(HttpRequestMessage,System.Threading.CancellationToken)
-  fullName: Camille.Lcu.LcuRequester.SendAsync(HttpRequestMessage, System.Threading.CancellationToken)
+  href: api/Camille.Lcu.LcuRequester.html#Camille_Lcu_LcuRequester_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:Camille.Lcu.LcuRequester.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: Camille.Lcu.LcuRequester.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
   nameWithType: LcuRequester.SendAsync(HttpRequestMessage, CancellationToken)
 - uid: Camille.Lcu.LcuRequester.SendAsync*
   name: SendAsync
@@ -8445,13 +8469,13 @@ references:
   commentId: E:Camille.Lcu.Util.EventWebSocket.OnMessage
   fullName: Camille.Lcu.Util.EventWebSocket.OnMessage
   nameWithType: EventWebSocket.OnMessage
-- uid: Camille.Lcu.Util.EventWebSocket.SendAsync(ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
   name: SendAsync(ReadOnlyMemory<Byte>, WebSocketMessageType, Boolean, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_SendAsync_ReadOnlyMemory_System_Byte__System_Net_WebSockets_WebSocketMessageType_System_Boolean_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.EventWebSocket.SendAsync(ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_SendAsync_System_ReadOnlyMemory_System_Byte__System_Net_WebSockets_WebSocketMessageType_System_Boolean_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
   name.vb: SendAsync(ReadOnlyMemory(Of Byte), WebSocketMessageType, Boolean, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.EventWebSocket.SendAsync(ReadOnlyMemory<System.Byte>, System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.EventWebSocket.SendAsync(ReadOnlyMemory(Of System.Byte), System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory<System.Byte>, System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory(Of System.Byte), System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: EventWebSocket.SendAsync(ReadOnlyMemory<Byte>, WebSocketMessageType, Boolean, Nullable<CancellationToken>)
   nameWithType.vb: EventWebSocket.SendAsync(ReadOnlyMemory(Of Byte), WebSocketMessageType, Boolean, Nullable(Of CancellationToken))
 - uid: Camille.Lcu.Util.EventWebSocket.SendAsync*
@@ -8552,15 +8576,15 @@ references:
   commentId: E:Camille.Lcu.Util.Wamp.OnDisconnect
   fullName: Camille.Lcu.Util.Wamp.OnDisconnect
   nameWithType: Wamp.OnDisconnect
-- uid: Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{Newtonsoft.Json.Linq.JToken,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
-  name: Subscribe(String, Func<Newtonsoft.Json.Linq.JToken, Task<HandlerResult>>, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Subscribe_System_String_System_Func_Newtonsoft_Json_Linq_JToken_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{Newtonsoft.Json.Linq.JToken,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
-  name.vb: Subscribe(String, Func(Of Newtonsoft.Json.Linq.JToken, Task(Of HandlerResult)), Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func<Newtonsoft.Json.Linq.JToken, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func(Of Newtonsoft.Json.Linq.JToken, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: Wamp.Subscribe(String, Func<Newtonsoft.Json.Linq.JToken, Task<HandlerResult>>, Nullable<CancellationToken>)
-  nameWithType.vb: Wamp.Subscribe(String, Func(Of Newtonsoft.Json.Linq.JToken, Task(Of HandlerResult)), Nullable(Of CancellationToken))
+- uid: Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
+  name: Subscribe(String, Func<JsonElement, Task<HandlerResult>>, Nullable<CancellationToken>)
+  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Subscribe_System_String_System_Func_System_Text_Json_JsonElement_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
+  name.vb: Subscribe(String, Func(Of JsonElement, Task(Of HandlerResult)), Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func<System.Text.Json.JsonElement, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func(Of System.Text.Json.JsonElement, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: Wamp.Subscribe(String, Func<JsonElement, Task<HandlerResult>>, Nullable<CancellationToken>)
+  nameWithType.vb: Wamp.Subscribe(String, Func(Of JsonElement, Task(Of HandlerResult)), Nullable(Of CancellationToken))
 - uid: Camille.Lcu.Util.Wamp.Subscribe*
   name: Subscribe
   href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Subscribe_
@@ -8568,15 +8592,15 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.Util.Wamp.Subscribe
   nameWithType: Wamp.Subscribe
-- uid: Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{Newtonsoft.Json.Linq.JToken,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
-  name: Unsubscribe(String, Func<Newtonsoft.Json.Linq.JToken, Task<HandlerResult>>)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Unsubscribe_System_String_System_Func_Newtonsoft_Json_Linq_JToken_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___
-  commentId: M:Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{Newtonsoft.Json.Linq.JToken,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
-  name.vb: Unsubscribe(String, Func(Of Newtonsoft.Json.Linq.JToken, Task(Of HandlerResult)))
-  fullName: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func<Newtonsoft.Json.Linq.JToken, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>)
-  fullName.vb: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func(Of Newtonsoft.Json.Linq.JToken, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)))
-  nameWithType: Wamp.Unsubscribe(String, Func<Newtonsoft.Json.Linq.JToken, Task<HandlerResult>>)
-  nameWithType.vb: Wamp.Unsubscribe(String, Func(Of Newtonsoft.Json.Linq.JToken, Task(Of HandlerResult)))
+- uid: Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
+  name: Unsubscribe(String, Func<JsonElement, Task<HandlerResult>>)
+  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Unsubscribe_System_String_System_Func_System_Text_Json_JsonElement_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___
+  commentId: M:Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
+  name.vb: Unsubscribe(String, Func(Of JsonElement, Task(Of HandlerResult)))
+  fullName: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func<System.Text.Json.JsonElement, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>)
+  fullName.vb: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func(Of System.Text.Json.JsonElement, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)))
+  nameWithType: Wamp.Unsubscribe(String, Func<JsonElement, Task<HandlerResult>>)
+  nameWithType.vb: Wamp.Unsubscribe(String, Func(Of JsonElement, Task(Of HandlerResult)))
 - uid: Camille.Lcu.Util.Wamp.Unsubscribe*
   name: Unsubscribe
   href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Unsubscribe_
@@ -8621,13 +8645,13 @@ references:
   commentId: T:Camille.LolGame.ILolGameApi
   fullName: Camille.LolGame.ILolGameApi
   nameWithType: ILolGameApi
-- uid: Camille.LolGame.ILolGameApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.LolGame.ILolGameApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.LolGame.ILolGameApi.html#Camille_LolGame_ILolGameApi_Send_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.LolGame.ILolGameApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.LolGame.ILolGameApi.html#Camille_LolGame_ILolGameApi_Send_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.LolGame.ILolGameApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.LolGame.ILolGameApi.Send(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.LolGame.ILolGameApi.Send(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.LolGame.ILolGameApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.LolGame.ILolGameApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: ILolGameApi.Send(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: ILolGameApi.Send(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.LolGame.ILolGameApi.Send*
@@ -8637,13 +8661,13 @@ references:
   isSpec: "True"
   fullName: Camille.LolGame.ILolGameApi.Send
   nameWithType: ILolGameApi.Send
-- uid: Camille.LolGame.ILolGameApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.LolGame.ILolGameApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.LolGame.ILolGameApi.html#Camille_LolGame_ILolGameApi_Send__1_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.LolGame.ILolGameApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.LolGame.ILolGameApi.html#Camille_LolGame_ILolGameApi_Send__1_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.LolGame.ILolGameApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.LolGame.ILolGameApi.Send<T>(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.LolGame.ILolGameApi.Send(Of T)(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.LolGame.ILolGameApi.Send<T>(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.LolGame.ILolGameApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: ILolGameApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: ILolGameApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.LolGame.LiveClientData
@@ -11541,13 +11565,13 @@ references:
   isSpec: "True"
   fullName: Camille.LolGame.LolGameApi.LolGameApi
   nameWithType: LolGameApi.LolGameApi
-- uid: Camille.LolGame.LolGameApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.LolGame.LolGameApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.LolGame.LolGameApi.html#Camille_LolGame_LolGameApi_Send_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.LolGame.LolGameApi.Send(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.LolGame.LolGameApi.html#Camille_LolGame_LolGameApi_Send_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.LolGame.LolGameApi.Send(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.LolGame.LolGameApi.Send(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.LolGame.LolGameApi.Send(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.LolGame.LolGameApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.LolGame.LolGameApi.Send(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: LolGameApi.Send(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: LolGameApi.Send(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.LolGame.LolGameApi.Send*
@@ -11557,13 +11581,13 @@ references:
   isSpec: "True"
   fullName: Camille.LolGame.LolGameApi.Send
   nameWithType: LolGameApi.Send
-- uid: Camille.LolGame.LolGameApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+- uid: Camille.LolGame.LolGameApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name: Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
-  href: api/Camille.LolGame.LolGameApi.html#Camille_LolGame_LolGameApi_Send__1_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.LolGame.LolGameApi.Send``1(HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
+  href: api/Camille.LolGame.LolGameApi.html#Camille_LolGame_LolGameApi_Send__1_System_Net_Http_HttpRequestMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.LolGame.LolGameApi.Send``1(System.Net.Http.HttpRequestMessage,System.Nullable{System.Threading.CancellationToken})
   name.vb: Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
-  fullName: Camille.LolGame.LolGameApi.Send<T>(HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.LolGame.LolGameApi.Send(Of T)(HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
+  fullName: Camille.LolGame.LolGameApi.Send<T>(System.Net.Http.HttpRequestMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.LolGame.LolGameApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: LolGameApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: LolGameApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
 - uid: Camille.LolGame.LolGameConfig
@@ -11692,42 +11716,30 @@ references:
   commentId: T:Camille.LolGame.LolGameException
   fullName: Camille.LolGame.LolGameException
   nameWithType: LolGameException
-- uid: Camille.LolGame.LolGameException.#ctor(System.Exception,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name: LolGameException(Exception, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_Exception_System_Nullable_HttpResponseMessage__Camille_LolGame_LolGameErrorMessage_System_String_
-  commentId: M:Camille.LolGame.LolGameException.#ctor(System.Exception,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name.vb: LolGameException(Exception, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-  fullName: Camille.LolGame.LolGameException.LolGameException(System.Exception, System.Nullable<HttpResponseMessage>, Camille.LolGame.LolGameErrorMessage, System.String)
-  fullName.vb: Camille.LolGame.LolGameException.LolGameException(System.Exception, System.Nullable(Of HttpResponseMessage), Camille.LolGame.LolGameErrorMessage, System.String)
-  nameWithType: LolGameException.LolGameException(Exception, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  nameWithType.vb: LolGameException.LolGameException(Exception, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-- uid: Camille.LolGame.LolGameException.#ctor(System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name: LolGameException(Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_Nullable_HttpResponseMessage__Camille_LolGame_LolGameErrorMessage_System_String_
-  commentId: M:Camille.LolGame.LolGameException.#ctor(System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name.vb: LolGameException(Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-  fullName: Camille.LolGame.LolGameException.LolGameException(System.Nullable<HttpResponseMessage>, Camille.LolGame.LolGameErrorMessage, System.String)
-  fullName.vb: Camille.LolGame.LolGameException.LolGameException(System.Nullable(Of HttpResponseMessage), Camille.LolGame.LolGameErrorMessage, System.String)
-  nameWithType: LolGameException.LolGameException(Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  nameWithType.vb: LolGameException.LolGameException(Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-- uid: Camille.LolGame.LolGameException.#ctor(System.String,System.Exception,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name: LolGameException(String, Exception, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_String_System_Exception_System_Nullable_HttpResponseMessage__Camille_LolGame_LolGameErrorMessage_System_String_
-  commentId: M:Camille.LolGame.LolGameException.#ctor(System.String,System.Exception,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name.vb: LolGameException(String, Exception, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-  fullName: Camille.LolGame.LolGameException.LolGameException(System.String, System.Exception, System.Nullable<HttpResponseMessage>, Camille.LolGame.LolGameErrorMessage, System.String)
-  fullName.vb: Camille.LolGame.LolGameException.LolGameException(System.String, System.Exception, System.Nullable(Of HttpResponseMessage), Camille.LolGame.LolGameErrorMessage, System.String)
-  nameWithType: LolGameException.LolGameException(String, Exception, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  nameWithType.vb: LolGameException.LolGameException(String, Exception, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-- uid: Camille.LolGame.LolGameException.#ctor(System.String,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name: LolGameException(String, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_String_System_Nullable_HttpResponseMessage__Camille_LolGame_LolGameErrorMessage_System_String_
-  commentId: M:Camille.LolGame.LolGameException.#ctor(System.String,System.Nullable{HttpResponseMessage},Camille.LolGame.LolGameErrorMessage,System.String)
-  name.vb: LolGameException(String, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
-  fullName: Camille.LolGame.LolGameException.LolGameException(System.String, System.Nullable<HttpResponseMessage>, Camille.LolGame.LolGameErrorMessage, System.String)
-  fullName.vb: Camille.LolGame.LolGameException.LolGameException(System.String, System.Nullable(Of HttpResponseMessage), Camille.LolGame.LolGameErrorMessage, System.String)
-  nameWithType: LolGameException.LolGameException(String, Nullable<HttpResponseMessage>, LolGameErrorMessage, String)
-  nameWithType.vb: LolGameException.LolGameException(String, Nullable(Of HttpResponseMessage), LolGameErrorMessage, String)
+- uid: Camille.LolGame.LolGameException.#ctor(System.Exception,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  name: LolGameException(Exception, HttpResponseMessage, LolGameErrorMessage, String)
+  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_Exception_System_Net_Http_HttpResponseMessage_Camille_LolGame_LolGameErrorMessage_System_String_
+  commentId: M:Camille.LolGame.LolGameException.#ctor(System.Exception,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  fullName: Camille.LolGame.LolGameException.LolGameException(System.Exception, System.Net.Http.HttpResponseMessage, Camille.LolGame.LolGameErrorMessage, System.String)
+  nameWithType: LolGameException.LolGameException(Exception, HttpResponseMessage, LolGameErrorMessage, String)
+- uid: Camille.LolGame.LolGameException.#ctor(System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  name: LolGameException(HttpResponseMessage, LolGameErrorMessage, String)
+  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_Net_Http_HttpResponseMessage_Camille_LolGame_LolGameErrorMessage_System_String_
+  commentId: M:Camille.LolGame.LolGameException.#ctor(System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  fullName: Camille.LolGame.LolGameException.LolGameException(System.Net.Http.HttpResponseMessage, Camille.LolGame.LolGameErrorMessage, System.String)
+  nameWithType: LolGameException.LolGameException(HttpResponseMessage, LolGameErrorMessage, String)
+- uid: Camille.LolGame.LolGameException.#ctor(System.String,System.Exception,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  name: LolGameException(String, Exception, HttpResponseMessage, LolGameErrorMessage, String)
+  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_String_System_Exception_System_Net_Http_HttpResponseMessage_Camille_LolGame_LolGameErrorMessage_System_String_
+  commentId: M:Camille.LolGame.LolGameException.#ctor(System.String,System.Exception,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  fullName: Camille.LolGame.LolGameException.LolGameException(System.String, System.Exception, System.Net.Http.HttpResponseMessage, Camille.LolGame.LolGameErrorMessage, System.String)
+  nameWithType: LolGameException.LolGameException(String, Exception, HttpResponseMessage, LolGameErrorMessage, String)
+- uid: Camille.LolGame.LolGameException.#ctor(System.String,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  name: LolGameException(String, HttpResponseMessage, LolGameErrorMessage, String)
+  href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_System_String_System_Net_Http_HttpResponseMessage_Camille_LolGame_LolGameErrorMessage_System_String_
+  commentId: M:Camille.LolGame.LolGameException.#ctor(System.String,System.Net.Http.HttpResponseMessage,Camille.LolGame.LolGameErrorMessage,System.String)
+  fullName: Camille.LolGame.LolGameException.LolGameException(System.String, System.Net.Http.HttpResponseMessage, Camille.LolGame.LolGameErrorMessage, System.String)
+  nameWithType: LolGameException.LolGameException(String, HttpResponseMessage, LolGameErrorMessage, String)
 - uid: Camille.LolGame.LolGameException.#ctor*
   name: LolGameException
   href: api/Camille.LolGame.LolGameException.html#Camille_LolGame_LolGameException__ctor_

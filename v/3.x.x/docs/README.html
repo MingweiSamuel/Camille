@@ -8,7 +8,7 @@
     <title>Camille </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Camille ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -88,9 +88,12 @@ Data classes are automatically generated from the
 <h2 id="usage">Usage</h2>
 <p>All API interactions are done using a <code>RiotApi</code> instance.
 <code>RiotApi.NewInstance</code> takes either just an API key (for default settings) or a <code>IRiotApiConfig</code> instance (for custom settings).</p>
-<pre><code class="lang-c#">var riotApi = RiotApi.NewInstance(&quot;RGAPI-12345678-abcd-1234-abcd-123456abcdef&quot;);
+<pre><code class="lang-c#">using Camille.Enums;
+using Camille.RiotGames;
+</code></pre>
+<pre><code class="lang-c#">var riotApi = RiotGamesApi.NewInstance(&quot;RGAPI-12345678-abcd-1234-abcd-123456abcdef&quot;);
 // OR
-var riotApi = RiotApi.NewInstance(
+var riotApi = RiotGamesApi.NewInstance(
     new RiotApiConfig.Builder(&quot;RGAPI-12345678-abcd-1234-abcd-123456abcdef&quot;)
     {
         MaxConcurrentRequests = 200,
@@ -99,7 +102,7 @@ var riotApi = RiotApi.NewInstance(
     }.Build()
 );
 </code></pre>
-<p>You can find all configuration options <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs#L7-L27">here</a>.</p>
+<p>You can find all configuration options <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v/3.x.x/_gen/Camille.RiotGames/RiotGamesApiConfig.cs">here</a>.</p>
 <p>API methods are divided up into respective endpoints, corresponding to the left bar of the <a href="https://developer.riotgames.com/api-methods/">API reference</a>.</p>
 <h3 id="example">Example</h3>
 <h4 id="print-summoners-top-champions">Print Summoner's Top Champions</h4>
@@ -236,27 +239,13 @@ Match history for LugnutsK:
 <h3 id="api-reference">API Reference</h3>
 <p><a href="http://www.mingweisamuel.com/Camille/">Automatically generated API Reference</a></p>
 <h2 id="source-code">Source Code</h2>
-<p>Source code is located in the
-<a href="https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/src"><code>src/</code> directory</a>, corresponding
-to the <code>MingweiSamuel.Camille</code> namespace.</p>
-<p><a href="https://github.com/MingweiSamuel/Camille/blob/master/Camille.RiotGames/src/RiotApi.cs"><code>RiotApi.cs</code></a> is the main
-point of entry for interfacing with Camille, however this source file is only a partial class. The remainder
-of the class is automatically generated and not commited to the <code>master</code> branch, but is viewable as described
-below in the &quot;Generated Classes&quot; section.</p>
-<p>Files in the
-<a href="https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/src/Util"><code>src/util</code> directory</a>/<code>MingweiSamuel.Camille.Util</code> namespace
-are internal classes used for sending requests and handling rate limits.</p>
+<p>Projects are located in <a href="https://github.com/MingweiSamuel/Camille/tree/release/3.x.x/src"><code>src/</code></a>.</p>
 <h3 id="generated-classes">Generated Classes</h3>
 <p>The majority of the code in Camille is automatically generated. The generated sources are not commited to
-the master branch, but
-<a href="https://github.com/MingweiSamuel/Camille/tree/gh-pages/_gen">are available in the <code>gh-pages</code> branch in the <code>_gen/</code> directory</a>.</p>
-<p><a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/GeneratedClasses.cs">GeneratedClasses.cs</a> contains all endpoints,
-and therefore endpoint methods, as well as all the data transfer objects corresponding to the JSON returned by the Riot API.</p>
-<p><a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/Champion.cs">Champion.cs</a> is an enum for working with champion IDs.</p>
-<p><a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/_gen/RiotApiConfig.cs">RiotApiConfig.cs</a> is the configuration builder
-code for creating <code>RiotApi</code> instnaces with custom settings.</p>
+the master branch, but can be viewed <a href="https://github.com/MingweiSamuel/Camille/tree/gh-pages/v/3.x.x/_gen">in the <code>gh-pages</code> branch</a>
+or when building locally.</p>
 <p>The actual code for generating these classes is in the
-<a href="https://github.com/MingweiSamuel/Camille/tree/master/Camille.RiotGames/gen"><code>src/gen</code> folder</a>.
+<a href="https://github.com/MingweiSamuel/Camille/tree/release/3.x.x/srcgen"><code>srcgen</code> folder</a>.
 The C#-generating code is in <code>*.cs.dt</code> files and is written in NodeJS, using
 <a href="https://olado.github.io/doT/index.html">doT.js templates</a>.</p>
 </article>

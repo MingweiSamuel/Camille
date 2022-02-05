@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LeagueLadderInfo
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,9 +90,6 @@
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
@@ -100,6 +97,9 @@
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Camille.Lcu.LolRanked.html">Camille.Lcu.LolRanked</a></h6>
@@ -112,10 +112,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo__ctor.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo__ctor.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L418">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L418">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo__ctor_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.#ctor*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo__ctor" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.#ctor">LeagueLadderInfo()</h4>
@@ -129,10 +129,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo__AdditionalProperties.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo._AdditionalProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo__AdditionalProperties.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo._AdditionalProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L435">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L435">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo__AdditionalProperties_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo._AdditionalProperties*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo__AdditionalProperties" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo._AdditionalProperties">_AdditionalProperties</h4>
@@ -141,7 +141,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; _AdditionalProperties { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonExtensionData]
+public Dictionary&lt;string, object&gt; _AdditionalProperties { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,10 +161,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_Divisions.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.Divisions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_Divisions.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.Divisions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L421">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L421">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_Divisions_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.Divisions*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_Divisions" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.Divisions">Divisions</h4>
@@ -171,7 +172,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueDivisionInfo[] Divisions { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;divisions&quot;)]
+public LeagueDivisionInfo[] Divisions { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,10 +192,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_NextApexUpdateMillis.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.NextApexUpdateMillis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_NextApexUpdateMillis.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.NextApexUpdateMillis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L423">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L423">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_NextApexUpdateMillis_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.NextApexUpdateMillis*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_NextApexUpdateMillis" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.NextApexUpdateMillis">NextApexUpdateMillis</h4>
@@ -201,7 +203,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long? NextApexUpdateMillis { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;nextApexUpdateMillis&quot;)]
+public long? NextApexUpdateMillis { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -220,10 +223,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_ProvisionalGameThreshold.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.ProvisionalGameThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_ProvisionalGameThreshold.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.ProvisionalGameThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L425">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L425">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_ProvisionalGameThreshold_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.ProvisionalGameThreshold*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_ProvisionalGameThreshold" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.ProvisionalGameThreshold">ProvisionalGameThreshold</h4>
@@ -231,7 +234,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? ProvisionalGameThreshold { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;provisionalGameThreshold&quot;)]
+public int? ProvisionalGameThreshold { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -250,10 +254,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_QueueType.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.QueueType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_QueueType.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.QueueType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L427">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L427">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_QueueType_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.QueueType*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_QueueType" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.QueueType">QueueType</h4>
@@ -261,7 +265,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Enums.QueueType? QueueType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;queueType&quot;)]
+public Enums.QueueType? QueueType { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,10 +285,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_RequestedRankedEntry.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.RequestedRankedEntry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_RequestedRankedEntry.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.RequestedRankedEntry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L429">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L429">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_RequestedRankedEntry_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.RequestedRankedEntry*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_RequestedRankedEntry" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.RequestedRankedEntry">RequestedRankedEntry</h4>
@@ -291,7 +296,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LeagueStanding RequestedRankedEntry { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;requestedRankedEntry&quot;)]
+public LeagueStanding RequestedRankedEntry { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -310,10 +316,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_Tier.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.Tier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_Tier.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.Tier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L431">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L431">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_Tier_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.Tier*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_Tier" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.Tier">Tier</h4>
@@ -321,7 +327,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Enums.Tier? Tier { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;tier&quot;)]
+public Enums.Tier? Tier { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -342,10 +349,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_ToString.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo_ToString.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L439">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L439">View Source</a>
   </span>
   <a id="Camille_Lcu_LolRanked_LeagueLadderInfo_ToString_" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.ToString*"></a>
   <h4 id="Camille_Lcu_LolRanked_LeagueLadderInfo_ToString" data-uid="Camille.Lcu.LolRanked.LeagueLadderInfo.ToString">ToString()</h4>
@@ -380,10 +387,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/new/gh-pages/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_LolRanked_LeagueLadderInfo.md&amp;value=---%0Auid%3A%20Camille.Lcu.LolRanked.LeagueLadderInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/gh-pages/v\3.x.x\_gen\Camille.Lcu\DataClasses.cs/#L414" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/gen/DataClasses.cs/#L414" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
