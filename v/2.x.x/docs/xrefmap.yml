@@ -1931,6 +1931,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.RELL
   fullName: MingweiSamuel.Camille.Enums.Champion.RELL
   nameWithType: Champion.RELL
+- uid: MingweiSamuel.Camille.Enums.Champion.RENATA_GLASC
+  name: RENATA_GLASC
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_RENATA_GLASC
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.RENATA_GLASC
+  fullName: MingweiSamuel.Camille.Enums.Champion.RENATA_GLASC
+  nameWithType: Champion.RENATA_GLASC
 - uid: MingweiSamuel.Camille.Enums.Champion.RENEKTON
   name: RENEKTON
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_RENEKTON
@@ -2885,6 +2891,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Rell
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Rell
   nameWithType: ChampionId.Rell
+- uid: MingweiSamuel.Camille.Enums.ChampionId.RenataGlasc
+  name: RenataGlasc
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_RenataGlasc
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.RenataGlasc
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.RenataGlasc
+  nameWithType: ChampionId.RenataGlasc
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Renekton
   name: Renekton
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Renekton
