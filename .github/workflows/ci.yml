@@ -37,6 +37,14 @@ jobs:
           submodules: true
           ref: ${{ matrix.ref }}
 
+      - name: Install & Start League Client
+        id: league-client
+        uses: magisteriis/setup-league-client@ea5ea0748d459cb8e4bade9d50d2f81b70f009f7
+        with:
+          username: ${{ secrets.LOL_USERNAME }}
+          password: ${{ secrets.LOL_PASSWORD }}
+          region: NA
+
       - name: Set CAMI Environment Variables
         shell: pwsh
         env:
