@@ -6,7 +6,8 @@ const lcuTypeToCamilleEnum = {
   "LolRankedLeagueDivision": { "x-enum": "division", "x-type": "string" }
 };
 const endpoints = [
-  "/lol-login/v1/session",
+  "/lol-login/v1/account-state",
+
   "/riotclient/region-locale",
   "/riotclient/kill-and-restart-ux",
   "/riotclient/kill-ux",

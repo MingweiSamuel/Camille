@@ -29,5 +29,10 @@ namespace Camille.Lcu
         /// This should almost certainly be left to the default ("127.0.0.1").
         /// </summary>
         public string Hostname = "127.0.0.1";
+
+        /// <summary>
+        /// Strategy for finding the (possibly changing) lockfile.
+        /// </summary>
+        public ILockfileProvider LockfileProvider = new AutomaticLockfileProvider(); // TODO
     }
 }

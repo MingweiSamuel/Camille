@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Camille.Lcu
 {
-    public class Lockfile
+    public class Lockfile : ILockfileProvider
     {
         public readonly string ProcessName;
         public readonly ulong Pid;
@@ -20,8 +22,12 @@ namespace Camille.Lcu
             Password = password;
             Protocol = protocol;
         }
+        public Task<Lockfile> GetLockfile(CancellationToken token)
+        {
+            return Task.FromResult(this);
+        }
 
-        public static Lockfile GetFromProcess(string processName = "LeagueClient")
+        public static string GetLockfilePathFromProcess(string processName = "LeagueClient")
         {
             var processes = Process.GetProcessesByName(processName);
             if (1 != processes.Length)
@@ -34,7 +40,12 @@ namespace Camille.Lcu
             var path = Path.GetDirectoryName(process.MainModule.FileName);
             Debug.Assert(null != path);
             var lockfilePath = Path.Combine(path, "lockfile");
-            return ParseFile(lockfilePath);
+            return lockfilePath;
+        }
+
+        public static Lockfile GetFromProcess(string processName = "LeagueClient")
+        {
+            return ParseFile(GetLockfilePathFromProcess(processName));
         }
 
         public static Lockfile ParseFile(string lockfilePath)

@@ -15,12 +15,14 @@ namespace Camille.Lcu
         private const string USERNAME = "riot";
 
         private readonly ITokenBucket? _tokenBucket;
+        private readonly string _hostname;
 
         private readonly SemaphoreSlim? _concurrentRequestSemaphore;
         private readonly HttpClientHandler _clientHandler;
         private readonly HttpClient _client;
+        private readonly ILockfileProvider _lockfileProvider;
 
-        public LcuRequester(Lockfile lockfile, LcuConfig config)
+        public LcuRequester(LcuConfig config)
         {
             _tokenBucket = config.TokenBucketProvider();
 
@@ -34,15 +36,23 @@ namespace Camille.Lcu
                 ServerCertificateCustomValidationCallback = (req, cert, chain, polErrs) =>
                     config.CertificateValidationCallback(req, cert, chain, polErrs)
             };
-
             _client = new HttpClient(_clientHandler);
-            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
-                "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
-            _client.BaseAddress = new UriBuilder(lockfile.Protocol, config.Hostname, lockfile.Port).Uri;
+            _hostname = config.Hostname;
+
+            _lockfileProvider = config.LockfileProvider;
         }
 
         public async Task<string> SendAsync(HttpRequestMessage request, CancellationToken token)
         {
+            {
+                var lockfile = await _lockfileProvider.GetLockfile(token);
+                if (null == lockfile)
+                    throw new InvalidOperationException("Lockfile not available.");
+                request.RequestUri = new UriBuilder(lockfile.Protocol, _hostname, lockfile.Port).Uri;
+                request.Headers.Authorization = new AuthenticationHeaderValue(
+                    "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
+            }
+
             if (null != _concurrentRequestSemaphore)
                 await _concurrentRequestSemaphore.WaitAsync(token);
             try

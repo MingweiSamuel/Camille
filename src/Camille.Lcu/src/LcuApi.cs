@@ -1,5 +1,4 @@
-﻿using Camille.Lcu.Util;
-using System;
+﻿using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -15,15 +14,19 @@ namespace Camille.Lcu
     public class LcuApi : ILcuApi, IDisposable
     {
         private readonly LcuRequester _requester;
-        public readonly Wamp wamp;
 
-        public LcuApi(Lockfile lockfile) : this(lockfile, new LcuConfig())
-        {}
+        public LcuApi() : this(new LcuConfig())
+        { }
 
-        public LcuApi(Lockfile lockfile, LcuConfig config) : base()
+        public LcuApi(Lockfile lockfile) : this(new LcuConfig
         {
-            _requester = new LcuRequester(lockfile, config);
-            wamp = new Wamp(lockfile, config);
+            LockfileProvider = lockfile,
+        })
+        { }
+
+        public LcuApi(LcuConfig config)
+        {
+            _requester = new LcuRequester(config);
         }
 
         /// <inheritdoc/>
@@ -48,7 +51,6 @@ namespace Camille.Lcu
         public void Dispose()
         {
             _requester.Dispose();
-            wamp.Dispose();
         }
     }
 }
