@@ -2415,6 +2415,63 @@ references:
   commentId: N:Camille.Lcu
   fullName: Camille.Lcu
   nameWithType: Camille.Lcu
+- uid: Camille.Lcu.AutomaticLockfileProvider
+  name: AutomaticLockfileProvider
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html
+  commentId: T:Camille.Lcu.AutomaticLockfileProvider
+  fullName: Camille.Lcu.AutomaticLockfileProvider
+  nameWithType: AutomaticLockfileProvider
+- uid: Camille.Lcu.AutomaticLockfileProvider.#ctor
+  name: AutomaticLockfileProvider()
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider__ctor
+  commentId: M:Camille.Lcu.AutomaticLockfileProvider.#ctor
+  fullName: Camille.Lcu.AutomaticLockfileProvider.AutomaticLockfileProvider()
+  nameWithType: AutomaticLockfileProvider.AutomaticLockfileProvider()
+- uid: Camille.Lcu.AutomaticLockfileProvider.#ctor(System.String)
+  name: AutomaticLockfileProvider(String)
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider__ctor_System_String_
+  commentId: M:Camille.Lcu.AutomaticLockfileProvider.#ctor(System.String)
+  fullName: Camille.Lcu.AutomaticLockfileProvider.AutomaticLockfileProvider(System.String)
+  nameWithType: AutomaticLockfileProvider.AutomaticLockfileProvider(String)
+- uid: Camille.Lcu.AutomaticLockfileProvider.#ctor(System.TimeSpan)
+  name: AutomaticLockfileProvider(TimeSpan)
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider__ctor_System_TimeSpan_
+  commentId: M:Camille.Lcu.AutomaticLockfileProvider.#ctor(System.TimeSpan)
+  fullName: Camille.Lcu.AutomaticLockfileProvider.AutomaticLockfileProvider(System.TimeSpan)
+  nameWithType: AutomaticLockfileProvider.AutomaticLockfileProvider(TimeSpan)
+- uid: Camille.Lcu.AutomaticLockfileProvider.#ctor*
+  name: AutomaticLockfileProvider
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider__ctor_
+  commentId: Overload:Camille.Lcu.AutomaticLockfileProvider.#ctor
+  isSpec: "True"
+  fullName: Camille.Lcu.AutomaticLockfileProvider.AutomaticLockfileProvider
+  nameWithType: AutomaticLockfileProvider.AutomaticLockfileProvider
+- uid: Camille.Lcu.AutomaticLockfileProvider.Dispose
+  name: Dispose()
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider_Dispose
+  commentId: M:Camille.Lcu.AutomaticLockfileProvider.Dispose
+  fullName: Camille.Lcu.AutomaticLockfileProvider.Dispose()
+  nameWithType: AutomaticLockfileProvider.Dispose()
+- uid: Camille.Lcu.AutomaticLockfileProvider.Dispose*
+  name: Dispose
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider_Dispose_
+  commentId: Overload:Camille.Lcu.AutomaticLockfileProvider.Dispose
+  isSpec: "True"
+  fullName: Camille.Lcu.AutomaticLockfileProvider.Dispose
+  nameWithType: AutomaticLockfileProvider.Dispose
+- uid: Camille.Lcu.AutomaticLockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  name: GetLockfile(CancellationToken)
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider_GetLockfile_System_Threading_CancellationToken_
+  commentId: M:Camille.Lcu.AutomaticLockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  fullName: Camille.Lcu.AutomaticLockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  nameWithType: AutomaticLockfileProvider.GetLockfile(CancellationToken)
+- uid: Camille.Lcu.AutomaticLockfileProvider.GetLockfile*
+  name: GetLockfile
+  href: api/Camille.Lcu.AutomaticLockfileProvider.html#Camille_Lcu_AutomaticLockfileProvider_GetLockfile_
+  commentId: Overload:Camille.Lcu.AutomaticLockfileProvider.GetLockfile
+  isSpec: "True"
+  fullName: Camille.Lcu.AutomaticLockfileProvider.GetLockfile
+  nameWithType: AutomaticLockfileProvider.GetLockfile
 - uid: Camille.Lcu.Endpoints
   name: Endpoints
   href: api/Camille.Lcu.Endpoints.html
@@ -2900,24 +2957,49 @@ references:
   fullName.vb: Camille.Lcu.ILcuApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: ILcuApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: ILcuApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
+- uid: Camille.Lcu.ILockfileProvider
+  name: ILockfileProvider
+  href: api/Camille.Lcu.ILockfileProvider.html
+  commentId: T:Camille.Lcu.ILockfileProvider
+  fullName: Camille.Lcu.ILockfileProvider
+  nameWithType: ILockfileProvider
+- uid: Camille.Lcu.ILockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  name: GetLockfile(CancellationToken)
+  href: api/Camille.Lcu.ILockfileProvider.html#Camille_Lcu_ILockfileProvider_GetLockfile_System_Threading_CancellationToken_
+  commentId: M:Camille.Lcu.ILockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  fullName: Camille.Lcu.ILockfileProvider.GetLockfile(System.Threading.CancellationToken)
+  nameWithType: ILockfileProvider.GetLockfile(CancellationToken)
+- uid: Camille.Lcu.ILockfileProvider.GetLockfile*
+  name: GetLockfile
+  href: api/Camille.Lcu.ILockfileProvider.html#Camille_Lcu_ILockfileProvider_GetLockfile_
+  commentId: Overload:Camille.Lcu.ILockfileProvider.GetLockfile
+  isSpec: "True"
+  fullName: Camille.Lcu.ILockfileProvider.GetLockfile
+  nameWithType: ILockfileProvider.GetLockfile
 - uid: Camille.Lcu.LcuApi
   name: LcuApi
   href: api/Camille.Lcu.LcuApi.html
   commentId: T:Camille.Lcu.LcuApi
   fullName: Camille.Lcu.LcuApi
   nameWithType: LcuApi
+- uid: Camille.Lcu.LcuApi.#ctor
+  name: LcuApi()
+  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi__ctor
+  commentId: M:Camille.Lcu.LcuApi.#ctor
+  fullName: Camille.Lcu.LcuApi.LcuApi()
+  nameWithType: LcuApi.LcuApi()
+- uid: Camille.Lcu.LcuApi.#ctor(Camille.Lcu.LcuConfig)
+  name: LcuApi(LcuConfig)
+  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi__ctor_Camille_Lcu_LcuConfig_
+  commentId: M:Camille.Lcu.LcuApi.#ctor(Camille.Lcu.LcuConfig)
+  fullName: Camille.Lcu.LcuApi.LcuApi(Camille.Lcu.LcuConfig)
+  nameWithType: LcuApi.LcuApi(LcuConfig)
 - uid: Camille.Lcu.LcuApi.#ctor(Camille.Lcu.Lockfile)
   name: LcuApi(Lockfile)
   href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi__ctor_Camille_Lcu_Lockfile_
   commentId: M:Camille.Lcu.LcuApi.#ctor(Camille.Lcu.Lockfile)
   fullName: Camille.Lcu.LcuApi.LcuApi(Camille.Lcu.Lockfile)
   nameWithType: LcuApi.LcuApi(Lockfile)
-- uid: Camille.Lcu.LcuApi.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  name: LcuApi(Lockfile, LcuConfig)
-  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi__ctor_Camille_Lcu_Lockfile_Camille_Lcu_LcuConfig_
-  commentId: M:Camille.Lcu.LcuApi.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  fullName: Camille.Lcu.LcuApi.LcuApi(Camille.Lcu.Lockfile, Camille.Lcu.LcuConfig)
-  nameWithType: LcuApi.LcuApi(Lockfile, LcuConfig)
 - uid: Camille.Lcu.LcuApi.#ctor*
   name: LcuApi
   href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi__ctor_
@@ -2963,12 +3045,6 @@ references:
   fullName.vb: Camille.Lcu.LcuApi.Send(Of T)(System.Net.Http.HttpRequestMessage, System.Nullable(Of System.Threading.CancellationToken))
   nameWithType: LcuApi.Send<T>(HttpRequestMessage, Nullable<CancellationToken>)
   nameWithType.vb: LcuApi.Send(Of T)(HttpRequestMessage, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LcuApi.wamp
-  name: wamp
-  href: api/Camille.Lcu.LcuApi.html#Camille_Lcu_LcuApi_wamp
-  commentId: F:Camille.Lcu.LcuApi.wamp
-  fullName: Camille.Lcu.LcuApi.wamp
-  nameWithType: LcuApi.wamp
 - uid: Camille.Lcu.LcuConfig
   name: LcuConfig
   href: api/Camille.Lcu.LcuConfig.html
@@ -2987,6 +3063,12 @@ references:
   commentId: F:Camille.Lcu.LcuConfig.Hostname
   fullName: Camille.Lcu.LcuConfig.Hostname
   nameWithType: LcuConfig.Hostname
+- uid: Camille.Lcu.LcuConfig.LockfileProvider
+  name: LockfileProvider
+  href: api/Camille.Lcu.LcuConfig.html#Camille_Lcu_LcuConfig_LockfileProvider
+  commentId: F:Camille.Lcu.LcuConfig.LockfileProvider
+  fullName: Camille.Lcu.LcuConfig.LockfileProvider
+  nameWithType: LcuConfig.LockfileProvider
 - uid: Camille.Lcu.LcuConfig.MaxConcurrentRequests
   name: MaxConcurrentRequests
   href: api/Camille.Lcu.LcuConfig.html#Camille_Lcu_LcuConfig_MaxConcurrentRequests
@@ -3076,12 +3158,12 @@ references:
   commentId: T:Camille.Lcu.LcuRequester
   fullName: Camille.Lcu.LcuRequester
   nameWithType: LcuRequester
-- uid: Camille.Lcu.LcuRequester.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  name: LcuRequester(Lockfile, LcuConfig)
-  href: api/Camille.Lcu.LcuRequester.html#Camille_Lcu_LcuRequester__ctor_Camille_Lcu_Lockfile_Camille_Lcu_LcuConfig_
-  commentId: M:Camille.Lcu.LcuRequester.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  fullName: Camille.Lcu.LcuRequester.LcuRequester(Camille.Lcu.Lockfile, Camille.Lcu.LcuConfig)
-  nameWithType: LcuRequester.LcuRequester(Lockfile, LcuConfig)
+- uid: Camille.Lcu.LcuRequester.#ctor(Camille.Lcu.LcuConfig)
+  name: LcuRequester(LcuConfig)
+  href: api/Camille.Lcu.LcuRequester.html#Camille_Lcu_LcuRequester__ctor_Camille_Lcu_LcuConfig_
+  commentId: M:Camille.Lcu.LcuRequester.#ctor(Camille.Lcu.LcuConfig)
+  fullName: Camille.Lcu.LcuRequester.LcuRequester(Camille.Lcu.LcuConfig)
+  nameWithType: LcuRequester.LcuRequester(LcuConfig)
 - uid: Camille.Lcu.LcuRequester.#ctor*
   name: LcuRequester
   href: api/Camille.Lcu.LcuRequester.html#Camille_Lcu_LcuRequester__ctor_
@@ -3147,6 +3229,32 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.Lockfile.GetFromProcess
   nameWithType: Lockfile.GetFromProcess
+- uid: Camille.Lcu.Lockfile.GetLockfile(System.Threading.CancellationToken)
+  name: GetLockfile(CancellationToken)
+  href: api/Camille.Lcu.Lockfile.html#Camille_Lcu_Lockfile_GetLockfile_System_Threading_CancellationToken_
+  commentId: M:Camille.Lcu.Lockfile.GetLockfile(System.Threading.CancellationToken)
+  fullName: Camille.Lcu.Lockfile.GetLockfile(System.Threading.CancellationToken)
+  nameWithType: Lockfile.GetLockfile(CancellationToken)
+- uid: Camille.Lcu.Lockfile.GetLockfile*
+  name: GetLockfile
+  href: api/Camille.Lcu.Lockfile.html#Camille_Lcu_Lockfile_GetLockfile_
+  commentId: Overload:Camille.Lcu.Lockfile.GetLockfile
+  isSpec: "True"
+  fullName: Camille.Lcu.Lockfile.GetLockfile
+  nameWithType: Lockfile.GetLockfile
+- uid: Camille.Lcu.Lockfile.GetLockfilePathFromProcess(System.String)
+  name: GetLockfilePathFromProcess(String)
+  href: api/Camille.Lcu.Lockfile.html#Camille_Lcu_Lockfile_GetLockfilePathFromProcess_System_String_
+  commentId: M:Camille.Lcu.Lockfile.GetLockfilePathFromProcess(System.String)
+  fullName: Camille.Lcu.Lockfile.GetLockfilePathFromProcess(System.String)
+  nameWithType: Lockfile.GetLockfilePathFromProcess(String)
+- uid: Camille.Lcu.Lockfile.GetLockfilePathFromProcess*
+  name: GetLockfilePathFromProcess
+  href: api/Camille.Lcu.Lockfile.html#Camille_Lcu_Lockfile_GetLockfilePathFromProcess_
+  commentId: Overload:Camille.Lcu.Lockfile.GetLockfilePathFromProcess
+  isSpec: "True"
+  fullName: Camille.Lcu.Lockfile.GetLockfilePathFromProcess
+  nameWithType: Lockfile.GetLockfilePathFromProcess
 - uid: Camille.Lcu.Lockfile.ParseFile(System.String)
   name: ParseFile(String)
   href: api/Camille.Lcu.Lockfile.html#Camille_Lcu_Lockfile_ParseFile_System_String_
@@ -5230,494 +5338,176 @@ references:
   commentId: N:Camille.Lcu.LolLogin
   fullName: Camille.Lcu.LolLogin
   nameWithType: Camille.Lcu.LolLogin
-- uid: Camille.Lcu.LolLogin.LoginError
-  name: LoginError
-  href: api/Camille.Lcu.LolLogin.LoginError.html
-  commentId: T:Camille.Lcu.LolLogin.LoginError
-  fullName: Camille.Lcu.LolLogin.LoginError
-  nameWithType: LoginError
-- uid: Camille.Lcu.LolLogin.LoginError.#ctor
-  name: LoginError()
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError__ctor
-  commentId: M:Camille.Lcu.LolLogin.LoginError.#ctor
-  fullName: Camille.Lcu.LolLogin.LoginError.LoginError()
-  nameWithType: LoginError.LoginError()
-- uid: Camille.Lcu.LolLogin.LoginError.#ctor*
-  name: LoginError
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError__ctor_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError.#ctor
+- uid: Camille.Lcu.LolLogin.AccountStateResource
+  name: AccountStateResource
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html
+  commentId: T:Camille.Lcu.LolLogin.AccountStateResource
+  fullName: Camille.Lcu.LolLogin.AccountStateResource
+  nameWithType: AccountStateResource
+- uid: Camille.Lcu.LolLogin.AccountStateResource.#ctor
+  name: AccountStateResource()
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource__ctor
+  commentId: M:Camille.Lcu.LolLogin.AccountStateResource.#ctor
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.AccountStateResource()
+  nameWithType: AccountStateResource.AccountStateResource()
+- uid: Camille.Lcu.LolLogin.AccountStateResource.#ctor*
+  name: AccountStateResource
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource__ctor_
+  commentId: Overload:Camille.Lcu.LolLogin.AccountStateResource.#ctor
   isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError.LoginError
-  nameWithType: LoginError.LoginError
-- uid: Camille.Lcu.LolLogin.LoginError._AdditionalProperties
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.AccountStateResource
+  nameWithType: AccountStateResource.AccountStateResource
+- uid: Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties
   name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError__AdditionalProperties
-  commentId: P:Camille.Lcu.LolLogin.LoginError._AdditionalProperties
-  fullName: Camille.Lcu.LolLogin.LoginError._AdditionalProperties
-  nameWithType: LoginError._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.LoginError._AdditionalProperties*
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource__AdditionalProperties
+  commentId: P:Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties
+  fullName: Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties
+  nameWithType: AccountStateResource._AdditionalProperties
+- uid: Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties*
   name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError._AdditionalProperties
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource__AdditionalProperties_
+  commentId: Overload:Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties
   isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError._AdditionalProperties
-  nameWithType: LoginError._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.LoginError.Description
-  name: Description
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_Description
-  commentId: P:Camille.Lcu.LolLogin.LoginError.Description
-  fullName: Camille.Lcu.LolLogin.LoginError.Description
-  nameWithType: LoginError.Description
-- uid: Camille.Lcu.LolLogin.LoginError.Description*
-  name: Description
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_Description_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError.Description
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError.Description
-  nameWithType: LoginError.Description
-- uid: Camille.Lcu.LolLogin.LoginError.Id
-  name: Id
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_Id
-  commentId: P:Camille.Lcu.LolLogin.LoginError.Id
-  fullName: Camille.Lcu.LolLogin.LoginError.Id
-  nameWithType: LoginError.Id
-- uid: Camille.Lcu.LolLogin.LoginError.Id*
-  name: Id
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_Id_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError.Id
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError.Id
-  nameWithType: LoginError.Id
-- uid: Camille.Lcu.LolLogin.LoginError.MessageId
-  name: MessageId
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_MessageId
-  commentId: P:Camille.Lcu.LolLogin.LoginError.MessageId
-  fullName: Camille.Lcu.LolLogin.LoginError.MessageId
-  nameWithType: LoginError.MessageId
-- uid: Camille.Lcu.LolLogin.LoginError.MessageId*
-  name: MessageId
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_MessageId_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError.MessageId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError.MessageId
-  nameWithType: LoginError.MessageId
-- uid: Camille.Lcu.LolLogin.LoginError.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_ToString
-  commentId: M:Camille.Lcu.LolLogin.LoginError.ToString
-  fullName: Camille.Lcu.LolLogin.LoginError.ToString()
-  nameWithType: LoginError.ToString()
-- uid: Camille.Lcu.LolLogin.LoginError.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolLogin.LoginError.html#Camille_Lcu_LolLogin_LoginError_ToString_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginError.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginError.ToString
-  nameWithType: LoginError.ToString
-- uid: Camille.Lcu.LolLogin.LoginSession
-  name: LoginSession
-  href: api/Camille.Lcu.LolLogin.LoginSession.html
-  commentId: T:Camille.Lcu.LolLogin.LoginSession
-  fullName: Camille.Lcu.LolLogin.LoginSession
-  nameWithType: LoginSession
-- uid: Camille.Lcu.LolLogin.LoginSession.#ctor
-  name: LoginSession()
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession__ctor
-  commentId: M:Camille.Lcu.LolLogin.LoginSession.#ctor
-  fullName: Camille.Lcu.LolLogin.LoginSession.LoginSession()
-  nameWithType: LoginSession.LoginSession()
-- uid: Camille.Lcu.LolLogin.LoginSession.#ctor*
-  name: LoginSession
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession__ctor_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.LoginSession
-  nameWithType: LoginSession.LoginSession
-- uid: Camille.Lcu.LolLogin.LoginSession._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession__AdditionalProperties
-  commentId: P:Camille.Lcu.LolLogin.LoginSession._AdditionalProperties
-  fullName: Camille.Lcu.LolLogin.LoginSession._AdditionalProperties
-  nameWithType: LoginSession._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.LoginSession._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession._AdditionalProperties
-  nameWithType: LoginSession._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.LoginSession.AccountId
-  name: AccountId
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_AccountId
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.AccountId
-  fullName: Camille.Lcu.LolLogin.LoginSession.AccountId
-  nameWithType: LoginSession.AccountId
-- uid: Camille.Lcu.LolLogin.LoginSession.AccountId*
-  name: AccountId
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_AccountId_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.AccountId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.AccountId
-  nameWithType: LoginSession.AccountId
-- uid: Camille.Lcu.LolLogin.LoginSession.Connected
-  name: Connected
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Connected
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.Connected
-  fullName: Camille.Lcu.LolLogin.LoginSession.Connected
-  nameWithType: LoginSession.Connected
-- uid: Camille.Lcu.LolLogin.LoginSession.Connected*
-  name: Connected
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Connected_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.Connected
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.Connected
-  nameWithType: LoginSession.Connected
-- uid: Camille.Lcu.LolLogin.LoginSession.Error
-  name: Error
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Error
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.Error
-  fullName: Camille.Lcu.LolLogin.LoginSession.Error
-  nameWithType: LoginSession.Error
-- uid: Camille.Lcu.LolLogin.LoginSession.Error*
-  name: Error
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Error_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.Error
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.Error
-  nameWithType: LoginSession.Error
-- uid: Camille.Lcu.LolLogin.LoginSession.GasToken
-  name: GasToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_GasToken
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.GasToken
-  fullName: Camille.Lcu.LolLogin.LoginSession.GasToken
-  nameWithType: LoginSession.GasToken
-- uid: Camille.Lcu.LolLogin.LoginSession.GasToken*
-  name: GasToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_GasToken_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.GasToken
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.GasToken
-  nameWithType: LoginSession.GasToken
-- uid: Camille.Lcu.LolLogin.LoginSession.IdToken
-  name: IdToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IdToken
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.IdToken
-  fullName: Camille.Lcu.LolLogin.LoginSession.IdToken
-  nameWithType: LoginSession.IdToken
-- uid: Camille.Lcu.LolLogin.LoginSession.IdToken*
-  name: IdToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IdToken_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.IdToken
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.IdToken
-  nameWithType: LoginSession.IdToken
-- uid: Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue
-  name: IsInLoginQueue
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IsInLoginQueue
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue
-  fullName: Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue
-  nameWithType: LoginSession.IsInLoginQueue
-- uid: Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue*
-  name: IsInLoginQueue
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IsInLoginQueue_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.IsInLoginQueue
-  nameWithType: LoginSession.IsInLoginQueue
-- uid: Camille.Lcu.LolLogin.LoginSession.IsNewPlayer
-  name: IsNewPlayer
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IsNewPlayer
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.IsNewPlayer
-  fullName: Camille.Lcu.LolLogin.LoginSession.IsNewPlayer
-  nameWithType: LoginSession.IsNewPlayer
-- uid: Camille.Lcu.LolLogin.LoginSession.IsNewPlayer*
-  name: IsNewPlayer
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_IsNewPlayer_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.IsNewPlayer
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.IsNewPlayer
-  nameWithType: LoginSession.IsNewPlayer
-- uid: Camille.Lcu.LolLogin.LoginSession.Puuid
-  name: Puuid
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Puuid
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.Puuid
-  fullName: Camille.Lcu.LolLogin.LoginSession.Puuid
-  nameWithType: LoginSession.Puuid
-- uid: Camille.Lcu.LolLogin.LoginSession.Puuid*
-  name: Puuid
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Puuid_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.Puuid
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.Puuid
-  nameWithType: LoginSession.Puuid
-- uid: Camille.Lcu.LolLogin.LoginSession.State
+  fullName: Camille.Lcu.LolLogin.AccountStateResource._AdditionalProperties
+  nameWithType: AccountStateResource._AdditionalProperties
+- uid: Camille.Lcu.LolLogin.AccountStateResource.State
   name: State
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_State
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.State
-  fullName: Camille.Lcu.LolLogin.LoginSession.State
-  nameWithType: LoginSession.State
-- uid: Camille.Lcu.LolLogin.LoginSession.State*
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource_State
+  commentId: P:Camille.Lcu.LolLogin.AccountStateResource.State
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.State
+  nameWithType: AccountStateResource.State
+- uid: Camille.Lcu.LolLogin.AccountStateResource.State*
   name: State
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_State_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.State
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource_State_
+  commentId: Overload:Camille.Lcu.LolLogin.AccountStateResource.State
   isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.State
-  nameWithType: LoginSession.State
-- uid: Camille.Lcu.LolLogin.LoginSession.SummonerId
-  name: SummonerId
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_SummonerId
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.SummonerId
-  fullName: Camille.Lcu.LolLogin.LoginSession.SummonerId
-  nameWithType: LoginSession.SummonerId
-- uid: Camille.Lcu.LolLogin.LoginSession.SummonerId*
-  name: SummonerId
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_SummonerId_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.SummonerId
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.SummonerId
-  nameWithType: LoginSession.SummonerId
-- uid: Camille.Lcu.LolLogin.LoginSession.ToString
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.State
+  nameWithType: AccountStateResource.State
+- uid: Camille.Lcu.LolLogin.AccountStateResource.ToString
   name: ToString()
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_ToString
-  commentId: M:Camille.Lcu.LolLogin.LoginSession.ToString
-  fullName: Camille.Lcu.LolLogin.LoginSession.ToString()
-  nameWithType: LoginSession.ToString()
-- uid: Camille.Lcu.LolLogin.LoginSession.ToString*
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource_ToString
+  commentId: M:Camille.Lcu.LolLogin.AccountStateResource.ToString
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.ToString()
+  nameWithType: AccountStateResource.ToString()
+- uid: Camille.Lcu.LolLogin.AccountStateResource.ToString*
   name: ToString
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_ToString_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.ToString
+  href: api/Camille.Lcu.LolLogin.AccountStateResource.html#Camille_Lcu_LolLogin_AccountStateResource_ToString_
+  commentId: Overload:Camille.Lcu.LolLogin.AccountStateResource.ToString
   isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.ToString
-  nameWithType: LoginSession.ToString
-- uid: Camille.Lcu.LolLogin.LoginSession.UserAuthToken
-  name: UserAuthToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_UserAuthToken
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.UserAuthToken
-  fullName: Camille.Lcu.LolLogin.LoginSession.UserAuthToken
-  nameWithType: LoginSession.UserAuthToken
-- uid: Camille.Lcu.LolLogin.LoginSession.UserAuthToken*
-  name: UserAuthToken
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_UserAuthToken_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.UserAuthToken
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.UserAuthToken
-  nameWithType: LoginSession.UserAuthToken
-- uid: Camille.Lcu.LolLogin.LoginSession.Username
-  name: Username
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Username
-  commentId: P:Camille.Lcu.LolLogin.LoginSession.Username
-  fullName: Camille.Lcu.LolLogin.LoginSession.Username
-  nameWithType: LoginSession.Username
-- uid: Camille.Lcu.LolLogin.LoginSession.Username*
-  name: Username
-  href: api/Camille.Lcu.LolLogin.LoginSession.html#Camille_Lcu_LolLogin_LoginSession_Username_
-  commentId: Overload:Camille.Lcu.LolLogin.LoginSession.Username
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.LoginSession.Username
-  nameWithType: LoginSession.Username
-- uid: Camille.Lcu.LolLogin.LoginSessionStates
-  name: LoginSessionStates
-  href: api/Camille.Lcu.LolLogin.LoginSessionStates.html
-  commentId: T:Camille.Lcu.LolLogin.LoginSessionStates
-  fullName: Camille.Lcu.LolLogin.LoginSessionStates
-  nameWithType: LoginSessionStates
-- uid: Camille.Lcu.LolLogin.LoginSessionStates.ERROR
-  name: ERROR
-  href: api/Camille.Lcu.LolLogin.LoginSessionStates.html#Camille_Lcu_LolLogin_LoginSessionStates_ERROR
-  commentId: F:Camille.Lcu.LolLogin.LoginSessionStates.ERROR
-  fullName: Camille.Lcu.LolLogin.LoginSessionStates.ERROR
-  nameWithType: LoginSessionStates.ERROR
-- uid: Camille.Lcu.LolLogin.LoginSessionStates.IN_PROGRESS
-  name: IN_PROGRESS
-  href: api/Camille.Lcu.LolLogin.LoginSessionStates.html#Camille_Lcu_LolLogin_LoginSessionStates_IN_PROGRESS
-  commentId: F:Camille.Lcu.LolLogin.LoginSessionStates.IN_PROGRESS
-  fullName: Camille.Lcu.LolLogin.LoginSessionStates.IN_PROGRESS
-  nameWithType: LoginSessionStates.IN_PROGRESS
-- uid: Camille.Lcu.LolLogin.LoginSessionStates.LOGGING_OUT
-  name: LOGGING_OUT
-  href: api/Camille.Lcu.LolLogin.LoginSessionStates.html#Camille_Lcu_LolLogin_LoginSessionStates_LOGGING_OUT
-  commentId: F:Camille.Lcu.LolLogin.LoginSessionStates.LOGGING_OUT
-  fullName: Camille.Lcu.LolLogin.LoginSessionStates.LOGGING_OUT
-  nameWithType: LoginSessionStates.LOGGING_OUT
-- uid: Camille.Lcu.LolLogin.LoginSessionStates.SUCCEEDED
-  name: SUCCEEDED
-  href: api/Camille.Lcu.LolLogin.LoginSessionStates.html#Camille_Lcu_LolLogin_LoginSessionStates_SUCCEEDED
-  commentId: F:Camille.Lcu.LolLogin.LoginSessionStates.SUCCEEDED
-  fullName: Camille.Lcu.LolLogin.LoginSessionStates.SUCCEEDED
-  nameWithType: LoginSessionStates.SUCCEEDED
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword
-  name: UsernameAndPassword
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html
-  commentId: T:Camille.Lcu.LolLogin.UsernameAndPassword
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword
-  nameWithType: UsernameAndPassword
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.#ctor
-  name: UsernameAndPassword()
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword__ctor
-  commentId: M:Camille.Lcu.LolLogin.UsernameAndPassword.#ctor
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.UsernameAndPassword()
-  nameWithType: UsernameAndPassword.UsernameAndPassword()
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.#ctor*
-  name: UsernameAndPassword
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword__ctor_
-  commentId: Overload:Camille.Lcu.LolLogin.UsernameAndPassword.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.UsernameAndPassword
-  nameWithType: UsernameAndPassword.UsernameAndPassword
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword__AdditionalProperties
-  commentId: P:Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties
-  nameWithType: UsernameAndPassword._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties*
-  name: _AdditionalProperties
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword__AdditionalProperties_
-  commentId: Overload:Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword._AdditionalProperties
-  nameWithType: UsernameAndPassword._AdditionalProperties
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.Password
-  name: Password
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_Password
-  commentId: P:Camille.Lcu.LolLogin.UsernameAndPassword.Password
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.Password
-  nameWithType: UsernameAndPassword.Password
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.Password*
-  name: Password
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_Password_
-  commentId: Overload:Camille.Lcu.LolLogin.UsernameAndPassword.Password
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.Password
-  nameWithType: UsernameAndPassword.Password
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.ToString
-  name: ToString()
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_ToString
-  commentId: M:Camille.Lcu.LolLogin.UsernameAndPassword.ToString
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.ToString()
-  nameWithType: UsernameAndPassword.ToString()
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.ToString*
-  name: ToString
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_ToString_
-  commentId: Overload:Camille.Lcu.LolLogin.UsernameAndPassword.ToString
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.ToString
-  nameWithType: UsernameAndPassword.ToString
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.Username
-  name: Username
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_Username
-  commentId: P:Camille.Lcu.LolLogin.UsernameAndPassword.Username
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.Username
-  nameWithType: UsernameAndPassword.Username
-- uid: Camille.Lcu.LolLogin.UsernameAndPassword.Username*
-  name: Username
-  href: api/Camille.Lcu.LolLogin.UsernameAndPassword.html#Camille_Lcu_LolLogin_UsernameAndPassword_Username_
-  commentId: Overload:Camille.Lcu.LolLogin.UsernameAndPassword.Username
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLogin.UsernameAndPassword.Username
-  nameWithType: UsernameAndPassword.Username
+  fullName: Camille.Lcu.LolLogin.AccountStateResource.ToString
+  nameWithType: AccountStateResource.ToString
+- uid: Camille.Lcu.LolLogin.AccountStateType
+  name: AccountStateType
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html
+  commentId: T:Camille.Lcu.LolLogin.AccountStateType
+  fullName: Camille.Lcu.LolLogin.AccountStateType
+  nameWithType: AccountStateType
+- uid: Camille.Lcu.LolLogin.AccountStateType.CREATING
+  name: CREATING
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_CREATING
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.CREATING
+  fullName: Camille.Lcu.LolLogin.AccountStateType.CREATING
+  nameWithType: AccountStateType.CREATING
+- uid: Camille.Lcu.LolLogin.AccountStateType.ENABLED
+  name: ENABLED
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_ENABLED
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.ENABLED
+  fullName: Camille.Lcu.LolLogin.AccountStateType.ENABLED
+  nameWithType: AccountStateType.ENABLED
+- uid: Camille.Lcu.LolLogin.AccountStateType.GENERATING
+  name: GENERATING
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_GENERATING
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.GENERATING
+  fullName: Camille.Lcu.LolLogin.AccountStateType.GENERATING
+  nameWithType: AccountStateType.GENERATING
+- uid: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRED_OUT
+  name: TRANSFERRED_OUT
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_TRANSFERRED_OUT
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.TRANSFERRED_OUT
+  fullName: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRED_OUT
+  nameWithType: AccountStateType.TRANSFERRED_OUT
+- uid: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_IN
+  name: TRANSFERRING_IN
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_TRANSFERRING_IN
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_IN
+  fullName: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_IN
+  nameWithType: AccountStateType.TRANSFERRING_IN
+- uid: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_OUT
+  name: TRANSFERRING_OUT
+  href: api/Camille.Lcu.LolLogin.AccountStateType.html#Camille_Lcu_LolLogin_AccountStateType_TRANSFERRING_OUT
+  commentId: F:Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_OUT
+  fullName: Camille.Lcu.LolLogin.AccountStateType.TRANSFERRING_OUT
+  nameWithType: AccountStateType.TRANSFERRING_OUT
 - uid: Camille.Lcu.LolLoginEndpoints
   name: LolLoginEndpoints
   href: api/Camille.Lcu.LolLoginEndpoints.html
   commentId: T:Camille.Lcu.LolLoginEndpoints
   fullName: Camille.Lcu.LolLoginEndpoints
   nameWithType: LolLoginEndpoints
-- uid: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1(System.Nullable{System.Threading.CancellationToken})
-  name: DeleteSessionV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_DeleteSessionV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.DeleteSessionV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: DeleteSessionV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.DeleteSessionV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.DeleteSessionV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1*
-  name: DeleteSessionV1
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_DeleteSessionV1_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.DeleteSessionV1
+- uid: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1(System.Nullable{System.Threading.CancellationToken})
+  name: GetAccountStateV1(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetAccountStateV1_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolLoginEndpoints.GetAccountStateV1(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAccountStateV1(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolLoginEndpoints.GetAccountStateV1(Nullable<CancellationToken>)
+  nameWithType.vb: LolLoginEndpoints.GetAccountStateV1(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1*
+  name: GetAccountStateV1
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetAccountStateV1_
+  commentId: Overload:Camille.Lcu.LolLoginEndpoints.GetAccountStateV1
   isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1
-  nameWithType: LolLoginEndpoints.DeleteSessionV1
-- uid: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: DeleteSessionV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_DeleteSessionV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: DeleteSessionV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.DeleteSessionV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.DeleteSessionV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async*
-  name: DeleteSessionV1Async
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_DeleteSessionV1Async_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async
+  fullName: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1
+  nameWithType: LolLoginEndpoints.GetAccountStateV1
+- uid: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async(System.Nullable{System.Threading.CancellationToken})
+  name: GetAccountStateV1Async(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetAccountStateV1Async_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async(System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAccountStateV1Async(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolLoginEndpoints.GetAccountStateV1Async(Nullable<CancellationToken>)
+  nameWithType.vb: LolLoginEndpoints.GetAccountStateV1Async(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async*
+  name: GetAccountStateV1Async
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetAccountStateV1Async_
+  commentId: Overload:Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async
   isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.DeleteSessionV1Async
-  nameWithType: LolLoginEndpoints.DeleteSessionV1Async
-- uid: Camille.Lcu.LolLoginEndpoints.GetSessionV1(System.Nullable{System.Threading.CancellationToken})
-  name: GetSessionV1(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetSessionV1_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.GetSessionV1(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetSessionV1(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.GetSessionV1(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.GetSessionV1(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.GetSessionV1(Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.GetSessionV1(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.GetSessionV1*
-  name: GetSessionV1
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetSessionV1_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.GetSessionV1
+  fullName: Camille.Lcu.LolLoginEndpoints.GetAccountStateV1Async
+  nameWithType: LolLoginEndpoints.GetAccountStateV1Async
+- uid: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1(System.Nullable{System.Threading.CancellationToken})
+  name: PostAccountStateV1(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostAccountStateV1_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolLoginEndpoints.PostAccountStateV1(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostAccountStateV1(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolLoginEndpoints.PostAccountStateV1(Nullable<CancellationToken>)
+  nameWithType.vb: LolLoginEndpoints.PostAccountStateV1(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1*
+  name: PostAccountStateV1
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostAccountStateV1_
+  commentId: Overload:Camille.Lcu.LolLoginEndpoints.PostAccountStateV1
   isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.GetSessionV1
-  nameWithType: LolLoginEndpoints.GetSessionV1
-- uid: Camille.Lcu.LolLoginEndpoints.GetSessionV1Async(System.Nullable{System.Threading.CancellationToken})
-  name: GetSessionV1Async(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetSessionV1Async_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.GetSessionV1Async(System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetSessionV1Async(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.GetSessionV1Async(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.GetSessionV1Async(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.GetSessionV1Async(Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.GetSessionV1Async(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.GetSessionV1Async*
-  name: GetSessionV1Async
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_GetSessionV1Async_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.GetSessionV1Async
+  fullName: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1
+  nameWithType: LolLoginEndpoints.PostAccountStateV1
+- uid: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async(System.Nullable{System.Threading.CancellationToken})
+  name: PostAccountStateV1Async(Nullable<CancellationToken>)
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostAccountStateV1Async_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async(System.Nullable{System.Threading.CancellationToken})
+  name.vb: PostAccountStateV1Async(Nullable(Of CancellationToken))
+  fullName: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async(System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async(System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolLoginEndpoints.PostAccountStateV1Async(Nullable<CancellationToken>)
+  nameWithType.vb: LolLoginEndpoints.PostAccountStateV1Async(Nullable(Of CancellationToken))
+- uid: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async*
+  name: PostAccountStateV1Async
+  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostAccountStateV1Async_
+  commentId: Overload:Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async
   isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.GetSessionV1Async
-  nameWithType: LolLoginEndpoints.GetSessionV1Async
-- uid: Camille.Lcu.LolLoginEndpoints.PostSessionV1(Camille.Lcu.LolLogin.UsernameAndPassword,System.Nullable{System.Threading.CancellationToken})
-  name: PostSessionV1(UsernameAndPassword, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostSessionV1_Camille_Lcu_LolLogin_UsernameAndPassword_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.PostSessionV1(Camille.Lcu.LolLogin.UsernameAndPassword,System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostSessionV1(UsernameAndPassword, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.PostSessionV1(Camille.Lcu.LolLogin.UsernameAndPassword, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.PostSessionV1(Camille.Lcu.LolLogin.UsernameAndPassword, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.PostSessionV1(UsernameAndPassword, Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.PostSessionV1(UsernameAndPassword, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.PostSessionV1*
-  name: PostSessionV1
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostSessionV1_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.PostSessionV1
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.PostSessionV1
-  nameWithType: LolLoginEndpoints.PostSessionV1
-- uid: Camille.Lcu.LolLoginEndpoints.PostSessionV1Async(Camille.Lcu.LolLogin.UsernameAndPassword,System.Nullable{System.Threading.CancellationToken})
-  name: PostSessionV1Async(UsernameAndPassword, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostSessionV1Async_Camille_Lcu_LolLogin_UsernameAndPassword_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.LolLoginEndpoints.PostSessionV1Async(Camille.Lcu.LolLogin.UsernameAndPassword,System.Nullable{System.Threading.CancellationToken})
-  name.vb: PostSessionV1Async(UsernameAndPassword, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.LolLoginEndpoints.PostSessionV1Async(Camille.Lcu.LolLogin.UsernameAndPassword, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.LolLoginEndpoints.PostSessionV1Async(Camille.Lcu.LolLogin.UsernameAndPassword, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolLoginEndpoints.PostSessionV1Async(UsernameAndPassword, Nullable<CancellationToken>)
-  nameWithType.vb: LolLoginEndpoints.PostSessionV1Async(UsernameAndPassword, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.LolLoginEndpoints.PostSessionV1Async*
-  name: PostSessionV1Async
-  href: api/Camille.Lcu.LolLoginEndpoints.html#Camille_Lcu_LolLoginEndpoints_PostSessionV1Async_
-  commentId: Overload:Camille.Lcu.LolLoginEndpoints.PostSessionV1Async
-  isSpec: "True"
-  fullName: Camille.Lcu.LolLoginEndpoints.PostSessionV1Async
-  nameWithType: LolLoginEndpoints.PostSessionV1Async
+  fullName: Camille.Lcu.LolLoginEndpoints.PostAccountStateV1Async
+  nameWithType: LolLoginEndpoints.PostAccountStateV1Async
 - uid: Camille.Lcu.LolRanked
   name: Camille.Lcu.LolRanked
   href: api/Camille.Lcu.LolRanked.html
@@ -8384,230 +8174,6 @@ references:
   isSpec: "True"
   fullName: Camille.Lcu.LolSummonerEndpoints.PutCurrentSummonerIconV1Async
   nameWithType: LolSummonerEndpoints.PutCurrentSummonerIconV1Async
-- uid: Camille.Lcu.Util
-  name: Camille.Lcu.Util
-  href: api/Camille.Lcu.Util.html
-  commentId: N:Camille.Lcu.Util
-  fullName: Camille.Lcu.Util
-  nameWithType: Camille.Lcu.Util
-- uid: Camille.Lcu.Util.EventWebSocket
-  name: EventWebSocket
-  href: api/Camille.Lcu.Util.EventWebSocket.html
-  commentId: T:Camille.Lcu.Util.EventWebSocket
-  fullName: Camille.Lcu.Util.EventWebSocket
-  nameWithType: EventWebSocket
-- uid: Camille.Lcu.Util.EventWebSocket.#ctor(System.Uri,System.Net.ICredentials,System.Net.Security.RemoteCertificateValidationCallback)
-  name: EventWebSocket(Uri, ICredentials, RemoteCertificateValidationCallback)
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket__ctor_System_Uri_System_Net_ICredentials_System_Net_Security_RemoteCertificateValidationCallback_
-  commentId: M:Camille.Lcu.Util.EventWebSocket.#ctor(System.Uri,System.Net.ICredentials,System.Net.Security.RemoteCertificateValidationCallback)
-  fullName: Camille.Lcu.Util.EventWebSocket.EventWebSocket(System.Uri, System.Net.ICredentials, System.Net.Security.RemoteCertificateValidationCallback)
-  nameWithType: EventWebSocket.EventWebSocket(Uri, ICredentials, RemoteCertificateValidationCallback)
-- uid: Camille.Lcu.Util.EventWebSocket.#ctor*
-  name: EventWebSocket
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket__ctor_
-  commentId: Overload:Camille.Lcu.Util.EventWebSocket.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.EventWebSocket.EventWebSocket
-  nameWithType: EventWebSocket.EventWebSocket
-- uid: Camille.Lcu.Util.EventWebSocket.Close(System.Nullable{System.Threading.CancellationToken})
-  name: Close(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Close_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.EventWebSocket.Close(System.Nullable{System.Threading.CancellationToken})
-  name.vb: Close(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.EventWebSocket.Close(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.EventWebSocket.Close(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: EventWebSocket.Close(Nullable<CancellationToken>)
-  nameWithType.vb: EventWebSocket.Close(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.Util.EventWebSocket.Close*
-  name: Close
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Close_
-  commentId: Overload:Camille.Lcu.Util.EventWebSocket.Close
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.EventWebSocket.Close
-  nameWithType: EventWebSocket.Close
-- uid: Camille.Lcu.Util.EventWebSocket.Connect
-  name: Connect()
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Connect
-  commentId: M:Camille.Lcu.Util.EventWebSocket.Connect
-  fullName: Camille.Lcu.Util.EventWebSocket.Connect()
-  nameWithType: EventWebSocket.Connect()
-- uid: Camille.Lcu.Util.EventWebSocket.Connect*
-  name: Connect
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Connect_
-  commentId: Overload:Camille.Lcu.Util.EventWebSocket.Connect
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.EventWebSocket.Connect
-  nameWithType: EventWebSocket.Connect
-- uid: Camille.Lcu.Util.EventWebSocket.Dispose
-  name: Dispose()
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Dispose
-  commentId: M:Camille.Lcu.Util.EventWebSocket.Dispose
-  fullName: Camille.Lcu.Util.EventWebSocket.Dispose()
-  nameWithType: EventWebSocket.Dispose()
-- uid: Camille.Lcu.Util.EventWebSocket.Dispose*
-  name: Dispose
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_Dispose_
-  commentId: Overload:Camille.Lcu.Util.EventWebSocket.Dispose
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.EventWebSocket.Dispose
-  nameWithType: EventWebSocket.Dispose
-- uid: Camille.Lcu.Util.EventWebSocket.OnConnect
-  name: OnConnect
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_OnConnect
-  commentId: E:Camille.Lcu.Util.EventWebSocket.OnConnect
-  fullName: Camille.Lcu.Util.EventWebSocket.OnConnect
-  nameWithType: EventWebSocket.OnConnect
-- uid: Camille.Lcu.Util.EventWebSocket.OnDisconnect
-  name: OnDisconnect
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_OnDisconnect
-  commentId: E:Camille.Lcu.Util.EventWebSocket.OnDisconnect
-  fullName: Camille.Lcu.Util.EventWebSocket.OnDisconnect
-  nameWithType: EventWebSocket.OnDisconnect
-- uid: Camille.Lcu.Util.EventWebSocket.OnMessage
-  name: OnMessage
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_OnMessage
-  commentId: E:Camille.Lcu.Util.EventWebSocket.OnMessage
-  fullName: Camille.Lcu.Util.EventWebSocket.OnMessage
-  nameWithType: EventWebSocket.OnMessage
-- uid: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name: SendAsync(ReadOnlyMemory<Byte>, WebSocketMessageType, Boolean, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_SendAsync_System_ReadOnlyMemory_System_Byte__System_Net_WebSockets_WebSocketMessageType_System_Boolean_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory{System.Byte},System.Net.WebSockets.WebSocketMessageType,System.Boolean,System.Nullable{System.Threading.CancellationToken})
-  name.vb: SendAsync(ReadOnlyMemory(Of Byte), WebSocketMessageType, Boolean, Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory<System.Byte>, System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.EventWebSocket.SendAsync(System.ReadOnlyMemory(Of System.Byte), System.Net.WebSockets.WebSocketMessageType, System.Boolean, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: EventWebSocket.SendAsync(ReadOnlyMemory<Byte>, WebSocketMessageType, Boolean, Nullable<CancellationToken>)
-  nameWithType.vb: EventWebSocket.SendAsync(ReadOnlyMemory(Of Byte), WebSocketMessageType, Boolean, Nullable(Of CancellationToken))
-- uid: Camille.Lcu.Util.EventWebSocket.SendAsync*
-  name: SendAsync
-  href: api/Camille.Lcu.Util.EventWebSocket.html#Camille_Lcu_Util_EventWebSocket_SendAsync_
-  commentId: Overload:Camille.Lcu.Util.EventWebSocket.SendAsync
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.EventWebSocket.SendAsync
-  nameWithType: EventWebSocket.SendAsync
-- uid: Camille.Lcu.Util.HandlerResult
-  name: HandlerResult
-  href: api/Camille.Lcu.Util.HandlerResult.html
-  commentId: T:Camille.Lcu.Util.HandlerResult
-  fullName: Camille.Lcu.Util.HandlerResult
-  nameWithType: HandlerResult
-- uid: Camille.Lcu.Util.HandlerResult.RemoveMe
-  name: RemoveMe
-  href: api/Camille.Lcu.Util.HandlerResult.html#Camille_Lcu_Util_HandlerResult_RemoveMe
-  commentId: F:Camille.Lcu.Util.HandlerResult.RemoveMe
-  fullName: Camille.Lcu.Util.HandlerResult.RemoveMe
-  nameWithType: HandlerResult.RemoveMe
-- uid: Camille.Lcu.Util.HandlerResult.Success
-  name: Success
-  href: api/Camille.Lcu.Util.HandlerResult.html#Camille_Lcu_Util_HandlerResult_Success
-  commentId: F:Camille.Lcu.Util.HandlerResult.Success
-  fullName: Camille.Lcu.Util.HandlerResult.Success
-  nameWithType: HandlerResult.Success
-- uid: Camille.Lcu.Util.Wamp
-  name: Wamp
-  href: api/Camille.Lcu.Util.Wamp.html
-  commentId: T:Camille.Lcu.Util.Wamp
-  fullName: Camille.Lcu.Util.Wamp
-  nameWithType: Wamp
-- uid: Camille.Lcu.Util.Wamp.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  name: Wamp(Lockfile, LcuConfig)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp__ctor_Camille_Lcu_Lockfile_Camille_Lcu_LcuConfig_
-  commentId: M:Camille.Lcu.Util.Wamp.#ctor(Camille.Lcu.Lockfile,Camille.Lcu.LcuConfig)
-  fullName: Camille.Lcu.Util.Wamp.Wamp(Camille.Lcu.Lockfile, Camille.Lcu.LcuConfig)
-  nameWithType: Wamp.Wamp(Lockfile, LcuConfig)
-- uid: Camille.Lcu.Util.Wamp.#ctor*
-  name: Wamp
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp__ctor_
-  commentId: Overload:Camille.Lcu.Util.Wamp.#ctor
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Wamp
-  nameWithType: Wamp.Wamp
-- uid: Camille.Lcu.Util.Wamp.Close(System.Nullable{System.Threading.CancellationToken})
-  name: Close(Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Close_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.Wamp.Close(System.Nullable{System.Threading.CancellationToken})
-  name.vb: Close(Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.Wamp.Close(System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.Wamp.Close(System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: Wamp.Close(Nullable<CancellationToken>)
-  nameWithType.vb: Wamp.Close(Nullable(Of CancellationToken))
-- uid: Camille.Lcu.Util.Wamp.Close*
-  name: Close
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Close_
-  commentId: Overload:Camille.Lcu.Util.Wamp.Close
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Close
-  nameWithType: Wamp.Close
-- uid: Camille.Lcu.Util.Wamp.Connect
-  name: Connect()
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Connect
-  commentId: M:Camille.Lcu.Util.Wamp.Connect
-  fullName: Camille.Lcu.Util.Wamp.Connect()
-  nameWithType: Wamp.Connect()
-- uid: Camille.Lcu.Util.Wamp.Connect*
-  name: Connect
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Connect_
-  commentId: Overload:Camille.Lcu.Util.Wamp.Connect
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Connect
-  nameWithType: Wamp.Connect
-- uid: Camille.Lcu.Util.Wamp.Dispose
-  name: Dispose()
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Dispose
-  commentId: M:Camille.Lcu.Util.Wamp.Dispose
-  fullName: Camille.Lcu.Util.Wamp.Dispose()
-  nameWithType: Wamp.Dispose()
-- uid: Camille.Lcu.Util.Wamp.Dispose*
-  name: Dispose
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Dispose_
-  commentId: Overload:Camille.Lcu.Util.Wamp.Dispose
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Dispose
-  nameWithType: Wamp.Dispose
-- uid: Camille.Lcu.Util.Wamp.OnConnect
-  name: OnConnect
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_OnConnect
-  commentId: E:Camille.Lcu.Util.Wamp.OnConnect
-  fullName: Camille.Lcu.Util.Wamp.OnConnect
-  nameWithType: Wamp.OnConnect
-- uid: Camille.Lcu.Util.Wamp.OnDisconnect
-  name: OnDisconnect
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_OnDisconnect
-  commentId: E:Camille.Lcu.Util.Wamp.OnDisconnect
-  fullName: Camille.Lcu.Util.Wamp.OnDisconnect
-  nameWithType: Wamp.OnDisconnect
-- uid: Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
-  name: Subscribe(String, Func<JsonElement, Task<HandlerResult>>, Nullable<CancellationToken>)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Subscribe_System_String_System_Func_System_Text_Json_JsonElement_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.Lcu.Util.Wamp.Subscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}},System.Nullable{System.Threading.CancellationToken})
-  name.vb: Subscribe(String, Func(Of JsonElement, Task(Of HandlerResult)), Nullable(Of CancellationToken))
-  fullName: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func<System.Text.Json.JsonElement, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.Lcu.Util.Wamp.Subscribe(System.String, System.Func(Of System.Text.Json.JsonElement, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: Wamp.Subscribe(String, Func<JsonElement, Task<HandlerResult>>, Nullable<CancellationToken>)
-  nameWithType.vb: Wamp.Subscribe(String, Func(Of JsonElement, Task(Of HandlerResult)), Nullable(Of CancellationToken))
-- uid: Camille.Lcu.Util.Wamp.Subscribe*
-  name: Subscribe
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Subscribe_
-  commentId: Overload:Camille.Lcu.Util.Wamp.Subscribe
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Subscribe
-  nameWithType: Wamp.Subscribe
-- uid: Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
-  name: Unsubscribe(String, Func<JsonElement, Task<HandlerResult>>)
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Unsubscribe_System_String_System_Func_System_Text_Json_JsonElement_System_Threading_Tasks_Task_Camille_Lcu_Util_HandlerResult___
-  commentId: M:Camille.Lcu.Util.Wamp.Unsubscribe(System.String,System.Func{System.Text.Json.JsonElement,System.Threading.Tasks.Task{Camille.Lcu.Util.HandlerResult}})
-  name.vb: Unsubscribe(String, Func(Of JsonElement, Task(Of HandlerResult)))
-  fullName: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func<System.Text.Json.JsonElement, System.Threading.Tasks.Task<Camille.Lcu.Util.HandlerResult>>)
-  fullName.vb: Camille.Lcu.Util.Wamp.Unsubscribe(System.String, System.Func(Of System.Text.Json.JsonElement, System.Threading.Tasks.Task(Of Camille.Lcu.Util.HandlerResult)))
-  nameWithType: Wamp.Unsubscribe(String, Func<JsonElement, Task<HandlerResult>>)
-  nameWithType.vb: Wamp.Unsubscribe(String, Func(Of JsonElement, Task(Of HandlerResult)))
-- uid: Camille.Lcu.Util.Wamp.Unsubscribe*
-  name: Unsubscribe
-  href: api/Camille.Lcu.Util.Wamp.html#Camille_Lcu_Util_Wamp_Unsubscribe_
-  commentId: Overload:Camille.Lcu.Util.Wamp.Unsubscribe
-  isSpec: "True"
-  fullName: Camille.Lcu.Util.Wamp.Unsubscribe
-  nameWithType: Wamp.Unsubscribe
 - uid: Camille.LolGame
   name: Camille.LolGame
   href: api/Camille.LolGame.html
