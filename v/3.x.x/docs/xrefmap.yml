@@ -29644,15 +29644,15 @@ references:
   commentId: T:Camille.RiotGames.ValContentV1Endpoints
   fullName: Camille.RiotGames.ValContentV1Endpoints
   nameWithType: ValContentV1Endpoints
-- uid: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
-  name: GetContent(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_ValPlatformRoute_System_Nullable_Camille_Enums_Locale__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetContent(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.Nullable<Camille.Enums.Locale>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.Nullable(Of Camille.Enums.Locale), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ValContentV1Endpoints.GetContent(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
-  nameWithType.vb: ValContentV1Endpoints.GetContent(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetContent(ValPlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetContent(ValPlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContent(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValContentV1Endpoints.GetContent(ValPlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValContentV1Endpoints.GetContent(ValPlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ValContentV1Endpoints.GetContent*
   name: GetContent
   href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContent_
@@ -29660,15 +29660,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValContentV1Endpoints.GetContent
   nameWithType: ValContentV1Endpoints.GetContent
-- uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
-  name: GetContentAsync(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_ValPlatformRoute_System_Nullable_Camille_Enums_Locale__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.Nullable{Camille.Enums.Locale},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetContentAsync(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.Nullable<Camille.Enums.Locale>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.Nullable(Of Camille.Enums.Locale), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, Nullable<Enums.Locale>, Nullable<CancellationToken>)
-  nameWithType.vb: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, Nullable(Of Enums.Locale), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetContentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_ValPlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetContentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ValContentV1Endpoints.GetContentAsync(ValPlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.ValContentV1Endpoints.GetContentAsync*
   name: GetContentAsync
   href: api/Camille.RiotGames.ValContentV1Endpoints.html#Camille_RiotGames_ValContentV1Endpoints_GetContentAsync_
@@ -32016,6 +32016,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValRankedV1.Leaderboard.ActId
   nameWithType: Leaderboard.ActId
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  name: ImmortalStartingIndex
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_ImmortalStartingIndex
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  nameWithType: Leaderboard.ImmortalStartingIndex
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex*
+  name: ImmortalStartingIndex
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_ImmortalStartingIndex_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  nameWithType: Leaderboard.ImmortalStartingIndex
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage
+  name: ImmortalStartingPage
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_ImmortalStartingPage
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage
+  nameWithType: Leaderboard.ImmortalStartingPage
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage*
+  name: ImmortalStartingPage
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_ImmortalStartingPage_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.ImmortalStartingPage
+  nameWithType: Leaderboard.ImmortalStartingPage
 - uid: Camille.RiotGames.ValRankedV1.Leaderboard.Players
   name: Players
   href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_Players
@@ -32029,6 +32055,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValRankedV1.Leaderboard.Players
   nameWithType: Leaderboard.Players
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.Query
+  name: Query
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_Query
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.Query
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.Query
+  nameWithType: Leaderboard.Query
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.Query*
+  name: Query
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_Query_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.Query
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.Query
+  nameWithType: Leaderboard.Query
 - uid: Camille.RiotGames.ValRankedV1.Leaderboard.Shard
   name: Shard
   href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_Shard
@@ -32042,6 +32081,45 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValRankedV1.Leaderboard.Shard
   nameWithType: Leaderboard.Shard
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex
+  name: StartIndex
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_StartIndex
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex
+  nameWithType: Leaderboard.StartIndex
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex*
+  name: StartIndex
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_StartIndex_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.StartIndex
+  nameWithType: Leaderboard.StartIndex
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails
+  name: TierDetails
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_TierDetails
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails
+  nameWithType: Leaderboard.TierDetails
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails*
+  name: TierDetails
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_TierDetails_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.TierDetails
+  nameWithType: Leaderboard.TierDetails
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold
+  name: TopTierRRThreshold
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_TopTierRRThreshold
+  commentId: P:Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold
+  nameWithType: Leaderboard.TopTierRRThreshold
+- uid: Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold*
+  name: TopTierRRThreshold
+  href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_TopTierRRThreshold_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.Leaderboard.TopTierRRThreshold
+  nameWithType: Leaderboard.TopTierRRThreshold
 - uid: Camille.RiotGames.ValRankedV1.Leaderboard.ToString
   name: ToString()
   href: api/Camille.RiotGames.ValRankedV1.Leaderboard.html#Camille_RiotGames_ValRankedV1_Leaderboard_ToString
@@ -32204,6 +32282,90 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValRankedV1.Player.ToString
   nameWithType: Player.ToString
+- uid: Camille.RiotGames.ValRankedV1.TierDetail
+  name: TierDetail
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html
+  commentId: T:Camille.RiotGames.ValRankedV1.TierDetail
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail
+  nameWithType: TierDetail
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.#ctor
+  name: TierDetail()
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail__ctor
+  commentId: M:Camille.RiotGames.ValRankedV1.TierDetail.#ctor
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.TierDetail()
+  nameWithType: TierDetail.TierDetail()
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.#ctor*
+  name: TierDetail
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail__ctor_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.TierDetail
+  nameWithType: TierDetail.TierDetail
+- uid: Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail__AdditionalProperties
+  commentId: P:Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties
+  nameWithType: TierDetail._AdditionalProperties
+- uid: Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail._AdditionalProperties
+  nameWithType: TierDetail._AdditionalProperties
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold
+  name: RankedRatingThreshold
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_RankedRatingThreshold
+  commentId: P:Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold
+  nameWithType: TierDetail.RankedRatingThreshold
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold*
+  name: RankedRatingThreshold
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_RankedRatingThreshold_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.RankedRatingThreshold
+  nameWithType: TierDetail.RankedRatingThreshold
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex
+  name: StartingIndex
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_StartingIndex
+  commentId: P:Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex
+  nameWithType: TierDetail.StartingIndex
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex*
+  name: StartingIndex
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_StartingIndex_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.StartingIndex
+  nameWithType: TierDetail.StartingIndex
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.StartingPage
+  name: StartingPage
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_StartingPage
+  commentId: P:Camille.RiotGames.ValRankedV1.TierDetail.StartingPage
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.StartingPage
+  nameWithType: TierDetail.StartingPage
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.StartingPage*
+  name: StartingPage
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_StartingPage_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail.StartingPage
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.StartingPage
+  nameWithType: TierDetail.StartingPage
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_ToString
+  commentId: M:Camille.RiotGames.ValRankedV1.TierDetail.ToString
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.ToString()
+  nameWithType: TierDetail.ToString()
+- uid: Camille.RiotGames.ValRankedV1.TierDetail.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.ValRankedV1.TierDetail.html#Camille_RiotGames_ValRankedV1_TierDetail_ToString_
+  commentId: Overload:Camille.RiotGames.ValRankedV1.TierDetail.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValRankedV1.TierDetail.ToString
+  nameWithType: TierDetail.ToString
 - uid: Camille.RiotGames.ValRankedV1Endpoints
   name: ValRankedV1Endpoints
   href: api/Camille.RiotGames.ValRankedV1Endpoints.html
