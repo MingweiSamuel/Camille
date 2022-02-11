@@ -81,7 +81,7 @@ jobs:
         env:
           NUGET_KEY: ${{ secrets.NUGET_KEY }}
           NUGET_SOURCE: 'https://api.nuget.org/v3/index.json'
-        run: dotnet nuget push "*\bin\Release\*.$env:CAMI_VERSION.nupkg" --source $env:NUGET_SOURCE --api-key $env:NUGET_KEY --skip-duplicate
+        run: dotnet nuget push "src\*\bin\Release\*.$env:CAMI_VERSION.nupkg" --source $env:NUGET_SOURCE --api-key $env:NUGET_KEY --skip-duplicate
 
       - name: Publish to GitHub Packages
         if: ${{ success() && env.CAMI_DO_DEPLOY }}
@@ -89,4 +89,4 @@ jobs:
         env:
           NUGET_KEY: ${{ secrets.GITHUB_TOKEN }}
           NUGET_SOURCE: 'https://nuget.pkg.github.com/MingweiSamuel/index.json'
-        run: dotnet nuget push "*\bin\Release\*.$env:CAMI_VERSION.nupkg" --source $env:NUGET_SOURCE --api-key $env:NUGET_KEY --skip-duplicate
+        run: dotnet nuget push "src\*\bin\Release\*.$env:CAMI_VERSION.nupkg" --source $env:NUGET_SOURCE --api-key $env:NUGET_KEY --skip-duplicate
