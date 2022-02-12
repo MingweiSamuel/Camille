@@ -23101,6 +23101,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ActId
   nameWithType: Leaderboard.ActId
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  name: ImmortalStartingIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_ImmortalStartingIndex
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  nameWithType: Leaderboard.ImmortalStartingIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex*
+  name: ImmortalStartingIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_ImmortalStartingIndex_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingIndex
+  nameWithType: Leaderboard.ImmortalStartingIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage
+  name: ImmortalStartingPage
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_ImmortalStartingPage
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage
+  nameWithType: Leaderboard.ImmortalStartingPage
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage*
+  name: ImmortalStartingPage
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_ImmortalStartingPage_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ImmortalStartingPage
+  nameWithType: Leaderboard.ImmortalStartingPage
 - uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Players
   name: Players
   href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_Players
@@ -23114,6 +23140,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Players
   nameWithType: Leaderboard.Players
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query
+  name: Query
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_Query
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query
+  nameWithType: Leaderboard.Query
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query*
+  name: Query
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_Query_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Query
+  nameWithType: Leaderboard.Query
 - uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Shard
   name: Shard
   href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_Shard
@@ -23127,6 +23166,45 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.Shard
   nameWithType: Leaderboard.Shard
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex
+  name: StartIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_StartIndex
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex
+  nameWithType: Leaderboard.StartIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex*
+  name: StartIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_StartIndex_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.StartIndex
+  nameWithType: Leaderboard.StartIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails
+  name: TierDetails
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_TierDetails
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails
+  nameWithType: Leaderboard.TierDetails
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails*
+  name: TierDetails
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_TierDetails_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TierDetails
+  nameWithType: Leaderboard.TierDetails
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold
+  name: TopTierRRThreshold
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_TopTierRRThreshold
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold
+  nameWithType: Leaderboard.TopTierRRThreshold
+- uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold*
+  name: TopTierRRThreshold
+  href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_TopTierRRThreshold_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.Leaderboard.TopTierRRThreshold
+  nameWithType: Leaderboard.TopTierRRThreshold
 - uid: MingweiSamuel.Camille.ValRankedV1.Leaderboard.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.ValRankedV1.Leaderboard.html#MingweiSamuel_Camille_ValRankedV1_Leaderboard_ToString
@@ -23289,6 +23367,90 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValRankedV1.Player.ToString
   nameWithType: Player.ToString
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail
+  name: TierDetail
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html
+  commentId: T:MingweiSamuel.Camille.ValRankedV1.TierDetail
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail
+  nameWithType: TierDetail
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.#ctor
+  name: TierDetail()
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail__ctor
+  commentId: M:MingweiSamuel.Camille.ValRankedV1.TierDetail.#ctor
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.TierDetail()
+  nameWithType: TierDetail.TierDetail()
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.#ctor*
+  name: TierDetail
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail__ctor_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.TierDetail
+  nameWithType: TierDetail.TierDetail
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties
+  nameWithType: TierDetail._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail._AdditionalProperties
+  nameWithType: TierDetail._AdditionalProperties
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold
+  name: RankedRatingThreshold
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_RankedRatingThreshold
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold
+  nameWithType: TierDetail.RankedRatingThreshold
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold*
+  name: RankedRatingThreshold
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_RankedRatingThreshold_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.RankedRatingThreshold
+  nameWithType: TierDetail.RankedRatingThreshold
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex
+  name: StartingIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_StartingIndex
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex
+  nameWithType: TierDetail.StartingIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex*
+  name: StartingIndex
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_StartingIndex_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingIndex
+  nameWithType: TierDetail.StartingIndex
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage
+  name: StartingPage
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_StartingPage
+  commentId: P:MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage
+  nameWithType: TierDetail.StartingPage
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage*
+  name: StartingPage
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_StartingPage_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.StartingPage
+  nameWithType: TierDetail.StartingPage
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_ToString
+  commentId: M:MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString()
+  nameWithType: TierDetail.ToString()
+- uid: MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.ValRankedV1.TierDetail.html#MingweiSamuel_Camille_ValRankedV1_TierDetail_ToString_
+  commentId: Overload:MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ValRankedV1.TierDetail.ToString
+  nameWithType: TierDetail.ToString
 - uid: MingweiSamuel.Camille.ValRankedV1Endpoints
   name: ValRankedV1Endpoints
   href: api/MingweiSamuel.Camille.ValRankedV1Endpoints.html
