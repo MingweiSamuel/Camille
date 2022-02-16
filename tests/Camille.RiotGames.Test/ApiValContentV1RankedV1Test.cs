@@ -60,7 +60,7 @@ namespace Camille.RiotGames.Test
         [TestMethod]
         public async Task GetContentAsyncWithLocaleAndGetLeaderboardAsync()
         {
-            var content = await Api.ValContentV1().GetContentAsync(ValPlatformRoute.AP, "ja-JP");
+            var content = await Api.ValContentV1().GetContentAsync(ValPlatformRoute.EU, "ja-JP");
             Assert.IsNotNull(content);
             Assert.IsNotNull(content.Characters);
             Assert.IsTrue(0 < content.Characters.Count());
@@ -74,7 +74,7 @@ namespace Camille.RiotGames.Test
             }
 
             var act = content.Acts.First(act => act.IsActive);
-            var leaderboard = await Api.ValRankedV1().GetLeaderboardAsync(ValPlatformRoute.AP, act.Id);
+            var leaderboard = await Api.ValRankedV1().GetLeaderboardAsync(ValPlatformRoute.EU, act.Id);
             Assert.IsTrue(0 < leaderboard.Players.Count());
         }
     }
