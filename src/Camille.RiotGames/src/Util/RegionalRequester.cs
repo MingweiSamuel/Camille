@@ -66,6 +66,7 @@ namespace Camille.RiotGames.Util
             HttpResponseMessage? response = null;
             var retries = 0;
             var num429s = 0;
+            var num5xxs = 0;
             for (; retries <= _config.Retries; retries++)
             {
                 // Get token.
@@ -82,8 +83,9 @@ namespace Camille.RiotGames.Util
                 // Ensure request is disposed for good measure.
                 using var sentRequest = request;
                 response = await _client.SendAsync(sentRequest, token);
+                var backoffSeconds = _config.BackoffStrategy(retries, num429s, num5xxs);
                 foreach (var rateLimit in rateLimits)
-                    rateLimit.OnResponse(response, _config.BackoffStrategy(retries, num429s));
+                    rateLimit.OnResponse(response, backoffSeconds);
 
                 // Success.
                 if (HttpStatusCode.OK == response.StatusCode)
@@ -104,6 +106,7 @@ namespace Camille.RiotGames.Util
                 if (is429 || HttpStatusCode.InternalServerError <= response.StatusCode)
                 {
                     request = HttpRequestMessageUtils.Copy(sentRequest);
+                    await Task.Delay(TimeSpan.FromSeconds(backoffSeconds), token);
                     continue;
                 }
                 break;

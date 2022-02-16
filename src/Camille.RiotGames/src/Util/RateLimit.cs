@@ -80,8 +80,8 @@ namespace Camille.RiotGames.Util
                         retrySecs += 0.5;
                     else
                         // Missing Retry-After probably indicates a "service" or "other" rate limit violation.
-                        // Use hardcoded retry of 1 second (naive).
-                        retrySecs = 1;
+                        // Use backoff strategy.
+                        retrySecs = defaultRetrySeconds;
 
                     var retryTicks = DateTimeOffset.UtcNow.Ticks + (long) (TimeSpan.TicksPerSecond * retrySecs);
                     if (retryTicks > _retryAfterTickStamp)

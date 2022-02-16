@@ -31,6 +31,6 @@
   "backoffStrategy": {
     "type": "Util.BackoffStrategy",
     "desc": "A backoff strategy for 429s with missing Retry-After headers. Returns seconds.",
-    "val": "(retries, num429s) => 0.5 + Math.Pow(2, num429s)"
+    "val": "(retries, num429s, num5xxs) => 0.5 + Math.Pow(2, num5xxs + num429s)"
   }
 }
