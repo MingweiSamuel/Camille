@@ -208,7 +208,7 @@
   </table>
   <h5 id="Camille_RiotGames_RiotGamesApiConfig_Builder_BackoffStrategy_examples">Examples</h5>
   <p>Default value:</p>
-<pre><code>(retries, num429s) => 0.5 + Math.Pow(2, num429s)</code></pre>
+<pre><code>(retries, num429s, num5xxs) => 0.5 + Math.Pow(2, num5xxs + num429s)</code></pre>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>

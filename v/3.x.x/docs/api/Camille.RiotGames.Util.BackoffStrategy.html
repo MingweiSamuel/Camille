@@ -81,7 +81,7 @@ but have a missing/invalid Retry-After header.</p>
   <h6><strong>Assembly</strong>: Camille.RiotGames.dll</h6>
   <h5 id="Camille_RiotGames_Util_BackoffStrategy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate double BackoffStrategy(int retries, int num429s);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate double BackoffStrategy(int retries, int num429s, int num5xxs);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -102,8 +102,13 @@ but have a missing/invalid Retry-After header.</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">num429s</span></td>
-        <td><p>Number of previous 429 responses (0 if this is the first 429 response).</p>
+        <td><p>Number of previous 429 responses (0 if this is the first 429).</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num5xxs</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -134,7 +139,7 @@ but have a missing/invalid Retry-After header.</p>
                     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_Util_BackoffStrategy.md&amp;value=---%0Auid%3A%20Camille.RiotGames.Util.BackoffStrategy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/src/Util/BackoffStrategy.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/src/Util/BackoffStrategy.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
