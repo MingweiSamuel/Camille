@@ -12363,6 +12363,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.BuffsStolen
   nameWithType: ParticipantChallenges.BuffsStolen
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime
+  name: CompleteSupportQuestInTime
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_CompleteSupportQuestInTime
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime
+  nameWithType: ParticipantChallenges.CompleteSupportQuestInTime
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime*
+  name: CompleteSupportQuestInTime
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_CompleteSupportQuestInTime_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.CompleteSupportQuestInTime
+  nameWithType: ParticipantChallenges.CompleteSupportQuestInTime
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ControlWardsPlaced
   name: ControlWardsPlaced
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ControlWardsPlaced
@@ -12441,6 +12454,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DeathsByEnemyChamps
   nameWithType: ParticipantChallenges.DeathsByEnemyChamps
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow
+  name: DodgeSkillShotsSmallWindow
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_DodgeSkillShotsSmallWindow
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow
+  nameWithType: ParticipantChallenges.DodgeSkillShotsSmallWindow
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow*
+  name: DodgeSkillShotsSmallWindow
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_DodgeSkillShotsSmallWindow_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DodgeSkillShotsSmallWindow
+  nameWithType: ParticipantChallenges.DodgeSkillShotsSmallWindow
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.DoubleAces
   name: DoubleAces
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_DoubleAces
@@ -12623,6 +12649,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterSteals
   nameWithType: ParticipantChallenges.EpicMonsterSteals
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite
+  name: EpicMonsterStolenWithoutSmite
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_EpicMonsterStolenWithoutSmite
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite
+  nameWithType: ParticipantChallenges.EpicMonsterStolenWithoutSmite
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite*
+  name: EpicMonsterStolenWithoutSmite
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_EpicMonsterStolenWithoutSmite_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.EpicMonsterStolenWithoutSmite
+  nameWithType: ParticipantChallenges.EpicMonsterStolenWithoutSmite
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion
+  name: FasterSupportQuestCompletion
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FasterSupportQuestCompletion
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion
+  nameWithType: ParticipantChallenges.FasterSupportQuestCompletion
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion*
+  name: FasterSupportQuestCompletion
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FasterSupportQuestCompletion_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FasterSupportQuestCompletion
+  nameWithType: ParticipantChallenges.FasterSupportQuestCompletion
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FastestLegendary
   name: FastestLegendary
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FastestLegendary
@@ -12948,6 +13000,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillsWithHelpFromEpicMonster
   nameWithType: ParticipantChallenges.KillsWithHelpFromEpicMonster
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+  name: KTurretsDestroyedBeforePlatesFall
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KTurretsDestroyedBeforePlatesFall
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+  nameWithType: ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall*
+  name: KTurretsDestroyedBeforePlatesFall
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KTurretsDestroyedBeforePlatesFall_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+  nameWithType: ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame
+  name: LandSkillShotsEarlyGame
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_LandSkillShotsEarlyGame
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame
+  nameWithType: ParticipantChallenges.LandSkillShotsEarlyGame
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame*
+  name: LandSkillShotsEarlyGame
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_LandSkillShotsEarlyGame_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LandSkillShotsEarlyGame
+  nameWithType: ParticipantChallenges.LandSkillShotsEarlyGame
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.LaneMinionsFirst10Minutes
   name: LaneMinionsFirst10Minutes
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_LaneMinionsFirst10Minutes
@@ -13104,6 +13182,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultikillsAfterAggressiveFlash
   nameWithType: ParticipantChallenges.MultikillsAfterAggressiveFlash
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount
+  name: MultiTurretRiftHeraldCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MultiTurretRiftHeraldCount
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount
+  nameWithType: ParticipantChallenges.MultiTurretRiftHeraldCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount*
+  name: MultiTurretRiftHeraldCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MultiTurretRiftHeraldCount_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MultiTurretRiftHeraldCount
+  nameWithType: ParticipantChallenges.MultiTurretRiftHeraldCount
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MythicItemUsed
   name: MythicItemUsed
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MythicItemUsed
@@ -13195,6 +13286,45 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PoroExplosions
   nameWithType: ParticipantChallenges.PoroExplosions
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse
+  name: QuickCleanse
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickCleanse
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse
+  nameWithType: ParticipantChallenges.QuickCleanse
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse*
+  name: QuickCleanse
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickCleanse_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickCleanse
+  nameWithType: ParticipantChallenges.QuickCleanse
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret
+  name: QuickFirstTurret
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickFirstTurret
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret
+  nameWithType: ParticipantChallenges.QuickFirstTurret
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret*
+  name: QuickFirstTurret
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickFirstTurret_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickFirstTurret
+  nameWithType: ParticipantChallenges.QuickFirstTurret
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills
+  name: QuickSoloKills
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickSoloKills
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills
+  nameWithType: ParticipantChallenges.QuickSoloKills
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills*
+  name: QuickSoloKills
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_QuickSoloKills_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.QuickSoloKills
+  nameWithType: ParticipantChallenges.QuickSoloKills
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.RiftHeraldTakedowns
   name: RiftHeraldTakedowns
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_RiftHeraldTakedowns
@@ -13299,6 +13429,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloKills
   nameWithType: ParticipantChallenges.SoloKills
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame
+  name: SoloTurretsLategame
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SoloTurretsLategame
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame
+  nameWithType: ParticipantChallenges.SoloTurretsLategame
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame*
+  name: SoloTurretsLategame
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SoloTurretsLategame_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SoloTurretsLategame
+  nameWithType: ParticipantChallenges.SoloTurretsLategame
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.StealthWardsPlaced
   name: StealthWardsPlaced
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_StealthWardsPlaced
@@ -13494,6 +13637,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThirdInhibitorDestroyedTime
   nameWithType: ParticipantChallenges.ThirdInhibitorDestroyedTime
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
+  name: ThreeWardsOneSweeperCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ThreeWardsOneSweeperCount
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
+  nameWithType: ParticipantChallenges.ThreeWardsOneSweeperCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount*
+  name: ThreeWardsOneSweeperCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ThreeWardsOneSweeperCount_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
+  nameWithType: ParticipantChallenges.ThreeWardsOneSweeperCount
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ToString
