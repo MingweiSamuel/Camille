@@ -12831,6 +12831,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.HighestWardKills
   nameWithType: ParticipantChallenges.HighestWardKills
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  name: ImmobilizeAndKillWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ImmobilizeAndKillWithAlly
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  nameWithType: ParticipantChallenges.ImmobilizeAndKillWithAlly
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly*
+  name: ImmobilizeAndKillWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ImmobilizeAndKillWithAlly_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  nameWithType: ParticipantChallenges.ImmobilizeAndKillWithAlly
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.InitialBuffCount
   name: InitialBuffCount
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_InitialBuffCount
@@ -12909,6 +12922,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.Kda
   nameWithType: ParticipantChallenges.Kda
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  name: KillAfterHiddenWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillAfterHiddenWithAlly
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  nameWithType: ParticipantChallenges.KillAfterHiddenWithAlly
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly*
+  name: KillAfterHiddenWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillAfterHiddenWithAlly_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  nameWithType: ParticipantChallenges.KillAfterHiddenWithAlly
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  name: KilledChampTookFullTeamDamageSurvived
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KilledChampTookFullTeamDamageSurvived
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  nameWithType: ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived*
+  name: KilledChampTookFullTeamDamageSurvived
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KilledChampTookFullTeamDamageSurvived_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  nameWithType: ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillParticipation
   name: KillParticipation
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillParticipation
@@ -13000,6 +13039,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillsWithHelpFromEpicMonster
   nameWithType: ParticipantChallenges.KillsWithHelpFromEpicMonster
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  name: KnockEnemyIntoTeamAndKill
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KnockEnemyIntoTeamAndKill
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  nameWithType: ParticipantChallenges.KnockEnemyIntoTeamAndKill
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill*
+  name: KnockEnemyIntoTeamAndKill
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KnockEnemyIntoTeamAndKill_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  nameWithType: ParticipantChallenges.KnockEnemyIntoTeamAndKill
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
   name: KTurretsDestroyedBeforePlatesFall
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KTurretsDestroyedBeforePlatesFall
@@ -13117,6 +13169,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MaxLevelLeadLaneOpponent
   nameWithType: ParticipantChallenges.MaxLevelLeadLaneOpponent
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  name: MejaisFullStackInTime
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MejaisFullStackInTime
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  nameWithType: ParticipantChallenges.MejaisFullStackInTime
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime*
+  name: MejaisFullStackInTime
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MejaisFullStackInTime_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  nameWithType: ParticipantChallenges.MejaisFullStackInTime
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.MoreEnemyJungleThanOpponent
   name: MoreEnemyJungleThanOpponent
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_MoreEnemyJungleThanOpponent
@@ -13273,6 +13338,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PerfectGame
   nameWithType: ParticipantChallenges.PerfectGame
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
+  name: PickKillWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PickKillWithAlly
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
+  nameWithType: ParticipantChallenges.PickKillWithAlly
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly*
+  name: PickKillWithAlly
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PickKillWithAlly_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
+  nameWithType: ParticipantChallenges.PickKillWithAlly
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PoroExplosions
   name: PoroExplosions
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PoroExplosions
@@ -13338,6 +13416,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.RiftHeraldTakedowns
   nameWithType: ParticipantChallenges.RiftHeraldTakedowns
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  name: SaveAllyFromDeath
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SaveAllyFromDeath
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  nameWithType: ParticipantChallenges.SaveAllyFromDeath
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath*
+  name: SaveAllyFromDeath
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SaveAllyFromDeath_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  nameWithType: ParticipantChallenges.SaveAllyFromDeath
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ScuttleCrabKills
   name: ScuttleCrabKills
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ScuttleCrabKills
@@ -13468,6 +13559,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedSingleDigitHpCount
   nameWithType: ParticipantChallenges.SurvivedSingleDigitHpCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  name: SurvivedThreeImmobilizesInFight
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SurvivedThreeImmobilizesInFight
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  nameWithType: ParticipantChallenges.SurvivedThreeImmobilizesInFight
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight*
+  name: SurvivedThreeImmobilizesInFight
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_SurvivedThreeImmobilizesInFight_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  nameWithType: ParticipantChallenges.SurvivedThreeImmobilizesInFight
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownOnFirstTurret
   name: TakedownOnFirstTurret
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TakedownOnFirstTurret
@@ -13650,6 +13754,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
   nameWithType: ParticipantChallenges.ThreeWardsOneSweeperCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  name: TookLargeDamageSurvived
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TookLargeDamageSurvived
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  nameWithType: ParticipantChallenges.TookLargeDamageSurvived
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived*
+  name: TookLargeDamageSurvived
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TookLargeDamageSurvived_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  nameWithType: ParticipantChallenges.TookLargeDamageSurvived
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_ToString
