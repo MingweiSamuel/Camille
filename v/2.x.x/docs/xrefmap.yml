@@ -14597,12 +14597,6 @@ references:
   commentId: F:MingweiSamuel.Camille.RiotApi.TftSummonerV1
   fullName: MingweiSamuel.Camille.RiotApi.TftSummonerV1
   nameWithType: RiotApi.TftSummonerV1
-- uid: MingweiSamuel.Camille.RiotApi.ThirdPartyCodeV4
-  name: ThirdPartyCodeV4
-  href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_ThirdPartyCodeV4
-  commentId: F:MingweiSamuel.Camille.RiotApi.ThirdPartyCodeV4
-  fullName: MingweiSamuel.Camille.RiotApi.ThirdPartyCodeV4
-  nameWithType: RiotApi.ThirdPartyCodeV4
 - uid: MingweiSamuel.Camille.RiotApi.TournamentStubV4
   name: TournamentStubV4
   href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_TournamentStubV4
@@ -18353,44 +18347,6 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftSummonerV1Endpoints.GetBySummonerNameAsync
   nameWithType: TftSummonerV1Endpoints.GetBySummonerNameAsync
-- uid: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints
-  name: ThirdPartyCodeV4Endpoints
-  href: api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html
-  commentId: T:MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints
-  fullName: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints
-  nameWithType: ThirdPartyCodeV4Endpoints
-- uid: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetThirdPartyCodeBySummonerId(Region, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html#MingweiSamuel_Camille_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerId_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetThirdPartyCodeBySummonerId(Region, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(Region, String, Nullable<CancellationToken>)
-  nameWithType.vb: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(Region, String, Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId*
-  name: GetThirdPartyCodeBySummonerId
-  href: api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html#MingweiSamuel_Camille_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerId_
-  commentId: Overload:MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-- uid: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetThirdPartyCodeBySummonerIdAsync(Region, String, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html#MingweiSamuel_Camille_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerIdAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetThirdPartyCodeBySummonerIdAsync(Region, String, Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(Region, String, Nullable<CancellationToken>)
-  nameWithType.vb: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(Region, String, Nullable(Of CancellationToken))
-- uid: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync*
-  name: GetThirdPartyCodeBySummonerIdAsync
-  href: api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html#MingweiSamuel_Camille_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerIdAsync_
-  commentId: Overload:MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
-  isSpec: "True"
-  fullName: MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
 - uid: MingweiSamuel.Camille.TournamentStubV4
   name: MingweiSamuel.Camille.TournamentStubV4
   href: api/MingweiSamuel.Camille.TournamentStubV4.html

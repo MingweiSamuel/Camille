@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.Endpoints.html",
-          "hash": "y4p8YrWzLMWMAPEjBxqnJ/FOWZ8aXz0HJZK6/7Zi/yk="
+          "hash": "kinvwiQ2W1SXJBcXOfeAwWwXISuKHCORZyY3+aoE/D8="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.RiotApi.html",
-          "hash": "/gYL/jNfCcMILaoKpjIcJGG3lbf7xyl1oTeqviGpqiA="
+          "hash": "H7T8VODSSOYlfZs3xgY+kFHENcha4rhrndhA4lpxp/c="
         }
       },
       "is_incremental": false,
@@ -1661,18 +1661,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MingweiSamuel.Camille.ThirdPartyCodeV4Endpoints.html",
-          "hash": "pQYPhP/gpkrjtztYd9SaHhCpAXyywK2vh/4JzlNTtsY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MingweiSamuel.Camille.TournamentStubV4.LobbyEvent.yml",
       "output": {
         ".html": {
@@ -1749,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentStubV4Endpoints.html",
-          "hash": "5VM6IYA46w95Dwdvqh2PfK/ubJW7EuYZM75b8S12kW0="
+          "hash": "Ko1ioLh4X3AfniJbFA9154GhDWAjxtqjT+tvODXeK+8="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.TournamentV4Endpoints.html",
-          "hash": "FFh6k9fUCC8xTPiVPDy3l0AIatL4txSK/cSpcdBNZgo="
+          "hash": "ijQHIRcChO9xkGu2wb3fPdx0jUT0YcRqyGFtCySoiVY="
         }
       },
       "is_incremental": false,
@@ -2097,7 +2085,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValContentV1Endpoints.html",
-          "hash": "NEkJynMngXp5K/UJSvrp+iGHsniKbMjV+2bcKBRGWPw="
+          "hash": "PHXOuM6aqQSddEBarcZHqLvoLXCAQOW2yU8zP+B0PvE="
         }
       },
       "is_incremental": false,
@@ -2349,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValMatchV1Endpoints.html",
-          "hash": "uR1Awn/sQWs+zBbgyD6E/5QtbTFT3D9lIbFDnlGPGsw="
+          "hash": "nxx0kO5mbbhGtbSanN4/XXWq0NaU5knNHATWTbX3j9A="
         }
       },
       "is_incremental": false,
@@ -2409,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValRankedV1Endpoints.html",
-          "hash": "fm/svh07gDyYssYrCR37GR+kTdcnh9z765U+Fd6oZ/U="
+          "hash": "HAbO9BTsFt8n0K5h2r5gefIsOE6tDiUw9kIbpKaLjeQ="
         }
       },
       "is_incremental": false,
@@ -2481,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.ValStatusV1Endpoints.html",
-          "hash": "cMLvFdDB9IyA6TaHBlDCp+iwGi1Qzv8BS8IKIEu6NWI="
+          "hash": "lQleDxOHXS5uSkJMHtbo6Ak0ICHMEWst2YdwRe4F7gw="
         }
       },
       "is_incremental": false,
@@ -2493,7 +2481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MingweiSamuel.Camille.html",
-          "hash": "edBDDqkge2lt4H6cw/RHb1ZTezNIAPZ3jbUb9FnKPqE="
+          "hash": "TNHUPuDaq/ZOhgkQHtF+2GFazTttniEKK+NAyodkHzE="
         }
       },
       "is_incremental": false,
@@ -2517,7 +2505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "024E4tw+A7Nc0D5rJxmkmxvYOpDhYmEL8xQBnrCjw3A="
+          "hash": "arBlwndi/bBMNFllEKbRMbf1TA9PYQ/szmW2GVmhrew="
         }
       },
       "is_incremental": false,
@@ -2568,7 +2556,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 207,
+          "total_file_count": 206,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
