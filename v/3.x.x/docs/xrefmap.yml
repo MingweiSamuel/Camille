@@ -1244,6 +1244,12 @@ references:
   commentId: F:Camille.Enums.GameMode.ONEFORALL
   fullName: Camille.Enums.GameMode.ONEFORALL
   nameWithType: GameMode.ONEFORALL
+- uid: Camille.Enums.GameMode.PRACTICETOOL
+  name: PRACTICETOOL
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_PRACTICETOOL
+  commentId: F:Camille.Enums.GameMode.PRACTICETOOL
+  fullName: Camille.Enums.GameMode.PRACTICETOOL
+  nameWithType: GameMode.PRACTICETOOL
 - uid: Camille.Enums.GameMode.PROJECT
   name: PROJECT
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_PROJECT
@@ -21422,6 +21428,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.HighestWardKills
   nameWithType: ParticipantChallenges.HighestWardKills
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  name: ImmobilizeAndKillWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_ImmobilizeAndKillWithAlly
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  nameWithType: ParticipantChallenges.ImmobilizeAndKillWithAlly
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly*
+  name: ImmobilizeAndKillWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_ImmobilizeAndKillWithAlly_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.ImmobilizeAndKillWithAlly
+  nameWithType: ParticipantChallenges.ImmobilizeAndKillWithAlly
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.InitialBuffCount
   name: InitialBuffCount
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_InitialBuffCount
@@ -21500,6 +21519,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.Kda
   nameWithType: ParticipantChallenges.Kda
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  name: KillAfterHiddenWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KillAfterHiddenWithAlly
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  nameWithType: ParticipantChallenges.KillAfterHiddenWithAlly
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly*
+  name: KillAfterHiddenWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KillAfterHiddenWithAlly_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KillAfterHiddenWithAlly
+  nameWithType: ParticipantChallenges.KillAfterHiddenWithAlly
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  name: KilledChampTookFullTeamDamageSurvived
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KilledChampTookFullTeamDamageSurvived
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  nameWithType: ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived*
+  name: KilledChampTookFullTeamDamageSurvived
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KilledChampTookFullTeamDamageSurvived_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+  nameWithType: ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KillParticipation
   name: KillParticipation
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KillParticipation
@@ -21591,6 +21636,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KillsWithHelpFromEpicMonster
   nameWithType: ParticipantChallenges.KillsWithHelpFromEpicMonster
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  name: KnockEnemyIntoTeamAndKill
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KnockEnemyIntoTeamAndKill
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  nameWithType: ParticipantChallenges.KnockEnemyIntoTeamAndKill
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill*
+  name: KnockEnemyIntoTeamAndKill
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KnockEnemyIntoTeamAndKill_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.KnockEnemyIntoTeamAndKill
+  nameWithType: ParticipantChallenges.KnockEnemyIntoTeamAndKill
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.KTurretsDestroyedBeforePlatesFall
   name: KTurretsDestroyedBeforePlatesFall
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_KTurretsDestroyedBeforePlatesFall
@@ -21708,6 +21766,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.MaxLevelLeadLaneOpponent
   nameWithType: ParticipantChallenges.MaxLevelLeadLaneOpponent
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  name: MejaisFullStackInTime
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_MejaisFullStackInTime
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  nameWithType: ParticipantChallenges.MejaisFullStackInTime
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime*
+  name: MejaisFullStackInTime
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_MejaisFullStackInTime_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.MejaisFullStackInTime
+  nameWithType: ParticipantChallenges.MejaisFullStackInTime
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.MoreEnemyJungleThanOpponent
   name: MoreEnemyJungleThanOpponent
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_MoreEnemyJungleThanOpponent
@@ -21864,6 +21935,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.PerfectGame
   nameWithType: ParticipantChallenges.PerfectGame
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly
+  name: PickKillWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_PickKillWithAlly
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly
+  nameWithType: ParticipantChallenges.PickKillWithAlly
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly*
+  name: PickKillWithAlly
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_PickKillWithAlly_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.PickKillWithAlly
+  nameWithType: ParticipantChallenges.PickKillWithAlly
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.PoroExplosions
   name: PoroExplosions
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_PoroExplosions
@@ -21929,6 +22013,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.RiftHeraldTakedowns
   nameWithType: ParticipantChallenges.RiftHeraldTakedowns
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  name: SaveAllyFromDeath
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_SaveAllyFromDeath
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  nameWithType: ParticipantChallenges.SaveAllyFromDeath
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath*
+  name: SaveAllyFromDeath
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_SaveAllyFromDeath_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.SaveAllyFromDeath
+  nameWithType: ParticipantChallenges.SaveAllyFromDeath
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.ScuttleCrabKills
   name: ScuttleCrabKills
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_ScuttleCrabKills
@@ -22059,6 +22156,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedSingleDigitHpCount
   nameWithType: ParticipantChallenges.SurvivedSingleDigitHpCount
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  name: SurvivedThreeImmobilizesInFight
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_SurvivedThreeImmobilizesInFight
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  nameWithType: ParticipantChallenges.SurvivedThreeImmobilizesInFight
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight*
+  name: SurvivedThreeImmobilizesInFight
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_SurvivedThreeImmobilizesInFight_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.SurvivedThreeImmobilizesInFight
+  nameWithType: ParticipantChallenges.SurvivedThreeImmobilizesInFight
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.TakedownOnFirstTurret
   name: TakedownOnFirstTurret
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_TakedownOnFirstTurret
@@ -22241,6 +22351,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.ThreeWardsOneSweeperCount
   nameWithType: ParticipantChallenges.ThreeWardsOneSweeperCount
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  name: TookLargeDamageSurvived
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_TookLargeDamageSurvived
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  nameWithType: ParticipantChallenges.TookLargeDamageSurvived
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived*
+  name: TookLargeDamageSurvived
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_TookLargeDamageSurvived_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.TookLargeDamageSurvived
+  nameWithType: ParticipantChallenges.TookLargeDamageSurvived
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.ToString
   name: ToString()
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_ToString
@@ -23406,19 +23529,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.RiotGamesExtensions.TftSummonerV1
   nameWithType: RiotGamesExtensions.TftSummonerV1
-- uid: Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4(Camille.RiotGames.IRiotGamesApi)
-  name: ThirdPartyCodeV4(IRiotGamesApi)
-  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_ThirdPartyCodeV4_Camille_RiotGames_IRiotGamesApi_
-  commentId: M:Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4(Camille.RiotGames.IRiotGamesApi)
-  fullName: Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4(Camille.RiotGames.IRiotGamesApi)
-  nameWithType: RiotGamesExtensions.ThirdPartyCodeV4(IRiotGamesApi)
-- uid: Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4*
-  name: ThirdPartyCodeV4
-  href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_ThirdPartyCodeV4_
-  commentId: Overload:Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4
-  isSpec: "True"
-  fullName: Camille.RiotGames.RiotGamesExtensions.ThirdPartyCodeV4
-  nameWithType: RiotGamesExtensions.ThirdPartyCodeV4
 - uid: Camille.RiotGames.RiotGamesExtensions.TournamentStubV4(Camille.RiotGames.IRiotGamesApi)
   name: TournamentStubV4(IRiotGamesApi)
   href: api/Camille.RiotGames.RiotGamesExtensions.html#Camille_RiotGames_RiotGamesExtensions_TournamentStubV4_Camille_RiotGames_IRiotGamesApi_
@@ -27123,44 +27233,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftSummonerV1Endpoints.GetBySummonerNameAsync
   nameWithType: TftSummonerV1Endpoints.GetBySummonerNameAsync
-- uid: Camille.RiotGames.ThirdPartyCodeV4Endpoints
-  name: ThirdPartyCodeV4Endpoints
-  href: api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html
-  commentId: T:Camille.RiotGames.ThirdPartyCodeV4Endpoints
-  fullName: Camille.RiotGames.ThirdPartyCodeV4Endpoints
-  nameWithType: ThirdPartyCodeV4Endpoints
-- uid: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetThirdPartyCodeBySummonerId(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html#Camille_RiotGames_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerId_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetThirdPartyCodeBySummonerId(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId*
-  name: GetThirdPartyCodeBySummonerId
-  href: api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html#Camille_RiotGames_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerId_
-  commentId: Overload:Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-  isSpec: "True"
-  fullName: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerId
-- uid: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html#Camille_RiotGames_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerIdAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync*
-  name: GetThirdPartyCodeBySummonerIdAsync
-  href: api/Camille.RiotGames.ThirdPartyCodeV4Endpoints.html#Camille_RiotGames_ThirdPartyCodeV4Endpoints_GetThirdPartyCodeBySummonerIdAsync_
-  commentId: Overload:Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
-  isSpec: "True"
-  fullName: Camille.RiotGames.ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
-  nameWithType: ThirdPartyCodeV4Endpoints.GetThirdPartyCodeBySummonerIdAsync
 - uid: Camille.RiotGames.TournamentStubV4
   name: Camille.RiotGames.TournamentStubV4
   href: api/Camille.RiotGames.TournamentStubV4.html
