@@ -5569,6 +5569,810 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LeagueV4Endpoints.GetMasterLeagueAsync
   nameWithType: LeagueV4Endpoints.GetMasterLeagueAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1
+  name: MingweiSamuel.Camille.LolChallengesV1
+  href: api/MingweiSamuel.Camille.LolChallengesV1.html
+  commentId: N:MingweiSamuel.Camille.LolChallengesV1
+  fullName: MingweiSamuel.Camille.LolChallengesV1
+  nameWithType: MingweiSamuel.Camille.LolChallengesV1
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo
+  name: ApexPlayerInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo
+  nameWithType: ApexPlayerInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.#ctor
+  name: ApexPlayerInfo()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ApexPlayerInfo()
+  nameWithType: ApexPlayerInfo.ApexPlayerInfo()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.#ctor*
+  name: ApexPlayerInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ApexPlayerInfo
+  nameWithType: ApexPlayerInfo.ApexPlayerInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties
+  nameWithType: ApexPlayerInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo._AdditionalProperties
+  nameWithType: ApexPlayerInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position
+  name: Position
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Position
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position
+  nameWithType: ApexPlayerInfo.Position
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position*
+  name: Position
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Position_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Position
+  nameWithType: ApexPlayerInfo.Position
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid
+  name: Puuid
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Puuid
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid
+  nameWithType: ApexPlayerInfo.Puuid
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid*
+  name: Puuid
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Puuid_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Puuid
+  nameWithType: ApexPlayerInfo.Puuid
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString()
+  nameWithType: ApexPlayerInfo.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.ToString
+  nameWithType: ApexPlayerInfo.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value
+  name: Value
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Value
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value
+  nameWithType: ApexPlayerInfo.Value
+- uid: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value*
+  name: Value
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_ApexPlayerInfo_Value_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ApexPlayerInfo.Value
+  nameWithType: ApexPlayerInfo.Value
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo
+  name: ChallengeConfigInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo
+  nameWithType: ChallengeConfigInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.#ctor
+  name: ChallengeConfigInfo()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ChallengeConfigInfo()
+  nameWithType: ChallengeConfigInfo.ChallengeConfigInfo()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.#ctor*
+  name: ChallengeConfigInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ChallengeConfigInfo
+  nameWithType: ChallengeConfigInfo.ChallengeConfigInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties
+  nameWithType: ChallengeConfigInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo._AdditionalProperties
+  nameWithType: ChallengeConfigInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp
+  name: EndTimestamp
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_EndTimestamp
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp
+  nameWithType: ChallengeConfigInfo.EndTimestamp
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp*
+  name: EndTimestamp
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_EndTimestamp_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.EndTimestamp
+  nameWithType: ChallengeConfigInfo.EndTimestamp
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id
+  name: Id
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Id
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id
+  nameWithType: ChallengeConfigInfo.Id
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id*
+  name: Id
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Id_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Id
+  nameWithType: ChallengeConfigInfo.Id
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard
+  name: Leaderboard
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Leaderboard
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard
+  nameWithType: ChallengeConfigInfo.Leaderboard
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard*
+  name: Leaderboard
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Leaderboard_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Leaderboard
+  nameWithType: ChallengeConfigInfo.Leaderboard
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames
+  name: LocalizedNames
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_LocalizedNames
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames
+  nameWithType: ChallengeConfigInfo.LocalizedNames
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames*
+  name: LocalizedNames
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_LocalizedNames_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.LocalizedNames
+  nameWithType: ChallengeConfigInfo.LocalizedNames
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp
+  name: StartTimestamp
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_StartTimestamp
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp
+  nameWithType: ChallengeConfigInfo.StartTimestamp
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp*
+  name: StartTimestamp
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_StartTimestamp_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.StartTimestamp
+  nameWithType: ChallengeConfigInfo.StartTimestamp
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State
+  name: State
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_State
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State
+  nameWithType: ChallengeConfigInfo.State
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State*
+  name: State
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_State_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.State
+  nameWithType: ChallengeConfigInfo.State
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds
+  name: Thresholds
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Thresholds
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds
+  nameWithType: ChallengeConfigInfo.Thresholds
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds*
+  name: Thresholds
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Thresholds_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Thresholds
+  nameWithType: ChallengeConfigInfo.Thresholds
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString()
+  nameWithType: ChallengeConfigInfo.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.ToString
+  nameWithType: ChallengeConfigInfo.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking
+  name: Tracking
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Tracking
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking
+  nameWithType: ChallengeConfigInfo.Tracking
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking*
+  name: Tracking
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeConfigInfo_Tracking_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeConfigInfo.Tracking
+  nameWithType: ChallengeConfigInfo.Tracking
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo
+  name: ChallengeInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo
+  nameWithType: ChallengeInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.#ctor
+  name: ChallengeInfo()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ChallengeInfo()
+  nameWithType: ChallengeInfo.ChallengeInfo()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.#ctor*
+  name: ChallengeInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ChallengeInfo
+  nameWithType: ChallengeInfo.ChallengeInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties
+  nameWithType: ChallengeInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo._AdditionalProperties
+  nameWithType: ChallengeInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString()
+  nameWithType: ChallengeInfo.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.html#MingweiSamuel_Camille_LolChallengesV1_ChallengeInfo_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengeInfo.ToString
+  nameWithType: ChallengeInfo.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints
+  name: ChallengePoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints
+  nameWithType: ChallengePoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.#ctor
+  name: ChallengePoints()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ChallengePoints()
+  nameWithType: ChallengePoints.ChallengePoints()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.#ctor*
+  name: ChallengePoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ChallengePoints
+  nameWithType: ChallengePoints.ChallengePoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties
+  nameWithType: ChallengePoints._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints._AdditionalProperties
+  nameWithType: ChallengePoints._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString()
+  nameWithType: ChallengePoints.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.html#MingweiSamuel_Camille_LolChallengesV1_ChallengePoints_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.ChallengePoints.ToString
+  nameWithType: ChallengePoints.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level
+  name: Level
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.Level
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level
+  nameWithType: Level
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level.#ctor
+  name: Level()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.Level.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level.Level()
+  nameWithType: Level.Level()
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level.#ctor*
+  name: Level
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Level.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level.Level
+  nameWithType: Level.Level
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties
+  nameWithType: Level._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level._AdditionalProperties
+  nameWithType: Level._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.Level.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level.ToString()
+  nameWithType: Level.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.Level.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Level.html#MingweiSamuel_Camille_LolChallengesV1_Level_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Level.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Level.ToString
+  nameWithType: Level.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences
+  name: PlayerClientPreferences
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences
+  nameWithType: PlayerClientPreferences
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.#ctor
+  name: PlayerClientPreferences()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PlayerClientPreferences()
+  nameWithType: PlayerClientPreferences.PlayerClientPreferences()
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.#ctor*
+  name: PlayerClientPreferences
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PlayerClientPreferences
+  nameWithType: PlayerClientPreferences.PlayerClientPreferences
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
+  nameWithType: PlayerClientPreferences._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
+  nameWithType: PlayerClientPreferences._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString()
+  nameWithType: PlayerClientPreferences.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ToString
+  nameWithType: PlayerClientPreferences.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo
+  name: PlayerInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo
+  nameWithType: PlayerInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.#ctor
+  name: PlayerInfo()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.PlayerInfo()
+  nameWithType: PlayerInfo.PlayerInfo()
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.#ctor*
+  name: PlayerInfo
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.PlayerInfo
+  nameWithType: PlayerInfo.PlayerInfo
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties
+  nameWithType: PlayerInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo._AdditionalProperties
+  nameWithType: PlayerInfo._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints
+  name: CategoryPoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_CategoryPoints
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints
+  nameWithType: PlayerInfo.CategoryPoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints*
+  name: CategoryPoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_CategoryPoints_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.CategoryPoints
+  nameWithType: PlayerInfo.CategoryPoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges
+  name: Challenges
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_Challenges
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges
+  nameWithType: PlayerInfo.Challenges
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges*
+  name: Challenges
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_Challenges_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Challenges
+  nameWithType: PlayerInfo.Challenges
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences
+  name: Preferences
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_Preferences
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences
+  nameWithType: PlayerInfo.Preferences
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences*
+  name: Preferences
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_Preferences_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.Preferences
+  nameWithType: PlayerInfo.Preferences
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString()
+  nameWithType: PlayerInfo.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.ToString
+  nameWithType: PlayerInfo.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints
+  name: TotalPoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_TotalPoints
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints
+  nameWithType: PlayerInfo.TotalPoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints*
+  name: TotalPoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.html#MingweiSamuel_Camille_LolChallengesV1_PlayerInfo_TotalPoints_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerInfo.TotalPoints
+  nameWithType: PlayerInfo.TotalPoints
+- uid: MingweiSamuel.Camille.LolChallengesV1.State
+  name: State
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.State
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State
+  nameWithType: State
+- uid: MingweiSamuel.Camille.LolChallengesV1.State.#ctor
+  name: State()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.State.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State.State()
+  nameWithType: State.State()
+- uid: MingweiSamuel.Camille.LolChallengesV1.State.#ctor*
+  name: State
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.State.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State.State
+  nameWithType: State.State
+- uid: MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties
+  nameWithType: State._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State._AdditionalProperties
+  nameWithType: State._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.State.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.State.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State.ToString()
+  nameWithType: State.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.State.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.State.html#MingweiSamuel_Camille_LolChallengesV1_State_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.State.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.State.ToString
+  nameWithType: State.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking
+  name: Tracking
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1.Tracking
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking
+  nameWithType: Tracking
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking.#ctor
+  name: Tracking()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking__ctor
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.Tracking.#ctor
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking.Tracking()
+  nameWithType: Tracking.Tracking()
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking.#ctor*
+  name: Tracking
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking__ctor_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Tracking.#ctor
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking.Tracking
+  nameWithType: Tracking.Tracking
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking__AdditionalProperties
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties
+  nameWithType: Tracking._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking__AdditionalProperties_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking._AdditionalProperties
+  nameWithType: Tracking._AdditionalProperties
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString
+  name: ToString()
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking_ToString
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString()
+  nameWithType: Tracking.ToString()
+- uid: MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString*
+  name: ToString
+  href: api/MingweiSamuel.Camille.LolChallengesV1.Tracking.html#MingweiSamuel_Camille_LolChallengesV1_Tracking_ToString_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.Tracking.ToString
+  nameWithType: Tracking.ToString
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints
+  name: LolChallengesV1Endpoints
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html
+  commentId: T:MingweiSamuel.Camille.LolChallengesV1Endpoints
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints
+  nameWithType: LolChallengesV1Endpoints
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChallengeConfigs(Region, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengeConfigs_MingweiSamuel_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChallengeConfigs(Region, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs(MingweiSamuel.Camille.Enums.Region, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs(MingweiSamuel.Camille.Enums.Region, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengeConfigs(Region, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetAllChallengeConfigs(Region, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs*
+  name: GetAllChallengeConfigs
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengeConfigs_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigs
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengeConfigs
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChallengeConfigsAsync(Region, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengeConfigsAsync_MingweiSamuel_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChallengeConfigsAsync(Region, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(Region, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetAllChallengeConfigsAsync(Region, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync*
+  name: GetAllChallengeConfigsAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengeConfigsAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengeConfigsAsync
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengeConfigsAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChallengePercentiles(Region, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengePercentiles_MingweiSamuel_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChallengePercentiles(Region, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles(MingweiSamuel.Camille.Enums.Region, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles(MingweiSamuel.Camille.Enums.Region, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengePercentiles(Region, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetAllChallengePercentiles(Region, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles*
+  name: GetAllChallengePercentiles
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengePercentiles_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentiles
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengePercentiles
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChallengePercentilesAsync(Region, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengePercentilesAsync_MingweiSamuel_Camille_Enums_Region_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChallengePercentilesAsync(Region, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(Region, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetAllChallengePercentilesAsync(Region, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync*
+  name: GetAllChallengePercentilesAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetAllChallengePercentilesAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetAllChallengePercentilesAsync
+  nameWithType: LolChallengesV1Endpoints.GetAllChallengePercentilesAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeConfigs(Region, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeConfigs_MingweiSamuel_Camille_Enums_Region_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeConfigs(Region, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeConfigs(Region, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeConfigs(Region, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs*
+  name: GetChallengeConfigs
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeConfigs_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigs
+  nameWithType: LolChallengesV1Endpoints.GetChallengeConfigs
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeConfigsAsync(Region, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeConfigsAsync_MingweiSamuel_Camille_Enums_Region_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeConfigsAsync(Region, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeConfigsAsync(Region, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeConfigsAsync(Region, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync*
+  name: GetChallengeConfigsAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeConfigsAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeConfigsAsync
+  nameWithType: LolChallengesV1Endpoints.GetChallengeConfigsAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeLeaderboards(Region, String, Int64, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeLeaderboards_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeLeaderboards(Region, String, Int64, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboards(Region, String, Int64, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboards(Region, String, Int64, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards*
+  name: GetChallengeLeaderboards
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeLeaderboards_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboards
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboards
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeLeaderboardsAsync(Region, String, Int64, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Int64_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Int64,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeLeaderboardsAsync(Region, String, Int64, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Int64, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(Region, String, Int64, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(Region, String, Int64, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync*
+  name: GetChallengeLeaderboardsAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengePercentiles(Region, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengePercentiles_MingweiSamuel_Camille_Enums_Region_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengePercentiles(Region, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengePercentiles(Region, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengePercentiles(Region, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles*
+  name: GetChallengePercentiles
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengePercentiles_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentiles
+  nameWithType: LolChallengesV1Endpoints.GetChallengePercentiles
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengePercentilesAsync(Region, Int64, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengePercentilesAsync_MingweiSamuel_Camille_Enums_Region_System_Int64_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region,System.Int64,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengePercentilesAsync(Region, Int64, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync(MingweiSamuel.Camille.Enums.Region, System.Int64, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengePercentilesAsync(Region, Int64, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengePercentilesAsync(Region, Int64, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync*
+  name: GetChallengePercentilesAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetChallengePercentilesAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetChallengePercentilesAsync
+  nameWithType: LolChallengesV1Endpoints.GetChallengePercentilesAsync
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetPlayerData(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetPlayerData_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetPlayerData(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetPlayerData(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetPlayerData(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData*
+  name: GetPlayerData
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetPlayerData_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerData
+  nameWithType: LolChallengesV1Endpoints.GetPlayerData
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetPlayerDataAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetPlayerDataAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetPlayerDataAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetPlayerDataAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetPlayerDataAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync*
+  name: GetPlayerDataAsync
+  href: api/MingweiSamuel.Camille.LolChallengesV1Endpoints.html#MingweiSamuel_Camille_LolChallengesV1Endpoints_GetPlayerDataAsync_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1Endpoints.GetPlayerDataAsync
+  nameWithType: LolChallengesV1Endpoints.GetPlayerDataAsync
 - uid: MingweiSamuel.Camille.LolStatusV3
   name: MingweiSamuel.Camille.LolStatusV3
   href: api/MingweiSamuel.Camille.LolStatusV3.html
@@ -14500,6 +15304,12 @@ references:
   commentId: F:MingweiSamuel.Camille.RiotApi.LeagueV4
   fullName: MingweiSamuel.Camille.RiotApi.LeagueV4
   nameWithType: RiotApi.LeagueV4
+- uid: MingweiSamuel.Camille.RiotApi.LolChallengesV1
+  name: LolChallengesV1
+  href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_LolChallengesV1
+  commentId: F:MingweiSamuel.Camille.RiotApi.LolChallengesV1
+  fullName: MingweiSamuel.Camille.RiotApi.LolChallengesV1
+  nameWithType: RiotApi.LolChallengesV1
 - uid: MingweiSamuel.Camille.RiotApi.LolStatusV3
   name: LolStatusV3
   href: api/MingweiSamuel.Camille.RiotApi.html#MingweiSamuel_Camille_RiotApi_LolStatusV3
@@ -18039,15 +18849,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchAsync
   nameWithType: TftMatchV1Endpoints.GetMatchAsync
-- uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: TftMatchV1Endpoints.GetMatchIdsByPUUID(Region, String, Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID*
   name: GetMatchIdsByPUUID
   href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUID_
@@ -18055,15 +18865,15 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUID
   nameWithType: TftMatchV1Endpoints.GetMatchIdsByPUUID
-- uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Int32__System_Nullable_System_Int64__System_Nullable_System_Int64__System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync(Region, String, Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: MingweiSamuel.Camille.TftMatchV1Endpoints.GetMatchIdsByPUUIDAsync*
   name: GetMatchIdsByPUUIDAsync
   href: api/MingweiSamuel.Camille.TftMatchV1Endpoints.html#MingweiSamuel_Camille_TftMatchV1Endpoints_GetMatchIdsByPUUIDAsync_
