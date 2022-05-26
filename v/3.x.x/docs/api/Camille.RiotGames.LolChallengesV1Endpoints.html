@@ -468,20 +468,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lo
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute%2CSystem.Int64%2CSystem.String%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute%2CSystem.Int64%2CCamille.Enums.Tier%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L721">View Source</a>
   </span>
   <a id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards*"></a>
-  <h4 id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetChallengeLeaderboards(PlatformRoute, Int64, String, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetChallengeLeaderboards(PlatformRoute, Int64, Enums.Tier, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Return top players for each level. Level must be MASTER, GRANDMASTER or CHALLENGER.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lol-challenges-v1/GET_getChallengeLeaderboards">https://developer.riotgames.com/api-methods/#lol-challenges-v1/GET_getChallengeLeaderboards</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ApexPlayerInfo[] GetChallengeLeaderboards(PlatformRoute route, long challengeId, string level, int? limit = null, CancellationToken? cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ApexPlayerInfo[] GetChallengeLeaderboards(PlatformRoute route, long challengeId, Enums.Tier level, int? limit = null, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -506,7 +506,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lo
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Camille.Enums.Tier.html">Tier</a></td>
         <td><span class="parametername">level</span></td>
         <td><p>(required, in path)</p>
 </td>
@@ -542,20 +542,20 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lo
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute%2CSystem.Int64%2CSystem.String%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute%2CSystem.Int64%2CCamille.Enums.Tier%2CSystem.Nullable%7BSystem.Int32%7D%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L736">View Source</a>
   </span>
   <a id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync*"></a>
-  <h4 id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetChallengeLeaderboardsAsync(PlatformRoute, Int64, String, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <h4 id="Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})">GetChallengeLeaderboardsAsync(PlatformRoute, Int64, Enums.Tier, Nullable&lt;Int32&gt;, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Return top players for each level. Level must be MASTER, GRANDMASTER or CHALLENGER.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lol-challenges-v1/GET_getChallengeLeaderboards">https://developer.riotgames.com/api-methods/#lol-challenges-v1/GET_getChallengeLeaderboards</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ApexPlayerInfo[]&gt; GetChallengeLeaderboardsAsync(PlatformRoute route, long challengeId, string level, int? limit = null, CancellationToken? cancellationToken = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ApexPlayerInfo[]&gt; GetChallengeLeaderboardsAsync(PlatformRoute route, long challengeId, Enums.Tier level, int? limit = null, CancellationToken? cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -580,7 +580,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#lo
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Camille.Enums.Tier.html">Tier</a></td>
         <td><span class="parametername">level</span></td>
         <td><p>(required, in path)</p>
 </td>

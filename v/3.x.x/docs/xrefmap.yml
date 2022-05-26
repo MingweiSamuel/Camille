@@ -230,6 +230,12 @@ references:
   commentId: F:Camille.Enums.Champion.BARD
   fullName: Camille.Enums.Champion.BARD
   nameWithType: Champion.BARD
+- uid: Camille.Enums.Champion.BELVETH
+  name: BELVETH
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_BELVETH
+  commentId: F:Camille.Enums.Champion.BELVETH
+  fullName: Camille.Enums.Champion.BELVETH
+  nameWithType: Champion.BELVETH
 - uid: Camille.Enums.Champion.BLITZCRANK
   name: BLITZCRANK
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_BLITZCRANK
@@ -14341,6 +14347,84 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo._AdditionalProperties
   nameWithType: ChallengeInfo._AdditionalProperties
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime
+  name: AchievedTime
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_AchievedTime
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime
+  nameWithType: ChallengeInfo.AchievedTime
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime*
+  name: AchievedTime
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_AchievedTime_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.AchievedTime
+  nameWithType: ChallengeInfo.AchievedTime
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId
+  name: ChallengeId
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_ChallengeId
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId
+  nameWithType: ChallengeInfo.ChallengeId
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId*
+  name: ChallengeId
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_ChallengeId_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ChallengeId
+  nameWithType: ChallengeInfo.ChallengeId
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level
+  name: Level
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Level
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level
+  nameWithType: ChallengeInfo.Level
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level*
+  name: Level
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Level_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Level
+  nameWithType: ChallengeInfo.Level
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile
+  name: Percentile
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Percentile
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile
+  nameWithType: ChallengeInfo.Percentile
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile*
+  name: Percentile
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Percentile_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Percentile
+  nameWithType: ChallengeInfo.Percentile
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel
+  name: PlayersInLevel
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_PlayersInLevel
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel
+  nameWithType: ChallengeInfo.PlayersInLevel
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel*
+  name: PlayersInLevel
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_PlayersInLevel_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.PlayersInLevel
+  nameWithType: ChallengeInfo.PlayersInLevel
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position
+  name: Position
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Position
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position
+  nameWithType: ChallengeInfo.Position
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position*
+  name: Position
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Position_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Position
+  nameWithType: ChallengeInfo.Position
 - uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ToString
   name: ToString()
   href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_ToString
@@ -14354,6 +14438,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.ToString
   nameWithType: ChallengeInfo.ToString
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value
+  name: Value
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Value
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value
+  nameWithType: ChallengeInfo.Value
+- uid: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value*
+  name: Value
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html#Camille_RiotGames_LolChallengesV1_ChallengeInfo_Value_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengeInfo.Value
+  nameWithType: ChallengeInfo.Value
 - uid: Camille.RiotGames.LolChallengesV1.ChallengePoints
   name: ChallengePoints
   href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html
@@ -14386,6 +14483,58 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints._AdditionalProperties
   nameWithType: ChallengePoints._AdditionalProperties
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Current
+  name: Current
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Current
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengePoints.Current
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Current
+  nameWithType: ChallengePoints.Current
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Current*
+  name: Current
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Current_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengePoints.Current
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Current
+  nameWithType: ChallengePoints.Current
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Level
+  name: Level
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Level
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengePoints.Level
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Level
+  nameWithType: ChallengePoints.Level
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Level*
+  name: Level
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Level_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengePoints.Level
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Level
+  nameWithType: ChallengePoints.Level
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Max
+  name: Max
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Max
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengePoints.Max
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Max
+  nameWithType: ChallengePoints.Max
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Max*
+  name: Max
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Max_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengePoints.Max
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Max
+  nameWithType: ChallengePoints.Max
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile
+  name: Percentile
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Percentile
+  commentId: P:Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile
+  nameWithType: ChallengePoints.Percentile
+- uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile*
+  name: Percentile
+  href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_Percentile_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.ChallengePoints.Percentile
+  nameWithType: ChallengePoints.Percentile
 - uid: Camille.RiotGames.LolChallengesV1.ChallengePoints.ToString
   name: ToString()
   href: api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html#Camille_RiotGames_LolChallengesV1_ChallengePoints_ToString
@@ -14476,6 +14625,45 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences._AdditionalProperties
   nameWithType: PlayerClientPreferences._AdditionalProperties
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent
+  name: BannerAccent
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_BannerAccent
+  commentId: P:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent
+  nameWithType: PlayerClientPreferences.BannerAccent
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent*
+  name: BannerAccent
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_BannerAccent_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.BannerAccent
+  nameWithType: PlayerClientPreferences.BannerAccent
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds
+  name: ChallengeIds
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_ChallengeIds
+  commentId: P:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds
+  nameWithType: PlayerClientPreferences.ChallengeIds
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds*
+  name: ChallengeIds
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_ChallengeIds_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ChallengeIds
+  nameWithType: PlayerClientPreferences.ChallengeIds
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title
+  name: Title
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_Title
+  commentId: P:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title
+  nameWithType: PlayerClientPreferences.Title
+- uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title*
+  name: Title
+  href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_Title_
+  commentId: Overload:Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title
+  isSpec: "True"
+  fullName: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.Title
+  nameWithType: PlayerClientPreferences.Title
 - uid: Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.ToString
   name: ToString()
   href: api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html#Camille_RiotGames_LolChallengesV1_PlayerClientPreferences_ToString
@@ -14778,15 +14966,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeConfigsAsync
   nameWithType: LolChallengesV1Endpoints.GetChallengeConfigsAsync
-- uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengeLeaderboards(PlatformRoute, Int64, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengeLeaderboards(PlatformRoute, Int64, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, System.Int64, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, System.Int64, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, Int64, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, Int64, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeLeaderboards(PlatformRoute, Int64, Enums.Tier, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeLeaderboards(PlatformRoute, Int64, Enums.Tier, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, System.Int64, Camille.Enums.Tier, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, System.Int64, Camille.Enums.Tier, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, Int64, Enums.Tier, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboards(PlatformRoute, Int64, Enums.Tier, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards*
   name: GetChallengeLeaderboards
   href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboards_
@@ -14794,15 +14982,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboards
   nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboards
-- uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengeLeaderboardsAsync(PlatformRoute, Int64, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengeLeaderboardsAsync(PlatformRoute, Int64, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, System.Int64, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, System.Int64, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, Int64, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, Int64, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengeLeaderboardsAsync(PlatformRoute, Int64, Enums.Tier, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_PlatformRoute_System_Int64_Camille_Enums_Tier_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute,System.Int64,Camille.Enums.Tier,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengeLeaderboardsAsync(PlatformRoute, Int64, Enums.Tier, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, System.Int64, Camille.Enums.Tier, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, System.Int64, Camille.Enums.Tier, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, Int64, Enums.Tier, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync(PlatformRoute, Int64, Enums.Tier, Nullable(Of Int32), Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.LolChallengesV1Endpoints.GetChallengeLeaderboardsAsync*
   name: GetChallengeLeaderboardsAsync
   href: api/Camille.RiotGames.LolChallengesV1Endpoints.html#Camille_RiotGames_LolChallengesV1Endpoints_GetChallengeLeaderboardsAsync_
