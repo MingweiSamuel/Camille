@@ -23,6 +23,9 @@ namespace Camille.Enums
         /// <summary>Ranked Teamfight Tactics, Hyper Roll game mode.</summary>
         RANKED_TFT_TURBO = 1130,
         /// <summary>Ranked Teamfight Tactics, Double Up game mode.</summary>
+        [Obsolete("Deprecated in patch 12.11 in favor of queueId 1160")]
         RANKED_TFT_PAIRS = 1150,
+        /// <summary>Ranked Teamfight Tactics, Double Up game mode.</summary>
+        RANKED_TFT_DOUBLE_UP = 1160,
     }
 }
