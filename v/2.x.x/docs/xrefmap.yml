@@ -1853,6 +1853,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.NIDALEE
   fullName: MingweiSamuel.Camille.Enums.Champion.NIDALEE
   nameWithType: Champion.NIDALEE
+- uid: MingweiSamuel.Camille.Enums.Champion.NILAH
+  name: NILAH
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_NILAH
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.NILAH
+  fullName: MingweiSamuel.Camille.Enums.Champion.NILAH
+  nameWithType: Champion.NILAH
 - uid: MingweiSamuel.Camille.Enums.Champion.NOCTURNE
   name: NOCTURNE
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_NOCTURNE
@@ -2819,6 +2825,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Nidalee
   fullName: MingweiSamuel.Camille.Enums.ChampionId.Nidalee
   nameWithType: ChampionId.Nidalee
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Nilah
+  name: Nilah
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Nilah
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Nilah
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Nilah
+  nameWithType: ChampionId.Nilah
 - uid: MingweiSamuel.Camille.Enums.ChampionId.Nocturne
   name: Nocturne
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Nocturne
