@@ -9,7 +9,3763 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "s3o/7dymykVKvJzqMeLHz8mjxPhJ9L8/QpfPz4eZrus="
+          "hash": "6U4Vb4oKr50fGd0Yw7EMbrBWZSblQKPJtaWD8v21bRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Core.HttpRequestMessageUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Core.HttpRequestMessageUtils.html",
+          "hash": "y1/wrygM1nPfFZYxMH1t2B7StNSv5AoKnqQ4eiqfDzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Core.JsonHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Core.JsonHandler.html",
+          "hash": "OAX8+fiZy1t1K2SA06SLAMzD9diObpKNJdanBS5dlPg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Core.RiotCertificateUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Core.RiotCertificateUtils.html",
+          "hash": "CorDpSG36FqU0Qyc9EyG0ThISNydYAUpzL+COgaZLd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Core.SynchronizationContextRemover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Core.SynchronizationContextRemover.html",
+          "hash": "7T3q323CLUosdzY4SxyISEeC5DbxBOnIbqZ9k7JGeB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Core.html",
+          "hash": "RvjitKaAwtbVFle2zY4mBdNeBofaEIZU5QZA6MiphHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Champion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Champion.html",
+          "hash": "0svtsevSiL82kjGdWPQ2jimKtshDy54HeQD89TOWCHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Division.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Division.html",
+          "hash": "1napNFmkBAB/QkxzIUhLT6X/eHmsdKQoYxwKOzlFT8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.GameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.GameMode.html",
+          "hash": "YNmoTB915UGASC1GAh+KbHxC+qXokUR6S5JbWUIKMoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.GameType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.GameType.html",
+          "hash": "Rltl2w8i0PMYMbSOslKC4rwxWKzf8H5PfuhfpUR5ZSg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Locale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Locale.html",
+          "hash": "S5NYT4xFhfmHoYP6zuzVQRENrXnEBI2W659gYyjSqzw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Map.html",
+          "hash": "9oDjfZN/rFtdoUgWCe4LFqUGrzEygqeE4QXreeVUcEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.PlatformRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.PlatformRoute.html",
+          "hash": "ulOT1wyN9CDKPERihsjujgla0T8FQN8kYj+0RIZYnCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Queue.html",
+          "hash": "rbEBS3NCz+P86jzwf+G/f6XTb30Z1Cyri53IomZWMTo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.QueueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.QueueType.html",
+          "hash": "IrLGje1qhKeXsuBgJ0giCyUVdA5sneboJbxnxzgq3ng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.RegionalRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.RegionalRoute.html",
+          "hash": "7qTSeSjuDXhJomnygaFGk9EyYcxSY2dvGk8B9qIeyog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.RouteUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.RouteUtils.html",
+          "hash": "ROnVoUq41X7qGmqD3dzl/fchX6EmsOijWaLiRDb+Rhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.Tier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.Tier.html",
+          "hash": "Fy4AU4h6ceCKZlfCKievFLAmjnOyMMYjAoGImNOXeUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.ValPlatformRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.ValPlatformRoute.html",
+          "hash": "zPs2i+M0hPsBlaon1FFs4HVDYIralaPVt0MMMVPihuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Enums.html",
+          "hash": "+vikEkpQrczd/bNfgiOisdZReMTv5nu1OB+YS6UhxTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.AutomaticLockfileProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.AutomaticLockfileProvider.html",
+          "hash": "sFFd68Z0ducdNeaH/dRcnGK6rNfyItKHJ2WaJery/IM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.Endpoints.html",
+          "hash": "T+nyiz5UXNXnKW05BPb+Sa9gJJ3VKyWiUjzVD+0uqww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.Global.RegionLocale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.Global.RegionLocale.html",
+          "hash": "M0UEjO1m19myN9rUBjUGUgL780i5lgOt/iYRtigKZOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.Global.html",
+          "hash": "p7Ycr9+OOfKBjT6VMP8yVj6Cr1buvMPPeleHkyuX7gc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.GlobalEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.GlobalEndpoints.html",
+          "hash": "opn+CslxiuEGcY80cIzrpqCo3HnJqtz9fgEk+pAofXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.ILcuApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.ILcuApi.html",
+          "hash": "RSZcyl5vBsJaJjEKB+Ck6v6r3LhrlZDOUjr+aglUs0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.ILockfileProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.ILockfileProvider.html",
+          "hash": "IQnZJ7gscJSJkk8CnrLOFJYjvb6qAu8zbGOnZOGmdoQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LcuApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LcuApi.html",
+          "hash": "38bcqfkw8xV2XXNLLF4XQ1rLWjovWorsiBUjbMl0bDw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LcuConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LcuConfig.html",
+          "hash": "ZoQk7uMmkqU1g1B14mFfIlr5a6XKZ3fuknFd13B6NPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LcuExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LcuExtensions.html",
+          "hash": "PerDPGp0YnpOEJ0a0tqmqBI6hnq4yKmDeihlwcKyUJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LcuRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LcuRequester.html",
+          "hash": "uEY6z+HGr+Ifa2z6Mnj06g7Gs4x/sjwtSvzGALpTJcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.Lockfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.Lockfile.html",
+          "hash": "lzg7lza6nB6rsn/ph5so4oS0uTPUcHY2fHbdVbczgdo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectAction.html",
+          "hash": "JbRkvtJZla9RNuAguvGEju89sQENJF9PWWmztaT0jqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectBannedChampions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectBannedChampions.html",
+          "hash": "crOUbfLrVMkRGxGid9Tw7qnA9Fee/b+Kz1qGbmh4+D4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectChatRoomDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectChatRoomDetails.html",
+          "hash": "p/81/a/+4OIS/x3aRA7rnuSMWzSQQQG+ryW0emPrUXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectMySelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectMySelection.html",
+          "hash": "0xTy2ci4ZQqSUztrJ1MZxj/EsB3BFNDZjoWgACcfNSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectPlayerSelection.html",
+          "hash": "Qt6HKyQmEjoncdSyRcuB9OTS8Ud4xKjDadb67WlgMAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectSession.html",
+          "hash": "GbByGtxRREEDJZlNBzU020b6sR3ofBrIyy283QQf2+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTimer.html",
+          "hash": "B3K3LAP1uDAgzIa333GgmTL6ByzpsuHuFEMqDn2jINY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeContract.html",
+          "hash": "vj6uxyMeOkhqKo2iP6xtS7HzA5cP5Mj67/kX+OZwm54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.ChampSelectTradeState.html",
+          "hash": "KE/MIWEeNsOA2zflERKaJMLvMGYlq1Aw5RSJtdai1kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.EntitledFeatureState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.EntitledFeatureState.html",
+          "hash": "ROVY8TCCurItFLcuB58/9dE/iagA3reK69VDxFsQn80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.TeamBoost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.TeamBoost.html",
+          "hash": "KEDPPjxXpeDiApGpeHwoegBayvQcQ7aA6bHo+PHSxuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelect.html",
+          "hash": "heWE6XHO+5C/nGYEbBAF10j9JIn6FtVXWeG3s5Kg+G4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolChampSelectEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolChampSelectEndpoints.html",
+          "hash": "/CgqCFMljQZA4CIaPu8rTArMqsAenA+kd0NxdyOLX5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolLogin.AccountStateResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolLogin.AccountStateResource.html",
+          "hash": "MsvIIPQ1uOs+TU25elDAZdG17zIP1NRIJFshsdWk4lI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolLogin.AccountStateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolLogin.AccountStateType.html",
+          "hash": "yodRHauwY1zD/k1OJ4TeVFQfzy9V/nTT/UANhMRTuxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolLogin.html",
+          "hash": "oRrSva2fHpTe/lDHInjITXxIX2BZQhrvKXS+zTSMbAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolLoginEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolLoginEndpoints.html",
+          "hash": "WyiMDWY55edIfn36Z1FOb8lQNTzYih4T55Arq4AKnrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.AchievedTier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.AchievedTier.html",
+          "hash": "XhZT6k8Fp5fCoIHvj6dhpr72qtnIYMNOBbmvOwRkK5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.LeagueDivisionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.LeagueDivisionInfo.html",
+          "hash": "S4DpwMeF72lcw9lWNKg1BxYTzPa1knSxZs5kVIcv/k4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.LeagueLadderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.LeagueLadderInfo.html",
+          "hash": "kzQK5VxPy7frBI4Cog+n+rZWhYyQXnWUKVbCwIb27uo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.LeagueStanding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.LeagueStanding.html",
+          "hash": "7K0JQxMqFgmVHyZe25CcvZDxRUly7ptrvpGv/YPPXyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.Miniseries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.Miniseries.html",
+          "hash": "ukq8rxtG4MHpFRPorCrh8XIheWprmbcipty2oOZPz0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.ParticipantTiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.ParticipantTiers.html",
+          "hash": "NJOC9m4m9ik6qSCfnHBi+QGm7Yfv4dddSM0KI+T/FVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.RankedQueueStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.RankedQueueStats.html",
+          "hash": "Be6oVAHw1/gaoFwrn5JUnT2g/PGxmi5UONZpzekNvBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.RankedQueueWarnings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.RankedQueueWarnings.html",
+          "hash": "wVBd0YbasLI2T/G1Ip8oWcJyaKQJSR67jePBE8g4wqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.RankedStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.RankedStats.html",
+          "hash": "ENwfJlwzqXnDZKX+HZ5j0rQm9VIgTJqjLxfWn4Y1g9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.RatedTier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.RatedTier.html",
+          "hash": "0kuG0rJ4blVoVVbo9IDaMDrgbiy3RWlFP0dE0ORR6NY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.Season.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.Season.html",
+          "hash": "jbKnoemwmiKIVTIt5pr5NPr4+1w44Prm2WKqx8MRjH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRanked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRanked.html",
+          "hash": "RTMAD+MfkumlPyRBkJhH/Cw4Jr14h+YoyVEqLsdg6Zo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolRankedEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolRankedEndpoints.html",
+          "hash": "bCU4Rh3ueACHpENGxfag2mUh63YGgqHOzs2L2wqaaUk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.AutoFillQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.AutoFillQueue.html",
+          "hash": "EPj39IpBJBJlh8WEefva6zu+1HWnzEIZQ93Cg1F3uL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.ProfilePrivacySetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.ProfilePrivacySetting.html",
+          "hash": "O+ypVT9gUqbOefPZYhk6nhGimw9FMCwQlU5IW0SzLzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.Summoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.Summoner.html",
+          "hash": "wSSJlAo6W+9LWp1PjB5E+qfxlpdFHZXLDRCeQg2oN+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.SummonerIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.SummonerIcon.html",
+          "hash": "MqjY1ex2z9eIWVfw65LoEetjm7TXD5o3+tRBD07KlPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.SummonerProfileUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.SummonerProfileUpdate.html",
+          "hash": "u19ByMkaASnsMtPGSzl140LTdPLiNk4OmcctYNFBcCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.SummonerRequestedName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.SummonerRequestedName.html",
+          "hash": "GU2GrSerLOWTF/q+dn+LsV5icDvNAc6XNzqfrZ5X0A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.SummonerRerollPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.SummonerRerollPoints.html",
+          "hash": "OzuHG/IcjU9YL9Trxv5Kb93A63bfut2rVE12CC6iSBA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummoner.html",
+          "hash": "V2kP9B5Af2RtdouY9lGgGDOg2qB8FbzVp0HUgJCkm6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.LolSummonerEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.LolSummonerEndpoints.html",
+          "hash": "p87WQyRkpQ5oDElI4NHT+ldxhkf/Zf2S89kv+AQcwrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.Lcu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.Lcu.html",
+          "hash": "0IprUQXIxfKPVUmL4bP9iCNlTI7Kz6c5bnXEAJZphkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.Endpoints.html",
+          "hash": "hBhlN/eihNFiAbNh04SCnVvLdkUaKMQCm+LGaksWI9M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.ILolGameApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.ILolGameApi.html",
+          "hash": "JlH8eAlamcZ4ij51TZzwWqCzhs13BCc9Y9HeTHHQpGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Ability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Ability.html",
+          "hash": "u8yUTlki5RnbNvYrYG+yenLF41k6inXkeYr53ft3ISY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayer.html",
+          "hash": "g1U42Wkxbs85ACzn0Z+zY57wiRgzsTwcCHS2gzV6E3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerAbilities.html",
+          "hash": "kwBKafpM2KBTmfLzdY9bK96AhnXjh6yX8TuODjTiMgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerRunes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.ActivePlayerRunes.html",
+          "hash": "thvtmhWnOiZtX/pp4PYD4a9oyGy8RGw7hw8ls0cAp3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.AllGameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.AllGameData.html",
+          "hash": "kolkbiX1fL0iYGL31ltHPe05Y74BI/GQN0mHHNXDQdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Event.html",
+          "hash": "bUfDZAjGFFiRyp+93s7iwpVhjgoWYz9tWss8owyammk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.EventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.EventData.html",
+          "hash": "+7chGoRLO33Z/k7Ym5vUR5mrvaOj6REA20Rf3LxzG5A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.GameStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.GameStats.html",
+          "hash": "cRQx7/0fO3m5ZF6M39w7IFAIImk83mJIC2uGWPFPBeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.GeneralRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.GeneralRune.html",
+          "hash": "kwTSh5DQS8af3Y4bkXTR7Dw047hrPmvuS3hV7fjUpRs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Passive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Passive.html",
+          "hash": "e2fn1tSdpF9AhA3uNdkeW7M6ME0wyb7AzWMlnxYbN18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.Player.html",
+          "hash": "XGs3c7K0+FrSB+iv/j+HdxpAGQ6v7AgSxNZpPhPQ03A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerChampionStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerChampionStats.html",
+          "hash": "GChgs0kxeC5u9m35+vCOKzsWPJYIlBJENxFkrgVtuVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerItem.html",
+          "hash": "r7BoLA69z76PRMx9Cc91bgcC1FHCArXsIEE1HuJCBOs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerRunes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerRunes.html",
+          "hash": "pvQ3Ib8i84A/4SsMGiyDMuu2YSiKfOufoCorLFbh8ts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerScores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerScores.html",
+          "hash": "8CZpCApAabqvp3XjxFQAKKVm+1gjkUE3MKIa/CPCL/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpell.html",
+          "hash": "ebmmP8GZLV33VAn/NIPkUbh9Hu4FXRXYclxxo0pNoXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.PlayerSummonerSpells.html",
+          "hash": "NZpR4u8xy2d9sB4A4qHFsvfyZ5mXnuZEb0vKARSNFBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.StatRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.StatRune.html",
+          "hash": "7IHdClSMADx4Wy6oddPr2PrXAG4PC9dk9giWyWbrRXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientData.html",
+          "hash": "SK7IFwHbkeqOxza2BRjNwcIuoXKypMGOo0EN4LrvwSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LiveClientDataEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LiveClientDataEndpoints.html",
+          "hash": "sZYlfzkuMqLME/rMAaibrpczaUk0uOJ1jlvmFQtOmHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LolGameApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LolGameApi.html",
+          "hash": "0cDWybLTR3bg9CkjKO+/YsmYX+FHSXctEx/juLHnUY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LolGameConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LolGameConfig.html",
+          "hash": "CTwLEm/zsx+n6VjP3DSYzbpWEMEJvXyY06YKMOgNRs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LolGameErrorMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LolGameErrorMessage.html",
+          "hash": "wLgPz/s22xzzZ6z/sj51s+cf40EaDHNI9jmrNIxOcUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LolGameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LolGameException.html",
+          "hash": "JiFFpzLMKmdhQi/VD+ZY7e5+aa+nceDLRhASi/vDxDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.LolGameExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.LolGameExtensions.html",
+          "hash": "pXCqDu2Kn4y4Z6R/4GqNyZi9YYSzv4BcMo1HS/SdAGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.LolGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.LolGame.html",
+          "hash": "HQjh50uVU/4sBq1h5aYNTurdjY4C4Ert4F4m/rFm3ZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.AccountV1.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.AccountV1.Account.html",
+          "hash": "qLSvKvOP8R1pSCDhCr2AxQ23RsQ1Aipszh4JIPDc/eA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.AccountV1.ActiveShard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.AccountV1.ActiveShard.html",
+          "hash": "RU7tBcSLs8XgIAzR77kg2lJ1P5RYmgxsIER6aRkYf48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.AccountV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.AccountV1.html",
+          "hash": "qXSG0gGoYw2ER/87guixwj+pVyVGzlIldh3BpaWODaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.AccountV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.AccountV1Endpoints.html",
+          "hash": "fuEvx6wScgSwqWjviEhtIjtS2mbJQxoY90CMTnvqp5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html",
+          "hash": "nbr5hfxNXnA9A64K9bVxC7MtJCFu4iTMUmrx39L2jDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionMasteryV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionMasteryV4.html",
+          "hash": "loy0DjFPJvdrtWsMJQg+9zNbPLpRa/AZ/3sSB9xrJ7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionMasteryV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionMasteryV4Endpoints.html",
+          "hash": "LXWoRaS2bmIz7D7IaEc0kfSU3bdLpM0QGvdr6A+wDFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionV3.ChampionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionV3.ChampionInfo.html",
+          "hash": "rgb+YLHDxEgBGQX3TN2X/am2t9yzO8H4LMM+c4LMf7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionV3.html",
+          "hash": "td1EuMYjVpWAQc+kLc+zldBqTNwip8UBVHOymAOY9KY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ChampionV3Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ChampionV3Endpoints.html",
+          "hash": "IR5vDwy/vdvM171XOX5UE3pbsyDrN0Ot3qxq5iZ6Mzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1.Player.html",
+          "hash": "TI8VD1l/ohl8jN1Jg8zA+K9zKryzHk9YfI9aE4WM4XU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1.Team.html",
+          "hash": "wbnmOWJ4+y1AgEazfBph6sh8wRRUMzUr0Vy55y6dFOs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1.Tournament.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1.Tournament.html",
+          "hash": "Tvrk7Ndp+nwDhGnME/46bdO5e0fOfR+M+CNovNAj3kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1.TournamentPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1.TournamentPhase.html",
+          "hash": "G4cFOewPnCjxa5kyIRK0RwaS8A/5ySGe7g122vnhUjo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1.html",
+          "hash": "M6DJDRaE7LJ1pVMt8E6DyGUOX3KBg9yVOTJNhZkJm5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ClashV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ClashV1Endpoints.html",
+          "hash": "TKQTuDA16rTb9iRKLBn61L/ek+H+gRdKA4x2ieligVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Endpoints.html",
+          "hash": "lgJs+c7o3pEbogcqmLRrjzWqtlVJN9s23K4ObAWmqAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Enums.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Enums.Team.html",
+          "hash": "YT0PV/R6GJO5YhVP+5jcXs5lScFlkedDCm6usgtlXmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Enums.html",
+          "hash": "5r2HrhHuTa7Kf1osFp+AHsYKx7EM8SG+bmn141q3eRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.IRiotGamesApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.IRiotGamesApi.html",
+          "hash": "Eqc0hW3YCmtT8Iu0PnN3fzYaroyKMGaSgYFyQ3u6yPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.IRiotGamesApiConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.IRiotGamesApiConfig.html",
+          "hash": "xjw/9fu28a2GZskISQuiUzx0sjwRhktqZ7uC03oVzJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueExpV4.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html",
+          "hash": "PXk7d7U4I0u3inJddaeAP6mEBhmYYv8VCbCx3qnSzWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueExpV4.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueExpV4.MiniSeries.html",
+          "hash": "r4M8pw3jT1yI5JI0d5SZvleD57dEIVA08mzFKsNCyEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueExpV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueExpV4.html",
+          "hash": "xmTBRL2JIuTJvuu+ZjI/p0fNusyq5NaQi/669D8vRoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueExpV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueExpV4Endpoints.html",
+          "hash": "DpwCEMHCzY1gYguW0tCTbrAM0UnNramc2P4dz8MVA74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueEntry.html",
+          "hash": "37uAZLuh6QPGGeFW2u/QG6t01/xnRDt5LfbHFVkoD9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4.LeagueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueItem.html",
+          "hash": "oea+TU0gEt6EDqVcCllLlKNya38tFJi7s28d1wONrME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4.LeagueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4.LeagueList.html",
+          "hash": "hu9bfZ3JyuNrg7LQ3b0EvsX+qCkCus1IeslcwD4IX5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4.MiniSeries.html",
+          "hash": "YVOXA8mLr7LZ7WZkSwfywV8j75LHPn1bnIhmnV1r1mU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4.html",
+          "hash": "8YTzh/u5TlPCjRBpFmRZfga/WztabXaLDp3XwYw6fck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LeagueV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LeagueV4Endpoints.html",
+          "hash": "FSFd7Msy6nWmgBeBa6yGv/TA188CqGLb2P4B5/q9qR4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.ApexPlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.ApexPlayerInfo.html",
+          "hash": "TqGQyiIS1WYlCkeGOJs0L7dsXV+91eTsv8apg+ls9Y8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengeConfigInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengeConfigInfo.html",
+          "hash": "IkG7s3kgbrhb/D7ug++jvCiovnqJWR/8efq7wThf1sw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengeInfo.html",
+          "hash": "aLqR2MVetRhDQEQLHMCeBoXs/mZHreJbbFgQtF/eeus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengePoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.ChallengePoints.html",
+          "hash": "npphU4s+YnwjdI06HqnN8NrBjSEerLICNZofofxew+Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.Level.html",
+          "hash": "VZVv8BtHXP2ETUnLKk4XQS0yflXDydhvIjwR3Nw33bA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.PlayerClientPreferences.html",
+          "hash": "dbBt28Q1WD9i3NUUDFRn6rKm7t0gUUK8Cb0OVanfPx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.PlayerInfo.html",
+          "hash": "UXe1v0oE2fmgcOt+S0qjpHRMEpTnnmoZwcHNOz+b35E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.State.html",
+          "hash": "YiD5TMCp1PcLkXTL7yzGCiBlIAcKvgpCHmv4UFUQ4QE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.Tracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.Tracking.html",
+          "hash": "3dpxbUfK2FedhcgxKppBhjOou5NLOESCiEdErMIoYew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1.html",
+          "hash": "o656usA/YFzheOMRGQT65XrEIBl5SH6nCuvRI4FV4n0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolChallengesV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolChallengesV1Endpoints.html",
+          "hash": "gwRB/fq66y8txa3Vbq/1wdOVnIeJZ1/2DNnzTJnccCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.Incident.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.Incident.html",
+          "hash": "UvK2L4O+FLjWyHK1gREhr1ZkYpoJZrlQSn85c0s+A1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.Message.html",
+          "hash": "5AwrLRsSqRwvoc00LlIwQx49Sn2iB/9fC/MlWvddCVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.Service.html",
+          "hash": "SZrUgDlROp0oeUyIV92oydspXdfvkkpN5jnDEnZRWS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.ShardStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.ShardStatus.html",
+          "hash": "mQ38Vt1NE65rLgKm6JsUosZv3H2Dq3tgVLskW9B10Xw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.Translation.html",
+          "hash": "SMMZStiaG8MLfZ5imvV8+u343a8xeejfZRBN/yNrccM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3.html",
+          "hash": "KdYf8SCg2ZKlTH8ZfQO4g9xsrF7Wh32wOGHI+PDLTtY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV3Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV3Endpoints.html",
+          "hash": "FteQeCMio9YPeupR0Y+iWZCkxsGOhZ6NZQWR4lusqn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4.Content.html",
+          "hash": "6b7YVxuIY8zH/lfQpyCVW1DcN8uX+4/fLx4q78JcYRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4.PlatformData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4.PlatformData.html",
+          "hash": "p9NV4upneJaBThP0/AlGguyplz1cGi/wrMvgRbX0pWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4.Status.html",
+          "hash": "gTCu4kMt1hQeLp9sChSbvlk+wOz4Mv1cEMTHkYCj7as="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4.Update.html",
+          "hash": "NwFtSV7oOsCKBtXldcMjhXe8r4Ho/SaovKM5f/C10N8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4.html",
+          "hash": "Iv2JB0GaWTDJ+DXLdas069g87T1YZLt/OQw/PeSun4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LolStatusV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LolStatusV4Endpoints.html",
+          "hash": "rFiVKanHaoEim3L+WQse3s0tNgbD2SgJuDu0ZKm0ya8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorDeckV1.Deck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorDeckV1.Deck.html",
+          "hash": "N7mgrVB/m4gYvf9jBXlAOtU+qnc4kb4iGfhdy+GpVKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorDeckV1.NewDeck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorDeckV1.NewDeck.html",
+          "hash": "O6dBPbh+XKamuMFCaII+N7F43lfswBPGMfp4hSqW87g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorDeckV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorDeckV1.html",
+          "hash": "m1iuJ9GCB6HIEvCiS7hGYkhYvW9D+Q/G0oNW2BAXtvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorDeckV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorDeckV1Endpoints.html",
+          "hash": "zlXtQlxcJc44gB8KeqGHP179Dw+0BvwqxIOnz4raMZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorInventoryV1.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorInventoryV1.Card.html",
+          "hash": "HOg9EEh9fQDgulgAAGnW4XdO+9QH6F9CcQzR+bYqPKY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorInventoryV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorInventoryV1.html",
+          "hash": "K6SpLqQNX1QIErNx6LhI6IQ4orO1Yl2PWic0uxYQbiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorInventoryV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorInventoryV1Endpoints.html",
+          "hash": "NWIDPfnIiPTU1a8BB7h1Zi50qnuBOeJhIS0AqZfSQ9Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1.Info.html",
+          "hash": "YyTbwXe8UW2zeEmVGpGFkYVNUQJg/g3eQdp5La4eKtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1.Match.html",
+          "hash": "dkZ/Z9Wc+a3EirFBTdmGnW38paBvz7TzsVMrWRdDil8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1.Metadata.html",
+          "hash": "nhhBOtsFQhCSQGveNmT0YUvUC3pk46/QuElYIAVHjC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1.Player.html",
+          "hash": "1H5LgNEekppeWSf9RUBH3dreq3Fbz4UD+QAwtOeZwxU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1.html",
+          "hash": "f2VIgopQ5zrpePGJ+ylQN+ieFbp6/OG583HUiHS4izA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorMatchV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorMatchV1Endpoints.html",
+          "hash": "qF4ulsjTvhZ+9jjPvq06gVgK2/MR/opl5CzO1lT3ZIc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorRankedV1.Leaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorRankedV1.Leaderboard.html",
+          "hash": "QEEV1ebDxHwUreIyutRXj2hDuAdMnX0DDusUZ5akdwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorRankedV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorRankedV1.Player.html",
+          "hash": "uZEXcMR9LGlTdKCw4A2VeRJLmrKn7qCpUHirBIrxp7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorRankedV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorRankedV1.html",
+          "hash": "Ttt8kvCw5Bi/VpK8BRymSQapVyo2lIXeDu62+UJYJXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorRankedV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorRankedV1Endpoints.html",
+          "hash": "tSqFPuUZk6NUoABHWm/4LXnbMjKH79fV28KsB1TzUME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1.Content.html",
+          "hash": "IQ+qXxxwFgyGrDZhDL7rer0AqqhQd7qzq4gKR11tcjY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1.PlatformData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1.PlatformData.html",
+          "hash": "5yRqwoVA6JG2iSYORU0Exh1qkYHiV68ncdpcQqTN1+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1.Status.html",
+          "hash": "V5To2Tbixbl/hkUOEln0y40z28z9kkY84ZhCrrz6XIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1.Update.html",
+          "hash": "VJDpaY3/j2IZ6i5pEiwUWeZbluHYi58JQDV4X3Ak2nw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1.html",
+          "hash": "OrhT1e2JA0jUiVAgmbtB2CFNVp1RrEO7LhuOrnb41RI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.LorStatusV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.LorStatusV1Endpoints.html",
+          "hash": "f3vjOUMV0itj7lMw+KuNMAkrQ0DxpAYj9TtLA1BI1S4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Ban.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Ban.html",
+          "hash": "tOJ3UIyRFXj1MRPGFQxy02ANXNDD7yEcBr8OrXSUvVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Info.html",
+          "hash": "U1KSop/73IZ/F4e7/JM4/7KRFX2oBb3Ab1s4PuKRE/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Match.html",
+          "hash": "333d8IuAXLlbsWwNZT3xpJhSefsl0jwULhp7TXcaEsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimeline.html",
+          "hash": "GsHUJJstBpcsfak2lqW3toNqKoT/w8tqAeQQEaGOgL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfo.html",
+          "hash": "cGCrc2wmfxVB1bHmiV1Rsu2yReg5pUMCfs0sqQVdKJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrame.html",
+          "hash": "1K8QWr1p9YPeMknYcR2KYaevAWIdZRM0wglzItcD2kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEvent.html",
+          "hash": "jiLJ8NFs4pFbEnufWABY7kMTRy31zp0sLJs8D9rtRhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEventVictimDamageDealt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameEventVictimDamageDealt.html",
+          "hash": "vZpdzvvIZo02shhOQi54ujv5yrQqibQULebAbhVO+4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrame.html",
+          "hash": "BpvJB/3Lo66NfPx/8gXS/OvMP0SLP1VtglRdH33ps6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameChampionStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameChampionStats.html",
+          "hash": "GM6tdW0QDOjHX6j9pzS0iqYhmpk2xlN0Dw6GdgXN5yA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameDamageStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrameDamageStats.html",
+          "hash": "RsNJ+xru0VNMRO5sm1ogT2QI+4bcjkl0C3EWDqU8qlk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoFrameParticipantFrames.html",
+          "hash": "LUZBGKi1/TE38uUaTn+CncFc6lozrhn3ud+byaNj4aA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelineInfoParticipant.html",
+          "hash": "qh/yz8PqNm4qZnMcKgYoNKveK0X0+YsPkvQu/fVOqjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelinePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.MatchTimelinePosition.html",
+          "hash": "LAmniVevRQPXUmaRDN8nMWiMX48Scvuq45/4JiMSXMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Metadata.html",
+          "hash": "wK74eGIa7DH1eKYRk3QCm3wwamUB4YvHC8oeRihG60Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Objective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Objective.html",
+          "hash": "c73aEOZjnS2Q5bCe7qe1mqaEn6KXCCA+ATURw9FaPuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Objectives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Objectives.html",
+          "hash": "M8t3E8+M6YOfUXPX1zZLNYmT3heuS9GvwXTohoSv9BU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Participant.html",
+          "hash": "pyDVBE0f0KzA37oCRdk+UV95j0lKbBXOfx6HXO7z0Hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.ParticipantChallenges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.ParticipantChallenges.html",
+          "hash": "zGYKfPj/sJPvdxzJCq9u0GBHXLYJk1Ku4uYkRmF/rOE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStats.html",
+          "hash": "avGbJkv0FSToIGt02uRd9t1iU9ju1cUY4mtR1Q2thw0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStyle.html",
+          "hash": "mSFVCb5nyh6r6TQIt8K/C3X8v6DnC5amYE35MU7NcbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.PerkStyleSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.PerkStyleSelection.html",
+          "hash": "gKjQTpqJcozq3s0Bx73F3cBexhJS5dh/KsDKeFLfM8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Perks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Perks.html",
+          "hash": "ky454YZJONj+1cgLMS8k1dWBJ0cW2mdycLPwTAfAuFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.Team.html",
+          "hash": "IB8CLFdhcoLfweo3+PU7FzkbodDTeE1frHv64I64RTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5.html",
+          "hash": "de4vbr0JF45xcWXur21pcbySBCmFgCvVPFk93Vxl/6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.MatchV5Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.MatchV5Endpoints.html",
+          "hash": "tbb41zXd8hsXYrh/dGMVovCRbp+u30JXctxAcl0nxoU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.RiotGamesApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.RiotGamesApi.html",
+          "hash": "abyNjMrLkrTmgJWyVFs4iYhPHyfcSj6pKs7HHpOkGD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.Builder.html",
+          "hash": "BtxZCwnAS/P5fjdeoa8XYJxqBqkLWxZDQzDLLjbQEP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.RiotGamesApiConfig.html",
+          "hash": "6cZzZyjbkoUVcSLUUt30a6qBnfl88hn+Q6VVSemOR6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.RiotGamesExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.RiotGamesExtensions.html",
+          "hash": "LipzE45hrlmnsYbgb5tnygfQrtXFWKuUu0yF22lOME0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.BannedChampion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.BannedChampion.html",
+          "hash": "k8W+JAXTsTcYJy8gUf4ld80m9zVpXYflcGPt4swN+TY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameInfo.html",
+          "hash": "ICgfmbIno/V9FcOYmFDUWTBBnwkTiQ8mZdNCFXdMbAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.html",
+          "hash": "/DtbV9vJog+PTqU7gUr0YL27y93zsr4F5H5VycGnhso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.html",
+          "hash": "IG152AT3zuaBnSDzcIY9h+0psrRb2acB2iEfQL8RBc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.FeaturedGames.html",
+          "hash": "UXXkQFMp8tu4S1ApZCEgfY54Q+5UheDTAUeB194QcvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.GameCustomizationObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.GameCustomizationObject.html",
+          "hash": "c9zMDB5vhDV9f7Fi9urwRgEE6JBo2nTEEJwDTU7b8wo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.Observer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.Observer.html",
+          "hash": "3FiZtCTELj7v5/FFvKSREWp6wQYFDrM4kbAAiR7dIko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.Participant.html",
+          "hash": "JZB7iDLLGI1oJ1k7yMVNWhIAUIqxz24US7SGXQNbYf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.Perks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.Perks.html",
+          "hash": "ZQufqm09QEuXylD/JlGHQFdyqXWMiMGGK661eYSMR4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4.html",
+          "hash": "jhw5ERjfJ7Kb1TMuJukoKyw13K2rDIlv++y5zFM4gaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SpectatorV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SpectatorV4Endpoints.html",
+          "hash": "aExtFdSyCVCj8AafDiluiAKILgwFlYYoKywm9J4PFks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SummonerV4.Summoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SummonerV4.Summoner.html",
+          "hash": "yr07mNvoJy0SQLOvUonq/GFSBdmn9qF35ySOmHShcrg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SummonerV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SummonerV4.html",
+          "hash": "aQTND7C8DvNUqUzbQYgleIhHE+hQIfvMGfyct9IUKRE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.SummonerV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.SummonerV4Endpoints.html",
+          "hash": "kHjhJRYTeMGUwjLeQ2pFVYlgn1QKlPWscjxwiBHsW04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html",
+          "hash": "+onFdC/OG0UotZlaHB1wTAWM3g/yOH2A6M3HkXvGQb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueItem.html",
+          "hash": "Ywbeyb9zyE7GbPBEPRBf2UE27V1Ulgsxt4o3jS+Ffxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.LeagueList.html",
+          "hash": "OKg7UQeB5l1CrPgV+tzifLBIWk4Zt8YvVpj1LIUwuEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.MiniSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.MiniSeries.html",
+          "hash": "TfxS4TJOwS62EC3d7qsrM8rQ9wTBlXkas9qAs0bJ074="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html",
+          "hash": "nX7AOE0w0yOwd96Enu1ZUzHp2J254/iDzJfYd5paicY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1.html",
+          "hash": "oRugT78rng4gG0DtSsqtjFRjG3B2uyPWeRc5cYRF22k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftLeagueV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftLeagueV1Endpoints.html",
+          "hash": "dACJlrXAbGCl6oUL8OQihgoFwc+UqjZl8LoN2FJnMkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Companion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Companion.html",
+          "hash": "+p1QCJmOwP83Bl2eGlBbA+XwvsxR/oXzf4l2ICU0m2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Info.html",
+          "hash": "PU3wlI8iRiVbxTzLCz0eUXRDuaMozkQDokpG3Yla8PY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Match.html",
+          "hash": "D9iQAVUoUtuYI9Hbkh+GpGcTcBzjxEaOFs0a90rKD4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Metadata.html",
+          "hash": "torun1hZ1dR4OZMgguyFdpRZkAQ3OgCbLuF8rucHeZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Participant.html",
+          "hash": "tJnD+NctiOp1jm0G2JF+ic864zn9vfxEs9daSld6TwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Trait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Trait.html",
+          "hash": "d2nck5c9POUsPLQvAVlKK7BlrspRMSDaZqWbKNOu/hs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.Unit.html",
+          "hash": "AOyxXaNzOG56uKggLgiZRqUWHUFCUAooliY3TZ3ZtbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1.html",
+          "hash": "xOkRJrLorUNhq4/10cUE/YzlEyBfVFbY35x7oa4u63A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftMatchV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftMatchV1Endpoints.html",
+          "hash": "1C73ZctKrZSe4U/leFevqEYx77iwgfYbmCc6atg55jU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1.Content.html",
+          "hash": "Fe8QIUHBve/TSUyY4o/1yeMmiY82ZYdPKyiEuznKr/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1.PlatformData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1.PlatformData.html",
+          "hash": "QM9df9c/XZWwPIHgbsuxlxsvGSBut4wUuSANLPDnvK8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1.Status.html",
+          "hash": "Jjz/EvwGDJsFhT5fIDrhXfNtyejD/HZvJO5q2kyILq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1.Update.html",
+          "hash": "1bNsslcSXBxF+ZgWJa+hRdpc/rNstWXNeSM9MWJ1BbQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1.html",
+          "hash": "WLNgdPS8fAKN7psu656NrHgAUya3C2IdVLhZ0ZwRrTM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftStatusV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftStatusV1Endpoints.html",
+          "hash": "sbiIwZnzbdHmQyHl2F17xASFfR8QeOQREm4yVFgmn9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftSummonerV1.Summoner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftSummonerV1.Summoner.html",
+          "hash": "iFB2d7xKRPwPh0jHhtGTk+jvlEYJXgBscUVaRc2x0do="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftSummonerV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftSummonerV1.html",
+          "hash": "W/1QG0rIv1r8NwQ90HtHyMdgboH/NXLJhe1VmQiQalQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TftSummonerV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TftSummonerV1Endpoints.html",
+          "hash": "D7CKyt0lbL5EfEGIsqPw5KWZkuXXQFzekvgMaiNcvBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEvent.html",
+          "hash": "E0Ak7e2c47zxvzM5AJamUTmVSKyVKoc+0yhqAUFIhZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEventWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.LobbyEventWrapper.html",
+          "hash": "MIUJJV/m7nOHYcAVSxyOiNrJP5MMUEfKd1vO78DZ/Gw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.ProviderRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.ProviderRegistrationParameters.html",
+          "hash": "uASFuWZZLWcMCeUrIp4leoLNpWO36GpJYn5Op3soLaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentCodeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentCodeParameters.html",
+          "hash": "bt39+LoFnZg2fwtYMHUqcHC51KqHylm+s+zNG7vpDyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.TournamentRegistrationParameters.html",
+          "hash": "kRY0djo8pruYFvEuuDcc0zcvr6HoimaRrqlYb0HIa/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4.html",
+          "hash": "/7YdBqYeLQsvP7QHz3nKgTIEu7qoqvOLFgVauSx28e8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentStubV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentStubV4Endpoints.html",
+          "hash": "wVL3woxoCMuQVkhwEo8uj/k1e6sM/bmIzjXDkORysBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEvent.html",
+          "hash": "3IDU73ZTNgyhpLvH4uH6tcVjp+4w2gJW/n8RPMToAps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEventWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.LobbyEventWrapper.html",
+          "hash": "exnAmw6V7AJVMDvQZrsthu1IreryY2QZHRWpzfB5v9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.ProviderRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.ProviderRegistrationParameters.html",
+          "hash": "dUXaxA3vSXIIKHf2HL0a8CPxn3NbI6pzW6Ru9/6x6M8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCode.html",
+          "hash": "IPH4uwKajBOLeFWuPcKlZux9XS6r22q0iYt5JJ1xQMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeParameters.html",
+          "hash": "093qL8bPjf/kIy3xPNfdAyKiBWwv/bTQuVeEDs+sR0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeUpdateParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentCodeUpdateParameters.html",
+          "hash": "hQ9pWnF3WugzgDOqFjQqOC1LhD3PTivB8WQDCf2wHkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.TournamentRegistrationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.TournamentRegistrationParameters.html",
+          "hash": "IJ3LGMJ8X31+SdMStGp/0Hj+IPUZBJo+VfcKmgxFV8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4.html",
+          "hash": "H2KEbVqawZ0fptwoXj/Oqq07kX4bA3v7UyWqHv7L5l4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.TournamentV4Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.TournamentV4Endpoints.html",
+          "hash": "eWhau6MsbRgS+zgvAAF07V7hK8rh5Ir2UVi9DUk60WI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.BackoffStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.BackoffStrategy.html",
+          "hash": "czI5VztM06OhynrlVBs2tAgIMggT0oi7IlHrLEDZJic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.IRateLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.IRateLimit.html",
+          "hash": "idcE9AU5610Zw1sO1pX9PMx83PvT2bJHMJeFLVTjNBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RateLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RateLimit.html",
+          "hash": "Ct5VewVXdXUXJLtZ+a/1BH42aq+hSneiK4r8fjmyE2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RateLimitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RateLimitType.html",
+          "hash": "YaiLaGrc4u2Z0TykU5JjpzdupV2DFhK6btaBKCiGM4E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RateLimitTypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RateLimitTypeInfo.html",
+          "hash": "POqrHUCTe5tMePuACTct3r+PEoPYBlpE8+pX+lt95TI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RateLimitUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RateLimitUtils.html",
+          "hash": "nie7JfpMdQlbnBoLr3SYTUbcx4mae7XTyrV43tXKIXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RegionalRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RegionalRequester.html",
+          "hash": "Udr1JlfE/POMFkoSvT5fsYcx2C4WEbgFtnyppzpXtCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RequestManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RequestManager.html",
+          "hash": "onSGT255QPppem/ohDP43wrob5OZjtzmF6oT4FKdmbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.RiotResponseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.RiotResponseException.html",
+          "hash": "GCE66gMuQtPSRv95rn1rMHggmDYLJVKmg/EzeMZMxeM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.TokenBucketFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.TokenBucketFactory.html",
+          "hash": "gg82KgT2IpxTa2tJoNaB6RoEfZ74/tOnRQP1vr26Iuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.TokenBucketUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.TokenBucketUtils.html",
+          "hash": "ZheCKsQ1ySTcnNNx0+oof+c/d3PJ0Gs4vnCmuLCijdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.Util.html",
+          "hash": "t30gPC7wKNhnqmiABBLJxcqMeWsfvPbAmXAy75FCkdQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1.Act.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1.Act.html",
+          "hash": "peKekGYrDW5B/4LsMQMgIOrQA5nmkjdNHkPmhIj2DFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1.Content.html",
+          "hash": "I7rlJzyS5p3YE28ztB3jtsP51nNfkdNxsPLq3Fpk4i8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1.ContentItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1.ContentItem.html",
+          "hash": "E9xWPjoBsSPcHYEJbcXZIfmVopqWo4W5m8KDoU2VB2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1.LocalizedNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1.LocalizedNames.html",
+          "hash": "uHmfEX4jLslptAq0bc7EszZi34+JrBBvYarYsxkX9C4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1.html",
+          "hash": "KQxhdiUCAlZfg2tJZ/YWzuC8g50+LlOQ0KCMF536nA4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValContentV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValContentV1Endpoints.html",
+          "hash": "g+NOrTTYPoBkZjghsAlhyBL6ar1/ItrjJCJg9PWpu70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Ability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Ability.html",
+          "hash": "v0fAs0/tWv/RxUMjmTZRZxxpNvpSgKpuo0p10d5ptS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.AbilityCasts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.AbilityCasts.html",
+          "hash": "upU3U0aPjGY0V4TziOQIa09+gr03P0NXlxEhP8Edres="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Coach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Coach.html",
+          "hash": "KWQYY+n2NY21mRl+CaeFpMWXXcI5xUUIgYprKRsWGGc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Damage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Damage.html",
+          "hash": "AauTOb1zO0znt3pUWBAOpuZ5gptyI/rA0ozEPuZDVPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Economy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Economy.html",
+          "hash": "2P5Okwwb/87ri6d0TT8tKxgWlCa0Dh1RyshK8kndhQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.FinishingDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.FinishingDamage.html",
+          "hash": "xTb8uzidbNui6DiqBYxt2uAwpcn+qv7M0vhaT1lbV48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Kill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Kill.html",
+          "hash": "px7VewKMmt3G0WZ10ltas5NlVUhY3V3XWWlNsuek0y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Location.html",
+          "hash": "G56jwmvNNOegHcRx8cwTFL/FsA370Kp5cOGsOADg0jw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Match.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Match.html",
+          "hash": "EDIK/SGdCwZRJJJUee+7gjzPQ7PDjJbIbC7nwAJMWNU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.MatchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.MatchInfo.html",
+          "hash": "ovMCBxPNV1zRYqXJO0K+10E7IGuPO8RuBnpcbZP59AQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Matchlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Matchlist.html",
+          "hash": "P4qNR4JSRdo1MtmIh8nRaLdSpWezXYhSumOyLPU2vaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.MatchlistEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.MatchlistEntry.html",
+          "hash": "dIa/0xJaf9/ZxuIUneqKm/l9Rg2NS+KPNHnyO7zjLEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Player.html",
+          "hash": "B0QjtnLcLFDxIV5F7a/iolobBnrI7Lsqnu7QYg2uY4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerLocations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerLocations.html",
+          "hash": "V2MgV6p8DmK5qRj31DW8nVxoDl3pTN5zHXCwcXiA5Fw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerRoundStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerRoundStats.html",
+          "hash": "DVrzEc63SkiAFfzSXH2PUYnXdkCL46+3X7lsNFPuR1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.PlayerStats.html",
+          "hash": "HMSeaT0igPAlxi7OXl9dslmSUQOrPniuFoQ9LMw7ZFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.RecentMatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.RecentMatches.html",
+          "hash": "1RsXHBaz9uTGD9zzPcx+Q8Lt4MUY3hqjTj64hesZqKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.RoundResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.RoundResult.html",
+          "hash": "0oaVPRI9mA7rAeoC0lZrrCoff7/cU0Strn6H5s8fI8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.Team.html",
+          "hash": "bMegZ8MgUaBKSGqQ9YFr5r2QHdwRjTzDZq9Wgbh4kik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1.html",
+          "hash": "LBvR90fNqhkDspYp0K0RQoFcbT5Zsr2XFI8evQCMxdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValMatchV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValMatchV1Endpoints.html",
+          "hash": "JJ0lj03sQaXPb8SuDOVTRUfwFAUBEW7KAFAxwlvb3fw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValRankedV1.Leaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValRankedV1.Leaderboard.html",
+          "hash": "CTUBYXpGjUn3aEm/Z/exW6aOqiovlr7Eyq1uQX81hdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValRankedV1.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValRankedV1.Player.html",
+          "hash": "yTFsfhW2qGLMXd+X4WyeGdKerrO0bwPLP2mWkgHPji0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValRankedV1.TierDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValRankedV1.TierDetail.html",
+          "hash": "mnFiZN3VJ2rVDNpIUElhtHbb0Rs2jVg+ztBr55BEOVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValRankedV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValRankedV1.html",
+          "hash": "1j5IEoRPDFc3KTfP1AU7YqQW3MuQhPgLsovbBC1K8GE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValRankedV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValRankedV1Endpoints.html",
+          "hash": "rv0Kgq+zi76ZzZBIMY0wVdciKaxB9Z/5LEOHRRz3vS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1.Content.html",
+          "hash": "pCu2aDFpKKB/dm2+L87BgqbjXRI5bCftoRMwg2G6+Sc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1.PlatformData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1.PlatformData.html",
+          "hash": "V04GqiRswOh2H8HD4zjB/auwSCygGrBC4V96R++FOlc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1.Status.html",
+          "hash": "pE1/K8HBGGTaey8mSl3Hu6zwAE4b6JMPNbfZRfVgP6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1.Update.html",
+          "hash": "rZl4j//QSjfruzUheQiufx8KCEO/XgbH5JwICk4vRz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1.html",
+          "hash": "TL+Rf65vgKNJ7Ry2tD0D9fsGlFMYaTUkmpvLD1uHbsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.ValStatusV1Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.ValStatusV1Endpoints.html",
+          "hash": "v9/XmUQ15B9O/P0Q6eY/+w5/lZTNZ+7QlXuQLRjrbno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Camille.RiotGames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Camille.RiotGames.html",
+          "hash": "v6TnAMieeaP4HSqfds1rECSoq2z5TiaaS5jbXvqzFT8="
         }
       },
       "is_incremental": false,
@@ -21,7 +3777,19 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "tZGCV1mHAFpwEsXawb7SLNJEyMwkF+9jxS378yyInzk="
+          "hash": "nbCoCXWAph2EMHZTQ3ygQmnStVKKnhD4ljljA0KX/cw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "pa477A/sH6MPFyBvjWkgSDj5bexBghGjPl3PkwpxOXE="
         }
       },
       "is_incremental": false,
@@ -33,7 +3801,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8R9C4zYyWjQ1LaShAxF1AsDoOHZ8u+WxGyZ3adnKihY="
+          "hash": "ScUnYFI79YFTgGuW40a4fWHg428rArXQTVNbct8lLVk="
         }
       },
       "is_incremental": false,
@@ -45,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Enj0WVfusgO7hceCbDMtDSQ2A6OtyJo0bO6VbvAT/p4="
+          "hash": "b3uNyJbM1DM5okPyXxEYz28IZw2+OqOjPPPGOVB9p1M="
         }
       },
       "is_incremental": false,
@@ -67,6 +3835,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 313,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
