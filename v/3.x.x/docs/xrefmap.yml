@@ -26050,6 +26050,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SummonerV4Endpoints.GetByPUUIDAsync
   nameWithType: SummonerV4Endpoints.GetByPUUIDAsync
+- uid: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRSOPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.SummonerV4Endpoints.html#Camille_RiotGames_SummonerV4Endpoints_GetByRSOPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRSOPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: SummonerV4Endpoints.GetByRSOPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID*
+  name: GetByRSOPUUID
+  href: api/Camille.RiotGames.SummonerV4Endpoints.html#Camille_RiotGames_SummonerV4Endpoints_GetByRSOPUUID_
+  commentId: Overload:Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUID
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUID
+- uid: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRSOPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.SummonerV4Endpoints.html#Camille_RiotGames_SummonerV4Endpoints_GetByRSOPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRSOPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: SummonerV4Endpoints.GetByRSOPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync*
+  name: GetByRSOPUUIDAsync
+  href: api/Camille.RiotGames.SummonerV4Endpoints.html#Camille_RiotGames_SummonerV4Endpoints_GetByRSOPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.SummonerV4Endpoints.GetByRSOPUUIDAsync
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUIDAsync
 - uid: Camille.RiotGames.SummonerV4Endpoints.GetBySummonerId(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetBySummonerId(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.SummonerV4Endpoints.html#Camille_RiotGames_SummonerV4Endpoints_GetBySummonerId_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
