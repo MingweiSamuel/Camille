@@ -17182,6 +17182,38 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.SummonerV4Endpoints.GetByPUUIDAsync
   nameWithType: SummonerV4Endpoints.GetByPUUIDAsync
+- uid: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRSOPUUID(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.SummonerV4Endpoints.html#MingweiSamuel_Camille_SummonerV4Endpoints_GetByRSOPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRSOPUUID(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUID(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: SummonerV4Endpoints.GetByRSOPUUID(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID*
+  name: GetByRSOPUUID
+  href: api/MingweiSamuel.Camille.SummonerV4Endpoints.html#MingweiSamuel_Camille_SummonerV4Endpoints_GetByRSOPUUID_
+  commentId: Overload:MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUID
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUID
+- uid: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetByRSOPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.SummonerV4Endpoints.html#MingweiSamuel_Camille_SummonerV4Endpoints_GetByRSOPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetByRSOPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: SummonerV4Endpoints.GetByRSOPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync*
+  name: GetByRSOPUUIDAsync
+  href: api/MingweiSamuel.Camille.SummonerV4Endpoints.html#MingweiSamuel_Camille_SummonerV4Endpoints_GetByRSOPUUIDAsync_
+  commentId: Overload:MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.SummonerV4Endpoints.GetByRSOPUUIDAsync
+  nameWithType: SummonerV4Endpoints.GetByRSOPUUIDAsync
 - uid: MingweiSamuel.Camille.SummonerV4Endpoints.GetBySummonerId(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetBySummonerId(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.SummonerV4Endpoints.html#MingweiSamuel_Camille_SummonerV4Endpoints_GetBySummonerId_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
