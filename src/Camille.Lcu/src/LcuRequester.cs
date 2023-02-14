@@ -48,7 +48,8 @@ namespace Camille.Lcu
                 var lockfile = await _lockfileProvider.GetLockfile(token);
                 if (null == lockfile)
                     throw new InvalidOperationException("Lockfile not available.");
-                request.RequestUri = new UriBuilder(lockfile.Protocol, _hostname, lockfile.Port).Uri;
+                var baseUri = new UriBuilder(lockfile.Protocol, _hostname, lockfile.Port).Uri;
+                request.RequestUri = new Uri(baseUri, request.RequestUri); 
                 request.Headers.Authorization = new AuthenticationHeaderValue(
                     "Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{USERNAME}:{lockfile.Password}")));
             }
