@@ -50,6 +50,9 @@ jobs:
 
       - name: Install dependencies
         run: dotnet restore
+      - name: Build templates
+        # For some reason `dotnet build` doesn't find the generated `*.cs` files if we don't do this in a separate step.
+        run: dotnet build --configuration Release --no-restore --target:DispatchToInnerBuilds
       - name: Build
         run: dotnet build --configuration Release --no-restore -p:version=$env:CAMI_VERSION
 
