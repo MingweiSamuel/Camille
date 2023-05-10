@@ -18,6 +18,6 @@
   </ItemGroup>
 
   <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">
-    <DownloadFile SourceUrl="https://www.mingweisamuel.com/lcu-schema/lcu/openapi.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/lcu-schema/lcu/openapi.json" DestinationFolder="$(GenDir)" DestinationFileName=".spec.json" Retries="3" ContinueOnError="true" />
   </Target>
 </Project>
