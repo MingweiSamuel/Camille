@@ -13,6 +13,7 @@
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/queues.json" DestinationFolder="$(GenDir)" DestinationFileName=".queues.json" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/maps.json" DestinationFolder="$(GenDir)" DestinationFileName=".maps.json" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/gameModes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameModes.json" ContinueOnError="true" />
-    <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" ContinueOnError="true" />
+	<DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" ContinueOnError="true" />
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/routesTable.json" DestinationFolder="$(GenDir)" DestinationFileName=".routesTable.json" ContinueOnError="true" />
   </Target>
 </Project>
