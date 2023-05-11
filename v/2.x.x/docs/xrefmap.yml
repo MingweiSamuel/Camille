@@ -1178,6 +1178,38 @@ references:
   commentId: T:MingweiSamuel.Camille.ClashV1Endpoints
   fullName: MingweiSamuel.Camille.ClashV1Endpoints
   nameWithType: ClashV1Endpoints
+- uid: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetPlayersByPUUID(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ClashV1Endpoints.html#MingweiSamuel_Camille_ClashV1Endpoints_GetPlayersByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetPlayersByPUUID(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ClashV1Endpoints.GetPlayersByPUUID(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ClashV1Endpoints.GetPlayersByPUUID(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID*
+  name: GetPlayersByPUUID
+  href: api/MingweiSamuel.Camille.ClashV1Endpoints.html#MingweiSamuel_Camille_ClashV1Endpoints_GetPlayersByPUUID_
+  commentId: Overload:MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUID
+  nameWithType: ClashV1Endpoints.GetPlayersByPUUID
+- uid: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetPlayersByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ClashV1Endpoints.html#MingweiSamuel_Camille_ClashV1Endpoints_GetPlayersByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetPlayersByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ClashV1Endpoints.GetPlayersByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ClashV1Endpoints.GetPlayersByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync*
+  name: GetPlayersByPUUIDAsync
+  href: api/MingweiSamuel.Camille.ClashV1Endpoints.html#MingweiSamuel_Camille_ClashV1Endpoints_GetPlayersByPUUIDAsync_
+  commentId: Overload:MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersByPUUIDAsync
+  nameWithType: ClashV1Endpoints.GetPlayersByPUUIDAsync
 - uid: MingweiSamuel.Camille.ClashV1Endpoints.GetPlayersBySummoner(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetPlayersBySummoner(Region, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.ClashV1Endpoints.html#MingweiSamuel_Camille_ClashV1Endpoints_GetPlayersBySummoner_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -1687,6 +1719,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.JINX
   fullName: MingweiSamuel.Camille.Enums.Champion.JINX
   nameWithType: Champion.JINX
+- uid: MingweiSamuel.Camille.Enums.Champion.K_SANTE
+  name: K_SANTE
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_K_SANTE
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.K_SANTE
+  fullName: MingweiSamuel.Camille.Enums.Champion.K_SANTE
+  nameWithType: Champion.K_SANTE
 - uid: MingweiSamuel.Camille.Enums.Champion.KAI_SA
   name: KAI_SA
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_KAI_SA
@@ -1837,6 +1875,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.Champion.MASTER_YI
   fullName: MingweiSamuel.Camille.Enums.Champion.MASTER_YI
   nameWithType: Champion.MASTER_YI
+- uid: MingweiSamuel.Camille.Enums.Champion.MILIO
+  name: MILIO
+  href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_MILIO
+  commentId: F:MingweiSamuel.Camille.Enums.Champion.MILIO
+  fullName: MingweiSamuel.Camille.Enums.Champion.MILIO
+  nameWithType: Champion.MILIO
 - uid: MingweiSamuel.Camille.Enums.Champion.MISS_FORTUNE
   name: MISS_FORTUNE
   href: api/MingweiSamuel.Camille.Enums.Champion.html#MingweiSamuel_Camille_Enums_Champion_MISS_FORTUNE
@@ -2737,6 +2781,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.KogMaw
   fullName: MingweiSamuel.Camille.Enums.ChampionId.KogMaw
   nameWithType: ChampionId.KogMaw
+- uid: MingweiSamuel.Camille.Enums.ChampionId.KSante
+  name: KSante
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_KSante
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.KSante
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.KSante
+  nameWithType: ChampionId.KSante
 - uid: MingweiSamuel.Camille.Enums.ChampionId.LeBlanc
   name: LeBlanc
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_LeBlanc
@@ -2809,6 +2859,12 @@ references:
   commentId: F:MingweiSamuel.Camille.Enums.ChampionId.MasterYi
   fullName: MingweiSamuel.Camille.Enums.ChampionId.MasterYi
   nameWithType: ChampionId.MasterYi
+- uid: MingweiSamuel.Camille.Enums.ChampionId.Milio
+  name: Milio
+  href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_Milio
+  commentId: F:MingweiSamuel.Camille.Enums.ChampionId.Milio
+  fullName: MingweiSamuel.Camille.Enums.ChampionId.Milio
+  nameWithType: ChampionId.Milio
 - uid: MingweiSamuel.Camille.Enums.ChampionId.MissFortune
   name: MissFortune
   href: api/MingweiSamuel.Camille.Enums.ChampionId.html#MingweiSamuel_Camille_Enums_ChampionId_MissFortune
@@ -6200,6 +6256,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.ChallengeIds
   nameWithType: PlayerClientPreferences.ChallengeIds
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder
+  name: CrestBorder
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_CrestBorder
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder
+  nameWithType: PlayerClientPreferences.CrestBorder
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder*
+  name: CrestBorder
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_CrestBorder_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.CrestBorder
+  nameWithType: PlayerClientPreferences.CrestBorder
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel
+  name: PrestigeCrestBorderLevel
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_PrestigeCrestBorderLevel
+  commentId: P:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel
+  nameWithType: PlayerClientPreferences.PrestigeCrestBorderLevel
+- uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel*
+  name: PrestigeCrestBorderLevel
+  href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_PrestigeCrestBorderLevel_
+  commentId: Overload:MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.PrestigeCrestBorderLevel
+  nameWithType: PlayerClientPreferences.PrestigeCrestBorderLevel
 - uid: MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.Title
   name: Title
   href: api/MingweiSamuel.Camille.LolChallengesV1.PlayerClientPreferences.html#MingweiSamuel_Camille_LolChallengesV1_PlayerClientPreferences_Title
@@ -11878,6 +11960,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant._AdditionalProperties
   nameWithType: Participant._AdditionalProperties
+- uid: MingweiSamuel.Camille.MatchV5.Participant.AllInPings
+  name: AllInPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_AllInPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.AllInPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.AllInPings
+  nameWithType: Participant.AllInPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.AllInPings*
+  name: AllInPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_AllInPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.AllInPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.AllInPings
+  nameWithType: Participant.AllInPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.AssistMePings
+  name: AssistMePings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_AssistMePings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.AssistMePings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.AssistMePings
+  nameWithType: Participant.AssistMePings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.AssistMePings*
+  name: AssistMePings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_AssistMePings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.AssistMePings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.AssistMePings
+  nameWithType: Participant.AssistMePings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.Assists
   name: Assists
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_Assists
@@ -11891,6 +11999,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.Assists
   nameWithType: Participant.Assists
+- uid: MingweiSamuel.Camille.MatchV5.Participant.BaitPings
+  name: BaitPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BaitPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.BaitPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.BaitPings
+  nameWithType: Participant.BaitPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.BaitPings*
+  name: BaitPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BaitPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.BaitPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.BaitPings
+  nameWithType: Participant.BaitPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.BaronKills
   name: BaronKills
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BaronKills
@@ -11904,6 +12025,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.BaronKills
   nameWithType: Participant.BaronKills
+- uid: MingweiSamuel.Camille.MatchV5.Participant.BasicPings
+  name: BasicPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BasicPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.BasicPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.BasicPings
+  nameWithType: Participant.BasicPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.BasicPings*
+  name: BasicPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BasicPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.BasicPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.BasicPings
+  nameWithType: Participant.BasicPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.BountyLevel
   name: BountyLevel
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_BountyLevel
@@ -11995,6 +12129,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.ChampLevel
   nameWithType: Participant.ChampLevel
+- uid: MingweiSamuel.Camille.MatchV5.Participant.CommandPings
+  name: CommandPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_CommandPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.CommandPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.CommandPings
+  nameWithType: Participant.CommandPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.CommandPings*
+  name: CommandPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_CommandPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.CommandPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.CommandPings
+  nameWithType: Participant.CommandPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.ConsumablesPurchased
   name: ConsumablesPurchased
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_ConsumablesPurchased
@@ -12060,6 +12207,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.DamageSelfMitigated
   nameWithType: Participant.DamageSelfMitigated
+- uid: MingweiSamuel.Camille.MatchV5.Participant.DangerPings
+  name: DangerPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_DangerPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.DangerPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.DangerPings
+  nameWithType: Participant.DangerPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.DangerPings*
+  name: DangerPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_DangerPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.DangerPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.DangerPings
+  nameWithType: Participant.DangerPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.Deaths
   name: Deaths
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_Deaths
@@ -12112,6 +12272,45 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.DragonKills
   nameWithType: Participant.DragonKills
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression
+  name: EligibleForProgression
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EligibleForProgression
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression
+  nameWithType: Participant.EligibleForProgression
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression*
+  name: EligibleForProgression
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EligibleForProgression_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EligibleForProgression
+  nameWithType: Participant.EligibleForProgression
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings
+  name: EnemyMissingPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EnemyMissingPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings
+  nameWithType: Participant.EnemyMissingPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings*
+  name: EnemyMissingPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EnemyMissingPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EnemyMissingPings
+  nameWithType: Participant.EnemyMissingPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings
+  name: EnemyVisionPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EnemyVisionPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings
+  nameWithType: Participant.EnemyVisionPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings*
+  name: EnemyVisionPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_EnemyVisionPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.EnemyVisionPings
+  nameWithType: Participant.EnemyVisionPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.FirstBloodAssist
   name: FirstBloodAssist
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_FirstBloodAssist
@@ -12190,6 +12389,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.GameEndedInSurrender
   nameWithType: Participant.GameEndedInSurrender
+- uid: MingweiSamuel.Camille.MatchV5.Participant.GetBackPings
+  name: GetBackPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_GetBackPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.GetBackPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.GetBackPings
+  nameWithType: Participant.GetBackPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.GetBackPings*
+  name: GetBackPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_GetBackPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.GetBackPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.GetBackPings
+  nameWithType: Participant.GetBackPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.GoldEarned
   name: GoldEarned
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_GoldEarned
@@ -12216,6 +12428,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.GoldSpent
   nameWithType: Participant.GoldSpent
+- uid: MingweiSamuel.Camille.MatchV5.Participant.HoldPings
+  name: HoldPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_HoldPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.HoldPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.HoldPings
+  nameWithType: Participant.HoldPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.HoldPings*
+  name: HoldPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_HoldPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.HoldPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.HoldPings
+  nameWithType: Participant.HoldPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.IndividualPosition
   name: IndividualPosition
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_IndividualPosition
@@ -12502,6 +12727,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.MagicDamageTaken
   nameWithType: Participant.MagicDamageTaken
+- uid: MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings
+  name: NeedVisionPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_NeedVisionPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings
+  nameWithType: Participant.NeedVisionPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings*
+  name: NeedVisionPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_NeedVisionPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.NeedVisionPings
+  nameWithType: Participant.NeedVisionPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.NeutralMinionsKilled
   name: NeutralMinionsKilled
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_NeutralMinionsKilled
@@ -12580,6 +12818,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.ObjectivesStolenAssists
   nameWithType: Participant.ObjectivesStolenAssists
+- uid: MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings
+  name: OnMyWayPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_OnMyWayPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings
+  nameWithType: Participant.OnMyWayPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings*
+  name: OnMyWayPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_OnMyWayPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.OnMyWayPings
+  nameWithType: Participant.OnMyWayPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.ParticipantId
   name: ParticipantId
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_ParticipantId
@@ -12671,6 +12922,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.ProfileIcon
   nameWithType: Participant.ProfileIcon
+- uid: MingweiSamuel.Camille.MatchV5.Participant.PushPings
+  name: PushPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_PushPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.PushPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.PushPings
+  nameWithType: Participant.PushPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.PushPings*
+  name: PushPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_PushPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.PushPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.PushPings
+  nameWithType: Participant.PushPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.Puuid
   name: Puuid
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_Puuid
@@ -12970,6 +13234,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.ToString
   nameWithType: Participant.ToString
+- uid: MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled
+  name: TotalAllyJungleMinionsKilled
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalAllyJungleMinionsKilled
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled
+  nameWithType: Participant.TotalAllyJungleMinionsKilled
+- uid: MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled*
+  name: TotalAllyJungleMinionsKilled
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalAllyJungleMinionsKilled_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.TotalAllyJungleMinionsKilled
+  nameWithType: Participant.TotalAllyJungleMinionsKilled
 - uid: MingweiSamuel.Camille.MatchV5.Participant.TotalDamageDealt
   name: TotalDamageDealt
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalDamageDealt
@@ -13022,6 +13299,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.TotalDamageTaken
   nameWithType: Participant.TotalDamageTaken
+- uid: MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled
+  name: TotalEnemyJungleMinionsKilled
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalEnemyJungleMinionsKilled
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled
+  nameWithType: Participant.TotalEnemyJungleMinionsKilled
+- uid: MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled*
+  name: TotalEnemyJungleMinionsKilled
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalEnemyJungleMinionsKilled_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.TotalEnemyJungleMinionsKilled
+  nameWithType: Participant.TotalEnemyJungleMinionsKilled
 - uid: MingweiSamuel.Camille.MatchV5.Participant.TotalHeal
   name: TotalHeal
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_TotalHeal
@@ -13204,6 +13494,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.Participant.UnrealKills
   nameWithType: Participant.UnrealKills
+- uid: MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings
+  name: VisionClearedPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_VisionClearedPings
+  commentId: P:MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings
+  nameWithType: Participant.VisionClearedPings
+- uid: MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings*
+  name: VisionClearedPings
+  href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_VisionClearedPings_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.Participant.VisionClearedPings
+  nameWithType: Participant.VisionClearedPings
 - uid: MingweiSamuel.Camille.MatchV5.Participant.VisionScore
   name: VisionScore
   href: api/MingweiSamuel.Camille.MatchV5.Participant.html#MingweiSamuel_Camille_MatchV5_Participant_VisionScore
@@ -13730,6 +14033,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FastestLegendary
   nameWithType: ParticipantChallenges.FastestLegendary
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled
+  name: FirstTurretKilled
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FirstTurretKilled
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled
+  nameWithType: ParticipantChallenges.FirstTurretKilled
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled*
+  name: FirstTurretKilled
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FirstTurretKilled_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilled
+  nameWithType: ParticipantChallenges.FirstTurretKilled
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.FirstTurretKilledTime
   name: FirstTurretKilledTime
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_FirstTurretKilledTime
@@ -13990,6 +14306,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
   nameWithType: ParticipantChallenges.KilledChampTookFullTeamDamageSurvived
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees
+  name: KillingSprees
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillingSprees
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees
+  nameWithType: ParticipantChallenges.KillingSprees
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees*
+  name: KillingSprees
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillingSprees_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillingSprees
+  nameWithType: ParticipantChallenges.KillingSprees
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.KillParticipation
   name: KillParticipation
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_KillParticipation
@@ -14393,6 +14722,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PickKillWithAlly
   nameWithType: ParticipantChallenges.PickKillWithAlly
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition
+  name: PlayedChampSelectPosition
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PlayedChampSelectPosition
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition
+  nameWithType: ParticipantChallenges.PlayedChampSelectPosition
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition*
+  name: PlayedChampSelectPosition
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PlayedChampSelectPosition_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PlayedChampSelectPosition
+  nameWithType: ParticipantChallenges.PlayedChampSelectPosition
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.PoroExplosions
   name: PoroExplosions
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_PoroExplosions
@@ -14679,6 +15021,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirst25Minutes
   nameWithType: ParticipantChallenges.TakedownsFirst25Minutes
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes
+  name: TakedownsFirstXMinutes
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TakedownsFirstXMinutes
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes
+  nameWithType: ParticipantChallenges.TakedownsFirstXMinutes
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes*
+  name: TakedownsFirstXMinutes
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TakedownsFirstXMinutes_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsFirstXMinutes
+  nameWithType: ParticipantChallenges.TakedownsFirstXMinutes
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TakedownsInAlcove
   name: TakedownsInAlcove
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TakedownsInAlcove
@@ -18336,6 +18691,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Companion.ContentID
   nameWithType: Companion.ContentID
+- uid: MingweiSamuel.Camille.TftMatchV1.Companion.ItemID
+  name: ItemID
+  href: api/MingweiSamuel.Camille.TftMatchV1.Companion.html#MingweiSamuel_Camille_TftMatchV1_Companion_ItemID
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Companion.ItemID
+  fullName: MingweiSamuel.Camille.TftMatchV1.Companion.ItemID
+  nameWithType: Companion.ItemID
+- uid: MingweiSamuel.Camille.TftMatchV1.Companion.ItemID*
+  name: ItemID
+  href: api/MingweiSamuel.Camille.TftMatchV1.Companion.html#MingweiSamuel_Camille_TftMatchV1_Companion_ItemID_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Companion.ItemID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Companion.ItemID
+  nameWithType: Companion.ItemID
 - uid: MingweiSamuel.Camille.TftMatchV1.Companion.SkinID
   name: SkinID
   href: api/MingweiSamuel.Camille.TftMatchV1.Companion.html#MingweiSamuel_Camille_TftMatchV1_Companion_SkinID
@@ -18485,6 +18853,32 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Info.QueueId
   nameWithType: Info.QueueId
+- uid: MingweiSamuel.Camille.TftMatchV1.Info.TftGameType
+  name: TftGameType
+  href: api/MingweiSamuel.Camille.TftMatchV1.Info.html#MingweiSamuel_Camille_TftMatchV1_Info_TftGameType
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Info.TftGameType
+  fullName: MingweiSamuel.Camille.TftMatchV1.Info.TftGameType
+  nameWithType: Info.TftGameType
+- uid: MingweiSamuel.Camille.TftMatchV1.Info.TftGameType*
+  name: TftGameType
+  href: api/MingweiSamuel.Camille.TftMatchV1.Info.html#MingweiSamuel_Camille_TftMatchV1_Info_TftGameType_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Info.TftGameType
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Info.TftGameType
+  nameWithType: Info.TftGameType
+- uid: MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName
+  name: TftSetCoreName
+  href: api/MingweiSamuel.Camille.TftMatchV1.Info.html#MingweiSamuel_Camille_TftMatchV1_Info_TftSetCoreName
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName
+  fullName: MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName
+  nameWithType: Info.TftSetCoreName
+- uid: MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName*
+  name: TftSetCoreName
+  href: api/MingweiSamuel.Camille.TftMatchV1.Info.html#MingweiSamuel_Camille_TftMatchV1_Info_TftSetCoreName_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Info.TftSetCoreName
+  nameWithType: Info.TftSetCoreName
 - uid: MingweiSamuel.Camille.TftMatchV1.Info.TftSetNumber
   name: TftSetNumber
   href: api/MingweiSamuel.Camille.TftMatchV1.Info.html#MingweiSamuel_Camille_TftMatchV1_Info_TftSetNumber
@@ -18698,6 +19092,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Participant._AdditionalProperties
   nameWithType: Participant._AdditionalProperties
+- uid: MingweiSamuel.Camille.TftMatchV1.Participant.Augments
+  name: Augments
+  href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_Augments
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Participant.Augments
+  fullName: MingweiSamuel.Camille.TftMatchV1.Participant.Augments
+  nameWithType: Participant.Augments
+- uid: MingweiSamuel.Camille.TftMatchV1.Participant.Augments*
+  name: Augments
+  href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_Augments_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Participant.Augments
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Participant.Augments
+  nameWithType: Participant.Augments
 - uid: MingweiSamuel.Camille.TftMatchV1.Participant.Companion
   name: Companion
   href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_Companion
@@ -18750,6 +19157,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Participant.Level
   nameWithType: Participant.Level
+- uid: MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId
+  name: PartnerGroupId
+  href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_PartnerGroupId
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId
+  fullName: MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId
+  nameWithType: Participant.PartnerGroupId
+- uid: MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId*
+  name: PartnerGroupId
+  href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_PartnerGroupId_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Participant.PartnerGroupId
+  nameWithType: Participant.PartnerGroupId
 - uid: MingweiSamuel.Camille.TftMatchV1.Participant.Placement
   name: Placement
   href: api/MingweiSamuel.Camille.TftMatchV1.Participant.html#MingweiSamuel_Camille_TftMatchV1_Participant_Placement
@@ -19022,6 +19442,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.TftMatchV1.Unit.Chosen
   nameWithType: Unit.Chosen
+- uid: MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames
+  name: ItemNames
+  href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_ItemNames
+  commentId: P:MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames
+  fullName: MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames
+  nameWithType: Unit.ItemNames
+- uid: MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames*
+  name: ItemNames
+  href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_ItemNames_
+  commentId: Overload:MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.TftMatchV1.Unit.ItemNames
+  nameWithType: Unit.ItemNames
 - uid: MingweiSamuel.Camille.TftMatchV1.Unit.Items
   name: Items
   href: api/MingweiSamuel.Camille.TftMatchV1.Unit.html#MingweiSamuel_Camille_TftMatchV1_Unit_Items
@@ -23821,19 +24254,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.MatchId
   nameWithType: MatchlistEntry.MatchId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
-  name: TeamId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_TeamId
-  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
-  nameWithType: MatchlistEntry.TeamId
-- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId*
-  name: TeamId
-  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_TeamId_
-  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId
+  name: QueueId
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_QueueId
+  commentId: P:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId
+  nameWithType: MatchlistEntry.QueueId
+- uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId*
+  name: QueueId
+  href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_QueueId_
+  commentId: Overload:MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId
   isSpec: "True"
-  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.TeamId
-  nameWithType: MatchlistEntry.TeamId
+  fullName: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.QueueId
+  nameWithType: MatchlistEntry.QueueId
 - uid: MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.ToString
   name: ToString()
   href: api/MingweiSamuel.Camille.ValMatchV1.MatchlistEntry.html#MingweiSamuel_Camille_ValMatchV1_MatchlistEntry_ToString
