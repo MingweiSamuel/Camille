@@ -412,6 +412,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.LastPlayTime
   nameWithType: ChampionMastery.LastPlayTime
+- uid: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid
+  name: Puuid
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html#MingweiSamuel_Camille_ChampionMasteryV4_ChampionMastery_Puuid
+  commentId: P:MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid
+  nameWithType: ChampionMastery.Puuid
+- uid: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid*
+  name: Puuid
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html#MingweiSamuel_Camille_ChampionMasteryV4_ChampionMastery_Puuid_
+  commentId: Overload:MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.Puuid
+  nameWithType: ChampionMastery.Puuid
 - uid: MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.SummonerId
   name: SummonerId
   href: api/MingweiSamuel.Camille.ChampionMasteryV4.ChampionMastery.html#MingweiSamuel_Camille_ChampionMasteryV4_ChampionMastery_SummonerId
