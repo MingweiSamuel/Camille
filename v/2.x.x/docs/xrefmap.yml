@@ -15242,6 +15242,19 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwentyMinionsIn3SecondsCount
   nameWithType: ParticipantChallenges.TwentyMinionsIn3SecondsCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount
+  name: TwoWardsOneSweeperCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TwoWardsOneSweeperCount
+  commentId: P:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount
+  nameWithType: ParticipantChallenges.TwoWardsOneSweeperCount
+- uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount*
+  name: TwoWardsOneSweeperCount
+  href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_TwoWardsOneSweeperCount_
+  commentId: Overload:MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.TwoWardsOneSweeperCount
+  nameWithType: ParticipantChallenges.TwoWardsOneSweeperCount
 - uid: MingweiSamuel.Camille.MatchV5.ParticipantChallenges.UnseenRecalls
   name: UnseenRecalls
   href: api/MingweiSamuel.Camille.MatchV5.ParticipantChallenges.html#MingweiSamuel_Camille_MatchV5_ParticipantChallenges_UnseenRecalls
