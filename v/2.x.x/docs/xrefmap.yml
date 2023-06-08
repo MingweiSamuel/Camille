@@ -502,6 +502,38 @@ references:
   isSpec: "True"
   fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
   nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChampionMasteriesByPUUID(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUID_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChampionMasteriesByPUUID(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID*
+  name: GetAllChampionMasteriesByPUUID
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUID_
+  commentId: Overload:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChampionMasteriesByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUIDAsync_MingweiSamuel_Camille_Enums_Region_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(MingweiSamuel.Camille.Enums.Region,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChampionMasteriesByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(MingweiSamuel.Camille.Enums.Region, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(Region, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(Region, String, Nullable(Of CancellationToken))
+- uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync*
+  name: GetAllChampionMasteriesByPUUIDAsync
+  href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUIDAsync_
+  commentId: Overload:MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
+  isSpec: "True"
+  fullName: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
 - uid: MingweiSamuel.Camille.ChampionMasteryV4Endpoints.GetChampionMastery(MingweiSamuel.Camille.Enums.Region,System.Int64,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetChampionMastery(Region, Int64, String, Nullable<CancellationToken>)
   href: api/MingweiSamuel.Camille.ChampionMasteryV4Endpoints.html#MingweiSamuel_Camille_ChampionMasteryV4Endpoints_GetChampionMastery_MingweiSamuel_Camille_Enums_Region_System_Int64_System_String_System_Nullable_System_Threading_CancellationToken__
