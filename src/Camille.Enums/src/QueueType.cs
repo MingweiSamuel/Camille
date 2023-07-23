@@ -27,5 +27,7 @@ namespace Camille.Enums
         RANKED_TFT_PAIRS = 1150,
         /// <summary>Ranked Teamfight Tactics, Double Up game mode.</summary>
         RANKED_TFT_DOUBLE_UP = 1160,
+
+        CHERRY = 1700
     }
 }
