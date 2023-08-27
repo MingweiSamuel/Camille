@@ -11,6 +11,7 @@
     <DownloadFile SourceUrl="https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-summary.json" DestinationFolder="$(GenDir)" DestinationFileName=".champion.json" Retries="3" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/seasons.json" DestinationFolder="$(GenDir)" DestinationFileName=".seasons.json" Retries="3" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/queues.json" DestinationFolder="$(GenDir)" DestinationFileName=".queues.json" Retries="3" ContinueOnError="true" />
+    <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/queueTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".queueTypes.json" Retries="3" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/maps.json" DestinationFolder="$(GenDir)" DestinationFileName=".maps.json" Retries="3" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/gameModes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameModes.json" Retries="3" ContinueOnError="true" />
     <DownloadFile SourceUrl="https://www.mingweisamuel.com/riotapi-schema/enums/gameTypes.json" DestinationFolder="$(GenDir)" DestinationFileName=".gameTypes.json" Retries="3" ContinueOnError="true" />
