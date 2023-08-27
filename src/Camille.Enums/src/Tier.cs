@@ -16,6 +16,7 @@ namespace Camille.Enums
         GRANDMASTER =  40,
         MASTER      =  60,
         DIAMOND     =  80,
+        EMERALD     =  90,
         PLATINUM    = 100,
         GOLD        = 120,
         SILVER      = 140,
