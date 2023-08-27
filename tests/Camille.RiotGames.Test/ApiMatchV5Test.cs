@@ -11,7 +11,14 @@ namespace Camille.RiotGames.Test
     {
         public static string[] MatchIds =
         {
-            "EUW1_5378349967",
+            // New ARENA 2v2v2v2 game mode
+            "EUW1_6511808246", // https://github.com/MingweiSamuel/Camille/issues/99
+            // Added 2023-08-27
+            "EUW1_6569580003",
+            "EUW1_6569417645",
+            "EUW1_6568707352",
+            "EUW1_6568635198",
+            "EUW1_6568537080",
         };
 
         [TestMethod]
@@ -22,9 +29,9 @@ namespace Camille.RiotGames.Test
                 .ToList();
             var matches = await Task.WhenAll(tasks);
 
-            foreach (var ( match, id ) in matches.Zip(MatchIds, (match, id) => ( match, id )))
+            foreach (var (match, id) in matches.Zip(MatchIds, (match, id) => (match, id)))
             {
-                Assert.IsNotNull(match);
+                Assert.IsNotNull(match, $"Match for id {id} is null.");
                 Assert.AreEqual(id, match.Metadata.MatchId);
                 Assert.IsTrue(id.EndsWith("" + match.Info.GameId), $"Requested match id {id}'s gameId is {match.Info.GameId} unexpectedly.");
 

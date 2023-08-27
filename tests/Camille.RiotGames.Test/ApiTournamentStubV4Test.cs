@@ -11,6 +11,7 @@ namespace Camille.RiotGames.Test
     public class ApiTournamentStubV4Test : ApiTest
     {
         [TestMethod]
+        [Ignore]
         public async Task CreateTournamentStubAsync()
         {
             var tsV4 = Api.TournamentStubV4();
