@@ -112,11 +112,7 @@
 
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
   <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateDataTrigger">
-    <Exec WorkingDirectory="$(SolutionDir)/srcgen" Command="PowerShell -ExecutionPolicy Bypass -File install.ps1" />
+    <Exec WorkingDirectory="$(SolutionDir)/srcgen" Command="pwsh -ExecutionPolicy Bypass -File install.ps1" />
     <Exec WorkingDirectory="$(SolutionDir)" Command="node srcgen/index.js &quot;$(MSBuildProjectDirectory)&quot;" />
-  </Target>
-  <!-- On Unix/OSX DispatchToInnerBuilds is not run so we use GenerateTargetFrameworkMonikerAttribute. -->
-  <Target Name="BuildTemplatesUnix" BeforeTargets="GenerateTargetFrameworkMonikerAttribute" DependsOnTargets="BuildTemplates" Condition="$(OS) == 'Unix'">
-    <Message Text="Building templates on unix." Importance="high" />
   </Target>
 </Project>
