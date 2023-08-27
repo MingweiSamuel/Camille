@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\common.csproj.xml" />
   <PropertyGroup>
-    <TargetFrameworks>net461;netstandard2.1;netcoreapp3.1;net6.0</TargetFrameworks>
+    <TargetFrameworks>net461;netstandard2.1;netcoreapp3.1;net6.0;net7.0</TargetFrameworks>
     <PackageId>Camille.LolGame</PackageId>
     <RootNamespace>Camille.LolGame</RootNamespace>
     <Description>League of Legends Live (In-Game) Client Data API library</Description>
