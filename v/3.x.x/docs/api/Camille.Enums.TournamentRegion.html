@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ILockfileProvider
+    <title>Enum TournamentRegion
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ILockfileProvider
+    <meta name="title" content="Enum TournamentRegion
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,68 +68,94 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Camille.Lcu.ILockfileProvider">
+            <article class="content wrap" id="_content" data-uid="Camille.Enums.TournamentRegion">
   
   
-  <h1 id="Camille_Lcu_ILockfileProvider" data-uid="Camille.Lcu.ILockfileProvider" class="text-break">Interface ILockfileProvider
+  <h1 id="Camille_Enums_TournamentRegion" data-uid="Camille.Enums.TournamentRegion" class="text-break">Enum TournamentRegion
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Tournament regions for League of Legends (LoL) used in TournamentStubV4 and TournamentV4's
+RegisterProviderData method.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Camille.Lcu.html">Camille.Lcu</a></h6>
-  <h6><strong>Assembly</strong>: Camille.Lcu.dll</h6>
-  <h5 id="Camille_Lcu_ILockfileProvider_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Camille.Enums.html">Camille.Enums</a></h6>
+  <h6><strong>Assembly</strong>: Camille.Enums.dll</h6>
+  <h5 id="Camille_Enums_TournamentRegion_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ILockfileProvider</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(JsonStringEnumConverter))]
+public enum TournamentRegion : byte</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_ILockfileProvider_GetLockfile_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Camille.Lcu.ILockfileProvider.GetLockfile(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/src/ILockfileProvider.cs/#L8">View Source</a>
-  </span>
-  <a id="Camille_Lcu_ILockfileProvider_GetLockfile_" data-uid="Camille.Lcu.ILockfileProvider.GetLockfile*"></a>
-  <h4 id="Camille_Lcu_ILockfileProvider_GetLockfile_System_Threading_CancellationToken_" data-uid="Camille.Lcu.ILockfileProvider.GetLockfile(System.Threading.CancellationToken)">GetLockfile(CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Lockfile&gt; GetLockfile(CancellationToken token)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">token</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
     <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Camille.Lcu.Lockfile.html">Lockfile</a>&gt;</td>
-        <td></td>
+        <td id="Camille_Enums_TournamentRegion_BR">BR</td>
+        <td><p>Brazil.</p>
+<p>For br1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_EUNE">EUNE</td>
+        <td><p>Europe, Northeast.</p>
+<p>For eun1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_EUW">EUW</td>
+        <td><p>Europe, West.</p>
+<p>For euw1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_JP">JP</td>
+        <td><p>Japan.</p>
+<p>For jp1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_LAN">LAN</td>
+        <td><p>Latin America, North.</p>
+<p>For la1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_LAS">LAS</td>
+        <td><p>Latin America, South.</p>
+<p>For la2.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_NA">NA</td>
+        <td><p>North America.</p>
+<p>For na1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_OCE">OCE</td>
+        <td><p>Oceana.</p>
+<p>For oc1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_PBE">PBE</td>
+        <td><p>Public Beta Environment, special beta testing platform. Located in North America.</p>
+<p>For pbe1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_TournamentRegion_TR">TR</td>
+        <td><p>Turkey</p>
+<p>For tr1.</p>
+</td>
       </tr>
     </tbody>
-  </table>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -138,10 +164,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Lcu_ILockfileProvider.md&amp;value=---%0Auid%3A%20Camille.Lcu.ILockfileProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Enums_TournamentRegion.md&amp;value=---%0Auid%3A%20Camille.Enums.TournamentRegion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Lcu/src/ILockfileProvider.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Enums/gen/Route.cs/#L295" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

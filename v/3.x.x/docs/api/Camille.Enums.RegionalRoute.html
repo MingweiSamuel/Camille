@@ -73,7 +73,8 @@
   
   <h1 id="Camille_Enums_RegionalRoute" data-uid="Camille.Enums.RegionalRoute" class="text-break">Enum RegionalRoute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Regional routes, used in tournament services, Legends of Runeterra (LoR), and some other endpoints.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Camille.Enums.html">Camille.Enums</a></h6>
   <h6><strong>Assembly</strong>: Camille.Enums.dll</h6>
@@ -94,22 +95,38 @@ public enum RegionalRoute : byte</code></pre>
     <tbody>
       <tr>
         <td id="Camille_Enums_RegionalRoute_AMERICAS">AMERICAS</td>
-        <td><p>Americas.</p>
+        <td><p>North and South America.</p>
+<p><code>1</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_RegionalRoute_APAC">APAC</td>
+        <td><p>Asia-Pacific, deprecated, for some old matches in <code>lor-match-v1</code>.</p>
+<p><code>10</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_RegionalRoute_ASIA">ASIA</td>
-        <td><p>Asia.</p>
+        <td><p>Asia, used for LoL matches (<code>match-v5</code>) and TFT matches (<code>tft-match-v1</code>).</p>
+<p><code>2</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_RegionalRoute_ESPORTS">ESPORTS</td>
+        <td><p>Special esports platform for <code>account-v1</code>. Do not confuse with the <code>esports</code> Valorant platform route.</p>
+<p><code>11</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_RegionalRoute_EUROPE">EUROPE</td>
         <td><p>Europe.</p>
+<p><code>3</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_RegionalRoute_SEA">SEA</td>
-        <td><p>South East Asia. Only usable with the LoR endpoints (just <code>lorRankedV1</code> for now).</p>
+        <td><p>South East Asia, used for LoR, LoL matches (<code>match-v5</code>), and TFT matches (<code>tft-match-v1</code>).</p>
+<p><code>4</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
     </tbody>
@@ -125,7 +142,7 @@ public enum RegionalRoute : byte</code></pre>
                     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Enums_RegionalRoute.md&amp;value=---%0Auid%3A%20Camille.Enums.RegionalRoute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Enums/src/Route.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Enums/gen/Route.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

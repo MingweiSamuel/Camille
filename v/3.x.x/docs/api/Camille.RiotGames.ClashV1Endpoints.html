@@ -120,10 +120,138 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#cla
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L315">View Source</a>
+  </span>
+  <a id="Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUID_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID*"></a>
+  <h4 id="Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersByPUUID(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get players by puuid</p>
+<p><h4>Implementation Notes</h4>
+This endpoint returns a list of active Clash players for a given PUUID. If a summoner registers for multiple tournaments at the same time (e.g., Saturday and Sunday) then both registrations would appear in this list.
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getPlayersByPUUID">https://developer.riotgames.com/api-methods/#clash-v1/GET_getPlayersByPUUID</a>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player[] GetPlayersByPUUID(PlatformRoute route, string puuid, CancellationToken? cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlatformRoute</span></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">puuid</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task. (optional)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Camille.RiotGames.ClashV1.Player.html">Player</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L330">View Source</a>
+  </span>
+  <a id="Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUIDAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync*"></a>
+  <h4 id="Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersByPUUIDAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get players by puuid</p>
+<p><h4>Implementation Notes</h4>
+This endpoint returns a list of active Clash players for a given PUUID. If a summoner registers for multiple tournaments at the same time (e.g., Saturday and Sunday) then both registrations would appear in this list.
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#clash-v1/GET_getPlayersByPUUID">https://developer.riotgames.com/api-methods/#clash-v1/GET_getPlayersByPUUID</a>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Player[]&gt; GetPlayersByPUUIDAsync(PlatformRoute route, string puuid, CancellationToken? cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlatformRoute</span></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">puuid</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task. (optional)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Camille.RiotGames.ClashV1.Player.html">Player</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L345">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummoner(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -187,7 +315,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummonerAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L330">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L360">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummonerAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummonerAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetPlayersBySummonerAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -251,7 +379,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTeamById_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTeamById(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L343">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L373">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTeamById_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTeamById*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTeamById_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTeamById(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamById(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -313,7 +441,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTeamByIdAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTeamByIdAsync(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L356">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L386">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTeamByIdAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTeamByIdAsync*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTeamByIdAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTeamByIdAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTeamByIdAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -375,7 +503,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournamentById_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournamentById(PlatformRoute%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L419">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L449">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournamentById_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentById*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournamentById_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentById(PlatformRoute,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentById(PlatformRoute, Int32, Nullable&lt;CancellationToken&gt;)</h4>
@@ -437,7 +565,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournamentByIdAsync_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournamentByIdAsync(PlatformRoute%2CSystem.Int32%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L432">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L462">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByIdAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByIdAsync*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByIdAsync_PlatformRoute_System_Int32_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByIdAsync(PlatformRoute,System.Int32,System.Nullable{System.Threading.CancellationToken})">GetTournamentByIdAsync(PlatformRoute, Int32, Nullable&lt;CancellationToken&gt;)</h4>
@@ -499,7 +627,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeam_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeam(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L393">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L423">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeam_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeam*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeam_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeam(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeam(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -561,7 +689,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeamAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeamAsync(PlatformRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L406">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L436">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeamAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeamAsync*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournamentByTeamAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentByTeamAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetTournamentByTeamAsync(PlatformRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -623,7 +751,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournaments_PlatformRoute_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournaments(PlatformRoute%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L368">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L398">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournaments_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournaments*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournaments_PlatformRoute_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournaments(PlatformRoute,System.Nullable{System.Threading.CancellationToken})">GetTournaments(PlatformRoute, Nullable&lt;CancellationToken&gt;)</h4>
@@ -679,7 +807,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#cl
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_ClashV1Endpoints_GetTournamentsAsync_PlatformRoute_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.ClashV1Endpoints.GetTournamentsAsync(PlatformRoute%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L380">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L410">View Source</a>
   </span>
   <a id="Camille_RiotGames_ClashV1Endpoints_GetTournamentsAsync_" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentsAsync*"></a>
   <h4 id="Camille_RiotGames_ClashV1Endpoints_GetTournamentsAsync_PlatformRoute_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.ClashV1Endpoints.GetTournamentsAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})">GetTournamentsAsync(PlatformRoute, Nullable&lt;CancellationToken&gt;)</h4>

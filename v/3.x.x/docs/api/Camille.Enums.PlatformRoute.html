@@ -73,7 +73,8 @@
   
   <h1 id="Camille_Enums_PlatformRoute" data-uid="Camille.Enums.PlatformRoute" class="text-break">Enum PlatformRoute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Platform routes for League of Legends (LoL), Teanfight Tactics (TFT), and Legends of Runeterra (LoR).</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Camille.Enums.html">Camille.Enums</a></h6>
   <h6><strong>Assembly</strong>: Camille.Enums.dll</h6>
@@ -95,61 +96,103 @@ public enum PlatformRoute : byte</code></pre>
       <tr>
         <td id="Camille_Enums_PlatformRoute_BR1">BR1</td>
         <td><p>Brazil.</p>
+<p><code>16</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_EUN1">EUN1</td>
-        <td><p>North-east Europe.</p>
+        <td><p>Europe, Northeast.</p>
+<p><code>17</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_EUW1">EUW1</td>
-        <td><p>West Europe.</p>
+        <td><p>Europe, West.</p>
+<p><code>18</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_JP1">JP1</td>
         <td><p>Japan.</p>
+<p><code>19</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_KR">KR</td>
-        <td><p>Korea. Valorant's Korea platform</p>
+        <td><p>Korea.</p>
+<p><code>20</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_LA1">LA1</td>
-        <td><p>North Latin America.</p>
+        <td><p>Latin America, North.</p>
+<p><code>21</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_LA2">LA2</td>
-        <td><p>South Latin America.</p>
+        <td><p>Latin America, South.</p>
+<p><code>22</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_NA1">NA1</td>
         <td><p>North America.</p>
+<p><code>23</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_OC1">OC1</td>
-        <td><p>Oceania.</p>
+        <td><p>Oceana.</p>
+<p><code>24</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_PBE1">PBE1</td>
-        <td><p>Public beta environment. Only functional in certain endpoints. Valorant's PBE platform.</p>
+        <td><p>Public Beta Environment, special beta testing platform. Located in North America.</p>
+<p><code>31</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_PlatformRoute_PH2">PH2</td>
+        <td><p>Philippines</p>
+<p><code>32</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_RU">RU</td>
-        <td><p>Russia.</p>
+        <td><p>Russia</p>
+<p><code>25</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_PlatformRoute_SG2">SG2</td>
+        <td><p>Singapore</p>
+<p><code>33</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_PlatformRoute_TH2">TH2</td>
+        <td><p>Thailand</p>
+<p><code>34</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
       <tr>
         <td id="Camille_Enums_PlatformRoute_TR1">TR1</td>
-        <td><p>Turkey.</p>
+        <td><p>Turkey</p>
+<p><code>26</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_PlatformRoute_TW2">TW2</td>
+        <td><p>Taiwan</p>
+<p><code>35</code> (riotapi-schema ID/repr)</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Camille_Enums_PlatformRoute_VN2">VN2</td>
+        <td><p>Vietnam</p>
+<p><code>36</code> (riotapi-schema ID/repr)</p>
 </td>
       </tr>
     </tbody>
@@ -157,6 +200,15 @@ public enum PlatformRoute : byte</code></pre>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Camille.Enums.RouteUtils.html#Camille_Enums_RouteUtils_ToRegional_Camille_Enums_PlatformRoute_">RouteUtils.ToRegional()</a>
+  </div>
+  <div>
+      <a class="xref" href="Camille.Enums.RouteUtils.html#Camille_Enums_RouteUtils_ToRegionalLog_Camille_Enums_PlatformRoute_">RouteUtils.ToRegionalLog()</a>
+  </div>
+  <div>
+      <a class="xref" href="Camille.Enums.RouteUtils.html#Camille_Enums_RouteUtils_ToTournamentRegion_Camille_Enums_PlatformRoute_">RouteUtils.ToTournamentRegion()</a>
+  </div>
+  <div>
+      <a class="xref" href="Camille.Enums.RouteUtils.html#Camille_Enums_RouteUtils_AsRegionString_Camille_Enums_PlatformRoute_">RouteUtils.AsRegionString()</a>
   </div>
 </article>
           </div>
@@ -169,7 +221,7 @@ public enum PlatformRoute : byte</code></pre>
                     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_Enums_PlatformRoute.md&amp;value=---%0Auid%3A%20Camille.Enums.PlatformRoute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Enums/src/Route.cs/#L25" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.Enums/gen/Route.cs/#L78" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
