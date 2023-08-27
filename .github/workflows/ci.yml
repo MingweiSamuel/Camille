@@ -56,14 +56,6 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore -p:version=$env:CAMI_VERSION
 
-      - name: Install & Start League Client
-        id: league-client
-        uses: magisteriis/setup-league-client@ea5ea0748d459cb8e4bade9d50d2f81b70f009f7
-        with:
-          username: ${{ secrets.LOL_USERNAME }}
-          password: ${{ secrets.LOL_PASSWORD }}
-          region: NA
-
       - name: Test
         if: ${{ github.event_name != 'pull_request' }}
         env:
