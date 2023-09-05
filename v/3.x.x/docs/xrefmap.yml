@@ -254,6 +254,12 @@ references:
   commentId: F:Camille.Enums.Champion.BRAUM
   fullName: Camille.Enums.Champion.BRAUM
   nameWithType: Champion.BRAUM
+- uid: Camille.Enums.Champion.BRIAR
+  name: BRIAR
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_BRIAR
+  commentId: F:Camille.Enums.Champion.BRIAR
+  fullName: Camille.Enums.Champion.BRIAR
+  nameWithType: Champion.BRIAR
 - uid: Camille.Enums.Champion.CAITLYN
   name: CAITLYN
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_CAITLYN
@@ -6349,6 +6355,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
   nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesAsync
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChampionMasteriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChampionMasteriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID*
+  name: GetAllChampionMasteriesByPUUID
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUID_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUID
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync*
+  name: GetAllChampionMasteriesByPUUIDAsync
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetAllChampionMasteriesByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
+  nameWithType: ChampionMasteryV4Endpoints.GetAllChampionMasteriesByPUUIDAsync
 - uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMastery(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
   name: GetChampionMastery(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMastery_PlatformRoute_System_String_Camille_Enums_Champion_System_Nullable_System_Threading_CancellationToken__
@@ -6381,6 +6419,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryAsync
   nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryAsync
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryByPUUID(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryByPUUID_PlatformRoute_System_String_Camille_Enums_Champion_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryByPUUID(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID*
+  name: GetChampionMasteryByPUUID
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryByPUUID_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUID
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryByPUUIDAsync(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryByPUUIDAsync_PlatformRoute_System_String_Camille_Enums_Champion_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute,System.String,Camille.Enums.Champion,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryByPUUIDAsync(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute, System.String, Camille.Enums.Champion, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute, String, Enums.Champion, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync(PlatformRoute, String, Enums.Champion, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync*
+  name: GetChampionMasteryByPUUIDAsync
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryByPUUIDAsync
 - uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScore(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetChampionMasteryScore(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryScore_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -6413,6 +6483,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreAsync
   nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryScoreAsync
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryScoreByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryScoreByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryScoreByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID*
+  name: GetChampionMasteryScoreByPUUID
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryScoreByPUUID_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUID
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryScoreByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync*
+  name: GetChampionMasteryScoreByPUUIDAsync
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetChampionMasteryScoreByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync
+  nameWithType: ChampionMasteryV4Endpoints.GetChampionMasteryScoreByPUUIDAsync
 - uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteries(PlatformRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
   name: GetTopChampionMasteries(PlatformRoute, String, Nullable<Int32>, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetTopChampionMasteries_PlatformRoute_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
@@ -6445,6 +6547,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesAsync
   nameWithType: ChampionMasteryV4Endpoints.GetTopChampionMasteriesAsync
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetTopChampionMasteriesByPUUID(PlatformRoute, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetTopChampionMasteriesByPUUID_PlatformRoute_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopChampionMasteriesByPUUID(PlatformRoute, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID(PlatformRoute, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID*
+  name: GetTopChampionMasteriesByPUUID
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetTopChampionMasteriesByPUUID_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID
+  nameWithType: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUID
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name: GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable<Int32>, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetTopChampionMasteriesByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable<Int32>, Nullable<CancellationToken>)
+  nameWithType.vb: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync(PlatformRoute, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync*
+  name: GetTopChampionMasteriesByPUUIDAsync
+  href: api/Camille.RiotGames.ChampionMasteryV4Endpoints.html#Camille_RiotGames_ChampionMasteryV4Endpoints_GetTopChampionMasteriesByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync
+  nameWithType: ChampionMasteryV4Endpoints.GetTopChampionMasteriesByPUUIDAsync
 - uid: Camille.RiotGames.ChampionV3
   name: Camille.RiotGames.ChampionV3
   href: api/Camille.RiotGames.ChampionV3.html
