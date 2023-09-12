@@ -21293,6 +21293,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.MiniSeries
   nameWithType: LeagueEntry.MiniSeries
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_Puuid
+  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
+- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_Puuid_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
 - uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.QueueType
   name: QueueType
   href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_QueueType
