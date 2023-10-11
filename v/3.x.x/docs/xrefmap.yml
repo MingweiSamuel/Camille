@@ -21986,15 +21986,15 @@ references:
   commentId: T:Camille.RiotGames.TftLeagueV1Endpoints
   fullName: Camille.RiotGames.TftLeagueV1Endpoints
   nameWithType: TftLeagueV1Endpoints
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengerLeague(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeague_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengerLeague(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengerLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeague_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengerLeague(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetChallengerLeague(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague*
   name: GetChallengerLeague
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeague_
@@ -22002,15 +22002,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeague
   nameWithType: TftLeagueV1Endpoints.GetChallengerLeague
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetChallengerLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeagueAsync_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetChallengerLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetChallengerLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeagueAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetChallengerLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetChallengerLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync*
   name: GetChallengerLeagueAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetChallengerLeagueAsync_
@@ -22018,15 +22018,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetChallengerLeagueAsync
   nameWithType: TftLeagueV1Endpoints.GetChallengerLeagueAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetGrandmasterLeague(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeague_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetGrandmasterLeague(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetGrandmasterLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeague_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGrandmasterLeague(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetGrandmasterLeague(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague*
   name: GetGrandmasterLeague
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeague_
@@ -22034,15 +22034,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeague
   nameWithType: TftLeagueV1Endpoints.GetGrandmasterLeague
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetGrandmasterLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeagueAsync_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetGrandmasterLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetGrandmasterLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeagueAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGrandmasterLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetGrandmasterLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetGrandmasterLeagueAsync*
   name: GetGrandmasterLeagueAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetGrandmasterLeagueAsync_
@@ -22082,15 +22082,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueByIdAsync
   nameWithType: TftLeagueV1Endpoints.GetLeagueByIdAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable<Int32>, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntries(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries*
   name: GetLeagueEntries
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntries_
@@ -22098,15 +22098,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntries
   nameWithType: TftLeagueV1Endpoints.GetLeagueEntries
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_PlatformRoute_Camille_Enums_Tier_System_String_System_Nullable_System_Int32__System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute,Camille.Enums.Tier,System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable<System.Int32>, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Camille.Enums.Tier, System.String, System.Nullable(Of System.Int32), System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable<Int32>, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesAsync(PlatformRoute, Enums.Tier, String, Nullable(Of Int32), String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync*
   name: GetLeagueEntriesAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesAsync_
@@ -22146,15 +22146,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesForSummonerAsync
   nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesForSummonerAsync
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetMasterLeague(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeague_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMasterLeague(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMasterLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeague_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMasterLeague(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetMasterLeague(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague*
   name: GetMasterLeague
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeague_
@@ -22162,15 +22162,15 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeague
   nameWithType: TftLeagueV1Endpoints.GetMasterLeague
-- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name: GetMasterLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeagueAsync_PlatformRoute_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetMasterLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, Nullable<CancellationToken>)
-  nameWithType.vb: TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetMasterLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeagueAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetMasterLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetMasterLeagueAsync(PlatformRoute, String, Nullable(Of CancellationToken))
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetMasterLeagueAsync*
   name: GetMasterLeagueAsync
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetMasterLeagueAsync_
