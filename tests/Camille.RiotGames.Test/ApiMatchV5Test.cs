@@ -19,6 +19,8 @@ namespace Camille.RiotGames.Test
             "EUW1_6568707352",
             "EUW1_6568635198",
             "EUW1_6568537080",
+            // https://github.com/MingweiSamuel/Camille/issues/99
+            "EUW1_6511808246",
         };
 
         [TestMethod]

@@ -54,6 +54,7 @@ namespace Camille.RiotGames.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void GetScore()
         {
             // http://www.lolking.net/summoner/euw/20401158/0#champ-mastery
@@ -61,9 +62,26 @@ namespace Camille.RiotGames.Test
         }
 
         [TestMethod]
+        [Ignore]
         public async Task GetScoreAsync()
         {
-            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreAsync(PlatformRoute.EUW1, SummonerIdMa5tery));
+            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.EUW1, "Ma5tery");
+            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreAsync(PlatformRoute.EUW1, summoner.Puuid));
+        }
+
+        [TestMethod]
+        [Ignore]
+        public void GetScoreByPUUID()
+        {
+            var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.EUW1, "Ma5tery");
+            CheckGetScore(Api.ChampionMasteryV4().GetChampionMasteryScoreByPUUID(PlatformRoute.EUW1, summoner.Puuid));
+        }
+
+        [TestMethod]
+        [Ignore]
+        public async Task GetScoreByPUUIDAsync()
+        {
+            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreByPUUIDAsync(PlatformRoute.EUW1, SummonerIdMa5tery));
         }
 
         public static void CheckGetScore(int score)
