@@ -15032,6 +15032,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Objectives.Dragon
   nameWithType: Objectives.Dragon
+- uid: Camille.RiotGames.MatchV5.Objectives.Horde
+  name: Horde
+  href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Horde
+  commentId: P:Camille.RiotGames.MatchV5.Objectives.Horde
+  fullName: Camille.RiotGames.MatchV5.Objectives.Horde
+  nameWithType: Objectives.Horde
+- uid: Camille.RiotGames.MatchV5.Objectives.Horde*
+  name: Horde
+  href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Horde_
+  commentId: Overload:Camille.RiotGames.MatchV5.Objectives.Horde
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Objectives.Horde
+  nameWithType: Objectives.Horde
 - uid: Camille.RiotGames.MatchV5.Objectives.Inhibitor
   name: Inhibitor
   href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Inhibitor
