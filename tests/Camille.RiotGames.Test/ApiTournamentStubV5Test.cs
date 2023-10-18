@@ -1,23 +1,21 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Camille.Enums;
-using Camille.RiotGames.TournamentStubV4;
+using Camille.RiotGames.TournamentStubV5;
 using System;
-using Camille.RiotGames.Util;
 
 namespace Camille.RiotGames.Test
 {
     [TestClass]
-    public class ApiTournamentStubV4Test : ApiTest
+    public class ApiTournamentStubV5Test : ApiTest
     {
         [TestMethod]
-        [Ignore]
         public async Task CreateTournamentStubAsync()
         {
-            var tsV4 = Api.TournamentStubV4();
+            var tsV4 = Api.TournamentStubV5();
 
             var providerId = await tsV4.RegisterProviderDataAsync(
-                RegionalRoute.AMERICAS, new ProviderRegistrationParameters()
+                RegionalRoute.AMERICAS, new ProviderRegistrationParametersV5()
                 {
                     Region = "NA",
                     Url = "https://github.com/MingweiSamuel/Camille",
@@ -25,14 +23,14 @@ namespace Camille.RiotGames.Test
             Assert.IsNotNull(providerId);
 
             var tournamentId = await tsV4.RegisterTournamentAsync(
-                RegionalRoute.AMERICAS, new TournamentRegistrationParameters()
+                RegionalRoute.AMERICAS, new TournamentRegistrationParametersV5()
                 {
                     Name = "Camille Tourney :)",
                     ProviderId = providerId,
                 });
             Assert.IsNotNull(tournamentId);
 
-            var tourneyCodeParams = new TournamentCodeParameters()
+            var tourneyCodeParams = new TournamentCodeParametersV5()
             {
                 MapType = "SUMMONERS_RIFT",
                 Metadata = "eW91IGZvdW5kIHRoZSBzZWNyZXQgbWVzc2FnZQ==",
