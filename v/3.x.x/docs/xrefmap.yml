@@ -25450,6 +25450,181 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TournamentV5.TournamentCodeV5.TournamentId
   nameWithType: TournamentCodeV5.TournamentId
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5
+  name: TournamentGamesV5
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html
+  commentId: T:Camille.RiotGames.TournamentV5.TournamentGamesV5
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5
+  nameWithType: TournamentGamesV5
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.#ctor
+  name: TournamentGamesV5()
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5__ctor
+  commentId: M:Camille.RiotGames.TournamentV5.TournamentGamesV5.#ctor
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.TournamentGamesV5()
+  nameWithType: TournamentGamesV5.TournamentGamesV5()
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.#ctor*
+  name: TournamentGamesV5
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5__ctor_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.TournamentGamesV5
+  nameWithType: TournamentGamesV5.TournamentGamesV5
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5__AdditionalProperties
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties
+  nameWithType: TournamentGamesV5._AdditionalProperties
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5._AdditionalProperties
+  nameWithType: TournamentGamesV5._AdditionalProperties
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId
+  name: GameId
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameId
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId
+  nameWithType: TournamentGamesV5.GameId
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId*
+  name: GameId
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameId_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameId
+  nameWithType: TournamentGamesV5.GameId
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap
+  name: GameMap
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameMap
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap
+  nameWithType: TournamentGamesV5.GameMap
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap*
+  name: GameMap
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameMap_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMap
+  nameWithType: TournamentGamesV5.GameMap
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode
+  name: GameMode
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameMode
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode
+  nameWithType: TournamentGamesV5.GameMode
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode*
+  name: GameMode
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameMode_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameMode
+  nameWithType: TournamentGamesV5.GameMode
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName
+  name: GameName
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameName
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName
+  nameWithType: TournamentGamesV5.GameName
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName*
+  name: GameName
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameName_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameName
+  nameWithType: TournamentGamesV5.GameName
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType
+  name: GameType
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameType
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType
+  nameWithType: TournamentGamesV5.GameType
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType*
+  name: GameType
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_GameType_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.GameType
+  nameWithType: TournamentGamesV5.GameType
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam
+  name: LosingTeam
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_LosingTeam
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam
+  nameWithType: TournamentGamesV5.LosingTeam
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam*
+  name: LosingTeam
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_LosingTeam_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.LosingTeam
+  nameWithType: TournamentGamesV5.LosingTeam
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData
+  name: MetaData
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_MetaData
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData
+  nameWithType: TournamentGamesV5.MetaData
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData*
+  name: MetaData
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_MetaData_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.MetaData
+  nameWithType: TournamentGamesV5.MetaData
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.Region
+  name: Region
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_Region
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.Region
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.Region
+  nameWithType: TournamentGamesV5.Region
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.Region*
+  name: Region
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_Region_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.Region
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.Region
+  nameWithType: TournamentGamesV5.Region
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
+  name: ShortCode
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_ShortCode
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
+  nameWithType: TournamentGamesV5.ShortCode
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode*
+  name: ShortCode
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_ShortCode_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
+  nameWithType: TournamentGamesV5.ShortCode
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_ToString
+  commentId: M:Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString()
+  nameWithType: TournamentGamesV5.ToString()
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_ToString_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString
+  nameWithType: TournamentGamesV5.ToString
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam
+  name: WinningTeam
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_WinningTeam
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam
+  nameWithType: TournamentGamesV5.WinningTeam
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam*
+  name: WinningTeam
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_WinningTeam_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.WinningTeam
+  nameWithType: TournamentGamesV5.WinningTeam
 - uid: Camille.RiotGames.TournamentV5.TournamentRegistrationParametersV5
   name: TournamentRegistrationParametersV5
   href: api/Camille.RiotGames.TournamentV5.TournamentRegistrationParametersV5.html
@@ -25521,6 +25696,64 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TournamentV5.TournamentRegistrationParametersV5.ToString
   nameWithType: TournamentRegistrationParametersV5.ToString
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5
+  name: TournamentTeamV5
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html
+  commentId: T:Camille.RiotGames.TournamentV5.TournamentTeamV5
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5
+  nameWithType: TournamentTeamV5
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.#ctor
+  name: TournamentTeamV5()
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5__ctor
+  commentId: M:Camille.RiotGames.TournamentV5.TournamentTeamV5.#ctor
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.TournamentTeamV5()
+  nameWithType: TournamentTeamV5.TournamentTeamV5()
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.#ctor*
+  name: TournamentTeamV5
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5__ctor_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentTeamV5.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.TournamentTeamV5
+  nameWithType: TournamentTeamV5.TournamentTeamV5
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5__AdditionalProperties
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties
+  nameWithType: TournamentTeamV5._AdditionalProperties
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5._AdditionalProperties
+  nameWithType: TournamentTeamV5._AdditionalProperties
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5_Puuid
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid
+  nameWithType: TournamentTeamV5.Puuid
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5_Puuid_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.Puuid
+  nameWithType: TournamentTeamV5.Puuid
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5_ToString
+  commentId: M:Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString()
+  nameWithType: TournamentTeamV5.ToString()
+- uid: Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.TournamentV5.TournamentTeamV5.html#Camille_RiotGames_TournamentV5_TournamentTeamV5_ToString_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentTeamV5.ToString
+  nameWithType: TournamentTeamV5.ToString
 - uid: Camille.RiotGames.TournamentV5Endpoints
   name: TournamentV5Endpoints
   href: api/Camille.RiotGames.TournamentV5Endpoints.html
@@ -25559,6 +25792,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TournamentV5Endpoints.CreateTournamentCodeAsync
   nameWithType: TournamentV5Endpoints.CreateTournamentCodeAsync
+- uid: Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetGames(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TournamentV5Endpoints.html#Camille_RiotGames_TournamentV5Endpoints_GetGames_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGames(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TournamentV5Endpoints.GetGames(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TournamentV5Endpoints.GetGames(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TournamentV5Endpoints.GetGames*
+  name: GetGames
+  href: api/Camille.RiotGames.TournamentV5Endpoints.html#Camille_RiotGames_TournamentV5Endpoints_GetGames_
+  commentId: Overload:Camille.RiotGames.TournamentV5Endpoints.GetGames
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5Endpoints.GetGames
+  nameWithType: TournamentV5Endpoints.GetGames
+- uid: Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetGamesAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TournamentV5Endpoints.html#Camille_RiotGames_TournamentV5Endpoints_GetGamesAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetGamesAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TournamentV5Endpoints.GetGamesAsync(RegionalRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TournamentV5Endpoints.GetGamesAsync(RegionalRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync*
+  name: GetGamesAsync
+  href: api/Camille.RiotGames.TournamentV5Endpoints.html#Camille_RiotGames_TournamentV5Endpoints_GetGamesAsync_
+  commentId: Overload:Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync
+  nameWithType: TournamentV5Endpoints.GetGamesAsync
 - uid: Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCode(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetLobbyEventsByCode(RegionalRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.TournamentV5Endpoints.html#Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCode_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__
