@@ -269,14 +269,15 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_GetGames_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2337">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2339">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_GetGames_" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetGames*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_GetGames_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetGames(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetGames(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get games details</p>
 <p><h4>Implementation Notes</h4>
-Additional endpoint to get tournament games. From this endpoint you are able to get participants puuid (callback doesn&apos;t contain this info).
-<p>Also use it to check if the game was recorded and validate callbacks. If the endpoint returns the game it means a callback was attempted.
+Additional endpoint to get tournament games. From this endpoint, you are able to get participants PUUID (the callback doesn&apos;t contain this info).
+<p>You can also use it to check if the game was recorded and validate callbacks. If the endpoint returns the game, it means a callback was attempted.</p>
+<p>This will only work for tournament codes created after November 10, 2023.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v5/GET_getGames">https://developer.riotgames.com/api-methods/#tournament-v5/GET_getGames</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -334,14 +335,15 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_GetGamesAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2354">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2358">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_GetGamesAsync_" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_GetGamesAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetGamesAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetGamesAsync(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
   <div class="markdown level1 summary"><p>Get games details</p>
 <p><h4>Implementation Notes</h4>
-Additional endpoint to get tournament games. From this endpoint you are able to get participants puuid (callback doesn&apos;t contain this info).
-<p>Also use it to check if the game was recorded and validate callbacks. If the endpoint returns the game it means a callback was attempted.
+Additional endpoint to get tournament games. From this endpoint, you are able to get participants PUUID (the callback doesn&apos;t contain this info).
+<p>You can also use it to check if the game was recorded and validate callbacks. If the endpoint returns the game, it means a callback was attempted.</p>
+<p>This will only work for tournament codes created after November 10, 2023.
 Official API Reference: <a href="https://developer.riotgames.com/api-methods/#tournament-v5/GET_getGames">https://developer.riotgames.com/api-methods/#tournament-v5/GET_getGames</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -399,7 +401,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCode_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCode(RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2367">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2371">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCode_" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCode*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCode_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCode(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCode(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -461,7 +463,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCodeAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCodeAsync(RegionalRoute%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2380">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2384">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCodeAsync_" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCodeAsync*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_GetLobbyEventsByCodeAsync_RegionalRoute_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.GetLobbyEventsByCodeAsync(RegionalRoute,System.String,System.Nullable{System.Threading.CancellationToken})">GetLobbyEventsByCodeAsync(RegionalRoute, String, Nullable&lt;CancellationToken&gt;)</h4>
@@ -647,7 +649,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_RegisterProviderData_RegionalRoute_Camille_RiotGames_TournamentV5_ProviderRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.RegisterProviderData(RegionalRoute%2CCamille.RiotGames.TournamentV5.ProviderRegistrationParametersV5%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2394">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2398">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_RegisterProviderData_" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterProviderData*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_RegisterProviderData_RegionalRoute_Camille_RiotGames_TournamentV5_ProviderRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterProviderData(RegionalRoute,Camille.RiotGames.TournamentV5.ProviderRegistrationParametersV5,System.Nullable{System.Threading.CancellationToken})">RegisterProviderData(RegionalRoute, ProviderRegistrationParametersV5, Nullable&lt;CancellationToken&gt;)</h4>
@@ -710,7 +712,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_RegisterProviderDataAsync_RegionalRoute_Camille_RiotGames_TournamentV5_ProviderRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.RegisterProviderDataAsync(RegionalRoute%2CCamille.RiotGames.TournamentV5.ProviderRegistrationParametersV5%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2408">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2412">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_RegisterProviderDataAsync_" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterProviderDataAsync*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_RegisterProviderDataAsync_RegionalRoute_Camille_RiotGames_TournamentV5_ProviderRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterProviderDataAsync(RegionalRoute,Camille.RiotGames.TournamentV5.ProviderRegistrationParametersV5,System.Nullable{System.Threading.CancellationToken})">RegisterProviderDataAsync(RegionalRoute, ProviderRegistrationParametersV5, Nullable&lt;CancellationToken&gt;)</h4>
@@ -773,7 +775,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_RegisterTournament_RegionalRoute_Camille_RiotGames_TournamentV5_TournamentRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.RegisterTournament(RegionalRoute%2CCamille.RiotGames.TournamentV5.TournamentRegistrationParametersV5%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2421">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2425">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_RegisterTournament_" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterTournament*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_RegisterTournament_RegionalRoute_Camille_RiotGames_TournamentV5_TournamentRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterTournament(RegionalRoute,Camille.RiotGames.TournamentV5.TournamentRegistrationParametersV5,System.Nullable{System.Threading.CancellationToken})">RegisterTournament(RegionalRoute, TournamentRegistrationParametersV5, Nullable&lt;CancellationToken&gt;)</h4>
@@ -834,7 +836,7 @@ Official API Reference: <a href="https://developer.riotgames.com/api-methods/#to
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_TournamentV5Endpoints_RegisterTournamentAsync_RegionalRoute_Camille_RiotGames_TournamentV5_TournamentRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.TournamentV5Endpoints.RegisterTournamentAsync(RegionalRoute%2CCamille.RiotGames.TournamentV5.TournamentRegistrationParametersV5%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2433">View Source</a>
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L2437">View Source</a>
   </span>
   <a id="Camille_RiotGames_TournamentV5Endpoints_RegisterTournamentAsync_" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterTournamentAsync*"></a>
   <h4 id="Camille_RiotGames_TournamentV5Endpoints_RegisterTournamentAsync_RegionalRoute_Camille_RiotGames_TournamentV5_TournamentRegistrationParametersV5_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.TournamentV5Endpoints.RegisterTournamentAsync(RegionalRoute,Camille.RiotGames.TournamentV5.TournamentRegistrationParametersV5,System.Nullable{System.Threading.CancellationToken})">RegisterTournamentAsync(RegionalRoute, TournamentRegistrationParametersV5, Nullable&lt;CancellationToken&gt;)</h4>
