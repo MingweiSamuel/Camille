@@ -410,6 +410,12 @@ references:
   commentId: F:Camille.Enums.Champion.HEIMERDINGER
   fullName: Camille.Enums.Champion.HEIMERDINGER
   nameWithType: Champion.HEIMERDINGER
+- uid: Camille.Enums.Champion.HWEI
+  name: HWEI
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_HWEI
+  commentId: F:Camille.Enums.Champion.HWEI
+  fullName: Camille.Enums.Champion.HWEI
+  nameWithType: Champion.HWEI
 - uid: Camille.Enums.Champion.ILLAOI
   name: ILLAOI
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_ILLAOI
@@ -7178,38 +7184,6 @@ references:
   commentId: T:Camille.RiotGames.ClashV1Endpoints
   fullName: Camille.RiotGames.ClashV1Endpoints
   nameWithType: ClashV1Endpoints
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetPlayersByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPlayersByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ClashV1Endpoints.GetPlayersByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID*
-  name: GetPlayersByPUUID
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUID_
-  commentId: Overload:Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID
-  isSpec: "True"
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUID
-  nameWithType: ClashV1Endpoints.GetPlayersByPUUID
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetPlayersByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPlayersByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ClashV1Endpoints.GetPlayersByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync*
-  name: GetPlayersByPUUIDAsync
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersByPUUIDAsync_
-  commentId: Overload:Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync
-  isSpec: "True"
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync
-  nameWithType: ClashV1Endpoints.GetPlayersByPUUIDAsync
 - uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetPlayersBySummoner(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
