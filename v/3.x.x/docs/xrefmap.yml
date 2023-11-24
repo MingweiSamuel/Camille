@@ -16357,6 +16357,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Participant.QuadraKills
   nameWithType: Participant.QuadraKills
+- uid: Camille.RiotGames.MatchV5.Participant.RiotIdGameName
+  name: RiotIdGameName
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RiotIdGameName
+  commentId: P:Camille.RiotGames.MatchV5.Participant.RiotIdGameName
+  fullName: Camille.RiotGames.MatchV5.Participant.RiotIdGameName
+  nameWithType: Participant.RiotIdGameName
+- uid: Camille.RiotGames.MatchV5.Participant.RiotIdGameName*
+  name: RiotIdGameName
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RiotIdGameName_
+  commentId: Overload:Camille.RiotGames.MatchV5.Participant.RiotIdGameName
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Participant.RiotIdGameName
+  nameWithType: Participant.RiotIdGameName
 - uid: Camille.RiotGames.MatchV5.Participant.RiotIdName
   name: RiotIdName
   href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RiotIdName
