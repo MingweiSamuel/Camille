@@ -16,5 +16,13 @@ namespace Camille.RiotGames.Test
                 Assert.IsTrue(entry.Wins > 0);
             }
         }
+
+        [TestMethod]
+        public async Task GetLeagueEntriesAsync()
+        {
+            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.RU, "d3atomiz3d");
+            var entries = await Api.LeagueV4().GetLeagueEntriesForSummonerAsync(PlatformRoute.RU, summoner.Id);
+            var _ = entries;
+        }
     }
 }
