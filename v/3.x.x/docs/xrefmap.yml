@@ -2330,6 +2330,12 @@ references:
   commentId: T:Camille.Enums.QueueType
   fullName: Camille.Enums.QueueType
   nameWithType: QueueType
+- uid: Camille.Enums.QueueType.CHERRY
+  name: CHERRY
+  href: api/Camille.Enums.QueueType.html#Camille_Enums_QueueType_CHERRY
+  commentId: F:Camille.Enums.QueueType.CHERRY
+  fullName: Camille.Enums.QueueType.CHERRY
+  nameWithType: QueueType.CHERRY
 - uid: Camille.Enums.QueueType.RANKED_FLEX_SR
   name: RANKED_FLEX_SR
   href: api/Camille.Enums.QueueType.html#Camille_Enums_QueueType_RANKED_FLEX_SR
