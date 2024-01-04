@@ -27,7 +27,7 @@ namespace Camille.RiotGames.Test
                 Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
                 var masteries =
-                    riotApi.ChampionMasteryV4().GetAllChampionMasteries(PlatformRoute.NA1, summoner.Id);
+                    riotApi.ChampionMasteryV4().GetAllChampionMasteriesByPUUID(PlatformRoute.NA1, summoner.Puuid);
 
                 for (var i = 0; i < 10; i++)
                 {

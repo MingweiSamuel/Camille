@@ -9,16 +9,19 @@ namespace Camille.RiotGames.Test
     [TestClass]
     public class ApiChampionMasteryV4Test : ApiTest
     {
-        [TestMethod]
-        public async Task GetChampionAsync()
-        {
-            CheckGetChampion(await Api.ChampionMasteryV4().GetChampionMasteryAsync(PlatformRoute.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: Champion.ZYRA));
-        }
 
         [TestMethod]
         public void GetChampion()
         {
-            CheckGetChampion(Api.ChampionMasteryV4().GetChampionMastery(PlatformRoute.NA1, encryptedSummonerId: SummonerIdLugnutsK, championId: Champion.ZYRA));
+            var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.NA1, "LugnutsK");
+            CheckGetChampion(Api.ChampionMasteryV4().GetChampionMasteryByPUUID(PlatformRoute.NA1, encryptedPUUID: summoner.Puuid, championId: Champion.ZYRA));
+        }
+
+        [TestMethod]
+        public async Task GetChampionAsync()
+        {
+            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.NA1, "LugnutsK");
+            CheckGetChampion(await Api.ChampionMasteryV4().GetChampionMasteryByPUUIDAsync(PlatformRoute.NA1, encryptedPUUID: summoner.Puuid, championId: Champion.ZYRA));
         }
 
         public static void CheckGetChampion(ChampionMastery result)
@@ -31,13 +34,15 @@ namespace Camille.RiotGames.Test
         [TestMethod]
         public void GetChampions()
         {
-            CheckGetChampions(Api.ChampionMasteryV4().GetAllChampionMasteries(PlatformRoute.NA1, SummonerIdLugnutsK));
+            var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.NA1, "LugnutsK");
+            CheckGetChampions(Api.ChampionMasteryV4().GetAllChampionMasteriesByPUUID(PlatformRoute.NA1, summoner.Puuid));
         }
 
         [TestMethod]
         public async Task GetChampionsAsync()
         {
-            CheckGetChampions(await Api.ChampionMasteryV4().GetAllChampionMasteriesAsync(PlatformRoute.NA1, SummonerIdLugnutsK));
+            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.NA1, "LugnutsK");
+            CheckGetChampions(await Api.ChampionMasteryV4().GetAllChampionMasteriesByPUUIDAsync(PlatformRoute.NA1, summoner.Puuid));
         }
 
         public static void CheckGetChampions(ChampionMastery[] champData)
@@ -54,23 +59,6 @@ namespace Camille.RiotGames.Test
         }
 
         [TestMethod]
-        [Ignore]
-        public void GetScore()
-        {
-            // http://www.lolking.net/summoner/euw/20401158/0#champ-mastery
-            CheckGetScore(Api.ChampionMasteryV4().GetChampionMasteryScore(PlatformRoute.EUW1, SummonerIdMa5tery));
-        }
-
-        [TestMethod]
-        [Ignore]
-        public async Task GetScoreAsync()
-        {
-            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.EUW1, "Ma5tery");
-            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreAsync(PlatformRoute.EUW1, summoner.Puuid));
-        }
-
-        [TestMethod]
-        [Ignore]
         public void GetScoreByPUUID()
         {
             var summoner = Api.SummonerV4().GetBySummonerName(PlatformRoute.EUW1, "Ma5tery");
@@ -78,10 +66,10 @@ namespace Camille.RiotGames.Test
         }
 
         [TestMethod]
-        [Ignore]
         public async Task GetScoreByPUUIDAsync()
         {
-            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreByPUUIDAsync(PlatformRoute.EUW1, SummonerIdMa5tery));
+            var summoner = await Api.SummonerV4().GetBySummonerNameAsync(PlatformRoute.EUW1, "Ma5tery");
+            CheckGetScore(await Api.ChampionMasteryV4().GetChampionMasteryScoreByPUUIDAsync(PlatformRoute.EUW1, summoner.Puuid));
         }
 
         public static void CheckGetScore(int score)
