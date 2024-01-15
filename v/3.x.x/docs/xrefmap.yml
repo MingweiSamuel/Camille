@@ -890,6 +890,12 @@ references:
   commentId: F:Camille.Enums.Champion.SKARNER
   fullName: Camille.Enums.Champion.SKARNER
   nameWithType: Champion.SKARNER
+- uid: Camille.Enums.Champion.SMOLDER
+  name: SMOLDER
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SMOLDER
+  commentId: F:Camille.Enums.Champion.SMOLDER
+  fullName: Camille.Enums.Champion.SMOLDER
+  nameWithType: Champion.SMOLDER
 - uid: Camille.Enums.Champion.SONA
   name: SONA
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_SONA
@@ -1316,6 +1322,12 @@ references:
   commentId: F:Camille.Enums.GameMode.STARGUARDIAN
   fullName: Camille.Enums.GameMode.STARGUARDIAN
   nameWithType: GameMode.STARGUARDIAN
+- uid: Camille.Enums.GameMode.TFT
+  name: TFT
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TFT
+  commentId: F:Camille.Enums.GameMode.TFT
+  fullName: Camille.Enums.GameMode.TFT
+  nameWithType: GameMode.TFT
 - uid: Camille.Enums.GameMode.TUTORIAL
   name: TUTORIAL
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TUTORIAL
@@ -1358,18 +1370,36 @@ references:
   commentId: T:Camille.Enums.GameType
   fullName: Camille.Enums.GameType
   nameWithType: GameType
+- uid: Camille.Enums.GameType.CUSTOM
+  name: CUSTOM
+  href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_CUSTOM
+  commentId: F:Camille.Enums.GameType.CUSTOM
+  fullName: Camille.Enums.GameType.CUSTOM
+  nameWithType: GameType.CUSTOM
 - uid: Camille.Enums.GameType.CUSTOM_GAME
   name: CUSTOM_GAME
   href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_CUSTOM_GAME
   commentId: F:Camille.Enums.GameType.CUSTOM_GAME
   fullName: Camille.Enums.GameType.CUSTOM_GAME
   nameWithType: GameType.CUSTOM_GAME
+- uid: Camille.Enums.GameType.MATCHED
+  name: MATCHED
+  href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_MATCHED
+  commentId: F:Camille.Enums.GameType.MATCHED
+  fullName: Camille.Enums.GameType.MATCHED
+  nameWithType: GameType.MATCHED
 - uid: Camille.Enums.GameType.MATCHED_GAME
   name: MATCHED_GAME
   href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_MATCHED_GAME
   commentId: F:Camille.Enums.GameType.MATCHED_GAME
   fullName: Camille.Enums.GameType.MATCHED_GAME
   nameWithType: GameType.MATCHED_GAME
+- uid: Camille.Enums.GameType.TUTORIAL
+  name: TUTORIAL
+  href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_TUTORIAL
+  commentId: F:Camille.Enums.GameType.TUTORIAL
+  fullName: Camille.Enums.GameType.TUTORIAL
+  nameWithType: GameType.TUTORIAL
 - uid: Camille.Enums.GameType.TUTORIAL_GAME
   name: TUTORIAL_GAME
   href: api/Camille.Enums.GameType.html#Camille_Enums_GameType_TUTORIAL_GAME
@@ -17788,6 +17818,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryCount
   nameWithType: ParticipantChallenges.LegendaryCount
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed
+  name: LegendaryItemUsed
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_LegendaryItemUsed
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed
+  nameWithType: ParticipantChallenges.LegendaryItemUsed
+- uid: Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed*
+  name: LegendaryItemUsed
+  href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_LegendaryItemUsed_
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantChallenges.LegendaryItemUsed
+  nameWithType: ParticipantChallenges.LegendaryItemUsed
 - uid: Camille.RiotGames.MatchV5.ParticipantChallenges.LostAnInhibitor
   name: LostAnInhibitor
   href: api/Camille.RiotGames.MatchV5.ParticipantChallenges.html#Camille_RiotGames_MatchV5_ParticipantChallenges_LostAnInhibitor
@@ -20322,6 +20365,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.ProfileIconId
   nameWithType: CurrentGameParticipant.ProfileIconId
+- uid: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV4_CurrentGameParticipant_Puuid
+  commentId: P:Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid
+  fullName: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid
+  nameWithType: CurrentGameParticipant.Puuid
+- uid: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV4_CurrentGameParticipant_Puuid_
+  commentId: Overload:Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Puuid
+  nameWithType: CurrentGameParticipant.Puuid
 - uid: Camille.RiotGames.SpectatorV4.CurrentGameParticipant.Spell1Id
   name: Spell1Id
   href: api/Camille.RiotGames.SpectatorV4.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV4_CurrentGameParticipant_Spell1Id
@@ -20859,6 +20915,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV4.Participant.ProfileIconId
   nameWithType: Participant.ProfileIconId
+- uid: Camille.RiotGames.SpectatorV4.Participant.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_Puuid
+  commentId: P:Camille.RiotGames.SpectatorV4.Participant.Puuid
+  fullName: Camille.RiotGames.SpectatorV4.Participant.Puuid
+  nameWithType: Participant.Puuid
+- uid: Camille.RiotGames.SpectatorV4.Participant.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_Puuid_
+  commentId: Overload:Camille.RiotGames.SpectatorV4.Participant.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.SpectatorV4.Participant.Puuid
+  nameWithType: Participant.Puuid
 - uid: Camille.RiotGames.SpectatorV4.Participant.Spell1Id
   name: Spell1Id
   href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_Spell1Id
@@ -20885,6 +20954,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV4.Participant.Spell2Id
   nameWithType: Participant.Spell2Id
+- uid: Camille.RiotGames.SpectatorV4.Participant.SummonerId
+  name: SummonerId
+  href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_SummonerId
+  commentId: P:Camille.RiotGames.SpectatorV4.Participant.SummonerId
+  fullName: Camille.RiotGames.SpectatorV4.Participant.SummonerId
+  nameWithType: Participant.SummonerId
+- uid: Camille.RiotGames.SpectatorV4.Participant.SummonerId*
+  name: SummonerId
+  href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_SummonerId_
+  commentId: Overload:Camille.RiotGames.SpectatorV4.Participant.SummonerId
+  isSpec: "True"
+  fullName: Camille.RiotGames.SpectatorV4.Participant.SummonerId
+  nameWithType: Participant.SummonerId
 - uid: Camille.RiotGames.SpectatorV4.Participant.SummonerName
   name: SummonerName
   href: api/Camille.RiotGames.SpectatorV4.Participant.html#Camille_RiotGames_SpectatorV4_Participant_SummonerName
