@@ -20,10 +20,13 @@ namespace Camille.Enums
     public enum GameType
     {
 {{
-    for (const enumb of enums) {
+    for (let i = 0; i < enums.length; i++) {
+        const enumb = enums[i];
+        const nameNoGame = enumb['x-name'].replace(/_GAME$/, '');
 }}
         [Display(Name = "{{= enumb.gametype }}", Description = {{= JSON.stringify(enumb['x-desc']) }})]
-        {{= enumb['x-name'] }},
+        {{= enumb['x-name'] }} = {{= i }},
+        {{= nameNoGame }} = {{= i }},
 {{
     }
 }}
