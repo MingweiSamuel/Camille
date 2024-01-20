@@ -11142,6 +11142,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LorMatchV1.Info._AdditionalProperties
   nameWithType: Info._AdditionalProperties
+- uid: Camille.RiotGames.LorMatchV1.Info.GameFormat
+  name: GameFormat
+  href: api/Camille.RiotGames.LorMatchV1.Info.html#Camille_RiotGames_LorMatchV1_Info_GameFormat
+  commentId: P:Camille.RiotGames.LorMatchV1.Info.GameFormat
+  fullName: Camille.RiotGames.LorMatchV1.Info.GameFormat
+  nameWithType: Info.GameFormat
+- uid: Camille.RiotGames.LorMatchV1.Info.GameFormat*
+  name: GameFormat
+  href: api/Camille.RiotGames.LorMatchV1.Info.html#Camille_RiotGames_LorMatchV1_Info_GameFormat_
+  commentId: Overload:Camille.RiotGames.LorMatchV1.Info.GameFormat
+  isSpec: "True"
+  fullName: Camille.RiotGames.LorMatchV1.Info.GameFormat
+  nameWithType: Info.GameFormat
 - uid: Camille.RiotGames.LorMatchV1.Info.GameMode
   name: GameMode
   href: api/Camille.RiotGames.LorMatchV1.Info.html#Camille_RiotGames_LorMatchV1_Info_GameMode
@@ -20553,19 +20566,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameQueueConfigId
   nameWithType: FeaturedGameInfo.GameQueueConfigId
-- uid: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime
-  name: GameStartTime
-  href: api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.html#Camille_RiotGames_SpectatorV4_FeaturedGameInfo_GameStartTime
-  commentId: P:Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime
-  fullName: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime
-  nameWithType: FeaturedGameInfo.GameStartTime
-- uid: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime*
-  name: GameStartTime
-  href: api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.html#Camille_RiotGames_SpectatorV4_FeaturedGameInfo_GameStartTime_
-  commentId: Overload:Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime
-  isSpec: "True"
-  fullName: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameStartTime
-  nameWithType: FeaturedGameInfo.GameStartTime
 - uid: Camille.RiotGames.SpectatorV4.FeaturedGameInfo.GameType
   name: GameType
   href: api/Camille.RiotGames.SpectatorV4.FeaturedGameInfo.html#Camille_RiotGames_SpectatorV4_FeaturedGameInfo_GameType
