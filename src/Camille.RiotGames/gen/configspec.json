@@ -3,6 +3,16 @@
     "type": "string",
     "desc": "Riot Games API key."
   },
+  "apiURL": {
+    "type": "string",
+    "desc": "URL to call for the Riot Games API.",
+    "val": "\"api.riotgames.com\""
+  },
+  "apiRegionAsSubdomain": {
+    "type": "bool",
+    "desc": "Whether to use the region as a subdomain in the API URL. If false, the region will be a query parameter.",
+    "val": "true"
+  },
   "maxConcurrentRequests": {
     "type": "int",
     "desc": "Maximum number of concurrent requests allowed.",
