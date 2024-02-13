@@ -6,6 +6,7 @@
 // Do not directly edit.
 // Generated on {{= (new Date).toISOString() }}
 using System;
+using Camille.RiotGames.Enums;
 
 namespace Camille.RiotGames
 {

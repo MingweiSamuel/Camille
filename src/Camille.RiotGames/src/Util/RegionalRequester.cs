@@ -4,8 +4,9 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 using Camille.Core;
-using Camille.Enums;
+using Camille.RiotGames.Enums;
 
 namespace Camille.RiotGames.Util
 {
@@ -16,8 +17,6 @@ namespace Camille.RiotGames.Util
     /// </summary>
     public class RegionalRequester
     {
-        /// <summary>Root url for Riot API requests.</summary>
-        private const string RiotRootUrl = ".api.riotgames.com"; // TODO: configure in settings?
         /// <summary>Request header name for the Riot API key.</summary>
         private const string RiotKeyHeader = "X-Riot-Token";
 
@@ -37,12 +36,35 @@ namespace Camille.RiotGames.Util
         /// </summary>
         private readonly HttpClient _client = new HttpClient();
 
+        /// <summary>
+        /// The region/route for this requester.
+        /// </summary>
+        private string _route;
+
         public RegionalRequester(IRiotGamesApiConfig config, string route)
         {
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
+            _route = route;
 
-            _client.BaseAddress = new Uri($"https://{route}{RiotRootUrl}");
+            // If the region is to be in the url.
+            if (_config.ApiRouteConfig == RouteConfig.InUrl)
+            {
+                _client.BaseAddress = new Uri(string.Format(config.ApiUrl, route));
+            }
+            // If the region is to be in the url query parameters or headers.
+            else
+            {
+                _client.BaseAddress = new Uri(config.ApiUrl);
+            }
+
+            // If the region is to be in the header.
+            if (_config.ApiRouteConfig == RouteConfig.InHeader)
+            {
+                _client.DefaultRequestHeaders.Add(config.RouteKey, route);
+            }
+
+            // Include the API key (can set config.ApiKey to "" for use with proxies).
             _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
         }
 
@@ -63,10 +85,21 @@ namespace Camille.RiotGames.Util
         public async Task<string?> Send(string methodId, HttpRequestMessage request,
             CancellationToken token, bool ignoreAppRateLimits)
         {
+            // If the route is in the query param we need to add it to each request.
+            if (_config.ApiRouteConfig == RouteConfig.InQueryParam)
+            {
+                // Append the route as a query parameter.
+                var query = HttpUtility.ParseQueryString(request.RequestUri.Query);
+                query.Add(_config.RouteKey, _route);
+                // Use path-only URL, scheme/host is in _client.BaseAddress.
+                request.RequestUri = new Uri($"{request.RequestUri.AbsolutePath}?{query}", UriKind.RelativeOrAbsolute);
+            }
+
             HttpResponseMessage? response = null;
             var retries = 0;
             var num429s = 0;
             var num5xxs = 0;
+
             for (; retries <= _config.Retries; retries++)
             {
                 // Get token.

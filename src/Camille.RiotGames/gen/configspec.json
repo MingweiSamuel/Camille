@@ -3,6 +3,21 @@
     "type": "string",
     "desc": "Riot Games API key."
   },
+  "apiUrl": {
+    "type": "string",
+    "desc": "URL to call for the Riot Games API. Include {0} for the region/route, if you want it in the URL - Not necessary if apiCallRouteConfig is RouteConfig.InUrlAsRouteQueryParameter.",
+    "val": "\"https://{0}.api.riotgames.com\""
+  },
+  "apiRouteConfig": {
+    "type": "RouteConfig",
+    "desc": "How the API call should include the region/route.",
+    "val": "RouteConfig.InUrl"
+  },
+  "routeKey": {
+    "type": "string",
+    "desc": "The query or header name to use for the region/route. Only used if RouteConfig is set to InHeader or InQueryParam.",
+    "val": "\"Riot-Region\""
+  },
   "maxConcurrentRequests": {
     "type": "int",
     "desc": "Maximum number of concurrent requests allowed.",
