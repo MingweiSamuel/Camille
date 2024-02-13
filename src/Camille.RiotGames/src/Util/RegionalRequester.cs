@@ -53,8 +53,7 @@ namespace Camille.RiotGames.Util
 
             // If the API key is empty, or the API URL does not contain riot, or if specified:
             // then the region needs to be appended to the route instead of used as a subdomain
-            if (string.IsNullOrEmpty(config.ApiKey) || !_config.ApiURL.Contains("riot") ||
-                !_config.ApiRegionAsSubdomain)
+            if (string.IsNullOrEmpty(config.ApiKey) || !_config.ApiURL.Contains("riot"))
             {
                 _client.BaseAddress = new Uri($"https://{_config.ApiURL}");
                 _regionAsSubdomain = false;
