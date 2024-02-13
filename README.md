@@ -44,7 +44,7 @@ using Camille.RiotGames;
 var riotApi = RiotGamesApi.NewInstance("RGAPI-12345678-abcd-1234-abcd-123456abcdef");
 // OR
 var riotApi = RiotGamesApi.NewInstance(
-    new RiotApiConfig.Builder("RGAPI-12345678-abcd-1234-abcd-123456abcdef")
+    new RiotGamesApiConfig.Builder("RGAPI-12345678-abcd-1234-abcd-123456abcdef")
     {
         MaxConcurrentRequests = 200,
         Retries = 10,
@@ -73,7 +73,7 @@ foreach (var summoner in summoners)
     Console.WriteLine($"{summoner.Name}'s Top 10 Champs:");
 
     var masteries =
-        riotApi.ChampionMasteryV4().GetAllChampionMasteries(PlatformRoute.NA1, summoner.Id);
+        riotApi.ChampionMasteryV4().GetAllChampionMasteriesByPUUID(PlatformRoute.NA1, summoner.Puuid);
 
     for (var i = 0; i < 10; i++)
     {
