@@ -12418,6 +12418,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Info._AdditionalProperties
   nameWithType: Info._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Info.EndOfGameResult
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_EndOfGameResult
+  commentId: P:Camille.RiotGames.MatchV5.Info.EndOfGameResult
+  fullName: Camille.RiotGames.MatchV5.Info.EndOfGameResult
+  nameWithType: Info.EndOfGameResult
+- uid: Camille.RiotGames.MatchV5.Info.EndOfGameResult*
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_EndOfGameResult_
+  commentId: Overload:Camille.RiotGames.MatchV5.Info.EndOfGameResult
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Info.EndOfGameResult
+  nameWithType: Info.EndOfGameResult
 - uid: Camille.RiotGames.MatchV5.Info.GameCreation
   name: GameCreation
   href: api/Camille.RiotGames.MatchV5.Info.html#Camille_RiotGames_MatchV5_Info_GameCreation
@@ -12800,6 +12813,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.MatchTimelineInfo._AdditionalProperties
   nameWithType: MatchTimelineInfo._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfo.html#Camille_RiotGames_MatchV5_MatchTimelineInfo_EndOfGameResult
+  commentId: P:Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult
+  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult
+  nameWithType: MatchTimelineInfo.EndOfGameResult
+- uid: Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult*
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.MatchV5.MatchTimelineInfo.html#Camille_RiotGames_MatchV5_MatchTimelineInfo_EndOfGameResult_
+  commentId: Overload:Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.MatchTimelineInfo.EndOfGameResult
+  nameWithType: MatchTimelineInfo.EndOfGameResult
 - uid: Camille.RiotGames.MatchV5.MatchTimelineInfo.FrameInterval
   name: FrameInterval
   href: api/Camille.RiotGames.MatchV5.MatchTimelineInfo.html#Camille_RiotGames_MatchV5_MatchTimelineInfo_FrameInterval
@@ -22661,6 +22687,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Info._AdditionalProperties
   nameWithType: Info._AdditionalProperties
+- uid: Camille.RiotGames.TftMatchV1.Info.EndOfGameResult
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.TftMatchV1.Info.html#Camille_RiotGames_TftMatchV1_Info_EndOfGameResult
+  commentId: P:Camille.RiotGames.TftMatchV1.Info.EndOfGameResult
+  fullName: Camille.RiotGames.TftMatchV1.Info.EndOfGameResult
+  nameWithType: Info.EndOfGameResult
+- uid: Camille.RiotGames.TftMatchV1.Info.EndOfGameResult*
+  name: EndOfGameResult
+  href: api/Camille.RiotGames.TftMatchV1.Info.html#Camille_RiotGames_TftMatchV1_Info_EndOfGameResult_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Info.EndOfGameResult
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Info.EndOfGameResult
+  nameWithType: Info.EndOfGameResult
 - uid: Camille.RiotGames.TftMatchV1.Info.GameDatetime
   name: GameDatetime
   href: api/Camille.RiotGames.TftMatchV1.Info.html#Camille_RiotGames_TftMatchV1_Info_GameDatetime
