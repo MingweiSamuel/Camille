@@ -51,15 +51,6 @@ var riotApi = RiotGamesApi.NewInstance(
         // ...
     }.Build()
 );
-// OR with a proxy server
-var riotApi = RiotGamesApi.NewInstance(
-    new RiotGamesApiConfig.Builder("")
-    {
-        // ...
-        ApiURL = "proxy.myexample.app",
-    }.Build()
-);
-// Which will send requests like https://proxy.myexample.app/lol/summoner/v4/summoners/by-name/NAME?region=NA1
 ```
 You can find all configuration options [here](https://github.com/MingweiSamuel/Camille/blob/gh-pages/v/3.x.x/_gen/Camille.RiotGames/RiotGamesApiConfig.cs).
 
