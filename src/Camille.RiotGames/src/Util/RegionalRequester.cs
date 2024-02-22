@@ -36,11 +36,6 @@ namespace Camille.RiotGames.Util
         private readonly HttpClient _client = new HttpClient();
 
         /// <summary>
-        ///  If true, the region will be appended to the route instead of used as a subdomain.
-        /// </summary>
-        private bool _regionAsSubdomain;
-
-        /// <summary>
         /// The region currently being used.
         /// </summary>
         private string _region;
@@ -51,15 +46,26 @@ namespace Camille.RiotGames.Util
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
             _region = route;
 
-            // If the API key is empty, or the API URL does not contain riot, or if specified:
-            // then the region needs to be appended to the route instead of used as a subdomain
-            if (string.IsNullOrEmpty(config.ApiKey) || !_config.ApiURL.Contains("riot"))
+            // If the region is to be used in the url as a subdomain
+            if (_config.ApiCallRegionConfig == RegionConfig.inUrlAsSubdomain)
             {
                 _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", route));
             }
+            // If the region is to be used in the url as a query parameter or header
             else
             {
-                _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", ""));
+                var uri = $"https://{config.ApiUrl}";
+                if (uri.Contains("{0}"))
+                {
+                    string.Format(uri, "");
+                }
+                _client.BaseAddress = new Uri(uri);
+            }
+
+            // The header for the region, if requested
+            if (_config.ApiCallRegionConfig == RegionConfig.inHeader)
+            {
+                _client.DefaultRequestHeaders.Add(config.RegionHeaderKey, route);
             }
 
             // The API key is only needed for riot's API, otherwise it is assumed to be a keyed proxy
@@ -92,10 +98,10 @@ namespace Camille.RiotGames.Util
             var num5xxs = 0;
 
             // If the region is not being used as a subdomain
-            if (!_regionAsSubdomain)
+            if (_config.ApiCallRegionConfig == RegionConfig.inUrlAsRegionQueryParameter)
             {
                 // Append the region as a query parameter, with consideration for other parameters
-                var uri = request.RequestUri.ToString()
+                var uri = request.RequestUri
                           + (!request.RequestUri.ToString().Contains("?") ? "?" : "&")
                           + $"region={_region}";
                 // Replace the request with a new one that has the region correctly appended

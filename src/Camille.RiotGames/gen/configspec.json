@@ -5,8 +5,18 @@
   },
   "apiUrl": {
     "type": "string",
-    "desc": "URL to call for the Riot Games API.",
-    "val": "\"api.riotgames.com\""
+    "desc": "URL to call for the Riot Games API. Include {0} for the region, if you want it in the URL - Not necessary for RegionConfig.inUrlAsRegionQueryParameter.",
+    "val": "\"{0}.api.riotgames.com\""
+  },
+  "apiCallRegionConfig": {
+    "type": "RegionConfig",
+    "desc": "How the API call should include the region.",
+    "val": "RegionConfig.inUrlAsSubdomain"
+  },
+  "regionHeaderKey": {
+    "type": "string",
+    "desc": "The header key to use for the region. Only used if RegionConfig is set to inHeader.",
+    "val": "\"Riot-Region\""
   },
   "maxConcurrentRequests": {
     "type": "int",

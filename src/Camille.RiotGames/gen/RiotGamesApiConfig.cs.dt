@@ -9,6 +9,17 @@ using System;
 
 namespace Camille.RiotGames
 {
+    public enum RegionConfig
+    {
+        /// <summary>The Region should be in the URL, as a subdomain</summary>
+        inUrlAsSubdomain,
+        /// <summary>The Region should be in the URL, as a query parameter</summary>
+        inUrlAsRegionQueryParameter,
+        /// <summary>The Region should be a header instead of in the URL</summary>
+        /// <seealso cref="RiotGamesApiConfig.RegionHeaderKey"/>
+        inHeader,
+    }
+
     public interface IRiotGamesApiConfig
     {
 {{
