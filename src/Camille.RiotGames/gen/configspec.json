@@ -3,7 +3,7 @@
     "type": "string",
     "desc": "Riot Games API key."
   },
-  "apiURL": {
+  "apiUrl": {
     "type": "string",
     "desc": "URL to call for the Riot Games API.",
     "val": "\"api.riotgames.com\""

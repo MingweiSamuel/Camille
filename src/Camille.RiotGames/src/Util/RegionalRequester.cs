@@ -55,17 +55,15 @@ namespace Camille.RiotGames.Util
             // then the region needs to be appended to the route instead of used as a subdomain
             if (string.IsNullOrEmpty(config.ApiKey) || !_config.ApiURL.Contains("riot"))
             {
-                _client.BaseAddress = new Uri($"https://{_config.ApiURL}");
-                _regionAsSubdomain = false;
+                _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", route));
             }
             else
             {
-                _client.BaseAddress = new Uri($"https://{route}.{_config.ApiURL}");
-                _regionAsSubdomain = true;
+                _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", ""));
             }
 
             // The API key is only needed for riot's API, otherwise it is assumed to be a keyed proxy
-            if (_config.ApiURL.Contains("riot"))
+            if (_config.ApiUrl.Contains("riotgames.com"))
             {
                 _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
             }
