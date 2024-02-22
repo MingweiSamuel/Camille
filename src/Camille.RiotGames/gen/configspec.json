@@ -11,7 +11,7 @@
   "apiCallRegionConfig": {
     "type": "RegionConfig",
     "desc": "How the API call should include the region.",
-    "val": "RegionConfig.inUrlAsSubdomain"
+    "val": "RegionConfig.InUrlAsSubdomain"
   },
   "regionHeaderKey": {
     "type": "string",

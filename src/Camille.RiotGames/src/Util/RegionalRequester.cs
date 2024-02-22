@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Camille.Core;
 using Camille.Enums;
+using Camille.RiotGames.Enums;
 
 namespace Camille.RiotGames.Util
 {
@@ -47,7 +48,7 @@ namespace Camille.RiotGames.Util
             _region = route;
 
             // If the region is to be used in the url as a subdomain
-            if (_config.ApiCallRegionConfig == RegionConfig.inUrlAsSubdomain)
+            if (_config.ApiCallRegionConfig == RegionConfig.InUrlAsSubdomain)
             {
                 _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", route));
             }
@@ -63,7 +64,7 @@ namespace Camille.RiotGames.Util
             }
 
             // The header for the region, if requested
-            if (_config.ApiCallRegionConfig == RegionConfig.inHeader)
+            if (_config.ApiCallRegionConfig == RegionConfig.InHeader)
             {
                 _client.DefaultRequestHeaders.Add(config.RegionHeaderKey, route);
             }
@@ -98,7 +99,7 @@ namespace Camille.RiotGames.Util
             var num5xxs = 0;
 
             // If the region is not being used as a subdomain
-            if (_config.ApiCallRegionConfig == RegionConfig.inUrlAsRegionQueryParameter)
+            if (_config.ApiCallRegionConfig == RegionConfig.InUrlAsRegionQueryParameter)
             {
                 // Append the region as a query parameter, with consideration for other parameters
                 var uri = request.RequestUri
