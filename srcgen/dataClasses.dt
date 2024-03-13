@@ -60,10 +60,17 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpoin
     public class {{= schemaName }}
     {
 {{
+        const prevNames = new Set();
         const fields = Object.entries(props).map(([ propKey, prop ]) => {
-            const name = dotUtils.normalizePropName(propKey, schemaName, prop);
+            let name = dotUtils.normalizePropName(propKey, schemaName, prop);
+            while (prevNames.has(name)) {
+                name += '_';
+            }
+            prevNames.add(name);
+
             const type = dotUtils.stringifyType(prop)
                 + (schema.required && schema.required.includes(propKey) ? '' : '?');
+
             return { propKey, name, type, description: prop.description };
         }).sortBy(({ name }) => name);
 }}
