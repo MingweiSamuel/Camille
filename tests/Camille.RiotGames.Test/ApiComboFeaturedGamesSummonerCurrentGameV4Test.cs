@@ -79,8 +79,8 @@ namespace Camille.RiotGames.Test
                 foreach (var player in gameInfo.Participants)
                 {
                     Assert.IsNotNull(player);
-                    Assert.IsNotNull(player.SummonerName);
-                    Assert.IsTrue(player.SummonerName.Length > 0);
+                    Assert.IsNotNull(player.Puuid);
+                    Assert.IsTrue(player.Puuid.Length > 0);
                     Assert.IsFalse(player.Bot);
                 }
                 Assert.IsTrue(gameInfo.GameId > 0);

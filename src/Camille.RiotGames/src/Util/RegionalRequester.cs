@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Camille.Core;
 using Camille.Enums;
+using Camille.RiotGames.Enums;
 
 namespace Camille.RiotGames.Util
 {
@@ -16,8 +17,6 @@ namespace Camille.RiotGames.Util
     /// </summary>
     public class RegionalRequester
     {
-        /// <summary>Root url for Riot API requests.</summary>
-        private const string RiotRootUrl = ".api.riotgames.com"; // TODO: configure in settings?
         /// <summary>Request header name for the Riot API key.</summary>
         private const string RiotKeyHeader = "X-Riot-Token";
 
@@ -37,13 +36,44 @@ namespace Camille.RiotGames.Util
         /// </summary>
         private readonly HttpClient _client = new HttpClient();
 
+        /// <summary>
+        /// The region currently being used.
+        /// </summary>
+        private string _region;
+
         public RegionalRequester(IRiotGamesApiConfig config, string route)
         {
             _config = config;
             _appRateLimit = new RateLimit(RateLimitType.Application, config);
+            _region = route;
 
-            _client.BaseAddress = new Uri($"https://{route}{RiotRootUrl}");
-            _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
+            // If the region is to be used in the url as a subdomain
+            if (_config.ApiCallRegionConfig == RegionConfig.InUrlAsSubdomain)
+            {
+                _client.BaseAddress = new Uri(string.Format($"https://{config.ApiUrl}", route));
+            }
+            // If the region is to be used in the url as a query parameter or header
+            else
+            {
+                var uri = $"https://{config.ApiUrl}";
+                if (uri.Contains("{0}"))
+                {
+                    string.Format(uri, "");
+                }
+                _client.BaseAddress = new Uri(uri);
+            }
+
+            // The header for the region, if requested
+            if (_config.ApiCallRegionConfig == RegionConfig.InHeader)
+            {
+                _client.DefaultRequestHeaders.Add(config.RegionHeaderKey, route);
+            }
+
+            // The API key is only needed for riot's API, otherwise it is assumed to be a keyed proxy
+            if (_config.ApiUrl.Contains("riotgames.com"))
+            {
+                _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
+            }
         }
 
         /// <summary>
@@ -67,6 +97,18 @@ namespace Camille.RiotGames.Util
             var retries = 0;
             var num429s = 0;
             var num5xxs = 0;
+
+            // If the region is not being used as a subdomain
+            if (_config.ApiCallRegionConfig == RegionConfig.InUrlAsRegionQueryParameter)
+            {
+                // Append the region as a query parameter, with consideration for other parameters
+                var uri = request.RequestUri
+                          + (!request.RequestUri.ToString().Contains("?") ? "?" : "&")
+                          + $"region={_region}";
+                // Replace the request with a new one that has the region correctly appended
+                request = new HttpRequestMessage(request.Method, uri);
+            }
+
             for (; retries <= _config.Retries; retries++)
             {
                 // Get token.
