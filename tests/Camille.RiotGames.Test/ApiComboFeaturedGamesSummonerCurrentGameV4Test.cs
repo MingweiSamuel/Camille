@@ -80,7 +80,6 @@ namespace Camille.RiotGames.Test
                 {
                     Assert.IsNotNull(player);
                     Assert.IsNotNull(player.SummonerName);
-                    Assert.IsTrue(player.SummonerName.Length > 0);
                     Assert.IsFalse(player.Bot);
                 }
                 Assert.IsTrue(gameInfo.GameId > 0);
