@@ -21,6 +21,8 @@ namespace Camille.RiotGames.Test
             "EUW1_6568537080",
             // https://github.com/MingweiSamuel/Camille/issues/99
             "EUW1_6511808246",
+            // 2024-03-23 from spectator featured games
+            "EUW1_6869252626",
         };
 
         [TestMethod]

@@ -79,8 +79,8 @@ namespace Camille.RiotGames.Test
                 foreach (var participant in gameInfo.Participants)
                 {
                     Assert.IsNotNull(participant, "Game has null participant: {0}", gameInfo.GameId);
-                    Assert.IsNotNull(participant.SummonerName, "Participant has null summoner name in {0}", gameInfo.GameId);
-                    Assert.IsTrue(participant.SummonerName.Length > 0, "Participant has blank summoner name in {0}", gameInfo.GameId);
+                    Assert.IsNotNull(participant.RiotId, "Participant has null RiotId name in {0}", gameInfo.GameId);
+                    Assert.IsTrue(participant.RiotId.Length > 0, "Participant has empty RiotId name in {0}", gameInfo.GameId);
                     Assert.IsFalse(participant.Bot, "Participant is bot in {0}", gameInfo.GameId);
                 }
                 Assert.IsTrue(gameInfo.GameId > 0);
