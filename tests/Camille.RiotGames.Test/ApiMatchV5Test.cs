@@ -45,12 +45,12 @@ namespace Camille.RiotGames.Test
 
                 foreach (var participant in match.Info.Participants)
                 {
-                    Assert.IsNotNull(participant);
-                    Assert.IsTrue(0 < participant.ChampionId);
-                    Assert.IsNotNull(participant.ParticipantId);
-                    Assert.IsNotNull(participant.SummonerId);
-                    Assert.IsNotNull(participant.RiotIdName);
-                    Assert.IsNotNull(participant.RiotIdTagline);
+                    Assert.IsNotNull(participant, $"Null participant in match {id}.");
+                    Assert.IsTrue(0 < participant.ChampionId, $"Invalid champion {participant.ChampionId} for participant in match {id}.");
+                    Assert.IsNotNull(participant.ParticipantId, $"Null `ParticipantId` in match {id}.");
+                    Assert.IsNotNull(participant.SummonerId, $"Null `SummonerId` in match {id}.");
+                    Assert.IsNotNull(participant.RiotIdName ?? participant.RiotIdGameName, $"Null `RiotIdName ?? RiotIdGameName` in match {id}.");
+                    Assert.IsNotNull(participant.RiotIdTagline, $"Null `RiotIdTagline` in match {id}.");
                 }
             }
         }
