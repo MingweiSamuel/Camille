@@ -13,9 +13,9 @@
     "desc": "How the API call should include the region.",
     "val": "RegionConfig.InUrlAsSubdomain"
   },
-  "regionHeaderKey": {
+  "regionKey": {
     "type": "string",
-    "desc": "The header key to use for the region. Only used if RegionConfig is set to inHeader.",
+    "desc": "The query or header name to use for the region. Only used if RegionConfig is set to InHeader or InUrlAsRegionQueryParameter.",
     "val": "\"Riot-Region\""
   },
   "maxConcurrentRequests": {

@@ -9,7 +9,7 @@
         InUrlAsRegionQueryParameter,
 
         /// <summary>The Region should be a header instead of in the URL</summary>
-        /// <seealso cref="RiotGamesApiConfig.RegionHeaderKey"/>
+        /// <seealso cref="RiotGamesApiConfig.RegionKey"/>
         InHeader,
     }
 }
