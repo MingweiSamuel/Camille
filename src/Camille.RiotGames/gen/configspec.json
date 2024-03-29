@@ -5,7 +5,7 @@
   },
   "apiUrl": {
     "type": "string",
-    "desc": "URL to call for the Riot Games API. Include {0} for the region, if you want it in the URL - Not necessary for RegionConfig.InUrlAsRegionQueryParameter.",
+    "desc": "URL to call for the Riot Games API. Include {0} for the region, if you want it in the URL - Not necessary if apiCallRegionConfig is RegionConfig.InUrlAsRegionQueryParameter.",
     "val": "\"{0}.api.riotgames.com\""
   },
   "apiCallRegionConfig": {
