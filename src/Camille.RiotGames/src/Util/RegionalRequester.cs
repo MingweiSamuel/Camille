@@ -69,11 +69,8 @@ namespace Camille.RiotGames.Util
                 _client.DefaultRequestHeaders.Add(config.RegionKey, route);
             }
 
-            // The API key is only needed for riot's API, otherwise it is assumed to be a keyed proxy
-            if (_config.ApiUrl.Contains("riotgames.com"))
-            {
-                _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
-            }
+            // Include the API key (accepts "" for use with keyed proxies)
+            _client.DefaultRequestHeaders.Add(RiotKeyHeader, config.ApiKey);
         }
 
         /// <summary>
