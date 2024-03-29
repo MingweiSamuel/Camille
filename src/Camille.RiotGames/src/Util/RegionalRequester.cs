@@ -66,7 +66,7 @@ namespace Camille.RiotGames.Util
             // The header for the region, if requested
             if (_config.ApiCallRegionConfig == RegionConfig.InHeader)
             {
-                _client.DefaultRequestHeaders.Add(config.RegionHeaderKey, route);
+                _client.DefaultRequestHeaders.Add(config.RegionKey, route);
             }
 
             // The API key is only needed for riot's API, otherwise it is assumed to be a keyed proxy
@@ -104,7 +104,7 @@ namespace Camille.RiotGames.Util
                 // Append the region as a query parameter, with consideration for other parameters
                 var uri = request.RequestUri
                           + (!request.RequestUri.ToString().Contains("?") ? "?" : "&")
-                          + $"region={_region}";
+                          + $"{_config.RegionKey}={_region}";
                 // Replace the request with a new one that has the region correctly appended
                 request = new HttpRequestMessage(request.Method, uri);
             }
