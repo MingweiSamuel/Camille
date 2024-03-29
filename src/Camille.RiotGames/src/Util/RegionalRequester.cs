@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 using Camille.Core;
 using Camille.Enums;
 using Camille.RiotGames.Enums;
@@ -98,12 +99,13 @@ namespace Camille.RiotGames.Util
             // If the region is not being used as a subdomain
             if (_config.ApiCallRegionConfig == RegionConfig.InUrlAsRegionQueryParameter)
             {
-                // Append the region as a query parameter, with consideration for other parameters
-                var uri = request.RequestUri
-                          + (!request.RequestUri.ToString().Contains("?") ? "?" : "&")
-                          + $"{_config.RegionKey}={_region}";
+                // Append the region as a query parameter
+                var uri = new UriBuilder(_client.BaseAddress.Scheme + "://" + _client.BaseAddress.Host + request.RequestUri);
+                var query = HttpUtility.ParseQueryString(uri.Query);
+                query[_config.RegionKey] = _region;
+                uri.Query = query.ToString();
                 // Replace the request with a new one that has the region correctly appended
-                request = new HttpRequestMessage(request.Method, uri);
+                request = new HttpRequestMessage(request.Method, uri.ToString());
             }
 
             for (; retries <= _config.Retries; retries++)
