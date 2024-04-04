@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\common.csproj.xml" />
   <PropertyGroup>
-    <TargetFrameworks>net45;net461;netstandard2.1;netcoreapp3.1;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;net6.0;net7.0</TargetFrameworks>
     <PackageId>Camille.RiotGames</PackageId>
     <RootNamespace>Camille.RiotGames</RootNamespace>
     <Description>Riot Games API library. Fully rate limited, automatic retrying, thread-safe. Up-to-date nightlies.</Description>
@@ -15,18 +15,6 @@
 
   <ItemGroup>
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="System.Web" Condition="'$(TargetFramework)' == 'net45'">
-      <HintPath>$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net45\1.0.3\build\.NETFramework\v4.5\System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web" Condition="'$(TargetFramework)' == 'net461'">
-      <HintPath>$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1\System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web" Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
-      <HintPath>$(NuGetPackageRoot)\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\System.Web.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <Target Name="DownloadTemplateData" BeforeTargets="DownloadTemplateDataTrigger">

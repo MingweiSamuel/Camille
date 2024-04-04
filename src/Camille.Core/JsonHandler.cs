@@ -2,58 +2,6 @@
 
 namespace Camille.Core
 {
-#if USE_NEWTONSOFT
-    public static class JsonHandler
-    {
-        /// <summary>Settings singleton.</summary>
-        private static readonly Newtonsoft.Json.JsonSerializerSettings jsonSerializerSettings =
-            new Newtonsoft.Json.JsonSerializerSettings()
-            {
-                NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
-                Converters = new[] { new CustomIntConverter() },
-            };
-
-        /// <summary>Int32 converter which is able to read integers with decimal points "123.0".</summary>
-        private class CustomIntConverter : Newtonsoft.Json.JsonConverter
-        {
-            public override bool CanConvert(Type objectType) { return typeof(int) == objectType; }
-
-            public override object ReadJson(
-                Newtonsoft.Json.JsonReader reader, Type objectType,
-                object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-            {
-                if (Newtonsoft.Json.JsonToken.Float == reader.TokenType)
-                {
-                    var doubleVal = serializer.Deserialize<double>(reader);
-                    var intVal = (int) doubleVal;
-                    if (doubleVal == intVal)
-                        return intVal;
-                    throw new Newtonsoft.Json.JsonException($"Cannot parse number as int: {doubleVal}.");
-                }
-                return (int) serializer.Deserialize<long>(reader);
-            }
-
-            public override bool CanWrite { get { return false; } }
-
-            public override void WriteJson(
-                Newtonsoft.Json.JsonWriter writer, object value,
-                Newtonsoft.Json.JsonSerializer serializer)
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public static T Deserialize<T>(string content)
-        {
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(content, jsonSerializerSettings);
-        }
-
-        public static string Serialize<T>(T value)
-        {
-            return Newtonsoft.Json.JsonConvert.SerializeObject(value, jsonSerializerSettings);
-        }
-    }
-#elif USE_SYSTEXTJSON
     public static class JsonHandler
     {
         /// <summary>Options singleton.</summary>
@@ -96,7 +44,4 @@ namespace Camille.Core
             return System.Text.Json.JsonSerializer.Serialize(value, jsonOptions);
         }
     }
-#else
-#error One of USE_NEWTONSOFT or USE_SYSTEXTJSON must be set.
-#endif
 }

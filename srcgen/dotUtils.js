@@ -106,7 +106,7 @@ function replaceEnumCasts(input) {
 }
 
 function formatJsonProperty(name) {
-  return `[JsonProperty("${name}")]`;
+  return `[JsonPropertyName("${name}")]`;
 }
 
 function formatQueryParamStringify(expr, prop) {

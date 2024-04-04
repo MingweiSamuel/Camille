@@ -13,11 +13,7 @@ namespace Camille.Enums
     /// <summary>
     /// Regional routes, used in tournament services, Legends of Runeterra (LoR), and some other endpoints.
     /// </summary>
-#if USE_NEWTONSOFT
-    [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
-#elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum RegionalRoute: byte
     {
 {{
@@ -46,11 +42,7 @@ namespace Camille.Enums
     /// <summary>
     /// Platform routes for League of Legends (LoL), Teanfight Tactics (TFT), and Legends of Runeterra (LoR).
     /// </summary>
-#if USE_NEWTONSOFT
-    [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
-#elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum PlatformRoute: byte
     {
 {{
@@ -79,11 +71,7 @@ namespace Camille.Enums
     /// <summary>
     /// Platform routes for Valorant.
     /// </summary>
-#if USE_NEWTONSOFT
-    [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
-#elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum ValPlatformRoute: byte
     {
 {{
@@ -113,11 +101,7 @@ namespace Camille.Enums
     /// Tournament regions for League of Legends (LoL) used in TournamentStubV4 and TournamentV4's
     /// RegisterProviderData method.
     /// </summary>
-#if USE_NEWTONSOFT
-    [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
-#elif USE_SYSTEXTJSON
     [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
-#endif
     public enum TournamentRegion: byte
     {
 {{
