@@ -65,7 +65,7 @@
   </PropertyGroup>
 
   <!-- Camille using Newtonsoft.Json. -->
-  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.1' Or '$(TargetFramework)' == 'net45'">
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net45'">
     <DefineConstants>$(DefineConstants);USE_NEWTONSOFT</DefineConstants>
   </PropertyGroup>
   <!-- Camille using System.Text.Json. -->
