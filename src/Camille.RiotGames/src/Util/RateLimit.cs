@@ -139,10 +139,10 @@ namespace Camille.RiotGames.Util
                 {
                     var limitColon = limit.IndexOf(':');
                     var countColon = count.IndexOf(':');
-                    var limitValue = int.Parse(limit.Substring(0, limitColon));
-                    var limitSpan = long.Parse(limit.Substring(limitColon + 1));
-                    var countValue = int.Parse(count.Substring(0, countColon));
-                    var countSpan = long.Parse(count.Substring(countColon + 1));
+                    var limitValue = int.Parse(limit.AsSpan(0, limitColon));
+                    var limitSpan = long.Parse(limit.AsSpan(limitColon + 1));
+                    var countValue = int.Parse(count.AsSpan(0, countColon));
+                    var countSpan = long.Parse(count.AsSpan(countColon + 1));
                     if (limitSpan != countSpan)
                         throw new InvalidOperationException(
                             $"Limit and count header timespans do not match: '{limitHeader}' and '{countHeader}'.");

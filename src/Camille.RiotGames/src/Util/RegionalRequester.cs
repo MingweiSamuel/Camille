@@ -151,7 +151,7 @@ namespace Camille.RiotGames.Util
 
         private IRateLimit GetMethodRateLimit(string methodId)
         {
-            return _methodRateLimits.GetOrAdd(methodId, m => new RateLimit(RateLimitType.Method, _config));
+            return _methodRateLimits.GetOrAdd(methodId, (m, c) => new RateLimit(RateLimitType.Method, c), _config);
         }
     }
 }

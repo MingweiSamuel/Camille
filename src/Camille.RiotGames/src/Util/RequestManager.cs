@@ -49,7 +49,7 @@ namespace Camille.RiotGames.Util
         /// <returns>The rate limiter.</returns>
         private RegionalRequester GetRateLimiter(string route)
         {
-            return _rateLimiters.GetOrAdd(route, r => new RegionalRequester(_config, route));
+            return _rateLimiters.GetOrAdd(route, (r, c) => new RegionalRequester(c, r), _config);
         }
     }
 }
