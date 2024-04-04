@@ -71,7 +71,10 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpoin
             const type = dotUtils.stringifyType(prop)
                 + (schema.required && schema.required.includes(propKey) ? '' : '?');
 
-            return { propKey, name, type, description: prop.description };
+            const description = prop.description;
+            const alias = prop['x-alias'];
+
+            return { propKey, name, type, description, alias };
         }).sortBy(({ name }) => name);
 }}
 
@@ -80,7 +83,7 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpoin
 #nullable restore
 
 {{
-        for (const { propKey, name, type, description } of fields)
+        for (const { propKey, name, type, description, alias } of fields)
         {
 }}
 {{? description }}
@@ -90,6 +93,10 @@ namespace Camille.{{= it.namespace }}.{{= dotUtils.normalizeEndpointName(endpoin
 {{?}}
         {{= dotUtils.formatJsonProperty(propKey) }}
         public {{= type }} {{= name }} { get; set; }
+{{? alias }}
+        /// <summary>Alias for {{= name }}.</summary>
+        //{{= dotUtils.formatJsonProperty(alias) }}
+{{?}}
 {{
         }
 }}
