@@ -5,8 +5,9 @@
 // Do not directly edit.
 // Generated on {{= (new Date).toISOString() }}
 
+using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Collections.Specialized;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -177,18 +178,16 @@ namespace Camille.{{= it.namespace }}
         {
 {{? isAsync }}
 {{? queryParams.length }}
-            var queryParams = new List<KeyValuePair<string?, string?>>();
+            var queryParams = new NameValueCollection();
 {{
                     for (const queryParam of queryParams)
-                    { 
+                    {
 }}
             {{= dotUtils.formatAddQueryParam(queryParam) }};
 {{
                     }
 }}
-            HttpRequestMessage request;
-            using (var content = new FormUrlEncodedContent(queryParams))
-                request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}?{content.ReadAsStringAsync().Result}");
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}?{queryParams}");
 {{?}}
 {{? !queryParams.length }}
             var request = new HttpRequestMessage(HttpMethod.{{= httpVerb }}, $"{{= dotUtils.replaceEnumCasts(route) }}");

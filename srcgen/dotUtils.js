@@ -143,13 +143,11 @@ function formatAddQueryParam(param) {
   let nc = param.required ? '' : `if (null != ${param.name}) `;
 
   switch (prop.type) {
-    case 'array': return `${nc}queryParams.AddRange(${param.name}.Select(`
-          + `w => new KeyValuePair<string?, string?>(${k}, ${formatQueryParamStringify('w', prop.items)})))`;
+    case 'array': return `${nc}Array.ForEach(${param.name}, w => queryParams.Add(${k}, ${formatQueryParamStringify('w', prop.items)}))`;
     case 'object': throw new Error('Object unsupported for query param.');
     default: {
       let expr = param.name + ((param.required || 'string' === prop.type) ? '' : '.Value');
-      return `${nc}queryParams.Add(new KeyValuePair<string?, string?>(${k}, `
-          + `${formatQueryParamStringify(expr, prop)}))`;
+      return `${nc}queryParams.Add(${k}, ${formatQueryParamStringify(expr, prop)})`;
     }
   }
 }
