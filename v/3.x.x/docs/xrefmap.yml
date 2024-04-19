@@ -6293,6 +6293,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionPointsUntilNextLevel
   nameWithType: ChampionMastery.ChampionPointsUntilNextLevel
+- uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone
+  name: ChampionSeasonMilestone
+  href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_ChampionSeasonMilestone
+  commentId: P:Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone
+  fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone
+  nameWithType: ChampionMastery.ChampionSeasonMilestone
+- uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone*
+  name: ChampionSeasonMilestone
+  href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_ChampionSeasonMilestone_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChampionSeasonMilestone
+  nameWithType: ChampionMastery.ChampionSeasonMilestone
 - uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.ChestGranted
   name: ChestGranted
   href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_ChestGranted
@@ -6319,6 +6332,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.LastPlayTime
   nameWithType: ChampionMastery.LastPlayTime
+- uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel
+  name: MarkRequiredForNextLevel
+  href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_MarkRequiredForNextLevel
+  commentId: P:Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel
+  fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel
+  nameWithType: ChampionMastery.MarkRequiredForNextLevel
+- uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel*
+  name: MarkRequiredForNextLevel
+  href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_MarkRequiredForNextLevel_
+  commentId: Overload:Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel
+  isSpec: "True"
+  fullName: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.MarkRequiredForNextLevel
+  nameWithType: ChampionMastery.MarkRequiredForNextLevel
 - uid: Camille.RiotGames.ChampionMasteryV4.ChampionMastery.Puuid
   name: Puuid
   href: api/Camille.RiotGames.ChampionMasteryV4.ChampionMastery.html#Camille_RiotGames_ChampionMasteryV4_ChampionMastery_Puuid
@@ -7672,19 +7698,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerId
   nameWithType: LeagueEntry.SummonerId
-- uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_SummonerName
-  commentId: P:Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName
-  fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
-- uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_SummonerName_
-  commentId: Overload:Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
 - uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.Tier
   name: Tier
   href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_Tier
@@ -8040,19 +8053,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4.LeagueEntry.SummonerId
   nameWithType: LeagueEntry.SummonerId
-- uid: Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_SummonerName
-  commentId: P:Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName
-  fullName: Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
-- uid: Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_SummonerName_
-  commentId: Overload:Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.LeagueV4.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
 - uid: Camille.RiotGames.LeagueV4.LeagueEntry.Tier
   name: Tier
   href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_Tier
@@ -8241,19 +8241,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4.LeagueItem.SummonerId
   nameWithType: LeagueItem.SummonerId
-- uid: Camille.RiotGames.LeagueV4.LeagueItem.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_SummonerName
-  commentId: P:Camille.RiotGames.LeagueV4.LeagueItem.SummonerName
-  fullName: Camille.RiotGames.LeagueV4.LeagueItem.SummonerName
-  nameWithType: LeagueItem.SummonerName
-- uid: Camille.RiotGames.LeagueV4.LeagueItem.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_SummonerName_
-  commentId: Overload:Camille.RiotGames.LeagueV4.LeagueItem.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.LeagueV4.LeagueItem.SummonerName
-  nameWithType: LeagueItem.SummonerName
 - uid: Camille.RiotGames.LeagueV4.LeagueItem.ToString
   name: ToString()
   href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_ToString
@@ -19988,19 +19975,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerId
   nameWithType: CurrentGameParticipant.SummonerId
-- uid: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorTftV5_CurrentGameParticipant_SummonerName
-  commentId: P:Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName
-  fullName: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName
-  nameWithType: CurrentGameParticipant.SummonerName
-- uid: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorTftV5_CurrentGameParticipant_SummonerName_
-  commentId: Overload:Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.SummonerName
-  nameWithType: CurrentGameParticipant.SummonerName
 - uid: Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.TeamId
   name: TeamId
   href: api/Camille.RiotGames.SpectatorTftV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorTftV5_CurrentGameParticipant_TeamId
@@ -20525,19 +20499,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorTftV5.Participant.SummonerId
   nameWithType: Participant.SummonerId
-- uid: Camille.RiotGames.SpectatorTftV5.Participant.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorTftV5.Participant.html#Camille_RiotGames_SpectatorTftV5_Participant_SummonerName
-  commentId: P:Camille.RiotGames.SpectatorTftV5.Participant.SummonerName
-  fullName: Camille.RiotGames.SpectatorTftV5.Participant.SummonerName
-  nameWithType: Participant.SummonerName
-- uid: Camille.RiotGames.SpectatorTftV5.Participant.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorTftV5.Participant.html#Camille_RiotGames_SpectatorTftV5_Participant_SummonerName_
-  commentId: Overload:Camille.RiotGames.SpectatorTftV5.Participant.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.SpectatorTftV5.Participant.SummonerName
-  nameWithType: Participant.SummonerName
 - uid: Camille.RiotGames.SpectatorTftV5.Participant.TeamId
   name: TeamId
   href: api/Camille.RiotGames.SpectatorTftV5.Participant.html#Camille_RiotGames_SpectatorTftV5_Participant_TeamId
@@ -21158,19 +21119,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerId
   nameWithType: CurrentGameParticipant.SummonerId
-- uid: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV5_CurrentGameParticipant_SummonerName
-  commentId: P:Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName
-  fullName: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName
-  nameWithType: CurrentGameParticipant.SummonerName
-- uid: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV5_CurrentGameParticipant_SummonerName_
-  commentId: Overload:Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.SummonerName
-  nameWithType: CurrentGameParticipant.SummonerName
 - uid: Camille.RiotGames.SpectatorV5.CurrentGameParticipant.TeamId
   name: TeamId
   href: api/Camille.RiotGames.SpectatorV5.CurrentGameParticipant.html#Camille_RiotGames_SpectatorV5_CurrentGameParticipant_TeamId
@@ -21708,19 +21656,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SpectatorV5.Participant.SummonerId
   nameWithType: Participant.SummonerId
-- uid: Camille.RiotGames.SpectatorV5.Participant.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorV5.Participant.html#Camille_RiotGames_SpectatorV5_Participant_SummonerName
-  commentId: P:Camille.RiotGames.SpectatorV5.Participant.SummonerName
-  fullName: Camille.RiotGames.SpectatorV5.Participant.SummonerName
-  nameWithType: Participant.SummonerName
-- uid: Camille.RiotGames.SpectatorV5.Participant.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.SpectatorV5.Participant.html#Camille_RiotGames_SpectatorV5_Participant_SummonerName_
-  commentId: Overload:Camille.RiotGames.SpectatorV5.Participant.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.SpectatorV5.Participant.SummonerName
-  nameWithType: Participant.SummonerName
 - uid: Camille.RiotGames.SpectatorV5.Participant.TeamId
   name: TeamId
   href: api/Camille.RiotGames.SpectatorV5.Participant.html#Camille_RiotGames_SpectatorV5_Participant_TeamId
@@ -21965,19 +21900,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.SummonerV4.Summoner.Id
   nameWithType: Summoner.Id
-- uid: Camille.RiotGames.SummonerV4.Summoner.Name
-  name: Name
-  href: api/Camille.RiotGames.SummonerV4.Summoner.html#Camille_RiotGames_SummonerV4_Summoner_Name
-  commentId: P:Camille.RiotGames.SummonerV4.Summoner.Name
-  fullName: Camille.RiotGames.SummonerV4.Summoner.Name
-  nameWithType: Summoner.Name
-- uid: Camille.RiotGames.SummonerV4.Summoner.Name*
-  name: Name
-  href: api/Camille.RiotGames.SummonerV4.Summoner.html#Camille_RiotGames_SummonerV4_Summoner_Name_
-  commentId: Overload:Camille.RiotGames.SummonerV4.Summoner.Name
-  isSpec: "True"
-  fullName: Camille.RiotGames.SummonerV4.Summoner.Name
-  nameWithType: Summoner.Name
 - uid: Camille.RiotGames.SummonerV4.Summoner.ProfileIconId
   name: ProfileIconId
   href: api/Camille.RiotGames.SummonerV4.Summoner.html#Camille_RiotGames_SummonerV4_Summoner_ProfileIconId
@@ -22448,19 +22370,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerId
   nameWithType: LeagueEntry.SummonerId
-- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_SummonerName
-  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName
-  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
-- uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_SummonerName_
-  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.TftLeagueV1.LeagueEntry.SummonerName
-  nameWithType: LeagueEntry.SummonerName
 - uid: Camille.RiotGames.TftLeagueV1.LeagueEntry.Tier
   name: Tier
   href: api/Camille.RiotGames.TftLeagueV1.LeagueEntry.html#Camille_RiotGames_TftLeagueV1_LeagueEntry_Tier
@@ -22649,19 +22558,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerId
   nameWithType: LeagueItem.SummonerId
-- uid: Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_SummonerName
-  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName
-  fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName
-  nameWithType: LeagueItem.SummonerName
-- uid: Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_SummonerName_
-  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.SummonerName
-  nameWithType: LeagueItem.SummonerName
 - uid: Camille.RiotGames.TftLeagueV1.LeagueItem.ToString
   name: ToString()
   href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_ToString
@@ -22992,19 +22888,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerId
   nameWithType: TopRatedLadderEntry.SummonerId
-- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerName
-  commentId: P:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
-  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
-  nameWithType: TopRatedLadderEntry.SummonerName
-- uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName*
-  name: SummonerName
-  href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_SummonerName_
-  commentId: Overload:Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
-  isSpec: "True"
-  fullName: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.SummonerName
-  nameWithType: TopRatedLadderEntry.SummonerName
 - uid: Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.ToString
   name: ToString()
   href: api/Camille.RiotGames.TftLeagueV1.TopRatedLadderEntry.html#Camille_RiotGames_TftLeagueV1_TopRatedLadderEntry_ToString
@@ -25545,19 +25428,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftSummonerV1.Summoner.Id
   nameWithType: Summoner.Id
-- uid: Camille.RiotGames.TftSummonerV1.Summoner.Name
-  name: Name
-  href: api/Camille.RiotGames.TftSummonerV1.Summoner.html#Camille_RiotGames_TftSummonerV1_Summoner_Name
-  commentId: P:Camille.RiotGames.TftSummonerV1.Summoner.Name
-  fullName: Camille.RiotGames.TftSummonerV1.Summoner.Name
-  nameWithType: Summoner.Name
-- uid: Camille.RiotGames.TftSummonerV1.Summoner.Name*
-  name: Name
-  href: api/Camille.RiotGames.TftSummonerV1.Summoner.html#Camille_RiotGames_TftSummonerV1_Summoner_Name_
-  commentId: Overload:Camille.RiotGames.TftSummonerV1.Summoner.Name
-  isSpec: "True"
-  fullName: Camille.RiotGames.TftSummonerV1.Summoner.Name
-  nameWithType: Summoner.Name
 - uid: Camille.RiotGames.TftSummonerV1.Summoner.ProfileIconId
   name: ProfileIconId
   href: api/Camille.RiotGames.TftSummonerV1.Summoner.html#Camille_RiotGames_TftSummonerV1_Summoner_ProfileIconId
