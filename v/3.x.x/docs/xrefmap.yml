@@ -29869,6 +29869,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.MatchInfo.GameStartMillis
   nameWithType: MatchInfo.GameStartMillis
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion
+  name: GameVersion
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_GameVersion
+  commentId: P:Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion
+  nameWithType: MatchInfo.GameVersion
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion*
+  name: GameVersion
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_GameVersion_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.GameVersion
+  nameWithType: MatchInfo.GameVersion
 - uid: Camille.RiotGames.ValMatchV1.MatchInfo.IsCompleted
   name: IsCompleted
   href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_IsCompleted
@@ -29921,6 +29934,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.MatchInfo.MatchId
   nameWithType: MatchInfo.MatchId
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo
+  name: PremierMatchInfo
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_PremierMatchInfo
+  commentId: P:Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo
+  nameWithType: MatchInfo.PremierMatchInfo
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo*
+  name: PremierMatchInfo
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_PremierMatchInfo_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.PremierMatchInfo
+  nameWithType: MatchInfo.PremierMatchInfo
 - uid: Camille.RiotGames.ValMatchV1.MatchInfo.ProvisioningFlowId
   name: ProvisioningFlowId
   href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_ProvisioningFlowId
@@ -29947,6 +29973,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.MatchInfo.QueueId
   nameWithType: MatchInfo.QueueId
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.Region
+  name: Region
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_Region
+  commentId: P:Camille.RiotGames.ValMatchV1.MatchInfo.Region
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.Region
+  nameWithType: MatchInfo.Region
+- uid: Camille.RiotGames.ValMatchV1.MatchInfo.Region*
+  name: Region
+  href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_Region_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.MatchInfo.Region
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.MatchInfo.Region
+  nameWithType: MatchInfo.Region
 - uid: Camille.RiotGames.ValMatchV1.MatchInfo.SeasonId
   name: SeasonId
   href: api/Camille.RiotGames.ValMatchV1.MatchInfo.html#Camille_RiotGames_ValMatchV1_MatchInfo_SeasonId
@@ -30160,6 +30199,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Player._AdditionalProperties
   nameWithType: Player._AdditionalProperties
+- uid: Camille.RiotGames.ValMatchV1.Player.AccountLevel
+  name: AccountLevel
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_AccountLevel
+  commentId: P:Camille.RiotGames.ValMatchV1.Player.AccountLevel
+  fullName: Camille.RiotGames.ValMatchV1.Player.AccountLevel
+  nameWithType: Player.AccountLevel
+- uid: Camille.RiotGames.ValMatchV1.Player.AccountLevel*
+  name: AccountLevel
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_AccountLevel_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Player.AccountLevel
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Player.AccountLevel
+  nameWithType: Player.AccountLevel
 - uid: Camille.RiotGames.ValMatchV1.Player.CharacterId
   name: CharacterId
   href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_CharacterId
@@ -30199,6 +30251,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Player.GameName
   nameWithType: Player.GameName
+- uid: Camille.RiotGames.ValMatchV1.Player.IsObserver
+  name: IsObserver
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_IsObserver
+  commentId: P:Camille.RiotGames.ValMatchV1.Player.IsObserver
+  fullName: Camille.RiotGames.ValMatchV1.Player.IsObserver
+  nameWithType: Player.IsObserver
+- uid: Camille.RiotGames.ValMatchV1.Player.IsObserver*
+  name: IsObserver
+  href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_IsObserver_
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Player.IsObserver
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.Player.IsObserver
+  nameWithType: Player.IsObserver
 - uid: Camille.RiotGames.ValMatchV1.Player.PartyId
   name: PartyId
   href: api/Camille.RiotGames.ValMatchV1.Player.html#Camille_RiotGames_ValMatchV1_Player_PartyId
