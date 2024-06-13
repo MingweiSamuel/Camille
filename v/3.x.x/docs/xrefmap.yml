@@ -17260,6 +17260,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Participant.PlayerAugment4
   nameWithType: Participant.PlayerAugment4
+- uid: Camille.RiotGames.MatchV5.Participant.PlayerAugment5
+  name: PlayerAugment5
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_PlayerAugment5
+  commentId: P:Camille.RiotGames.MatchV5.Participant.PlayerAugment5
+  fullName: Camille.RiotGames.MatchV5.Participant.PlayerAugment5
+  nameWithType: Participant.PlayerAugment5
+- uid: Camille.RiotGames.MatchV5.Participant.PlayerAugment5*
+  name: PlayerAugment5
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_PlayerAugment5_
+  commentId: Overload:Camille.RiotGames.MatchV5.Participant.PlayerAugment5
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Participant.PlayerAugment5
+  nameWithType: Participant.PlayerAugment5
+- uid: Camille.RiotGames.MatchV5.Participant.PlayerAugment6
+  name: PlayerAugment6
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_PlayerAugment6
+  commentId: P:Camille.RiotGames.MatchV5.Participant.PlayerAugment6
+  fullName: Camille.RiotGames.MatchV5.Participant.PlayerAugment6
+  nameWithType: Participant.PlayerAugment6
+- uid: Camille.RiotGames.MatchV5.Participant.PlayerAugment6*
+  name: PlayerAugment6
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_PlayerAugment6_
+  commentId: Overload:Camille.RiotGames.MatchV5.Participant.PlayerAugment6
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Participant.PlayerAugment6
+  nameWithType: Participant.PlayerAugment6
 - uid: Camille.RiotGames.MatchV5.Participant.PlayerScore0
   name: PlayerScore0
   href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_PlayerScore0
