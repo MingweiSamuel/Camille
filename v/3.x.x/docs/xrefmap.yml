@@ -6016,19 +6016,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.AccountV1.ActiveShard._AdditionalProperties
   nameWithType: ActiveShard._AdditionalProperties
-- uid: Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring
-  name: ActiveShardstring
-  href: api/Camille.RiotGames.AccountV1.ActiveShard.html#Camille_RiotGames_AccountV1_ActiveShard_ActiveShardstring
-  commentId: P:Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring
-  fullName: Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring
-  nameWithType: ActiveShard.ActiveShardstring
-- uid: Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring*
-  name: ActiveShardstring
-  href: api/Camille.RiotGames.AccountV1.ActiveShard.html#Camille_RiotGames_AccountV1_ActiveShard_ActiveShardstring_
-  commentId: Overload:Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring
+- uid: Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_
+  name: ActiveShard_
+  href: api/Camille.RiotGames.AccountV1.ActiveShard.html#Camille_RiotGames_AccountV1_ActiveShard_ActiveShard_
+  commentId: P:Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_
+  fullName: Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_
+  nameWithType: ActiveShard.ActiveShard_
+- uid: Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_*
+  name: ActiveShard_
+  href: api/Camille.RiotGames.AccountV1.ActiveShard.html#Camille_RiotGames_AccountV1_ActiveShard_ActiveShard__
+  commentId: Overload:Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_
   isSpec: "True"
-  fullName: Camille.RiotGames.AccountV1.ActiveShard.ActiveShardstring
-  nameWithType: ActiveShard.ActiveShardstring
+  fullName: Camille.RiotGames.AccountV1.ActiveShard.ActiveShard_
+  nameWithType: ActiveShard.ActiveShard_
 - uid: Camille.RiotGames.AccountV1.ActiveShard.Game
   name: Game
   href: api/Camille.RiotGames.AccountV1.ActiveShard.html#Camille_RiotGames_AccountV1_ActiveShard_Game
@@ -9941,19 +9941,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LolStatusV4.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
-- uid: Camille.RiotGames.LolStatusV4.Content.Contentstring
-  name: Contentstring
-  href: api/Camille.RiotGames.LolStatusV4.Content.html#Camille_RiotGames_LolStatusV4_Content_Contentstring
-  commentId: P:Camille.RiotGames.LolStatusV4.Content.Contentstring
-  fullName: Camille.RiotGames.LolStatusV4.Content.Contentstring
-  nameWithType: Content.Contentstring
-- uid: Camille.RiotGames.LolStatusV4.Content.Contentstring*
-  name: Contentstring
-  href: api/Camille.RiotGames.LolStatusV4.Content.html#Camille_RiotGames_LolStatusV4_Content_Contentstring_
-  commentId: Overload:Camille.RiotGames.LolStatusV4.Content.Contentstring
+- uid: Camille.RiotGames.LolStatusV4.Content.Content_
+  name: Content_
+  href: api/Camille.RiotGames.LolStatusV4.Content.html#Camille_RiotGames_LolStatusV4_Content_Content_
+  commentId: P:Camille.RiotGames.LolStatusV4.Content.Content_
+  fullName: Camille.RiotGames.LolStatusV4.Content.Content_
+  nameWithType: Content.Content_
+- uid: Camille.RiotGames.LolStatusV4.Content.Content_*
+  name: Content_
+  href: api/Camille.RiotGames.LolStatusV4.Content.html#Camille_RiotGames_LolStatusV4_Content_Content__
+  commentId: Overload:Camille.RiotGames.LolStatusV4.Content.Content_
   isSpec: "True"
-  fullName: Camille.RiotGames.LolStatusV4.Content.Contentstring
-  nameWithType: Content.Contentstring
+  fullName: Camille.RiotGames.LolStatusV4.Content.Content_
+  nameWithType: Content.Content_
 - uid: Camille.RiotGames.LolStatusV4.Content.Locale
   name: Locale
   href: api/Camille.RiotGames.LolStatusV4.Content.html#Camille_RiotGames_LolStatusV4_Content_Locale
@@ -11486,19 +11486,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LorStatusV1.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
-- uid: Camille.RiotGames.LorStatusV1.Content.Contentstring
-  name: Contentstring
-  href: api/Camille.RiotGames.LorStatusV1.Content.html#Camille_RiotGames_LorStatusV1_Content_Contentstring
-  commentId: P:Camille.RiotGames.LorStatusV1.Content.Contentstring
-  fullName: Camille.RiotGames.LorStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
-- uid: Camille.RiotGames.LorStatusV1.Content.Contentstring*
-  name: Contentstring
-  href: api/Camille.RiotGames.LorStatusV1.Content.html#Camille_RiotGames_LorStatusV1_Content_Contentstring_
-  commentId: Overload:Camille.RiotGames.LorStatusV1.Content.Contentstring
+- uid: Camille.RiotGames.LorStatusV1.Content.Content_
+  name: Content_
+  href: api/Camille.RiotGames.LorStatusV1.Content.html#Camille_RiotGames_LorStatusV1_Content_Content_
+  commentId: P:Camille.RiotGames.LorStatusV1.Content.Content_
+  fullName: Camille.RiotGames.LorStatusV1.Content.Content_
+  nameWithType: Content.Content_
+- uid: Camille.RiotGames.LorStatusV1.Content.Content_*
+  name: Content_
+  href: api/Camille.RiotGames.LorStatusV1.Content.html#Camille_RiotGames_LorStatusV1_Content_Content__
+  commentId: Overload:Camille.RiotGames.LorStatusV1.Content.Content_
   isSpec: "True"
-  fullName: Camille.RiotGames.LorStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
+  fullName: Camille.RiotGames.LorStatusV1.Content.Content_
+  nameWithType: Content.Content_
 - uid: Camille.RiotGames.LorStatusV1.Content.Locale
   name: Locale
   href: api/Camille.RiotGames.LorStatusV1.Content.html#Camille_RiotGames_LorStatusV1_Content_Locale
@@ -18377,6 +18377,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantFrames._AdditionalProperties
   nameWithType: ParticipantFrames._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_
+  name: ParticipantFrames_
+  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_ParticipantFrames_
+  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_
+  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_
+  nameWithType: ParticipantFrames.ParticipantFrames_
+- uid: Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_*
+  name: ParticipantFrames_
+  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_ParticipantFrames__
+  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.ParticipantFrames_
+  nameWithType: ParticipantFrames.ParticipantFrames_
 - uid: Camille.RiotGames.MatchV5.ParticipantFrames.ToString
   name: ToString()
   href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_ToString
@@ -18390,136 +18403,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.ParticipantFrames.ToString
   nameWithType: ParticipantFrames.ToString
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X1
-  name: X1
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X1
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X1
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X1
-  nameWithType: ParticipantFrames.X1
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X1*
-  name: X1
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X1_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X1
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X1
-  nameWithType: ParticipantFrames.X1
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X10
-  name: X10
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X10
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X10
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X10
-  nameWithType: ParticipantFrames.X10
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X10*
-  name: X10
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X10_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X10
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X10
-  nameWithType: ParticipantFrames.X10
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X2
-  name: X2
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X2
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X2
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X2
-  nameWithType: ParticipantFrames.X2
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X2*
-  name: X2
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X2_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X2
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X2
-  nameWithType: ParticipantFrames.X2
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X3
-  name: X3
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X3
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X3
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X3
-  nameWithType: ParticipantFrames.X3
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X3*
-  name: X3
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X3_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X3
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X3
-  nameWithType: ParticipantFrames.X3
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X4
-  name: X4
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X4
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X4
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X4
-  nameWithType: ParticipantFrames.X4
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X4*
-  name: X4
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X4_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X4
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X4
-  nameWithType: ParticipantFrames.X4
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X5
-  name: X5
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X5
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X5
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X5
-  nameWithType: ParticipantFrames.X5
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X5*
-  name: X5
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X5_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X5
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X5
-  nameWithType: ParticipantFrames.X5
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X6
-  name: X6
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X6
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X6
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X6
-  nameWithType: ParticipantFrames.X6
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X6*
-  name: X6
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X6_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X6
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X6
-  nameWithType: ParticipantFrames.X6
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X7
-  name: X7
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X7
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X7
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X7
-  nameWithType: ParticipantFrames.X7
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X7*
-  name: X7
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X7_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X7
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X7
-  nameWithType: ParticipantFrames.X7
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X8
-  name: X8
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X8
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X8
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X8
-  nameWithType: ParticipantFrames.X8
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X8*
-  name: X8
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X8_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X8
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X8
-  nameWithType: ParticipantFrames.X8
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X9
-  name: X9
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X9
-  commentId: P:Camille.RiotGames.MatchV5.ParticipantFrames.X9
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X9
-  nameWithType: ParticipantFrames.X9
-- uid: Camille.RiotGames.MatchV5.ParticipantFrames.X9*
-  name: X9
-  href: api/Camille.RiotGames.MatchV5.ParticipantFrames.html#Camille_RiotGames_MatchV5_ParticipantFrames_X9_
-  commentId: Overload:Camille.RiotGames.MatchV5.ParticipantFrames.X9
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.ParticipantFrames.X9
-  nameWithType: ParticipantFrames.X9
 - uid: Camille.RiotGames.MatchV5.ParticipantTimeLine
   name: ParticipantTimeLine
   href: api/Camille.RiotGames.MatchV5.ParticipantTimeLine.html
@@ -25202,19 +25085,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftStatusV1.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
-- uid: Camille.RiotGames.TftStatusV1.Content.Contentstring
-  name: Contentstring
-  href: api/Camille.RiotGames.TftStatusV1.Content.html#Camille_RiotGames_TftStatusV1_Content_Contentstring
-  commentId: P:Camille.RiotGames.TftStatusV1.Content.Contentstring
-  fullName: Camille.RiotGames.TftStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
-- uid: Camille.RiotGames.TftStatusV1.Content.Contentstring*
-  name: Contentstring
-  href: api/Camille.RiotGames.TftStatusV1.Content.html#Camille_RiotGames_TftStatusV1_Content_Contentstring_
-  commentId: Overload:Camille.RiotGames.TftStatusV1.Content.Contentstring
+- uid: Camille.RiotGames.TftStatusV1.Content.Content_
+  name: Content_
+  href: api/Camille.RiotGames.TftStatusV1.Content.html#Camille_RiotGames_TftStatusV1_Content_Content_
+  commentId: P:Camille.RiotGames.TftStatusV1.Content.Content_
+  fullName: Camille.RiotGames.TftStatusV1.Content.Content_
+  nameWithType: Content.Content_
+- uid: Camille.RiotGames.TftStatusV1.Content.Content_*
+  name: Content_
+  href: api/Camille.RiotGames.TftStatusV1.Content.html#Camille_RiotGames_TftStatusV1_Content_Content__
+  commentId: Overload:Camille.RiotGames.TftStatusV1.Content.Content_
   isSpec: "True"
-  fullName: Camille.RiotGames.TftStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
+  fullName: Camille.RiotGames.TftStatusV1.Content.Content_
+  nameWithType: Content.Content_
 - uid: Camille.RiotGames.TftStatusV1.Content.Locale
   name: Locale
   href: api/Camille.RiotGames.TftStatusV1.Content.html#Camille_RiotGames_TftStatusV1_Content_Locale
@@ -29487,19 +29370,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.Damage.Bodyshots
   nameWithType: Damage.Bodyshots
-- uid: Camille.RiotGames.ValMatchV1.Damage.Damageint
-  name: Damageint
-  href: api/Camille.RiotGames.ValMatchV1.Damage.html#Camille_RiotGames_ValMatchV1_Damage_Damageint
-  commentId: P:Camille.RiotGames.ValMatchV1.Damage.Damageint
-  fullName: Camille.RiotGames.ValMatchV1.Damage.Damageint
-  nameWithType: Damage.Damageint
-- uid: Camille.RiotGames.ValMatchV1.Damage.Damageint*
-  name: Damageint
-  href: api/Camille.RiotGames.ValMatchV1.Damage.html#Camille_RiotGames_ValMatchV1_Damage_Damageint_
-  commentId: Overload:Camille.RiotGames.ValMatchV1.Damage.Damageint
+- uid: Camille.RiotGames.ValMatchV1.Damage.Damage_
+  name: Damage_
+  href: api/Camille.RiotGames.ValMatchV1.Damage.html#Camille_RiotGames_ValMatchV1_Damage_Damage_
+  commentId: P:Camille.RiotGames.ValMatchV1.Damage.Damage_
+  fullName: Camille.RiotGames.ValMatchV1.Damage.Damage_
+  nameWithType: Damage.Damage_
+- uid: Camille.RiotGames.ValMatchV1.Damage.Damage_*
+  name: Damage_
+  href: api/Camille.RiotGames.ValMatchV1.Damage.html#Camille_RiotGames_ValMatchV1_Damage_Damage__
+  commentId: Overload:Camille.RiotGames.ValMatchV1.Damage.Damage_
   isSpec: "True"
-  fullName: Camille.RiotGames.ValMatchV1.Damage.Damageint
-  nameWithType: Damage.Damageint
+  fullName: Camille.RiotGames.ValMatchV1.Damage.Damage_
+  nameWithType: Damage.Damage_
 - uid: Camille.RiotGames.ValMatchV1.Damage.Headshots
   name: Headshots
   href: api/Camille.RiotGames.ValMatchV1.Damage.html#Camille_RiotGames_ValMatchV1_Damage_Headshots
@@ -31261,6 +31144,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundNum
   nameWithType: RoundResult.RoundNum
+- uid: Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_
+  name: RoundResult_
+  href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_RoundResult_
+  commentId: P:Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_
+  fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_
+  nameWithType: RoundResult.RoundResult_
+- uid: Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_*
+  name: RoundResult_
+  href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_RoundResult__
+  commentId: Overload:Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_
+  isSpec: "True"
+  fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundResult_
+  nameWithType: RoundResult.RoundResult_
 - uid: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultCode
   name: RoundResultCode
   href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_RoundResultCode
@@ -31274,19 +31170,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultCode
   nameWithType: RoundResult.RoundResultCode
-- uid: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring
-  name: RoundResultstring
-  href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_RoundResultstring
-  commentId: P:Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring
-  fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring
-  nameWithType: RoundResult.RoundResultstring
-- uid: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring*
-  name: RoundResultstring
-  href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_RoundResultstring_
-  commentId: Overload:Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring
-  isSpec: "True"
-  fullName: Camille.RiotGames.ValMatchV1.RoundResult.RoundResultstring
-  nameWithType: RoundResult.RoundResultstring
 - uid: Camille.RiotGames.ValMatchV1.RoundResult.ToString
   name: ToString()
   href: api/Camille.RiotGames.ValMatchV1.RoundResult.html#Camille_RiotGames_ValMatchV1_RoundResult_ToString
@@ -32002,19 +31885,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ValStatusV1.Content._AdditionalProperties
   nameWithType: Content._AdditionalProperties
-- uid: Camille.RiotGames.ValStatusV1.Content.Contentstring
-  name: Contentstring
-  href: api/Camille.RiotGames.ValStatusV1.Content.html#Camille_RiotGames_ValStatusV1_Content_Contentstring
-  commentId: P:Camille.RiotGames.ValStatusV1.Content.Contentstring
-  fullName: Camille.RiotGames.ValStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
-- uid: Camille.RiotGames.ValStatusV1.Content.Contentstring*
-  name: Contentstring
-  href: api/Camille.RiotGames.ValStatusV1.Content.html#Camille_RiotGames_ValStatusV1_Content_Contentstring_
-  commentId: Overload:Camille.RiotGames.ValStatusV1.Content.Contentstring
+- uid: Camille.RiotGames.ValStatusV1.Content.Content_
+  name: Content_
+  href: api/Camille.RiotGames.ValStatusV1.Content.html#Camille_RiotGames_ValStatusV1_Content_Content_
+  commentId: P:Camille.RiotGames.ValStatusV1.Content.Content_
+  fullName: Camille.RiotGames.ValStatusV1.Content.Content_
+  nameWithType: Content.Content_
+- uid: Camille.RiotGames.ValStatusV1.Content.Content_*
+  name: Content_
+  href: api/Camille.RiotGames.ValStatusV1.Content.html#Camille_RiotGames_ValStatusV1_Content_Content__
+  commentId: Overload:Camille.RiotGames.ValStatusV1.Content.Content_
   isSpec: "True"
-  fullName: Camille.RiotGames.ValStatusV1.Content.Contentstring
-  nameWithType: Content.Contentstring
+  fullName: Camille.RiotGames.ValStatusV1.Content.Content_
+  nameWithType: Content.Content_
 - uid: Camille.RiotGames.ValStatusV1.Content.Locale
   name: Locale
   href: api/Camille.RiotGames.ValStatusV1.Content.html#Camille_RiotGames_ValStatusV1_Content_Locale
