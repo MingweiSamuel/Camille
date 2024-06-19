@@ -16480,19 +16480,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Participant.DamageSelfMitigated
   nameWithType: Participant.DamageSelfMitigated
-- uid: Camille.RiotGames.MatchV5.Participant.DangerPings
-  name: DangerPings
-  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_DangerPings
-  commentId: P:Camille.RiotGames.MatchV5.Participant.DangerPings
-  fullName: Camille.RiotGames.MatchV5.Participant.DangerPings
-  nameWithType: Participant.DangerPings
-- uid: Camille.RiotGames.MatchV5.Participant.DangerPings*
-  name: DangerPings
-  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_DangerPings_
-  commentId: Overload:Camille.RiotGames.MatchV5.Participant.DangerPings
-  isSpec: "True"
-  fullName: Camille.RiotGames.MatchV5.Participant.DangerPings
-  nameWithType: Participant.DangerPings
 - uid: Camille.RiotGames.MatchV5.Participant.Deaths
   name: Deaths
   href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_Deaths
