@@ -182,6 +182,12 @@ references:
   commentId: F:Camille.Enums.Champion.ALISTAR
   fullName: Camille.Enums.Champion.ALISTAR
   nameWithType: Champion.ALISTAR
+- uid: Camille.Enums.Champion.AMBESSA
+  name: AMBESSA
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AMBESSA
+  commentId: F:Camille.Enums.Champion.AMBESSA
+  fullName: Camille.Enums.Champion.AMBESSA
+  nameWithType: Champion.AMBESSA
 - uid: Camille.Enums.Champion.AMUMU
   name: AMUMU
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_AMUMU
@@ -2186,6 +2192,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_32
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_32
   nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_32
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
+  name: SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
+  nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_BEGINNER_BOT_DEPRECATED_840
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT
   name: SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT
@@ -2198,6 +2210,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_33
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_33
   nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_33
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
+  name: SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
+  nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTERMEDIATE_BOT_DEPRECATED_850
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT
   name: SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT
@@ -2210,6 +2228,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_31
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_31
   nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_31
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
+  name: SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
+  nameWithType: Queue.SUMMONERS_RIFT_CO_OP_VS_AI_INTRO_BOT_DEPRECATED_830
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_CO_OP_VS_AI_ULTRA_RAPID_FIRE
   name: SUMMONERS_RIFT_CO_OP_VS_AI_ULTRA_RAPID_FIRE
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_CO_OP_VS_AI_ULTRA_RAPID_FIRE
@@ -2504,6 +2528,12 @@ references:
   commentId: F:Camille.Enums.RegionalRoute.ESPORTS
   fullName: Camille.Enums.RegionalRoute.ESPORTS
   nameWithType: RegionalRoute.ESPORTS
+- uid: Camille.Enums.RegionalRoute.ESPORTSEU
+  name: ESPORTSEU
+  href: api/Camille.Enums.RegionalRoute.html#Camille_Enums_RegionalRoute_ESPORTSEU
+  commentId: F:Camille.Enums.RegionalRoute.ESPORTSEU
+  fullName: Camille.Enums.RegionalRoute.ESPORTSEU
+  nameWithType: RegionalRoute.ESPORTSEU
 - uid: Camille.Enums.RegionalRoute.EUROPE
   name: EUROPE
   href: api/Camille.Enums.RegionalRoute.html#Camille_Enums_RegionalRoute_EUROPE
@@ -12898,6 +12928,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Challenges.HadOpenNexus
   nameWithType: Challenges.HadOpenNexus
+- uid: Camille.RiotGames.MatchV5.Challenges.HealFromMapSources
+  name: HealFromMapSources
+  href: api/Camille.RiotGames.MatchV5.Challenges.html#Camille_RiotGames_MatchV5_Challenges_HealFromMapSources
+  commentId: P:Camille.RiotGames.MatchV5.Challenges.HealFromMapSources
+  fullName: Camille.RiotGames.MatchV5.Challenges.HealFromMapSources
+  nameWithType: Challenges.HealFromMapSources
+- uid: Camille.RiotGames.MatchV5.Challenges.HealFromMapSources*
+  name: HealFromMapSources
+  href: api/Camille.RiotGames.MatchV5.Challenges.html#Camille_RiotGames_MatchV5_Challenges_HealFromMapSources_
+  commentId: Overload:Camille.RiotGames.MatchV5.Challenges.HealFromMapSources
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Challenges.HealFromMapSources
+  nameWithType: Challenges.HealFromMapSources
 - uid: Camille.RiotGames.MatchV5.Challenges.HighestChampionDamage
   name: HighestChampionDamage
   href: api/Camille.RiotGames.MatchV5.Challenges.html#Camille_RiotGames_MatchV5_Challenges_HighestChampionDamage
@@ -17896,6 +17939,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Participant.QuadraKills
   nameWithType: Participant.QuadraKills
+- uid: Camille.RiotGames.MatchV5.Participant.RetreatPings
+  name: RetreatPings
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RetreatPings
+  commentId: P:Camille.RiotGames.MatchV5.Participant.RetreatPings
+  fullName: Camille.RiotGames.MatchV5.Participant.RetreatPings
+  nameWithType: Participant.RetreatPings
+- uid: Camille.RiotGames.MatchV5.Participant.RetreatPings*
+  name: RetreatPings
+  href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RetreatPings_
+  commentId: Overload:Camille.RiotGames.MatchV5.Participant.RetreatPings
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Participant.RetreatPings
+  nameWithType: Participant.RetreatPings
 - uid: Camille.RiotGames.MatchV5.Participant.RiotIdGameName
   name: RiotIdGameName
   href: api/Camille.RiotGames.MatchV5.Participant.html#Camille_RiotGames_MatchV5_Participant_RiotIdGameName
@@ -24425,6 +24481,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Participant.Puuid
   nameWithType: Participant.Puuid
+- uid: Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
+  name: RiotIdGameName
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_RiotIdGameName
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
+  fullName: Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
+  nameWithType: Participant.RiotIdGameName
+- uid: Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName*
+  name: RiotIdGameName
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_RiotIdGameName_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
+  nameWithType: Participant.RiotIdGameName
+- uid: Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
+  name: RiotIdTagline
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_RiotIdTagline
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
+  fullName: Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
+  nameWithType: Participant.RiotIdTagline
+- uid: Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline*
+  name: RiotIdTagline
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_RiotIdTagline_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
+  nameWithType: Participant.RiotIdTagline
 - uid: Camille.RiotGames.TftMatchV1.Participant.TimeEliminated
   name: TimeEliminated
   href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_TimeEliminated
@@ -24490,6 +24572,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Participant.Units
   nameWithType: Participant.Units
+- uid: Camille.RiotGames.TftMatchV1.Participant.Win
+  name: Win
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_Win
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.Win
+  fullName: Camille.RiotGames.TftMatchV1.Participant.Win
+  nameWithType: Participant.Win
+- uid: Camille.RiotGames.TftMatchV1.Participant.Win*
+  name: Win
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_Win_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.Win
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.Win
+  nameWithType: Participant.Win
 - uid: Camille.RiotGames.TftMatchV1.ParticipantMissions
   name: ParticipantMissions
   href: api/Camille.RiotGames.TftMatchV1.ParticipantMissions.html
