@@ -7007,6 +7007,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ClashV1.Player.Position
   nameWithType: Player.Position
+- uid: Camille.RiotGames.ClashV1.Player.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.ClashV1.Player.html#Camille_RiotGames_ClashV1_Player_Puuid
+  commentId: P:Camille.RiotGames.ClashV1.Player.Puuid
+  fullName: Camille.RiotGames.ClashV1.Player.Puuid
+  nameWithType: Player.Puuid
+- uid: Camille.RiotGames.ClashV1.Player.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.ClashV1.Player.html#Camille_RiotGames_ClashV1_Player_Puuid_
+  commentId: Overload:Camille.RiotGames.ClashV1.Player.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.ClashV1.Player.Puuid
+  nameWithType: Player.Puuid
 - uid: Camille.RiotGames.ClashV1.Player.Role
   name: Role
   href: api/Camille.RiotGames.ClashV1.Player.html#Camille_RiotGames_ClashV1_Player_Role
