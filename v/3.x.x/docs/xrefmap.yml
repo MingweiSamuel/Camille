@@ -638,6 +638,12 @@ references:
   commentId: F:Camille.Enums.Champion.MASTERYI
   fullName: Camille.Enums.Champion.MASTERYI
   nameWithType: Champion.MASTERYI
+- uid: Camille.Enums.Champion.MEL
+  name: MEL
+  href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MEL
+  commentId: F:Camille.Enums.Champion.MEL
+  fullName: Camille.Enums.Champion.MEL
+  nameWithType: Champion.MEL
 - uid: Camille.Enums.Champion.MILIO
   name: MILIO
   href: api/Camille.Enums.Champion.html#Camille_Enums_Champion_MILIO
@@ -1340,6 +1346,12 @@ references:
   commentId: F:Camille.Enums.GameMode.STRAWBERRY
   fullName: Camille.Enums.GameMode.STRAWBERRY
   nameWithType: GameMode.STRAWBERRY
+- uid: Camille.Enums.GameMode.SWIFTPLAY
+  name: SWIFTPLAY
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_SWIFTPLAY
+  commentId: F:Camille.Enums.GameMode.SWIFTPLAY
+  fullName: Camille.Enums.GameMode.SWIFTPLAY
+  nameWithType: GameMode.SWIFTPLAY
 - uid: Camille.Enums.GameMode.TFT
   name: TFT
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_TFT
@@ -2294,6 +2306,12 @@ references:
   commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_NORMAL_QUICKPLAY
   fullName: Camille.Enums.Queue.SUMMONERS_RIFT_NORMAL_QUICKPLAY
   nameWithType: Queue.SUMMONERS_RIFT_NORMAL_QUICKPLAY
+- uid: Camille.Enums.Queue.SUMMONERS_RIFT_NORMAL_SWIFTPLAY
+  name: SUMMONERS_RIFT_NORMAL_SWIFTPLAY
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_NORMAL_SWIFTPLAY
+  commentId: F:Camille.Enums.Queue.SUMMONERS_RIFT_NORMAL_SWIFTPLAY
+  fullName: Camille.Enums.Queue.SUMMONERS_RIFT_NORMAL_SWIFTPLAY
+  nameWithType: Queue.SUMMONERS_RIFT_NORMAL_SWIFTPLAY
 - uid: Camille.Enums.Queue.SUMMONERS_RIFT_ONE_FOR_ALL
   name: SUMMONERS_RIFT_ONE_FOR_ALL
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_SUMMONERS_RIFT_ONE_FOR_ALL
@@ -16574,6 +16592,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Objectives._AdditionalProperties
   nameWithType: Objectives._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Objectives.Atakhan
+  name: Atakhan
+  href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Atakhan
+  commentId: P:Camille.RiotGames.MatchV5.Objectives.Atakhan
+  fullName: Camille.RiotGames.MatchV5.Objectives.Atakhan
+  nameWithType: Objectives.Atakhan
+- uid: Camille.RiotGames.MatchV5.Objectives.Atakhan*
+  name: Atakhan
+  href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Atakhan_
+  commentId: Overload:Camille.RiotGames.MatchV5.Objectives.Atakhan
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Objectives.Atakhan
+  nameWithType: Objectives.Atakhan
 - uid: Camille.RiotGames.MatchV5.Objectives.Baron
   name: Baron
   href: api/Camille.RiotGames.MatchV5.Objectives.html#Camille_RiotGames_MatchV5_Objectives_Baron
