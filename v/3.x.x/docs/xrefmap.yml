@@ -1904,6 +1904,12 @@ references:
   commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_CHONCCS_TREASURE
   fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_CHONCCS_TREASURE
   nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_CHONCCS_TREASURE
+- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
+  name: CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
+  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
+  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_REVIVAL_FESTIVAL_OF_BEASTS
 - uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SET_3_5_REVIVAL
   name: CONVERGENCE_TEAMFIGHT_TACTICS_SET_3_5_REVIVAL
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_SET_3_5_REVIVAL
@@ -24583,6 +24589,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Participant.RiotIdTagline
   nameWithType: Participant.RiotIdTagline
+- uid: Camille.RiotGames.TftMatchV1.Participant.SkillTree
+  name: SkillTree
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_SkillTree
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.SkillTree
+  fullName: Camille.RiotGames.TftMatchV1.Participant.SkillTree
+  nameWithType: Participant.SkillTree
+- uid: Camille.RiotGames.TftMatchV1.Participant.SkillTree*
+  name: SkillTree
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_SkillTree_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.SkillTree
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.SkillTree
+  nameWithType: Participant.SkillTree
 - uid: Camille.RiotGames.TftMatchV1.Participant.TimeEliminated
   name: TimeEliminated
   href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_TimeEliminated
