@@ -8581,6 +8581,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4.LeagueItem.MiniSeries
   nameWithType: LeagueItem.MiniSeries
+- uid: Camille.RiotGames.LeagueV4.LeagueItem.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_Puuid
+  commentId: P:Camille.RiotGames.LeagueV4.LeagueItem.Puuid
+  fullName: Camille.RiotGames.LeagueV4.LeagueItem.Puuid
+  nameWithType: LeagueItem.Puuid
+- uid: Camille.RiotGames.LeagueV4.LeagueItem.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_Puuid_
+  commentId: Overload:Camille.RiotGames.LeagueV4.LeagueItem.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.LeagueV4.LeagueItem.Puuid
+  nameWithType: LeagueItem.Puuid
 - uid: Camille.RiotGames.LeagueV4.LeagueItem.Rank
   name: Rank
   href: api/Camille.RiotGames.LeagueV4.LeagueItem.html#Camille_RiotGames_LeagueV4_LeagueItem_Rank
@@ -23304,6 +23317,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.MiniSeries
   nameWithType: LeagueItem.MiniSeries
+- uid: Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_Puuid
+  commentId: P:Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid
+  nameWithType: LeagueItem.Puuid
+- uid: Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_Puuid_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1.LeagueItem.Puuid
+  nameWithType: LeagueItem.Puuid
 - uid: Camille.RiotGames.TftLeagueV1.LeagueItem.Rank
   name: Rank
   href: api/Camille.RiotGames.TftLeagueV1.LeagueItem.html#Camille_RiotGames_TftLeagueV1_LeagueItem_Rank
