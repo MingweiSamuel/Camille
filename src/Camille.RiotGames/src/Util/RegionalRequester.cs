@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Diagnostics;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
@@ -88,11 +89,15 @@ namespace Camille.RiotGames.Util
             // If the route is in the query param we need to add it to each request.
             if (_config.ApiRouteConfig == RouteConfig.InQueryParam)
             {
-                // Append the route as a query parameter.
-                var query = HttpUtility.ParseQueryString(request.RequestUri.Query);
+                // We expect a relative URI. (scheme/host is in `_client.BaseAddress`).
+                Debug.Assert(!request.RequestUri!.IsAbsoluteUri);
+                // We use a dummy host since URI operations are unavailable to relative URIs, for god-knows-what reason.
+                var newUri = new Uri(new Uri("http://localhost"), request.RequestUri!);
+                // Add the route as an additional query parameter.
+                var query = HttpUtility.ParseQueryString(newUri.Query);
                 query.Add(_config.RouteKey, _route);
-                // Use path-only URL, scheme/host is in _client.BaseAddress.
-                request.RequestUri = new Uri($"{request.RequestUri.AbsolutePath}?{query}", UriKind.RelativeOrAbsolute);
+                // Recover relative (path-only) URI. Use the new query string.
+                request.RequestUri = new Uri($"{newUri.AbsolutePath}?{query}", UriKind.Relative);
             }
 
             HttpResponseMessage? response = null;
