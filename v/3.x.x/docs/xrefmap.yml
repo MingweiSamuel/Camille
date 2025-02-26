@@ -7490,38 +7490,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersByPUUIDAsync
   nameWithType: ClashV1Endpoints.GetPlayersByPUUIDAsync
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetPlayersBySummoner(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPlayersBySummoner(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ClashV1Endpoints.GetPlayersBySummoner(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner*
-  name: GetPlayersBySummoner
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummoner_
-  commentId: Overload:Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner
-  isSpec: "True"
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummoner
-  nameWithType: ClashV1Endpoints.GetPlayersBySummoner
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: GetPlayersBySummonerAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummonerAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: GetPlayersBySummonerAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute, String, Nullable<CancellationToken>)
-  nameWithType.vb: ClashV1Endpoints.GetPlayersBySummonerAsync(PlatformRoute, String, Nullable(Of CancellationToken))
-- uid: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync*
-  name: GetPlayersBySummonerAsync
-  href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetPlayersBySummonerAsync_
-  commentId: Overload:Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync
-  isSpec: "True"
-  fullName: Camille.RiotGames.ClashV1Endpoints.GetPlayersBySummonerAsync
-  nameWithType: ClashV1Endpoints.GetPlayersBySummonerAsync
 - uid: Camille.RiotGames.ClashV1Endpoints.GetTeamById(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetTeamById(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.ClashV1Endpoints.html#Camille_RiotGames_ClashV1Endpoints_GetTeamById_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -8025,6 +7993,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.MiniSeries
   nameWithType: LeagueEntry.MiniSeries
+- uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_Puuid
+  commentId: P:Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid
+  fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
+- uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_Puuid_
+  commentId: Overload:Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.LeagueExpV4.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
 - uid: Camille.RiotGames.LeagueExpV4.LeagueEntry.QueueType
   name: QueueType
   href: api/Camille.RiotGames.LeagueExpV4.LeagueEntry.html#Camille_RiotGames_LeagueExpV4_LeagueEntry_QueueType
@@ -8380,6 +8361,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4.LeagueEntry.MiniSeries
   nameWithType: LeagueEntry.MiniSeries
+- uid: Camille.RiotGames.LeagueV4.LeagueEntry.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_Puuid
+  commentId: P:Camille.RiotGames.LeagueV4.LeagueEntry.Puuid
+  fullName: Camille.RiotGames.LeagueV4.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
+- uid: Camille.RiotGames.LeagueV4.LeagueEntry.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_Puuid_
+  commentId: Overload:Camille.RiotGames.LeagueV4.LeagueEntry.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.LeagueV4.LeagueEntry.Puuid
+  nameWithType: LeagueEntry.Puuid
 - uid: Camille.RiotGames.LeagueV4.LeagueEntry.QueueType
   name: QueueType
   href: api/Camille.RiotGames.LeagueV4.LeagueEntry.html#Camille_RiotGames_LeagueV4_LeagueEntry_QueueType
@@ -9000,6 +8994,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesAsync
   nameWithType: LeagueV4Endpoints.GetLeagueEntriesAsync
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID*
+  name: GetLeagueEntriesByPUUID
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesByPUUID_
+  commentId: Overload:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUID
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesByPUUID
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync*
+  name: GetLeagueEntriesByPUUIDAsync
+  href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync
+  nameWithType: LeagueV4Endpoints.GetLeagueEntriesByPUUIDAsync
 - uid: Camille.RiotGames.LeagueV4Endpoints.GetLeagueEntriesForSummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetLeagueEntriesForSummoner(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.LeagueV4Endpoints.html#Camille_RiotGames_LeagueV4Endpoints_GetLeagueEntriesForSummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -15069,6 +15095,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.EventsTimeLine.CreatorId
   nameWithType: EventsTimeLine.CreatorId
+- uid: Camille.RiotGames.MatchV5.EventsTimeLine.FeatType
+  name: FeatType
+  href: api/Camille.RiotGames.MatchV5.EventsTimeLine.html#Camille_RiotGames_MatchV5_EventsTimeLine_FeatType
+  commentId: P:Camille.RiotGames.MatchV5.EventsTimeLine.FeatType
+  fullName: Camille.RiotGames.MatchV5.EventsTimeLine.FeatType
+  nameWithType: EventsTimeLine.FeatType
+- uid: Camille.RiotGames.MatchV5.EventsTimeLine.FeatType*
+  name: FeatType
+  href: api/Camille.RiotGames.MatchV5.EventsTimeLine.html#Camille_RiotGames_MatchV5_EventsTimeLine_FeatType_
+  commentId: Overload:Camille.RiotGames.MatchV5.EventsTimeLine.FeatType
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.EventsTimeLine.FeatType
+  nameWithType: EventsTimeLine.FeatType
+- uid: Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue
+  name: FeatValue
+  href: api/Camille.RiotGames.MatchV5.EventsTimeLine.html#Camille_RiotGames_MatchV5_EventsTimeLine_FeatValue
+  commentId: P:Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue
+  fullName: Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue
+  nameWithType: EventsTimeLine.FeatValue
+- uid: Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue*
+  name: FeatValue
+  href: api/Camille.RiotGames.MatchV5.EventsTimeLine.html#Camille_RiotGames_MatchV5_EventsTimeLine_FeatValue_
+  commentId: Overload:Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.EventsTimeLine.FeatValue
+  nameWithType: EventsTimeLine.FeatValue
 - uid: Camille.RiotGames.MatchV5.EventsTimeLine.GameId
   name: GameId
   href: api/Camille.RiotGames.MatchV5.EventsTimeLine.html#Camille_RiotGames_MatchV5_EventsTimeLine_GameId
@@ -15459,6 +15511,148 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.EventsTimeLine.WinningTeam
   nameWithType: EventsTimeLine.WinningTeam
+- uid: Camille.RiotGames.MatchV5.Feat
+  name: Feat
+  href: api/Camille.RiotGames.MatchV5.Feat.html
+  commentId: T:Camille.RiotGames.MatchV5.Feat
+  fullName: Camille.RiotGames.MatchV5.Feat
+  nameWithType: Feat
+- uid: Camille.RiotGames.MatchV5.Feat.#ctor
+  name: Feat()
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat__ctor
+  commentId: M:Camille.RiotGames.MatchV5.Feat.#ctor
+  fullName: Camille.RiotGames.MatchV5.Feat.Feat()
+  nameWithType: Feat.Feat()
+- uid: Camille.RiotGames.MatchV5.Feat.#ctor*
+  name: Feat
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat__ctor_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feat.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feat.Feat
+  nameWithType: Feat.Feat
+- uid: Camille.RiotGames.MatchV5.Feat._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat__AdditionalProperties
+  commentId: P:Camille.RiotGames.MatchV5.Feat._AdditionalProperties
+  fullName: Camille.RiotGames.MatchV5.Feat._AdditionalProperties
+  nameWithType: Feat._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Feat._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feat._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feat._AdditionalProperties
+  nameWithType: Feat._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Feat.FeatState
+  name: FeatState
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat_FeatState
+  commentId: P:Camille.RiotGames.MatchV5.Feat.FeatState
+  fullName: Camille.RiotGames.MatchV5.Feat.FeatState
+  nameWithType: Feat.FeatState
+- uid: Camille.RiotGames.MatchV5.Feat.FeatState*
+  name: FeatState
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat_FeatState_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feat.FeatState
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feat.FeatState
+  nameWithType: Feat.FeatState
+- uid: Camille.RiotGames.MatchV5.Feat.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat_ToString
+  commentId: M:Camille.RiotGames.MatchV5.Feat.ToString
+  fullName: Camille.RiotGames.MatchV5.Feat.ToString()
+  nameWithType: Feat.ToString()
+- uid: Camille.RiotGames.MatchV5.Feat.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.MatchV5.Feat.html#Camille_RiotGames_MatchV5_Feat_ToString_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feat.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feat.ToString
+  nameWithType: Feat.ToString
+- uid: Camille.RiotGames.MatchV5.Feats
+  name: Feats
+  href: api/Camille.RiotGames.MatchV5.Feats.html
+  commentId: T:Camille.RiotGames.MatchV5.Feats
+  fullName: Camille.RiotGames.MatchV5.Feats
+  nameWithType: Feats
+- uid: Camille.RiotGames.MatchV5.Feats.#ctor
+  name: Feats()
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats__ctor
+  commentId: M:Camille.RiotGames.MatchV5.Feats.#ctor
+  fullName: Camille.RiotGames.MatchV5.Feats.Feats()
+  nameWithType: Feats.Feats()
+- uid: Camille.RiotGames.MatchV5.Feats.#ctor*
+  name: Feats
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats__ctor_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats.Feats
+  nameWithType: Feats.Feats
+- uid: Camille.RiotGames.MatchV5.Feats._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats__AdditionalProperties
+  commentId: P:Camille.RiotGames.MatchV5.Feats._AdditionalProperties
+  fullName: Camille.RiotGames.MatchV5.Feats._AdditionalProperties
+  nameWithType: Feats._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Feats._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats._AdditionalProperties
+  nameWithType: Feats._AdditionalProperties
+- uid: Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL
+  name: EPICMONSTERKILL
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_EPICMONSTERKILL
+  commentId: P:Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL
+  fullName: Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL
+  nameWithType: Feats.EPICMONSTERKILL
+- uid: Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL*
+  name: EPICMONSTERKILL
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_EPICMONSTERKILL_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats.EPICMONSTERKILL
+  nameWithType: Feats.EPICMONSTERKILL
+- uid: Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD
+  name: FIRSTBLOOD
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_FIRSTBLOOD
+  commentId: P:Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD
+  fullName: Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD
+  nameWithType: Feats.FIRSTBLOOD
+- uid: Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD*
+  name: FIRSTBLOOD
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_FIRSTBLOOD_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats.FIRSTBLOOD
+  nameWithType: Feats.FIRSTBLOOD
+- uid: Camille.RiotGames.MatchV5.Feats.FIRSTTURRET
+  name: FIRSTTURRET
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_FIRSTTURRET
+  commentId: P:Camille.RiotGames.MatchV5.Feats.FIRSTTURRET
+  fullName: Camille.RiotGames.MatchV5.Feats.FIRSTTURRET
+  nameWithType: Feats.FIRSTTURRET
+- uid: Camille.RiotGames.MatchV5.Feats.FIRSTTURRET*
+  name: FIRSTTURRET
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_FIRSTTURRET_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats.FIRSTTURRET
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats.FIRSTTURRET
+  nameWithType: Feats.FIRSTTURRET
+- uid: Camille.RiotGames.MatchV5.Feats.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_ToString
+  commentId: M:Camille.RiotGames.MatchV5.Feats.ToString
+  fullName: Camille.RiotGames.MatchV5.Feats.ToString()
+  nameWithType: Feats.ToString()
+- uid: Camille.RiotGames.MatchV5.Feats.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.MatchV5.Feats.html#Camille_RiotGames_MatchV5_Feats_ToString_
+  commentId: Overload:Camille.RiotGames.MatchV5.Feats.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Feats.ToString
+  nameWithType: Feats.ToString
 - uid: Camille.RiotGames.MatchV5.FramesTimeLine
   name: FramesTimeLine
   href: api/Camille.RiotGames.MatchV5.FramesTimeLine.html
@@ -19466,6 +19660,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.MatchV5.Team.Bans
   nameWithType: Team.Bans
+- uid: Camille.RiotGames.MatchV5.Team.Feats
+  name: Feats
+  href: api/Camille.RiotGames.MatchV5.Team.html#Camille_RiotGames_MatchV5_Team_Feats
+  commentId: P:Camille.RiotGames.MatchV5.Team.Feats
+  fullName: Camille.RiotGames.MatchV5.Team.Feats
+  nameWithType: Team.Feats
+- uid: Camille.RiotGames.MatchV5.Team.Feats*
+  name: Feats
+  href: api/Camille.RiotGames.MatchV5.Team.html#Camille_RiotGames_MatchV5_Team_Feats_
+  commentId: Overload:Camille.RiotGames.MatchV5.Team.Feats
+  isSpec: "True"
+  fullName: Camille.RiotGames.MatchV5.Team.Feats
+  nameWithType: Team.Feats
 - uid: Camille.RiotGames.MatchV5.Team.Objectives
   name: Objectives
   href: api/Camille.RiotGames.MatchV5.Team.html#Camille_RiotGames_MatchV5_Team_Objectives
