@@ -1922,6 +1922,12 @@ references:
   commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
   fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
   nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_SIMLUATION
+- uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
+  name: CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
+  commentId: F:Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
+  fullName: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
+  nameWithType: Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TOCKERS_TRIALS
 - uid: Camille.Enums.Queue.CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
   name: CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_CONVERGENCE_TEAMFIGHT_TACTICS_TUTORIAL
@@ -24053,6 +24059,38 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesAsync
   nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesAsync
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesByPUUID_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesByPUUID(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID*
+  name: GetLeagueEntriesByPUUID
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesByPUUID_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUID
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesByPUUID
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesByPUUIDAsync_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable<CancellationToken>)
+  nameWithType.vb: TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync(PlatformRoute, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync*
+  name: GetLeagueEntriesByPUUIDAsync
+  href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesByPUUIDAsync_
+  commentId: Overload:Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync
+  nameWithType: TftLeagueV1Endpoints.GetLeagueEntriesByPUUIDAsync
 - uid: Camille.RiotGames.TftLeagueV1Endpoints.GetLeagueEntriesForSummoner(PlatformRoute,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetLeagueEntriesForSummoner(PlatformRoute, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.TftLeagueV1Endpoints.html#Camille_RiotGames_TftLeagueV1Endpoints_GetLeagueEntriesForSummoner_PlatformRoute_System_String_System_Nullable_System_Threading_CancellationToken__
@@ -24796,6 +24834,32 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TftMatchV1.Participant.Puuid
   nameWithType: Participant.Puuid
+- uid: Camille.RiotGames.TftMatchV1.Participant.PveScore
+  name: PveScore
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_PveScore
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.PveScore
+  fullName: Camille.RiotGames.TftMatchV1.Participant.PveScore
+  nameWithType: Participant.PveScore
+- uid: Camille.RiotGames.TftMatchV1.Participant.PveScore*
+  name: PveScore
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_PveScore_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.PveScore
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.PveScore
+  nameWithType: Participant.PveScore
+- uid: Camille.RiotGames.TftMatchV1.Participant.PveWonrun
+  name: PveWonrun
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_PveWonrun
+  commentId: P:Camille.RiotGames.TftMatchV1.Participant.PveWonrun
+  fullName: Camille.RiotGames.TftMatchV1.Participant.PveWonrun
+  nameWithType: Participant.PveWonrun
+- uid: Camille.RiotGames.TftMatchV1.Participant.PveWonrun*
+  name: PveWonrun
+  href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_PveWonrun_
+  commentId: Overload:Camille.RiotGames.TftMatchV1.Participant.PveWonrun
+  isSpec: "True"
+  fullName: Camille.RiotGames.TftMatchV1.Participant.PveWonrun
+  nameWithType: Participant.PveWonrun
 - uid: Camille.RiotGames.TftMatchV1.Participant.RiotIdGameName
   name: RiotIdGameName
   href: api/Camille.RiotGames.TftMatchV1.Participant.html#Camille_RiotGames_TftMatchV1_Participant_RiotIdGameName
@@ -27201,19 +27265,6 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Region
   nameWithType: TournamentCodeV5.Region
-- uid: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators
-  name: Spectators
-  href: api/Camille.RiotGames.TournamentStubV5.TournamentCodeV5.html#Camille_RiotGames_TournamentStubV5_TournamentCodeV5_Spectators
-  commentId: P:Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators
-  fullName: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators
-  nameWithType: TournamentCodeV5.Spectators
-- uid: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators*
-  name: Spectators
-  href: api/Camille.RiotGames.TournamentStubV5.TournamentCodeV5.html#Camille_RiotGames_TournamentStubV5_TournamentCodeV5_Spectators_
-  commentId: Overload:Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators
-  isSpec: "True"
-  fullName: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.Spectators
-  nameWithType: TournamentCodeV5.Spectators
 - uid: Camille.RiotGames.TournamentStubV5.TournamentCodeV5.TeamSize
   name: TeamSize
   href: api/Camille.RiotGames.TournamentStubV5.TournamentCodeV5.html#Camille_RiotGames_TournamentStubV5_TournamentCodeV5_TeamSize
