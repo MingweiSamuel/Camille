@@ -120,6 +120,142 @@ Official API Reference <a href="https://developer.riotgames.com/api-methods/#acc
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_AccountV1Endpoints_GetActiveRegion_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L146">View Source</a>
+  </span>
+  <a id="Camille_RiotGames_AccountV1Endpoints_GetActiveRegion_" data-uid="Camille.RiotGames.AccountV1Endpoints.GetActiveRegion*"></a>
+  <h4 id="Camille_RiotGames_AccountV1Endpoints_GetActiveRegion_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveRegion(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get active region (lol and tft)
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveRegion">https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveRegion</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountRegion GetActiveRegion(RegionalRoute route, string game, string puuid, CancellationToken? cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RegionalRoute</span></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">puuid</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task. (optional)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Camille.RiotGames.AccountV1.AccountRegion.html">AccountRegion</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_AccountV1Endpoints_GetActiveRegionAsync_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MingweiSamuel/Camille/blob/release/3.x.x/src/Camille.RiotGames/gen/EndpointMethods.cs/#L160">View Source</a>
+  </span>
+  <a id="Camille_RiotGames_AccountV1Endpoints_GetActiveRegionAsync_" data-uid="Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync*"></a>
+  <h4 id="Camille_RiotGames_AccountV1Endpoints_GetActiveRegionAsync_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})">GetActiveRegionAsync(RegionalRoute, String, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get active region (lol and tft)
+Official API Reference: <a href="https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveRegion">https://developer.riotgames.com/api-methods/#account-v1/GET_getActiveRegion</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;AccountRegion&gt; GetActiveRegionAsync(RegionalRoute route, string game, string puuid, CancellationToken? cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RegionalRoute</span></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>Route to query. Corresponds to a Riot API subdomain for a region or platform. (required)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">game</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">puuid</span></td>
+        <td><p>(required, in path)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>A cancellation token that can be used to cancel this task. (optional)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Camille.RiotGames.AccountV1.AccountRegion.html">AccountRegion</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MingweiSamuel/Camille/new/release/3.x.x/apiSpec/new?filename=Camille_RiotGames_AccountV1Endpoints_GetActiveShard_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__.md&amp;value=---%0Auid%3A%20Camille.RiotGames.AccountV1Endpoints.GetActiveShard(RegionalRoute%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.Threading.CancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">

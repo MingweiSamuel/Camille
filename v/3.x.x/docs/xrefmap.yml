@@ -6092,6 +6092,90 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.AccountV1.Account.ToString
   nameWithType: Account.ToString
+- uid: Camille.RiotGames.AccountV1.AccountRegion
+  name: AccountRegion
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html
+  commentId: T:Camille.RiotGames.AccountV1.AccountRegion
+  fullName: Camille.RiotGames.AccountV1.AccountRegion
+  nameWithType: AccountRegion
+- uid: Camille.RiotGames.AccountV1.AccountRegion.#ctor
+  name: AccountRegion()
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion__ctor
+  commentId: M:Camille.RiotGames.AccountV1.AccountRegion.#ctor
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.AccountRegion()
+  nameWithType: AccountRegion.AccountRegion()
+- uid: Camille.RiotGames.AccountV1.AccountRegion.#ctor*
+  name: AccountRegion
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion__ctor_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion.#ctor
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.AccountRegion
+  nameWithType: AccountRegion.AccountRegion
+- uid: Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion__AdditionalProperties
+  commentId: P:Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties
+  fullName: Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties
+  nameWithType: AccountRegion._AdditionalProperties
+- uid: Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties*
+  name: _AdditionalProperties
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion__AdditionalProperties_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion._AdditionalProperties
+  nameWithType: AccountRegion._AdditionalProperties
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Game
+  name: Game
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Game
+  commentId: P:Camille.RiotGames.AccountV1.AccountRegion.Game
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Game
+  nameWithType: AccountRegion.Game
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Game*
+  name: Game
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Game_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion.Game
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Game
+  nameWithType: AccountRegion.Game
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Puuid
+  name: Puuid
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Puuid
+  commentId: P:Camille.RiotGames.AccountV1.AccountRegion.Puuid
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Puuid
+  nameWithType: AccountRegion.Puuid
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Puuid*
+  name: Puuid
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Puuid_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion.Puuid
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Puuid
+  nameWithType: AccountRegion.Puuid
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Region
+  name: Region
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Region
+  commentId: P:Camille.RiotGames.AccountV1.AccountRegion.Region
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Region
+  nameWithType: AccountRegion.Region
+- uid: Camille.RiotGames.AccountV1.AccountRegion.Region*
+  name: Region
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_Region_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion.Region
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.Region
+  nameWithType: AccountRegion.Region
+- uid: Camille.RiotGames.AccountV1.AccountRegion.ToString
+  name: ToString()
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_ToString
+  commentId: M:Camille.RiotGames.AccountV1.AccountRegion.ToString
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.ToString()
+  nameWithType: AccountRegion.ToString()
+- uid: Camille.RiotGames.AccountV1.AccountRegion.ToString*
+  name: ToString
+  href: api/Camille.RiotGames.AccountV1.AccountRegion.html#Camille_RiotGames_AccountV1_AccountRegion_ToString_
+  commentId: Overload:Camille.RiotGames.AccountV1.AccountRegion.ToString
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1.AccountRegion.ToString
+  nameWithType: AccountRegion.ToString
 - uid: Camille.RiotGames.AccountV1.ActiveShard
   name: ActiveShard
   href: api/Camille.RiotGames.AccountV1.ActiveShard.html
@@ -6182,6 +6266,38 @@ references:
   commentId: T:Camille.RiotGames.AccountV1Endpoints
   fullName: Camille.RiotGames.AccountV1Endpoints
   nameWithType: AccountV1Endpoints
+- uid: Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveRegion(RegionalRoute, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.AccountV1Endpoints.html#Camille_RiotGames_AccountV1Endpoints_GetActiveRegion_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveRegion(RegionalRoute, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.AccountV1Endpoints.GetActiveRegion(RegionalRoute, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveRegion(RegionalRoute, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveRegion(RegionalRoute, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.AccountV1Endpoints.GetActiveRegion*
+  name: GetActiveRegion
+  href: api/Camille.RiotGames.AccountV1Endpoints.html#Camille_RiotGames_AccountV1Endpoints_GetActiveRegion_
+  commentId: Overload:Camille.RiotGames.AccountV1Endpoints.GetActiveRegion
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1Endpoints.GetActiveRegion
+  nameWithType: AccountV1Endpoints.GetActiveRegion
+- uid: Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: GetActiveRegionAsync(RegionalRoute, String, String, Nullable<CancellationToken>)
+  href: api/Camille.RiotGames.AccountV1Endpoints.html#Camille_RiotGames_AccountV1Endpoints_GetActiveRegionAsync_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: GetActiveRegionAsync(RegionalRoute, String, String, Nullable(Of CancellationToken))
+  fullName: Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute, System.String, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute, System.String, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute, String, String, Nullable<CancellationToken>)
+  nameWithType.vb: AccountV1Endpoints.GetActiveRegionAsync(RegionalRoute, String, String, Nullable(Of CancellationToken))
+- uid: Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync*
+  name: GetActiveRegionAsync
+  href: api/Camille.RiotGames.AccountV1Endpoints.html#Camille_RiotGames_AccountV1Endpoints_GetActiveRegionAsync_
+  commentId: Overload:Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync
+  isSpec: "True"
+  fullName: Camille.RiotGames.AccountV1Endpoints.GetActiveRegionAsync
+  nameWithType: AccountV1Endpoints.GetActiveRegionAsync
 - uid: Camille.RiotGames.AccountV1Endpoints.GetActiveShard(RegionalRoute,System.String,System.String,System.Nullable{System.Threading.CancellationToken})
   name: GetActiveShard(RegionalRoute, String, String, Nullable<CancellationToken>)
   href: api/Camille.RiotGames.AccountV1Endpoints.html#Camille_RiotGames_AccountV1Endpoints_GetActiveShard_RegionalRoute_System_String_System_String_System_Nullable_System_Threading_CancellationToken__
