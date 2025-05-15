@@ -1250,6 +1250,12 @@ references:
   commentId: F:Camille.Enums.GameMode.ASSASSINATE
   fullName: Camille.Enums.GameMode.ASSASSINATE
   nameWithType: GameMode.ASSASSINATE
+- uid: Camille.Enums.GameMode.BRAWL
+  name: BRAWL
+  href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_BRAWL
+  commentId: F:Camille.Enums.GameMode.BRAWL
+  fullName: Camille.Enums.GameMode.BRAWL
+  nameWithType: GameMode.BRAWL
 - uid: Camille.Enums.GameMode.CHERRY
   name: CHERRY
   href: api/Camille.Enums.GameMode.html#Camille_Enums_GameMode_CHERRY
@@ -1694,6 +1700,12 @@ references:
   commentId: F:Camille.Enums.Map.SWARM
   fullName: Camille.Enums.Map.SWARM
   nameWithType: Map.SWARM
+- uid: Camille.Enums.Map.THE_BANDLEWOOD
+  name: THE_BANDLEWOOD
+  href: api/Camille.Enums.Map.html#Camille_Enums_Map_THE_BANDLEWOOD
+  commentId: F:Camille.Enums.Map.THE_BANDLEWOOD
+  fullName: Camille.Enums.Map.THE_BANDLEWOOD
+  nameWithType: Map.THE_BANDLEWOOD
 - uid: Camille.Enums.Map.THE_CRYSTAL_SCAR
   name: THE_CRYSTAL_SCAR
   href: api/Camille.Enums.Map.html#Camille_Enums_Map_THE_CRYSTAL_SCAR
@@ -2402,6 +2414,12 @@ references:
   commentId: F:Camille.Enums.Queue.SWARM_TRIO_STRAWBERRY_GAMES
   fullName: Camille.Enums.Queue.SWARM_TRIO_STRAWBERRY_GAMES
   nameWithType: Queue.SWARM_TRIO_STRAWBERRY_GAMES
+- uid: Camille.Enums.Queue.THE_BANDLEWOOD
+  name: THE_BANDLEWOOD
+  href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_THE_BANDLEWOOD
+  commentId: F:Camille.Enums.Queue.THE_BANDLEWOOD
+  fullName: Camille.Enums.Queue.THE_BANDLEWOOD
+  nameWithType: Queue.THE_BANDLEWOOD
 - uid: Camille.Enums.Queue.TWISTED_TREELINE_3V3_BLIND_PICK
   name: TWISTED_TREELINE_3V3_BLIND_PICK
   href: api/Camille.Enums.Queue.html#Camille_Enums_Queue_TWISTED_TREELINE_3V3_BLIND_PICK
