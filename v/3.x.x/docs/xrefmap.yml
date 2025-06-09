@@ -28496,6 +28496,19 @@ references:
   isSpec: "True"
   fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.ShortCode
   nameWithType: TournamentGamesV5.ShortCode
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime
+  name: StartTime
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_StartTime
+  commentId: P:Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime
+  nameWithType: TournamentGamesV5.StartTime
+- uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime*
+  name: StartTime
+  href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_StartTime_
+  commentId: Overload:Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime
+  isSpec: "True"
+  fullName: Camille.RiotGames.TournamentV5.TournamentGamesV5.StartTime
+  nameWithType: TournamentGamesV5.StartTime
 - uid: Camille.RiotGames.TournamentV5.TournamentGamesV5.ToString
   name: ToString()
   href: api/Camille.RiotGames.TournamentV5.TournamentGamesV5.html#Camille_RiotGames_TournamentV5_TournamentGamesV5_ToString
