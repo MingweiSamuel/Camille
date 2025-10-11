@@ -2,7 +2,7 @@
     const champions = require(it.path + '/.champion.json')
         .filter(({ id }) => id > 0)
         /* Ignore strawberry champions for now */
-        .filter(({ alias }) => !alias.startsWith('Strawberry_'))
+        .filter(({ alias }) => !alias.startsWith('Strawberry_') && !alias.startsWith('Ruby_'))
         .sortBy(({ name }) => name);
     const enumName = function(name) { return name.toUpperCase().replace(/[^A-Z]+/, ''); };
 }}
