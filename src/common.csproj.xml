@@ -46,7 +46,6 @@
     </AssemblyAttribute>
   </ItemGroup>
 
-
   <!-- Include project information files for packaging. -->
   <ItemGroup>
     <!-- Icon png for PackageIcon. -->
@@ -83,13 +82,20 @@
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
   </ItemGroup>
 
-
   <!-- Empty target to use with BeforeTargets to download files. -->
   <Target Name="DownloadTemplateDataTrigger"></Target>
 
   <!-- On Windows DispatchToInnerBuilds is run due to multiple TargetFrameworks. -->
   <Target Name="BuildTemplates" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="DownloadTemplateDataTrigger">
-    <Exec WorkingDirectory="$(SolutionDir)/srcgen" Command="pwsh -ExecutionPolicy Bypass -File install.ps1" />
-    <Exec WorkingDirectory="$(SolutionDir)" Command="node srcgen/index.js &quot;$(MSBuildProjectDirectory)&quot;" />
+    <PropertyGroup>
+      <PowerShellCommand Condition="'$(OS)' == 'Windows_NT'">powershell</PowerShellCommand>
+      <NpmInstallScript Condition="'$(OS)' == 'Windows_NT'">$(SolutionDir)srcgen\install.ps1</NpmInstallScript>
+      <NodeSrcGenScript Condition="'$(OS)' == 'Windows_NT'">$(SolutionDir)srcgen\index.js</NodeSrcGenScript>
+      <PowerShellCommand Condition="'$(OS)' == 'Unix'">pwsh</PowerShellCommand>
+      <NpmInstallScript Condition="'$(OS)' == 'Unix'">$(SolutionDir)srcgen/install.ps1</NpmInstallScript>
+      <NodeSrcGenScript Condition="'$(OS)' == 'Unix'">$(SolutionDir)srcgen/index.js</NodeSrcGenScript>
+    </PropertyGroup>
+    <Exec Command="$(PowerShellCommand) -ExecutionPolicy Unrestricted -NoProfile -File &quot;$(NpmInstallScript)&quot;" />
+    <Exec Command="node &quot;$(NodeSrcGenScript)&quot; &quot;$(MSBuildProjectDirectory)&quot;" />
   </Target>
 </Project>
