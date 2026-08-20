@@ -1,3 +1,4 @@
+using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -13,8 +14,16 @@ namespace Camille.Enums
     {
         public override QueueType Read(ref Utf8JsonReader reader, System.Type typeToConvert, JsonSerializerOptions options)
         {
-            var value = reader.GetString();
-            return value != null && System.Enum.TryParse<QueueType>(value, out var queueType) ? queueType : QueueType.UNKNOWN;
+            if (reader.TokenType != JsonTokenType.String)
+            {
+                return QueueType.UNKNOWN;
+            }
+
+            var value = reader.GetString()!;
+            var isParsed = Enum.TryParse<QueueType>(value, ignoreCase: true, out var queueType) 
+                        && Enum.IsDefined(typeof(QueueType), queueType);
+
+            return isParsed ? queueType : QueueType.UNKNOWN;
         }
 
         public override void Write(Utf8JsonWriter writer, QueueType value, JsonSerializerOptions options)

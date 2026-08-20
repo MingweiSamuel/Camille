@@ -22,6 +22,27 @@ namespace Camille.RiotGames.Test
         }
 
         [TestMethod]
+        public void KnownValue_DifferentCase_Deserializes()
+        {
+            var result = JsonSerializer.Deserialize<QueueType>("\"ranked_solo_5x5\"");
+            Assert.AreEqual(QueueType.RANKED_SOLO_5x5, result);
+        }
+
+        [TestMethod]
+        public void NumericString_FallsBackToUnknown()
+        {
+            var result = JsonSerializer.Deserialize<QueueType>("\"123\"");
+            Assert.AreEqual(QueueType.UNKNOWN, result);
+        }
+
+        [TestMethod]
+        public void NonStringToken_FallsBackToUnknown()
+        {
+            var result = JsonSerializer.Deserialize<QueueType>("123");
+            Assert.AreEqual(QueueType.UNKNOWN, result);
+        }
+
+        [TestMethod]
         public void UnrecognizedValue_DoesNotThrow_InArray()
         {
             var result = JsonSerializer.Deserialize<QueueType[]>(
