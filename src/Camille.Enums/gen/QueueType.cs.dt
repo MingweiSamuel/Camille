@@ -10,7 +10,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Camille.Enums
 {
-    [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter))]
+    [System.Text.Json.Serialization.JsonConverter(typeof(QueueTypeConverter))]
     /// <summary>
     /// QueueType enum based on queueTypes.json.
     /// </summary>
@@ -28,5 +28,11 @@ namespace Camille.Enums
 {{
     }
 }}
+        /// <summary>
+        /// Fallback for a queueType string returned by the API that isn't in this enum yet
+        /// (e.g. a newly added or revived ranked queue not reflected in queueTypes.json).
+        /// See <see cref="QueueTypeConverter"/>.
+        /// </summary>
+        UNKNOWN = -1,
     }
 }
